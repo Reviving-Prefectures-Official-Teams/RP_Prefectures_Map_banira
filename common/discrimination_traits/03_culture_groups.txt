@@ -1,0 +1,7 @@
+﻿hichiku = {}
+satsugu = {}
+honichi = {}
+okinawa_group = {}
+amami_group = {}
+yaeyama_group = {}
+japanese_and_ryukyuan = { }

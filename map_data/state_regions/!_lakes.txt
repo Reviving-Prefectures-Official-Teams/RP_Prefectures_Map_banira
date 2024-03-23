@@ -1,0 +1,12 @@
+﻿STATE_KASUMIGAURA = {
+    id = 3100
+    provinces = { "x0B4336" "x2C211F" "x4B1510" }
+}
+STATE_BIWAKO = {
+    id = 3101
+    provinces = { "x071A46" "x261D50" }
+}
+STATE_HAMANAKO = {
+    id = 3102
+    provinces = { "x4D2004" }
+}

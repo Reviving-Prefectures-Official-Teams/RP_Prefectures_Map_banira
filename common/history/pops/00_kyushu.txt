@@ -1,0 +1,646 @@
+﻿POPS = {
+	#福岡
+	s:STATE_KITAKYUSHU = {
+		region_state:FKO = {
+			create_pop = {
+				culture = kokura
+				size = 2000000
+			}
+			create_pop = {
+				culture = fukuoka
+				size = 2000000
+			}
+		}
+	}
+
+	s:STATE_MINAMICHIKUGO = {
+		region_state:FKO = {
+			create_pop = {
+				culture = kurume
+				size = 2000000
+			}
+			create_pop = {
+				culture = fukuoka
+				size = 500000
+			}
+		}
+	}
+
+	s:STATE_KEICHIKU = {
+		region_state:FKO = {
+			create_pop = {
+				culture = kokura
+				size = 2000000
+			}
+			create_pop = {
+				culture = fukuoka
+				size = 500000
+			}
+		}
+	}
+
+	s:STATE_FUKUOKA = {
+		region_state:FKO = {
+			create_pop = {
+				culture = fukuoka
+				size = 3000000
+			}
+		}
+	}
+
+	s:STATE_CHIKUHOU = {
+		region_state:FKO = {
+			create_pop = {
+				culture = fukuoka
+				size = 1000000
+			}
+			create_pop = {
+				culture = kurume
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_KITACHIKUGO = {
+		region_state:FKO = {
+			create_pop = {
+				culture = kurume
+				size = 1000000
+			}
+			create_pop = {
+				culture = fukuoka
+				size = 1000000
+			}
+		}
+	}
+	#大分
+
+	s:STATE_OHITA = {
+		region_state:OIT = {
+			create_pop = {
+				culture = oita
+				size = 1000000
+			}
+			create_pop = {
+				culture = saiki
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_BUZEN = {
+		region_state:OIT = {
+			create_pop = {
+				culture = oita
+				size = 1000000
+			}
+			create_pop = {
+				culture = kurume
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_KUSU = {
+		region_state:OIT = {
+			create_pop = {
+				culture = oita
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_HOUHI = {
+		region_state:OIT = {
+			create_pop = {
+				culture = hita
+				size = 100000
+			}
+			create_pop = {
+				culture = aso
+				size = 100000
+			}
+			create_pop = {
+				culture = oita
+				size = 100000
+			}
+		}
+	}
+
+	s:STATE_HITA = {
+		region_state:OIT = {
+			create_pop = {
+				culture = hita
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_KUNISAKI = {
+		region_state:OIT = {
+			create_pop = {
+				culture = oita
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_SAIKI = {
+		region_state:OIT = {
+			create_pop = {
+				culture = saiki
+				size = 1000000
+			}
+			create_pop = {
+				culture = oita
+				size = 1000000
+			}
+			create_pop = {
+				culture = hyuga
+				size = 1000000
+			}
+		}
+	}
+	#佐賀
+
+	s:STATE_SAGA = {
+		region_state:SAG = {
+			create_pop = {
+				culture = saga
+				size = 1400000
+			}
+			create_pop = {
+				culture = tosu
+				size = 100000
+			}
+		}
+	}
+
+	s:STATE_TOSU = {
+		region_state:SAG = {
+			create_pop = {
+				culture = tosu
+				size = 900000
+			}
+			create_pop = {
+				culture = saga
+				size = 100000
+			}
+		}
+	}
+
+	s:STATE_URESHINO = {
+		region_state:SAG = {
+			create_pop = {
+				culture = kashima
+				size = 1000000
+			}
+			create_pop = {
+				culture = saga
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_KARATSU = {
+		region_state:SAG = {
+			create_pop = {
+				culture = karatsu
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_IMARI = {
+		region_state:SAG = {
+			create_pop = {
+				culture = imari
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_KASHIMA = {
+		region_state:SAG = {
+			create_pop = {
+				culture = kashima
+				size = 1000000
+			}
+		}
+	}
+	#熊本
+
+	s:STATE_KUMAMOTO = {
+		region_state:KUM = {
+			create_pop = {
+				culture = kumamoto
+				size = 1000000
+			}
+			create_pop = {
+				culture = aso
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_ARAO = {
+		region_state:KUM = {
+			create_pop = {
+				culture = kumamoto
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_YAMAGAKIKUCHI = {
+		region_state:KUM = {
+			create_pop = {
+				culture = kumamoto
+				size = 1000000
+			}
+			create_pop = {
+				culture = aso
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_ASO = {
+		region_state:KUM = {
+			create_pop = {
+				culture = aso
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_KAMIMASHIKI = {
+		region_state:KUM = {
+			create_pop = {
+				culture = kumamoto
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_UKIYATSUSHIRO = {
+		region_state:KUM = {
+			create_pop = {
+				culture = minamata
+				size = 1000000
+			}
+			create_pop = {
+				culture = kumamoto
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_KUMA = {
+		region_state:KUM = {
+			create_pop = {
+				culture = kumamoto
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_ASHIKITA = {
+		region_state:KUM = {
+			create_pop = {
+				culture = minamata
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_AMAKUSA = {
+		region_state:KUM = {
+			create_pop = {
+				culture = amakusa
+				size = 1000000
+			}
+		}
+	}
+	#長崎
+
+	s:STATE_NAGASAKI = {
+		region_state:NGS = {
+			create_pop = {
+				culture = nagasaki
+				size = 2000000
+			}
+			create_pop = {
+				culture = amakusa
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_OHMURA = {
+		region_state:NGS = {
+			create_pop = {
+				culture = sasebo
+				size = 1000000
+			}
+			create_pop = {
+				culture = nagasaki
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_SASEBO = {
+		region_state:NGS = {
+			create_pop = {
+				culture = sasebo
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_SHIMABARA = {
+		region_state:NGS = {
+			create_pop = {
+				culture = nagasaki
+				size = 1000000
+			}
+			create_pop = {
+				culture = amakusa
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_IKI_SHOTOH = {
+		region_state:NGS = {
+			create_pop = {
+				culture = nagasaki
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_TSUSHIMA_SHOTOH = {
+		region_state:TSM = {
+			create_pop = {
+				culture = tsushima
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_GOTO_RETTOH = {
+		region_state:NGS = {
+			create_pop = {
+				culture = gotos
+				size = 1000000
+			}
+		}
+	}
+	#宮崎
+
+	s:STATE_MIYAZAKI = {
+		region_state:MYZ = {
+			create_pop = {
+				culture = miyazaki
+				size = 2000000
+			}
+			create_pop = {
+				culture = hyuga
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_MIYAKONOJOH = {
+		region_state:MYZ = {
+			create_pop = {
+				culture = miyakonojo
+				size = 2000000
+			}
+			create_pop = {
+				culture = miyazaki
+				size = 500000
+			}
+		}
+	}
+
+	s:STATE_NICHINAN = {
+		region_state:MYZ = {
+			create_pop = {
+				culture = hyuga
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_NISHIMORO = {
+		region_state:MYZ = {
+			create_pop = {
+				culture = hyuga
+				size = 500000
+			}
+			create_pop = {
+				culture = miyakonojo
+				size = 500000
+			}
+		}
+	}
+
+	s:STATE_KOYU = {
+		region_state:MYZ = {
+			create_pop = {
+				culture = miyazaki
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_HIGASHIUSUKI = {
+		region_state:MYZ = {
+			create_pop = {
+				culture = miyazaki
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_NISHIUSUKI = {
+		region_state:MYZ = {
+			create_pop = {
+				culture = miyazaki
+				size = 1000000
+			}
+			create_pop = {
+				culture = fukuoka
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_NOBEOKA = {
+		region_state:MYZ = {
+			create_pop = {
+				culture = miyazaki
+				size = 1000000
+			}
+			create_pop = {
+				culture = saiki
+				size = 1000000
+			}
+		}
+	}
+	#鹿児島
+
+	s:STATE_KITASATSUMA = {
+		region_state:KGS = {
+			create_pop = {
+				culture = satsuma
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_MINAMISATSUMA = {
+		region_state:KGS = {
+			create_pop = {
+				culture = satsuma
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_KAGOSHIMA = {
+		region_state:KGS = {
+			create_pop = {
+				culture = satsuma
+				size = 2000000
+			}
+			create_pop = {
+				culture = osumi
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_KIRISHIMA = {
+		region_state:KGS = {
+			create_pop = {
+				culture = satsuma
+				size = 1000000
+			}
+			create_pop = {
+				culture = osumi
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_OHSUMI = {
+		region_state:KGS = {
+			create_pop = {
+				culture = osumi
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_OHSUMI_SHOTOH = {
+		region_state:KGS = {
+			create_pop = {
+				culture = osumi
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_AMAMI_GUNTOH = {
+		region_state:AMA = {
+			create_pop = {
+				culture = amami
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_TOKARA_RETTOH = {
+		region_state:TKR = {
+			create_pop = {
+				culture = tokara
+				size = 1000000
+			}
+		}
+	}
+
+	#沖縄
+
+	s:STATE_DAITOH_SHOTOH = {
+		region_state:DAT = {
+			create_pop = {
+				culture = daito
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_HOKUZAN = {
+		region_state:OKI = {
+			create_pop = {
+				culture = yambaru
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_CHUZAN = {
+		region_state:OKI = {
+			create_pop = {
+				culture = okinawa
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_NANZAN = {
+		region_state:OKI = {
+			create_pop = {
+				culture = okinawa
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_KUME_SHOTOH = {
+		region_state:OKI = {
+			create_pop = {
+				culture = okinawa
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_SENTAN_SHOTOH = {
+		region_state:YAE = {
+			create_pop = {
+				culture = yaeyama
+				size = 1000000
+			}
+			create_pop = {
+				culture = miyako
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_SENKAKU_SHOTOH = {
+		region_state:OKI = {
+			create_pop = {
+				culture = yaeyama
+				size = 100000
+			}
+		}
+	}
+	
+}
+

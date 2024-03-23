@@ -1,0 +1,48 @@
+﻿# =======東北
+FKS = {
+	color = {255 192 203}
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_FUKUSHIMA
+}
+
+MYG = {
+	color = {1 92 23}
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_SENDAI
+}
+
+YMG = {
+	color = {}
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_MURAYAMA
+}
+
+IWT = {
+	color = {}
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_MORIOKA
+}
+
+AKT = {
+	color = {}
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_AKITA
+}
+
+AOM = {
+	color = {}
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_AOMORI
+}

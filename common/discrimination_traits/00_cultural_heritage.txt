@@ -1,0 +1,8 @@
+﻿seikaido = {
+	heritage = yes
+}
+
+ryukyu = {
+	heritage = yes
+}
+
