@@ -664,6 +664,7 @@ miyazaki = {
 		Minami
 		Muto
 		Nakamuta
+		Nagato
 		Nire
 		Nogi
 		Nozu

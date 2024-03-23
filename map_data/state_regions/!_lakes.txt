@@ -1,4 +1,5 @@
-﻿STATE_KASUMIGAURA = {
+﻿#3100-3200番 を湖沼に割り当てる
+STATE_KASUMIGAURA = {
     id = 3100
     provinces = { "x0B4336" "x2C211F" "x4B1510" }
 }

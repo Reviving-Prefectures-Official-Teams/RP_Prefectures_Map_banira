@@ -1,4 +1,5 @@
-﻿STATE_BORDER_00 = {
+﻿#4000番のみ
+STATE_BORDER_00 = {
     id = 4000
     provinces = { "x6CD1C5" "xA77221" "xD8BC65" }
 }
