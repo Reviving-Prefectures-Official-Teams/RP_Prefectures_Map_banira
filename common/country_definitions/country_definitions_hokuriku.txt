@@ -1,0 +1,32 @@
+﻿# 新潟県
+NIG = {
+	color = {}
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_NIIGATA
+}
+# 石川県
+ISK = {
+	color = {}
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_KANAZAWA
+}
+# 富山県
+TOY = {
+	color = {}
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_TOYAMA
+}
+# 福井県
+FKI = {
+	color = {}
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_FUKUI
+}

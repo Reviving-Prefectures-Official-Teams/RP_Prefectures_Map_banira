@@ -1,0 +1,56 @@
+﻿# 福島県
+FKS = {
+	color = {255 192 203}
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_FUKUSHIMA
+}
+# 宮城県
+MYG = {
+	color = {1 92 23}
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_SENDAI
+}
+# 山形県
+YMG = {
+	color = {}
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_MURAYAMA
+}
+# 岩手県
+IWT = {
+	color = {}
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_MORIOKA
+}
+# 秋田県
+AKT = {
+	color = {}
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_AKITA
+}
+# 青森県
+AOM = {
+	color = {}
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_AOMORI
+}
+# 北海道
+HOK = {
+	color = {}
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	# capital = STATE_SAPPORO
+}

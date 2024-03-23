@@ -1,48 +1,56 @@
-﻿# =======東北
-FKS = {
-	color = {255 192 203}
-	country_type = recognized
-	tier = kingdom
-	cultures = { japanese }
-	capital = STATE_FUKUSHIMA
-}
-
-MYG = {
-	color = {1 92 23}
-	country_type = recognized
-	tier = kingdom
-	cultures = { japanese }
-	capital = STATE_SENDAI
-}
-
-YMG = {
+﻿# 群馬県
+GNM = {
 	color = {}
 	country_type = recognized
 	tier = kingdom
 	cultures = { japanese }
-	capital = STATE_MURAYAMA
+	capital = STATE_MAEBASHI
 }
-
-IWT = {
+# 栃木県
+TCH = {
 	color = {}
 	country_type = recognized
 	tier = kingdom
 	cultures = { japanese }
-	capital = STATE_MORIOKA
+	capital = STATE_UTSUNOMIYA
 }
-
-AKT = {
+# 茨城県
+IBR = {
 	color = {}
 	country_type = recognized
 	tier = kingdom
 	cultures = { japanese }
-	capital = STATE_AKITA
+	capital = STATE_MITO
 }
-
-AOM = {
+# 千葉県
+CHB = {
 	color = {}
 	country_type = recognized
 	tier = kingdom
 	cultures = { japanese }
-	capital = STATE_AOMORI
+	capital = STATE_CHIBA
+}
+# 埼玉県
+SIT = {
+	color = {}
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_SAITAMA
+}
+# 東京都
+TKY = {
+	color = {}
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_CENTER_TOKYO
+}
+# 神奈川県
+KNG = {
+	color = {}
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_YOKOHAMA
 }

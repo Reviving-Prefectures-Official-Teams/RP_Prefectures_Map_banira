@@ -1,0 +1,24 @@
+﻿# 三重県
+MIE = {
+	color = {}
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_TSU
+}
+# 和歌山県
+WAK = {
+	color = {}
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_WAKAYAMA
+}
+# 奈良県
+NAR = {
+	color = {}
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_NARA
+}
