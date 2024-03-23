@@ -293,6 +293,11 @@
 				culture = kumamoto
 				size = 1000000
 			}
+			create_pop = {
+				culture = kumamoto
+				religion = hidden_christian 
+				size = 100000
+			}
 		}
 	}
 
@@ -318,6 +323,7 @@
 		region_state:KUM = {
 			create_pop = {
 				culture = amakusa
+				religion = hidden_christian 
 				size = 1000000
 			}
 		}
@@ -329,6 +335,11 @@
 			create_pop = {
 				culture = nagasaki
 				size = 2000000
+			}
+			create_pop = {
+				culture = amakusa
+				religion = hidden_christian 
+				size = 500000
 			}
 			create_pop = {
 				culture = amakusa
@@ -363,11 +374,16 @@
 		region_state:NGS = {
 			create_pop = {
 				culture = nagasaki
-				size = 1000000
+				size = 500000
 			}
 			create_pop = {
 				culture = amakusa
 				size = 1000000
+			}
+			create_pop = {
+				culture = amakusa
+				religion = hidden_christian 
+				size = 2000000
 			}
 		}
 	}
@@ -377,6 +393,11 @@
 			create_pop = {
 				culture = nagasaki
 				size = 1000000
+			}
+			create_pop = {
+				culture = nagasaki
+				religion = hidden_christian
+				size = 100000
 			}
 		}
 	}

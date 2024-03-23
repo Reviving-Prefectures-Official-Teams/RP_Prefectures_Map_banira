@@ -24,7 +24,7 @@ TOY = {
 }
 # 福井県
 FKI = {
-	color = {}
+	color = { 30 144 255 }
 	country_type = recognized
 	tier = kingdom
 	cultures = { japanese }

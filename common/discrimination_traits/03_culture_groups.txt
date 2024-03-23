@@ -20,3 +20,12 @@ unpaku = {}
 west_chugoku = {}
 east_sanin = {}
 east_sanyo = {}
+
+#関西
+tanba_group = {}
+settsu = {}
+kinai = {}
+kii = {}
+ohmi = {}
+ryonan = {}
+mie = {}
