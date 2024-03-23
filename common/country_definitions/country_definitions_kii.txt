@@ -1,24 +1,24 @@
 ﻿# 三重県
 MIE = {
-	color = {}
+	color = { 244 164 96 }
 	country_type = recognized
 	tier = kingdom
-	cultures = { japanese }
+	cultures = { suzuka }
 	capital = STATE_TSU
 }
 # 和歌山県
 WAK = {
-	color = {}
+	color = { 210 180 140 }
 	country_type = recognized
 	tier = kingdom
-	cultures = { japanese }
+	cultures = { wakayama }
 	capital = STATE_WAKAYAMA
 }
 # 奈良県
 NAR = {
-	color = {}
+	color = { 30 144 255 }
 	country_type = recognized
 	tier = kingdom
-	cultures = { japanese }
+	cultures = { yamato_culture }
 	capital = STATE_NARA
 }

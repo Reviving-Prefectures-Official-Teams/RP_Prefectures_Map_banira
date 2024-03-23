@@ -1,7 +1,7 @@
 ﻿#阿蘇
 aso = {
 	color = rgb{ 50 50 20 }
-	religion = shinto
+	religion = shinbutsu_shugo
 	traits = { hichiku seikaido japanese_and_ryukyuan }
 	male_common_first_names={
 		Aritomo
@@ -177,7 +177,7 @@ aso = {
 #屋久島
 yakushima = {
 	color = rgb{ 30 15 20 }
-	religion = shinto
+	religion = shinbutsu_shugo
 	traits = { satsugu seikaido japanese_and_ryukyuan }
 	male_common_first_names={
 		Aritomo
@@ -353,7 +353,7 @@ yakushima = {
 #久留米
 kurume = {
 	color = rgb{ 30 15 40 }
-	religion = shinto
+	religion = shinbutsu_shugo
 	traits = { satsugu seikaido japanese_and_ryukyuan }
 	male_common_first_names={
 		Aritomo
@@ -530,7 +530,7 @@ kurume = {
 #宮崎
 miyazaki = {
 	color = rgb{ 30 15 90 }
-	religion = shinto
+	religion = shinbutsu_shugo
 	traits = { honichi seikaido japanese_and_ryukyuan }
 	male_common_first_names={
 		Aritomo
@@ -706,7 +706,7 @@ miyazaki = {
 #熊本
 kumamoto = {
 	color = rgb{ 30 50 75 }
-	religion = shinto
+	religion = shinbutsu_shugo
 	traits = { hichiku seikaido japanese_and_ryukyuan }
 	male_common_first_names={
 		Aritomo
@@ -882,7 +882,7 @@ kumamoto = {
 #佐世保
 sasebo = {
 	color = rgb{ 30 50 40 }
-	religion = shinto
+	religion = shinbutsu_shugo
 	traits = { hichiku seikaido japanese_and_ryukyuan }
 	male_common_first_names={
 		Aritomo
@@ -1058,7 +1058,7 @@ sasebo = {
 #佐伯
 saiki = {
 	color = rgb{ 120 60 90 }
-	religion = shinto
+	religion = shinbutsu_shugo
 	traits = { honichi seikaido japanese_and_ryukyuan }
 	male_common_first_names={
 		Aritomo
@@ -1234,7 +1234,7 @@ saiki = {
 #薩摩
 satsuma = {
 	color = rgb{ 30 50 20 }
-	religion = shinto
+	religion = shinbutsu_shugo
 	traits = { satsugu seikaido japanese_and_ryukyuan }
 	male_common_first_names={
 		Aritomo
@@ -1410,7 +1410,7 @@ satsuma = {
 #小倉
 kokura = {
 	color = rgb{ 100 50 40 }
-	religion = shinto
+	religion = shinbutsu_shugo
 	traits = { hichiku seikaido japanese_and_ryukyuan }
 	male_common_first_names={
 		Aritomo
@@ -1586,7 +1586,7 @@ kokura = {
 #水俣
 minamata = {
 	color = rgb{ 30 200 90 }
-	religion = shinto
+	religion = shinbutsu_shugo
 	traits = { hichiku seikaido japanese_and_ryukyuan }
 	male_common_first_names={
 		Aritomo
@@ -1762,7 +1762,7 @@ minamata = {
 #対馬
 tsushima = {
 	color = rgb{ 150 50 90 }
-	religion = shinto
+	religion = tendo
 	traits = { hichiku seikaido japanese_and_ryukyuan }
 	male_common_first_names={
 		Aritomo
@@ -1938,7 +1938,7 @@ tsushima = {
 #大隅
 osumi = {
 	color = rgb{ 0 50 90 }
-	religion = shinto
+	religion = shinbutsu_shugo
 	traits = { satsugu seikaido japanese_and_ryukyuan }
 	male_common_first_names={
 		Aritomo
@@ -2113,8 +2113,8 @@ osumi = {
 }
 #大分
 oita = {
-	color = rgb{ 30 0 90 }
-	religion = shinto
+	color = rgb{58  152  163}
+	religion = shinbutsu_shugo
 	traits = { honichi seikaido japanese_and_ryukyuan }
 	male_common_first_names={
 		Aritomo
@@ -2290,7 +2290,7 @@ oita = {
 #長崎
 nagasaki = {
 	color = rgb{ 30 140 150 }
-	religion = shinto
+	religion = shinbutsu_shugo
 	traits = { hichiku seikaido japanese_and_ryukyuan }
 	male_common_first_names={
 		Aritomo
@@ -2466,7 +2466,7 @@ nagasaki = {
 #天草
 amakusa = {
 	color = rgb{ 100 100 90 }
-	religion = shinto
+	religion = shinbutsu_shugo
 	traits = { hichiku seikaido japanese_and_ryukyuan }
 	male_common_first_names={
 		Aritomo
@@ -2642,7 +2642,7 @@ amakusa = {
 #吐噶喇
 tokara = {
 	color = rgb{ 100 100 200 }
-	religion = shinto
+	religion = shinbutsu_shugo
 	traits = { satsugu seikaido japanese_and_ryukyuan }
 	male_common_first_names={
 		Aritomo
@@ -2818,7 +2818,7 @@ tokara = {
 #都城
 miyakonojo = {
 	color = rgb{ 90 50 90 }
-	religion = shinto
+	religion = shinbutsu_shugo
 	traits = { satsugu seikaido japanese_and_ryukyuan }
 	male_common_first_names={
 		Aritomo
@@ -2994,7 +2994,7 @@ miyakonojo = {
 #日向
 hyuga = {
 	color = rgb{ 90 200 90 }
-	religion = shinto
+	religion = shinbutsu_shugo
 	traits = { honichi seikaido japanese_and_ryukyuan }
 	male_common_first_names={
 		Aritomo
@@ -3170,7 +3170,7 @@ hyuga = {
 #日田
 hita = {
 	color = rgb{ 90 200 200 }
-	religion = shinto
+	religion = shinbutsu_shugo
 	traits = { hichiku seikaido japanese_and_ryukyuan }
 	male_common_first_names={
 		Aritomo
@@ -3346,7 +3346,7 @@ hita = {
 #福岡
 fukuoka = {
 	color = rgb{ 200 90 90 }
-	religion = shinto
+	religion = shinbutsu_shugo
 	traits = { hichiku seikaido japanese_and_ryukyuan }
 	male_common_first_names={
 		Aritomo
@@ -3522,7 +3522,7 @@ fukuoka = {
 #奄美
 amami = {
 	color = rgb{ 200 85 200 }
-	religion = shinto
+	religion = yuta
 	traits = { amami_group ryukyu japanese_and_ryukyuan }
 	male_common_first_names={
 		Aritomo
@@ -3698,7 +3698,7 @@ amami = {
 #沖縄
 okinawa = {
 	color = rgb{ 200 200 115 }
-	religion = shinto
+	religion = ryukyu_shinto
 	traits = { okinawa_group ryukyu japanese_and_ryukyuan }
 	male_common_first_names={
 		Aritomo
@@ -3874,7 +3874,7 @@ okinawa = {
 #宮古
 miyako = {
 	color = rgb{ 200 200 200 }
-	religion = shinto
+	religion = ryukyu_shinto
 	traits = { okinawa_group ryukyu japanese_and_ryukyuan }
 	male_common_first_names={
 		Aritomo
@@ -4050,7 +4050,7 @@ miyako = {
 #国頭
 yambaru = {
 	color = rgb{ 200 255 200 }
-	religion = shinto
+	religion = ryukyu_shinto
 	traits = { okinawa_group ryukyu japanese_and_ryukyuan }
 	male_common_first_names={
 		Aritomo
@@ -4226,7 +4226,7 @@ yambaru = {
 #八重山
 yaeyama = {
 	color = rgb{ 200 200 255 }
-	religion = shinto
+	religion = ryukyu_shinto
 	traits = { yaeyama_group ryukyu japanese_and_ryukyuan }
 	male_common_first_names={
 		Aritomo
@@ -4401,9 +4401,9 @@ yaeyama = {
 }
 
 #佐賀
-saga = {
+saga = { 
 	color = rgb{ 10 15 0 }
-	religion = shinto
+	religion = shinbutsu_shugo
 	traits = { hichiku seikaido japanese_and_ryukyuan }
 	male_common_first_names={
 		Aritomo
@@ -4579,7 +4579,7 @@ saga = {
 #大東島
 daito = {
 	color = rgb{ 75 255 75 }
-	religion = shinto
+	religion = shinbutsu_shugo
 	traits = { hichiku seikaido japanese_and_ryukyuan }
 	male_common_first_names={
 		Aritomo
@@ -4755,7 +4755,7 @@ daito = {
 #伊万里
 imari = {
 	color = rgb{ 0 15 20 }
-	religion = shinto
+	religion = shinbutsu_shugo
 	traits = { hichiku seikaido japanese_and_ryukyuan }
 	male_common_first_names={
 		Aritomo
@@ -4931,7 +4931,7 @@ imari = {
 #唐津
 karatsu = {
 	color = rgb{ 200 15 20 }
-	religion = shinto
+	religion = shinbutsu_shugo
 	traits = { hichiku seikaido japanese_and_ryukyuan }
 	male_common_first_names={
 		Aritomo
@@ -5107,7 +5107,7 @@ karatsu = {
 #鹿島
 kashima = {
 	color = rgb{ 180 15 180 }
-	religion = shinto
+	religion = shinbutsu_shugo
 	traits = { hichiku seikaido japanese_and_ryukyuan }
 	male_common_first_names={
 		Aritomo
@@ -5283,7 +5283,7 @@ kashima = {
 #鳥栖
 tosu = {
 	color = rgb{ 130 130 20 }
-	religion = shinto
+	religion = shinbutsu_shugo
 	traits = { hichiku seikaido japanese_and_ryukyuan }
 	male_common_first_names={
 		Aritomo
@@ -5459,7 +5459,7 @@ tosu = {
 #五島列島
 gotos = {
 	color = rgb{ 0 50 0 }
-	religion = shinto
+	religion = shinbutsu_shugo
 	traits = { hichiku seikaido japanese_and_ryukyuan }
 	male_common_first_names={
 		Aritomo

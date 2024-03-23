@@ -159,10 +159,6 @@
 				culture = bizen
 				size = 1000000
 			}
-			create_pop = {
-				culture = bizen
-				size = 1000000
-			}
 		}
 	}
 	s:STATE_OKAYAMA = {

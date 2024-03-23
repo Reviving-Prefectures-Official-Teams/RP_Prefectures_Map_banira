@@ -7,8 +7,14 @@
  okinawa_group: "沖縄文化"
  amami_group: "奄美文化"
  yaeyama_group: "八重山文化"
+ kinki_group: "近畿文化"
 #系統文化
  seikaido: "西海道"
+ sanindo: "山陰道"
+ sanyodo: "山陽道"
+ nankaido: "南海道"
+ kinai: "畿内"
+
 #九州文化
  aso: "阿蘇"
  yakushima: "屋久島"
@@ -96,7 +102,7 @@ ryujin: "龍神"
 shirahama: "白浜"
 yamashiro: "山城"
 tanabe: "田辺"
-yamato: "大和"
+yamato_culture: "大和"
 tenri: "天理"
 katsuragi: "葛城"
 yoshino: "吉野"
