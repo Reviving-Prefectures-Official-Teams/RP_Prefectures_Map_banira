@@ -1,0 +1,10 @@
+﻿POPS = {
+	s:STATE_FUKUSHIMA = {
+		region_state:FKS = {
+			create_pop = {
+				culture = japanese
+				size = 100000
+			}
+		}
+	}
+}

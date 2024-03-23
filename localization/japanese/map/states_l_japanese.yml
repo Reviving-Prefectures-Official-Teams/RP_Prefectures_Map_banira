@@ -1,4 +1,5 @@
 ﻿l_japanese:
+ 
  STATE_IWAKI: "いわき"
  STATE_SOSO: "相双"
  STATE_FUKUSHIMA: "福島"
@@ -101,7 +102,7 @@
  STATE_OKI: "隠岐"
  STATE_UNNAN: "雲南"
  STATE_HAMADA: "浜田"
- SUTATE_MASUDA: "益田"
+ STATE_MASUDA: "益田"
  
  STATE_TOTTORI: "鳥取"
  STATE_YONAGO: "米子"
