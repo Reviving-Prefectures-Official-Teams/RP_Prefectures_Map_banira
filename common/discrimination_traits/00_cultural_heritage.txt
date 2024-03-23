@@ -6,3 +6,18 @@ ryukyu = {
 	heritage = yes
 }
 
+nankaido = {
+	heritage = yes
+}
+
+sanyodo = {
+	heritage = yes
+}
+
+sanindo = {
+	heritage = yes
+}
+
+kinki_group = {
+	heritage = yes
+}

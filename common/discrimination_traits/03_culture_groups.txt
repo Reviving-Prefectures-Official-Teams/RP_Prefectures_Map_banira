@@ -1,7 +1,22 @@
-﻿hichiku = {}
+﻿#文化共通
+japanese_and_ryukyuan = { }
+kyoto_prefecture = {}
+osaka_prefecture = {}
+hyogo_prefecture = {}
+
+#九州地方
+hichiku = {}
 satsugu = {}
 honichi = {}
 okinawa_group = {}
 amami_group = {}
 yaeyama_group = {}
-japanese_and_ryukyuan = { }
+
+#中国・四国地方
+north_shikoku = {}
+hata = {}
+tosa = {}
+unpaku = {}
+west_chugoku = {}
+east_sanin = {}
+east_sanyo = {}

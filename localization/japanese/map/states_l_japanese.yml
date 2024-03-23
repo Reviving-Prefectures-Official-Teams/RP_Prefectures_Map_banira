@@ -95,7 +95,7 @@
  STATE_OKI: "隠岐"
  STATE_UNNAN: "雲南"
  STATE_HAMADA: "浜田"
- SUTATE_MASUDA: "益田"
+ STATE_MASUDA: "益田"
   #鳥取県
  STATE_TOTTORI: "鳥取"
  STATE_YONAGO: "米子"
