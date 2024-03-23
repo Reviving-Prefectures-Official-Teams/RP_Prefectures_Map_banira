@@ -37,7 +37,7 @@ STATE_IWAKUNI = {
 
 STATE_HATSUKAICHI = {
     id = 150
-    provinces = {}
+    provinces = { "x08F1FC" "x4CC0FA" "x78FA8C" "xB0BFF7" "xB17BF9" "xB7FA49" "xC9B6FA" "xD5DDAD" "xD680A3" "xD8B966" "xEE8BCF" "xF3B66C" "xF4F46E" "xFC7CB4" }
 }
 
 STATE_HIROSHIMA = {
