@@ -1,20 +1,13 @@
 ﻿l_japanese:
- STATE_IWAKI: "いわき"
- STATE_SOSO: "相双"
- STATE_FUKUSHIMA: "福島"
- STATE_KORIYAMA: "郡山"
- STATE_SHIRAKAWA: "白河"
- STATE_AIZU: "会津"
- STATE_MINAMIAIZU: "南会津"
- STATE_SENDAI: "仙台"
- 
+ #九州地方--------------------------------------------------------------
+  #福岡県
  STATE_KITAKYUSHU: "北九州"
  STATE_MINAMICHIKUGO: "南筑後"
  STATE_KEICHIKU: "京筑"
  STATE_FUKUOKA: "福岡"
  STATE_CHIKUHOU: "筑豊"
  STATE_KITACHIKUGO: "北筑後"
-
+  #大分県
  STATE_OHITA: "大分"
  STATE_BUZEN: "豊前"
  STATE_KUSU: "玖珠"
@@ -22,14 +15,14 @@
  STATE_HITA: "日田"
  STATE_KUNISAKI: "国東"
  STATE_SAIKI: "佐伯"
-
+  #佐賀県
  STATE_SAGA: "佐賀"
  STATE_TOSU: "鳥栖"
  STATE_URESHINO: "嬉野"
  STATE_KARATSU: "唐津"
  STATE_IMARI: "伊万里"
  STATE_KASHIMA: "鹿島"
-
+  #熊本県
  STATE_KUMAMOTO: "熊本"
  STATE_ARAO: "荒尾"
  STATE_YAMAGAKIKUCHI: "山鹿菊池"
@@ -39,7 +32,7 @@
  STATE_KUMA: "球磨"
  STATE_ASHIKITA: "芦北"
  STATE_AMAKUSA: "天草"
-
+  #長崎県
  STATE_NAGASAKI: "長崎"
  STATE_OHMURA: "大村"
  STATE_SASEBO: "佐世保"
@@ -47,7 +40,7 @@
  STATE_IKI_SHOTOH: "壱岐"
  STATE_TSUSHIMA_SHOTOH: "対馬"
  STATE_GOTO_RETTOH: "五島列島"
-
+  #宮崎県
  STATE_MIYAZAKI: "宮崎"
  STATE_MIYAKONOJOH: "都城"
  STATE_NICHINAN: "日南"
@@ -56,7 +49,7 @@
  STATE_HIGASHIUSUKI: "東臼杵"
  STATE_NISHIUSUKI: "西臼杵"
  STATE_NOBEOKA: "延岡"
-
+  #鹿児島県
  STATE_KITASATSUMA: "北薩"
  STATE_MINAMISATSUMA: "南薩"
  STATE_KAGOSHIMA: "鹿児島"
@@ -65,7 +58,7 @@
  STATE_OHSUMI_SHOTOH: "大隅諸島"
  STATE_AMAMI_GUNTOH: "奄美"
  STATE_TOKARA_RETTOH: "吐噶喇"
-
+  #沖縄県
  STATE_DAITOH_SHOTOH: "大東諸島"
  STATE_HOKUZAN: "北山"
  STATE_CHUZAN: "中山"
@@ -73,7 +66,8 @@
  STATE_KUME_SHOTOH: "久米島"
  STATE_SENTAN_SHOTOH: "先端諸島"
  STATE_SENKAKU_SHOTOH: "尖閣諸島"
-
+ #中国地方--------------------------------------------------------------
+  #山口県
  STATE_YAMAGUCHI: "山口"
  STATE_HAGI: "萩"
  STATE_NAGATO: "長門"
@@ -81,50 +75,51 @@
  STATE_SHUNAN: "周南"
  STATE_IWAKUNI: "岩国"
  STATE_YANAI: "柳井"
-
+  #広島県
  STATE_HIROSHIMA: "広島"
  STATE_KURE: "呉"
  STATE_GEIHOKU: "芸北"
  STATE_BINGO: "備後"
  STATE_BIHOKU: "備北"
  STATE_HATSUKAICHI: "廿日市"
-
+  #岡山県
  STATE_OKAYAMA: "岡山"
  STATE_KURASHIKI: "倉敷"
  STATE_BIZEN: "備前"
  STATE_BICCHU: "備中"
  STATE_MIMASAKA: "美作"
  STATE_OKAYAMABIZEN: "岡山備前"
-
+  #島根県
  STATE_MATSUE: "松江"
  STATE_IZUMO: "出雲"
  STATE_OKI: "隠岐"
  STATE_UNNAN: "雲南"
  STATE_HAMADA: "浜田"
  SUTATE_MASUDA: "益田"
- 
+  #鳥取県
  STATE_TOTTORI: "鳥取"
  STATE_YONAGO: "米子"
  STATE_KURAYOSHI: "倉吉"
-
+ #四国地方--------------------------------------------------------------
+  #香川県
  STATE_TAKAMATSU: "高松"
  STATE_MARUGAME: "丸亀"
  STATE_KOTOHIRA: "琴平"
  STATE_SANUKI: "讃岐"
  STATE_SHIWAKU: "塩飽"
  STATE_SHODOSHIMA: "小豆島"
-
+  #徳島県
  STATE_TOKUSHIMA: "徳島"
  STATE_NARUTO: "鳴門"
  STATE_ANAN: "阿南"
  STATE_MIYOSHI: "三好"
  STATE_YOSHINOGAWA: "吉野川"
-
+  #愛媛県
  STATE_TOYO: "東予"
  STATE_NANYO: "南予"
  STATE_CHUYO: "中予"
  STATE_UESHIMA: "上島"
-
+  #高知県
  STATE_KOCHI: "高知"
  STATE_REIHOKU: "嶺北"
  STATE_NIYODO: "仁淀川"
@@ -132,3 +127,209 @@
  STATE_ASHIZURI: "奥四万十"
  STATE_AKI: "安芸"
  STATE_MONOBE: "物部川"
+ #近畿地方--------------------------------------------------------------
+  #大阪府
+ STATE_HOKUSETSU: "北摂"
+ STATE_OSAKA: "大阪"
+ STATE_KITAKAWACHI: "北河内"
+ STATE_MINAMIKAWACHI: "南河内"
+ STATE_SAKAI: "堺"
+ STATE_SENSYU: "泉州"
+  #兵庫県
+ STATE_AWAJI: "淡路"
+ STATE_KOBE: "神戸"
+ STATE_HIGASHI_HARIMA: "東播磨"
+ STATE_NAKA_HARIMA: "中播磨"
+ STATE_NISHI_HARIMA: "西播磨"
+ STATE_TAJIMA: "但馬"
+ STATE_TANBA: "丹波"
+ STATE_SETTSU: "摂津"
+ STATE_MINAMI_TAJIMA: "南但馬"
+  #京都府
+ STATE_TANGO: "丹後"
+ STATE_CHUTAN: "中丹"
+ STATE_NANTAN: "南丹"
+ STATE_KYOTO: "京都"
+ STATE_YAMASHIRO: "山城"
+  #滋賀県
+ STATE_KOSEI: "湖西"
+ STATE_KONAN: "湖南"
+ STATE_KOTOU: "湖東"
+ STATE_KOHOKU: "湖北"
+  #奈良県
+ STATE_NARA: "奈良"
+ STATE_UDA: "宇陀"
+ STATE_YOSHINA: "吉野"
+ STATE_NANWA: "南和"
+  #和歌山県
+ STATE_KIHOKU: "紀北"
+ STATE_KICHU: "紀中"
+ STATE_KINAN: "紀南"
+ STATE_WAKAYAMA: "和歌山"
+  #三重県
+ STATE_YOKKAICHI: "四日市"
+ STATE_IGA: "伊賀"
+ STATE_TSU: "津"
+ STATE_MATSUSAKA: "松阪"
+ STATE_ISE: "伊勢"
+ STATE_KII: "紀伊"
+ #北陸地方--------------------------------------------------------------
+  #富山県
+ STATE_TOYAMA: "富山"
+ STATE_NIIKAWA: "新川"
+ STATE_TAKAOKA: "高岡"
+ STATE_TONAMI: "砺波"
+  #石川県
+ STATE_KANAZAWA: "金沢"
+ STATE_OKUNOTO: "奥能登"
+ STATE_NAKANOTO: "中能登"
+ STATE_MINAMIKAGA: "南加賀"
+  #福井県
+ STATE_FUKUI: "福井"
+ STATE_OKUETSU: "奥越"
+ STATE_TANNAN: "丹南"
+ STATE_WAKASA: "若狭"
+  #新潟県
+ STATE_NIIGATA: "新潟"
+ STATE_KAETSU: "加越"
+ STATE_NIIGATAMINAMI: "新潟南"
+ STATE_NAGAOKA: "長岡"
+ STATE_UONUMA: "魚沼"
+ STATE_JOETSU: "上越"
+ STATE_SADO: "佐渡"
+ #中部地方--------------------------------------------------------------
+  #長野県
+ STATE_NAGANO: "長野"
+ STATE_OKITA: "沖田"
+ STATE_IIYAMA: "飯山"
+ STATE_SAKU: "佐久"
+ STATE_UEDA: "上田"
+ STATE_SUWA: "諏訪"
+ STATEMATSUMOTO: "松本"
+ STATE_KAMIKOCHI: "上高地"
+ STATE_KISO: "木曽"
+ STATE_KAMIINA: "上伊那"
+ STATE_SHIMOINA: "下伊那"
+  #山梨県
+ STATE_YAMANASHI: "山梨"
+ STATE_KYOTOH: "峡東"
+ STATE_KYONAN: "峡南"
+ STATE_CHUHOKU: "中北"
+ STATE_FUJIHIGASHI: "郡内"
+ STATE_FUJI: "富士山"
+  #静岡県
+ STATE_IZU: "伊豆"
+ STATE_GOTENBA: "御殿場"
+ STATE_SIZUOKA: "静岡"
+ STATE_HAMAMATSU: "浜松"
+ STATE_KAKEGAWA: "掛川"
+  #愛知県
+ STATE_OWARI: "尾張"
+ STATE_NAGOYA: "名古屋"
+ STATE_TOYOTA: "豊田"
+ STATE_OKAZAKI: "岡崎"
+ STATE_ATSUMI: "渥美"
+ STATE_HIGASHIMIKAWA: "東三河"
+ STATE_CHITA: "知多"
+ STATE_HIGASHI_OWARI: "東尾張"
+  #岐阜県
+ STATE_GIFU: "岐阜"
+ STATE_HIDA: "飛騨"
+ STATE_TONO: "東濃"
+ STATE_SEINO: "西濃"
+ #関東地方--------------------------------------------------------------
+  #東京都
+ STATE_OKUTAMA: "奥多摩"
+ STATE_SOUTH_TAMA: "南多摩"
+ STATE_NORTH_TAMA: "北多摩"
+ STATE_MACHIDA: "町田"
+ STATE_JOSAI: "城西"
+ STATE_JOHOKU: "城北"
+ STATE_JONAN: "城南"
+ STATE_CENTER_TOKYO: "東京"
+ STATE_JOTO: "城東"
+ STATE_IZU_ISLAND: "伊豆諸島"
+ STATE_HACHIJO: "八丈島"
+ STATE_OGASAWARA: "小笠原諸島"
+ STATE_KAZANRETTOH: "火山列島"
+  #神奈川県
+ STATE_KAWASAKI: "川崎"
+ STATE_YOKOHAMA: "横浜"
+ STATE_SAGAMIHARA: "相模原"
+ STATE_SHONAN: "湘南"
+ STATE_ODAWARA: "小田原"
+  #埼玉県
+ STATE_CHICHIBU: "秩父"
+ STATE_KODAMA_OSATO: "児玉・大里"
+ STATE_HIKI: "比企"
+ STATE_IRUMA: "入間"
+ STATE_SAITAMA: "埼玉"
+ STATE_NORTH_KATSUSHIKA: "北葛飾"
+ STATE_TONE: "利根"
+  #千葉県
+ STATE_NANSO: "南総"
+ STATE_TOSO: "東総"
+ STATE_CHIBA: "千葉"
+ STATE_KATSUSHIKA: "葛飾"
+ STATE_EAST_KATSUSHIKA: "東葛飾"
+ STATE_KUJYUKURI: "九十九里"
+ STATE_INBA: "印旛"
+  #茨城県
+ STATE_ROKKO: "鹿行"
+ STATE_HITACHI: "常陸"
+ STATE_MITO: "水戸"
+ STATE_RYUUGASAKI: "龍ヶ崎"
+ STATE_TSUKUBA: "筑波"
+ STATE_KOGA: "古河"
+  #栃木県
+ STATE_ASHIKAGA: "足利"
+ STATE_TOCHIGI: "栃木"
+ STATE_UTSUNOMIYA: "宇都宮"
+ STATE_NIKKO: "日光"
+ STATE_NASU: "那須"
+ STATE_HAGA: "芳賀"
+  #群馬県
+ STATE_TOMOU: "東毛"
+ STATE_MAEBASHI: "前橋"
+ STATE_SEIMOU: "西毛"
+ STATE_NUMATA: "沼田"
+ STATE_AGATSUMA: "吾妻"
+ #東北地方--------------------------------------------------------------
+  #青森県
+ STATE_AOMORI: "青森"
+ STATE_HACHINOHE: "八戸"
+ STATE_HIROSAKI: "弘前"
+ STATE_TOWADA: "十和田"
+ STATE_MUTUSI: "陸奥"
+  #岩手県
+ STATE_MORIOKA: "盛岡"
+ STATE_KAMAISHI: "釜石"
+ STATE_HANAMAKI: "花巻"
+ STATE_KUJI: "久慈"
+  #宮城県
+ STATE_SENDAI: "仙台"
+ STATE_SENNAN: "仙南"
+ STATE_ISHINOMAKI: "石巻"
+ STATE_OOSAKI: "大崎"
+ STATE_KURIHARA: "栗原"
+ STATE_TOME: "登米"
+ STATE_KESENNUMA: "気仙沼"
+  #秋田県
+ STATE_AKITA: "秋田"
+ STATE_YURIHONJYOU: "由利本荘"
+ STATE_YOKOTE: "横手"
+ STATE_DAISEN: "大仙"
+ STATE_OODATE: "大館"
+  #山形県
+ STATE_MURAYAMA: "村山"
+ STATE_YONEZAWA: "米沢"
+ STATE_SYONAI: "庄内"
+ STATE_MOGAMI: "最上"
+  #福島県
+ STATE_IWAKI: "いわき"
+ STATE_SOSO: "相双"
+ STATE_FUKUSHIMA: "福島"
+ STATE_KORIYAMA: "郡山"
+ STATE_SHIRAKAWA: "白河"
+ STATE_AIZU: "会津"
+ STATE_MINAMIAIZU: "南会津"
