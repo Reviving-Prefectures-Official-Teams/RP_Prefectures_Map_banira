@@ -1,20 +1,36 @@
 ﻿l_japanese:
+ #宗教グループ
+ shintoist: "神道"
+ new_cult: "新興宗教"
+
+ #混淆宗教
  shinbutsu_shugo: "神仏混淆"
+
+ #神道
+ idumo_shinto: "出雲神道"
+ suwa_faith: "諏訪信仰"
+ ise_shinto: "伊勢神道"
+ fuji_faith: "富士信仰"
  tenri_religion: "天理教"
- kayakabe: "カヤカベ教"
- shugendo: "修験道"
- hidden_christian: "隠れキリシタン"
- yuta: "ユタ"
  ryukyu_shinto: "琉球神道"
+
+ #仏教
+ kayakabe: "カヤカベ教"
+
+ #キリスト教
+ hidden_christian: "隠れキリシタン"
+
+ #アニミズム
+ shugendo: "修験道"
+ yuta: "ユタ"
  ainu_animism: "カムイ崇拝"
  itako: "イタコ"
+ tendo: "天道信仰"
+
+ #新興宗教
  soka_gakkai: "創価学会"
  aum_shinriky: "オウム真理教"
  happy_science: "幸福の科学"
  perfect_liberty: "パーフェクトリバティー教団"
  kateirengo: "家庭連合"
  yehobanoshonin: "エホバの証人"
- tendo: "天道信仰"
-
- shintoist: "神道"
- new_cult: "新興宗教"

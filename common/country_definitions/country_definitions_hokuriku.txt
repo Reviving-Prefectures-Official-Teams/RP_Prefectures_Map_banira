@@ -1,32 +1,32 @@
 ﻿# 新潟県
 NIG = {
-	color = {}
+	color = rgb{32 145 155}
 	country_type = recognized
 	tier = kingdom
-	cultures = { japanese }
+	cultures = { NIG }
 	capital = STATE_NIIGATA
 }
 # 石川県
 ISK = {
-	color = {}
+	color = rgb{70 76 170}
 	country_type = recognized
 	tier = kingdom
-	cultures = { japanese }
+	cultures = { kanazawa }
 	capital = STATE_KANAZAWA
 }
 # 富山県
 TOY = {
-	color = {}
+	color = rgb{119 107 56}
 	country_type = recognized
 	tier = kingdom
-	cultures = { japanese }
+	cultures = { toyama }
 	capital = STATE_TOYAMA
 }
 # 福井県
 FKI = {
-	color = { 30 144 255 }
+	color = { 252 177 0 }
 	country_type = recognized
 	tier = kingdom
-	cultures = { japanese }
+	cultures = { fukui }
 	capital = STATE_FUKUI
 }
