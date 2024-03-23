@@ -181,7 +181,7 @@ STATE_YAMANASHI = {
     provinces = { "x46F3D3" "x7EE3EE" "x8AEE8A" "xA4B7D4" "xB5D083" "xC995AE" "xCADFFD" "xE2DBC4" "xFAF3AE" "xFBB8C0" "xFD9B7F" }
 }
 
-STATE_KYOTO = {
+STATE_KYOTOH = {
     id = 139
     provinces = {}
 }
