@@ -259,7 +259,6 @@ STATE_TOKARA_RETTOH = {
     id = 241
     provinces = { "x4DEEEE" "x70BAEF" "x8AE2B3" "xBCDAE8" "xD8EBC6" "xDCF5BB" "xEFCBA1" }
 }
-
 # 沖縄県
 STATE_DAITOH_SHOTOH = {
     id = 242
