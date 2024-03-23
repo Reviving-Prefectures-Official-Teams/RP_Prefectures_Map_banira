@@ -1,0 +1,40 @@
+﻿# 鳥取県
+TTR = {
+	color = { 0.0 0.0 0.0 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_TOTTORI
+}
+# 島根県
+SMN = {
+	color = { 0.0 0.0 0.0 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_MATSUE
+}
+# 岡山県
+OKY = {
+	color = { 0.0 0.0 0.0 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_OKAYAMA
+}
+# 広島県
+HRS = {
+	color = { 0.0 0.0 0.0 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_HIROSHIMA
+}
+# 山口県
+YMC = {
+	color = { 0.0 0.0 0.0 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_YAMAGUCHI
+}

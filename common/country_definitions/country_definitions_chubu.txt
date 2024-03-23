@@ -1,0 +1,24 @@
+﻿# 山梨県
+YMN = {
+	color = {}
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_YAMANASHI
+}
+# 岐阜県
+GIF = {
+	color = {}
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_GIFU
+}
+# 長野県
+NGN = {
+	color = {}
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_NAGANO
+}

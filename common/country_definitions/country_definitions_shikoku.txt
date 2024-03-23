@@ -1,0 +1,32 @@
+﻿# 香川県
+KAG = {
+	color = { 0.0 0.0 0.0 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_TAKAMATSU
+}
+# 愛媛県
+EHI = {
+	color = { 0.0 0.0 0.0 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_TOYO
+}
+# 徳島県
+TKS = {
+	color = { 0.0 0.0 0.0 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_TOKUSHIMA
+}
+# 高知県
+KCH = {
+	color = { 0.0 0.0 0.0 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_KOCHI
+}

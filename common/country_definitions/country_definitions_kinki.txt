@@ -1,0 +1,32 @@
+﻿# 滋賀県
+SHG = {
+	color = {}
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_KONAN
+}
+# 京都府
+KYT = {
+	color = {}
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_KYOTO
+}
+# 大阪府
+OSK = {
+	color = {}
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_OSAKA
+}
+# 兵庫県
+HYG = {
+	color = {}
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	capital = STATE_KOBE
+}

@@ -1,4 +1,5 @@
 ﻿l_japanese:
+  region_hokkaido: "北海道"
   region_north_tohoku: "北東北"
   region_south_tohoku: "南東北"
   region_north_kanto: "北関東"
@@ -11,3 +12,4 @@
   region_chugoku: "中国"
   region_shikoku: "四国"
   region_kyushu: "九州"
+  region_okinawa: "沖縄"
