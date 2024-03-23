@@ -1,16 +1,16 @@
 ﻿# 静岡県
 SHZ = {
-	color = { 0.0 0.0 0.0 }
+	color = { 99 32 1 }
 	country_type = recognized
 	tier = kingdom
-	cultures = { japanese }
+	cultures = { shizuoka }
 	capital = STATE_SHIZUOKA
 }
 # 愛知県
 AIC = {
-	color = { 0.0 0.0 0.0 }
+	color = { 234 234 234 }
 	country_type = recognized
 	tier = kingdom
-	cultures = { japanese }
+	cultures = { nagoya }
 	capital = STATE_NAGOYA
 }

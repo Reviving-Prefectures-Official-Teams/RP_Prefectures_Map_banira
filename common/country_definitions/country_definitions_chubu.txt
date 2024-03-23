@@ -1,24 +1,24 @@
 ﻿# 山梨県
 YMN = {
-	color = {}
+	color = rgb{133 180 155}
 	country_type = recognized
 	tier = kingdom
-	cultures = { japanese }
+	cultures = { kofu }
 	capital = STATE_YAMANASHI
 }
 # 岐阜県
 GIF = {
-	color = {}
+	color = rgb{153 1 14}
 	country_type = recognized
 	tier = kingdom
-	cultures = { japanese }
+	cultures = { gifu }
 	capital = STATE_GIFU
 }
 # 長野県
 NGN = {
-	color = {}
+	color = rgb{62 153 50}
 	country_type = recognized
 	tier = kingdom
-	cultures = { japanese }
+	cultures = { nagano }
 	capital = STATE_NAGANO
 }

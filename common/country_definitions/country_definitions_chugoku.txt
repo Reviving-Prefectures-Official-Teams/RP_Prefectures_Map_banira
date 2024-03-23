@@ -19,7 +19,7 @@ OKY = {
 	color = { 255 160 122 }
 	country_type = recognized
 	tier = kingdom
-	cultures = { okayama }
+	cultures = { bizen }
 	capital = STATE_OKAYAMA
 }
 # 広島県

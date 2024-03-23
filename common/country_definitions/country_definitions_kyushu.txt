@@ -4,7 +4,7 @@
 	country_type = recognized
 
 	tier = principality
-	religion = shinto
+	#religion = shinto
 	
 	cultures = { fukuoka }
 	capital = STATE_FUKUOKA
@@ -16,7 +16,7 @@ SAG = {
 	country_type = recognized
 
 	tier = principality	
-	religion = shinto
+	#religion = shinto
 	
 	cultures = { saga }
 	capital = STATE_SAGA
@@ -28,7 +28,7 @@ NGS = {
 	country_type = recognized
 
 	tier = principality
-	religion = shinto
+	#religion = shinto
 	
 	cultures = { nagasaki }
 	capital = STATE_NAGASAKI
@@ -40,7 +40,7 @@ OIT = {
 	country_type = recognized
 
 	tier = principality
-	religion = shinto
+	#religion = shinto
 	
 	cultures = { oita }
 	capital = STATE_OHITA
@@ -52,7 +52,7 @@ KUM = {
 	country_type = recognized
 
 	tier = principality
-	religion = shinto
+	#religion = shinto
 	
 	cultures = { kumamoto }
 	capital = STATE_KUMAMOTO
@@ -64,7 +64,7 @@ MYZ = {
 	country_type = recognized
 
 	tier = principality
-	religion = shinto
+	#religion = shinto
 	
 	cultures = { miyazaki }
 	capital = STATE_MIYAZAKI
@@ -76,7 +76,7 @@ KGS = {
 	country_type = recognized
 
 	tier = principality
-	religion = shinto
+	#religion = shinto
 	
 	cultures = { satsuma }
 	capital = STATE_KAGOSHIMA
@@ -88,7 +88,7 @@ OKI = {
 	country_type = recognized
 
 	tier = principality
-	religion = shinto
+	#religion = shinto
 	
 	cultures = { okinawa }
 	capital = STATE_NANZAN
@@ -100,7 +100,7 @@ TSM = {
 	country_type = recognized
 
 	tier = principality
-	religion = shinto
+	#religion = shinto
 	
 	cultures = { tsushima }
 	capital = STATE_TSUSHIMA_SHOTOH
@@ -110,7 +110,7 @@ AMA = {
 	color = { 66  94  193 }
 	
 	country_type = colonial
-	religion = shinto
+	#religion = shinto
 	
 	tier = principality
 	
@@ -122,7 +122,7 @@ TKR = {
 	color = { 190  186  202 }
 	
 	country_type = colonial
-	religion = shinto
+	#religion = shinto
 	
 	tier = principality
 	
@@ -136,7 +136,7 @@ YAE = {
 	country_type = colonial
 	
 	tier = principality
-	religion = shinto
+	#religion = shinto
 	
 	cultures = { yaeyama }
 	capital = STATE_YAEYAMA_GUNTOH
@@ -146,7 +146,7 @@ DAT = {
 	color = { 212 100 141 }
 	
 	country_type = colonial
-	religion = shinto
+	#religion = shinto
 	
 	tier = principality
 	

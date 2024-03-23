@@ -2,7 +2,7 @@
 tajima = {
 	color = rgb{ 50 50 20 }
 	religion = shinbutsu_shugo
-	traits = { east_sanin sanindo japanese_and_ryukyuan hyogo_prefecture }
+	traits = { east_sanin sanindo   hyogo_prefecture }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -178,7 +178,7 @@ tajima = {
 tanba = {
 	color = rgb{57  116  130}
 	religion = shinbutsu_shugo
-	traits = { japanese_and_ryukyuan east_sanin sanindo hyogo_prefecture }
+	traits = {   east_sanin sanindo hyogo_prefecture }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -354,7 +354,7 @@ tanba = {
 fukuchiyama = {
 	color = rgb{58  152  163}
 	religion = shinbutsu_shugo
-	traits = { japanese_and_ryukyuan tanba_group kinki_group_group kyoto_prefecture  }
+	traits = {   tanba_group kinki_group_group kyoto_prefecture  }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -530,7 +530,7 @@ fukuchiyama = {
 maizuru = {
 	color = rgb{222  247  238}
 	religion = shinbutsu_shugo
-	traits = { japanese_and_ryukyuan tanba_group kinki_group kyoto_prefecture }
+	traits = {   tanba_group kinki_group kyoto_prefecture }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -706,7 +706,7 @@ maizuru = {
 himeji = {
 	color = rgb{142  137  141}
 	religion = shinbutsu_shugo
-	traits = { japanese_and_ryukyuan east_sanyo east_sanyo }
+	traits = {   east_sanyo east_sanyo }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -882,7 +882,7 @@ himeji = {
 akashi = {
 	color = rgb{156  148  163}
 	religion = shinbutsu_shugo
-	traits = { japanese_and_ryukyuan east_sanyo east_sanyo hyogo_prefecture }
+	traits = {   east_sanyo east_sanyo hyogo_prefecture }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -1058,7 +1058,7 @@ akashi = {
 kobe = {
 	color = rgb{77  105  124}
 	religion = shinbutsu_shugo
-	traits = { japanese_and_ryukyuan east_sanyo kinki_grou hyogo_prefecture }
+	traits = {   east_sanyo kinki_grou hyogo_prefecture }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -1234,7 +1234,7 @@ kobe = {
 nishinomiya = {
 	color = rgb{162  158  170}
 	religion = shinbutsu_shugo
-	traits = { japanese_and_ryukyuan settsu kinki_grou hyogo_prefecture }
+	traits = {   settsu kinki_grou hyogo_prefecture }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -1410,7 +1410,7 @@ nishinomiya = {
 osaka = {
 	color = rgb{221  73  142}
 	religion = shinbutsu_shugo
-	traits = { japanese_and_ryukyuan settsu kinki_grou osaka_prefecture }
+	traits = {   settsu kinki_grou osaka_prefecture }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -1586,7 +1586,7 @@ osaka = {
 takatsuki = {
 	color = rgb{243  249  229}
 	religion = shinbutsu_shugo
-	traits = { japanese_and_ryukyuan settsu kinki_grou osaka_prefecture }
+	traits = {   settsu kinki_grou osaka_prefecture }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -1762,7 +1762,7 @@ takatsuki = {
 toyono = {
 	color = rgb{178  157  178}
 	religion = shinbutsu_shugo
-	traits = { japanese_and_ryukyuan settsu kinki_grou osaka_prefecture }
+	traits = {   settsu kinki_grou osaka_prefecture }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -1938,7 +1938,7 @@ toyono = {
 hirakata = {
 	color = rgb{12  56  17}
 	religion = shinbutsu_shugo
-	traits = { japanese_and_ryukyuan kinai kinki_grou osaka_prefecture }
+	traits = {   kinai kinki_grou osaka_prefecture }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -2114,7 +2114,7 @@ hirakata = {
 izumi = {
 	color = rgb{54  107  86}
 	religion = shinbutsu_shugo
-	traits = { japanese_and_ryukyuan kinai kinki_grou osaka_prefecture }
+	traits = {   kinai kinki_grou osaka_prefecture }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -2290,7 +2290,7 @@ izumi = {
 wakayama = {
 	color = rgb{112  12  37}
 	religion = shinbutsu_shugo
-	traits = { japanese_and_ryukyuan kii kinki_grou }
+	traits = {   kii kinki_grou }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -2466,7 +2466,7 @@ wakayama = {
 ryujin = {
 	color = rgb{47  104  140}
 	religion = shinbutsu_shugo
-	traits = { japanese_and_ryukyuan kii kinki_grou }
+	traits = {   kii kinki_grou }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -2642,7 +2642,7 @@ ryujin = {
 shirahama = {
 	color = rgb{23  117  198}
 	religion = shinbutsu_shugo
-	traits = { japanese_and_ryukyuan kii kinki_grou }
+	traits = {   kii kinki_grou }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -2818,7 +2818,7 @@ shirahama = {
 yamashiro = {
 	color = rgb{104  87  112}
 	religion = shinbutsu_shugo
-	traits = { japanese_and_ryukyuan kinai kinki_grou kyoto_prefecture }
+	traits = {   kinai kinki_grou kyoto_prefecture }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -2994,7 +2994,7 @@ yamashiro = {
 tanabe = {
 	color = rgb{107  49  76}
 	religion = shinbutsu_shugo
-	traits = { japanese_and_ryukyuan kinai kinki_group kyoto_prefecture }
+	traits = {   kinai kinki_group kyoto_prefecture }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -3170,7 +3170,7 @@ tanabe = {
 yamato_culture = {
 	color = rgb{206  151  244}
 	religion = shinbutsu_shugo
-	traits = { japanese_and_ryukyuan kinai kinki_group }
+	traits = {   kinai kinki_group }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -3346,7 +3346,7 @@ yamato_culture = {
 tenri = {
 	color = rgb{163  100  97}
 	religion = tenri_religion
-	traits = { japanese_and_ryukyuan kinai kinki_group }
+	traits = {   kinai kinki_group }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -3522,7 +3522,7 @@ tenri = {
 katsuragi = {
 	color = rgb{22  22  19}
 	religion = shinbutsu_shugo
-	traits = { japanese_and_ryukyuan kinai kinki_group }
+	traits = {   kinai kinki_group }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -3698,7 +3698,7 @@ katsuragi = {
 yoshino = {
 	color = rgb{149  207  219}
 	religion = shinbutsu_shugo
-	traits = { japanese_and_ryukyuan kinai kinki_group }
+	traits = {   kinai kinki_group }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -3874,7 +3874,7 @@ yoshino = {
 otsu = {
 	color = rgb{165  139  159}
 	religion = shinbutsu_shugo
-	traits = { japanese_and_ryukyuan ohmi kinki_group }
+	traits = {   ohmi kinki_group }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -4050,7 +4050,7 @@ otsu = {
 takashima = {
 	color = rgb{15  46  58}
 	religion = shinbutsu_shugo
-	traits = { japanese_and_ryukyuan ohmi kinki_group }
+	traits = {   ohmi kinki_group }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -4226,7 +4226,7 @@ takashima = {
 nagahama = {
 	color = rgb{51  50  50}
 	religion = shinbutsu_shugo
-	traits = { japanese_and_ryukyuan ohmi kinki_group }
+	traits = {   ohmi kinki_group }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -4402,7 +4402,7 @@ nagahama = {
 wakasa = {
 	color = rgb{15  46  58}
 	religion = shinbutsu_shugo
-	traits = { japanese_and_ryukyuan ryonan kinki_group }
+	traits = {   ryonan kinki_group }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -4578,7 +4578,7 @@ wakasa = {
 suzuka = {
 	color = rgb{109  1  44}
 	religion = shinbutsu_shugo
-	traits = { japanese_and_ryukyuan mie kinki_group }
+	traits = {   mie kinki_group }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -4754,7 +4754,7 @@ suzuka = {
 ise = {
 	color = rgb{211  194  118}
 	religion = shinbutsu_shugo
-	traits = { japanese_and_ryukyuan mie kinki_group }
+	traits = {   mie kinki_group }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -4930,7 +4930,7 @@ ise = {
 iga = {
 	color = rgb{145  170  117}
 	religion = shinbutsu_shugo
-	traits = { japanese_and_ryukyuan mie kinki_group }
+	traits = {   mie kinki_group }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -5106,7 +5106,7 @@ iga = {
 kumano = {
 	color = rgb{97  232  146}
 	religion = shinbutsu_shugo
-	traits = { japanese_and_ryukyuan kii kinki_group }
+	traits = {   kii kinki_group }
 	male_common_first_names={
 		Aritomo
 		Gentaro
