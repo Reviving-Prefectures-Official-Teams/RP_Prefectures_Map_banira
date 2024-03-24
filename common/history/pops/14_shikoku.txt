@@ -1,0 +1,243 @@
+﻿POPS = {
+	#香川
+	s:STATE_TAKAMATSU = {
+		region_state:KAG = {
+			create_pop = {
+				culture = takamatsu
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_MARUGAME = {
+		region_state:KAG = {
+			create_pop = {
+				culture = takamatsu
+				size = 1000000
+			}
+			create_pop = {
+				culture = marugame
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_KOTOHIRA = {
+		region_state:KAG = {
+			create_pop = {
+				culture = marugame
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_SANUKI = {
+		region_state:KAG = {
+			create_pop = {
+				culture = takamatsu
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_SHIWAKU = {
+		region_state:KAG = {
+			create_pop = {
+				culture = takamatsu
+				size = 100000
+			}
+			create_pop = {
+				culture = kure
+				size = 100000
+			}
+		}
+	}
+	s:STATE_SHODOSHIMA = {
+		region_state:KAG = {
+			create_pop = {
+				culture = takamatsu
+				size = 500000
+			}
+		}
+	}
+
+	#徳島
+	s:STATE_TOKUSHIMA = {
+		region_state:TKS = {
+			create_pop = {
+				culture = tokushima
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_NARUTO = {
+		region_state:TKS = {
+			create_pop = {
+				culture = tokushima
+				size = 1000000
+			}
+			create_pop = {
+				culture = naruto
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_ANAN = {
+		region_state:TKS = {
+			create_pop = {
+				culture = tokushima
+				size = 1000000
+			}
+			create_pop = {
+				culture = anan
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_MIYOSHI = {
+		region_state:TKS = {
+			create_pop = {
+				culture = tokushima
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_YOSHINOGAWA = {
+		region_state:TKS = {
+			create_pop = {
+				culture = tokushima
+				size = 1000000
+			}
+		}
+	}
+
+	#愛媛
+	s:STATE_TOYO = {
+		region_state:EHI = {
+			create_pop = {
+				culture = uma
+				size = 1000000
+			}
+			create_pop = {
+				culture = matsuyama
+				size = 1000000
+			}
+			create_pop = {
+				culture = imabari
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_CHUYO = {
+		region_state:EHI = {
+			create_pop = {
+				culture = matsuyama
+				size = 3000000
+			}
+			create_pop = {
+				culture = imabari
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_NANYO = {
+		region_state:EHI = {
+			create_pop = {
+				culture = matsuyama
+				size = 1000000
+			}
+			create_pop = {
+				culture = uwajima
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_UESHIMA = {
+		region_state:EHI = {
+			create_pop = {
+				culture = matsuyama
+				size = 1000000
+			}
+			create_pop = {
+				culture = imabari
+				size = 1000000
+			}
+		}
+	}
+
+	#高知
+	s:STATE_KOCHI = {
+		region_state:KCH = {
+			create_pop = {
+				culture = kochi
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_REIHOKU = {
+		region_state:KCH = {
+			create_pop = {
+				culture = kochi
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_NIYODO = {
+		region_state:KCH = {
+			create_pop = {
+				culture = kochi
+				size = 1000000
+			}
+			create_pop = {
+				culture = simanto
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_HATA = {
+		region_state:KCH = {
+			create_pop = {
+				culture = simanto
+				size = 1000000
+			}
+			create_pop = {
+				culture = uwajima
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_ASHIZURI = {
+		region_state:KCH = {
+			create_pop = {
+				culture = kochi
+				size = 1000000
+			}
+			create_pop = {
+				culture = simanto
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_AKI = {
+		region_state:KCH = {
+			create_pop = {
+				culture = kochi
+				size = 1000000
+			}
+			create_pop = {
+				culture = kitagawa
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_MONOBE = {
+		region_state:KCH = {
+			create_pop = {
+				culture = kochi
+				size = 1000000
+			}
+			create_pop = {
+				culture = kitagawa
+				size = 1000000
+			}
+		}
+	}
+}
+

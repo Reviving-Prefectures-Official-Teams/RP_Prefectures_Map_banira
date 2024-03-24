@@ -30,3 +30,11 @@ FKI = {
 	cultures = { fukui }
 	capital = STATE_FUKUI
 }
+#佐渡
+SAD = {
+	color = { 252 9 0 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { sado }
+	capital = STATE_SADO
+}

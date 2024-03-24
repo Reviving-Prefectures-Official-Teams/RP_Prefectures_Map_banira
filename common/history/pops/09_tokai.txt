@@ -60,6 +60,10 @@
 				culture = nagoya
 				size = 2000000
 			}
+			create_pop = {
+				culture = korean
+				size = 10000
+			}
 		}
 	}
 	s:STATE_NAGOYA = {
@@ -67,6 +71,10 @@
 			create_pop = {
 				culture = nagoya
 				size = 2000000
+			}
+			create_pop = {
+				culture = korean
+				size = 10000
 			}
 		}
 	}
@@ -76,6 +84,10 @@
 				culture = koromo
 				size = 2000000
 			}
+			create_pop = {
+				culture = korean
+				size = 5000
+			}
 		}
 	}
 	s:STATE_OKAZAKI = {
@@ -83,6 +95,10 @@
 			create_pop = {
 				culture = okazaki
 				size = 2000000
+			}
+			create_pop = {
+				culture = korean
+				size = 5000
 			}
 		}
 	}

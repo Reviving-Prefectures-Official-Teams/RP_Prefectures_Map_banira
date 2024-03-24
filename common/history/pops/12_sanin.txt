@@ -1,0 +1,94 @@
+﻿POPS = {
+	#島根
+	s:STATE_MATSUE = {
+		region_state:SMN = {
+			create_pop = {
+				culture = izumo
+				size = 1000000
+			}
+			create_pop = {
+				culture = yonago
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_IZUMO = {
+		region_state:SMN = {
+			create_pop = {
+				culture = izumo
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_OKI = {
+		region_state:SMN = {
+			create_pop = {
+				culture = izumo
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_UNNAN = {
+		region_state:SMN = {
+			create_pop = {
+				culture = izumo
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_HAMADA = {
+		region_state:SMN = {
+			create_pop = {
+				culture = iwami
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_MASUDA = {
+		region_state:SMN = {
+			create_pop = {
+				culture = iwami
+				size = 1000000
+			}
+			create_pop = {
+				culture = hagi
+				size = 1000000
+			}
+		}
+	}
+
+	#鳥取
+	s:STATE_TOTTORI = {
+		region_state:TTR = {
+			create_pop = {
+				culture = tottori
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_YONAGO = {
+		region_state:TTR = {
+			create_pop = {
+				culture = tottori
+				size = 1000000
+			}
+			create_pop = {
+				culture = yonago
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_KURAYOSHI = {
+		region_state:TTR = {
+			create_pop = {
+				culture = tottori
+				size = 1000000
+			}
+			create_pop = {
+				culture = kurayoshi
+				size = 1000000
+			}
+		}
+	}
+}
+

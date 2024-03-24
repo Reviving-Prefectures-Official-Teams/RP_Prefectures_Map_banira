@@ -1,0 +1,52 @@
+STATES = {
+
+	#米国占領
+	s:STATE_OGASAWARA = {
+		create_state = {
+			country = c:USR
+    		owned_provinces = { "x77D4CC" "x77D4CC" "xB3D0F8" "xBBEBB1" "xBDC08F" "xDAE3F4" "xF2E177" }
+		}
+		add_homeland = cu:ogasawara
+	}
+	
+	s:STATE_KAZANRETTO = {
+		create_state = {
+			country = c:USR
+    		owned_provinces = { "xA8BB99" "xF6B499" "xFC8388" }
+		}
+		add_homeland = cu:iwo
+	}
+
+    #ソ連占領
+    s:STATE_HABOMAI = {
+        create_state = {
+            country = c:SRA
+            owned_provinces = { "x82FBA4" "xCBE080" "xD3B6A4" "xF156C2" "xF2FD39" "xF7F439" }
+        }
+		add_homeland = cu:etorofu
+		add_homeland = cu:ainu
+		add_homeland = cu:oroch
+		add_homeland = cu:nivlh
+	}
+    s:STATE_KUNASHIRI = {
+        create_state = {
+            country = c:SRA
+            owned_provinces = { "x75BDFB" "x7F7FF9" "x82D7EF" "xA5FDD7" "xBAF84B" "xC7EACE" "xCC7CF7" "xCCBCEF" "xD3FE7C" "xD8B37A" "xDC8FFC" "xDEDAE7" "xE883E0" "xF45EEA" "xF8F6E7" }
+        }
+		add_homeland = cu:etorofu
+		add_homeland = cu:ainu
+		add_homeland = cu:oroch
+		add_homeland = cu:nivlh
+	}
+    s:STATE_ETOROFU = {
+        create_state = {
+            country = c:SRA
+            owned_provinces = { "x3EEBE4" "x4DEACB" "x6AA6FD" "x82D1B6" "x8DB8DB" "x9AFA95" "xA2F680" "xB9AEF5" "xB9F77E" "xCE7BEF" "xD7D8C8" "xE2ACCA" "xE2E763" "xE2F5B5" "xE3B9BE" "xEA66C8" "xECE5D2" "xEDEB3B" "xEEE3C7" "xEF4FC4" "xF29EE1" "xF3D0B1" "xF3F090" "xFAEDFB" "xFBC0E4" }
+        }
+		add_homeland = cu:etorofu
+		add_homeland = cu:ainu
+		add_homeland = cu:oroch
+		add_homeland = cu:nivlh
+	}
+	
+}

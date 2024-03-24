@@ -1,0 +1,101 @@
+﻿POPS = {
+	#合衆国軍
+	s:STATE_OGASAWARA = {
+		region_state:USR = {
+			create_pop = {
+				culture = ogasawara
+				size = 1000
+			}
+			create_pop = {
+				culture = yankee
+				size = 500
+			}
+			create_pop = {
+				culture = odawara
+				size = 500
+			}
+			create_pop = {
+				culture = izu
+				size = 500
+			}
+			create_pop = {
+				culture = ise
+				size = 500
+			}
+		}
+	}
+	s:STATE_KAZANRETTO = {
+		region_state:USR = {
+			create_pop = {
+				culture = yankee
+				size = 500
+			}
+		}
+	}
+
+	#ソ連軍
+	s:STATE_HABOMAI = {
+		region_state:USR = {
+			create_pop = {
+				culture = russian
+				size = 1000
+			}
+		}
+	}
+    s:STATE_KUNASHIRI = {
+		region_state:USR = {
+			create_pop = {
+				culture = russian
+				size = 10000
+			}
+			create_pop = {
+				culture = ukurainian
+				size = 30000
+			}
+			create_pop = {
+				culture = byelorussian
+				size = 8000
+			}
+			create_pop = {
+				culture = ainu
+				size = 1000
+			}
+			create_pop = {
+				culture = nivkh
+				size = 500
+			}
+			create_pop = {
+				culture = oroch
+				size = 500
+			}
+		}
+	}
+	s:STATE_ETOROFU = {
+		region_state:USR = {
+			create_pop = {
+				culture = russian
+				size = 40000
+			}
+			create_pop = {
+				culture = ukurainian
+				size = 30000
+			}
+			create_pop = {
+				culture = byelorussian
+				size = 11000
+			}
+			create_pop = {
+				culture = ainu
+				size = 2500
+			}
+			create_pop = {
+				culture = oroch
+				size = 1000
+			}
+			create_pop = {
+				culture = nivkh
+				size = 500
+			}
+		}
+	}
+}

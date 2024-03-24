@@ -63,7 +63,7 @@ STATES = {
     }
 	s:STATE_OKAZAKI = {
 		create_state = {
-            country = c:okazaki
+            country = c:AIC
             owned_provinces = { "x3ACBF7" "x45E5D5" "x59EAD9" "x61FBDD" "x88FDD4" "x8FF3E7" "x928CED" "x92FC94" "x94CFBE" "x97F4AE" "x98F96F" "xA5CCBD" "xACC7B4" "xAEA6D3" "xB1F089" "xB3DB67" "xB9E98E" "xC17DCF" "xC492C1" "xC7DFE6" "xC9A2D2" "xDC52F0" "xE19FF5" "xE2B164" "xE3A177" "xE9C08D" "xEC73CD" "xF29BD1" "xF2A1E2" "xF2F865" "xF633ED" "xF8CA54" "xFEF378" "xFF7F7F" "xFFBF7F" }
         }
 		add_homeland = cu:okazaki

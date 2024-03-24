@@ -1,6 +1,6 @@
 ﻿# 群馬県
 GNM = {
-	color = {}
+	color = {165 42 42}
 	country_type = recognized
 	tier = kingdom
 	cultures = { omiya }
@@ -8,7 +8,7 @@ GNM = {
 }
 # 栃木県
 TCH = {
-	color = {}
+	color = {245 222 179}
 	country_type = recognized
 	tier = kingdom
 	cultures = { utsunomiya }
@@ -16,7 +16,7 @@ TCH = {
 }
 # 茨城県
 IBR = {
-	color = {}
+	color = {238 130 238}
 	country_type = recognized
 	tier = kingdom
 	cultures = { mito }
@@ -24,7 +24,7 @@ IBR = {
 }
 # 千葉県
 CHB = {
-	color = {}
+	color = { 148 205 206 }
 	country_type = recognized
 	tier = kingdom
 	cultures = { chiba }
@@ -32,7 +32,7 @@ CHB = {
 }
 # 埼玉県
 SIT = {
-	color = {}
+	color = {37 8 48}
 	country_type = recognized
 	tier = kingdom
 	cultures = { omiya }
@@ -40,7 +40,7 @@ SIT = {
 }
 # 東京都
 TKY = {
-	color = {}
+	color = { 37 47 38}
 	country_type = recognized
 	tier = kingdom
 	cultures = { edo yamanote }
@@ -48,9 +48,18 @@ TKY = {
 }
 # 神奈川県
 KNG = {
-	color = {}
+	color = { 218 165 32 }
 	country_type = recognized
 	tier = kingdom
 	cultures = { yokohama }
 	capital = STATE_YOKOHAMA
 }
+
+OGS = {
+	color = { 205 255 255 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { ogasawara }
+	capital = STATE_OGASAWARA
+}
+

@@ -1,0 +1,229 @@
+﻿POPS = {
+	#山口
+	s:STATE_YAMAGUCHI = {
+		region_state:YMC = {
+			create_pop = {
+				culture = yamaguchi
+				size = 2000000
+			}
+			create_pop = {
+				culture = shimonoseki
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_HAGI = {
+		region_state:YMC = {
+			create_pop = {
+				culture = yamaguchi
+				size = 100000
+			}
+			create_pop = {
+				culture = hagi
+				size = 900000
+			}
+		}
+	}
+	s:STATE_NAGATO = {
+		region_state:YMC = {
+			create_pop = {
+				culture = shimonoseki
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_YANAI = {
+		region_state:YMC = {
+			create_pop = {
+				culture = yamaguchi
+				size = 2000000
+			}
+			create_pop = {
+				culture = yanai
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_UBE = {
+		region_state:YMC = {
+			create_pop = {
+				culture = yamaguchi
+				size = 2000000
+			}
+			create_pop = {
+				culture = shimonoseki
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_SHUNAN = {
+		region_state:YMC = {
+			create_pop = {
+				culture = yamaguchi
+				size = 2000000
+			}
+			create_pop = {
+				culture = shimonoseki
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_IWAKUNI = {
+		region_state:YMC = {
+			create_pop = {
+				culture = yamaguchi
+				size = 2000000
+			}
+			create_pop = {
+				culture = yanai
+				size = 2000000
+			}
+		}
+	}
+
+	#広島
+	s:STATE_HATSUKAICHI = {
+		region_state:HRS = {
+			create_pop = {
+				culture = hiroshima
+				size = 1000000
+			}
+			create_pop = {
+				culture = bitchu
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_HIROSHIMA = {
+		region_state:HRS = {
+			create_pop = {
+				culture = hiroshima
+				size = 2000000
+			}
+			create_pop = {
+				culture = korean
+				size = 5000
+			}
+		}
+	}
+	s:STATE_KURE = {
+		region_state:HRS = {
+			create_pop = {
+				culture = hiroshima
+				size = 1000000
+			}
+			create_pop = {
+				culture = kure
+				size = 1000000
+			}
+			create_pop = {
+				culture = korean
+				size = 5000
+			}
+		}
+	}
+	s:STATE_GEIHOKU = {
+		region_state:HRS = {
+			create_pop = {
+				culture = hiroshima
+				size = 1000000
+			}
+			create_pop = {
+				culture = fukuyama
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_BINGO = {
+		region_state:HRS = {
+			create_pop = {
+				culture = hiroshima
+				size = 1000000
+			}
+			create_pop = {
+				culture = fukuyama
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_BIHOKU = {
+		region_state:HRS = {
+			create_pop = {
+				culture = hiroshima
+				size = 1000000
+			}
+			create_pop = {
+				culture = bizen
+				size = 1000000
+			}
+		}
+	}
+	
+	#岡山
+	s:STATE_OKAYAMABIZEN = {
+		region_state:OKY = {
+			create_pop = {
+				culture = bizen
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_OKAYAMA = {
+		region_state:OKY = {
+			create_pop = {
+				culture = bizen
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_KURASHIKI = {
+		region_state:OKY = {
+			create_pop = {
+				culture = bizen
+				size = 1000000
+			}
+			create_pop = {
+				culture = bitchu
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_BIZEN = {
+		region_state:OKY = {
+			create_pop = {
+				culture = bizen
+				size = 1000000
+			}
+			create_pop = {
+				culture = bizen
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_BICCHU = {
+		region_state:OKY = {
+			create_pop = {
+				culture = bizen
+				size = 1000000
+			}
+			create_pop = {
+				culture = bitchu
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_MIMASAKA = {
+		region_state:OKY = {
+			create_pop = {
+				culture = bizen
+				size = 1000000
+			}
+			create_pop = {
+				culture = mimasaka
+				size = 1000000
+			}
+		}
+	}
+}
+

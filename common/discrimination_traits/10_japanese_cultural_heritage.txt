@@ -38,7 +38,7 @@ kanto = {
 	heritage = yes
 }
 
-tohoku = {
+owu = {
 	heritage = yes
 }
 
@@ -47,5 +47,13 @@ hokkaido = {
 }
 
 ainu = {
+	heritage = yes
+}
+
+kinki = {
+	heritage = yes
+}
+
+ezo = {
 	heritage = yes
 }

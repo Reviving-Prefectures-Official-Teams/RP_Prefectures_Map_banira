@@ -11,6 +11,7 @@ honichi = {}
 okinawa_group = {}
 amami_group = {}
 yaeyama_group = {}
+tsushima_group = {}
 
 #中国・四国地方
 north_shikoku = {}
@@ -25,10 +26,12 @@ east_sanyo = {}
 tanba_group = {}
 settsu = {}
 kinai = {}
-kii = {}
+kii_group = {}
 ohmi = {}
 ryonan = {}
 mie = {}
+kinki = {}
+
 
 #中部
  akiyamago_group = {}
@@ -43,6 +46,7 @@ mie = {}
  matsumoto_group = {}
  nagano_group = {}
  sado_group = {}
+ tokai_group = {}
 
  #関東
  tokyo = {}
@@ -56,3 +60,16 @@ mie = {}
  japanese_pidgin = {}
  hachijo_group = {}
  iwo_group = {}
+
+ #東北
+ tsugaru_group = {}
+ shimokita_group = {}
+ nanbu_group = {}
+ sendai_group = {}
+ iwaki_group = {}
+ aidu_group = {}
+ dewa_group = {}
+
+ #北海道
+ hokkaido_group = {}
+ indigenous_group = {}
