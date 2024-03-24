@@ -153,3 +153,14 @@ DAT = {
 	cultures = { daito }
 	capital = STATE_DAITOH_SHOTOH
 }
+
+USR = { #琉球列島米国民政府
+	color = { 66 94 193 }
+	
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { yankee }
+	capital = STATE_CHUZAN
+}

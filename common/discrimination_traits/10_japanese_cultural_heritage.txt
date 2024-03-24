@@ -1,0 +1,51 @@
+﻿seikaido = {
+	heritage = yes
+}
+
+ryukyu = {
+	heritage = yes
+}
+
+nankaido = {
+	heritage = yes
+}
+
+sanyodo = {
+	heritage = yes
+}
+
+sanindo = {
+	heritage = yes
+}
+
+kinki_group = {
+	heritage = yes
+}
+
+tozando = {
+	heritage = yes
+}
+
+hokurikudo = {
+	heritage = yes
+}
+
+tokaido = {
+	heritage = yes
+}
+
+kanto = {
+	heritage = yes
+}
+
+tohoku = {
+	heritage = yes
+}
+
+hokkaido = {
+	heritage = yes
+}
+
+ainu = {
+	heritage = yes
+}

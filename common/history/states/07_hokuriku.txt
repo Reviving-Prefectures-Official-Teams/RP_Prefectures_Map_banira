@@ -1,0 +1,157 @@
+﻿# "Why do some state entries have quote marks around them, when others don't?"
+# "It's because of differing methods of editing throughout the production of the game. Quote marks are unnecessary, but harmless if present."
+
+STATES = {
+
+	#石川
+	s:STATE_KANAZAWA = {
+		create_state = {
+			country = c:ISK
+    		owned_provinces = { "x72BBFA" "xA37CDD" "xA3F0DD" "xC28AD7" "xC4D8E0" "xC6F84F" "xCA6CD1" "xDB79E8" "xE17BAF" "xFB6A90" "xFE8197" }
+		}
+		add_homeland = cu:kanazawa
+	}
+
+	s:STATE_OKUNOTO = {
+		create_state = {
+			country = c:ISK
+    		owned_provinces = { "x7DEAF9" "x8DB4D1" "x9ECBD3" "xA2B2EB" "xAEAFE8" "xB1ED73" "xD7D4A9" "xD9EA9C" "xDBA6F1" "xDD9490" "xE6C65A" "xEBF387" "xF2D938" "xFF7FBF" }
+		}
+		add_homeland = cu:noto
+	}
+
+	s:STATE_NAKANOTO = {
+		create_state = {
+			country = c:ISK
+    		owned_provinces = { "x72A5E1" "x84D926" "x91B2B2" "x94C7B7" "x97D9D2" "x9E77E2" "xB5B68F" "xB5F776" "xBE93E1" "xCC81B9" "xCCEFA5" "xD496DA" "xD6FA2E" "xDAD480" "xEBE8D4" "xF6B9A6" }
+		}
+		add_homeland = cu:noto
+	}
+
+	s:STATE_MINAMIKAMO = {
+		create_state = {
+			country = c:ISK
+    		owned_provinces = { "x30EAEA" "x75C5EB" "x9598DE" "xAFCFBF" "xB3E9E3" "xC0A9E2" "xC0B8D4" "xC34EF8" "xCFB987" "xD98797" "xDFD5E5" "xE2F9B9" "xE774F1" "xE9BC57" "xEBCBA8" "xEEDB65" "xF942CB" "xFF0FFF" }
+		}
+		add_homeland = cu:kanazawa
+	}
+	#富山
+
+	s:STATE_TOYAMA = {
+		create_state = {
+			country = c:TOY
+    		owned_provinces = { "x55E7EE" "x61D7E0" "x6530C9" "x796D1C" "x8559D7" "x90F4B8" "x93BBFC" "x96E3F0" "x97854F" "xA392F6" "xA7B5D8" "xABCDDC" "xACFEAB" "xB097EB" "xB9E371" "xBFAD2B" "xC0CB78" "xC1ABAC" "xC1B387" "xC2F2E8" "xC4B082" "xC878EC" "xDA77FC" "xDCCE63" "xDD69C4" "xE09CA4" "xEA93AB" "xF184C3" "xF53FDB" }
+		}
+		add_homeland = cu:toyama
+	}
+
+	s:STATE_NIIKAWA = {
+		create_state = {
+			country = c:TOY
+    		owned_provinces = { "x5BCBD9" "x74F8F7" "x772796" "x8968BB" "x9431B9" "x96F0AF" "x99D629" "xA687E2" "xA741CD" "xB3C48B" "xBC5EEE" "xC0AEDB" "xC27EE0" "xC9E98E" "xDEB7EC" "xE4E567" "xE693C2" "xF1AFEE" "xF57D9C" "xFBC5B6" "xFDE1D2" }
+		}
+		add_homeland = cu:toyama
+	}
+
+	s:STATE_TAKAOKA = {
+		create_state = {
+			country = c:TOY
+    		owned_provinces = { "x3BF1CB" "xA1EE82" "xB3AFD8" "xB7B2D7" "xC7E291" "xD5F7CD" "xDCE69F" "xE0D66D" "xE19EC0" "xE1C37B" "xECF4BC" "xEDFBE2" "xF047F9" "xFEDEBC" }
+		}
+		add_homeland = cu:takaoka
+	}
+
+	s:STATE_TONAMI = {
+		create_state = {
+			country = c:TOY
+    		owned_provinces = { "x83F4F3" "x8BBCBF" "xBFB982" "xC4EBAC" "xC4FD4C" "xCAD7CB" "xD4AAB0" "xD6E3B9" "xDC37F4" "xDE64E1" "xDE9FDA" "xDFB3A2" "xE2DD69" "xEEC846" "xFF2FFF" "xFF6FFF" }
+		}
+		add_homeland = cu:takaoka
+		add_homeland = cu:gokayama
+	}
+	#新潟
+
+	s:STATE_NIIGATA = {
+		create_state = {
+			country = c:NIG
+    		owned_provinces = { "x31F3DD" "x50CBE5" "x8CFAB3" "x94CEB0" "xABBDC3" "xABC6EF" "xAE7CD9" "xB093F5" "xBC5BF3" "xE33FE5" "xE5A385" "xE684E2" "xEAD28F" "xED56BE" "xF1DFC4" "xF5EC18" "xF9DACF" "xFA7AF2" "xFDF339" }
+		}
+		add_homeland = cu:niigata
+	}
+
+	s:STATE_KAETSU = {
+		create_state = {
+			country = c:NIG
+    		owned_provinces = { "x5AECF5" "x60F1B9" "x71BBDC" "x78ECF4" "x79F0CD" "x86E2A3" "x8ABEB5" "x908CEC" "x9DA9F5" "xA89BB3" "xAAD3BB" "xAAF9AD" "xB063EF" "xB299AD" "xB2E3CA" "xBCC7B8" "xC0FD81" "xC4B29D" "xD6D59A" "xDA56E3" "xDB65EF" "xE084FD" "xEFB792" "xF27D95" "xFDFC46" "xFE2FFC" }
+		}
+		add_homeland = cu:niigata
+	}
+
+	s:STATE_NIIGATAMINAMI = {
+		create_state = {
+			country = c:NIG
+    		owned_provinces = { "x7EA5E1" "x8FA0DD" "x92FBA6" "x9FCDFA" "xACE3C2" "xADDBD9" "xC68FC6" "xDD5ACA" "xE1D7A6" "xE3F445" "xF4D929" "xFE17F7" }
+		}
+		add_homeland = cu:niigata
+		add_homeland = cu:nagaoka
+	}
+
+	s:STATE_NAGAOKA = {
+		create_state = {
+			country = c:NIG
+    		owned_provinces = { "x41E8D6" "x5CEBF5" "x78CFEA" "x9ECFD5" "xA5D4E8" "xB5E9AD" "xB7C0F1" "xBAEA67" "xBC89B0" "xBEA59D" "xBFB2B5" "xC0BFB4" "xCAE8A1" "xCC4BDF" "xE6FEE2" "xE7D2FE" "xE9ADCB" "xEFBDCB" "xF1BEA9" }
+		}
+		add_homeland = cu:takashima
+		add_homeland = cu:nagaoka
+	}
+
+	s:STATE_UONUMA = {
+		create_state = {
+			country = c:NIG
+    		owned_provinces = { "x3ECDEC" "x50EFD7" "x7BDABE" "x9FD9A6" "xADF4EA" "xB3AFF2" "xB9FA8A" "xC8E1F9" "xCE4DF6" "xCEEF40" "xD2F3AB" "xD581C9" "xEBB1E3" "xEFBEB1" "xF1EAC8" "xF295B0" "xF8D07D" "xFA71DA" "xFABF75" "xFDCFB7" }
+		}
+		add_homeland = cu:akiyamago
+		add_homeland = cu:nagaoka
+	}
+
+	s:STATE_JOETSU = {
+		create_state = {
+			country = c:NIG
+    		owned_provinces = { "x5FE6BB" "x6EB0DD" "x72F799" "x76E8E5" "x7BA2E6" "x8DF4AE" "xB7AEDA" "xB7C4DC" "xBDD8E3" "xBDE85F" "xC1D570" "xC3C396" "xC5AE94" "xC697A7" "xCC44F1" "xD1F7B6" "xD6C6C2" "xD79FDA" "xDBE85E" "xDC65ED" "xDCE6A5" "xDDFA3B" "xEFF5FA" "xF663FE" "xF8C058" "xFB71F2" "xFB9BC2" "xFCF647" "xFE80D8" "xFEA9F1" "xFEEAAD" }
+		}
+		add_homeland = cu:myoko
+	}
+
+	s:STATE_SADO = {
+		create_state = {
+			country = c:NIG
+    		owned_provinces = { "x71F0E7" "x86F9F9" "x9BD983" "xB7B88E" "xC1DAA5" "xC47FF7" "xC9A0F8" "xC9A29B" "xCCDDAC" "xD08EF6" "xD556CD" "xD5A9C3" "xDD95B5" "xE4D8AC" "xE59296" "xE6A7A1" "xE825FA" "xECFC38" "xF069FC" "xFEA5C3" }
+		}
+		add_homeland = cu:sado
+	}
+	#福井
+
+	s:STATE_FUKUI = {
+		create_state = {
+			country = c:FKI
+    		owned_provinces = { "x54F3FA" "x68B9E8" "x6AE8C5" "x77E89E" "x7EE6A9" "x9EF0A4" "xA991FC" "xAAB4CE" "xB462F7" "xBD7ED2" "xCDD864" "xE8E460" "xE964ED" "xEDA3EE" "xF0C248" "xF37F91" "xF4C53D" "xF585A5" }
+		}
+		add_homeland = cu:fukui
+	}
+
+	s:STATE_OKUETSU = {
+		create_state = {
+			country = c:FKI
+    		owned_provinces = { "x32ECF8" "x84DAD7" "x88E7A6" "xB4BCC1" "xE9DDDE" "xEA77D5" "xEA9D51" "xF2C293" "xFCA661" "xFF5F7F" "xFF9F7F" "xFFDF7F" }
+		}
+		add_homeland = cu:fukui
+	}
+
+	s:STATE_TANNAN = {
+		create_state = {
+			country = c:FKI
+    		owned_provinces = { "x54EDD2" "x5AF1CC" "x8AF289" "x9FC4C4" "xABCCE2" "xB6F8D6" "xC6D3E8" "xD7F9BB" "xD97FE5" "xD9CAE2" "xE173E3" "xF0DFF7" "xF7CEB2" "xFBC8A0" "xFCDEFC" }
+		}
+		add_homeland = cu:fukui
+	}
+}

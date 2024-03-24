@@ -29,3 +29,30 @@ kii = {}
 ohmi = {}
 ryonan = {}
 mie = {}
+
+#中部
+ akiyamago_group = {}
+ tokai_group = {}
+ izu_group = {}
+ fuji_group = {}
+ hida_group = {}
+ toyama_group = {}
+ echizen = {}
+ echigo = {}
+ narada_group = {}
+ matsumoto_group = {}
+ nagano_group = {}
+ sado_group = {}
+
+ #関東
+ tokyo = {}
+ hitachi_group = {}
+ ryomo_group = {}
+ sagami_group = {}
+ musashi_group = {}
+ boso_group = {}
+
+ #南西諸島
+ japanese_pidgin = {}
+ hachijo_group = {}
+ iwo_group = {}

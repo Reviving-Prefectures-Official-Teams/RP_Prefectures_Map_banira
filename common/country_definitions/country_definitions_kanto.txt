@@ -3,7 +3,7 @@ GNM = {
 	color = {}
 	country_type = recognized
 	tier = kingdom
-	cultures = { japanese }
+	cultures = { omiya }
 	capital = STATE_MAEBASHI
 }
 # 栃木県
@@ -11,7 +11,7 @@ TCH = {
 	color = {}
 	country_type = recognized
 	tier = kingdom
-	cultures = { japanese }
+	cultures = { utsunomiya }
 	capital = STATE_UTSUNOMIYA
 }
 # 茨城県
@@ -19,7 +19,7 @@ IBR = {
 	color = {}
 	country_type = recognized
 	tier = kingdom
-	cultures = { japanese }
+	cultures = { mito }
 	capital = STATE_MITO
 }
 # 千葉県
@@ -27,7 +27,7 @@ CHB = {
 	color = {}
 	country_type = recognized
 	tier = kingdom
-	cultures = { japanese }
+	cultures = { chiba }
 	capital = STATE_CHIBA
 }
 # 埼玉県
@@ -35,7 +35,7 @@ SIT = {
 	color = {}
 	country_type = recognized
 	tier = kingdom
-	cultures = { japanese }
+	cultures = { omiya }
 	capital = STATE_SAITAMA
 }
 # 東京都
@@ -43,7 +43,7 @@ TKY = {
 	color = {}
 	country_type = recognized
 	tier = kingdom
-	cultures = { japanese }
+	cultures = { edo yamanote }
 	capital = STATE_CENTER_TOKYO
 }
 # 神奈川県
@@ -51,6 +51,6 @@ KNG = {
 	color = {}
 	country_type = recognized
 	tier = kingdom
-	cultures = { japanese }
+	cultures = { yokohama }
 	capital = STATE_YOKOHAMA
 }

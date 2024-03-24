@@ -350,6 +350,12 @@
 				size = 300000
 			}
 		}
+		region_state:WAK = {
+			create_pop = {
+				culture = kumano
+				size = 1000
+			}
+		}
 	}
 	#三重
 	s:STATE_YOKKAICHI = {
