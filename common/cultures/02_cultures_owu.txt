@@ -1,6 +1,6 @@
 ﻿#津軽文化（青森、弘前）
 aomori = {
-	color = rgb{ 50 50 20 }
+	color = rgb{155 178 157}
 	religion = shinbutsu_shugo
 	traits = { owu tsugaru_group }
 	male_common_first_names={
@@ -176,7 +176,7 @@ aomori = {
 }
  
 hirosaki = {
-	color = rgb{ 50 50 20 }
+	color = rgb{78 91 26}
 	religion = shinbutsu_shugo
 	traits = { owu tsugaru_group }
 	male_common_first_names={
@@ -353,7 +353,7 @@ hirosaki = {
 
 #下北文化（下北半島）
 shimokita = {
-	color = rgb{ 50 50 20 }
+	color = rgb{81 19 60}
 	religion = shinbutsu_shugo
 	traits = { owu shimokita_group }
 	male_common_first_names={
@@ -530,7 +530,7 @@ shimokita = {
 
 #南部文化（八戸、盛岡、釜石、八幡平）
 hachinohe = {
-	color = rgb{ 50 50 20 }
+	color = rgb{131 219 141}
 	religion = shinbutsu_shugo
 	traits = { owu nanbu_group }
 	male_common_first_names={
@@ -706,7 +706,7 @@ hachinohe = {
 }
 
 morioka = {
-	color = rgb{ 50 50 20 }
+	color = rgb{139 210 171}
 	religion = shinbutsu_shugo
 	traits = { owu nanbu_group }
 	male_common_first_names={
@@ -882,7 +882,7 @@ morioka = {
 }
 
 kamaishi = {
-	color = rgb{ 50 50 20 }
+	color = rgb{131 219 141}
 	religion = shinbutsu_shugo
 	traits = { owu nanbu_group }
 	male_common_first_names={
@@ -1058,7 +1058,7 @@ kamaishi = {
 }
 
 hachimantai = {
-	color = rgb{ 50 50 20 }
+	color = rgb{143 183 147}
 	religion = shinbutsu_shugo
 	traits = { owu nanbu_group }
 	male_common_first_names={
@@ -1235,7 +1235,7 @@ hachimantai = {
 
 #仙台文化（仙台、石巻、白石、気仙沼）
 kesen = {
-	color = rgb{ 50 50 20 }
+	color = rgb{46 110 178}
 	religion = shinbutsu_shugo
 	traits = { owu sendai_group }
 	male_common_first_names={
@@ -1411,7 +1411,7 @@ kesen = {
 }
 
 sendai = {
-	color = rgb{ 50 50 20 }
+	color = rgb{46 100 178}
 	religion = shinbutsu_shugo
 	traits = { owu sendai_group }
 	male_common_first_names={
@@ -1587,7 +1587,7 @@ sendai = {
 }
 
 shiroishi = {
-	color = rgb{ 50 50 20 }
+	color = rgb{46 120 168}
 	religion = shinbutsu_shugo
 	traits = { owu sendai_group }
 	male_common_first_names={
@@ -1763,7 +1763,7 @@ shiroishi = {
 }
 
 soma = {
-	color = rgb{ 50 50 20 }
+	color = rgb{66 130 178}
 	religion = shinbutsu_shugo
 	traits = { owu sendai_group }
 	male_common_first_names={
@@ -1940,7 +1940,7 @@ soma = {
 
 #磐城文化（福島、いわき）
 fukushima = {
-	color = rgb{ 50 50 20 }
+	color = rgb{156 170 146}
 	religion = shinbutsu_shugo
 	traits = { owu iwaki_group }
 	male_common_first_names={
@@ -2116,7 +2116,7 @@ fukushima = {
 }
 
 iwaki = {
-	color = rgb{ 50 50 20 }
+	color = rgb{176 190 146}
 	religion = shinbutsu_shugo
 	traits = { owu iwaki_group }
 	male_common_first_names={
@@ -2293,7 +2293,7 @@ iwaki = {
 
 #会津文化（会津）
 aidu = {
-	color = rgb{ 50 50 20 }
+	color = rgb{126 130 116}
 	religion = shinbutsu_shugo
 	traits = { owu aidu_group }
 	male_common_first_names={
@@ -2470,7 +2470,7 @@ aidu = {
 
 #出羽文化（山形、由利、秋田、荘内）
 akita = {
-	color = rgb{ 50 50 20 }
+	color = rgb{76 63 81}
 	religion = shinbutsu_shugo
 	traits = { owu dewa_group }
 	male_common_first_names={
@@ -2646,7 +2646,7 @@ akita = {
 }
 
 yuri = {
-	color = rgb{ 50 50 20 }
+	color = rgb{86 73 91}
 	religion = shinbutsu_shugo
 	traits = { owu dewa_group }
 	male_common_first_names={
@@ -2822,7 +2822,7 @@ yuri = {
 }
 
 shonai = {
-	color = rgb{ 50 50 20 }
+	color = rgb{81 68 86}
 	religion = shinbutsu_shugo
 	traits = { owu dewa_group }
 	male_common_first_names={
@@ -2998,7 +2998,7 @@ shonai = {
 }
 
 yamagata = {
-	color = rgb{ 50 50 20 }
+	color = rgb{71 58 76}
 	religion = shinbutsu_shugo
 	traits = { owu dewa_group }
 		male_common_first_names={

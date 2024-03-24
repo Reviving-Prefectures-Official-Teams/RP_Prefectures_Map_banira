@@ -1,6 +1,6 @@
 ﻿#北海道文化
 sapporo = {
-	color = rgb{ 50 50 20 }
+	color = rgb{83 52 86}
 	religion = shinbutsu_shugo
 	traits = { ezo hokkaido_group }
 	male_common_first_names={
@@ -176,7 +176,7 @@ sapporo = {
 }
 
 nemuro = {
-	color = rgb{ 50 50 20 }
+	color = rgb{15 0 15}
 	religion = shinbutsu_shugo
 	traits = { ezo hokkaido_group }
 	male_common_first_names={
@@ -352,7 +352,7 @@ nemuro = {
 }
 
 hakodate = {
-	color = rgb{ 50 50 20 }
+	color = rgb{158 63 140}
 	religion = shinbutsu_shugo
 	traits = { ezo hokkaido_group }
 	male_common_first_names={
@@ -528,7 +528,7 @@ hakodate = {
 }
 
 etorofu = {
-	color = rgb{ 50 50 20 }
+	color = rgb{86 28 78}
 	religion = shinbutsu_shugo
 	traits = { ezo hokkaido_group }
 	male_common_first_names={
@@ -705,7 +705,7 @@ etorofu = {
  
 #先住民族
 ainu = {
-	color = rgb{ 50 50 20 }
+	color = rgb{80 154 186}
 	religion = ainu_animism
 	traits = { ezo indigenous_group }
 	male_common_first_names={
@@ -881,7 +881,7 @@ ainu = {
 }
 
 nivkh = {
-	color = rgb{ 50 50 20 }
+	color = rgb{90 164 186}
 	religion = animism
 	traits = { ezo indigenous_group }
 	male_common_first_names={
@@ -1057,7 +1057,7 @@ nivkh = {
 }
 
 oroch = {
-	color = rgb{ 50 50 20 }
+	color = rgb{80 174 196}
 	religion = animism
 	traits = { ezo indigenous_group }
 	male_common_first_names={

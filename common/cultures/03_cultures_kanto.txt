@@ -1,6 +1,6 @@
 ﻿#東京文化（江戸、山手、向島）
 edo = {
-	color = rgb{ 50 50 20 }
+	color = rgb{206 206 113}
 	religion = shinbutsu_shugo
 	traits = { kanto tokyo }
 	male_common_first_names={
@@ -176,7 +176,7 @@ edo = {
 }
 
 yamanote = {
-	color = rgb{ 50 50 20 }
+	color = rgb{196 196 103}
 	religion = shinbutsu_shugo
 	traits = { kanto tokyo }
 	male_common_first_names={
@@ -352,7 +352,7 @@ yamanote = {
 }
 
 mukojima = {
-	color = rgb{ 50 50 20 }
+	color = rgb{186 186 93}
 	religion = shinbutsu_shugo
 	traits = { kanto tokyo }
 	male_common_first_names={
@@ -529,7 +529,7 @@ mukojima = {
 
 #常陸文化（常陸、水戸、筑波）
 hitachi = {
-	color = rgb{ 50 50 20 }
+	color = rgb{78 74 86}
 	religion = shinbutsu_shugo
 	traits = { kanto hitachi_group }
 	male_common_first_names={
@@ -705,7 +705,7 @@ hitachi = {
 }
 
 mito = {
-	color = rgb{ 50 50 20 }
+	color = rgb{88 84 96}
 	religion = shinbutsu_shugo
 	traits = { kanto hitachi_group }
 	male_common_first_names={
@@ -881,7 +881,7 @@ mito = {
 }
 
 tsukuba = {
-	color = rgb{ 50 50 20 }
+	color = rgb{98 94 106}
 	religion = shinbutsu_shugo
 	traits = { kanto hitachi_group }
 	male_common_first_names={
@@ -1058,7 +1058,7 @@ tsukuba = {
 
 #相模文化（相模、小田原、横須賀）
 odawara = {
-	color = rgb{ 50 50 20 }
+	color = rgb{43 165 128}
 	religion = shinbutsu_shugo
 	traits = { kanto sagami_group }
 	male_common_first_names={
@@ -1234,7 +1234,7 @@ odawara = {
 }
 
 sagamihara = {
-	color = rgb{ 50 50 20 }
+	color = rgb{53 175 138}
 	religion = shinbutsu_shugo
 	traits = { kanto sagami_group }
 	male_common_first_names={
@@ -1410,7 +1410,7 @@ sagamihara = {
 }
 
 yokosuka = {
-	color = rgb{ 50 50 20 }
+	color = rgb{63 185 148}
 	religion = shinbutsu_shugo
 	traits = { kanto sagami_group }
 	male_common_first_names={
@@ -1587,7 +1587,7 @@ yokosuka = {
 
 #武蔵文化（横浜、熊谷、川越、多摩、大宮、秩父）
 yokohama = {
-	color = rgb{ 50 50 20 }
+	color = rgb{168 84 158}
 	religion = shinbutsu_shugo
 	traits = { kanto musashi_group tokyo }
 	male_common_first_names={
@@ -1763,7 +1763,7 @@ yokohama = {
 }
 
 kumagaya = {
-	color = rgb{ 50 50 20 }
+	color = rgb{178 94 168}
 	religion = shinbutsu_shugo
 	traits = { kanto musashi_group }
 	male_common_first_names={
@@ -1939,7 +1939,7 @@ kumagaya = {
 }
 
 kawagoe = {
-	color = rgb{ 50 50 20 }
+	color = rgb{188 104 178}
 	religion = shinbutsu_shugo
 	traits = { kanto musashi_group }
 	male_common_first_names={
@@ -2115,7 +2115,7 @@ kawagoe = {
 }
 
 tama = {
-	color = rgb{ 50 50 20 }
+	color = rgb{198 114 188}
 	religion = shinbutsu_shugo
 	traits = { kanto musashi_group }
 	male_common_first_names={
@@ -2291,7 +2291,7 @@ tama = {
 }
 
 omiya = {
-	color = rgb{ 50 50 20 }
+	color = rgb{208 124 198}
 	religion = shinbutsu_shugo
 	traits = { kanto musashi_group }
 	male_common_first_names={
@@ -2467,7 +2467,7 @@ omiya = {
 }
 
 chichibu = {
-	color = rgb{ 50 50 20 }
+	color = rgb{218 134 208}
 	religion = shinbutsu_shugo
 	traits = { kanto musashi_group }
 	male_common_first_names={
@@ -2644,7 +2644,7 @@ chichibu = {
 
 #房総文化（千葉、銚子、館山、勝浦、成田、古賀）
 tateyama = {
-	color = rgb{ 50 50 20 }
+	color = rgb{147 124 118}
 	religion = shinbutsu_shugo
 	traits = { kanto boso_group }
 	male_common_first_names={
@@ -2820,7 +2820,7 @@ tateyama = {
 }
 
 koga = {
-	color = rgb{ 50 50 20 }
+	color = rgb{157 134 128}
 	religion = shinbutsu_shugo
 	traits = { kanto boso_group }
 	male_common_first_names={
@@ -2996,7 +2996,7 @@ koga = {
 }
 
 katsuura = {
-	color = rgb{ 50 50 20 }
+	color = rgb{167 144 138}
 	religion = shinbutsu_shugo
 	traits = { kanto boso_group }
 	male_common_first_names={
@@ -3172,7 +3172,7 @@ katsuura = {
 }
 
 narita = {
-	color = rgb{ 50 50 20 }
+	color = rgb{177 154 148}
 	religion = shinbutsu_shugo
 	traits = { kanto boso_group }
 	male_common_first_names={
@@ -3348,7 +3348,7 @@ narita = {
 }
 
 chiba = {
-	color = rgb{ 50 50 20 }
+	color = rgb{187 164 158}
 	religion = shinbutsu_shugo
 	traits = { kanto boso_group }
 	male_common_first_names={
@@ -3524,7 +3524,7 @@ chiba = {
 }
 
 choshi = {
-	color = rgb{ 50 50 20 }
+	color = rgb{197 174 168}
 	religion = shinbutsu_shugo
 	traits = { kanto boso_group }
 	male_common_first_names={
@@ -3701,7 +3701,7 @@ choshi = {
 
 #両毛文化（前橋、吾妻、宇都宮、足利、栃木）
 utsunomiya = {
-	color = rgb{ 50 50 20 }
+	color = rgb{76 11 3}
 	religion = shinbutsu_shugo
 	traits = { kanto ryomo_group }
 	male_common_first_names={
@@ -3877,7 +3877,7 @@ utsunomiya = {
 }
 
 agazuma = {
-	color = rgb{ 50 50 20 }
+	color = rgb{86 21 13}
 	religion = shinbutsu_shugo
 	traits = { kanto ryomo_group }
 	male_common_first_names={
@@ -4053,7 +4053,7 @@ agazuma = {
 }
 
 maebashi = {
-	color = rgb{ 50 50 20 }
+	color = rgb{96 31 23}
 	religion = shinbutsu_shugo
 	traits = { kanto ryomo_group }
 	male_common_first_names={
@@ -4229,7 +4229,7 @@ maebashi = {
 }
 
 ashikaga = {
-	color = rgb{ 50 50 20 }
+	color = rgb{106 41 33}
 	religion = shinbutsu_shugo
 	traits = { kanto ryomo_group }
 	male_common_first_names={
@@ -4405,7 +4405,7 @@ ashikaga = {
 }
 
 tochigi = {
-	color = rgb{ 50 50 20 }
+	color = rgb{116 5143}
 	religion = shinbutsu_shugo
 	traits = { kanto ryomo_group }
 	male_common_first_names={

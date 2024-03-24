@@ -82,7 +82,7 @@ STATES = {
 	s:STATE_KAETSU = {
 		create_state = {
 			country = c:NIG
-    		owned_provinces = { "x5AECF5" "x60F1B9" "x71BBDC" "x78ECF4" "x79F0CD" "x86E2A3" "x8ABEB5" "x908CEC" "x9DA9F5" "xA89BB3" "xAAD3BB" "xAAF9AD" "xB063EF" "xB299AD" "xB2E3CA" "xBCC7B8" "xC0FD81" "xC4B29D" "xD6D59A" "xDA56E3" "xDB65EF" "xE084FD" "xEFB792" "xF27D95" "xFDFC46" "xFE2FFC" }
+    		owned_provinces = { "xC5A1F9" "x5AECF5" "x60F1B9" "x71BBDC" "x78ECF4" "x79F0CD" "x86E2A3" "x8ABEB5" "x908CEC" "x9DA9F5" "xA89BB3" "xAAD3BB" "xAAF9AD" "xB063EF" "xB299AD" "xB2E3CA" "xBCC7B8" "xC0FD81" "xC4B29D" "xD6D59A" "xDA56E3" "xDB65EF" "xE084FD" "xEFB792" "xF27D95" "xFDFC46" "xFE2FFC" }
 		}
 		add_homeland = cu:niigata
 	}

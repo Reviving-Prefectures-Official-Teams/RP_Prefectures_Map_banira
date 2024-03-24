@@ -149,6 +149,19 @@
 	}
 
 	#山梨
+	s:STATE_FUJIHIGASHI = {
+		region_state:YMN = {
+			create_pop = {
+				culture = fuji
+				size = 2000000
+			}
+			create_pop = {
+				culture = fuji
+				religion =fuji_faith
+				size = 10000
+			}
+		}
+	}
 	s:STATE_YAMANASHI = {
 		region_state:YMN = {
 			create_pop = {
@@ -168,7 +181,7 @@
 	s:STATE_KYONAN = {
 		region_state:YMN = {
 			create_pop = {
-				culture = yamanashi
+				culture = kofu
 				size = 2000000
 			}
 		}

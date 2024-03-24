@@ -3,7 +3,7 @@ NIG = {
 	color = rgb{32 145 155}
 	country_type = recognized
 	tier = kingdom
-	cultures = { NIG }
+	cultures = { niigata } 
 	capital = STATE_NIIGATA
 }
 # 石川県

@@ -1,18 +1,5 @@
 ﻿POPS = {
 	#静岡
-	s:STATE_FUJIHIGASHI = {
-		region_state:SHZ = {
-			create_pop = {
-				culture = fuji
-				size = 2000000
-			}
-			create_pop = {
-				culture = fuji
-				religion =fuji_faith
-				size = 10000
-			}
-		}
-	}
 	s:STATE_IZU = {
 		region_state:SHZ = {
 			create_pop = {

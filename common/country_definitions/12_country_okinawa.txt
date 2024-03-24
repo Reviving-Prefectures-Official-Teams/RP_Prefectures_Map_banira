@@ -1,0 +1,70 @@
+﻿OKI = {
+	color = { 177 51 34 }
+	
+	country_type = recognized
+
+	tier = principality
+	#religion = shinto
+	
+	cultures = { okinawa }
+	capital = STATE_NANZAN
+}
+
+AMA = {
+	color = { 66  94  193 }
+	
+	country_type = colonial
+	#religion = shinto
+	
+	tier = principality
+	
+	cultures = { amami }
+	capital = STATE_AMAMI_GUNTOH
+}
+
+TKR = {
+	color = { 190  186  202 }
+	
+	country_type = colonial
+	#religion = shinto
+	
+	tier = principality
+	
+	cultures = { tokara }
+	capital = STATE_TOKARA_RETTOH
+}
+
+YAE = {
+	color = { 106  124  243 }
+	
+	country_type = colonial
+	
+	tier = principality
+	#religion = shinto
+	
+	cultures = { yaeyama }
+	capital = STATE_YAEYAMA_GUNTOH
+}
+
+DAT = {
+	color = { 212 100 141 }
+	
+	country_type = colonial
+	#religion = shinto
+	
+	tier = principality
+	
+	cultures = { daito }
+	capital = STATE_DAITOH_SHOTOH
+}
+
+USR = { #琉球列島米国民政府
+	color = { 66 94 193 }
+	
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { yankee }
+	capital = STATE_CHUZAN
+}

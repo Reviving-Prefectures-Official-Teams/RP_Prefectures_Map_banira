@@ -82,18 +82,6 @@ KGS = {
 	capital = STATE_KAGOSHIMA
 }
 
-OKI = {
-	color = { 177 51 34 }
-	
-	country_type = recognized
-
-	tier = principality
-	#religion = shinto
-	
-	cultures = { okinawa }
-	capital = STATE_NANZAN
-}
-
 TSM = {
 	color = { 211  220  240 }
 
@@ -104,6 +92,18 @@ TSM = {
 	
 	cultures = { tsushima }
 	capital = STATE_TSUSHIMA_SHOTOH
+}
+
+OKI = {
+	color = { 177 51 34 }
+	
+	country_type = recognized
+
+	tier = principality
+	#religion = shinto
+	
+	cultures = { okinawa }
+	capital = STATE_NANZAN
 }
 
 AMA = {

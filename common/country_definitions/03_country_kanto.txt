@@ -32,7 +32,7 @@ CHB = {
 }
 # 埼玉県
 SIT = {
-	color = {37 8 48}
+	color = {11 102 33}
 	country_type = recognized
 	tier = kingdom
 	cultures = { omiya }
