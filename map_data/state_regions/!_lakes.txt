@@ -45,7 +45,7 @@ STATE_AKKESHIWAN = {
     provinces = { "x0A5030" }
 }
 #北海道摩周湖
-STATE_MASYOKO = {
+STATE_MASYUKO = {
     id = 3109
     provinces = { "x1B381D" }
 }
