@@ -1,0 +1,72 @@
+﻿# "Why do some state entries have quote marks around them, when others don't?"
+# "It's because of differing methods of editing throughout the production of the game. Quote marks are unnecessary, but harmless if present."
+
+STATES = {
+	
+	#沖縄
+	s:STATE_AMAMI_GUNTOH = {
+		create_state = {
+			country = c:USR
+    		owned_provinces = { "x2FF1D9" "x4CFEF0" "x4FC9FB" "x55AEFB" "x85C6D0" "x85F2E7" "x92CFA7" "x9C8FCB" "xA0F19D" "xA374F0" "xA576DE" "xAAE9B6" "xAFDCDC" "xB676E2" "xB8E695" "xBCE7F7" "xC7D470" "xCCE3FE" "xD143F3" "xD5C4DE" "xDFDC63" "xE06BEC" "xE2D48F" "xE7B978" "xE7D76F" "xE7F726" "xE892E2" "xE8EAEF" "xF054F1" "xF1E4A6" "xF44BD9" "xF8C2DA" "xF993A0" "xFAE1E7" "xFB918D" "xFCA0EA" "xFDDBD5" }
+		}
+		add_homeland = cu:amami
+	}
+
+	s:STATE_DAITOH_SHOTOH = {
+		create_state = {
+			country = c:USR
+    		owned_provinces = { "x81ADEF" "xEAEBB7" }
+		}
+		add_homeland = cu:daito
+	}
+
+	s:STATE_HOKUZAN = {
+		create_state = {
+			country = c:USR
+    		owned_provinces = { "x56F0EA" "x6AEAD5" "x6BECC3" "x6EE9E6" "x6FD9EA" "x6FE5F9" "x74F48E" "x759CF1" "x92FABC" "x96FCAF" "x98D7F2" "x99C9DE" "xAB75F2" "xB4CC9F" "xB86FD1" "xBFCAED" "xBFF160" "xC1F664" "xC8AFA3" "xCD9A90" "xD1F08E" "xD5AFBF" "xD7F282" "xD8F0C6" "xDB94A4" "xDBBDBB" "xE474AC" "xE69E89" "xE6A9C5" "xE739EA" "xE979B2" "xE989CF" "xEE8787" "xF0E6B2" "xF6D6B8" "xF7EB8F" "xF8D675" "xF9DAFE" "xFCEB69" }
+		}
+		add_homeland = cu:yambaru
+	}
+
+	s:STATE_CHUZAN = {
+		create_state = {
+			country = c:USR
+    		owned_provinces = { "x47EBF2" "x809ADD" "x85DFA6" "x99AFB7" "xBABCF8" "xC1F67D" "xC7DCF5" "xC862DD" "xD283C9" "xD7C271" "xD865DD" "xE4CFFC" "xF6CC40" "xF8D13D" "xF8EB81" }
+		}
+		add_homeland = cu:okinawa
+	}
+
+	s:STATE_NANZAN = {
+		create_state = {
+			country = c:USR
+    		owned_provinces = { "xA39BBD" "xA3DAA1" "xCCF6C5" "xD6EAC0" "xE2B3DD" "xE5CCC1" "xECA49F" "xF8FAC0" "xFB1AEC" }
+		}
+		add_homeland = cu:okinawa
+	}
+
+	s:STATE_KUME_SHOTOH = {
+		create_state = {
+			country = c:USR
+    		owned_provinces = { "x4FF8FB" "x94BCF8" "xBA48FC" "xBD8CF5" }
+		}
+		add_homeland = cu:okinawa
+	}
+
+	s:STATE_SENTAN_SHOTOH = {
+		create_state = {
+			country = c:USR
+    		owned_provinces = { "x3BEBEA" "x42E1F5" "x82DDB5" "x87C1F3" "x9193EB" "x92E0A2" "xA8B2B5" "xB4DF87" "xCB67DC" "xCD8DBB" "xE89DD1" "xE9C661" "xEB8687" "xF8F66E" }
+		}
+		add_homeland = cu:yaeyama
+		add_homeland = cu:miyako
+	}
+
+	s:STATE_SENKAKU_SHOTOH = {
+		create_state = {
+			country = c:USR
+    		owned_provinces = { "xB46BF3" }
+		}
+		add_homeland = cu:yaeyama
+	}
+}
+

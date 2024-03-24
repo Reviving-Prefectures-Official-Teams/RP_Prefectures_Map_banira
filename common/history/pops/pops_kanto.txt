@@ -1,0 +1,458 @@
+﻿POPS = {
+
+	#神奈川
+	s:STATE_KAWASAKI = {
+		region_state:KNG = {
+			create_pop = {
+				culture = yokohama
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_YOKOHAMA = {
+		region_state:KNG = {
+			create_pop = {
+				culture = yokohama
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_YOKOSUKA = {
+		region_state:KNG = {
+			create_pop = {
+				culture = yokosuka
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_SAGAMIHARA = {
+		region_state:KNG = {
+			create_pop = {
+				culture = sagamihara
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_SHONAN = {
+		region_state:KNG = {
+			create_pop = {
+				culture = yokosuka
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_ODAWARA = {
+		region_state:KNG = {
+			create_pop = {
+				culture = odawara
+				size = 2000000
+			}
+		}
+	}
+
+	#東京
+	s:STATE_OKUTAMA = {
+		region_state:TKY = {
+			create_pop = {
+				culture = tama
+				size = 500000
+			}
+			create_pop = {
+				culture = chichibu
+				size = 500000
+			}
+		}
+	}
+	s:STATE_SOUTH_TAMA = {
+		region_state:TKY = {
+			create_pop = {
+				culture = tama
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_NORTH_TAMA = {
+		region_state:TKY = {
+			create_pop = {
+				culture = tama
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_MACHIDA = {
+		region_state:TKY = {
+			create_pop = {
+				culture = odawara
+				size = 2000000
+			}
+			create_pop = {
+				culture = iwo
+				size = 1000
+			}
+		}
+	}
+	s:STATE_JOSAI = {
+		region_state:TKY = {
+			create_pop = {
+				culture = edo
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_JOHOKU = {
+		region_state:TKY = {
+			create_pop = {
+				culture = edo
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_JONAN = {
+		region_state:TKY = {
+			create_pop = {
+				culture = edo
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_CENTER_TOKYO = {
+		region_state:TKY = {
+			create_pop = {
+				culture = yamanote
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_JOTO = {
+		region_state:TKY = {
+			create_pop = {
+				culture = mukojima
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_IZU_ISLAND = {
+		region_state:TKY = {
+			create_pop = {
+				culture = izu
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_HACHIJO = {
+		region_state:TKY = {
+			create_pop = {
+				culture = hachijo
+				size = 2000000
+			}
+		}
+	}
+
+	#合衆国軍
+	s:STATE_OGASAWARA = {
+		region_state:USR = {
+			create_pop = {
+				culture = ogasawara
+				size = 1000
+			}
+			create_pop = {
+				culture = yankee
+				size = 500
+			}
+			create_pop = {
+				culture = odawara
+				size = 500
+			}
+			create_pop = {
+				culture = izu
+				size = 500
+			}
+			create_pop = {
+				culture = ise
+				size = 500
+			}
+		}
+	}
+	s:STATE_KAZANRETTO = {
+		region_state:USR = {
+			create_pop = {
+				culture = yankee
+				size = 500
+			}
+		}
+	}
+
+	#埼玉
+	s:STATE_CHICHIBU = {
+		region_state:SIT = {
+			create_pop = {
+				culture = chichibu
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_KODAMA_OSATO = {
+		region_state:SIT = {
+			create_pop = {
+				culture = kumagaya
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_HIKI = {
+		region_state:SIT = {
+			create_pop = {
+				culture = kawagoe
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_IRUMA = {
+		region_state:SIT = {
+			create_pop = {
+				culture = kawagoe
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_SAITAMA = {
+		region_state:SIT = {
+			create_pop = {
+				culture = omiya
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_NORTH_KATSUSHIKA = {
+		region_state:SIT = {
+			create_pop = {
+				culture = omiya
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_TONE = {
+		region_state:SIT = {
+			create_pop = {
+				culture = omiya
+				size = 2000000
+			}
+			create_pop = {
+				culture = kumagaya
+				size = 500000
+			}
+		}
+	}
+
+	#千葉
+	s:STATE_NANSO = {
+		region_state:CHB = {
+			create_pop = {
+				culture = tateyama
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_TOSO = {
+		region_state:CHB = {
+			create_pop = {
+				culture = katsuura
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_CHIBA = {
+		region_state:CHB = {
+			create_pop = {
+				culture = chiba
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_KATSUSHIKA = {
+		region_state:CHB = {
+			create_pop = {
+				culture = chiba
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_EAST_KATSUSHIKA = {
+		region_state:CHB = {
+			create_pop = {
+				culture = chiba
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_KUJYUKURI = {
+		region_state:CHB = {
+			create_pop = {
+				culture = choshi
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_INBA = {
+		region_state:CHB = {
+			create_pop = {
+				culture = narita
+				size = 2000000
+			}
+		}
+	}
+
+	#群馬県
+	s:STATE_TOMOU = {
+		region_state:GNM = {
+			create_pop = {
+				culture = ashikaga
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_MAEBASHI = {
+		region_state:GNM = {
+			create_pop = {
+				culture = maebashi
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_SEIMOU = {
+		region_state:GNM = {
+			create_pop = {
+				culture = maebashi
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_NUMATA = {
+		region_state:GNM = {
+			create_pop = {
+				culture = maebashi
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_AGATSUMA = {
+		region_state:GNM = {
+			create_pop = {
+				culture = agazuma
+				size = 2000000
+			}
+		}
+	}
+
+	#栃木県
+	s:STATE_ASHIKAGA = {
+		region_state:TCH = {
+			create_pop = {
+				culture = ashikaga
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_TOCHIGI = {
+		region_state:TCH = {
+			create_pop = {
+				culture = tochigi
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_UTSUNOMIYA = {
+		region_state:TCH = {
+			create_pop = {
+				culture = utsunomiya
+				size = 2000000
+			}
+			create_pop = {
+				culture = tochigi
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_NIKKO = {
+		region_state:TCH = {
+			create_pop = {
+				culture = utsunomiya
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_NASU = {
+		region_state:TCH = {
+			create_pop = {
+				culture = tochigi
+				size = 1000000
+			}
+			create_pop = {
+				culture = utsunomiya
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_HAGA = {
+		region_state:TCH = {
+			create_pop = {
+				culture = tochigi
+				size = 1000000
+			}
+			create_pop = {
+				culture = utsunomiya
+				size = 1000000
+			}
+		}
+	}
+
+	#茨城県
+	s:STATE_ROKKO = {
+		region_state:IBR = {
+			create_pop = {
+				culture = choshi
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_HITACHI = {
+		region_state:IBR = {
+			create_pop = {
+				culture = hitachi
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_MITO = {
+		region_state:IBR = {
+			create_pop = {
+				culture = mito
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_RYUUGASAKI = {
+		region_state:IBR = {
+			create_pop = {
+				culture = mito
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_TSUKUBA = {
+		region_state:IBR = {
+			create_pop = {
+				culture = tsukuba
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_KOGA = {
+		region_state:IBR = {
+			create_pop = {
+				culture = koga
+				size = 2000000
+			}
+		}
+	}
+}

@@ -1,0 +1,145 @@
+﻿POPS = {
+	#静岡
+	s:STATE_FUJIHIGASHI = {
+		region_state:SHZ = {
+			create_pop = {
+				culture = fuji
+				size = 2000000
+			}
+			create_pop = {
+				culture = fuji
+				religion =fuji_faith
+				size = 10000
+			}
+		}
+	}
+	s:STATE_IZU = {
+		region_state:SHZ = {
+			create_pop = {
+				culture = izu
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_GOTENBA = {
+		region_state:SHZ = {
+			create_pop = {
+				culture = gotemba
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_SIZUOKA = {
+		region_state:SHZ = {
+			create_pop = {
+				culture = shizuoka
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_HAMAMATSU = {
+		region_state:SHZ = {
+			create_pop = {
+				culture = hamamatsu
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_KAKEGAWA = {
+		region_state:SHZ = {
+			create_pop = {
+				culture = hamamatsu
+				size = 2000000
+			}
+		}
+	}
+	#愛知県
+	s:STATE_OWARI = {
+		region_state:AIC = {
+			create_pop = {
+				culture = nagoya
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_NAGOYA = {
+		region_state:AIC = {
+			create_pop = {
+				culture = nagoya
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_TOYOTA = {
+		region_state:AIC = {
+			create_pop = {
+				culture = koromo
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_OKAZAKI = {
+		region_state:AIC = {
+			create_pop = {
+				culture = okazaki
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_ATSUMI = {
+		region_state:AIC = {
+			create_pop = {
+				culture = toyohashi
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_HIGASHIMIKAWA = {
+		region_state:AIC = {
+			create_pop = {
+				culture = toyohashi
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_CHITA = {
+		region_state:AIC = {
+			create_pop = {
+				culture = chita
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_HIGASHI_OWARI = {
+		region_state:AIC = {
+			create_pop = {
+				culture = nagoya
+				size = 2000000
+			}
+		}
+	}
+	s:STATE_FUJI = {
+		region_state:SHZ = {
+			create_pop = {
+				culture = fuji
+				size = 50000
+			}
+			create_pop = {
+				culture = fuji
+				religion =fuji_faith
+				size = 10000
+			}
+		}
+		region_state:YMN = {
+			create_pop = {
+				culture = fuji
+				size = 50000
+			}
+			create_pop = {
+				culture = fuji
+				religion =fuji_faith
+				size = 10000
+			}
+		}
+	}
+}

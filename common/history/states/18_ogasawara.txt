@@ -1,0 +1,24 @@
+﻿# "Why do some state entries have quote marks around them, when others don't?"
+# "It's because of differing methods of editing throughout the production of the game. Quote marks are unnecessary, but harmless if present."
+
+STATES = {
+
+	#米国領有
+	s:STATE_OGASAWARA = {
+		create_state = {
+			country = c:USR
+    		owned_provinces = { "x77D4CC" "x77D4CC" "xB3D0F8" "xBBEBB1" "xBDC08F" "xDAE3F4" "xF2E177" }
+		}
+		add_homeland = cu:ogasawara
+	}
+	
+	s:STATE_KAZANRETTO = {
+		create_state = {
+			country = c:USR
+    		owned_provinces = { "xA8BB99" "xF6B499" "xFC8388" }
+		}
+		add_homeland = cu:iwo
+	}
+	
+}
+

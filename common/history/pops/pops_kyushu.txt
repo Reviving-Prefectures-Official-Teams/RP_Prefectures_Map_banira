@@ -142,6 +142,10 @@
 				culture = oita
 				size = 1000000
 			}
+			create_pop = {
+				culture = shugendo
+				size = 1000
+			}
 		}
 	}
 
@@ -403,7 +407,7 @@
 	}
 
 	s:STATE_TSUSHIMA_SHOTOH = {
-		region_state:TSM = {
+		region_state:NGS = {
 			create_pop = {
 				culture = tsushima
 				size = 1000000
@@ -577,16 +581,20 @@
 	}
 
 	s:STATE_AMAMI_GUNTOH = {
-		region_state:AMA = {
+		region_state:USR = {
 			create_pop = {
 				culture = amami
 				size = 1000000
+			}
+			create_pop = {
+				culture = yankee
+				size = 500
 			}
 		}
 	}
 
 	s:STATE_TOKARA_RETTOH = {
-		region_state:TKR = {
+		region_state:KGS = {
 			create_pop = {
 				culture = tokara
 				size = 1000000
@@ -597,52 +605,72 @@
 	#沖縄
 
 	s:STATE_DAITOH_SHOTOH = {
-		region_state:DAT = {
+		region_state:USR = {
 			create_pop = {
 				culture = daito
 				size = 1000000
+			}
+			create_pop = {
+				culture = yankee
+				size = 1000
 			}
 		}
 	}
 
 	s:STATE_HOKUZAN = {
-		region_state:OKI = {
+		region_state:USR = {
 			create_pop = {
 				culture = yambaru
 				size = 1000000
+			}
+			create_pop = {
+				culture = yankee
+				size = 2000
 			}
 		}
 	}
 
 	s:STATE_CHUZAN = {
-		region_state:OKI = {
+		region_state:USR = {
 			create_pop = {
 				culture = okinawa
 				size = 1000000
+			}
+			create_pop = {
+				culture = yankee
+				size = 2000
 			}
 		}
 	}
 
 	s:STATE_NANZAN = {
-		region_state:OKI = {
+		region_state:USR = {
 			create_pop = {
 				culture = okinawa
 				size = 1000000
+			}
+			create_pop = {
+				culture = yankee
+				size = 2000
 			}
 		}
 	}
 
 	s:STATE_KUME_SHOTOH = {
-		region_state:OKI = {
+		region_state:USR = {
 			create_pop = {
 				culture = okinawa
 				size = 1000000
+			}
+			create_pop = {
+				culture = yankee
+				size = 1000
 			}
 		}
 	}
 
 	s:STATE_SENTAN_SHOTOH = {
-		region_state:YAE = {
+		region_state:USR = {
 			create_pop = {
 				culture = yaeyama
 				size = 1000000
@@ -651,14 +679,22 @@
 				culture = miyako
 				size = 1000000
 			}
+			create_pop = {
+				culture = yankee
+				size = 500
+			}
 		}
 	}
 
 	s:STATE_SENKAKU_SHOTOH = {
-		region_state:OKI = {
+		region_state:USR = {
 			create_pop = {
 				culture = yaeyama
 				size = 100000
+			}
+			create_pop = {
+				culture = yankee
+				size = 500
 			}
 		}
 	}
