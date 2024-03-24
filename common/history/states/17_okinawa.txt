@@ -2,8 +2,7 @@
 # "It's because of differing methods of editing throughout the production of the game. Quote marks are unnecessary, but harmless if present."
 
 STATES = {
-	
-	#沖縄
+	#奄美	
 	s:STATE_AMAMI_GUNTOH = {
 		create_state = {
 			country = c:USR
@@ -12,6 +11,7 @@ STATES = {
 		add_homeland = cu:amami
 	}
 
+	#沖縄
 	s:STATE_DAITOH_SHOTOH = {
 		create_state = {
 			country = c:USR

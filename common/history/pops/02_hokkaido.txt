@@ -1,0 +1,137 @@
+﻿POPS = {
+    #北海道
+    s:STATE_HAKODATE = {
+        region_state:AKT = {
+			create_pop = {
+				culture = hakodate
+				size = 270000
+			}
+		}
+        region_state:AKT = {
+			create_pop = {
+				culture = etorofu
+				size = 3000
+			}
+		}
+    }
+    s:STATE_SHIRIBESHI = {
+        region_state:AKT = {
+			create_pop = {
+				culture = sapporo
+				size = 200000
+			}
+		}
+    }
+    s:STATE_IBURI = {
+        region_state:AKT = {
+			create_pop = {
+				culture = sappoto
+				size = 200000
+			}
+		}
+    }
+    s:STATE_HIDAKA = {
+        region_state:AKT = {
+			create_pop = {
+				culture = sapporo
+				size = 200000
+			}
+		}
+    }
+    s:STATE_ISHIKARI = {
+        region_state:AKT = {
+			create_pop = {
+				culture = sapporo
+				size = 100000
+			}
+		}
+    }
+    s:STATE_SORACHI = {
+        region_state:AKT = {
+			create_pop = {
+				culture = sapporo
+				size = 100000
+			}
+		}
+    }
+    s:STATE_RUMOI = {
+        region_state:AKT = {
+			create_pop = {
+				culture = sapporo
+				size = 100000
+			}
+		}
+    }
+    s:STATE_KAMIKAWA = {
+        region_state:AKT = {
+			create_pop = {
+				culture = sapporo
+				size = 100000
+			}
+		}
+    }
+    s:STATE_TOKACHI = {
+        region_state:AKT = {
+			create_pop = {
+				culture = sapporo
+				size = 100000
+			}
+		}
+    }
+    s:STATE_SOYA = {
+        region_state:AKT = {
+			create_pop = {
+				culture = sapporo
+				size = 100000
+			}
+		}
+    }
+    s:STATE_KUSHIRO = {
+        region_state:AKT = {
+			create_pop = {
+				culture = sapporo
+				size = 100000
+			}
+		}
+    }
+    s:STATE_NEMURO = {
+        region_state:AKT = {
+			create_pop = {
+				culture = nemuro
+				size = 100000
+			}
+		}
+    }
+    s:STATE_ABASHIRI = {
+        region_state:AKT = {
+			create_pop = {
+				culture = nemuro
+				size = 100000
+			}
+		}
+    }
+    s:STATE_MONBETSU = {
+        region_state:AKT = {
+			create_pop = {
+				culture = sapporo
+				size = 100000
+			}
+		}
+    }
+    s:STATE_HIYAMA = {
+        region_state:AKT = {
+			create_pop = {
+				culture = hakodate
+				size = 100000
+			}
+		}
+    }
+    s:STATE_OSYAMAMBE = {
+        region_state:AKT = {
+			create_pop = {
+				culture = hakodate
+				size = 100000
+			}
+		}
+    }
+}

@@ -7,6 +7,14 @@
 				culture = yokohama
 				size = 2000000
 			}
+			create_pop = {
+				culture = korean
+				size = 10000
+			}
+			create_pop = {
+				culture = han
+				size = 10000
+			}
 		}
 	}
 	s:STATE_YOKOHAMA = {
@@ -15,6 +23,14 @@
 				culture = yokohama
 				size = 2000000
 			}
+			create_pop = {
+				culture = han
+				size = 50000
+			}
+			create_pop = {
+				culture = korean
+				size = 10000
+			}
 		}
 	}
 	s:STATE_YOKOSUKA = {
@@ -22,6 +38,10 @@
 			create_pop = {
 				culture = yokosuka
 				size = 2000000
+			}
+			create_pop = {
+				culture = korean
+				size = 5000
 			}
 		}
 	}
@@ -77,6 +97,10 @@
 				culture = tama
 				size = 2000000
 			}
+			create_pop = {
+				culture = korean
+				size = 10000
+			}
 		}
 	}
 	s:STATE_MACHIDA = {
@@ -89,6 +113,10 @@
 				culture = iwo
 				size = 1000
 			}
+			create_pop = {
+				culture = korean
+				size = 10000
+			}
 		}
 	}
 	s:STATE_JOSAI = {
@@ -96,6 +124,14 @@
 			create_pop = {
 				culture = edo
 				size = 2000000
+			}
+			create_pop = {
+				culture = korean
+				size = 20000
+			}
+			create_pop = {
+				culture = han
+				size = 10000
 			}
 		}
 	}
@@ -105,6 +141,22 @@
 				culture = edo
 				size = 2000000
 			}
+			create_pop = {
+				culture = white_russian
+				size = 1000
+			}
+			create_pop = {
+				culture = han
+				size = 5000
+			}
+			create_pop = {
+				culture = korean
+				size = 20000
+			}
+			create_pop = {
+				culture = han
+				size = 10000
+			}
 		}
 	}
 	s:STATE_JONAN = {
@@ -112,6 +164,14 @@
 			create_pop = {
 				culture = edo
 				size = 2000000
+			}
+			create_pop = {
+				culture = korean
+				size = 10000
+			}
+			create_pop = {
+				culture = han
+				size = 10000
 			}
 		}
 	}
@@ -129,6 +189,10 @@
 				culture = mukojima
 				size = 2000000
 			}
+			create_pop = {
+				culture = korean
+				size = 10000
+			}
 		}
 	}
 	s:STATE_IZU_ISLAND = {
@@ -144,40 +208,6 @@
 			create_pop = {
 				culture = hachijo
 				size = 2000000
-			}
-		}
-	}
-
-	#合衆国軍
-	s:STATE_OGASAWARA = {
-		region_state:USR = {
-			create_pop = {
-				culture = ogasawara
-				size = 1000
-			}
-			create_pop = {
-				culture = yankee
-				size = 500
-			}
-			create_pop = {
-				culture = odawara
-				size = 500
-			}
-			create_pop = {
-				culture = izu
-				size = 500
-			}
-			create_pop = {
-				culture = ise
-				size = 500
-			}
-		}
-	}
-	s:STATE_KAZANRETTO = {
-		region_state:USR = {
-			create_pop = {
-				culture = yankee
-				size = 500
 			}
 		}
 	}
@@ -213,6 +243,10 @@
 				culture = kawagoe
 				size = 2000000
 			}
+			create_pop = {
+				culture = korean
+				size = 5000
+			}
 		}
 	}
 	s:STATE_SAITAMA = {
@@ -221,6 +255,14 @@
 				culture = omiya
 				size = 2000000
 			}
+			create_pop = {
+				culture = korean
+				size = 5000
+			}
+			create_pop = {
+				culture = han
+				size = 10000
+			}
 		}
 	}
 	s:STATE_NORTH_KATSUSHIKA = {
@@ -228,6 +270,10 @@
 			create_pop = {
 				culture = omiya
 				size = 2000000
+			}
+			create_pop = {
+				culture = korean
+				size = 5000
 			}
 		}
 	}
@@ -251,6 +297,10 @@
 				culture = tateyama
 				size = 2000000
 			}
+			create_pop = {
+				culture = korean
+				size = 5000
+			}
 		}
 	}
 	s:STATE_TOSO = {
@@ -259,6 +309,10 @@
 				culture = katsuura
 				size = 2000000
 			}
+			create_pop = {
+				culture = korean
+				size = 5000
+			}
 		}
 	}
 	s:STATE_CHIBA = {
@@ -266,6 +320,10 @@
 			create_pop = {
 				culture = chiba
 				size = 2000000
+			}
+			create_pop = {
+				culture = korean
+				size = 5000
 			}
 		}
 	}
@@ -302,157 +360,4 @@
 		}
 	}
 
-	#群馬県
-	s:STATE_TOMOU = {
-		region_state:GNM = {
-			create_pop = {
-				culture = ashikaga
-				size = 2000000
-			}
-		}
-	}
-	s:STATE_MAEBASHI = {
-		region_state:GNM = {
-			create_pop = {
-				culture = maebashi
-				size = 2000000
-			}
-		}
-	}
-	s:STATE_SEIMOU = {
-		region_state:GNM = {
-			create_pop = {
-				culture = maebashi
-				size = 2000000
-			}
-		}
-	}
-	s:STATE_NUMATA = {
-		region_state:GNM = {
-			create_pop = {
-				culture = maebashi
-				size = 2000000
-			}
-		}
-	}
-	s:STATE_AGATSUMA = {
-		region_state:GNM = {
-			create_pop = {
-				culture = agazuma
-				size = 2000000
-			}
-		}
-	}
-
-	#栃木県
-	s:STATE_ASHIKAGA = {
-		region_state:TCH = {
-			create_pop = {
-				culture = ashikaga
-				size = 2000000
-			}
-		}
-	}
-	s:STATE_TOCHIGI = {
-		region_state:TCH = {
-			create_pop = {
-				culture = tochigi
-				size = 2000000
-			}
-		}
-	}
-	s:STATE_UTSUNOMIYA = {
-		region_state:TCH = {
-			create_pop = {
-				culture = utsunomiya
-				size = 2000000
-			}
-			create_pop = {
-				culture = tochigi
-				size = 2000000
-			}
-		}
-	}
-	s:STATE_NIKKO = {
-		region_state:TCH = {
-			create_pop = {
-				culture = utsunomiya
-				size = 2000000
-			}
-		}
-	}
-	s:STATE_NASU = {
-		region_state:TCH = {
-			create_pop = {
-				culture = tochigi
-				size = 1000000
-			}
-			create_pop = {
-				culture = utsunomiya
-				size = 1000000
-			}
-		}
-	}
-	s:STATE_HAGA = {
-		region_state:TCH = {
-			create_pop = {
-				culture = tochigi
-				size = 1000000
-			}
-			create_pop = {
-				culture = utsunomiya
-				size = 1000000
-			}
-		}
-	}
-
-	#茨城県
-	s:STATE_ROKKO = {
-		region_state:IBR = {
-			create_pop = {
-				culture = choshi
-				size = 2000000
-			}
-		}
-	}
-	s:STATE_HITACHI = {
-		region_state:IBR = {
-			create_pop = {
-				culture = hitachi
-				size = 2000000
-			}
-		}
-	}
-	s:STATE_MITO = {
-		region_state:IBR = {
-			create_pop = {
-				culture = mito
-				size = 2000000
-			}
-		}
-	}
-	s:STATE_RYUUGASAKI = {
-		region_state:IBR = {
-			create_pop = {
-				culture = mito
-				size = 2000000
-			}
-		}
-	}
-	s:STATE_TSUKUBA = {
-		region_state:IBR = {
-			create_pop = {
-				culture = tsukuba
-				size = 2000000
-			}
-		}
-	}
-	s:STATE_KOGA = {
-		region_state:IBR = {
-			create_pop = {
-				culture = koga
-				size = 2000000
-			}
-		}
-	}
 }

@@ -1,181 +1,4 @@
-﻿#サンプル
-sample = {
-	color = rgb{ 50 50 20 }
-	religion = shinbutsu_shugo
-	traits = { sampledo sample }
-	male_common_first_names={
-		Aritomo
-		Gentaro
-		Gonnohyoe
-		Goro
-		Hayao
-		Heihachiro
-		Hikonojo
-		Hiroshi
-		Hyoe
-		Iwao
-		Jinzaburo
-		Jiro
-		Kageaki
-		Kagenori
-		Kantaro
-		Kazushige
-		Keisuke
-		Kenkichi
-		Kiyotaka
-		Koichiro
-		Kotohito
-		Kozo
-		Kuranosuke
-		Maresuke
-		Masatake
-		Masujiro
-		Michisura
-		Mineo
-		Mitsue
-		Mitsuomi
-		Nariaki
-		Nobuyoshi
-		Rokuro
-		Sadao
-		Samata
-		Shichiro
-		Shigeru
-		Shigeto
-		Shinsaku
-		Shoin
-		Soroku
-		Sotokichi
-		Sukenori
-		Sukeyuki
-		Sumiyoshi
-		Tadakuni
-		Takamori
-		Takayoshi
-		Takeaki
-		Tamemoto
-		Taro
-		Taruhito
-		Tetsutaro
-		Tomasaburo
-		Tomonosuke
-		Toshimichi
-		Toshiyoshi
-		Tsugumichi
-		Yahachi
-		Yasukata
-		Yasuyoshi
-		Yoshida
-		Yoshifuru
-		Yoshika
-		Yoshimichi
-		Yoshinobu
-		Yoshinori
-		Yusaku
-	}
-	female_common_first_names = {
-		Asako
-		Chikako
-		Ginko
-		Gyokuran
-		Kaho
-		Kei
-		Kin
-		Kumehachi
-		Masako
-		Miki
-		Natsu
-		Nobu
-		Oi
-		Rengetsu
-		Sayoko
-		Teru
-		Toyoko
-		Tsuneko
-	}	
-	noble_last_names = {
-		Hayashi
-		Ito
-		Jutoku
-		Kujo
-		Matsudaira
-		Mitsune
-		Nabeshima
-		Togo
-		Tokugawa
-	}
-	common_last_names={
-		Akiyama
-		Araki
-		Arichi
-		Arisugawa
-		Dewa
-		Enomoto
-		Hasegawa
-		Honjo
-		Ichinohe
-		Inoue
-		Itagaki
-		Kabayama
-		Kamimura
-		Kamio
-		Kanin
-		Kataoka
-		Kato
-		Katsu
-		Katsura
-		Kawakami
-		Kawamura
-		Kido
-		Kodama
-		Kuroda
-		Kuroki
-		Makino
-		Masaki
-		Minami
-		Muto
-		Nakamuta
-		Nire
-		Nogi
-		Nozu
-		Okada
-		Oku
-		Okubo
-		Omura
-		Osumi
-		Oyama
-		Saigo
-		Sakura
-		Sato
-		Shibayama
-		Shimamura
-		Shirakawa
-		Suzuki
-		Tachibana
-		Takashima
-		Takasugi
-		Tamon
-		Terauchi
-		Tsuboi
-		Ueda
-		Uehara
-		Ugaki
-		Uryu
-		Yamagata
-		Yamakawa
-		Yamamoto
-		Yamashita
-		Yamaya
-		Yashiro
-		Yui
-	}
-	ethnicities = {
-		1 = asian
-	}
-	graphics = east_asian
-}
-
-#江戸
+﻿#東京文化（江戸、山手、向島）
 edo = {
 	color = rgb{ 50 50 20 }
 	religion = shinbutsu_shugo
@@ -351,7 +174,7 @@ edo = {
 	}
 	graphics = east_asian
 }
-#山手
+
 yamanote = {
 	color = rgb{ 50 50 20 }
 	religion = shinbutsu_shugo
@@ -527,7 +350,7 @@ yamanote = {
 	}
 	graphics = east_asian
 }
-#向島
+
 mukojima = {
 	color = rgb{ 50 50 20 }
 	religion = shinbutsu_shugo
@@ -703,7 +526,8 @@ mukojima = {
 	}
 	graphics = east_asian
 }
-#常陸
+
+#常陸文化（常陸、水戸、筑波）
 hitachi = {
 	color = rgb{ 50 50 20 }
 	religion = shinbutsu_shugo
@@ -879,7 +703,7 @@ hitachi = {
 	}
 	graphics = east_asian
 }
-#水戸
+
 mito = {
 	color = rgb{ 50 50 20 }
 	religion = shinbutsu_shugo
@@ -1055,7 +879,7 @@ mito = {
 	}
 	graphics = east_asian
 }
-#筑波
+
 tsukuba = {
 	color = rgb{ 50 50 20 }
 	religion = shinbutsu_shugo
@@ -1231,7 +1055,8 @@ tsukuba = {
 	}
 	graphics = east_asian
 }
-#小田原
+
+#相模文化（相模、小田原、横須賀）
 odawara = {
 	color = rgb{ 50 50 20 }
 	religion = shinbutsu_shugo
@@ -1407,7 +1232,7 @@ odawara = {
 	}
 	graphics = east_asian
 }
-#相模原
+
 sagamihara = {
 	color = rgb{ 50 50 20 }
 	religion = shinbutsu_shugo
@@ -1583,7 +1408,7 @@ sagamihara = {
 	}
 	graphics = east_asian
 }
-#横須賀
+
 yokosuka = {
 	color = rgb{ 50 50 20 }
 	religion = shinbutsu_shugo
@@ -1759,7 +1584,8 @@ yokosuka = {
 	}
 	graphics = east_asian
 }
-#横浜
+
+#武蔵文化（横浜、熊谷、川越、多摩、大宮、秩父）
 yokohama = {
 	color = rgb{ 50 50 20 }
 	religion = shinbutsu_shugo
@@ -1935,7 +1761,7 @@ yokohama = {
 	}
 	graphics = east_asian
 }
-#熊谷
+
 kumagaya = {
 	color = rgb{ 50 50 20 }
 	religion = shinbutsu_shugo
@@ -2111,7 +1937,7 @@ kumagaya = {
 	}
 	graphics = east_asian
 }
-#川越
+
 kawagoe = {
 	color = rgb{ 50 50 20 }
 	religion = shinbutsu_shugo
@@ -2287,7 +2113,7 @@ kawagoe = {
 	}
 	graphics = east_asian
 }
-#多摩
+
 tama = {
 	color = rgb{ 50 50 20 }
 	religion = shinbutsu_shugo
@@ -2463,7 +2289,7 @@ tama = {
 	}
 	graphics = east_asian
 }
-#大宮
+
 omiya = {
 	color = rgb{ 50 50 20 }
 	religion = shinbutsu_shugo
@@ -2639,7 +2465,7 @@ omiya = {
 	}
 	graphics = east_asian
 }
-#秩父
+
 chichibu = {
 	color = rgb{ 50 50 20 }
 	religion = shinbutsu_shugo
@@ -2815,7 +2641,8 @@ chichibu = {
 	}
 	graphics = east_asian
 }
-#館山
+
+#房総文化（千葉、銚子、館山、勝浦、成田、古賀）
 tateyama = {
 	color = rgb{ 50 50 20 }
 	religion = shinbutsu_shugo
@@ -2991,7 +2818,7 @@ tateyama = {
 	}
 	graphics = east_asian
 }
-#古賀
+
 koga = {
 	color = rgb{ 50 50 20 }
 	religion = shinbutsu_shugo
@@ -3167,7 +2994,7 @@ koga = {
 	}
 	graphics = east_asian
 }
-#勝浦
+
 katsuura = {
 	color = rgb{ 50 50 20 }
 	religion = shinbutsu_shugo
@@ -3343,7 +3170,7 @@ katsuura = {
 	}
 	graphics = east_asian
 }
-#成田
+
 narita = {
 	color = rgb{ 50 50 20 }
 	religion = shinbutsu_shugo
@@ -3519,7 +3346,7 @@ narita = {
 	}
 	graphics = east_asian
 }
-#千葉
+
 chiba = {
 	color = rgb{ 50 50 20 }
 	religion = shinbutsu_shugo
@@ -3695,7 +3522,7 @@ chiba = {
 	}
 	graphics = east_asian
 }
-#銚子
+
 choshi = {
 	color = rgb{ 50 50 20 }
 	religion = shinbutsu_shugo
@@ -3871,7 +3698,8 @@ choshi = {
 	}
 	graphics = east_asian
 }
-#宇都宮
+
+#両毛文化（前橋、吾妻、宇都宮、足利、栃木）
 utsunomiya = {
 	color = rgb{ 50 50 20 }
 	religion = shinbutsu_shugo
@@ -4047,7 +3875,7 @@ utsunomiya = {
 	}
 	graphics = east_asian
 }
-#吾妻
+
 agazuma = {
 	color = rgb{ 50 50 20 }
 	religion = shinbutsu_shugo
@@ -4223,7 +4051,7 @@ agazuma = {
 	}
 	graphics = east_asian
 }
-#前橋
+
 maebashi = {
 	color = rgb{ 50 50 20 }
 	religion = shinbutsu_shugo
@@ -4399,7 +4227,7 @@ maebashi = {
 	}
 	graphics = east_asian
 }
-#足利
+
 ashikaga = {
 	color = rgb{ 50 50 20 }
 	religion = shinbutsu_shugo
@@ -4575,7 +4403,7 @@ ashikaga = {
 	}
 	graphics = east_asian
 }
-#栃木
+
 tochigi = {
 	color = rgb{ 50 50 20 }
 	religion = shinbutsu_shugo
@@ -4751,7 +4579,8 @@ tochigi = {
 	}
 	graphics = east_asian
 }
-#小笠原
+
+#南西諸島諸文化（小笠原、八丈島、硫黄島）
 ogasawara = {
 	color = rgb{ 50 50 20 }
 	religion = shinbutsu_shugo
@@ -4927,7 +4756,7 @@ ogasawara = {
 	}
 	graphics = east_asian
 }
-#八丈
+
 hachijo = {
 	color = rgb{ 50 50 20 }
 	religion = shinbutsu_shugo
@@ -5103,6 +4932,7 @@ hachijo = {
 	}
 	graphics = east_asian
 }
+
 iwo = {
 	color = rgb{ 50 50 20 }
 	religion = shinbutsu_shugo

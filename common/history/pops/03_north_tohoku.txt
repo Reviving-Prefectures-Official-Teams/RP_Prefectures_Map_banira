@@ -1,0 +1,126 @@
+﻿POPS = {
+	#青森県
+    s:STATE_AOMORI = {
+        region_state:AOM = {
+			create_pop = {
+				culture = aomori
+				size = 100000
+			}
+		} 
+    }
+    s:STATE_HACHINOHE = {
+        region_state:AOM = {
+			create_pop = {
+				culture = hachinohe
+				size = 100000
+			}
+		} 
+    }
+    s:STATE_HIROSAKI = {
+        region_state:AOM = {
+			create_pop = {
+				culture = hirosaki
+				size = 100000
+			}
+		} 
+    }
+    s:STATE_TOWADA = {
+        region_state:AOM = {
+			create_pop = {
+				culture = hachinohe
+				size = 100000
+			}
+		} 
+    }
+    s:STATE_MUTU = {
+        region_state:AOM = {
+			create_pop = {
+				culture = shimokita
+				size = 140000
+			}
+			create_pop = {
+				culture = shimokita
+				religion = itako
+				size = 10000
+			}
+		} 
+    }
+    #岩手県
+    s:STATE_MORIOKA = {
+        region_state:IWT = {
+			create_pop = {
+				culture = morioka
+				size = 100000
+			}
+			create_pop = {
+				culture = hachimantai
+				size = 100000
+			}
+		}
+    }
+    s:STATE_KAMAISHI = {
+        region_state:IWT = {
+			create_pop = {
+				culture = kamaishi
+				size = 100000
+			}
+		}
+    }
+    s:STATE_HANAMAKI = {
+        region_state:IWT = {
+			create_pop = {
+				culture = kesen
+				size = 100000
+			}
+		}
+    }
+    s:STATE_KUJI = {
+        region_state:IWT = {
+			create_pop = {
+				culture = morioka
+				size = 100000
+			}
+		}
+    }
+    # 秋田県
+    s:STATE_AKITA = {
+        region_state:AKT = {
+			create_pop = {
+				culture = akita
+				size = 100000
+			}
+		}
+    }
+    s:STATE_YURIHONJYOU = {
+        region_state:AKT = {
+			create_pop = {
+				culture = yuri
+				size = 100000
+			}
+		}
+    }
+    s:STATE_YOKOTE = {
+        region_state:AKT = {
+			create_pop = {
+				culture = yuri
+				size = 100000
+			}
+		}
+    }
+    s:STATE_DAISEN = {
+        region_state:AKT = {
+			create_pop = {
+				culture = akita
+				size = 100000
+			}
+		}
+    }
+    s:STATE_OODATE = {
+        region_state:AKT = {
+			create_pop = {
+				culture = akita
+				size = 100000
+			}
+		}
+	}
+}

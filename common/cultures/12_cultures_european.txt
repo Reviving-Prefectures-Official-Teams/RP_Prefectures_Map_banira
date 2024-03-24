@@ -1,8 +1,8 @@
-﻿#サンプル
-sample = {
+﻿#ヨーロッパ人
+white_russian = {
 	color = rgb{ 50 50 20 }
-	religion = shinbutsu_shugo
-	traits = { sampledo sample }
+	religion = orthodox
+	traits = { east_slavic european_heritage }
 	male_common_first_names={
 		Aritomo
 		Gentaro

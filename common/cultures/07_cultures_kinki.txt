@@ -1,8 +1,8 @@
-﻿#但馬
+﻿#東山陰文化（但馬、丹後、鳥取、豊岡、倉吉）
 tajima = {
 	color = rgb{ 50 50 20 }
 	religion = shinbutsu_shugo
-	traits = { east_sanin sanindo   hyogo_prefecture }
+	traits = { east_sanin kinki hyogo_prefecture }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -174,11 +174,12 @@ tajima = {
 	}
 	graphics = east_asian
 }
-#丹波
+
+#丹波文化（丹波、福知山、舞鶴）
 tanba = {
 	color = rgb{57  116  130}
 	religion = shinbutsu_shugo
-	traits = {   east_sanin sanindo hyogo_prefecture }
+	traits = { tanba_group kinki hyogo_prefecture }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -350,11 +351,11 @@ tanba = {
 	}
 	graphics = east_asian
 }
-#福知山
+
 fukuchiyama = {
 	color = rgb{58  152  163}
 	religion = shinbutsu_shugo
-	traits = {   tanba_group kinki_group_group kyoto_prefecture  }
+	traits = { tanba_group kinki kyoto_prefecture  }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -526,11 +527,11 @@ fukuchiyama = {
 	}
 	graphics = east_asian
 }
-#舞鶴
+
 maizuru = {
 	color = rgb{222  247  238}
 	religion = shinbutsu_shugo
-	traits = {   tanba_group kinki_group kyoto_prefecture }
+	traits = { tanba_group kinki kyoto_prefecture }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -702,11 +703,12 @@ maizuru = {
 	}
 	graphics = east_asian
 }
-#姫路
+
+#東山陽文化（姫路、明石、神戸）
 himeji = {
 	color = rgb{142  137  141}
 	religion = shinbutsu_shugo
-	traits = {   east_sanyo east_sanyo }
+	traits = { east_sanyo kinki hyogo_prefecture }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -878,11 +880,11 @@ himeji = {
 	}
 	graphics = east_asian
 }
-#明石
+
 akashi = {
 	color = rgb{156  148  163}
 	religion = shinbutsu_shugo
-	traits = {   east_sanyo east_sanyo hyogo_prefecture }
+	traits = { east_sanyo kinki hyogo_prefecture }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -1054,12 +1056,13 @@ akashi = {
 	}
 	graphics = east_asian
 }
-#神戸
-kobe = {
-	color = rgb{77  105  124}
+
+#北四国文化（淡路、鳴門、徳島、阿南、高松、丸亀、宇摩、今治、松山）
+awaji = {
+	color = rgb{66  23  60}
 	religion = shinbutsu_shugo
-	traits = {   east_sanyo kinki_grou hyogo_prefecture }
-	male_common_first_names={
+	traits = { north_shikoku kinki_group nankaido }
+		male_common_first_names={
 		Aritomo
 		Gentaro
 		Gonnohyoe
@@ -1230,11 +1233,12 @@ kobe = {
 	}
 	graphics = east_asian
 }
-#西宮
+
+#摂津文化（西宮、大阪、高槻、豊野）
 nishinomiya = {
 	color = rgb{162  158  170}
 	religion = shinbutsu_shugo
-	traits = {   settsu kinki_grou hyogo_prefecture }
+	traits = { settsu kinki hyogo_prefecture }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -1406,11 +1410,11 @@ nishinomiya = {
 	}
 	graphics = east_asian
 }
-#大阪
+
 osaka = {
 	color = rgb{221  73  142}
 	religion = shinbutsu_shugo
-	traits = {   settsu kinki_grou osaka_prefecture }
+	traits = {   settsu kinki osaka_prefecture }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -1582,11 +1586,11 @@ osaka = {
 	}
 	graphics = east_asian
 }
-#高槻
+
 takatsuki = {
 	color = rgb{243  249  229}
 	religion = shinbutsu_shugo
-	traits = {   settsu kinki_grou osaka_prefecture }
+	traits = {   settsu kinki osaka_prefecture }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -1758,11 +1762,11 @@ takatsuki = {
 	}
 	graphics = east_asian
 }
-#豊野
+
 toyono = {
 	color = rgb{178  157  178}
 	religion = shinbutsu_shugo
-	traits = {   settsu kinki_grou osaka_prefecture }
+	traits = {   settsu kinki osaka_prefecture }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -1934,11 +1938,188 @@ toyono = {
 	}
 	graphics = east_asian
 }
-#枚方 
+
+kobe = {
+	color = rgb{77  105  124}
+	religion = shinbutsu_shugo
+	traits = { settsu kinki hyogo_prefecture }
+	male_common_first_names={
+		Aritomo
+		Gentaro
+		Gonnohyoe
+		Goro
+		Hayao
+		Heihachiro
+		Hikonojo
+		Hiroshi
+		Hyoe
+		Iwao
+		Jinzaburo
+		Jiro
+		Kageaki
+		Kagenori
+		Kantaro
+		Kazushige
+		Keisuke
+		Kenkichi
+		Kiyotaka
+		Koichiro
+		Kotohito
+		Kozo
+		Kuranosuke
+		Maresuke
+		Masatake
+		Masujiro
+		Michisura
+		Mineo
+		Mitsue
+		Mitsuomi
+		Nariaki
+		Nobuyoshi
+		Rokuro
+		Sadao
+		Samata
+		Shichiro
+		Shigeru
+		Shigeto
+		Shinsaku
+		Shoin
+		Soroku
+		Sotokichi
+		Sukenori
+		Sukeyuki
+		Sumiyoshi
+		Tadakuni
+		Takamori
+		Takayoshi
+		Takeaki
+		Tamemoto
+		Taro
+		Taruhito
+		Tetsutaro
+		Tomasaburo
+		Tomonosuke
+		Toshimichi
+		Toshiyoshi
+		Tsugumichi
+		Yahachi
+		Yasukata
+		Yasuyoshi
+		Yoshida
+		Yoshifuru
+		Yoshika
+		Yoshimichi
+		Yoshinobu
+		Yoshinori
+		Yusaku
+	}
+	female_common_first_names = {
+		Asako
+		Chikako
+		Ginko
+		Gyokuran
+		Kaho
+		Kei
+		Kin
+		Kumehachi
+		Masako
+		Miki
+		Natsu
+		Nobu
+		Oi
+		Rengetsu
+		Sayoko
+		Teru
+		Toyoko
+		Tsuneko
+	}	
+	noble_last_names = {
+		Hayashi
+		Ito
+		Jutoku
+		Kujo
+		Matsudaira
+		Mitsune
+		Nabeshima
+		Togo
+		Tokugawa
+	}
+	common_last_names={
+		Akiyama
+		Araki
+		Arichi
+		Arisugawa
+		Dewa
+		Enomoto
+		Hasegawa
+		Honjo
+		Ichinohe
+		Inoue
+		Itagaki
+		Kabayama
+		Kamimura
+		Kamio
+		Kanin
+		Kataoka
+		Kato
+		Katsu
+		Katsura
+		Kawakami
+		Kawamura
+		Kido
+		Kodama
+		Kuroda
+		Kuroki
+		Makino
+		Masaki
+		Minami
+		Muto
+		Nakamuta
+		Nire
+		Nogi
+		Nozu
+		Okada
+		Oku
+		Okubo
+		Omura
+		Osumi
+		Oyama
+		Saigo
+		Sakura
+		Sato
+		Shibayama
+		Shimamura
+		Shirakawa
+		Suzuki
+		Tachibana
+		Takashima
+		Takasugi
+		Tamon
+		Terauchi
+		Tsuboi
+		Ueda
+		Uehara
+		Ugaki
+		Uryu
+		Yamagata
+		Yamakawa
+		Yamamoto
+		Yamashita
+		Yamaya
+		Yashiro
+		Yui
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = east_asian
+}
+
+#畿内文化（枚方、和泉、山城、田辺、大和、天理、葛城、吉野）
 hirakata = {
 	color = rgb{12  56  17}
 	religion = shinbutsu_shugo
-	traits = {   kinai kinki_grou osaka_prefecture }
+	traits = {   kinai kinki osaka_prefecture }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -2110,11 +2291,11 @@ hirakata = {
 	}
 	graphics = east_asian
 }
-#和泉
+
 izumi = {
 	color = rgb{54  107  86}
 	religion = shinbutsu_shugo
-	traits = {   kinai kinki_grou osaka_prefecture }
+	traits = {   kinai kinki osaka_prefecture }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -2286,539 +2467,11 @@ izumi = {
 	}
 	graphics = east_asian
 }
-#和歌山
-wakayama = {
-	color = rgb{112  12  37}
-	religion = shinbutsu_shugo
-	traits = {   kii kinki_grou }
-	male_common_first_names={
-		Aritomo
-		Gentaro
-		Gonnohyoe
-		Goro
-		Hayao
-		Heihachiro
-		Hikonojo
-		Hiroshi
-		Hyoe
-		Iwao
-		Jinzaburo
-		Jiro
-		Kageaki
-		Kagenori
-		Kantaro
-		Kazushige
-		Keisuke
-		Kenkichi
-		Kiyotaka
-		Koichiro
-		Kotohito
-		Kozo
-		Kuranosuke
-		Maresuke
-		Masatake
-		Masujiro
-		Michisura
-		Mineo
-		Mitsue
-		Mitsuomi
-		Nariaki
-		Nobuyoshi
-		Rokuro
-		Sadao
-		Samata
-		Shichiro
-		Shigeru
-		Shigeto
-		Shinsaku
-		Shoin
-		Soroku
-		Sotokichi
-		Sukenori
-		Sukeyuki
-		Sumiyoshi
-		Tadakuni
-		Takamori
-		Takayoshi
-		Takeaki
-		Tamemoto
-		Taro
-		Taruhito
-		Tetsutaro
-		Tomasaburo
-		Tomonosuke
-		Toshimichi
-		Toshiyoshi
-		Tsugumichi
-		Yahachi
-		Yasukata
-		Yasuyoshi
-		Yoshida
-		Yoshifuru
-		Yoshika
-		Yoshimichi
-		Yoshinobu
-		Yoshinori
-		Yusaku
-	}
-	female_common_first_names = {
-		Asako
-		Chikako
-		Ginko
-		Gyokuran
-		Kaho
-		Kei
-		Kin
-		Kumehachi
-		Masako
-		Miki
-		Natsu
-		Nobu
-		Oi
-		Rengetsu
-		Sayoko
-		Teru
-		Toyoko
-		Tsuneko
-	}	
-	noble_last_names = {
-		Hayashi
-		Ito
-		Jutoku
-		Kujo
-		Matsudaira
-		Mitsune
-		Nabeshima
-		Togo
-		Tokugawa
-	}
-	common_last_names={
-		Akiyama
-		Araki
-		Arichi
-		Arisugawa
-		Dewa
-		Enomoto
-		Hasegawa
-		Honjo
-		Ichinohe
-		Inoue
-		Itagaki
-		Kabayama
-		Kamimura
-		Kamio
-		Kanin
-		Kataoka
-		Kato
-		Katsu
-		Katsura
-		Kawakami
-		Kawamura
-		Kido
-		Kodama
-		Kuroda
-		Kuroki
-		Makino
-		Masaki
-		Minami
-		Muto
-		Nakamuta
-		Nire
-		Nogi
-		Nozu
-		Okada
-		Oku
-		Okubo
-		Omura
-		Osumi
-		Oyama
-		Saigo
-		Sakura
-		Sato
-		Shibayama
-		Shimamura
-		Shirakawa
-		Suzuki
-		Tachibana
-		Takashima
-		Takasugi
-		Tamon
-		Terauchi
-		Tsuboi
-		Ueda
-		Uehara
-		Ugaki
-		Uryu
-		Yamagata
-		Yamakawa
-		Yamamoto
-		Yamashita
-		Yamaya
-		Yashiro
-		Yui
-	}
-	ethnicities = {
-		1 = asian
-	}
-	graphics = east_asian
-}
-#龍神
-ryujin = {
-	color = rgb{47  104  140}
-	religion = shinbutsu_shugo
-	traits = {   kii kinki_grou }
-	male_common_first_names={
-		Aritomo
-		Gentaro
-		Gonnohyoe
-		Goro
-		Hayao
-		Heihachiro
-		Hikonojo
-		Hiroshi
-		Hyoe
-		Iwao
-		Jinzaburo
-		Jiro
-		Kageaki
-		Kagenori
-		Kantaro
-		Kazushige
-		Keisuke
-		Kenkichi
-		Kiyotaka
-		Koichiro
-		Kotohito
-		Kozo
-		Kuranosuke
-		Maresuke
-		Masatake
-		Masujiro
-		Michisura
-		Mineo
-		Mitsue
-		Mitsuomi
-		Nariaki
-		Nobuyoshi
-		Rokuro
-		Sadao
-		Samata
-		Shichiro
-		Shigeru
-		Shigeto
-		Shinsaku
-		Shoin
-		Soroku
-		Sotokichi
-		Sukenori
-		Sukeyuki
-		Sumiyoshi
-		Tadakuni
-		Takamori
-		Takayoshi
-		Takeaki
-		Tamemoto
-		Taro
-		Taruhito
-		Tetsutaro
-		Tomasaburo
-		Tomonosuke
-		Toshimichi
-		Toshiyoshi
-		Tsugumichi
-		Yahachi
-		Yasukata
-		Yasuyoshi
-		Yoshida
-		Yoshifuru
-		Yoshika
-		Yoshimichi
-		Yoshinobu
-		Yoshinori
-		Yusaku
-	}
-	female_common_first_names = {
-		Asako
-		Chikako
-		Ginko
-		Gyokuran
-		Kaho
-		Kei
-		Kin
-		Kumehachi
-		Masako
-		Miki
-		Natsu
-		Nobu
-		Oi
-		Rengetsu
-		Sayoko
-		Teru
-		Toyoko
-		Tsuneko
-	}	
-	noble_last_names = {
-		Hayashi
-		Ito
-		Jutoku
-		Kujo
-		Matsudaira
-		Mitsune
-		Nabeshima
-		Togo
-		Tokugawa
-	}
-	common_last_names={
-		Akiyama
-		Araki
-		Arichi
-		Arisugawa
-		Dewa
-		Enomoto
-		Hasegawa
-		Honjo
-		Ichinohe
-		Inoue
-		Itagaki
-		Kabayama
-		Kamimura
-		Kamio
-		Kanin
-		Kataoka
-		Kato
-		Katsu
-		Katsura
-		Kawakami
-		Kawamura
-		Kido
-		Kodama
-		Kuroda
-		Kuroki
-		Makino
-		Masaki
-		Minami
-		Muto
-		Nakamuta
-		Nire
-		Nogi
-		Nozu
-		Okada
-		Oku
-		Okubo
-		Omura
-		Osumi
-		Oyama
-		Saigo
-		Sakura
-		Sato
-		Shibayama
-		Shimamura
-		Shirakawa
-		Suzuki
-		Tachibana
-		Takashima
-		Takasugi
-		Tamon
-		Terauchi
-		Tsuboi
-		Ueda
-		Uehara
-		Ugaki
-		Uryu
-		Yamagata
-		Yamakawa
-		Yamamoto
-		Yamashita
-		Yamaya
-		Yashiro
-		Yui
-	}
-	ethnicities = {
-		1 = asian
-	}
-	graphics = east_asian
-}
-#白浜
-shirahama = {
-	color = rgb{23  117  198}
-	religion = shinbutsu_shugo
-	traits = {   kii kinki_grou }
-	male_common_first_names={
-		Aritomo
-		Gentaro
-		Gonnohyoe
-		Goro
-		Hayao
-		Heihachiro
-		Hikonojo
-		Hiroshi
-		Hyoe
-		Iwao
-		Jinzaburo
-		Jiro
-		Kageaki
-		Kagenori
-		Kantaro
-		Kazushige
-		Keisuke
-		Kenkichi
-		Kiyotaka
-		Koichiro
-		Kotohito
-		Kozo
-		Kuranosuke
-		Maresuke
-		Masatake
-		Masujiro
-		Michisura
-		Mineo
-		Mitsue
-		Mitsuomi
-		Nariaki
-		Nobuyoshi
-		Rokuro
-		Sadao
-		Samata
-		Shichiro
-		Shigeru
-		Shigeto
-		Shinsaku
-		Shoin
-		Soroku
-		Sotokichi
-		Sukenori
-		Sukeyuki
-		Sumiyoshi
-		Tadakuni
-		Takamori
-		Takayoshi
-		Takeaki
-		Tamemoto
-		Taro
-		Taruhito
-		Tetsutaro
-		Tomasaburo
-		Tomonosuke
-		Toshimichi
-		Toshiyoshi
-		Tsugumichi
-		Yahachi
-		Yasukata
-		Yasuyoshi
-		Yoshida
-		Yoshifuru
-		Yoshika
-		Yoshimichi
-		Yoshinobu
-		Yoshinori
-		Yusaku
-	}
-	female_common_first_names = {
-		Asako
-		Chikako
-		Ginko
-		Gyokuran
-		Kaho
-		Kei
-		Kin
-		Kumehachi
-		Masako
-		Miki
-		Natsu
-		Nobu
-		Oi
-		Rengetsu
-		Sayoko
-		Teru
-		Toyoko
-		Tsuneko
-	}	
-	noble_last_names = {
-		Hayashi
-		Ito
-		Jutoku
-		Kujo
-		Matsudaira
-		Mitsune
-		Nabeshima
-		Togo
-		Tokugawa
-	}
-	common_last_names={
-		Akiyama
-		Araki
-		Arichi
-		Arisugawa
-		Dewa
-		Enomoto
-		Hasegawa
-		Honjo
-		Ichinohe
-		Inoue
-		Itagaki
-		Kabayama
-		Kamimura
-		Kamio
-		Kanin
-		Kataoka
-		Kato
-		Katsu
-		Katsura
-		Kawakami
-		Kawamura
-		Kido
-		Kodama
-		Kuroda
-		Kuroki
-		Makino
-		Masaki
-		Minami
-		Muto
-		Nakamuta
-		Nire
-		Nogi
-		Nozu
-		Okada
-		Oku
-		Okubo
-		Omura
-		Osumi
-		Oyama
-		Saigo
-		Sakura
-		Sato
-		Shibayama
-		Shimamura
-		Shirakawa
-		Suzuki
-		Tachibana
-		Takashima
-		Takasugi
-		Tamon
-		Terauchi
-		Tsuboi
-		Ueda
-		Uehara
-		Ugaki
-		Uryu
-		Yamagata
-		Yamakawa
-		Yamamoto
-		Yamashita
-		Yamaya
-		Yashiro
-		Yui
-	}
-	ethnicities = {
-		1 = asian
-	}
-	graphics = east_asian
-}
-#山城
+
 yamashiro = {
 	color = rgb{104  87  112}
 	religion = shinbutsu_shugo
-	traits = {   kinai kinki_grou kyoto_prefecture }
+	traits = {   kinai kinki kyoto_prefecture }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -2990,11 +2643,11 @@ yamashiro = {
 	}
 	graphics = east_asian
 }
-#田辺
+
 tanabe = {
 	color = rgb{107  49  76}
 	religion = shinbutsu_shugo
-	traits = {   kinai kinki_group kyoto_prefecture }
+	traits = {   kinai kinki kyoto_prefecture }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -3166,11 +2819,11 @@ tanabe = {
 	}
 	graphics = east_asian
 }
-#大和
+
 yamato_culture = {
 	color = rgb{206  151  244}
 	religion = shinbutsu_shugo
-	traits = {   kinai kinki_group }
+	traits = {   kinai kinki }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -3342,11 +2995,11 @@ yamato_culture = {
 	}
 	graphics = east_asian
 }
-#天理
+
 tenri = {
 	color = rgb{163  100  97}
 	religion = tenri_religion
-	traits = {   kinai kinki_group }
+	traits = {   kinai kinki }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -3518,11 +3171,11 @@ tenri = {
 	}
 	graphics = east_asian
 }
-#葛城
+
 katsuragi = {
 	color = rgb{22  22  19}
 	religion = shinbutsu_shugo
-	traits = {   kinai kinki_group }
+	traits = {   kinai kinki }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -3694,11 +3347,11 @@ katsuragi = {
 	}
 	graphics = east_asian
 }
-#吉野
+
 yoshino = {
 	color = rgb{149  207  219}
 	religion = shinbutsu_shugo
-	traits = {   kinai kinki_group }
+	traits = {   kinai kinki }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -3870,11 +3523,541 @@ yoshino = {
 	}
 	graphics = east_asian
 }
-#大津
+
+#紀伊文化（和歌山・龍神・白浜・熊野）
+wakayama = {
+	color = rgb{112  12  37}
+	religion = shinbutsu_shugo
+	traits = { kii_group kinki }
+	male_common_first_names={
+		Aritomo
+		Gentaro
+		Gonnohyoe
+		Goro
+		Hayao
+		Heihachiro
+		Hikonojo
+		Hiroshi
+		Hyoe
+		Iwao
+		Jinzaburo
+		Jiro
+		Kageaki
+		Kagenori
+		Kantaro
+		Kazushige
+		Keisuke
+		Kenkichi
+		Kiyotaka
+		Koichiro
+		Kotohito
+		Kozo
+		Kuranosuke
+		Maresuke
+		Masatake
+		Masujiro
+		Michisura
+		Mineo
+		Mitsue
+		Mitsuomi
+		Nariaki
+		Nobuyoshi
+		Rokuro
+		Sadao
+		Samata
+		Shichiro
+		Shigeru
+		Shigeto
+		Shinsaku
+		Shoin
+		Soroku
+		Sotokichi
+		Sukenori
+		Sukeyuki
+		Sumiyoshi
+		Tadakuni
+		Takamori
+		Takayoshi
+		Takeaki
+		Tamemoto
+		Taro
+		Taruhito
+		Tetsutaro
+		Tomasaburo
+		Tomonosuke
+		Toshimichi
+		Toshiyoshi
+		Tsugumichi
+		Yahachi
+		Yasukata
+		Yasuyoshi
+		Yoshida
+		Yoshifuru
+		Yoshika
+		Yoshimichi
+		Yoshinobu
+		Yoshinori
+		Yusaku
+	}
+	female_common_first_names = {
+		Asako
+		Chikako
+		Ginko
+		Gyokuran
+		Kaho
+		Kei
+		Kin
+		Kumehachi
+		Masako
+		Miki
+		Natsu
+		Nobu
+		Oi
+		Rengetsu
+		Sayoko
+		Teru
+		Toyoko
+		Tsuneko
+	}	
+	noble_last_names = {
+		Hayashi
+		Ito
+		Jutoku
+		Kujo
+		Matsudaira
+		Mitsune
+		Nabeshima
+		Togo
+		Tokugawa
+	}
+	common_last_names={
+		Akiyama
+		Araki
+		Arichi
+		Arisugawa
+		Dewa
+		Enomoto
+		Hasegawa
+		Honjo
+		Ichinohe
+		Inoue
+		Itagaki
+		Kabayama
+		Kamimura
+		Kamio
+		Kanin
+		Kataoka
+		Kato
+		Katsu
+		Katsura
+		Kawakami
+		Kawamura
+		Kido
+		Kodama
+		Kuroda
+		Kuroki
+		Makino
+		Masaki
+		Minami
+		Muto
+		Nakamuta
+		Nire
+		Nogi
+		Nozu
+		Okada
+		Oku
+		Okubo
+		Omura
+		Osumi
+		Oyama
+		Saigo
+		Sakura
+		Sato
+		Shibayama
+		Shimamura
+		Shirakawa
+		Suzuki
+		Tachibana
+		Takashima
+		Takasugi
+		Tamon
+		Terauchi
+		Tsuboi
+		Ueda
+		Uehara
+		Ugaki
+		Uryu
+		Yamagata
+		Yamakawa
+		Yamamoto
+		Yamashita
+		Yamaya
+		Yashiro
+		Yui
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = east_asian
+}
+
+ryujin = {
+	color = rgb{47  104  140}
+	religion = shinbutsu_shugo
+	traits = { kii_group kinki }
+	male_common_first_names={
+		Aritomo
+		Gentaro
+		Gonnohyoe
+		Goro
+		Hayao
+		Heihachiro
+		Hikonojo
+		Hiroshi
+		Hyoe
+		Iwao
+		Jinzaburo
+		Jiro
+		Kageaki
+		Kagenori
+		Kantaro
+		Kazushige
+		Keisuke
+		Kenkichi
+		Kiyotaka
+		Koichiro
+		Kotohito
+		Kozo
+		Kuranosuke
+		Maresuke
+		Masatake
+		Masujiro
+		Michisura
+		Mineo
+		Mitsue
+		Mitsuomi
+		Nariaki
+		Nobuyoshi
+		Rokuro
+		Sadao
+		Samata
+		Shichiro
+		Shigeru
+		Shigeto
+		Shinsaku
+		Shoin
+		Soroku
+		Sotokichi
+		Sukenori
+		Sukeyuki
+		Sumiyoshi
+		Tadakuni
+		Takamori
+		Takayoshi
+		Takeaki
+		Tamemoto
+		Taro
+		Taruhito
+		Tetsutaro
+		Tomasaburo
+		Tomonosuke
+		Toshimichi
+		Toshiyoshi
+		Tsugumichi
+		Yahachi
+		Yasukata
+		Yasuyoshi
+		Yoshida
+		Yoshifuru
+		Yoshika
+		Yoshimichi
+		Yoshinobu
+		Yoshinori
+		Yusaku
+	}
+	female_common_first_names = {
+		Asako
+		Chikako
+		Ginko
+		Gyokuran
+		Kaho
+		Kei
+		Kin
+		Kumehachi
+		Masako
+		Miki
+		Natsu
+		Nobu
+		Oi
+		Rengetsu
+		Sayoko
+		Teru
+		Toyoko
+		Tsuneko
+	}	
+	noble_last_names = {
+		Hayashi
+		Ito
+		Jutoku
+		Kujo
+		Matsudaira
+		Mitsune
+		Nabeshima
+		Togo
+		Tokugawa
+	}
+	common_last_names={
+		Akiyama
+		Araki
+		Arichi
+		Arisugawa
+		Dewa
+		Enomoto
+		Hasegawa
+		Honjo
+		Ichinohe
+		Inoue
+		Itagaki
+		Kabayama
+		Kamimura
+		Kamio
+		Kanin
+		Kataoka
+		Kato
+		Katsu
+		Katsura
+		Kawakami
+		Kawamura
+		Kido
+		Kodama
+		Kuroda
+		Kuroki
+		Makino
+		Masaki
+		Minami
+		Muto
+		Nakamuta
+		Nire
+		Nogi
+		Nozu
+		Okada
+		Oku
+		Okubo
+		Omura
+		Osumi
+		Oyama
+		Saigo
+		Sakura
+		Sato
+		Shibayama
+		Shimamura
+		Shirakawa
+		Suzuki
+		Tachibana
+		Takashima
+		Takasugi
+		Tamon
+		Terauchi
+		Tsuboi
+		Ueda
+		Uehara
+		Ugaki
+		Uryu
+		Yamagata
+		Yamakawa
+		Yamamoto
+		Yamashita
+		Yamaya
+		Yashiro
+		Yui
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = east_asian
+}
+
+shirahama = {
+	color = rgb{23  117  198}
+	religion = shinbutsu_shugo
+	traits = { kii_group kinki }
+	male_common_first_names={
+		Aritomo
+		Gentaro
+		Gonnohyoe
+		Goro
+		Hayao
+		Heihachiro
+		Hikonojo
+		Hiroshi
+		Hyoe
+		Iwao
+		Jinzaburo
+		Jiro
+		Kageaki
+		Kagenori
+		Kantaro
+		Kazushige
+		Keisuke
+		Kenkichi
+		Kiyotaka
+		Koichiro
+		Kotohito
+		Kozo
+		Kuranosuke
+		Maresuke
+		Masatake
+		Masujiro
+		Michisura
+		Mineo
+		Mitsue
+		Mitsuomi
+		Nariaki
+		Nobuyoshi
+		Rokuro
+		Sadao
+		Samata
+		Shichiro
+		Shigeru
+		Shigeto
+		Shinsaku
+		Shoin
+		Soroku
+		Sotokichi
+		Sukenori
+		Sukeyuki
+		Sumiyoshi
+		Tadakuni
+		Takamori
+		Takayoshi
+		Takeaki
+		Tamemoto
+		Taro
+		Taruhito
+		Tetsutaro
+		Tomasaburo
+		Tomonosuke
+		Toshimichi
+		Toshiyoshi
+		Tsugumichi
+		Yahachi
+		Yasukata
+		Yasuyoshi
+		Yoshida
+		Yoshifuru
+		Yoshika
+		Yoshimichi
+		Yoshinobu
+		Yoshinori
+		Yusaku
+	}
+	female_common_first_names = {
+		Asako
+		Chikako
+		Ginko
+		Gyokuran
+		Kaho
+		Kei
+		Kin
+		Kumehachi
+		Masako
+		Miki
+		Natsu
+		Nobu
+		Oi
+		Rengetsu
+		Sayoko
+		Teru
+		Toyoko
+		Tsuneko
+	}	
+	noble_last_names = {
+		Hayashi
+		Ito
+		Jutoku
+		Kujo
+		Matsudaira
+		Mitsune
+		Nabeshima
+		Togo
+		Tokugawa
+	}
+	common_last_names={
+		Akiyama
+		Araki
+		Arichi
+		Arisugawa
+		Dewa
+		Enomoto
+		Hasegawa
+		Honjo
+		Ichinohe
+		Inoue
+		Itagaki
+		Kabayama
+		Kamimura
+		Kamio
+		Kanin
+		Kataoka
+		Kato
+		Katsu
+		Katsura
+		Kawakami
+		Kawamura
+		Kido
+		Kodama
+		Kuroda
+		Kuroki
+		Makino
+		Masaki
+		Minami
+		Muto
+		Nakamuta
+		Nire
+		Nogi
+		Nozu
+		Okada
+		Oku
+		Okubo
+		Omura
+		Osumi
+		Oyama
+		Saigo
+		Sakura
+		Sato
+		Shibayama
+		Shimamura
+		Shirakawa
+		Suzuki
+		Tachibana
+		Takashima
+		Takasugi
+		Tamon
+		Terauchi
+		Tsuboi
+		Ueda
+		Uehara
+		Ugaki
+		Uryu
+		Yamagata
+		Yamakawa
+		Yamamoto
+		Yamashita
+		Yamaya
+		Yashiro
+		Yui
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = east_asian
+}
+
+#近江文化（大津・高島・長浜）
 otsu = {
 	color = rgb{165  139  159}
 	religion = shinbutsu_shugo
-	traits = {   ohmi kinki_group }
+	traits = {   ohmi kinki }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -4046,11 +4229,11 @@ otsu = {
 	}
 	graphics = east_asian
 }
-#高島
+
 takashima = {
 	color = rgb{15  46  58}
 	religion = shinbutsu_shugo
-	traits = {   ohmi kinki_group }
+	traits = {   ohmi kinki }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -4222,11 +4405,11 @@ takashima = {
 	}
 	graphics = east_asian
 }
-#長浜
+
 nagahama = {
 	color = rgb{51  50  50}
 	religion = shinbutsu_shugo
-	traits = {   ohmi kinki_group }
+	traits = {   ohmi kinki }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -4398,11 +4581,12 @@ nagahama = {
 	}
 	graphics = east_asian
 }
-#若狭
+
+#嶺南文化（若狭）
 wakasa = {
 	color = rgb{15  46  58}
 	religion = shinbutsu_shugo
-	traits = {   ryonan kinki_group }
+	traits = { ryonan kinki }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -4574,11 +4758,12 @@ wakasa = {
 	}
 	graphics = east_asian
 }
-#鈴鹿
+
+#三重文化（鈴鹿・伊勢・伊賀）
 suzuka = {
 	color = rgb{109  1  44}
 	religion = shinbutsu_shugo
-	traits = {   mie kinki_group }
+	traits = {   mie kinki }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -4750,11 +4935,11 @@ suzuka = {
 	}
 	graphics = east_asian
 }
-#伊勢
+
 ise = {
 	color = rgb{211  194  118}
 	religion = shinbutsu_shugo
-	traits = {   mie kinki_group }
+	traits = {   mie kinki }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -4926,187 +5111,11 @@ ise = {
 	}
 	graphics = east_asian
 }
-#伊賀
+
 iga = {
 	color = rgb{145  170  117}
 	religion = shinbutsu_shugo
-	traits = {   mie kinki_group }
-	male_common_first_names={
-		Aritomo
-		Gentaro
-		Gonnohyoe
-		Goro
-		Hayao
-		Heihachiro
-		Hikonojo
-		Hiroshi
-		Hyoe
-		Iwao
-		Jinzaburo
-		Jiro
-		Kageaki
-		Kagenori
-		Kantaro
-		Kazushige
-		Keisuke
-		Kenkichi
-		Kiyotaka
-		Koichiro
-		Kotohito
-		Kozo
-		Kuranosuke
-		Maresuke
-		Masatake
-		Masujiro
-		Michisura
-		Mineo
-		Mitsue
-		Mitsuomi
-		Nariaki
-		Nobuyoshi
-		Rokuro
-		Sadao
-		Samata
-		Shichiro
-		Shigeru
-		Shigeto
-		Shinsaku
-		Shoin
-		Soroku
-		Sotokichi
-		Sukenori
-		Sukeyuki
-		Sumiyoshi
-		Tadakuni
-		Takamori
-		Takayoshi
-		Takeaki
-		Tamemoto
-		Taro
-		Taruhito
-		Tetsutaro
-		Tomasaburo
-		Tomonosuke
-		Toshimichi
-		Toshiyoshi
-		Tsugumichi
-		Yahachi
-		Yasukata
-		Yasuyoshi
-		Yoshida
-		Yoshifuru
-		Yoshika
-		Yoshimichi
-		Yoshinobu
-		Yoshinori
-		Yusaku
-	}
-	female_common_first_names = {
-		Asako
-		Chikako
-		Ginko
-		Gyokuran
-		Kaho
-		Kei
-		Kin
-		Kumehachi
-		Masako
-		Miki
-		Natsu
-		Nobu
-		Oi
-		Rengetsu
-		Sayoko
-		Teru
-		Toyoko
-		Tsuneko
-	}	
-	noble_last_names = {
-		Hayashi
-		Ito
-		Jutoku
-		Kujo
-		Matsudaira
-		Mitsune
-		Nabeshima
-		Togo
-		Tokugawa
-	}
-	common_last_names={
-		Akiyama
-		Araki
-		Arichi
-		Arisugawa
-		Dewa
-		Enomoto
-		Hasegawa
-		Honjo
-		Ichinohe
-		Inoue
-		Itagaki
-		Kabayama
-		Kamimura
-		Kamio
-		Kanin
-		Kataoka
-		Kato
-		Katsu
-		Katsura
-		Kawakami
-		Kawamura
-		Kido
-		Kodama
-		Kuroda
-		Kuroki
-		Makino
-		Masaki
-		Minami
-		Muto
-		Nakamuta
-		Nire
-		Nogi
-		Nozu
-		Okada
-		Oku
-		Okubo
-		Omura
-		Osumi
-		Oyama
-		Saigo
-		Sakura
-		Sato
-		Shibayama
-		Shimamura
-		Shirakawa
-		Suzuki
-		Tachibana
-		Takashima
-		Takasugi
-		Tamon
-		Terauchi
-		Tsuboi
-		Ueda
-		Uehara
-		Ugaki
-		Uryu
-		Yamagata
-		Yamakawa
-		Yamamoto
-		Yamashita
-		Yamaya
-		Yashiro
-		Yui
-	}
-	ethnicities = {
-		1 = asian
-	}
-	graphics = east_asian
-}
-#熊野
-kumano = {
-	color = rgb{97  232  146}
-	religion = shinbutsu_shugo
-	traits = {   kii kinki_group }
+	traits = {   mie kinki }
 	male_common_first_names={
 		Aritomo
 		Gentaro

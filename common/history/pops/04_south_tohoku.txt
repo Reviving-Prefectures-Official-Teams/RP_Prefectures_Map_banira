@@ -1,0 +1,153 @@
+﻿POPS = {
+	# 宮城県
+	s:STATE_SENDAI = {
+        region_state:MYG = {
+			create_pop = {
+				culture = sendai
+				size = 100000
+			}
+		}
+    }
+    s:STATE_SENNAN = {
+        region_state:MYG = {
+			create_pop = {
+				culture = shiroishi
+				size = 100000
+			}
+		}
+    }
+    s:STATE_ISHINOMAKI = {
+        region_state:MYG = {
+			create_pop = {
+				culture = sendai
+				size = 100000
+			}
+		}
+    }
+    s:STATE_OOSAKI = {
+        region_state:MYG = {
+			create_pop = {
+				culture = sendai
+				size = 100000
+			}
+		}
+    }
+    s:STATE_KURIHARA = {
+        region_state:MYG = {
+			create_pop = {
+				culture = sendai
+				size = 100000
+			}
+		}
+    }
+    s:STATE_TOME = {
+        region_state:MYG = {
+			create_pop = {
+				culture = soma
+				size = 100000
+			}
+		}
+    }
+    s:STATE_KESENNUMA = {
+        region_state:MYG = {
+			create_pop = {
+				culture = kesen
+				size = 100000
+			}
+			create_pop = {
+				culture = soma
+				size = 100000
+			}
+		}
+    }
+    # 山形県
+    s:STATE_MURAYAMA = {
+        region_state:YMG = {
+			create_pop = {
+				culture = yamagata
+				size = 100000
+			}
+		}
+    }
+    s:STATE_YONEZAWA = {
+        region_state:YMG = {
+			create_pop = {
+				culture = yamagata
+				size = 100000
+			}
+		}
+    }
+    s:STATE_SYONAI = {
+        region_state:YMG = {
+			create_pop = {
+				culture = shonai
+				size = 100000
+			}
+		}
+    }
+    s:STATE_MOGAMI = {
+        region_state:YMG = {
+			create_pop = {
+				culture = hachimantai
+				size = 100000
+			}
+		}
+    }
+	#福島県
+	s:STATE_FUKUSHIMA = {
+		region_state:FKS = {
+			create_pop = {
+				culture = fukushima
+				size = 100000
+			}
+		}
+	}
+	s:STATE_KORIYAMA = {
+        region_state:FKS = {
+			create_pop = {
+				culture = iwaki
+				size = 100000
+			}
+		}
+	}
+	s:STATE_IWAKI = {
+        region_state:FKS = {
+			create_pop = {
+				culture = iwaki
+				size = 100000
+			}
+		}
+	}
+    s:STATE_SOSO = {
+        region_state:FKS = {
+			create_pop = {
+				culture = fukushima
+				size = 100000
+			}
+		}
+	}
+    s:STATE_SHIRAKAWA = {
+        region_state:FKS = {
+			create_pop = {
+				culture = iwaki
+				size = 100000
+			}
+		}
+	}
+    s:STATE_AIZU = {
+        region_state:FKS = {
+			create_pop = {
+				culture = aidu
+				size = 100000
+			}
+		}
+	}
+    s:STATE_MINAMIAIZU = {
+        region_state:FKS = {
+			create_pop = {
+				culture = aidu
+				size = 100000
+			}
+		}
+	}
+}
