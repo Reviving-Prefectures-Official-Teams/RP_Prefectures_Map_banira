@@ -1,0 +1,32 @@
+WAK = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 255 255 255 }
+	color2 = rgb { 255 255 255 }
+
+	textured_emblem = {
+		texture = "RP_wakayama.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+MIE = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 0 154 0 }
+	color2 = rgb { 0 154 0 }
+
+	textured_emblem = {
+		texture = "RP_mie.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+NAR = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 255 255 255 }
+	color2 = rgb { 255 255 255 }
+
+	textured_emblem = {
+		texture = "RP_nara.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}

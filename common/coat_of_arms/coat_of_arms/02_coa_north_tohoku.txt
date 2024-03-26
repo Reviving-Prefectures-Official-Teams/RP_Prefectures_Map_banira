@@ -1,0 +1,43 @@
+AOM = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 255 255 255 }
+	color2 = rgb { 255 255 255 }
+
+	textured_emblem = {
+		texture = "RP_aomori.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+AOM_fascism = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 0 0 0 }
+	color2 = rgb { 0 0 0 }
+
+	textured_emblem = {
+		texture = "RP_aomori-fascist.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+IWT = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 12 94 113 }
+	color2 = rgb { 12 94 113 }
+
+	textured_emblem = {
+		texture = "RP_iwate.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+AKT = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 154 0 0 }
+	color2 = rgb { 154 0 0 }
+
+	textured_emblem = {
+		texture = "RP_akita.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}

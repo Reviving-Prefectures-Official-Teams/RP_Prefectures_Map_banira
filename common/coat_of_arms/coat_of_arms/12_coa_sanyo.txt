@@ -1,0 +1,32 @@
+YMC = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 105 57 49 }
+	color2 = rgb { 105 57 49 }
+
+	textured_emblem = {
+		texture = "RP_yamaguchi.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+HRS = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 173 52 70 }
+	color2 = rgb { 173 52 70 }
+
+	textured_emblem = {
+		texture = "RP_hiroshima.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+OKY = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 101 0 101 }
+	color2 = rgb { 101 0 101 }
+
+	textured_emblem = {
+		texture = "RP_okayama.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}

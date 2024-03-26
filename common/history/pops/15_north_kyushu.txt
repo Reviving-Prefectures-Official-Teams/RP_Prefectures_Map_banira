@@ -260,7 +260,7 @@
 			create_pop = {
 				culture = amakusa
 				religion = hidden_christian 
-				size = 500000
+				size = 10000
 			}
 			create_pop = {
 				culture = amakusa
@@ -304,7 +304,7 @@
 			create_pop = {
 				culture = amakusa
 				religion = hidden_christian 
-				size = 2000000
+				size = 20000
 			}
 		}
 	}
@@ -318,7 +318,7 @@
 			create_pop = {
 				culture = nagasaki
 				religion = hidden_christian
-				size = 100000
+				size = 10000
 			}
 		}
 	}
@@ -336,7 +336,17 @@
 		region_state:NGS = {
 			create_pop = {
 				culture = gotos
-				size = 1000000
+				size = 100000
+			}
+			create_pop = {
+				culture = nagasaki
+				religion = hidden_christian
+				size = 10000
+			}
+			create_pop = {
+				culture = gotos
+				religion = hidden_christian
+				size = 100000
 			}
 		}
 	}
