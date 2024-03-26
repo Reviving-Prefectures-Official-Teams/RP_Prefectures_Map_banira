@@ -1,0 +1,7 @@
+﻿AIC = { # 東京
+	flag_definition = { 
+		coa = AIC
+		subject_canton = AIC	
+		priority = 1 
+	}
+}

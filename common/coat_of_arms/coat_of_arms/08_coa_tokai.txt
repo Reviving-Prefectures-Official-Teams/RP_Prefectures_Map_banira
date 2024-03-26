@@ -1,0 +1,21 @@
+AIC = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 167 61 73 }
+	color2 = rgb { 167 61 73 }
+
+	textured_emblem = {
+		texture = "RP_aichi.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+SHZ = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 0 73 144 }
+	color2 = rgb { 0 73 144 }
+
+	textured_emblem = {
+		texture = "RP_shizuoka.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}

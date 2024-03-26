@@ -1,0 +1,32 @@
+HOK = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 47 48 78 }
+	color2 = rgb { 47 48 78 }
+
+	textured_emblem = {
+		texture = "RP_hokkaido.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+HOK_fascism = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 0 0 0 }
+	color2 = rgb { 0 0 0 }
+
+	textured_emblem = {
+		texture = "RP_hokkaido-fascist.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+SRA = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 214 0 0 }
+	color2 = rgb { 214 0 0 }
+
+	textured_emblem = {
+		texture = "RP_soviet_red_army.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}

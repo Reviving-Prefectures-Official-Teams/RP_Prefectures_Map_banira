@@ -1,0 +1,12 @@
+﻿SAMPLE = { # サンプル
+	flag_definition = { 
+		coa = ACE #coat_of_arms ファイルからこの国旗を読み込む
+		subject_canton = ACE #この国旗の際に、属国のカントン部分に使う国旗
+		allow_overlord_canton = yes	#この国旗の際に、上位国のカントン部分が使えるか
+		coa_with_overlord_canton = ACE_subject #属国の場合に使う国旗		
+		priority = 1 # この国旗の他の国旗に対する優先度
+		trigger = { # この国旗を使う条件
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}
+}

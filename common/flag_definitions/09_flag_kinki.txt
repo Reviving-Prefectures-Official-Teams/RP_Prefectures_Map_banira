@@ -1,0 +1,7 @@
+﻿OSK = { # 東京
+	flag_definition = { 
+		coa = OSK
+		subject_canton = OSK	
+		priority = 1 
+	}
+}

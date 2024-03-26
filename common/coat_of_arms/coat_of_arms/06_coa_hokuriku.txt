@@ -1,0 +1,43 @@
+ISK = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 0 137 188 }
+	color2 = rgb { 0 137 188 }
+
+	textured_emblem = {
+		texture = "RP_ishikawa.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+TOY = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 255 255 255 }
+	color2 = rgb { 255 255 255 }
+
+	textured_emblem = {
+		texture = "RP_toyama.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+FKI = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 0 0 147 }
+	color2 = rgb { 0 0 147 }
+
+	textured_emblem = {
+		texture = "RP_fukui.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+NIG = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 237 19 31 }
+	color2 = rgb { 237 19 31 }
+
+	textured_emblem = {
+		texture = "RP_niigata.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
