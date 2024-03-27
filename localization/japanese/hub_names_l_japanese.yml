@@ -7,12 +7,6 @@
   HUB_NAME_STATE_z_wood: ""
   # =======東北
   # 青森県  
-  HUB_NAME_STATE_MUTU_city: "むつ"
-  HUB_NAME_STATE_MUTU_port: "大間"
-  HUB_NAME_STATE_MUTU_mine: ""
-  HUB_NAME_STATE_MUTU_farm: ""
-  HUB_NAME_STATE_MUTU_wood: ""
-
   HUB_NAME_STATE_AOMORI_city: "青森"
   HUB_NAME_STATE_AOMORI_port: "今別"
   HUB_NAME_STATE_AOMORI_mine: ""
@@ -30,7 +24,18 @@
   HUB_NAME_STATE_HIROSAKI_mine: "黒石"
   HUB_NAME_STATE_HIROSAKI_farm: "鶴田"
   HUB_NAME_STATE_HIROSAKI_wood: "深浦"
+  
+  HUB_NAME_STATE_TOWADA_city: "十和田"
+  HUB_NAME_STATE_TOWADA_port: ""
+  HUB_NAME_STATE_TOWADA_mine: ""
+  HUB_NAME_STATE_TOWADA_farm: "三沢"
+  HUB_NAME_STATE_TOWADA_wood: ""
 
+  HUB_NAME_STATE_MUTU_city: "むつ"
+  HUB_NAME_STATE_MUTU_port: "大間"
+  HUB_NAME_STATE_MUTU_mine: ""
+  HUB_NAME_STATE_MUTU_farm: ""
+  HUB_NAME_STATE_MUTU_wood: ""
 
   # 岩手県
   # 秋田県
