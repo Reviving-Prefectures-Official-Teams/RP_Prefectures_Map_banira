@@ -1,0 +1,44 @@
+﻿l_japanese:
+  # テンプレ
+  HUB_NAME_STATE_z_city: ""
+  HUB_NAME_STATE_z_port: ""
+  HUB_NAME_STATE_z_mine: ""
+  HUB_NAME_STATE_z_farm: ""
+  HUB_NAME_STATE_z_wood: ""
+  # =======東北
+  # 青森県  
+  HUB_NAME_STATE_MUTU_city: "むつ"
+  HUB_NAME_STATE_MUTU_port: "大間"
+  HUB_NAME_STATE_MUTU_mine: ""
+  HUB_NAME_STATE_MUTU_farm: ""
+  HUB_NAME_STATE_MUTU_wood: ""
+
+  HUB_NAME_STATE_AOMORI_city: "青森"
+  HUB_NAME_STATE_AOMORI_port: "今別"
+  HUB_NAME_STATE_AOMORI_mine: ""
+  HUB_NAME_STATE_AOMORI_farm: "五所川原"
+  HUB_NAME_STATE_AOMORI_wood: "平内"
+
+  HUB_NAME_STATE_HACHINOHE_city: "八戸"
+  HUB_NAME_STATE_HACHINOHE_port: "三沢"
+  HUB_NAME_STATE_HACHINOHE_mine: "南部"
+  HUB_NAME_STATE_HACHINOHE_farm: "五戸"
+  HUB_NAME_STATE_HACHINOHE_wood: ""
+
+  HUB_NAME_STATE_HIROSAKI_city: "弘前"
+  HUB_NAME_STATE_HIROSAKI_port: "鰺ヶ沢"
+  HUB_NAME_STATE_HIROSAKI_mine: "黒石"
+  HUB_NAME_STATE_HIROSAKI_farm: "鶴田"
+  HUB_NAME_STATE_HIROSAKI_wood: "深浦"
+
+
+  # 岩手県
+  # 秋田県
+  # 宮城県
+  # 山形県
+  # 福島県
+  HUB_NAME_STATE_IWAKI_city: "平"
+  HUB_NAME_STATE_IWAKI_port: "小名浜"
+  HUB_NAME_STATE_IWAKI_mine: "内郷"
+  HUB_NAME_STATE_IWAKI_farm: "勿来"
+  HUB_NAME_STATE_IWAKI_wood: "内郷"
