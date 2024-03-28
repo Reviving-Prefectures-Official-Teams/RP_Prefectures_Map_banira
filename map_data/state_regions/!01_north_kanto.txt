@@ -115,7 +115,7 @@ STATE_HITACHI = {
 STATE_MITO = {
     id = 47
     provinces = { "x4BC9EA" "x69E4B6" "x709EE7" "x75B0ED" "x78E0FC" "x8DCBBE" "x93CDA3" "x9CF3E3" "xAAF5D7" "xBB62E9" "xBDF9DA" "xC16DCE" "xC4F3D5" "xC9F0E3" "xCC9699" "xD6DBAC" "xDC70B8" "xDCA4C0" "xE4F0D0" "xE9EA66" "xED23F0" "xEDADE4" "xEEE888" "xEF7DBD" "xF8BB67" "xF8D080" "xF9A0E1" "xFBBF3D" "xFBD04A" "xFCD66A" }
-    arable_resources = { "bg_rice_farms" "bg_tea_plantations"}
+    arable_resources = { "bg_rice_farms" "bg_tea_plantations" }
     capped_resources = {
         bg_logging = 20
     }

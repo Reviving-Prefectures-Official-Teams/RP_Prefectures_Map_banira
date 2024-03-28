@@ -1,0 +1,115 @@
+﻿l_japanese:
+  # テンプレ
+  HUB_NAME_STATE_z_city: ""
+  HUB_NAME_STATE_z_port: ""
+  HUB_NAME_STATE_z_mine: ""
+  HUB_NAME_STATE_z_farm: ""
+  HUB_NAME_STATE_z_wood: ""
+  # =======東北
+  # 青森県  
+  HUB_NAME_STATE_AOMORI_city: "青森"
+  HUB_NAME_STATE_AOMORI_port: "今別"
+  HUB_NAME_STATE_AOMORI_mine: ""
+  HUB_NAME_STATE_AOMORI_farm: "五所川原"
+  HUB_NAME_STATE_AOMORI_wood: "平内"
+
+  HUB_NAME_STATE_HACHINOHE_city: "八戸"
+  HUB_NAME_STATE_HACHINOHE_port: "三沢"
+  HUB_NAME_STATE_HACHINOHE_mine: "南部"
+  HUB_NAME_STATE_HACHINOHE_farm: "五戸"
+  HUB_NAME_STATE_HACHINOHE_wood: ""
+
+  HUB_NAME_STATE_HIROSAKI_city: "弘前"
+  HUB_NAME_STATE_HIROSAKI_port: "鰺ヶ沢"
+  HUB_NAME_STATE_HIROSAKI_mine: "黒石"
+  HUB_NAME_STATE_HIROSAKI_farm: "鶴田"
+  HUB_NAME_STATE_HIROSAKI_wood: "深浦"
+  
+  HUB_NAME_STATE_TOWADA_city: "十和田"
+  HUB_NAME_STATE_TOWADA_port: ""
+  HUB_NAME_STATE_TOWADA_mine: ""
+  HUB_NAME_STATE_TOWADA_farm: "三沢"
+  HUB_NAME_STATE_TOWADA_wood: ""
+
+  HUB_NAME_STATE_MUTU_city: "むつ"
+  HUB_NAME_STATE_MUTU_port: "大間"
+  HUB_NAME_STATE_MUTU_mine: ""
+  HUB_NAME_STATE_MUTU_farm: ""
+  HUB_NAME_STATE_MUTU_wood: ""
+
+  # 岩手県
+  # 秋田県
+  # 山形県
+  
+  HUB_NAME_STATE_YONEZAWA_city: "米沢"
+  HUB_NAME_STATE_YONEZAWA_mine: "南陽"
+  HUB_NAME_STATE_YONEZAWA_farm: "長井"
+  HUB_NAME_STATE_YONEZAWA_wood: "小国"
+
+  HUB_NAME_STATE_MURAYAMA_city: "山形"
+  HUB_NAME_STATE_MURAYAMA_mine: "天童"
+  HUB_NAME_STATE_MURAYAMA_farm: "村山"
+  HUB_NAME_STATE_MURAYAMA_wood: "寒河江"
+
+
+  # 宮城県
+
+  HUB_NAME_STATE_SENDAI_city: "仙台"
+  HUB_NAME_STATE_SENDAI_mine: "富谷"
+  HUB_NAME_STATE_SENDAI_farm: "名取"
+  HUB_NAME_STATE_SENDAI_wood: "松島" 
+  HUB_NAME_STATE_SENDAI_port: "塩竈"
+
+  HUB_NAME_STATE_SENNAN_city: "岩沼"
+  HUB_NAME_STATE_SENNAN_mine: "白石"
+  HUB_NAME_STATE_SENNAN_farm: "蔵王"
+  HUB_NAME_STATE_SENNAN_wood: "山本"
+  # 福島県
+  HUB_NAME_STATE_IWAKI_city: "平"
+  HUB_NAME_STATE_IWAKI_port: "小名浜"
+  HUB_NAME_STATE_IWAKI_mine: "内郷"
+  HUB_NAME_STATE_IWAKI_farm: "勿来"
+  HUB_NAME_STATE_IWAKI_wood: "内郷"
+
+  HUB_NAME_STATE_SOSO_city: "南相馬"
+  HUB_NAME_STATE_SOSO_port: "双葉"
+  HUB_NAME_STATE_SOSO_mine: "広野"
+  HUB_NAME_STATE_SOSO_farm: "浪江"
+  HUB_NAME_STATE_SOSO_wood: "楢葉"
+
+  HUB_NAME_STATE_FUKUSHIMA_city: "福島"
+  HUB_NAME_STATE_FUKUSHIMA_mine: "川俣"
+  HUB_NAME_STATE_FUKUSHIMA_farm: "伊達"
+  HUB_NAME_STATE_FUKUSHIMA_wood: "二本松"
+
+  HUB_NAME_STATE_KORIYAMA_city: "郡山"
+  HUB_NAME_STATE_KORIYAMA_mine: "石川"
+  HUB_NAME_STATE_KORIYAMA_farm: "須賀川"
+  HUB_NAME_STATE_KORIYAMA_wood: "三春"
+
+  HUB_NAME_STATE_SHIRAKAWA_city: "白河"
+  HUB_NAME_STATE_SHIRAKAWA_mine: "塙"
+  HUB_NAME_STATE_SHIRAKAWA_farm: "天栄"
+  HUB_NAME_STATE_SHIRAKAWA_wood: "棚倉"
+
+  HUB_NAME_STATE_AIZU_city: "会津若松"
+  HUB_NAME_STATE_AIZU_mine: "柳津"
+  HUB_NAME_STATE_AIZU_farm: "猪苗代"
+  HUB_NAME_STATE_AIZU_wood: "喜多方"
+
+  HUB_NAME_STATE_MINAMIAIZU_city: "南会津"
+  HUB_NAME_STATE_MINAMIAIZU_mine: "只見"
+  HUB_NAME_STATE_MINAMIAIZU_farm: "金山"
+  HUB_NAME_STATE_MINAMIAIZU_wood: "檜枝岐"
+
+  HUB_NAME_STATE_z_city: ""
+  HUB_NAME_STATE_z_port: ""
+  HUB_NAME_STATE_z_mine: ""
+  HUB_NAME_STATE_z_farm: ""
+  HUB_NAME_STATE_z_wood: ""
+
+  HUB_NAME_STATE_z_city: ""
+  HUB_NAME_STATE_z_port: ""
+  HUB_NAME_STATE_z_mine: ""
+  HUB_NAME_STATE_z_farm: ""
+  HUB_NAME_STATE_z_wood: ""
