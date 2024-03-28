@@ -1,6 +1,6 @@
 ﻿#神奈川県
 STATE_KAWASAKI = {
-    id = 100
+    id = 320
     provinces = { "x72DEF0" "x899FDF" "xDC9ADC" "xDFB3E8" "xEEC742" "xF2FCB6" "xF71EEE" }
     arable_resources = { "bg_rice_farms" "bg_dye_plantations" "bg_tea_plantations" }
     capped_resources = {
@@ -8,7 +8,7 @@ STATE_KAWASAKI = {
     }
 }
 STATE_YOKOHAMA = {
-    id = 200
+    id = 330
     provinces = { "x56D6D6" "x56FACB" "x68FCBA" "x74A6EF" "x7EC3DF" "x9FB1F0" "xBCEF9F" "xCB9BFD" "xCBB4B6" "xCCF23E" "xD385E3" "xD9ECC4" "xDC8EB4" "xDDB4D3" "xE0DF59" "xE4EC6C" "xE9C261" "xF06AAB" "xFAF149" }
     arable_resources = { "bg_rice_farms" "bg_dye_plantations" }
     capped_resources = {
@@ -16,7 +16,7 @@ STATE_YOKOHAMA = {
     }
 }
 STATE_YOKOSUKA = {
-    id = 300
+    id = 340
     provinces = { "x8DD6C7" "x8FB7E2" "xFD71DD" }
     arable_resources = { "bg_rice_farms" "bg_livestock_ranche" "bg_dye_plantations" "bg_tea_plantations" }
     capped_resources = {
