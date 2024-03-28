@@ -54,6 +54,16 @@
 
   # 宮城県
 
+  HUB_NAME_STATE_SENDAI_city: "仙台"
+  HUB_NAME_STATE_SENDAI_mine: "富谷"
+  HUB_NAME_STATE_SENDAI_farm: "名取"
+  HUB_NAME_STATE_SENDAI_wood: "松島" 
+  HUB_NAME_STATE_SENDAI_port: "塩竈"
+
+  HUB_NAME_STATE_SENNAN_city: "岩沼"
+  HUB_NAME_STATE_SENNAN_mine: "白石"
+  HUB_NAME_STATE_SENNAN_farm: "蔵王"
+  HUB_NAME_STATE_SENNAN_wood: "山本"
   # 福島県
   HUB_NAME_STATE_IWAKI_city: "平"
   HUB_NAME_STATE_IWAKI_port: "小名浜"
