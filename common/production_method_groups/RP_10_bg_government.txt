@@ -1,0 +1,43 @@
+﻿pmg_base_building_government_administration = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_simple_organization
+		pm_horizontal_drawer_cabinets
+		pm_vertical_filing_cabinets
+		pm_switch_boards
+	}
+}
+
+pmg_government_administration_bureaucrat_professionalism = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_hereditary_bureaucrats
+		pm_professional_bureaucrats
+	}
+}
+
+pmg_government_administration_religious_administration = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_religious_bureaucrats
+		pm_secular_bureaucrats
+	}
+}
+
+pmg_base_building_construction_sector = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_wooden_buildings
+		pm_iron_frame_buildings
+		pm_steel_frame_buildings
+		pm_arc_welded_buildings
+	}
+}

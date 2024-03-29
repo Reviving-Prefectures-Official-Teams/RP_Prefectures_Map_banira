@@ -105,7 +105,7 @@
 	s:STATE_KORIYAMA = {
         region_state:FKS = {
 			create_pop = {
-				culture = iwaki
+				culture = fukushima
 				size = 100000
 			}
 		}
@@ -121,7 +121,7 @@
     s:STATE_SOSO = {
         region_state:FKS = {
 			create_pop = {
-				culture = fukushima
+				culture = iwaki
 				size = 100000
 			}
 		}
@@ -129,7 +129,7 @@
     s:STATE_SHIRAKAWA = {
         region_state:FKS = {
 			create_pop = {
-				culture = iwaki
+				culture = fukushima
 				size = 100000
 			}
 		}

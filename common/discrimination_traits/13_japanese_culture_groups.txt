@@ -3,6 +3,7 @@ japanese_and_ryukyuan = { }
 kyoto_prefecture = {}
 osaka_prefecture = {}
 hyogo_prefecture = {}
+fukushima_prefecture = {}
 
 #九州地方
 hichiku = {}
@@ -73,3 +74,4 @@ kinki = {}
  #北海道
  hokkaido_group = {}
  indigenous_group = {}
+ 

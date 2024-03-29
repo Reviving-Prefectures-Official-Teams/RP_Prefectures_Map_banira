@@ -5,7 +5,7 @@
 		region_state:USR = {
 			create_pop = {
 				culture = amami
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = yankee
@@ -20,7 +20,7 @@
 		region_state:USR = {
 			create_pop = {
 				culture = daito
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = yankee
@@ -33,7 +33,7 @@
 		region_state:USR = {
 			create_pop = {
 				culture = yambaru
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = yankee
@@ -46,7 +46,7 @@
 		region_state:USR = {
 			create_pop = {
 				culture = okinawa
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = yankee
@@ -59,7 +59,7 @@
 		region_state:USR = {
 			create_pop = {
 				culture = okinawa
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = yankee
@@ -72,7 +72,7 @@
 		region_state:USR = {
 			create_pop = {
 				culture = okinawa
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = yankee
@@ -85,11 +85,11 @@
 		region_state:USR = {
 			create_pop = {
 				culture = yaeyama
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = miyako
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = yankee

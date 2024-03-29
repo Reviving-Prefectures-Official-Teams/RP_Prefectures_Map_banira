@@ -1,0 +1,98 @@
+﻿pmg_amenities = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_market_stalls
+		pm_market_squares
+		pm_covered_markets
+		pm_arcades
+	}
+}
+
+pmg_street_lighting = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_street_lighting
+		pm_gas_streetlights
+		pm_electric_streetlights
+	}
+}
+
+pmg_public_transport = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_public_transport
+		pm_public_trams
+		pm_public_motor_carriages
+	}
+}
+
+pmg_urban_clergy = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_state_urban_clergy
+		pm_free_urban_clergy
+		pm_no_urban_clergy
+	}
+}
+
+pmg_base_building_arts_academy = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_traditional_art
+		pm_realist_art
+		pm_photographic_art
+		pm_film_art
+	}
+}
+
+pmg_ownership_building_arts_academy = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_traditional_patronage
+		pm_bourgeoisie_patronage
+		pm_independent_artists
+	}
+}
+
+pmg_base_building_university = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_scholastic_education
+		pm_philosophy_department
+		pm_analytical_philosophy_department
+	}
+}
+
+pmg_university_academia = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_religious_academia
+		pm_secular_academia
+	}
+}
+
+pmg_base_building_skyscraper = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_skyscraper_bureaucratic_nexus
+		pm_skyscraper_trade_nexus
+	}
+}
+
+pmg_airship_mooring_post = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_no_airships
+		pm_airship_mooring_post
+	}
+}

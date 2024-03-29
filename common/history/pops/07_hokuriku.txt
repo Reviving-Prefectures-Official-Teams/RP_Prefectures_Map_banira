@@ -4,7 +4,7 @@
 		region_state:ISK = {
 			create_pop = {
 				culture = kanazawa
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -12,7 +12,7 @@
 		region_state:ISK = {
 			create_pop = {
 				culture = noto
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -20,7 +20,7 @@
 		region_state:ISK = {
 			create_pop = {
 				culture = noto
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -28,7 +28,7 @@
 		region_state:ISK = {
 			create_pop = {
 				culture = kanazawa
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -38,7 +38,7 @@
 		region_state:TOY = {
 			create_pop = {
 				culture = toyama
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -46,7 +46,7 @@
 		region_state:TOY = {
 			create_pop = {
 				culture = toyama
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -54,7 +54,7 @@
 		region_state:TOY = {
 			create_pop = {
 				culture = takaoka
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -62,7 +62,7 @@
 		region_state:TOY = {
 			create_pop = {
 				culture = takaoka
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = gokayama
@@ -76,7 +76,7 @@
 		region_state:NIG = {
 			create_pop = {
 				culture = niigata
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -84,7 +84,7 @@
 		region_state:NIG = {
 			create_pop = {
 				culture = niigata
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -92,7 +92,7 @@
 		region_state:NIG = {
 			reate_pop = {
 				culture = niigata
-				size = 2000000
+				size = 200000
 			}
 			create_pop = {
 				culture = nagaoka
@@ -104,11 +104,11 @@
 		region_state:NIG = {
 			create_pop = {
 				culture = nagaoka
-				size = 2000000
+				size = 200000
 			}
 			create_pop = {
 				culture = myoko
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = akiyamago
@@ -120,7 +120,7 @@
 		region_state:NIG = {
 			create_pop = {
 				culture = nagaoka
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -128,7 +128,7 @@
 		region_state:NIG = {
 			create_pop = {
 				culture = myoko
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -136,7 +136,7 @@
 		region_state:NIG = {
 			create_pop = {
 				culture = sado
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -144,7 +144,7 @@
 		region_state:FKI = {
 			create_pop = {
 				culture = fukui
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -152,7 +152,7 @@
 		region_state:FKI = {
 			create_pop = {
 				culture = fukui
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -160,7 +160,7 @@
 		region_state:FKI = {
 			create_pop = {
 				culture = fukui
-				size = 2000000
+				size = 200000
 			}
 		}
 	}

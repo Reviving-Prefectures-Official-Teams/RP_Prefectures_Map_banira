@@ -4,11 +4,11 @@
 		region_state:YMC = {
 			create_pop = {
 				culture = yamaguchi
-				size = 2000000
+				size = 200000
 			}
 			create_pop = {
 				culture = shimonoseki
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -28,7 +28,7 @@
 		region_state:YMC = {
 			create_pop = {
 				culture = shimonoseki
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -36,11 +36,11 @@
 		region_state:YMC = {
 			create_pop = {
 				culture = yamaguchi
-				size = 2000000
+				size = 200000
 			}
 			create_pop = {
 				culture = yanai
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -48,11 +48,11 @@
 		region_state:YMC = {
 			create_pop = {
 				culture = yamaguchi
-				size = 2000000
+				size = 200000
 			}
 			create_pop = {
 				culture = shimonoseki
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -60,11 +60,11 @@
 		region_state:YMC = {
 			create_pop = {
 				culture = yamaguchi
-				size = 2000000
+				size = 200000
 			}
 			create_pop = {
 				culture = shimonoseki
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -72,11 +72,11 @@
 		region_state:YMC = {
 			create_pop = {
 				culture = yamaguchi
-				size = 2000000
+				size = 200000
 			}
 			create_pop = {
 				culture = yanai
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -86,11 +86,11 @@
 		region_state:HRS = {
 			create_pop = {
 				culture = hiroshima
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = bitchu
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -99,7 +99,7 @@
 		region_state:HRS = {
 			create_pop = {
 				culture = hiroshima
-				size = 2000000
+				size = 200000
 			}
 			create_pop = {
 				culture = korean
@@ -111,11 +111,11 @@
 		region_state:HRS = {
 			create_pop = {
 				culture = hiroshima
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = kure
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = korean
@@ -127,11 +127,11 @@
 		region_state:HRS = {
 			create_pop = {
 				culture = hiroshima
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = fukuyama
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -139,11 +139,11 @@
 		region_state:HRS = {
 			create_pop = {
 				culture = hiroshima
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = fukuyama
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -151,11 +151,11 @@
 		region_state:HRS = {
 			create_pop = {
 				culture = hiroshima
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = bizen
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -165,7 +165,7 @@
 		region_state:OKY = {
 			create_pop = {
 				culture = bizen
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -173,7 +173,7 @@
 		region_state:OKY = {
 			create_pop = {
 				culture = bizen
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -181,11 +181,11 @@
 		region_state:OKY = {
 			create_pop = {
 				culture = bizen
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = bitchu
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -193,11 +193,11 @@
 		region_state:OKY = {
 			create_pop = {
 				culture = bizen
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = bizen
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -205,11 +205,11 @@
 		region_state:OKY = {
 			create_pop = {
 				culture = bizen
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = bitchu
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -217,11 +217,11 @@
 		region_state:OKY = {
 			create_pop = {
 				culture = bizen
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = mimasaka
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
