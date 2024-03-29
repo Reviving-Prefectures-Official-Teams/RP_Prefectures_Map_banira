@@ -64,6 +64,17 @@
   HUB_NAME_STATE_SENNAN_mine: "白石"
   HUB_NAME_STATE_SENNAN_farm: "蔵王"
   HUB_NAME_STATE_SENNAN_wood: "山本"
+
+  HUB_NAME_STATE_ISHINOMAKI_city: "石巻"
+  HUB_NAME_STATE_ISHINOMAKI_port: "東松島"
+  HUB_NAME_STATE_ISHINOMAKI_mine: "女川"
+  HUB_NAME_STATE_ISHINOMAKI_farm: "前谷地"
+
+  HUB_NAME_STATE_OOSAKI_city: "大崎"
+  HUB_NAME_STATE_OOSAKI_mine: "加美"
+  HUB_NAME_STATE_OOSAKI_farm: "涌谷"
+  HUB_NAME_STATE_OOSAKI_wood: ""
+
   # 福島県
   HUB_NAME_STATE_IWAKI_city: "平"
   HUB_NAME_STATE_IWAKI_port: "小名浜"
