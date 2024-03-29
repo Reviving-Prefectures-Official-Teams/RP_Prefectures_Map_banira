@@ -1,0 +1,129 @@
+﻿######資源抽出
+#石油リグ
+building_oil_rig = {
+	building_group = bg_oil_extraction
+	texture = "gfx/interface/icons/building_icons/oil_rig.dds"
+	city_type = mine
+	levels_per_mesh = 5
+	required_construction = construction_cost_medium
+
+	unlocking_technologies = {
+	}
+	
+	production_method_groups = {
+		pmg_base_building_oil_rig # +燃油
+		pmg_transportation_building_oil_rig
+		pmg_ownership_capital_building_oil_rig
+	}
+}
+
+#ガス採掘プラント
+building_gas_plant = {
+	building_group = bg_gas_extraction
+	texture = "gfx/interface/icons/building_icons/gas_extraction.dds"
+	city_type = mine
+	levels_per_mesh = 5
+	required_construction = construction_cost_medium
+
+	unlocking_technologies = {
+	}
+	
+	production_method_groups = {
+		pmg_base_building_gas_extraction # +天然ガス 
+		pmg_transportation_building_gas_extraction
+		pmg_ownership_capital_building_gas_extraction
+	}
+}
+
+#戦略資源基地
+building_strategic_resource_storage = {
+	building_group = bg_strategic_resource_storage
+	texture = "gfx/interface/icons/building_icons/strategic_resource_storage.dds"
+	city_type = mine
+	levels_per_mesh = 5
+	required_construction = construction_cost_medium
+
+	unlocking_technologies = {
+	}
+	
+	production_method_groups = {
+		pmg_oil_building_strategic_resource_storage # +燃油 -輸送
+		pmg_gas_building_strategic_resource_storage # +天然ガス -輸送
+		pmg_minor_metal_building_strategic_resource_storage # +レアメタル -輸送
+		pmg_ownership_capital_building_strategic_resource_storage
+	}
+}
+
+######資源加工
+#石油精製所
+building_oil_refinery = {
+	building_group = bg_oil_refinery
+	texture = "gfx/interface/icons/building_icons/oil_refinery.dds"
+	city_type = mine
+	levels_per_mesh = 5
+	required_construction = construction_cost_medium
+
+	unlocking_technologies = {
+	}
+	
+	production_method_groups = {
+		pmg_base_building_oil_refinery # -燃油 +プラスチック 
+		pmg_transportation_building_oil_refinery
+		pmg_ownership_capital_building_oil_refinery
+	}
+}
+
+#ガス精製所
+building_gas_refinery = {
+	building_group = bg_gas_refinery
+	texture = "gfx/interface/icons/building_icons/gas_refinery.dds"
+	city_type = mine
+	levels_per_mesh = 5
+	required_construction = construction_cost_medium
+
+	unlocking_technologies = {
+	}
+	
+	production_method_groups = {
+		pmg_base_building_gas_refinery # -天然ガス +プラスチック
+		pmg_transportation_building_gas_refinery
+		pmg_ownership_capital_building_gas_refinery
+	}
+}
+
+#ウラン濃縮施設
+building_uranium_enrichment = {
+	building_group = bg_uranium_extraction
+	texture = "gfx/interface/icons/building_icons/uranium_enrichment.dds"
+	city_type = mine
+	levels_per_mesh = 5
+	required_construction = construction_cost_medium
+
+	unlocking_technologies = {
+	}
+	
+	production_method_groups = {
+		pmg_base_building_uranium_enrichment # +ウラン -輸送
+		pmg_transportation_building_uranium_enrichment
+		pmg_ownership_capital_building_uranium_enrichment
+	}
+}
+
+#洋上プラットフォーム
+building_offshore_platform = {
+	building_group = bg_offshore_platform
+	texture = "gfx/interface/icons/building_icons/offshore_platform.dds"
+	city_type = mine
+	levels_per_mesh = 5
+	required_construction = construction_cost_medium
+
+	unlocking_technologies = {
+	}
+	
+	production_method_groups = {
+		pmg_base_building_offshore_platform # +燃油 +ガス -電気
+		pmg_secondry_building_offshore_platform # +レアメタル -電気
+		pmg_transportation_building_offshore_platform
+		pmg_ownership_capital_building_offshore_platform
+	}
+}

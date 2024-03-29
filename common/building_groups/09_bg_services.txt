@@ -1,0 +1,78 @@
+﻿######サービス
+bg_services = {
+	category = urban
+	land_usage = urban
+
+	always_possible = yes
+	
+	lens = infrastructure
+	
+	stateregion_max_level = yes
+	
+	economy_of_scale_ai_factor = 1.5
+}
+
+#都心
+bg_service = {
+	parent_group = bg_services
+	auto_place_buildings = yes	
+	economy_of_scale = yes
+	default_building = building_urban_center
+	cash_reserves_max = 25000
+}
+
+#高層オフィスビル
+bg_skyscraper = {
+	parent_group = bg_services
+	auto_place_buildings = yes	
+	economy_of_scale = yes
+	default_building = building_skyscraper 
+	cash_reserves_max = 25000
+}
+
+#旅行代理店
+bg_travel_agency = {
+	parent_group = bg_services
+	auto_place_buildings = yes	
+	economy_of_scale = yes
+	default_building = building_travel_agency
+	cash_reserves_max = 25000
+}
+
+######都市産業
+bg_urban_industry = {
+	category = urban
+
+	always_possible = yes
+	
+	economy_of_scale = yes
+	
+	cash_reserves_max = 25000
+	
+	should_auto_expand = { 
+		default_auto_expand_rule = yes
+	}
+	
+	economy_of_scale_ai_factor = 2.0
+	
+	lens = urban
+	
+	urbanization = 20
+	infrastructure_usage_per_level = 2
+}
+
+#大学
+bg_technology = {
+	parent_group = bg_urban_industry
+}
+
+#美術館
+bg_culture = {
+	parent_group = bg_urban_industry
+}
+
+#芸術院
+bg_arts = {
+	parent_group = bg_urban_industry
+}
+

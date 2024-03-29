@@ -5,11 +5,11 @@
 		region_state:KUM = {
 			create_pop = {
 				culture = kumamoto
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = aso
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -18,7 +18,7 @@
 		region_state:KUM = {
 			create_pop = {
 				culture = kumamoto
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -27,11 +27,11 @@
 		region_state:KUM = {
 			create_pop = {
 				culture = kumamoto
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = aso
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -40,7 +40,7 @@
 		region_state:KUM = {
 			create_pop = {
 				culture = aso
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -49,7 +49,7 @@
 		region_state:KUM = {
 			create_pop = {
 				culture = kumamoto
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -58,11 +58,11 @@
 		region_state:KUM = {
 			create_pop = {
 				culture = minamata
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = kumamoto
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = kumamoto
@@ -76,7 +76,7 @@
 		region_state:KUM = {
 			create_pop = {
 				culture = kumamoto
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -85,7 +85,7 @@
 		region_state:KUM = {
 			create_pop = {
 				culture = minamata
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -95,7 +95,7 @@
 			create_pop = {
 				culture = amakusa
 				religion = hidden_christian 
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -106,11 +106,11 @@
 		region_state:MYZ = {
 			create_pop = {
 				culture = miyazaki
-				size = 2000000
+				size = 200000
 			}
 			create_pop = {
 				culture = hyuga
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -119,7 +119,7 @@
 		region_state:MYZ = {
 			create_pop = {
 				culture = miyakonojo
-				size = 2000000
+				size = 200000
 			}
 			create_pop = {
 				culture = miyazaki
@@ -132,7 +132,7 @@
 		region_state:MYZ = {
 			create_pop = {
 				culture = hyuga
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -154,7 +154,7 @@
 		region_state:MYZ = {
 			create_pop = {
 				culture = miyazaki
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -163,7 +163,7 @@
 		region_state:MYZ = {
 			create_pop = {
 				culture = miyazaki
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -172,11 +172,11 @@
 		region_state:MYZ = {
 			create_pop = {
 				culture = miyazaki
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = fukuoka
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -185,11 +185,11 @@
 		region_state:MYZ = {
 			create_pop = {
 				culture = miyazaki
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = saiki
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -199,7 +199,7 @@
 		region_state:KGS = {
 			create_pop = {
 				culture = satsuma
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -208,7 +208,7 @@
 		region_state:KGS = {
 			create_pop = {
 				culture = satsuma
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -217,11 +217,11 @@
 		region_state:KGS = {
 			create_pop = {
 				culture = satsuma
-				size = 2000000
+				size = 200000
 			}
 			create_pop = {
 				culture = osumi
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -230,11 +230,11 @@
 		region_state:KGS = {
 			create_pop = {
 				culture = satsuma
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = osumi
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -243,7 +243,7 @@
 		region_state:KGS = {
 			create_pop = {
 				culture = osumi
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -252,7 +252,7 @@
 		region_state:KGS = {
 			create_pop = {
 				culture = osumi
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -261,7 +261,7 @@
 		region_state:KGS = {
 			create_pop = {
 				culture = tokara
-				size = 1000000
+				size = 100000
 			}
 		}
 	}

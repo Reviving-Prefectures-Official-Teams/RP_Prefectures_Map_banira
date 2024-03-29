@@ -2,9 +2,25 @@
 STATE_KAWASAKI = {
     id = 1
     provinces = { "x72DEF0" "x899FDF" "xDC9ADC" "xDFB3E8" "xEEC742" "xF2FCB6" "xF71EEE" }
-    arable_resources = { "bg_rice_farms" "bg_dye_plantations" "bg_tea_plantations" }
+    arable_resources = { "bg_rice_farms" "bg_buckwheat_farms" "bg_tea_plantations" "bg_wheat_farms" "bg_livestock_ranches" "bg_poultry_farms" "bg_pig_farms" "bg_dairy_farms" "bg_orchards" "bg_vegetable_farms"  }
     capped_resources = {
         bg_logging = 20
+        bg_tree_planting_farm = 20
+        bg_minor_metal_mining = 20
+        bg_oil_extraction = 20
+        bg_oil_refinery = 20
+        bg_offshore_platform = 20
+        bg_gas_extraction = 20
+        bg_gas_refinery = 20
+        bg_uranium_extraction = 20
+        bg_strategic_resource_storage = 20
+        bg_water_sampling_area = 20
+        bg_hydro_power_plant = 20
+        bg_solar_power_plant = 20
+        bg_wind_power_plant = 20
+        bg_nuclear_power_plant = 20
+        bg_geothermal_power_plant = 20
+        bg_tidal_power_plant = 20
     }
 }
 STATE_YOKOHAMA = {

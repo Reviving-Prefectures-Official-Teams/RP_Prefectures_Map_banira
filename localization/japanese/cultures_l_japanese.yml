@@ -41,11 +41,10 @@
  shiroishi: "白石"
  soma: "相馬"
 
- iwaki_group: "磐城文化"
+ fukushima_prefecture: "福島県"
+ fukushima_group: "福島文化"
  fukushima: "福島"
  iwaki: "磐城"
-
- aidu_group: "会津文化"
  aidu: "会津"
 
  dewa_group: "出羽文化"

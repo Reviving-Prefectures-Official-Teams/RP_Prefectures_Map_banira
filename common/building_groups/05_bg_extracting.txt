@@ -1,0 +1,87 @@
+﻿######資源抽出系
+bg_extractions = {
+	category = rural
+
+	capped_by_resources = yes
+	
+	economy_of_scale = yes
+	
+	discoverable_resource = yes
+	
+	lens = mine
+	
+	cash_reserves_max = 25000
+	
+	urbanization = 10
+	infrastructure_usage_per_level = 2
+	
+	should_auto_expand = { 
+		default_auto_expand_rule = yes
+	}
+	
+	economy_of_scale_ai_factor = 2.0
+}
+
+#石油リグ
+bg_oil_extraction = {
+	parent_group = bg_extractions
+	
+	default_building = building_oil_rig
+	
+	cash_reserves_max = 25000
+}
+
+
+#海洋掘削リグ
+bg_offshore_platform = {
+	parent_group = bg_extractions
+	
+	default_building = building_offshore_platform
+	
+	cash_reserves_max = 25000
+}
+
+#石油精製所
+bg_oil_refinery = {
+	parent_group = bg_extractions
+	
+	default_building = building_oil_refinery
+	
+	cash_reserves_max = 25000
+}
+
+#ガスプラント
+bg_gas_extraction = {
+	parent_group = bg_extractions
+	
+	default_building = building_gas_plant
+	
+	cash_reserves_max = 25000
+}
+
+#ガス精製所
+bg_gas_refinery = {
+	parent_group = bg_extractions
+	
+	default_building = building_gas_refinery
+	
+	cash_reserves_max = 25000
+}
+
+#ウラン濃縮工場
+bg_uranium_extraction = {
+	parent_group = bg_extractions
+	
+	default_building = building_uranium_enrichment
+	
+	cash_reserves_max = 25000
+}
+
+#戦略資源輸入倉
+bg_strategic_resource_storage = {
+	parent_group = bg_extractions
+	
+	default_building = building_strategic_resource_storage
+	
+	cash_reserves_max = 25000
+}

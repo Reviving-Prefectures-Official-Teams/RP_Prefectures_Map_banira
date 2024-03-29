@@ -1,0 +1,405 @@
+interest_group_ig_arts_and_crafts_pol_str_mult = {
+	neutral = yes
+	percent = yes
+	num_decimals = 0
+}
+
+interest_group_ig_arts_and_crafts_approval_add = {
+	good = yes
+	percent = no
+	num_decimals = 0
+}
+
+interest_group_ig_arts_and_crafts_pop_attraction_mult = {
+	neutral = yes
+	percent = yes
+	num_decimals = 0
+}
+
+interest_group_ig_natural_philosophers_pol_str_mult = {
+	neutral = yes
+	percent = yes
+	num_decimals = 0
+}
+
+interest_group_ig_natural_philosophers_approval_add = {
+	good = yes
+	percent = no
+	num_decimals = 0
+}
+
+interest_group_ig_natural_philosophers_pop_attraction_mult = {
+	neutral = yes
+	percent = yes
+	num_decimals = 0
+}
+
+interest_group_ig_financiers_pol_str_mult = {
+	neutral = yes
+	percent = yes
+	num_decimals = 0
+}
+
+interest_group_ig_financiers_approval_add = {
+	good = yes
+	percent = no
+	num_decimals = 0
+}
+
+interest_group_ig_financiers_pop_attraction_mult = {
+	neutral = yes
+	percent = yes
+	num_decimals = 0
+}
+
+state_discriminated_birth_rate_mult = {
+	good = yes
+	percent = yes
+}
+
+building_output_pepper_add = {
+	good = yes
+	percent = no
+}
+
+building_output_pepper_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_pepper_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_pepper_add = {
+	good = no
+	percent = no
+}
+
+building_output_hemp_add = {
+	good = yes
+	percent = no
+}
+
+building_output_hemp_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_hemp_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_hemp_add = {
+	good = no
+	percent = no
+}
+
+building_output_instruments_add = {
+	good = yes
+	percent = no
+}
+
+building_output_instruments_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_instruments_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_instruments_add = {
+	good = no
+	percent = no
+}
+
+building_output_instruments_add = {
+	good = yes
+	percent = no
+}
+
+building_output_instruments_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_instruments_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_instruments_add = {
+	good = no
+	percent = no
+}
+
+building_output_medical_service_add = {
+	good = yes
+	percent = no
+}
+
+building_output_medical_service_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_medical_service_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_medical_service_add = {
+	good = no
+	percent = no
+}
+
+building_output_medicine_add = {
+	good = yes
+	percent = no
+}
+
+building_output_medicine_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_medicine_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_medicine_add = {
+	good = no
+	percent = no
+}
+
+building_output_literature_add = {
+	good = yes
+	percent = no
+}
+
+building_output_literature_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_literature_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_literature_add = {
+	good = no
+	percent = no
+}
+
+building_input_fine_art_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_fine_art_add = {
+	good = no
+	percent = no
+}
+
+building_input_luxury_furnitur_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_luxury_furnitur_add = {
+	good = no
+	percent = no
+}
+
+building_input_luxury_clothes_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_luxury_clothes_add = {
+	good = no
+	percent = no
+}
+
+building_input_newspapers_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_newspapers_add = {
+	good = no
+	percent = no
+}
+
+building_input_magazines_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_magazines_add = {
+	good = no
+	percent = no
+}
+
+building_output_show_add = {
+	good = yes
+	percent = no
+}
+
+building_output_literature_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_literature_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_literature_add = {
+	good = no
+	percent = no
+}
+
+building_input_service_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_service_add = {
+	good = no
+	percent = no
+}
+
+building_output_leisure_travel_add = {
+	good = yes
+	percent = no
+}
+
+building_output_leisure_travel_mult = {
+	good = yes
+	percent = yes
+}
+
+building_output_brandy_add = {
+	good = yes
+	percent = no
+}
+
+building_output_brandy_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_brandy_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_brandy_add = {
+	good = no
+	percent = no
+}
+
+building_output_whiskey_add = {
+	good = yes
+	percent = no
+}
+
+building_output_whiskey_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_whiskey_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_whiskey_add = {
+	good = no
+	percent = no
+}
+
+building_output_newspapers_add = {
+	good = yes
+	percent = no
+}
+building_publishing_house_throughput_mult = {
+	good = yes
+	percent = yes
+}
+building_output_newspapers_mult = {
+	good = yes
+	percent = yes
+}
+building_output_magazines_add = {
+	good = yes
+	percent = no
+}
+building_output_magazines_mult = {
+	good = yes
+	percent = yes
+}
+
+building_output_services_add = {
+	good = yes
+	percent = no
+	
+	ai_value = 30 # +1 service = same value as 30 pounds of profit
+}
+
+building_input_services_add = {
+	good = no
+	percent = no
+	
+	ai_value = 30 # +1 service = same value as 30 pounds of profit
+}
+
+building_input_services_mult = {
+	good = no
+	percent = yes
+	
+	ai_value = 3000 # +1 service = same value as 30 pounds of profit
+}
+
+building_output_securities_add = {
+	good = yes
+	percent = no
+	
+	ai_value = 100 # +1 securities = same value as 100 pounds of profit
+}
+
+building_output_securities_mult = {
+	good = yes
+	percent = yes
+	
+	ai_value = 10000 # +1 securities = same value as 100 pounds of profit
+}
+
+building_bank_throughput_mult = {
+	good = yes
+	percent = yes
+	
+	ai_value = 10000 # +1 securities = same value as 100 pounds of profit
+}
+
+state_building_bank_max_level_add = {
+	good = yes
+	percent = no
+	num_decimals = 0
+	ai_value = 100
+}
+
+state_building_hospital_max_level_add = {
+	good = yes
+	percent = no
+	num_decimals = 0
+	ai_value = 100
+}
