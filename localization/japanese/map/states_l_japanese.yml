@@ -112,8 +112,8 @@
  STATE_TOKUSHIMA: "徳島"
  STATE_NARUTO: "鳴門"
  STATE_ANAN: "阿南"
- STATE_MIYOSHI: "三好"
- STATE_YOSHINOGAWA: "吉野川"
+ STATE_MIYOSHI: "三馬"
+ STATE_YOSHINOGAWA: "三好"
   #愛媛県
  STATE_TOYO: "東予"
  STATE_NANYO: "南予"
@@ -183,7 +183,7 @@
  STATE_KANAZAWA: "金沢"
  STATE_OKUNOTO: "奥能登"
  STATE_NAKANOTO: "中能登"
- STATE_MINAMIKAGA: "南加賀"
+ STATE_MINAMIKAMO: "加賀"
   #福井県
  STATE_FUKUI: "福井"
  STATE_OKUETSU: "奥越"
@@ -205,14 +205,13 @@
  STATE_SAKU: "佐久"
  STATE_UEDA: "上田"
  STATE_SUWA: "諏訪"
- STATEMATSUMOTO: "松本"
+ STATE_MATSUMOTO: "松本"
  STATE_KAMIKOCHI: "上高地"
  STATE_KISO: "木曽"
  STATE_KAMIINA: "上伊那"
  STATE_SHIMOINA: "下伊那"
   #山梨県
  STATE_YAMANASHI: "山梨"
- STATE_KYOTOH: "峡東"
  STATE_KYONAN: "峡南"
  STATE_CHUHOKU: "中北"
  STATE_FUJIHIGASHI: "郡内"
@@ -236,6 +235,7 @@
  STATE_GIFU: "岐阜"
  STATE_HIDA: "飛騨"
  STATE_TONO: "東濃"
+ STATE_CHUNO: "中濃"
  STATE_SEINO: "西濃"
  #関東地方--------------------------------------------------------------
   #東京都
@@ -300,7 +300,7 @@
  STATE_HACHINOHE: "八戸"
  STATE_HIROSAKI: "弘前"
  STATE_TOWADA: "十和田"
- STATE_MUTUSI: "陸奥"
+ STATE_MUTU-: "陸奥"
   #岩手県
  STATE_MORIOKA: "盛岡"
  STATE_KAMAISHI: "釜石"
@@ -352,6 +352,5 @@
  STATE_ETOROFU: "択捉"
  STATE_HABOMAI: "歯舞"
  STATE_KUNASHIRI: "国後"
- STATE_HAKODATE: "函館"
  STATE_HIYAMA: "渡島"
  STATE_OSYAMAMBE: "長万部"
