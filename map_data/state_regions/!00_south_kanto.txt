@@ -74,7 +74,7 @@ STATE_OKUTAMA = {
 }
 STATE_SOUTH_TAMA = {
     id = 8
-    provinces = { "xBDE1B9" "xD9EA4C" "xE169C0" "xEED259" "xF5F60D" "xF9ED9D" "bg_tea_plantations" }
+    provinces = { "xBDE1B9" "xD9EA4C" "xE169C0" "xEED259" "xF5F60D" "xF9ED9D" }
     arable_resources = { "bg_rice_farms" "bg_dye_plantations" "bg_tea_plantations" }
     capped_resources = {
         bg_logging = 20
@@ -90,8 +90,8 @@ STATE_NORTH_TAMA = {
 }
 STATE_MACHIDA = {
     id = 10
-    provinces = { "x75D5AB" "xED7EFA" "xF788AC" "bg_dye_plantations" "bg_tea_plantations" }
-    arable_resources = { "bg_rice_farms" }
+    provinces = { "x75D5AB" "xED7EFA" "xF788AC" }
+    arable_resources = { "bg_rice_farms" "bg_dye_plantations" "bg_tea_plantations"}
     capped_resources = {
         bg_logging = 20
     }

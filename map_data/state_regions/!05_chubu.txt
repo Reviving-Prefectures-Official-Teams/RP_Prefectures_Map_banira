@@ -90,7 +90,7 @@ STATE_NIIGATA = {
 
 STATE_KAETSU = {
     id = 113
-    provinces = { "xC5A1F9" "x5AECF5" "x60F1B9" "x71BBDC" "x78ECF4" "x79F0CD" "x86E2A3" "x8ABEB5" "x908CEC" "x9DA9F5" "xA89BB3" "xAAD3BB" "xAAF9AD" "xB063EF" "xB299AD" "xB2E3CA" "xBCC7B8" "xC0FD81" "xC4B29D" "xD6D59A" "xDA56E3" "xDB65EF" "xE084FD" "xEFB792" "xF27D95" "xFDFC46" "xFE2FFC" }
+    provinces = { "x5AECF5" "x60F1B9" "x71BBDC" "x78ECF4" "x79F0CD" "x86E2A3" "x8ABEB5" "x908CEC" "x9DA9F5" "xA89BB3" "xAAD3BB" "xAAF9AD" "xB063EF" "xB299AD" "xB2E3CA" "xBCC7B8" "xC0FD81" "xC4B29D" "xC5A1F9" "xD6D59A" "xDA56E3" "xDB65EF" "xE084FD" "xEFB792" "xF27D95" "xFDFC46" "xFE2FFC" }
     arable_resources = { "bg_rice_farms" "bg_cotton_plantations" "bg_tea_plantations" }
     capped_resources = {
         bg_logging = 20
@@ -211,7 +211,7 @@ STATE_IIYAMA = {
 
 STATE_SAKU = {
     id = 125
-    provinces = { "x65C4D0" "x76AEF0" "x88E0EB" "x8CEF9A" "xA0B0AF" "xADC0C5" "xDDEA3D" "xE0CDEB" "xE0D0E6" "xE0ED31" "xE1BAD3" "xE384E8" "xEB43D0" "xF1A67D" "xFF8F7F" }
+    provinces = { "x46F3D3" "x65C4D0" "x76AEF0" "x88E0EB" "x8CEF9A" "xA0B0AF" "xADC0C5" "xDDEA3D" "xE0CDEB" "xE0D0E6" "xE0ED31" "xE1BAD3" "xE384E8" "xEB43D0" "xF1A67D" "xFF8F7F" }
     arable_resources = { "bg_rice_farms" "bg_tea_plantations" }
     capped_resources = {
         bg_logging = 20
@@ -344,7 +344,7 @@ STATE_SEINO = {
 
 STATE_YAMANASHI = {
     id = 138
-    provinces = { "x46F3D3" "x7EE3EE" "x8AEE8A" "xA4B7D4" "xB5D083" "xC995AE" "xCADFFD" "xE2DBC4" "xFAF3AE" "xFBB8C0" "xFD9B7F" }
+    provinces = { "x7EE3EE" "x8AEE8A" "xA4B7D4" "xB5D083" "xC995AE" "xCADFFD" "xE2DBC4" "xFAF3AE" "xFBB8C0" "xFD9B7F" }
     arable_resources = { "bg_rice_farms" "bg_livestock_ranche" "bg_silk_plantations" }
     capped_resources = {
         bg_logging = 20
