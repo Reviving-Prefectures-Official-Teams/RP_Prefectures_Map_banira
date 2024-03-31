@@ -1,0 +1,2 @@
+﻿l_japanese:
+ CONSTRUCTION_GOODS_EXPENSES_BREAKDOWN_2: "建設予算: #v #N @money!-[GetPlayer.GetConstructionGoodsExpenses|D-]#!#! [GetPlayer.GetConstructionGoodsExpensesByGoodsDesc] [concept_investment_pool]: #v @money![GetPlayer.GetInvestmentPool|D+]#!"

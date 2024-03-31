@@ -1,0 +1,469 @@
+﻿######穀物農業
+#麦畑
+pmg_base_building_wheat_farm = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_simple_farming
+		pm_fertilization
+	}
+}
+
+pmg_secondary_building_wheat_farm = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_secondary
+		pm_buckwheat_farms
+	}
+}
+
+pmg_harvesting_process_building_wheat_farm = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_tools_disabled
+		pm_tools
+		pm_steam_threshers
+		pm_tractors
+		pm_compression_ignition_tractors
+	}
+}
+
+pmg_ownership_land_building_wheat_farm = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned
+		pm_publicly_traded
+		pm_homesteading
+		pm_government_run
+		pm_worker_cooperative_farm
+	}
+}
+
+#米
+pmg_base_building_rice_farm = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_simple_farming_building_rice_farm
+		pm_fertilization_building_rice_farm
+		pm_farm_1 #二毛作
+	}
+}
+
+pmg_secondary_building_rice_farm = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_secondary
+		pm_brewning_sake # +日本酒 -穀物
+	}
+}
+
+pmg_harvesting_process_building_rice_farm = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_tools_disabled
+		pm_tools_building_rice_farm
+		pm_steam_threshers_building_rice_farm
+	}
+}
+
+pmg_ownership_land_building_rice_farm = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned
+		pm_publicly_traded
+		pm_homesteading
+		pm_government_run
+		pm_worker_cooperative_farm
+	}
+}
+
+#トウモロコシ
+pmg_base_building_maize_farm = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_simple_farming
+		pm_soil_enriching_farming
+		pm_fertilization
+		pm_chemical_fertilizer
+	}
+}
+
+pmg_secondary_building_maize_farm = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_secondary
+		pm_citrus_orchards
+	}
+}
+
+pmg_harvesting_process_building_maize_farm = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_tools_disabled
+		pm_tools
+		pm_steam_threshers
+		pm_tractors
+		pm_compression_ignition_tractors
+	}
+}
+
+pmg_ownership_land_building_maize_farm = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned
+		pm_publicly_traded
+		pm_homesteading
+		pm_government_run
+		pm_worker_cooperative_farm
+	}
+}
+
+#雑穀
+pmg_base_building_millet_farm = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_simple_farming
+		pm_soil_enriching_farming
+		pm_fertilization
+		pm_chemical_fertilizer
+	}
+}
+
+pmg_secondary_building_millet_farm = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_secondary
+		pm_fig_orchards
+	}
+}
+
+pmg_harvesting_process_building_millet_farm = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_tools_disabled
+		pm_tools
+		pm_steam_threshers
+		pm_tractors
+		pm_compression_ignition_tractors
+	}
+}
+
+pmg_ownership_land_building_millet_farm = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned
+		pm_publicly_traded
+		pm_homesteading
+		pm_government_run
+		pm_worker_cooperative_farm
+	}
+}
+
+######牧場
+#牛牧場
+pmg_base_building_livestock_ranch = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_open_air_stockyards
+		pm_butchering_tools
+		pm_slaughterhouses
+		pm_mechanized_slaughtering
+	}
+}
+
+pmg_shimofuri_niku = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_secondary
+		pm_shimofuri_niku
+	}
+}
+
+pmg_fencing = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_standard_fences
+		pm_barbed_wire_fences
+		pm_electric_fencing
+	}
+}
+
+pmg_refrigeration_building_livestock_ranch = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_unrefrigerated
+		pm_refrigerated_storage_building_livestock_ranch
+		pm_refrigerated_rail_cars_building_livestock_ranch
+	}
+}
+
+pmg_ownership_land_building_livestock_ranch = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned
+		pm_publicly_traded
+		pm_homesteading
+		pm_government_run
+		pm_worker_cooperative_farm
+	}
+}
+
+######プランテーション農業
+pmg_base_building_coffee_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		default_building_coffee_plantation
+		automatic_irrigation_building_coffee_plantation
+	}
+}
+
+pmg_train_automation_building_coffee_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_road_carts
+		pm_steam_rail_transport
+	}
+}
+
+pmg_ownership_land_building_coffee_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned_plantation
+		pm_publicly_traded_plantation
+		pm_government_run_plantation
+		pm_worker_cooperative_plantation
+	}
+}
+
+pmg_base_building_cotton_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		default_building_cotton_plantation
+		automatic_irrigation_building_cotton_plantation
+	}
+}
+
+pmg_train_automation_building_cotton_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_road_carts
+		pm_steam_rail_transport
+	}
+}
+
+pmg_ownership_land_building_cotton_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned_plantation
+		pm_publicly_traded_plantation
+		pm_government_run_plantation
+		pm_worker_cooperative_plantation
+	}
+}
+
+pmg_base_building_dye_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		default_building_dye_plantation
+		automatic_irrigation_building_dye_plantation
+	}
+}
+
+pmg_train_automation_building_dye_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_road_carts
+		pm_steam_rail_transport
+	}
+}
+
+pmg_ownership_land_building_dye_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned_plantation
+		pm_publicly_traded_plantation
+		pm_government_run_plantation
+		pm_worker_cooperative_plantation
+	}
+}
+
+pmg_base_building_opium_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		default_building_opium_plantation
+		automatic_irrigation_building_opium_plantation
+	}
+}
+
+pmg_train_automation_building_opium_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_road_carts
+		pm_steam_rail_transport
+	}
+}
+
+pmg_ownership_land_building_opium_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned_plantation
+		pm_publicly_traded_plantation
+		pm_government_run_plantation
+		pm_worker_cooperative_plantation
+	}
+}
+
+pmg_base_building_tea_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		default_building_tea_plantation
+		automatic_irrigation_building_tea_plantation
+	}
+}
+
+pmg_train_automation_building_tea_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_road_carts
+		pm_steam_rail_transport
+	}
+}
+
+pmg_ownership_land_building_tea_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned_plantation
+		pm_publicly_traded_plantation
+		pm_government_run_plantation
+		pm_worker_cooperative_plantation
+	}
+}
+
+pmg_base_building_tobacco_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		default_building_tobacco_plantation
+		automatic_irrigation_building_tobacco_plantation
+	}
+}
+
+pmg_train_automation_building_tobacco_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_road_carts
+		pm_steam_rail_transport
+	}
+}
+
+pmg_ownership_land_building_tobacco_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned_plantation
+		pm_publicly_traded_plantation
+		pm_government_run_plantation
+		pm_worker_cooperative_plantation
+	}
+}
+
+pmg_base_building_sugar_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		default_building_sugar_plantation
+		automatic_irrigation_building_sugar_plantation
+	}
+}
+
+pmg_train_automation_building_sugar_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_road_carts
+		pm_steam_rail_transport
+	}
+}
+
+pmg_ownership_land_building_sugar_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned_plantation
+		pm_publicly_traded_plantation
+		pm_government_run_plantation
+		pm_worker_cooperative_plantation
+	}
+}
+
+pmg_base_building_banana_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		default_building_banana_plantation
+		automatic_irrigation_building_banana_plantation
+	}
+}
+
+pmg_train_automation_building_banana_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_road_carts
+		pm_steam_rail_transport
+	}
+}
+
+pmg_ownership_land_building_banana_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned_plantation
+		pm_publicly_traded_plantation
+		pm_government_run_plantation
+		pm_worker_cooperative_plantation
+	}
+}
+
+pmg_base_building_silk_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		default_building_silk_plantation
+		automatic_irrigation_building_silk_plantation
+	}
+}
+
+pmg_train_automation_building_silk_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_road_carts
+		pm_steam_rail_transport
+	}
+}
+
+pmg_ownership_land_building_silk_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned_plantation
+		pm_publicly_traded_plantation
+		pm_government_run_plantation
+		pm_worker_cooperative_plantation
+	}
+}
+
+pmg_base_building_vineyard_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		default_building_vineyard_plantation
+		automatic_irrigation_building_vineyard_plantation
+	}
+}
+
+pmg_train_automation_building_vineyard_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_road_carts
+		pm_steam_rail_transport
+	}
+}
+
+pmg_ownership_land_building_vineyard_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned_plantation
+		pm_publicly_traded_plantation
+		pm_government_run_plantation
+		pm_worker_cooperative_plantation
+	}
+}

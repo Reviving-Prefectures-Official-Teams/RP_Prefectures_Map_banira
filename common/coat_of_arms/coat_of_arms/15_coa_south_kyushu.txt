@@ -1,0 +1,65 @@
+KUM = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 148 23 19 }
+	color2 = rgb { 148 23 19 }
+
+	textured_emblem = {
+		texture = "RP_kumamoto.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+MYZ = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 13 154 54 }
+	color2 = rgb { 13 154 54 }
+
+	textured_emblem = {
+		texture = "RP_miyazaki_white.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+KGS = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 255 255 255 }
+	color2 = rgb { 255 255 255 }
+
+	textured_emblem = {
+		texture = "RP_kagoshima.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+OKI = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 255 255 255 }
+	color2 = rgb { 255 255 255 }
+
+	textured_emblem = {
+		texture = "RP_okinawa.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+USR = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 255 255 255 }
+	color2 = rgb { 255 255 255 }
+
+	textured_emblem = {
+		texture = "RP_usarmy.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+USR_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 255 255 255 }
+	color2 = rgb { 255 255 255 }
+
+	textured_emblem = {
+		texture = "RP_ryukyu_second.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}

@@ -4,7 +4,7 @@
 		region_state:WAK = {
 			create_pop = {
 				culture = wakayama
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -26,7 +26,7 @@
 		region_state:WAK = {
 			create_pop = {
 				culture = shirahama
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -35,7 +35,7 @@
 		region_state:WAK = {
 			create_pop = {
 				culture = wakayama
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = izumi
@@ -48,7 +48,7 @@
 		region_state:NAR = {
 			create_pop = {
 				culture = yamato_culture
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = katsuragi
@@ -61,7 +61,7 @@
 		region_state:NAR = {
 			create_pop = {
 				culture = yamato_culture
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = tenri
@@ -78,7 +78,7 @@
 			}
 			create_pop = {
 				culture = yoshino
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = tenri
@@ -114,7 +114,7 @@
 		region_state:MIE = {
 			create_pop = {
 				culture = suzuka
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -123,7 +123,7 @@
 		region_state:MIE = {
 			create_pop = {
 				culture = iga
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -132,7 +132,7 @@
 		region_state:MIE = {
 			create_pop = {
 				culture = suzuka
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -141,7 +141,7 @@
 		region_state:MIE = {
 			create_pop = {
 				culture = ise
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -150,7 +150,7 @@
 		region_state:MIE = {
 			create_pop = {
 				culture = ise
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -159,7 +159,7 @@
 		region_state:MIE = {
 			create_pop = {
 				culture = kumano
-				size = 1000000
+				size = 100000
 			}
 		}
 	}

@@ -1,0 +1,7 @@
+﻿FKO = { # 東京
+	flag_definition = { 
+		coa = FKO
+		subject_canton = FKO	
+		priority = 1 
+	}
+}

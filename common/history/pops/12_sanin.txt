@@ -4,11 +4,11 @@
 		region_state:SMN = {
 			create_pop = {
 				culture = izumo
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = yonago
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -16,7 +16,7 @@
 		region_state:SMN = {
 			create_pop = {
 				culture = izumo
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -24,7 +24,7 @@
 		region_state:SMN = {
 			create_pop = {
 				culture = izumo
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -32,7 +32,7 @@
 		region_state:SMN = {
 			create_pop = {
 				culture = izumo
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -40,7 +40,7 @@
 		region_state:SMN = {
 			create_pop = {
 				culture = iwami
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -48,11 +48,11 @@
 		region_state:SMN = {
 			create_pop = {
 				culture = iwami
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = hagi
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -62,7 +62,7 @@
 		region_state:TTR = {
 			create_pop = {
 				culture = tottori
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -70,11 +70,11 @@
 		region_state:TTR = {
 			create_pop = {
 				culture = tottori
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = yonago
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -82,11 +82,11 @@
 		region_state:TTR = {
 			create_pop = {
 				culture = tottori
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = kurayoshi
-				size = 1000000
+				size = 100000
 			}
 		}
 	}

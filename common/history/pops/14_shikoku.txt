@@ -4,7 +4,7 @@
 		region_state:KAG = {
 			create_pop = {
 				culture = takamatsu
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -12,11 +12,11 @@
 		region_state:KAG = {
 			create_pop = {
 				culture = takamatsu
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = marugame
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -25,7 +25,7 @@
 		region_state:KAG = {
 			create_pop = {
 				culture = marugame
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -33,7 +33,7 @@
 		region_state:KAG = {
 			create_pop = {
 				culture = takamatsu
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -63,7 +63,7 @@
 		region_state:TKS = {
 			create_pop = {
 				culture = tokushima
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -71,11 +71,11 @@
 		region_state:TKS = {
 			create_pop = {
 				culture = tokushima
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = naruto
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -83,11 +83,11 @@
 		region_state:TKS = {
 			create_pop = {
 				culture = tokushima
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = anan
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -95,7 +95,7 @@
 		region_state:TKS = {
 			create_pop = {
 				culture = tokushima
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -103,7 +103,7 @@
 		region_state:TKS = {
 			create_pop = {
 				culture = tokushima
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -113,15 +113,15 @@
 		region_state:EHI = {
 			create_pop = {
 				culture = uma
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = matsuyama
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = imabari
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -129,11 +129,11 @@
 		region_state:EHI = {
 			create_pop = {
 				culture = matsuyama
-				size = 3000000
+				size = 300000
 			}
 			create_pop = {
 				culture = imabari
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -141,11 +141,11 @@
 		region_state:EHI = {
 			create_pop = {
 				culture = matsuyama
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = uwajima
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -153,11 +153,11 @@
 		region_state:EHI = {
 			create_pop = {
 				culture = matsuyama
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = imabari
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -167,7 +167,7 @@
 		region_state:KCH = {
 			create_pop = {
 				culture = kochi
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -175,7 +175,7 @@
 		region_state:KCH = {
 			create_pop = {
 				culture = kochi
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -183,11 +183,11 @@
 		region_state:KCH = {
 			create_pop = {
 				culture = kochi
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = simanto
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -195,11 +195,11 @@
 		region_state:KCH = {
 			create_pop = {
 				culture = simanto
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = uwajima
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -207,11 +207,11 @@
 		region_state:KCH = {
 			create_pop = {
 				culture = kochi
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = simanto
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -219,11 +219,11 @@
 		region_state:KCH = {
 			create_pop = {
 				culture = kochi
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = kitagawa
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -231,11 +231,11 @@
 		region_state:KCH = {
 			create_pop = {
 				culture = kochi
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = kitagawa
-				size = 1000000
+				size = 100000
 			}
 		}
 	}

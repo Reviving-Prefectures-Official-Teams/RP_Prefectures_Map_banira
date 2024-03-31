@@ -1,0 +1,7 @@
+market_capital_state = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	state_migration_pull_mult = 0.25
+	state_infrastructure_mult = 0.25
+	building_input_services_mult = -0.10
+	building_bank_throughput_mult = 0.10
+}

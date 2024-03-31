@@ -21,7 +21,7 @@ STATE_OKUNOTO = {
 STATE_NAKANOTO = {
     id = 106
     provinces = { "x72A5E1" "x84D926" "x91B2B2" "x94C7B7" "x97D9D2" "x9E77E2" "xB5B68F" "xB5F776" "xBE93E1" "xCC81B9" "xCCEFA5" "xD496DA" "xD6FA2E" "xDAD480" "xEBE8D4" "xF6B9A6" }
-    arable_resources = { "bg_rice_farms" "bg_cotton_plantations" 　 }
+    arable_resources = { "bg_rice_farms" "bg_cotton_plantations" }
     capped_resources = {
         bg_logging = 20
     }
@@ -170,7 +170,7 @@ STATE_OKUETSU = {
 STATE_TANNAN = {
     id = 121
     provinces = { "x54EDD2" "x5AF1CC" "x8AF289" "x9FC4C4" "xABCCE2" "xB6F8D6" "xC6D3E8" "xD7F9BB" "xD97FE5" "xD9CAE2" "xE173E3" "xF0DFF7" "xF7CEB2" "xFBC8A0" "xFCDEFC" }
-    arable_resources = { "bg_rice_farms" 　 "bg_cotton_plantations" }
+    arable_resources = { "bg_rice_farms" "bg_cotton_plantations" }
     capped_resources = {
         bg_logging = 20
     }

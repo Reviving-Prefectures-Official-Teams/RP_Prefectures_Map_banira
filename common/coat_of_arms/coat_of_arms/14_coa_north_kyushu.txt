@@ -1,0 +1,43 @@
+FKO = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 52 66 155 }
+	color2 = rgb { 52 66 155 }
+
+	textured_emblem = {
+		texture = "RP_fukuoka.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+SAG = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 0 100 98 }
+	color2 = rgb { 0 100 98 }
+
+	textured_emblem = {
+		texture = "RP_saga.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+NGS = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 255 255 255 }
+	color2 = rgb { 255 255 255 }
+
+	textured_emblem = {
+		texture = "RP_nagasaki.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+OIT = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 255 255 255 }
+	color2 = rgb { 255 255 255 }
+
+	textured_emblem = {
+		texture = "RP_oita.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}

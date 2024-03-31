@@ -1,0 +1,7 @@
+﻿TKY = { # 東京
+	flag_definition = { 
+		coa = TKY
+		subject_canton = TKY	
+		priority = 1 
+	}
+}

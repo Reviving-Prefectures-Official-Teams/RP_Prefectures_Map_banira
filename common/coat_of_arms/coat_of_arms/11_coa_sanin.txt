@@ -1,0 +1,21 @@
+SMN = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 150 0 16 }
+	color2 = rgb { 150 0 16 }
+
+	textured_emblem = {
+		texture = "RP_shimane.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+TTR = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 42 46 141 }
+	color2 = rgb { 42 46 141 }
+
+	textured_emblem = {
+		texture = "RP_tottori.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}

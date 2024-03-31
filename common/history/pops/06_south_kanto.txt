@@ -5,7 +5,7 @@
 		region_state:KNG = {
 			create_pop = {
 				culture = yokohama
-				size = 2000000
+				size = 200000
 			}
 			create_pop = {
 				culture = korean
@@ -21,7 +21,7 @@
 		region_state:KNG = {
 			create_pop = {
 				culture = yokohama
-				size = 2000000
+				size = 200000
 			}
 			create_pop = {
 				culture = han
@@ -37,7 +37,7 @@
 		region_state:KNG = {
 			create_pop = {
 				culture = yokosuka
-				size = 2000000
+				size = 200000
 			}
 			create_pop = {
 				culture = korean
@@ -49,7 +49,7 @@
 		region_state:KNG = {
 			create_pop = {
 				culture = sagamihara
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -57,7 +57,7 @@
 		region_state:KNG = {
 			create_pop = {
 				culture = yokosuka
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -65,7 +65,7 @@
 		region_state:KNG = {
 			create_pop = {
 				culture = odawara
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -75,11 +75,11 @@
 		region_state:TKY = {
 			create_pop = {
 				culture = tama
-				size = 500000
+				size = 50000
 			}
 			create_pop = {
 				culture = chichibu
-				size = 500000
+				size = 50000
 			}
 		}
 	}
@@ -87,7 +87,7 @@
 		region_state:TKY = {
 			create_pop = {
 				culture = tama
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -95,7 +95,7 @@
 		region_state:TKY = {
 			create_pop = {
 				culture = tama
-				size = 2000000
+				size = 200000
 			}
 			create_pop = {
 				culture = korean
@@ -107,7 +107,7 @@
 		region_state:TKY = {
 			create_pop = {
 				culture = odawara
-				size = 2000000
+				size = 200000
 			}
 			create_pop = {
 				culture = iwo
@@ -123,7 +123,15 @@
 		region_state:TKY = {
 			create_pop = {
 				culture = edo
-				size = 2000000
+				size = 200000
+			}
+			create_pop = {
+				culture = yamanote
+				size = 200000
+			}
+			create_pop = {
+				culture = chichibu
+				size = 200000
 			}
 			create_pop = {
 				culture = korean
@@ -139,7 +147,15 @@
 		region_state:TKY = {
 			create_pop = {
 				culture = edo
-				size = 2000000
+				size = 200000
+			}
+			create_pop = {
+				culture = yamanote
+				size = 200000
+			}
+			create_pop = {
+				culture = chichibu
+				size = 200000
 			}
 			create_pop = {
 				culture = white_russian
@@ -163,7 +179,15 @@
 		region_state:TKY = {
 			create_pop = {
 				culture = edo
-				size = 2000000
+				size = 200000
+			}
+			create_pop = {
+				culture = yamanote
+				size = 200000
+			}
+			create_pop = {
+				culture = chichibu
+				size = 200000
 			}
 			create_pop = {
 				culture = korean
@@ -179,7 +203,15 @@
 		region_state:TKY = {
 			create_pop = {
 				culture = yamanote
-				size = 2000000
+				size = 200000
+			}
+			create_pop = {
+				culture = yamanote
+				size = 200000
+			}
+			create_pop = {
+				culture = chichibu
+				size = 200000
 			}
 		}
 	}
@@ -187,7 +219,15 @@
 		region_state:TKY = {
 			create_pop = {
 				culture = mukojima
-				size = 2000000
+				size = 200000
+			}
+			create_pop = {
+				culture = yamanote
+				size = 200000
+			}
+			create_pop = {
+				culture = chichibu
+				size = 200000
 			}
 			create_pop = {
 				culture = korean
@@ -199,7 +239,7 @@
 		region_state:TKY = {
 			create_pop = {
 				culture = izu
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -207,7 +247,7 @@
 		region_state:TKY = {
 			create_pop = {
 				culture = hachijo
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -217,7 +257,7 @@
 		region_state:SIT = {
 			create_pop = {
 				culture = chichibu
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -225,7 +265,7 @@
 		region_state:SIT = {
 			create_pop = {
 				culture = kumagaya
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -233,7 +273,7 @@
 		region_state:SIT = {
 			create_pop = {
 				culture = kawagoe
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -241,7 +281,7 @@
 		region_state:SIT = {
 			create_pop = {
 				culture = kawagoe
-				size = 2000000
+				size = 200000
 			}
 			create_pop = {
 				culture = korean
@@ -253,7 +293,7 @@
 		region_state:SIT = {
 			create_pop = {
 				culture = omiya
-				size = 2000000
+				size = 200000
 			}
 			create_pop = {
 				culture = korean
@@ -269,7 +309,7 @@
 		region_state:SIT = {
 			create_pop = {
 				culture = omiya
-				size = 2000000
+				size = 200000
 			}
 			create_pop = {
 				culture = korean
@@ -281,7 +321,7 @@
 		region_state:SIT = {
 			create_pop = {
 				culture = omiya
-				size = 2000000
+				size = 200000
 			}
 			create_pop = {
 				culture = kumagaya
@@ -295,7 +335,7 @@
 		region_state:CHB = {
 			create_pop = {
 				culture = tateyama
-				size = 2000000
+				size = 200000
 			}
 			create_pop = {
 				culture = korean
@@ -307,7 +347,7 @@
 		region_state:CHB = {
 			create_pop = {
 				culture = katsuura
-				size = 2000000
+				size = 200000
 			}
 			create_pop = {
 				culture = korean
@@ -319,7 +359,7 @@
 		region_state:CHB = {
 			create_pop = {
 				culture = chiba
-				size = 2000000
+				size = 200000
 			}
 			create_pop = {
 				culture = korean
@@ -331,7 +371,7 @@
 		region_state:CHB = {
 			create_pop = {
 				culture = chiba
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -339,7 +379,7 @@
 		region_state:CHB = {
 			create_pop = {
 				culture = chiba
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -347,7 +387,7 @@
 		region_state:CHB = {
 			create_pop = {
 				culture = choshi
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -355,7 +395,7 @@
 		region_state:CHB = {
 			create_pop = {
 				culture = narita
-				size = 2000000
+				size = 200000
 			}
 		}
 	}

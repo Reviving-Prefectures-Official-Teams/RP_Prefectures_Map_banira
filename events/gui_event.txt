@@ -1,0 +1,36 @@
+﻿rp_gui.1 = { # 建設局を削減
+	type = country_event
+	hidden = yes
+	immediate = {
+		random_scope_state = {
+			limit = {
+				is_capital = yes
+			}
+			save_scope_as = construction_state
+		}
+		scope:construction_state = {
+			create_building={
+ 				building="building_construction_sector"
+ 				level=-1
+ 			}
+		}
+	}
+}
+
+rp_gui.2 = { # 建設局を増加
+	type = country_event
+	hidden = yes
+
+	immediate = {
+		random_state = {
+			limit = {
+				owner = ROOT
+			}
+			create_building = {
+ 				building = "building_construction_sector"
+ 				level=1
+				reserves=1
+ 			}
+		}
+	}
+}

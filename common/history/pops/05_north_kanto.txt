@@ -4,7 +4,7 @@
 		region_state:GNM = {
 			create_pop = {
 				culture = ashikaga
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -12,7 +12,7 @@
 		region_state:GNM = {
 			create_pop = {
 				culture = maebashi
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -20,7 +20,7 @@
 		region_state:GNM = {
 			create_pop = {
 				culture = maebashi
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -28,7 +28,7 @@
 		region_state:GNM = {
 			create_pop = {
 				culture = maebashi
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -36,7 +36,7 @@
 		region_state:GNM = {
 			create_pop = {
 				culture = agazuma
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -46,7 +46,7 @@
 		region_state:TCH = {
 			create_pop = {
 				culture = ashikaga
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -54,7 +54,7 @@
 		region_state:TCH = {
 			create_pop = {
 				culture = tochigi
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -62,11 +62,11 @@
 		region_state:TCH = {
 			create_pop = {
 				culture = utsunomiya
-				size = 2000000
+				size = 200000
 			}
 			create_pop = {
 				culture = tochigi
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -74,7 +74,7 @@
 		region_state:TCH = {
 			create_pop = {
 				culture = utsunomiya
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -82,11 +82,11 @@
 		region_state:TCH = {
 			create_pop = {
 				culture = tochigi
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = utsunomiya
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -94,11 +94,11 @@
 		region_state:TCH = {
 			create_pop = {
 				culture = tochigi
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = utsunomiya
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -108,7 +108,7 @@
 		region_state:IBR = {
 			create_pop = {
 				culture = choshi
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -116,7 +116,7 @@
 		region_state:IBR = {
 			create_pop = {
 				culture = hitachi
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -124,7 +124,7 @@
 		region_state:IBR = {
 			create_pop = {
 				culture = mito
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -132,7 +132,7 @@
 		region_state:IBR = {
 			create_pop = {
 				culture = mito
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -140,7 +140,7 @@
 		region_state:IBR = {
 			create_pop = {
 				culture = tsukuba
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
@@ -148,7 +148,7 @@
 		region_state:IBR = {
 			create_pop = {
 				culture = koga
-				size = 2000000
+				size = 200000
 			}
 		}
 	}
