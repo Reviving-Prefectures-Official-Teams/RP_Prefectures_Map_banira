@@ -33,7 +33,7 @@ building_rice_farm = {
 		pmg_base_building_rice_farm
 		pmg_secondary_building_rice_farm
 		pmg_harvesting_process_building_rice_farm
-		pmg_ownership_land_building_rice_farm
+		pmg_gas_venting
 	}
 
 	required_construction = construction_cost_low
@@ -99,6 +99,7 @@ building_livestock_ranch = {
 
 	production_method_groups = {
 		pmg_base_building_livestock_ranch
+		pmg_shimofuri_niku
 		pmg_fencing
 		pmg_refrigeration_building_livestock_ranch
 		pmg_ownership_land_building_livestock_ranch
@@ -294,5 +295,20 @@ building_orchard = {
 		pmg_base_building_banana_plantation
 		pmg_train_automation_building_banana_plantation
 		pmg_ownership_land_building_banana_plantation
+	}
+}
+
+building_vegetable_farms = {
+	building_group = bg_vegetable_farms
+	texture = "gfx/interface/icons/building_icons/vegetable_farm.dds"
+	required_construction = construction_cost_low
+
+	city_type = farm
+	levels_per_mesh = 5
+	
+	production_method_groups = {
+		pmg_base_building_vegetable_farms
+		pmg_train_automation_building_vegetable_farms
+		pmg_ownership_land_building_vegetable_farms
 	}
 }

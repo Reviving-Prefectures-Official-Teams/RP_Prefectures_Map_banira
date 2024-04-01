@@ -1,4 +1,4 @@
-building_publishing_house_throughput_mult = {
+﻿building_publishing_house_throughput_mult = {
 	good = yes
 	percent = yes
 }

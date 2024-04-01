@@ -48,15 +48,6 @@ bg_maize_farms = {
 	cash_reserves_max = 25000
 }
 
-#雑穀畑
-bg_millet_farms = {
-	parent_group = bg_agriculture
-	
-	default_building = building_millet_farm
-	
-	cash_reserves_max = 25000
-}
-
 #自給農家
 bg_subsistence_agriculture = {
 	parent_group = bg_agriculture

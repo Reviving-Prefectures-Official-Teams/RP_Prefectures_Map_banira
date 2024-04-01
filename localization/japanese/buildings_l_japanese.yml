@@ -8,10 +8,10 @@
  building_rice_farm_les_option: "$building_rice_farm$を拡張"
  building_maize_farm: "トウモロコシ畑"
  building_maize_farm_les_option: "$building_maize_farm$を拡張"
- building_millet_farm: "雑穀畑"
- building_millet_farm_les_option: "$building_millet_farm$を拡張"
- building_opium_plantation: "アヘン農園"
- building_opium_plantation_lens_option: "$building_opium_plantation$を拡張"
+ #building_millet_farm: "雑穀畑"
+ #building_millet_farm_les_option: "$building_millet_farm$を拡張"
+ #building_opium_plantation: "アヘン農園"
+ #building_opium_plantation_lens_option: "$building_opium_plantation$を拡張"
  building_orchard: "果樹園"
  building_orchard_lens_option: "$building_orchard$を拡張"
  building_coffee_plantation: "コーヒー農園"
@@ -29,8 +29,8 @@
  #building_rubber_plantation_discovered_resource: "ゴム"
  building_livestock_ranch: "牛牧場"
  building_livestock_ranch_lens_option: "$building_livestock_ranch$を拡張"
- building_silkworm_plantation: "養蚕農園"
- building_silkworm_plantation_lens_option: "$building_silkworm_plantation$を拡張"
+ #building_silkworm_plantation: "養蚕農園"
+ #building_silkworm_plantation_lens_option: "$building_silkworm_plantation$を拡張"
 
 
 
