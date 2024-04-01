@@ -561,7 +561,7 @@ airplane = {
 
 #============追加基本============
 
-#酒
+#日本酒
 sake = { 
 	texture = "gfx/interface/icons/goods_icons/sake.dds"
 	cost = 30
@@ -639,7 +639,7 @@ newspapers = {
 #ビール
 beer = { 
 	texture = "gfx/interface/icons/goods_icons/beer.dds"
-	cost = 10
+	cost = 25
 	category = staple
 	
 	obsession_chance = 1.0
@@ -724,7 +724,7 @@ asbestos = {
 #タンカー
 tankers = { 
 	texture = "gfx/interface/icons/goods_icons/tanker.dds"
-	cost = 100
+	cost = 300
 	category = industrial
 	
 	prestige_factor = 5
@@ -733,7 +733,7 @@ tankers = {
 #コンテナ船
 container_ships = { 
 	texture = "gfx/interface/icons/goods_icons/container_ship.dds"
-	cost = 100
+	cost = 300
 	category = industrial
 	
 	prestige_factor = 5
@@ -786,8 +786,8 @@ pear = {
 	consumption_tax_cost = 50
 }
 
-#霜降り肉
-shimofuri_niku = { 
+#高級肉
+luxury_beef = { 
 	texture = "gfx/interface/icons/goods_icons/beef.dds"
 	cost = 50
 	category = luxury
@@ -804,7 +804,7 @@ shimofuri_niku = {
 #高級車
 luxury_cars = { 
 	texture = "gfx/interface/icons/goods_icons/luxury_car.dds"
-	cost = 300
+	cost = 200
 	category = luxury
 	
 	obsession_chance = 1.0
@@ -910,7 +910,7 @@ luxury_fish = {
 movie = { 
 	texture = "gfx/interface/icons/goods_icons/movie.dds"
 	cost = 30
-	category = luxury
+	category = service
 	
 	obsession_chance = 1.0
 	prestige_factor = 30
@@ -925,7 +925,7 @@ movie = {
 web_service = { 
 	texture = "gfx/interface/icons/goods_icons/web_service.dds"
 	cost = 30
-	category = luxury
+	category = service
 	
 	obsession_chance = 1.0
 	prestige_factor = 30
@@ -940,7 +940,7 @@ web_service = {
 music_service = { 
 	texture = "gfx/interface/icons/goods_icons/music_service.dds"
 	cost = 10
-	category = luxury
+	category = service
 	
 	obsession_chance = 1.0
 	prestige_factor = 30
@@ -955,7 +955,7 @@ music_service = {
 broadcast_service = { 
 	texture = "gfx/interface/icons/goods_icons/broadcast_service.dds"
 	cost = 10
-	category = luxury
+	category = service
 	
 	obsession_chance = 1.0
 	prestige_factor = 30
@@ -970,7 +970,7 @@ broadcast_service = {
 culture_service = { 
 	texture = "gfx/interface/icons/goods_icons/culture_service.dds"
 	cost = 40
-	category = luxury
+	category = service
 	
 	obsession_chance = 1.0
 	prestige_factor = 30
@@ -985,7 +985,7 @@ culture_service = {
 medical_service = { 
 	texture = "gfx/interface/icons/goods_icons/medical_service.dds"
 	cost = 30
-	category = luxury
+	category = service
 	local = yes
 	
 	obsession_chance = 1.0
@@ -998,7 +998,7 @@ medical_service = {
 financial_service = { 
 	texture = "gfx/interface/icons/goods_icons/shares.dds"
 	cost = 200
-	category = luxury
+	category = service
 	
 	obsession_chance = 1.0
 	prestige_factor = 30
@@ -1010,7 +1010,7 @@ financial_service = {
 domestic_travel_service = { 
 	texture = "gfx/interface/icons/goods_icons/domestic_travel_service.dds"
 	cost = 60
-	category = luxury
+	category = service
 	
 	obsession_chance = 1.0
 	prestige_factor = 5
@@ -1022,7 +1022,7 @@ domestic_travel_service = {
 international_travel_service = { 
 	texture = "gfx/interface/icons/goods_icons/international_travel_service.dds"
 	cost = 140
-	category = luxury
+	category = service
 	
 	obsession_chance = 1.0
 	prestige_factor = 50
@@ -1034,7 +1034,7 @@ international_travel_service = {
 space_travel_service = { 
 	texture = "gfx/interface/icons/goods_icons/space_travel_service.dds"
 	cost = 500
-	category = luxury
+	category = service
 	
 	obsession_chance = 1.0
 	prestige_factor = 100
@@ -1042,11 +1042,11 @@ space_travel_service = {
 	consumption_tax_cost = 100
 }
 
-#建築サービス
+#建設サービス
 construction_service = { 
 	texture = "gfx/interface/icons/goods_icons/construction_service.dds"
 	cost = 50
-	category = luxury
+	category = service
 	
 	prestige_factor = 30
 
@@ -1059,7 +1059,7 @@ construction_service = {
 #菓子
 sweets = { 
 	texture = "gfx/interface/icons/goods_icons/sweets.dds"
-	cost = 50
+	cost = 30
 	category = luxury
 	
 	obsession_chance = 1.0

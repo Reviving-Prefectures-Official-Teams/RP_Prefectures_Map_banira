@@ -1,4 +1,4 @@
-#sake 酒
+﻿#sake 酒
 building_input_sake_add = {
 	good = no
 	percent = no
