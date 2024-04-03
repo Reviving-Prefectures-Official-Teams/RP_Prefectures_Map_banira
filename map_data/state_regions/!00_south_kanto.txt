@@ -2,7 +2,7 @@
 STATE_KAWASAKI = {
     id = 320
     provinces = { "x72DEF0" "x899FDF" "xDC9ADC" "xDFB3E8" "xEEC742" "xF2FCB6" "xF71EEE" }
-    arable_resources = { "bg_rice_farms" "bg_dye_plantations" "bg_tea_plantations" }
+    arable_resources = { "bg_rice_farms" "bg_buckwheat_farms" "bg_tea_plantations" "bg_wheat_farms" "bg_livestock_ranches" "bg_poultry_farms" "bg_pig_farms" "bg_dairy_farms" "bg_orchards" "bg_vegetable_farms" }
     capped_resources = {
         bg_logging = 20
     }
@@ -74,8 +74,8 @@ STATE_NORTH_TAMA = {
 }
 STATE_MACHIDA = {
     id = 10
-    provinces = { "x75D5AB" "xED7EFA" "xF788AC" "bg_dye_plantations" "bg_tea_plantations" }
-    arable_resources = { "bg_rice_farms" }
+    provinces = { "x75D5AB" "xED7EFA" "xF788AC" }
+    arable_resources = { "bg_rice_farms" "bg_dye_plantations" "bg_tea_plantations" }
     capped_resources = {
         bg_logging = 20
     }
