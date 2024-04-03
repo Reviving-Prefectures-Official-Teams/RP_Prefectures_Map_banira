@@ -1,0 +1,17 @@
+﻿interest_group_ig_gangster_pol_str_mult = {
+	neutral = yes
+	percent = yes
+	num_decimals = 0
+}
+
+interest_group_ig_gangster_approval_add = {
+	good = yes
+	percent = no
+	num_decimals = 0
+}
+
+interest_group_ig_gangster_pop_attraction_mult = {
+	neutral = yes
+	percent = yes
+	num_decimals = 0
+}

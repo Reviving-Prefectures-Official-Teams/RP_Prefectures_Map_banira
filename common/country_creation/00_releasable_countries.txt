@@ -454,14 +454,6 @@ HKD = {
 	ai_will_do = { always = no }
 }
 
-AIN = {
-	use_culture_states = yes
-	
-	required_num_states = 1
-
-	ai_will_do = { always = no }
-}
-
 NMR = {
 	use_culture_states = yes
 	
@@ -471,6 +463,14 @@ NMR = {
 }
 
 SPR = {
+	use_culture_states = yes
+	
+	required_num_states = 1
+
+	ai_will_do = { always = no }
+}
+
+AIN = {
 	use_culture_states = yes
 	
 	required_num_states = 1

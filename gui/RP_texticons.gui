@@ -1,0 +1,78 @@
+#新聞
+texticon = {
+	icon = newspapers
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/newspapers.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+#雑誌
+texticon = {
+	icon = magazines
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/magazines.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+#航空機
+texticon = {
+	icon = airplane
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/airplane.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+#日本酒
+texticon = {
+	icon = sake
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/sake.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+#乳製品
+#野菜
+#雑誌
+#新聞
+#ビール
+#天然ガス
+#レアメタル
+#浄水
+#ウラン
+#コンピュータ
+#プラスチック
+#石綿
+#タンカー
+#コンテナ船
+#高級肉
+#高級車
+#カメラ
+#ゲーム機
+#ドローン
+#家電
+#楽器
+#高級魚
+#映画
+#Webサービス
+#音楽サービス
+#放送サービス
+#文化サービス
+#医療サービス
+#金融商品
+#国内旅行サービス
+#国際旅行サービス
+#宇宙旅行サービス
+#建設サービス
+#菓子
+#薬剤

@@ -26,7 +26,7 @@
  objective_economic_dominance_name_AIC: "#v $AIC$#!"
  objective_economic_dominance_desc_AIC: "#lore $AIC_FLAVOR_TEXT$#!"
  objective_hegemon: "武力覇権"
- objective_hegemon_desc: "日本の軍事力の心臓部になることで、大衆の心理的安全性を確保することだけが、自国の進むべき道です。日本人口の大部分が自国の国境内に住むようになるまで都道府県を従属させ、征服しましょう。単に自国の人口を増やしても構いません。"
+ objective_hegemon_desc: "日本の軍事力の心臓部になることで、大衆の安全を確保することこそ、自国の進むべき道です。日本人口の大部分が自国の国境内に住むようになるまで都道府県を従属させ、征服しましょう。"
  objective_hegemon_idle_header: "自分の道を進み続けましょう"
  objective_hegemon_idle_hint: "いずれさらなる試練が登場します"
  objective_hegemon_name_KGS: "#v $KGS$#!"

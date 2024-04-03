@@ -1,0 +1,25 @@
+﻿building_publishing_house_throughput_mult = {
+	good = yes
+	percent = yes
+}
+
+building_bank_throughput_mult = {
+	good = yes
+	percent = yes
+	
+	ai_value = 10000 # +1 securities = same value as 100 pounds of profit
+}
+
+state_building_bank_max_level_add = {
+	good = yes
+	percent = no
+	num_decimals = 0
+	ai_value = 100
+}
+
+state_building_hospital_max_level_add = {
+	good = yes
+	percent = no
+	num_decimals = 0
+	ai_value = 100
+}

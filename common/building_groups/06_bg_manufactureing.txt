@@ -1,0 +1,64 @@
+﻿#==========工業グループ==========#
+bg_manufacturing = {
+	category = urban
+
+	always_possible = yes
+	
+	economy_of_scale = yes
+	
+	cash_reserves_max = 25000
+	
+	should_auto_expand = { 
+		default_auto_expand_rule = yes
+	}
+	
+	economy_of_scale_ai_factor = 2.0
+}
+
+#軽工業
+bg_light_industry = {
+	parent_group = bg_manufacturing
+
+	lens = light_industry
+	
+	urbanization = 20
+	infrastructure_usage_per_level = 2
+}
+
+#食品加工
+bg_food_processing = {
+	parent_group = bg_manufacturing
+
+	lens = light_industry
+	
+	urbanization = 20
+	infrastructure_usage_per_level = 2
+}
+
+#重工業
+bg_heavy_industry = {
+	parent_group = bg_manufacturing
+
+	lens = heavy_industry
+	
+	urbanization = 20
+	infrastructure_usage_per_level = 3
+}
+
+#造船所
+bg_shipyards = {
+	parent_group = bg_heavy_industry
+	
+	urbanization = 20
+	infrastructure_usage_per_level = 1
+}
+
+#化学工業
+bg_chemical_industry = {
+	parent_group = bg_heavy_industry
+
+	lens = heavy_industry
+	
+	urbanization = 20
+	infrastructure_usage_per_level = 2
+}

@@ -1,0 +1,314 @@
+﻿#############穀物農業・畜産・商品作物
+#小麦畑
+building_wheat_farm = {
+	building_group = bg_wheat_farms
+	
+	texture = "gfx/interface/icons/building_icons/wheat_farm.dds"
+
+	city_type = farm
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_base_building_wheat_farm
+		pmg_secondary_building_wheat_farm
+		pmg_harvesting_process_building_wheat_farm
+		pmg_ownership_land_building_wheat_farm
+	}
+
+	required_construction = construction_cost_low
+	
+	terrain_manipulator = farmland_wheat
+}
+
+#米畑
+building_rice_farm = {
+	building_group = bg_rice_farms
+	
+	texture = "gfx/interface/icons/building_icons/rice_farm.dds"
+
+	city_type = farm
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_base_building_rice_farm
+		pmg_secondary_building_rice_farm
+		pmg_harvesting_process_building_rice_farm
+		pmg_gas_venting
+	}
+
+	required_construction = construction_cost_low
+	
+	terrain_manipulator = farmland_rice
+}
+
+#とうもろこし畑
+building_maize_farm = {
+	building_group = bg_maize_farms
+	
+	texture = "gfx/interface/icons/building_icons/maize_farm.dds"
+
+	city_type = farm
+	levels_per_mesh = 5
+	
+	production_method_groups = {
+		pmg_base_building_maize_farm
+		pmg_secondary_building_maize_farm
+		pmg_harvesting_process_building_maize_farm
+		pmg_ownership_land_building_maize_farm
+	}
+
+	required_construction = construction_cost_low
+	
+	terrain_manipulator = farmland_maize
+}
+
+#雑穀畑
+building_millet_farm = {
+	building_group = bg_millet_farms
+	
+	texture = "gfx/interface/icons/building_icons/millet_farm.dds"
+
+	city_type = farm
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_base_building_millet_farm
+		pmg_secondary_building_millet_farm
+		pmg_harvesting_process_building_millet_farm
+		pmg_ownership_land_building_millet_farm
+	}
+
+	required_construction = construction_cost_low
+	
+	terrain_manipulator = farmland_millet
+}
+
+######畜産
+#牛牧場
+building_livestock_ranch = {
+	building_group = bg_livestock_ranches
+
+	texture = "gfx/interface/icons/building_icons/cattle_ranch.dds"
+	
+	city_type = farm
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	production_method_groups = {
+		pmg_base_building_livestock_ranch
+		pmg_shimofuri_niku
+		pmg_fencing
+		pmg_refrigeration_building_livestock_ranch
+		pmg_ownership_land_building_livestock_ranch
+	}
+
+	required_construction = construction_cost_low
+
+	terrain_manipulator = pasture
+}
+
+#養鶏場
+bg_poultry_farms = {
+	building_group = bg_livestock_ranches
+
+	texture = "gfx/interface/icons/building_icons/cattle_ranch.dds"
+	
+	city_type = farm
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	production_method_groups = {
+		pmg_base_building_livestock_ranch
+		pmg_fencing
+		pmg_refrigeration_building_livestock_ranch
+		pmg_ownership_land_building_livestock_ranch
+	}
+
+	required_construction = construction_cost_low
+
+	terrain_manipulator = pasture
+}
+
+#養豚場
+bg_pig_farms = {
+	building_group = bg_livestock_ranches
+
+	texture = "gfx/interface/icons/building_icons/cattle_ranch.dds"
+	
+	city_type = farm
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	production_method_groups = {
+		pmg_base_building_livestock_ranch
+		pmg_fencing
+		pmg_refrigeration_building_livestock_ranch
+		pmg_ownership_land_building_livestock_ranch
+	}
+
+	required_construction = construction_cost_low
+
+	terrain_manipulator = pasture
+}
+
+#酪農場
+bg_dairy_farms = {
+	building_group = bg_livestock_ranches
+
+	texture = "gfx/interface/icons/building_icons/cattle_ranch.dds"
+	
+	city_type = farm
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	production_method_groups = {
+		pmg_base_building_livestock_ranch
+		pmg_fencing
+		pmg_refrigeration_building_livestock_ranch
+		pmg_ownership_land_building_livestock_ranch
+	}
+
+	required_construction = construction_cost_low
+
+	terrain_manipulator = pasture
+}
+
+######商品作物
+#ワイナリー
+building_vineyard_plantation = {
+	building_group = bg_vineyard_plantations
+	texture = "gfx/interface/icons/building_icons/vineyards.dds"
+	required_construction = construction_cost_low
+
+	city_type = farm
+	levels_per_mesh = 5
+	
+	production_method_groups = {
+		pmg_base_building_vineyard_plantation
+		pmg_train_automation_building_vineyard_plantation
+		pmg_ownership_land_building_vineyard_plantation
+	}
+}
+
+#コーヒー農園
+building_coffee_plantation = {
+	building_group = bg_coffee_plantations
+	texture = "gfx/interface/icons/building_icons/coffee_plantation.dds"
+	required_construction = construction_cost_low
+
+	city_type = farm
+	levels_per_mesh = 5
+	
+	production_method_groups = {
+		pmg_base_building_coffee_plantation
+		pmg_train_automation_building_coffee_plantation
+		pmg_ownership_land_building_coffee_plantation
+	}
+}
+
+#綿花農園
+building_cotton_plantation = {
+	building_group = bg_cotton_plantations
+	texture = "gfx/interface/icons/building_icons/cotton_plantation.dds"
+	required_construction = construction_cost_low
+
+	city_type = farm
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_base_building_cotton_plantation
+		pmg_train_automation_building_cotton_plantation
+		pmg_ownership_land_building_cotton_plantation
+	}
+}
+
+#紅茶農園
+building_tea_plantation = {
+	building_group = bg_tea_plantations
+	texture = "gfx/interface/icons/building_icons/tea_plantation.dds"
+	required_construction = construction_cost_low
+
+	city_type = farm
+	levels_per_mesh = 5
+	
+	production_method_groups = {
+		pmg_base_building_tea_plantation
+		pmg_train_automation_building_tea_plantation
+		pmg_ownership_land_building_tea_plantation
+	}
+}
+
+#タバコ農園
+building_tobacco_plantation = {
+	building_group = bg_tobacco_plantations
+	texture = "gfx/interface/icons/building_icons/tobacco_plantation.dds"
+	required_construction = construction_cost_low
+
+	city_type = farm
+	levels_per_mesh = 5
+	
+	production_method_groups = {
+		pmg_base_building_tobacco_plantation
+		pmg_train_automation_building_tobacco_plantation
+		pmg_ownership_land_building_tobacco_plantation
+	}
+}
+
+#砂糖農園
+building_sugar_plantation = {
+	building_group = bg_sugar_plantations
+	texture = "gfx/interface/icons/building_icons/sugar_plantation.dds"
+	required_construction = construction_cost_low
+	
+	city_type = farm
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_base_building_sugar_plantation
+		pmg_train_automation_building_sugar_plantation
+		pmg_ownership_land_building_sugar_plantation
+	}
+}
+
+#果樹園
+building_orchard = {
+	building_group = bg_orchards
+	texture = "gfx/interface/icons/building_icons/banana_plantation.dds"
+	required_construction = construction_cost_low
+
+	city_type = farm
+	levels_per_mesh = 5
+	
+	production_method_groups = {
+		pmg_base_building_banana_plantation
+		pmg_train_automation_building_banana_plantation
+		pmg_ownership_land_building_banana_plantation
+	}
+}
+
+building_vegetable_farms = {
+	building_group = bg_vegetable_farms
+	texture = "gfx/interface/icons/building_icons/vegetable_farm.dds"
+	required_construction = construction_cost_low
+
+	city_type = farm
+	levels_per_mesh = 5
+	
+	production_method_groups = {
+		pmg_base_building_vegetable_farms
+		pmg_train_automation_building_vegetable_farms
+		pmg_ownership_land_building_vegetable_farms
+	}
+}

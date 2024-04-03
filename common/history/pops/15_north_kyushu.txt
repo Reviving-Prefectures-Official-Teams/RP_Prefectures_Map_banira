@@ -4,11 +4,11 @@
 		region_state:FKO = {
 			create_pop = {
 				culture = kokura
-				size = 2000000
+				size = 200000
 			}
 			create_pop = {
 				culture = fukuoka
-				size = 2000000
+				size = 200000
 			}
 			create_pop = {
 				culture = korean
@@ -21,7 +21,7 @@
 		region_state:FKO = {
 			create_pop = {
 				culture = kurume
-				size = 2000000
+				size = 200000
 			}
 			create_pop = {
 				culture = fukuoka
@@ -38,7 +38,7 @@
 		region_state:FKO = {
 			create_pop = {
 				culture = kokura
-				size = 2000000
+				size = 200000
 			}
 			create_pop = {
 				culture = fukuoka
@@ -55,7 +55,7 @@
 		region_state:FKO = {
 			create_pop = {
 				culture = fukuoka
-				size = 3000000
+				size = 300000
 			}
 			create_pop = {
 				culture = korean
@@ -68,11 +68,11 @@
 		region_state:FKO = {
 			create_pop = {
 				culture = fukuoka
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = kurume
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -81,11 +81,11 @@
 		region_state:FKO = {
 			create_pop = {
 				culture = kurume
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = fukuoka
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -95,11 +95,11 @@
 		region_state:OIT = {
 			create_pop = {
 				culture = oita
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = saiki
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -108,11 +108,11 @@
 		region_state:OIT = {
 			create_pop = {
 				culture = oita
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = kurume
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -121,7 +121,7 @@
 		region_state:OIT = {
 			create_pop = {
 				culture = oita
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -147,7 +147,7 @@
 		region_state:OIT = {
 			create_pop = {
 				culture = hita
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -156,7 +156,7 @@
 		region_state:OIT = {
 			create_pop = {
 				culture = oita
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = shugendo
@@ -169,15 +169,15 @@
 		region_state:OIT = {
 			create_pop = {
 				culture = saiki
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = oita
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = hyuga
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -187,11 +187,7 @@
 		region_state:SAG = {
 			create_pop = {
 				culture = saga
-				size = 1400000
-			}
-			create_pop = {
-				culture = tosu
-				size = 100000
+				size = 240000
 			}
 		}
 	}
@@ -199,12 +195,8 @@
 	s:STATE_TOSU = {
 		region_state:SAG = {
 			create_pop = {
-				culture = tosu
-				size = 900000
-			}
-			create_pop = {
 				culture = saga
-				size = 100000
+				size = 80000
 			}
 		}
 	}
@@ -212,12 +204,8 @@
 	s:STATE_URESHINO = {
 		region_state:SAG = {
 			create_pop = {
-				culture = kashima
-				size = 1000000
-			}
-			create_pop = {
 				culture = saga
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -226,7 +214,7 @@
 		region_state:SAG = {
 			create_pop = {
 				culture = karatsu
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -234,8 +222,8 @@
 	s:STATE_IMARI = {
 		region_state:SAG = {
 			create_pop = {
-				culture = imari
-				size = 1000000
+				culture = karatsu
+				size = 100000
 			}
 		}
 	}
@@ -243,8 +231,8 @@
 	s:STATE_KASHIMA = {
 		region_state:SAG = {
 			create_pop = {
-				culture = kashima
-				size = 1000000
+				culture = saga
+				size = 100000
 			}
 		}
 	}
@@ -255,7 +243,7 @@
 		region_state:NGS = {
 			create_pop = {
 				culture = nagasaki
-				size = 2000000
+				size = 200000
 			}
 			create_pop = {
 				culture = amakusa
@@ -264,7 +252,7 @@
 			}
 			create_pop = {
 				culture = amakusa
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -273,11 +261,11 @@
 		region_state:NGS = {
 			create_pop = {
 				culture = sasebo
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = nagasaki
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -286,7 +274,7 @@
 		region_state:NGS = {
 			create_pop = {
 				culture = sasebo
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
@@ -299,7 +287,7 @@
 			}
 			create_pop = {
 				culture = amakusa
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = amakusa
@@ -313,7 +301,7 @@
 		region_state:NGS = {
 			create_pop = {
 				culture = nagasaki
-				size = 1000000
+				size = 100000
 			}
 			create_pop = {
 				culture = nagasaki
@@ -327,7 +315,7 @@
 		region_state:NGS = {
 			create_pop = {
 				culture = tsushima
-				size = 1000000
+				size = 100000
 			}
 		}
 	}
