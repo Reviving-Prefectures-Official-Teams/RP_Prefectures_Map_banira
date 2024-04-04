@@ -4,18 +4,22 @@ era_1 = { #Pre-1950
 	technology_cost = 7500 # for progress bonuses, use an approximate third: 2500
 }
 
-era_2 = { #1950-1960
+era_2 = { #1950-1970
+	technology_cost = 7500 # for progress bonuses, use an approximate third: 2500
+}
+
+era_3 = { #1970-1990
 	technology_cost = 10000 # for progress bonuses, use an approximate third: 3500
 }
 
-era_3 = { #1960-1970
+era_4 = { #1990-2010
 	technology_cost = 12500 # for progress bonuses, use an approximate third: 4150
 }
 
-era_4 = { #1970-1980
+era_5 = { #2010-2030
 	technology_cost = 15000 # for progress bonuses, use an approximate third: 5000
 }
 
-era_5 = { #1980-1990
+era_6 = { #2030-Future
 	technology_cost = 17500 # for progress bonuses, use an approximate third: 5850
 }
