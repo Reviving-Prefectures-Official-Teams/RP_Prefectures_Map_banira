@@ -1,24 +1,39 @@
 ﻿#####林業#####
-
-#保安林
-building_logging_camp = {
-	building_group = bg_logging
+#カシ林
+building_castanopsis_forest = {
+	building_group = bg_castanopsis_forest
 	texture = "gfx/interface/icons/building_icons/logging_camp.dds"
 	city_type = wood
+	required_construction = construction_cost_medium
+	terrain_manipulator = forestry
 	levels_per_mesh = 5
-	buildable = no
-	expandable = no
 
 	production_method_groups = {
-		pmg_base_building_logging_camp
+		pmg_hardwood
+		pmg_equipment
 		pmg_transportation_building_logging_camp
-		pmg_ownership_capital_building_logging_camp
 	}
 }
 
-#植林場
-building_tree_planting_farm = {
-	building_group = bg_logging
+#カバノキ林
+building_betulaceae_forest = {
+	building_group = bg_betulaceae_forest
+	texture = "gfx/interface/icons/building_icons/logging_camp.dds"
+	city_type = wood
+	required_construction = construction_cost_medium
+	terrain_manipulator = forestry
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_hardwood
+		pmg_equipment
+		pmg_transportation_building_logging_camp
+	}
+}
+
+#ヒノキ林
+building_chamaecyparis_obtusa_forest = {
+	building_group = bg_chamaecyparis_obtusa_forest
 	texture = "gfx/interface/icons/building_icons/logging_camp.dds"
 	city_type = wood
 	required_construction = construction_cost_low
@@ -27,10 +42,24 @@ building_tree_planting_farm = {
 
 	production_method_groups = {
 		pmg_base_building_logging_camp
-		pmg_hardwood
 		pmg_equipment
 		pmg_transportation_building_logging_camp
-		pmg_ownership_capital_building_logging_camp
+	}
+}
+
+#スギ林
+building_cryptomeria_forest = {
+	building_group = bg_cryptomeria_forest
+	texture = "gfx/interface/icons/building_icons/logging_camp.dds"
+	city_type = wood
+	required_construction = construction_cost_low
+	terrain_manipulator = forestry
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_base_building_logging_camp
+		pmg_equipment
+		pmg_transportation_building_logging_camp
 	}
 }
 
