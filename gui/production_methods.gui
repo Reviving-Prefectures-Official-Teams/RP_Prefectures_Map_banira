@@ -92,8 +92,100 @@ types production_methods
 					direction = vertical
 					parentanchor = center
 					spacing = 0
-					
-					#プラスボタンをおいてみた
+
+					#レベルボタンをおいた
+					flowcontainer = {
+						name = "rp_construction_level"
+						direction = horizontal
+						parentanchor = hcenter
+						spacing = 10
+						tooltip = "CONSTRUCTION_LEVEL_TOOLTIP"
+
+						tax_exp_frame_coin = {
+
+							blockoverride "tutorial_highilight_name" {
+								name = "tutorial_construction_level"
+							}
+
+							blockoverride "text_upper" {
+								text = "construction_level"
+							}
+
+							blockoverride "text_lower" {
+								datacontext = "[AccessPlayer.AccessActiveLawFromGroup('lawgroup_taxation')]"
+								text = "[Law.GetNameNoFormatting]"
+								tooltipwidget = {
+									FancyTooltip_Law = {
+
+									}
+								}
+							}
+
+							blockoverride "text_money" {
+							}
+
+							blockoverride "button_1_click" {
+								onclick = "[ExecuteConsoleCommand('event rp_gui.3')]"
+								enabled = yes
+							}
+							
+							blockoverride "button_2_click" {
+								onclick = "[Execute(GetPlayer.SetConstructionWageLevelLow)]"
+								enabled = yes
+							}									
+
+							blockoverride "button_3_click" {
+								onclick = "[Execute(GetPlayer.SetGovernmentWageLevelMedium)]"
+								enabled = yes
+							}
+
+							blockoverride "button_4_click" {
+								onclick = "[Execute(GetPlayer.SetGovernmentWageLevelHigh)]"
+								enabled = yes
+							}
+							
+							blockoverride "button_5_click" {
+								onclick = "[Execute(GetPlayer.SetGovernmentWageLevelVeryHigh)]"
+								enabled = yes
+							}
+
+							blockoverride "setvisible_very_low" {
+								visible = "[Not(IsValid(GetPlayer.SetConstructionWageLevelVeryLow))]"
+							}
+							blockoverride "setvisible_very_low_2" {
+								visible = "[IsValid(GetPlayer.SetConstructionWageLevelVeryLow)]"
+							}
+
+							blockoverride "setvisible_low" {
+								visible = "[Not(IsValid(GetPlayer.SetConstructionWageLevelLow))]"
+							}
+							blockoverride "setvisible_low_2" {
+								visible = "[IsValid(GetPlayer.SetConstructionWageLevelLow)]"
+							}
+
+							blockoverride "setvisible_medium" {
+								visible = "[Not(IsValid(GetPlayer.SetTaxLevelMedium))]"
+							}
+							blockoverride "setvisible_medium_2" {
+								visible = "[IsValid(GetPlayer.SetTaxLevelMedium)]"
+							}
+
+							blockoverride "setvisible_high" {
+								visible = "[Not(IsValid(GetPlayer.SetTaxLevelHigh))]"
+							}
+							blockoverride "setvisible_high_2" {
+								visible = "[IsValid(GetPlayer.SetTaxLevelHigh)]"
+							}
+
+							blockoverride "setvisible_very_high" {
+								visible = "[Not(IsValid(GetPlayer.SetTaxLevelVeryHigh))]"
+							}
+							blockoverride "setvisible_very_high_2" {
+								visible = "[IsValid(GetPlayer.SetTaxLevelVeryHigh)]"
+							}									
+						}
+					}
+
 					flowcontainer = {
 						parentanchor = hcenter
 						spacing = 10
@@ -105,7 +197,7 @@ types production_methods
 						button_icon_minus_action = {
 							size = { 35 35 }
 							parentanchor = vcenter
-							onclick = "[ExecuteConsoleCommand('event RP_gui.1')]"
+							onclick = "[ExecuteConsoleCommand('event rp_gui.1')]"
 							tooltip = "RP_reduce_construction_budget"
 							using = tooltip_below
 						}
@@ -123,7 +215,7 @@ types production_methods
 							texture = "gfx/interface/icons/state_status_icons/has_construction_paused.dds"
 							visible = "[Country.IsConstructionPaused]"
 						}
-						#マイナスボタンをおいてみた
+						#プラスボタンをおいてみた
 						button_icon_plus_action = {
 							size = { 35 35 }
 							parentanchor = vcenter
@@ -133,7 +225,6 @@ types production_methods
 							tooltip = "RP_increase_construction_budget"
 							using = tooltip_below
 							button_ignore = none
-							using = tooltip_ne
 						}
 
 						textbox = {
@@ -146,14 +237,14 @@ types production_methods
 					}	
 					
 					#この辺に建設費表示をおいてみた		
-					textbox = {
-						parentanchor = hcenter
-						using = fontsize_large
-						autoresize = yes
-						text = "CONSTRUCTION_GOODS_EXPENSES_BREAKDOWN_2"
-						using = investment_pool_tooltip_with_graph
-						align = center|nobaseline
-					}
+					# textbox = {
+					# 	parentanchor = hcenter
+					# 	using = fontsize_large
+					# 	autoresize = yes
+					# 	text = "CONSTRUCTION_GOODS_EXPENSES_BREAKDOWN_2"
+					# 	using = investment_pool_tooltip_with_graph
+					# 	align = center|nobaseline
+					# }
 				}
 			}
 
