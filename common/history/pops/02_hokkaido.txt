@@ -1,10 +1,10 @@
 ﻿POPS = {
     #北海道
-    s:STATE_HAKODATE = {
+    s:STATE_HAKODATE = { #286622
         region_state:HOK = {
 			create_pop = {
 				culture = hakodate
-				size = 270000
+				size = 283622
 			}
 		}
         region_state:HOK = {
@@ -14,11 +14,11 @@
 			}
 		}
     }
-    s:STATE_SHIRIBESHI = {
+    s:STATE_SHIRIBESHI = { #382834
         region_state:HOK = {
 			create_pop = {
 				culture = sapporo
-				size = 200000
+				size = 381834
 			}
             create_pop = {
 				culture = ainu
@@ -26,11 +26,11 @@
 			}
 		}
     }
-    s:STATE_IBURI = {
+    s:STATE_IBURI = { #280259
         region_state:HOK = {
 			create_pop = {
 				culture = sapporo
-				size = 200000
+				size = 279259
 			}
             create_pop = {
 				culture = ainu
@@ -38,11 +38,11 @@
 			}
 		}
     }
-    s:STATE_HIDAKA = {
+    s:STATE_HIDAKA = { #103446
         region_state:HOK = {
 			create_pop = {
 				culture = sapporo
-				size = 200000
+				size = 102446
 			}
             create_pop = {
 				culture = ainu
@@ -50,11 +50,11 @@
 			}
 		}
     }
-    s:STATE_ISHIKARI = {
+    s:STATE_ISHIKARI = { #512788
         region_state:HOK = {
 			create_pop = {
 				culture = sapporo
-				size = 100000
+				size = 511788
 			}
             create_pop = {
 				culture = ainu
@@ -62,11 +62,11 @@
 			}
 		}
     }
-    s:STATE_SORACHI = {
+    s:STATE_SORACHI = { #757434
         region_state:HOK = {
 			create_pop = {
 				culture = sapporo
-				size = 100000
+				size = 756434
 			}
             create_pop = {
 				culture = ainu
@@ -74,11 +74,11 @@
 			}
 		}
     }
-    s:STATE_RUMOI = {
+    s:STATE_RUMOI = { #122621
         region_state:HOK = {
 			create_pop = {
 				culture = sapporo
-				size = 100000
+				size = 121621
 			}
             create_pop = {
 				culture = ainu
@@ -86,11 +86,11 @@
 			}
 		}
     }
-    s:STATE_KAMIKAWA = {
+    s:STATE_KAMIKAWA = { #495308
         region_state:HOK = {
 			create_pop = {
 				culture = sapporo
-				size = 100000
+				size = 494308
 			}
             create_pop = {
 				culture = ainu
@@ -98,11 +98,11 @@
 			}
 		}
     }
-    s:STATE_TOKACHI = {
+    s:STATE_TOKACHI = { #343949
         region_state:HOK = {
 			create_pop = {
 				culture = sapporo
-				size = 100000
+				size = 342949
 			}
             create_pop = {
 				culture = ainu
@@ -110,11 +110,11 @@
 			}
 		}
     }
-    s:STATE_SOYA = {
+    s:STATE_SOYA = { #125608
         region_state:HOK = {
 			create_pop = {
 				culture = sapporo
-				size = 100000
+				size = 124608
 			}
             create_pop = {
 				culture = ainu
@@ -122,11 +122,11 @@
 			}
 		}
     }
-    s:STATE_KUSHIRO = {
+    s:STATE_KUSHIRO = { #202593
         region_state:HOK = {
 			create_pop = {
 				culture = nemuro
-				size = 100000
+				size = 201593
 			}
             create_pop = {
 				culture = ainu
@@ -134,23 +134,23 @@
 			}
 		}
     }
-    s:STATE_NEMURO = {
+    s:STATE_NEMURO = { #69733
         region_state:HOK = {
 			create_pop = {
 				culture = nemuro
-				size = 100000
+				size = 69233
 			}
             create_pop = {
 				culture = ainu
-				size = 1000
+				size = 500
 			}
 		}
     }
-    s:STATE_ABASHIRI = {
+    s:STATE_ABASHIRI = { #332850
         region_state:HOK = {
 			create_pop = {
 				culture = nemuro
-				size = 100000
+				size = 331850
 			}
             create_pop = {
 				culture = ainu
@@ -158,23 +158,23 @@
 			}
 		}
     }
-    s:STATE_MONBETSU = {
+    s:STATE_MONBETSU = { #67551
         region_state:HOK = {
 			create_pop = {
 				culture = sapporo
-				size = 100000
+				size = 67051
 			}
             create_pop = {
 				culture = ainu
-				size = 1000
+				size = 500
 			}
 		}
     }
-    s:STATE_HIYAMA = {
+    s:STATE_HIYAMA = { #217196
         region_state:HOK = {
 			create_pop = {
 				culture = hakodate
-				size = 100000
+				size = 216196
 			}
             create_pop = {
 				culture = ainu
@@ -182,15 +182,15 @@
 			}
 		}
     }
-    s:STATE_OSYAMAMBE = {
+    s:STATE_OSYAMAMBE = { #66584
         region_state:HOK = {
 			create_pop = {
 				culture = hakodate
-				size = 100000
+				size = 66084
 			}
             create_pop = {
 				culture = ainu
-				size = 1000
+				size = 500
 			}
 		}
     }

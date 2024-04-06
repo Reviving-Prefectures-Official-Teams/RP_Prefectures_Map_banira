@@ -1,105 +1,105 @@
 ﻿POPS = {
 	#山口
-	s:STATE_YAMAGUCHI = {
+	s:STATE_YAMAGUCHI = { #275742
 		region_state:YMC = {
 			create_pop = {
 				culture = yamaguchi
-				size = 200000
+				size = 175742
 			}
 			create_pop = {
 				culture = shimonoseki
-				size = 200000
+				size = 100000
 			}
 		}
 	}
-	s:STATE_HAGI = {
+	s:STATE_HAGI = { #106001
 		region_state:YMC = {
 			create_pop = {
 				culture = yamaguchi
-				size = 100000
+				size = 10000
 			}
 			create_pop = {
 				culture = hagi
-				size = 900000
+				size = 96001
 			}
 		}
 	}
-	s:STATE_NAGATO = {
+	s:STATE_NAGATO = { #344311
 		region_state:YMC = {
 			create_pop = {
 				culture = shimonoseki
-				size = 200000
+				size = 344311
 			}
 		}
 	}
-	s:STATE_YANAI = {
+	s:STATE_YANAI = { #107844
 		region_state:YMC = {
 			create_pop = {
 				culture = yamaguchi
-				size = 200000
+				size = 57844
 			}
 			create_pop = {
 				culture = yanai
-				size = 200000
+				size = 50000
 			}
 		}
 	}
-	s:STATE_UBE = {
+	s:STATE_UBE = { #294156
 		region_state:YMC = {
 			create_pop = {
 				culture = yamaguchi
-				size = 200000
+				size = 144156
 			}
 			create_pop = {
 				culture = shimonoseki
-				size = 200000
+				size = 150000
 			}
 		}
 	}
-	s:STATE_SHUNAN = {
+	s:STATE_SHUNAN = { #228884
 		region_state:YMC = {
 			create_pop = {
 				culture = yamaguchi
-				size = 200000
+				size = 128884
 			}
 			create_pop = {
 				culture = shimonoseki
-				size = 200000
+				size = 100000
 			}
 		}
 	}
-	s:STATE_IWAKUNI = {
+	s:STATE_IWAKUNI = { #183944
 		region_state:YMC = {
 			create_pop = {
 				culture = yamaguchi
-				size = 200000
+				size = 93944
 			}
 			create_pop = {
 				culture = yanai
-				size = 200000
+				size = 90000
 			}
 		}
 	}
 
 	#広島
-	s:STATE_HATSUKAICHI = {
+	s:STATE_HATSUKAICHI = { #151637
 		region_state:HRS = {
 			create_pop = {
 				culture = hiroshima
-				size = 100000
+				size = 71637
 			}
 			create_pop = {
 				culture = bitchu
-				size = 100000
+				size = 80000
 			}
 		}
 	}
 
-	s:STATE_HIROSHIMA = {
+	s:STATE_HIROSHIMA = { #531172
 		region_state:HRS = {
 			create_pop = {
 				culture = hiroshima
-				size = 200000
+				size = 526172
 			}
 			create_pop = {
 				culture = korean
@@ -107,15 +107,15 @@
 			}
 		}
 	}
-	s:STATE_KURE = {
+	s:STATE_KURE = { #316084
 		region_state:HRS = {
 			create_pop = {
 				culture = hiroshima
-				size = 100000
+				size = 161084
 			}
 			create_pop = {
 				culture = kure
-				size = 100000
+				size = 150000
 			}
 			create_pop = {
 				culture = korean
@@ -123,65 +123,89 @@
 			}
 		}
 	}
-	s:STATE_GEIHOKU = {
+	s:STATE_GEIHOKU = { #130576
 		region_state:HRS = {
 			create_pop = {
 				culture = hiroshima
-				size = 100000
+				size = 60576
 			}
 			create_pop = {
 				culture = fukuyama
-				size = 100000
+				size = 70000
 			}
 		}
 	}
-	s:STATE_BINGO = {
+	s:STATE_BINGO = { #807992
 		region_state:HRS = {
 			create_pop = {
 				culture = hiroshima
-				size = 100000
+				size = 407992
 			}
 			create_pop = {
 				culture = fukuyama
-				size = 100000
+				size = 400000
 			}
 		}
 	}
-	s:STATE_BIHOKU = {
+	s:STATE_BIHOKU = { #188795
 		region_state:HRS = {
 			create_pop = {
 				culture = hiroshima
-				size = 100000
+				size = 98795
 			}
 			create_pop = {
 				culture = bizen
-				size = 100000
+				size = 90000
 			}
 		}
 	}
 	
 	#岡山
-	s:STATE_OKAYAMABIZEN = {
+	s:STATE_OKAYAMABIZEN = { #241040
 		region_state:OKY = {
 			create_pop = {
 				culture = bizen
-				size = 100000
+				size = 241040
 			}
 		}
 	}
-	s:STATE_OKAYAMA = {
+	s:STATE_OKAYAMA = { #426395
 		region_state:OKY = {
 			create_pop = {
 				culture = bizen
-				size = 200000
+				size = 426395
 			}
 		}
 	}
-	s:STATE_KURASHIKI = {
+	s:STATE_KURASHIKI = { #303391
 		region_state:OKY = {
 			create_pop = {
 				culture = bizen
-				size = 100000
+				size = 153391
+			}
+			create_pop = {
+				culture = bitchu
+				size = 150000
+			}
+		}
+	}
+	s:STATE_BIZEN = { #186295
+		region_state:OKY = {
+			create_pop = {
+				culture = bizen
+				size = 96295
+			}
+			create_pop = {
+				culture = bizen
+				size = 90000
+			}
+		}
+	}
+	s:STATE_BICCHU = { #227033
+		region_state:OKY = {
+			create_pop = {
+				culture = bizen
+				size = 127033
 			}
 			create_pop = {
 				culture = bitchu
@@ -189,39 +213,15 @@
 			}
 		}
 	}
-	s:STATE_BIZEN = {
+	s:STATE_MIMASAKA = { #276945
 		region_state:OKY = {
 			create_pop = {
 				culture = bizen
-				size = 100000
-			}
-			create_pop = {
-				culture = bizen
-				size = 100000
-			}
-		}
-	}
-	s:STATE_BICCHU = {
-		region_state:OKY = {
-			create_pop = {
-				culture = bizen
-				size = 100000
-			}
-			create_pop = {
-				culture = bitchu
-				size = 100000
-			}
-		}
-	}
-	s:STATE_MIMASAKA = {
-		region_state:OKY = {
-			create_pop = {
-				culture = bizen
-				size = 100000
+				size = 146945
 			}
 			create_pop = {
 				culture = mimasaka
-				size = 100000
+				size = 130000
 			}
 		}
 	}

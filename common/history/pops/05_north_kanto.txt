@@ -1,154 +1,154 @@
 ﻿POPS = {
 	#群馬県
-	s:STATE_TOMOU = {
+	s:STATE_TOMOU = { #420178
 		region_state:GNM = {
 			create_pop = {
 				culture = ashikaga
-				size = 200000
+				size = 420178
 			}
 		}
 	}
-	s:STATE_MAEBASHI = {
+	s:STATE_MAEBASHI = { #469784
 		region_state:GNM = {
 			create_pop = {
 				culture = maebashi
-				size = 200000
+				size = 469784
 			}
 		}
 	}
-	s:STATE_SEIMOU = {
+	s:STATE_SEIMOU = { #508800
 		region_state:GNM = {
 			create_pop = {
 				culture = maebashi
-				size = 200000
+				size = 508800
 			}
 		}
 	}
-	s:STATE_NUMATA = {
+	s:STATE_NUMATA = { #111604
 		region_state:GNM = {
 			create_pop = {
 				culture = maebashi
-				size = 200000
+				size = 111604
 			}
 		}
 	}
-	s:STATE_AGATSUMA = {
+	s:STATE_AGATSUMA = { #91014
 		region_state:GNM = {
 			create_pop = {
 				culture = agazuma
-				size = 200000
+				size = 91014
 			}
 		}
 	}
 
 	#栃木県
-	s:STATE_ASHIKAGA = {
+	s:STATE_ASHIKAGA = { #270078
 		region_state:TCH = {
 			create_pop = {
 				culture = ashikaga
-				size = 200000
+				size = 270078
 			}
 		}
 	}
-	s:STATE_TOCHIGI = {
+	s:STATE_TOCHIGI = { #289510
 		region_state:TCH = {
 			create_pop = {
 				culture = tochigi
-				size = 200000
+				size = 289510
 			}
 		}
 	}
-	s:STATE_UTSUNOMIYA = {
+	s:STATE_UTSUNOMIYA = { #359955
 		region_state:TCH = {
 			create_pop = {
 				culture = utsunomiya
-				size = 200000
+				size = 259955
 			}
-			create_pop = {
-				culture = tochigi
-				size = 200000
-			}
-		}
-	}
-	s:STATE_NIKKO = {
-		region_state:TCH = {
-			create_pop = {
-				culture = utsunomiya
-				size = 200000
-			}
-		}
-	}
-	s:STATE_NASU = {
-		region_state:TCH = {
 			create_pop = {
 				culture = tochigi
 				size = 100000
 			}
+		}
+	}
+	s:STATE_NIKKO = { #109232
+		region_state:TCH = {
 			create_pop = {
 				culture = utsunomiya
-				size = 100000
+				size = 109232
 			}
 		}
 	}
-	s:STATE_HAGA = {
+	s:STATE_NASU = { #259522
 		region_state:TCH = {
 			create_pop = {
 				culture = tochigi
-				size = 100000
+				size = 50000
 			}
 			create_pop = {
 				culture = utsunomiya
-				size = 100000
+				size = 209522
+			}
+		}
+	}
+	s:STATE_HAGA = { #262165
+		region_state:TCH = {
+			create_pop = {
+				culture = tochigi
+				size = 60000
+			}
+			create_pop = {
+				culture = utsunomiya
+				size = 202165
 			}
 		}
 	}
 
 	#茨城県
-	s:STATE_ROKKO = {
+	s:STATE_ROKKO = { #205011
 		region_state:IBR = {
 			create_pop = {
 				culture = choshi
-				size = 200000
+				size = 205011
 			}
 		}
 	}
-	s:STATE_HITACHI = {
+	s:STATE_HITACHI = { #349818
 		region_state:IBR = {
 			create_pop = {
 				culture = hitachi
-				size = 200000
+				size = 349818
 			}
 		}
 	}
-	s:STATE_MITO = {
+	s:STATE_MITO = { #489334
 		region_state:IBR = {
 			create_pop = {
 				culture = mito
-				size = 200000
+				size = 489334
 			}
 		}
 	}
-	s:STATE_RYUUGASAKI = {
+	s:STATE_RYUUGASAKI = { #212517
 		region_state:IBR = {
 			create_pop = {
 				culture = mito
-				size = 200000
+				size = 212517
 			}
 		}
 	}
-	s:STATE_TSUKUBA = {
+	s:STATE_TSUKUBA = { #326917
 		region_state:IBR = {
 			create_pop = {
 				culture = tsukuba
-				size = 200000
+				size = 326917
 			}
 		}
 	}
-	s:STATE_KOGA = {
+	s:STATE_KOGA = { #159251
 		region_state:IBR = {
 			create_pop = {
 				culture = koga
-				size = 200000
+				size = 159251
 			}
 		}
 	}

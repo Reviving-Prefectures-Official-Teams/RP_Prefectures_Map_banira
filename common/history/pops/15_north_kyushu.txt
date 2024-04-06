@@ -1,14 +1,14 @@
 ﻿POPS = {
 	#福岡
-	s:STATE_KITAKYUSHU = {
+	s:STATE_KITAKYUSHU = { #1574002
 		region_state:FKO = {
 			create_pop = {
 				culture = kokura
-				size = 200000
+				size = 769002
 			}
 			create_pop = {
 				culture = fukuoka
-				size = 200000
+				size = 800000
 			}
 			create_pop = {
 				culture = korean
@@ -17,15 +17,15 @@
 		}
 	}
 
-	s:STATE_MINAMICHIKUGO = {
+	s:STATE_MINAMICHIKUGO = { #605904
 		region_state:FKO = {
 			create_pop = {
 				culture = kurume
-				size = 200000
+				size = 100000
 			}
 			create_pop = {
 				culture = fukuoka
-				size = 500000
+				size = 500904
 			}
 			create_pop = {
 				culture = korean
@@ -34,15 +34,15 @@
 		}
 	}
 
-	s:STATE_KEICHIKU = {
+	s:STATE_KEICHIKU = { #174106
 		region_state:FKO = {
 			create_pop = {
 				culture = kokura
-				size = 200000
+				size = 50000
 			}
 			create_pop = {
 				culture = fukuoka
-				size = 500000
+				size = 119106
 			}
 			create_pop = {
 				culture = korean
@@ -51,11 +51,11 @@
 		}
 	}
 
-	s:STATE_FUKUOKA = {
+	s:STATE_FUKUOKA = { #1574002
 		region_state:FKO = {
 			create_pop = {
 				culture = fukuoka
-				size = 300000
+				size = 1569002
 			}
 			create_pop = {
 				culture = korean
@@ -64,51 +64,51 @@
 		}
 	}
 
-	s:STATE_CHIKUHOU = {
+	s:STATE_CHIKUHOU = { #302348
 		region_state:FKO = {
 			create_pop = {
 				culture = fukuoka
-				size = 100000
+				size = 152348
 			}
 			create_pop = {
 				culture = kurume
-				size = 100000
+				size = 150000
 			}
 		}
 	}
 
-	s:STATE_KITACHIKUGO = {
+	s:STATE_KITACHIKUGO = { #368521
 		region_state:FKO = {
 			create_pop = {
 				culture = kurume
-				size = 100000
+				size = 188521
 			}
 			create_pop = {
 				culture = fukuoka
-				size = 100000
+				size = 180000
 			}
 		}
 	}
 	#大分
 
-	s:STATE_OHITA = {
+	s:STATE_OHITA = { #326631
 		region_state:OIT = {
 			create_pop = {
 				culture = oita
-				size = 100000
+				size = 166631
 			}
 			create_pop = {
 				culture = saiki
-				size = 100000
+				size = 160000
 			}
 		}
 	}
 
-	s:STATE_BUZEN = {
+	s:STATE_BUZEN = { #200816
 		region_state:OIT = {
 			create_pop = {
 				culture = oita
-				size = 100000
+				size = 100816
 			}
 			create_pop = {
 				culture = kurume
@@ -117,46 +117,46 @@
 		}
 	}
 
-	s:STATE_KUSU = {
+	s:STATE_KUSU = { #78626
 		region_state:OIT = {
 			create_pop = {
 				culture = oita
-				size = 100000
+				size = 78626
 			}
 		}
 	}
 
-	s:STATE_HOUHI = {
+	s:STATE_HOUHI = { #138121
 		region_state:OIT = {
 			create_pop = {
 				culture = hita
-				size = 100000
+				size = 48121
 			}
 			create_pop = {
 				culture = aso
-				size = 100000
+				size = 40000
 			}
 			create_pop = {
 				culture = oita
-				size = 100000
+				size = 50000
 			}
 		}
 	}
 
-	s:STATE_HITA = {
+	s:STATE_HITA = { #96836
 		region_state:OIT = {
 			create_pop = {
 				culture = hita
-				size = 100000
+				size = 96836
 			}
 		}
 	}
 
-	s:STATE_KUNISAKI = {
+	s:STATE_KUNISAKI = { #195585
 		region_state:OIT = {
 			create_pop = {
 				culture = oita
-				size = 100000
+				size = 194585
 			}
 			create_pop = {
 				culture = shugendo
@@ -165,85 +165,85 @@
 		}
 	}
 
-	s:STATE_SAIKI = {
+	s:STATE_SAIKI = { #216389
 		region_state:OIT = {
 			create_pop = {
 				culture = saiki
-				size = 100000
+				size = 70000
 			}
 			create_pop = {
 				culture = oita
-				size = 100000
+				size = 76389
 			}
 			create_pop = {
 				culture = hyuga
-				size = 100000
+				size = 70000
 			}
 		}
 	}
 	#佐賀
 
-	s:STATE_SAGA = {
+	s:STATE_SAGA = { #246786
 		region_state:SAG = {
 			create_pop = {
 				culture = saga
-				size = 240000
+				size = 246786
 			}
 		}
 	}
 
-	s:STATE_TOSU = {
+	s:STATE_TOSU = { #60261
 		region_state:SAG = {
 			create_pop = {
 				culture = saga
-				size = 80000
+				size = 60261
 			}
 		}
 	}
 
-	s:STATE_URESHINO = {
+	s:STATE_URESHINO = { #106180
 		region_state:SAG = {
 			create_pop = {
 				culture = saga
-				size = 100000
+				size = 106180
 			}
 		}
 	}
 
-	s:STATE_KARATSU = {
+	s:STATE_KARATSU = { #184919
 		region_state:SAG = {
 			create_pop = {
 				culture = karatsu
-				size = 100000
+				size = 184919
 			}
 		}
 	}
 
-	s:STATE_IMARI = {
+	s:STATE_IMARI = { #106738
 		region_state:SAG = {
 			create_pop = {
 				culture = karatsu
-				size = 100000
+				size = 106738
 			}
 		}
 	}
 
-	s:STATE_KASHIMA = {
-		region_state:SAG = {
+	s:STATE_KASHIMA = { #220195
+		region_state:SAG = { 
 			create_pop = {
 				culture = saga
-				size = 100000
+				size = 220195
 			}
 		}
 	}
 
 	#長崎
 
-	s:STATE_NAGASAKI = {
+	s:STATE_NAGASAKI = { #476853
 		region_state:NGS = {
 			create_pop = {
 				culture = nagasaki
-				size = 200000
+				size = 366853
 			}
 			create_pop = {
 				culture = amakusa
@@ -257,84 +257,84 @@
 		}
 	}
 
-	s:STATE_OHMURA = {
+	s:STATE_OHMURA = { #168504
 		region_state:NGS = {
 			create_pop = {
 				culture = sasebo
-				size = 100000
+				size = 88504
 			}
 			create_pop = {
 				culture = nagasaki
-				size = 100000
+				size = 80000
 			}
 		}
 	}
 
-	s:STATE_SASEBO = {
+	s:STATE_SASEBO = { #494349
 		region_state:NGS = {
 			create_pop = {
 				culture = sasebo
-				size = 100000
+				size = 494349
 			}
 		}
 	}
 
-	s:STATE_SHIMABARA = {
+	s:STATE_SHIMABARA = { #225916
 		region_state:NGS = {
 			create_pop = {
 				culture = nagasaki
-				size = 500000
+				size = 170916
 			}
 			create_pop = {
 				culture = amakusa
-				size = 100000
+				size = 50000
 			}
 			create_pop = {
 				culture = amakusa
 				religion = hidden_christian 
-				size = 20000
+				size = 5000
 			}
 		}
 	}
 
-	s:STATE_IKI_SHOTOH = {
+	s:STATE_IKI_SHOTOH = { #51616
 		region_state:NGS = {
 			create_pop = {
 				culture = nagasaki
-				size = 100000
+				size = 46516
 			}
 			create_pop = {
 				culture = nagasaki
 				religion = hidden_christian
-				size = 10000
+				size = 5100
 			}
 		}
 	}
 
-	s:STATE_TSUSHIMA_SHOTOH = {
+	s:STATE_TSUSHIMA_SHOTOH = { #60376
 		region_state:NGS = {
 			create_pop = {
 				culture = tsushima
-				size = 100000
+				size = 60376
 			}
 		}
 	}
 
-	s:STATE_GOTO_RETTOH = {
+	s:STATE_GOTO_RETTOH = { #167878
 		region_state:NGS = {
 			create_pop = {
 				culture = gotos
-				size = 100000
+				size = 110878
 			}
 			create_pop = {
 				culture = nagasaki
 				religion = hidden_christian
-				size = 10000
+				size = 20000
 			}
 			create_pop = {
 				culture = gotos
 				religion = hidden_christian
-				size = 100000
+				size = 37000
 			}
 		}
 	}

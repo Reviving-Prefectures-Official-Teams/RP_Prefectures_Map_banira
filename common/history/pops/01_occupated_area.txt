@@ -1,10 +1,10 @@
 ﻿POPS = {
 	#合衆国軍
-	s:STATE_OGASAWARA = {
+	s:STATE_OGASAWARA = { #600 + y500
 		region_state:USR = {
 			create_pop = {
 				culture = ogasawara
-				size = 1000
+				size = 510
 			}
 			create_pop = {
 				culture = yankee
@@ -12,19 +12,19 @@
 			}
 			create_pop = {
 				culture = odawara
-				size = 500
+				size = 50
 			}
 			create_pop = {
 				culture = izu
-				size = 500
+				size = 20
 			}
 			create_pop = {
 				culture = ise
-				size = 500
+				size = 20
 			}
 		}
 	}
-	s:STATE_KAZANRETTO = {
+	s:STATE_KAZANRETTO = { #y500
 		region_state:USR = {
 			create_pop = {
 				culture = yankee
@@ -34,31 +34,31 @@
 	}
 
 	#ソ連軍
-	s:STATE_HABOMAI = {
+	s:STATE_HABOMAI = { #4070
 		region_state:SRA = {
 			create_pop = {
 				culture = russian
-				size = 1000
+				size = 4070
 			}
 		}
 	}
-    s:STATE_KUNASHIRI = {
+    s:STATE_KUNASHIRI = { #7364
 		region_state:SRA = {
 			create_pop = {
 				culture = russian
-				size = 10000
+				size = 4964
 			}
 			create_pop = {
 				culture = ukurainian
-				size = 30000
+				size = 1000
 			}
 			create_pop = {
 				culture = byelorussian
-				size = 8000
+				size = 300
 			}
 			create_pop = {
 				culture = ainu
-				size = 1000
+				size = 500
 			}
 			create_pop = {
 				culture = nivkh
@@ -66,35 +66,35 @@
 			}
 			create_pop = {
 				culture = oroch
-				size = 500
+				size = 100
 			}
 		}
 	}
-	s:STATE_ETOROFU = {
+	s:STATE_ETOROFU = { #3608
 		region_state:SRA = {
 			create_pop = {
 				culture = russian
-				size = 40000
+				size = 1958
 			}
 			create_pop = {
 				culture = ukurainian
-				size = 30000
+				size = 700
 			}
 			create_pop = {
 				culture = byelorussian
-				size = 11000
+				size = 300
 			}
 			create_pop = {
 				culture = ainu
-				size = 2500
+				size = 500
 			}
 			create_pop = {
 				culture = oroch
-				size = 1000
+				size = 100
 			}
 			create_pop = {
 				culture = nivkh
-				size = 500
+				size = 50
 			}
 		}
 	}

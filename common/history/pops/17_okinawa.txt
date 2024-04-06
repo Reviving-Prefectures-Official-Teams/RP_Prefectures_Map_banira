@@ -1,11 +1,11 @@
 ﻿POPS = {
 	#奄美
 
-	s:STATE_AMAMI_GUNTOH = {
+	s:STATE_AMAMI_GUNTOH = { #216110 + y500
 		region_state:USR = {
 			create_pop = {
 				culture = amami
-				size = 100000
+				size = 216110
 			}
 			create_pop = {
 				culture = yankee
@@ -16,84 +16,84 @@
 
 	#沖縄
 
-	s:STATE_DAITOH_SHOTOH = {
+	s:STATE_DAITOH_SHOTOH = { #5844 + y500
 		region_state:USR = {
 			create_pop = {
 				culture = daito
-				size = 100000
-			}
-			create_pop = {
-				culture = yankee
-				size = 1000
-			}
-		}
-	}
-
-	s:STATE_HOKUZAN = {
-		region_state:USR = {
-			create_pop = {
-				culture = yambaru
-				size = 100000
-			}
-			create_pop = {
-				culture = yankee
-				size = 2000
-			}
-		}
-	}
-
-	s:STATE_CHUZAN = {
-		region_state:USR = {
-			create_pop = {
-				culture = okinawa
-				size = 100000
-			}
-			create_pop = {
-				culture = yankee
-				size = 2000
-			}
-		}
-	}
-
-	s:STATE_NANZAN = {
-		region_state:USR = {
-			create_pop = {
-				culture = okinawa
-				size = 100000
-			}
-			create_pop = {
-				culture = yankee
-				size = 2000
-			}
-		}
-	}
-
-	s:STATE_KUME_SHOTOH = {
-		region_state:USR = {
-			create_pop = {
-				culture = okinawa
-				size = 100000
-			}
-			create_pop = {
-				culture = yankee
-				size = 1000
-			}
-		}
-	}
-
-	s:STATE_SENTAN_SHOTOH = {
-		region_state:USR = {
-			create_pop = {
-				culture = yaeyama
-				size = 100000
-			}
-			create_pop = {
-				culture = miyako
-				size = 100000
+				size = 5844
 			}
 			create_pop = {
 				culture = yankee
 				size = 500
+			}
+		}
+	}
+
+	s:STATE_HOKUZAN = { #158830 + y2000
+		region_state:USR = {
+			create_pop = {
+				culture = yambaru
+				size = 158830
+			}
+			create_pop = {
+				culture = yankee
+				size = 2000
+			}
+		}
+	}
+
+	s:STATE_CHUZAN = { #198074 + y2000
+		region_state:USR = {
+			create_pop = {
+				culture = okinawa
+				size = 198074
+			}
+			create_pop = {
+				culture = yankee
+				size = 2000
+			}
+		}
+	}
+
+	s:STATE_NANZAN = { #236321 + y2000
+		region_state:USR = {
+			create_pop = {
+				culture = okinawa
+				size = 100000
+			}
+			create_pop = {
+				culture = yankee
+				size = 2000
+			}
+		}
+	}
+
+	s:STATE_KUME_SHOTOH = { #17127 + y500
+		region_state:USR = {
+			create_pop = {
+				culture = okinawa
+				size = 17127
+			}
+			create_pop = {
+				culture = yankee
+				size = 500
+			}
+		}
+	}
+
+	s:STATE_SENTAN_SHOTOH = { #118604 + y1000
+		region_state:USR = {
+			create_pop = {
+				culture = yaeyama
+				size = 78604
+			}
+			create_pop = {
+				culture = miyako
+				size = 40000
+			}
+			create_pop = {
+				culture = yankee
+				size = 1000
 			}
 		}
 	}
@@ -101,12 +101,8 @@
 	s:STATE_SENKAKU_SHOTOH = {
 		region_state:USR = {
 			create_pop = {
-				culture = yaeyama
-				size = 100000
-			}
-			create_pop = {
 				culture = yankee
-				size = 500
+				size = 50
 			}
 		}
 	}
