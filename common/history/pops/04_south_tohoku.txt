@@ -1,152 +1,152 @@
 ﻿POPS = {
 	# 宮城県
-	s:STATE_SENDAI = {
+	s:STATE_SENDAI = { #623815
         region_state:MYG = {
 			create_pop = {
 				culture = sendai
-				size = 100000
+				size = 623815
 			}
 		}
     }
-    s:STATE_SENNAN = {
+    s:STATE_SENNAN = { #201679
         region_state:MYG = {
 			create_pop = {
 				culture = shiroishi
-				size = 100000
+				size = 201679
 			}
 		}
     }
-    s:STATE_ISHINOMAKI = {
+    s:STATE_ISHINOMAKI = { #173669
         region_state:MYG = {
 			create_pop = {
 				culture = sendai
-				size = 100000
+				size = 173669
 			}
 		}
     }
-    s:STATE_OOSAKI = {
+    s:STATE_OOSAKI = { #235533
         region_state:MYG = {
 			create_pop = {
 				culture = sendai
-				size = 100000
+				size = 235533
 			}
 		}
     }
-    s:STATE_KURIHARA = {
+    s:STATE_KURIHARA = { #141659
         region_state:MYG = {
 			create_pop = {
 				culture = sendai
-				size = 100000
+				size = 141659
 			}
 		}
     }
-    s:STATE_TOME = {
+    s:STATE_TOME = { #121170
         region_state:MYG = {
 			create_pop = {
 				culture = soma
-				size = 100000
+				size = 121170
 			}
 		}
     }
-    s:STATE_KESENNUMA = {
+    s:STATE_KESENNUMA = { #113558
         region_state:MYG = {
 			create_pop = {
 				culture = kesen
-				size = 100000
+				size = 53558
 			}
 			create_pop = {
 				culture = soma
-				size = 100000
+				size = 60000
 			}
 		}
     }
     # 山形県
-    s:STATE_MURAYAMA = {
+    s:STATE_MURAYAMA = { #447697
         region_state:YMG = {
 			create_pop = {
 				culture = yamagata
-				size = 100000
+				size = 447697
 			}
 		}
     }
-    s:STATE_YONEZAWA = {
+    s:STATE_YONEZAWA = { #306732
         region_state:YMG = {
 			create_pop = {
 				culture = yamagata
-				size = 100000
+				size = 306732
 			}
 		}
     }
-    s:STATE_SYONAI = {
+    s:STATE_SYONAI = { #368481
         region_state:YMG = {
 			create_pop = {
 				culture = shonai
-				size = 100000
+				size = 368481
 			}
 		}
     }
-    s:STATE_MOGAMI = {
+    s:STATE_MOGAMI = { #126747
         region_state:YMG = {
 			create_pop = {
-				culture = hachimantai
-				size = 100000
+				culture = yamagata
+				size = 126747
 			}
 		}
     }
 	#福島県
-	s:STATE_FUKUSHIMA = {
+	s:STATE_FUKUSHIMA = { #467649
 		region_state:FKS = {
 			create_pop = {
 				culture = fukushima
-				size = 100000
+				size = 467649
 			}
 		}
 	}
-	s:STATE_KORIYAMA = {
+	s:STATE_KORIYAMA = { #356121
         region_state:FKS = {
 			create_pop = {
 				culture = fukushima
-				size = 100000
+				size = 356121
 			}
 		}
 	}
-	s:STATE_IWAKI = {
+	s:STATE_IWAKI = { #330581
         region_state:FKS = {
 			create_pop = {
 				culture = iwaki
-				size = 100000
+				size = 330581
 			}
 		}
 	}
-    s:STATE_SOSO = {
+    s:STATE_SOSO = { #240981
         region_state:FKS = {
 			create_pop = {
 				culture = iwaki
-				size = 100000
+				size = 240981
 			}
 		}
 	}
-    s:STATE_SHIRAKAWA = {
+    s:STATE_SHIRAKAWA = { #102390
         region_state:FKS = {
 			create_pop = {
 				culture = fukushima
-				size = 100000
+				size = 102390
 			}
 		}
 	}
-    s:STATE_AIZU = {
+    s:STATE_AIZU = { #250670
         region_state:FKS = {
 			create_pop = {
 				culture = aidu
-				size = 100000
+				size = 250670
 			}
 		}
 	}
-    s:STATE_MINAMIAIZU = {
+    s:STATE_MINAMIAIZU = { #165184
         region_state:FKS = {
 			create_pop = {
 				culture = aidu
-				size = 100000
+				size = 165184
 			}
 		}
 	}

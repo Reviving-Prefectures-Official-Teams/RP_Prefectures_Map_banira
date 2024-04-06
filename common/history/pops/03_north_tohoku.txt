@@ -1,125 +1,125 @@
 ﻿POPS = {
 	#青森県
-    s:STATE_AOMORI = {
+    s:STATE_AOMORI = { #495937
         region_state:AOM = {
 			create_pop = {
 				culture = aomori
-				size = 100000
+				size = 495937
 			}
 		} 
     }
-    s:STATE_HACHINOHE = {
+    s:STATE_HACHINOHE = { #242076
         region_state:AOM = {
 			create_pop = {
 				culture = hachinohe
-				size = 100000
+				size = 242076
 			}
 		} 
     }
-    s:STATE_HIROSAKI = {
+    s:STATE_HIROSAKI = { #373408
         region_state:AOM = {
 			create_pop = {
 				culture = hirosaki
-				size = 100000
+				size = 373408
 			}
 		} 
     }
-    s:STATE_TOWADA = {
+    s:STATE_TOWADA = { #183139
         region_state:AOM = {
 			create_pop = {
 				culture = hachinohe
-				size = 100000
+				size = 183139
 			}
 		} 
     }
-    s:STATE_MUTU = {
+    s:STATE_MUTU = { #91041
         region_state:AOM = {
 			create_pop = {
 				culture = shimokita
-				size = 140000
+				size = 89041
 			}
 			create_pop = {
 				culture = shimokita
 				religion = itako
-				size = 10000
+				size = 2000
 			}
 		} 
     }
     #岩手県
-    s:STATE_MORIOKA = {
+    s:STATE_MORIOKA = { #308279
         region_state:IWT = {
 			create_pop = {
 				culture = morioka
-				size = 100000
+				size = 300279
 			}
 			create_pop = {
 				culture = hachimantai
-				size = 100000
+				size = 8000
 			}
 		}
     }
-    s:STATE_KAMAISHI = {
+    s:STATE_KAMAISHI = { #351905
         region_state:IWT = {
 			create_pop = {
 				culture = kamaishi
-				size = 100000
+				size = 351905
 			}
 		}
     }
-    s:STATE_HANAMAKI = {
+    s:STATE_HANAMAKI = { #523957
         region_state:IWT = {
 			create_pop = {
 				culture = kesen
-				size = 100000
+				size = 523957
 			}
 		}
     }
-    s:STATE_KUJI = {
+    s:STATE_KUJI = { #161994
         region_state:IWT = {
 			create_pop = {
 				culture = morioka
-				size = 100000
+				size = 161994
 			}
 		}
     }
     # 秋田県
-    s:STATE_AKITA = {
+    s:STATE_AKITA = { #503584
         region_state:AKT = {
 			create_pop = {
 				culture = akita
-				size = 100000
+				size = 503584
 			}
 		}
     }
-    s:STATE_YURIHONJYOU = {
+    s:STATE_YURIHONJYOU = { #149328
         region_state:AKT = {
 			create_pop = {
 				culture = yuri
-				size = 100000
+				size = 149328
 			}
 		}
     }
-    s:STATE_YOKOTE = {
+    s:STATE_YOKOTE = { #258424
         region_state:AKT = {
 			create_pop = {
 				culture = yuri
-				size = 100000
+				size = 258424
 			}
 		}
     }
-    s:STATE_DAISEN = {
+    s:STATE_DAISEN = { #195977
         region_state:AKT = {
 			create_pop = {
 				culture = akita
-				size = 100000
+				size = 195977
 			}
 		}
     }
-    s:STATE_OODATE = {
+    s:STATE_OODATE = { #243850
         region_state:AKT = {
 			create_pop = {
 				culture = akita
-				size = 100000
+				size = 243850
 			}
 		}
 	}

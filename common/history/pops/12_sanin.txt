@@ -1,10 +1,10 @@
 ﻿POPS = {
 	#島根
-	s:STATE_MATSUE = {
+	s:STATE_MATSUE = { #216179
 		region_state:SMN = {
 			create_pop = {
 				culture = izumo
-				size = 100000
+				size = 116179
 			}
 			create_pop = {
 				culture = yonago
@@ -12,65 +12,65 @@
 			}
 		}
 	}
-	s:STATE_IZUMO = {
+	s:STATE_IZUMO = { #168806
 		region_state:SMN = {
 			create_pop = {
 				culture = izumo
-				size = 200000
+				size = 168806
 			}
 		}
 	}
-	s:STATE_OKI = {
+	s:STATE_OKI = { #44842
 		region_state:SMN = {
 			create_pop = {
 				culture = izumo
-				size = 100000
+				size = 44842
 			}
 		}
 	}
-	s:STATE_UNNAN = {
+	s:STATE_UNNAN = { #113723
 		region_state:SMN = {
 			create_pop = {
 				culture = izumo
-				size = 100000
+				size = 113723
 			}
 		}
 	}
-	s:STATE_HAMADA = {
+	s:STATE_HAMADA = { #264173
 		region_state:SMN = {
 			create_pop = {
 				culture = iwami
-				size = 100000
+				size = 264173
 			}
 		}
 	}
-	s:STATE_MASUDA = {
+	s:STATE_MASUDA = { #104831
 		region_state:SMN = {
 			create_pop = {
 				culture = iwami
-				size = 100000
+				size = 54831
 			}
 			create_pop = {
 				culture = hagi
-				size = 100000
+				size = 50000
 			}
 		}
 	}
 
 	#鳥取
-	s:STATE_TOTTORI = {
+	s:STATE_TOTTORI = { #239706
 		region_state:TTR = {
 			create_pop = {
 				culture = tottori
-				size = 200000
+				size = 239706
 			}
 		}
 	}
-	s:STATE_YONAGO = {
+	s:STATE_YONAGO = { #219410
 		region_state:TTR = {
 			create_pop = {
 				culture = tottori
-				size = 100000
+				size = 119410
 			}
 			create_pop = {
 				culture = yonago
@@ -78,15 +78,15 @@
 			}
 		}
 	}
-	s:STATE_KURAYOSHI = {
+	s:STATE_KURAYOSHI = { #141061
 		region_state:TTR = {
 			create_pop = {
 				culture = tottori
-				size = 100000
+				size = 71061
 			}
 			create_pop = {
 				culture = kurayoshi
-				size = 100000
+				size = 70000
 			}
 		}
 	}

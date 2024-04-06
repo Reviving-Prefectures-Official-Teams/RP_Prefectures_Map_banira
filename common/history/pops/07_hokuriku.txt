@@ -1,166 +1,166 @@
 ﻿POPS = {
 	#石川
-	s:STATE_KANAZAWA = {
+	s:STATE_KANAZAWA = { #325706
 		region_state:ISK = {
 			create_pop = {
 				culture = kanazawa
-				size = 200000
+				size = 325706
 			}
 		}
 	}
-	s:STATE_OKUNOTO = {
+	s:STATE_OKUNOTO = { #157860
 		region_state:ISK = {
 			create_pop = {
 				culture = noto
-				size = 200000
+				size = 157860
 			}
 		}
 	}
-	s:STATE_NAKANOTO = {
+	s:STATE_NAKANOTO = { #196950
 		region_state:ISK = {
 			create_pop = {
 				culture = noto
-				size = 200000
+				size = 196950
 			}
 		}
 	}
-	s:STATE_MINAMIKAMO = {
+	s:STATE_MINAMIKAMO = { #276793
 		region_state:ISK = {
 			create_pop = {
 				culture = kanazawa
-				size = 200000
+				size = 276793
 			}
 		}
 	}
 
 	#富山
-	s:STATE_TOYAMA = {
+	s:STATE_TOYAMA = { #284262
 		region_state:TOY = {
 			create_pop = {
 				culture = toyama
-				size = 200000
+				size = 284262
 			}
 		}
 	}
-	s:STATE_NIIKAWA = {
+	s:STATE_NIIKAWA = { #248194
 		region_state:TOY = {
 			create_pop = {
 				culture = toyama
-				size = 200000
+				size = 248194
 			}
 		}
 	}
-	s:STATE_TAKAOKA = {
+	s:STATE_TAKAOKA = { #271633
 		region_state:TOY = {
 			create_pop = {
 				culture = takaoka
-				size = 200000
+				size = 271633
 			}
 		}
 	}
-	s:STATE_TONAMI = {
-		region_state:TOY = {
+	s:STATE_TONAMI = { #204701
+		region_state:TOY = { 
 			create_pop = {
 				culture = takaoka
-				size = 100000
+				size = 50000
 			}
 			create_pop = {
 				culture = gokayama
-				size = 500000
+				size = 154701
 			}
 		}
 	}
 
 	#新潟
-	s:STATE_NIIGATA = {
+	s:STATE_NIIGATA = { #700291
 		region_state:NIG = {
 			create_pop = {
 				culture = niigata
-				size = 200000
+				size = 700291
 			}
 		}
 	}
-	s:STATE_KAETSU = {
+	s:STATE_KAETSU = { #367073
 		region_state:NIG = {
 			create_pop = {
 				culture = niigata
-				size = 200000
+				size = 367073
 			}
 		}
 	}
-	s:STATE_NIIGATAMINAMI = {
+	s:STATE_NIIGATAMINAMI = { #257600
 		region_state:NIG = {
 			reate_pop = {
 				culture = niigata
-				size = 200000
+				size = 30000
 			}
 			create_pop = {
 				culture = nagaoka
-				size = 1500000
+				size = 227600
 			}
 		}
 	}
-	s:STATE_NAGAOKA = {
+	s:STATE_NAGAOKA = { #315751
 		region_state:NIG = {
 			create_pop = {
 				culture = nagaoka
-				size = 200000
+				size = 205751
 			}
 			create_pop = {
 				culture = myoko
-				size = 100000
+				size = 30000
 			}
 			create_pop = {
 				culture = akiyamago
-				size = 500000
+				size = 80000
 			}
 		}
 	}
-	s:STATE_UONUMA = {
+	s:STATE_UONUMA = { #291427
 		region_state:NIG = {
 			create_pop = {
 				culture = nagaoka
-				size = 200000
+				size = 291427
 			}
 		}
 	}
-	s:STATE_JOETSU = {
+	s:STATE_JOETSU = { #403978
 		region_state:NIG = {
 			create_pop = {
 				culture = myoko
-				size = 200000
+				size = 403978
 			}
 		}
 	}
-	s:STATE_SADO = {
+	s:STATE_SADO = { #125597
 		region_state:NIG = {
 			create_pop = {
 				culture = sado
-				size = 200000
+				size = 125597
 			}
 		}
 	}
-	s:STATE_FUKUI = {
+	s:STATE_FUKUI = { #298463
 		region_state:FKI = {
 			create_pop = {
 				culture = fukui
-				size = 200000
+				size = 298463
 			}
 		}
 	}
-	s:STATE_OKUETSU = {
+	s:STATE_OKUETSU = { #97445
 		region_state:FKI = {
 			create_pop = {
 				culture = fukui
-				size = 200000
+				size = 97445
 			}
 		}
 	}
-	s:STATE_TANNAN = {
+	s:STATE_TANNAN = { #205113
 		region_state:FKI = {
 			create_pop = {
 				culture = fukui
-				size = 200000
+				size = 205113
 			}
 		}
 	}
