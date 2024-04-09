@@ -1,4 +1,4 @@
-SMN = {
+﻿SMN = {
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 150 0 16 }
 	color2 = rgb { 150 0 16 }

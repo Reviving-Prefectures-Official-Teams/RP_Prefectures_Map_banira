@@ -1,4 +1,4 @@
-AIC = {
+﻿AIC = {
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 167 61 73 }
 	color2 = rgb { 167 61 73 }

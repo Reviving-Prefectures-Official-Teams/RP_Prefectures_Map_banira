@@ -1,4 +1,4 @@
-YMC = {
+﻿YMC = {
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 105 57 49 }
 	color2 = rgb { 105 57 49 }

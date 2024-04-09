@@ -10,8 +10,7 @@ building_castanopsis_forest = {
 
 	production_method_groups = {
 		pmg_hardwood
-		pmg_equipment
-		pmg_transportation_building_logging_camp
+		pmg_transport
 	}
 }
 
@@ -26,8 +25,7 @@ building_betulaceae_forest = {
 
 	production_method_groups = {
 		pmg_hardwood
-		pmg_equipment
-		pmg_transportation_building_logging_camp
+		pmg_transport
 	}
 }
 
@@ -41,9 +39,9 @@ building_chamaecyparis_obtusa_forest = {
 	levels_per_mesh = 5
 
 	production_method_groups = {
-		pmg_base_building_logging_camp
-		pmg_equipment
-		pmg_transportation_building_logging_camp
+		pmg_softwood
+		pmg_carbonized_wood
+		pmg_transport
 	}
 }
 
@@ -57,9 +55,9 @@ building_cryptomeria_forest = {
 	levels_per_mesh = 5
 
 	production_method_groups = {
-		pmg_base_building_logging_camp
-		pmg_equipment
-		pmg_transportation_building_logging_camp
+		pmg_softwood
+		pmg_carbonized_wood
+		pmg_transport
 	}
 }
 

@@ -1,0 +1,269 @@
+﻿######穀物農業######
+#米
+pmg_rice_farming = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_organic_farming_rice
+        pm_chemical_fertilizer_rice
+        pm_pesticide_rice
+        pm_herbicide_rice
+        pm_high_performance_pesticide_rice
+        pm_drone_spraying_rice
+        pm_aggregated_smart_farm_rice
+	}
+}
+
+#スイートコーン
+pmg_sweetcorn = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+        pm_unproducing
+		pm_sweet_corn
+		pm_pesticide_sweet_corn
+	}
+}
+
+#うどん
+pmg_udon = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+        pm_unproducing
+		pm_udon
+		pm_packaged_noodles
+	}
+}
+
+#日本酒
+pmg_sake = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_secondary
+		pm_traditional_method_sake
+        pm_water_distillation_sake
+	}
+}
+
+#穀物総合
+pmg_grain_farming = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    production_methods = {
+        pm_organic_farming
+        pm_chemical_fertilizer
+        pm_pesticide
+        pm_herbicide
+        pm_high_performance_pesticide
+        pm_drone_spraying
+        pm_aggregated_smart_farm
+    }
+}
+
+pmg_mechanization_farming = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+    production_methods = {
+        pm_manual
+        pm_harvesting_tool
+        pm_combine
+        pm_transplanter
+        pm_multi_function_combine
+        pm_autonomous_driving_combine
+    }
+}
+
+######牧場######
+#牛牧場
+pmg_cattle_ranch = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    production_methods = {
+        pm_japanese_cattle
+        pm_dairy_cattle
+        pm_foreign_cattle
+        pm_holstein
+    }
+}
+
+pmg_refrigeration = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+    production_methods = {
+        pm_salted
+        pm_freezer
+        pm_quick_freezing
+        pm_ultra_high_speed_freezing
+    }
+}
+
+#養豚場
+pmg_base_building_livestock_ranch = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_open_air_stockyards
+		pm_butchering_tools
+		pm_slaughterhouses
+		pm_mechanized_slaughtering
+	}
+}
+
+#養鶏場
+pmg_base_building_livestock_ranch = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_open_air_stockyards
+		pm_butchering_tools
+		pm_slaughterhouses
+		pm_mechanized_slaughtering
+	}
+}
+
+######輸送######
+
+######商品農業######
+#コーヒー
+pmg_base_building_coffee_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		default_building_coffee_plantation
+		automatic_irrigation_building_coffee_plantation
+	}
+}
+
+pmg_train_automation_building_coffee_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_road_carts
+		pm_steam_rail_transport
+		pm_logistics_3
+		pm_logistics_4
+	}
+}
+
+#綿花
+pmg_base_building_cotton_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		default_building_cotton_plantation
+		automatic_irrigation_building_cotton_plantation
+	}
+}
+
+pmg_train_automation_building_cotton_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_road_carts
+		pm_steam_rail_transport
+		pm_logistics_3
+		pm_logistics_4
+	}
+}
+
+#茶
+pmg_base_building_tea_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		default_building_tea_plantation
+		automatic_irrigation_building_tea_plantation
+	}
+}
+
+pmg_train_automation_building_tea_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_road_carts
+		pm_steam_rail_transport
+		pm_logistics_3
+		pm_logistics_4
+	}
+}
+
+#タバコ
+pmg_base_building_tobacco_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		default_building_tobacco_plantation
+		automatic_irrigation_building_tobacco_plantation
+	}
+}
+
+pmg_train_automation_building_tobacco_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_road_carts
+		pm_steam_rail_transport
+		pm_logistics_3
+		pm_logistics_4
+	}
+}
+
+#砂糖
+pmg_base_building_sugar_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		default_building_sugar_plantation
+		automatic_irrigation_building_sugar_plantation
+	}
+}
+
+pmg_train_automation_building_sugar_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_road_carts
+		pm_steam_rail_transport
+		pm_logistics_3
+		pm_logistics_4
+	}
+}
+
+#果樹園
+pmg_base_building_orchard_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		default_building_orchard_plantation
+		automatic_irrigation_building_orchard_plantation
+	}
+}
+
+pmg_train_automation_building_orchard_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_road_carts
+		pm_steam_rail_transport
+		pm_logistics_3
+		pm_logistics_4
+	}
+}
+
+#葡萄園
+pmg_base_building_vineyard_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		default_building_vineyard_plantation
+		automatic_irrigation_building_vineyard_plantation
+	}
+}
+
+pmg_train_automation_building_vineyard_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_road_carts
+		pm_steam_rail_transport
+		pm_logistics_3
+		pm_logistics_4
+	}
+}
+
+#野菜園
+pmg_base_building_vegetable_farms = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		default_building_vegetable_farms
+		automatic_irrigation_building_vegetable_farms
+	}
+}
+
+pmg_train_automation_building_vegetable_farms = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_road_carts
+		pm_steam_rail_transport
+		pm_logistics_3
+		pm_logistics_4
+	}
+}

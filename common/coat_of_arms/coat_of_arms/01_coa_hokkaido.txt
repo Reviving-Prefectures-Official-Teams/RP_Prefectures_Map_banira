@@ -1,4 +1,4 @@
-HOK = {
+﻿HOK = {
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 47 48 78 }
 	color2 = rgb { 47 48 78 }
@@ -15,7 +15,7 @@ HOK_fascism = {
 	color2 = rgb { 0 0 0 }
 
 	textured_emblem = {
-		texture = "RP_hokkaido-fascist.dds"
+		texture = "RP_hokkaido_fascist.dds"
 		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
 	}
 }

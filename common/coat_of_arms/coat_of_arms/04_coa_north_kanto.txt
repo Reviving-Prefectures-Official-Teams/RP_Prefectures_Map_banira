@@ -1,4 +1,4 @@
-TCH = {
+﻿TCH = {
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 119 178 53 }
 	color2 = rgb { 119 178 53 }

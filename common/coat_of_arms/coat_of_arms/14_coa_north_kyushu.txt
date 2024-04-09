@@ -1,4 +1,4 @@
-FKO = {
+﻿FKO = {
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 52 66 155 }
 	color2 = rgb { 52 66 155 }

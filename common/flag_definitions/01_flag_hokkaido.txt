@@ -1,1 +1,22 @@
-﻿
+﻿HOK = { # 国家タグ
+    flag_definition = {
+		coa = HOK
+		subject_canton = HOK
+		priority = 1
+	}
+	flag_definition = { 
+		coa = HOK_fascism #coat_of_arms ファイルからこの国旗を読み込む
+		subject_canton = HOK #この国旗の際に、属国のカントン部分に使う国旗
+		allow_overlord_canton = no	#この国旗の際に、上位国のカントン部分が使えるか
+		coa_with_overlord_canton = HOK_subject #属国の場合に使う国旗		
+		priority = 2 # この国旗の他の国旗に対する優先度
+		trigger = { # この国旗を使う条件
+            OR = {
+                coa_military_trigger = yes
+                coa_def_fascist_flag_trigger = yes
+                coa_dictatorship_trigger = yes
+                coa_anarchy_trigger = yes
+            }
+		}
+	}
+}

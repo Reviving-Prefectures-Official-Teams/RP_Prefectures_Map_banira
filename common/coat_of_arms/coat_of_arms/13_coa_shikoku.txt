@@ -1,4 +1,4 @@
-KAG = {
+﻿KAG = {
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 0 89 47 }
 	color2 = rgb { 0 89 47 }

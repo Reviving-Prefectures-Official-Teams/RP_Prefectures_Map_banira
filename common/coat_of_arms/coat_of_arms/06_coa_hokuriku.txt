@@ -1,4 +1,4 @@
-ISK = {
+﻿ISK = {
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 0 137 188 }
 	color2 = rgb { 0 137 188 }

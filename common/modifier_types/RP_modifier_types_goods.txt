@@ -300,23 +300,23 @@ goods_output_container_ships_mult = {
 	good = yes
 	percent = yes
 }
-#shimofuri_niku 霜降り肉
-goods_input_shimofuri_niku_add = {
+#luxury_food 高級食品
+goods_input_luxury_food_add = {
 	good = no
 	percent = no
 }
 
-goods_output_shimofuri_niku_add = {
+goods_output_luxury_food_add = {
 	good = yes
 	percent = no
 }
 
-goods_input_shimofuri_niku_mult = {
+goods_input_luxury_food_mult = {
 	good = yes
 	percent = yes
 }
 
-goods_output_shimofuri_niku_mult = {
+goods_output_luxury_food_mult = {
 	good = yes
 	percent = yes
 }

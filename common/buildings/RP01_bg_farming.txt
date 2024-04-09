@@ -9,10 +9,9 @@ building_wheat_farm = {
 	levels_per_mesh = 5
 
 	production_method_groups = {
-		pmg_base_building_wheat_farm
-		pmg_secondary_building_wheat_farm
-		pmg_harvesting_process_building_wheat_farm
-		pmg_ownership_land_building_wheat_farm
+		pmg_grain_farming
+		pmg_udon
+		pmg_mechanization_farming
 	}
 
 	required_construction = construction_cost_low
@@ -30,9 +29,9 @@ building_rice_farm = {
 	levels_per_mesh = 5
 
 	production_method_groups = {
-		pmg_base_building_rice_farm
-		pmg_secondary_building_rice_farm
-		pmg_harvesting_process_building_rice_farm
+		pmg_rice_farming
+		pmg_sake
+		pmg_mechanization_farming
 		pmg_gas_venting
 	}
 
@@ -51,36 +50,14 @@ building_maize_farm = {
 	levels_per_mesh = 5
 	
 	production_method_groups = {
-		pmg_base_building_maize_farm
-		pmg_secondary_building_maize_farm
-		pmg_harvesting_process_building_maize_farm
-		pmg_ownership_land_building_maize_farm
+		pmg_grain_farming
+		pmg_sweetcorn
+		pmg_mechanization_farming
 	}
 
 	required_construction = construction_cost_low
 	
 	terrain_manipulator = farmland_maize
-}
-
-#雑穀畑
-building_millet_farm = {
-	building_group = bg_millet_farms
-	
-	texture = "gfx/interface/icons/building_icons/millet_farm.dds"
-
-	city_type = farm
-	levels_per_mesh = 5
-
-	production_method_groups = {
-		pmg_base_building_millet_farm
-		pmg_secondary_building_millet_farm
-		pmg_harvesting_process_building_millet_farm
-		pmg_ownership_land_building_millet_farm
-	}
-
-	required_construction = construction_cost_low
-	
-	terrain_manipulator = farmland_millet
 }
 
 ######畜産
@@ -98,11 +75,8 @@ building_livestock_ranch = {
 	}
 
 	production_method_groups = {
-		pmg_base_building_livestock_ranch
-		pmg_shimofuri_niku
-		pmg_fencing
-		pmg_refrigeration_building_livestock_ranch
-		pmg_ownership_land_building_livestock_ranch
+		pmg_cattle_ranch
+		pmg_refrigeration
 	}
 
 	required_construction = construction_cost_low
@@ -125,9 +99,7 @@ bg_poultry_farms = {
 
 	production_method_groups = {
 		pmg_base_building_livestock_ranch
-		pmg_fencing
-		pmg_refrigeration_building_livestock_ranch
-		pmg_ownership_land_building_livestock_ranch
+		pmg_refrigeration
 	}
 
 	required_construction = construction_cost_low
@@ -150,34 +122,7 @@ bg_pig_farms = {
 
 	production_method_groups = {
 		pmg_base_building_livestock_ranch
-		pmg_fencing
-		pmg_refrigeration_building_livestock_ranch
-		pmg_ownership_land_building_livestock_ranch
-	}
-
-	required_construction = construction_cost_low
-
-	terrain_manipulator = pasture
-}
-
-#酪農場
-bg_dairy_farms = {
-	building_group = bg_livestock_ranches
-
-	texture = "gfx/interface/icons/building_icons/cattle_ranch.dds"
-	
-	city_type = farm
-	levels_per_mesh = 5
-
-	unlocking_technologies = {
-		enclosure
-	}
-
-	production_method_groups = {
-		pmg_base_building_livestock_ranch
-		pmg_fencing
-		pmg_refrigeration_building_livestock_ranch
-		pmg_ownership_land_building_livestock_ranch
+		pmg_refrigeration
 	}
 
 	required_construction = construction_cost_low
