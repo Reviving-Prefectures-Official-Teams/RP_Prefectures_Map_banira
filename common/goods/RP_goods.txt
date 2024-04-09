@@ -193,54 +193,9 @@ container_ships = {
 
 #============追加贅沢品============
 
-#マンゴー
-mango = { 
-	texture = "gfx/interface/icons/goods_icons/mango.dds"
-	cost = 35
-	category = specialty
-	
-	obsession_chance = 1.0
-	prestige_factor = 4
-	
-	traded_quantity = 7.5
-	convoy_cost_multiplier = 0.75
-	
-	consumption_tax_cost = 50
-}
-
-#みかん
-orange = { 
-	texture = "gfx/interface/icons/goods_icons/orange.dds"
-	cost = 25
-	category = specialty
-	
-	obsession_chance = 1.0
-	prestige_factor = 4
-	
-	traded_quantity = 7.5
-	convoy_cost_multiplier = 0.75
-	
-	consumption_tax_cost = 50
-}
-
-#洋梨
-pear = { 
-	texture = "gfx/interface/icons/goods_icons/pear.dds"
-	cost = 45
-	category = specialty
-	
-	obsession_chance = 1.0
-	prestige_factor = 4
-	
-	traded_quantity = 7.5
-	convoy_cost_multiplier = 0.75
-	
-	consumption_tax_cost = 50
-}
-
-#高級肉
-luxury_beef = { 
-	texture = "gfx/interface/icons/goods_icons/beef.dds"
+#高級食品
+luxury_food = { 
+	texture = "gfx/interface/icons/goods_icons/luxury_food.dds"
 	cost = 50
 	category = luxury
 	
@@ -343,21 +298,6 @@ musical_instruments = {
 	consumption_tax_cost = 100
 }
 
-#高級魚
-luxury_fish = { 
-	texture = "gfx/interface/icons/goods_icons/luxury_fish.dds"
-	cost = 50
-	category = luxury
-	
-	obsession_chance = 1.0
-	prestige_factor = 4
-	
-	traded_quantity = 7.5
-	convoy_cost_multiplier = 0.75
-	
-	consumption_tax_cost = 50
-}
-
 #映画
 movie = { 
 	texture = "gfx/interface/icons/goods_icons/movie.dds"
@@ -377,36 +317,6 @@ movie = {
 web_service = { 
 	texture = "gfx/interface/icons/goods_icons/web_service.dds"
 	cost = 30
-	category = service
-	
-	obsession_chance = 1.0
-	prestige_factor = 30
-
-	traded_quantity = 7.5
-	convoy_cost_multiplier = 0.75
-	
-	consumption_tax_cost = 100
-}
-
-#音楽サービス
-music_service = { 
-	texture = "gfx/interface/icons/goods_icons/music_service.dds"
-	cost = 10
-	category = service
-	
-	obsession_chance = 1.0
-	prestige_factor = 30
-
-	traded_quantity = 7.5
-	convoy_cost_multiplier = 0.75
-	
-	consumption_tax_cost = 100
-}
-
-#放送サービス
-broadcast_service = { 
-	texture = "gfx/interface/icons/goods_icons/broadcast_service.dds"
-	cost = 10
 	category = service
 	
 	obsession_chance = 1.0
@@ -454,18 +364,6 @@ financial_service = {
 	
 	obsession_chance = 1.0
 	prestige_factor = 30
-	
-	consumption_tax_cost = 100
-}
-
-#国内旅行サービス
-domestic_travel_service = { 
-	texture = "gfx/interface/icons/goods_icons/domestic_travel_service.dds"
-	cost = 60
-	category = service
-	
-	obsession_chance = 1.0
-	prestige_factor = 5
 	
 	consumption_tax_cost = 100
 }
@@ -536,4 +434,19 @@ medicine = {
 	convoy_cost_multiplier = 0.75
 	
 	consumption_tax_cost = 200
+}
+
+#ロボット
+robot = { 
+	texture = "gfx/interface/icons/goods_icons/robot.dds"
+	cost = 60
+	category = luxury
+	
+	obsession_chance = 1.0
+	prestige_factor = 30
+
+	traded_quantity = 7.5
+	convoy_cost_multiplier = 0.75
+	
+	consumption_tax_cost = 100
 }

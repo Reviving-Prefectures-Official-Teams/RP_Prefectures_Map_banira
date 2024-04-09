@@ -1,4 +1,4 @@
-KUM = {
+﻿KUM = {
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 148 23 19 }
 	color2 = rgb { 148 23 19 }

@@ -1,0 +1,233 @@
+﻿#########林業#########
+######軟材
+###伐採道具
+pm_logging_soft = {
+	texture = "gfx/interface/icons/production_method_icons/simple_forestry.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_wood_add = 60
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 500
+		}
+	}
+}
+
+#チェーンソー
+pm_chain_saw_soft = {
+	texture = "gfx/interface/icons/production_method_icons/electric_saw_mills.dds"
+	unlocking_technologies = {
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 10
+			goods_input_electricity_add = 5
+			
+			# output goods
+			goods_output_wood_add = 100 #+800
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 300
+			building_employment_machinists_add = 150
+			building_employment_engineers_add = 50
+		}
+	}
+
+	required_input_goods = electricity
+}
+
+#ハーベスター
+pm_harvester_soft = {
+	texture = "gfx/interface/icons/production_method_icons/electric_saw_mills.dds"
+	unlocking_technologies = {
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_automobiles_add = 10
+			goods_input_oil_add = 20
+			
+			# output goods
+			goods_output_wood_add = 240 
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 100
+			building_employment_machinists_add = 200
+			building_employment_engineers_add = 200
+		}
+	}
+
+	required_input_goods = oil
+}
+
+#先進的ハーベスター
+pm_advanced_harvester_soft = {
+	texture = "gfx/interface/icons/production_method_icons/electric_saw_mills.dds"
+	unlocking_technologies = {
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_automobiles_add = 20
+			goods_input_oil_add = 30
+			goods_input_computers_add = 6
+			goods_input_web_service_add = 20
+			
+			# output goods
+			goods_output_wood_add = 400
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 100
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 300
+		}
+	}
+
+	required_input_goods = electricity
+}
+
+#####炭化
+#ケボニー化なし
+pm_no_carbonization_soft = {
+	texture = "gfx/interface/icons/production_method_icons/simple_forestry.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+		}
+
+		level_scaled = {
+			# employment
+		}
+	}
+}
+#ケボニー化処理
+pm_carbonization_soft = {
+	texture = "gfx/interface/icons/production_method_icons/simple_forestry.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_wood_add = 40
+			goods_input_grain_add = 5
+
+			goods_output_hardwood_add = 40
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 450
+			buolding_employment_academics_add = 50
+		}
+	}
+}
+
+#####硬材
+pm_logging_hard = {
+	texture = "gfx/interface/icons/production_method_icons/simple_forestry.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_wood_add = 30
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 500
+		}
+	}
+}
+
+#チェーンソー
+pm_chain_saw_hard = {
+	texture = "gfx/interface/icons/production_method_icons/electric_saw_mills.dds"
+	unlocking_technologies = {
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 10
+			goods_input_electricity_add = 5
+			
+			# output goods
+			goods_output_wood_add = 50 #+800
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 300
+			building_employment_machinists_add = 150
+			building_employment_engineers_add = 50
+		}
+	}
+
+	required_input_goods = electricity
+}
+
+#ハーベスター
+pm_harvester_hard = {
+	texture = "gfx/interface/icons/production_method_icons/electric_saw_mills.dds"
+	unlocking_technologies = {
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_automobiles_add = 10
+			goods_input_oil_add = 20
+			
+			# output goods
+			goods_output_wood_add = 120 
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 100
+			building_employment_machinists_add = 200
+			building_employment_engineers_add = 200
+		}
+	}
+
+	required_input_goods = oil
+}
+
+#先進的ハーベスター
+pm_advanced_harvester_hard = {
+	texture = "gfx/interface/icons/production_method_icons/electric_saw_mills.dds"
+	unlocking_technologies = {
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_automobiles_add = 20
+			goods_input_oil_add = 30
+			goods_input_computers_add = 6
+			goods_input_web_service_add = 20
+			
+			# output goods
+			goods_output_wood_add = 200
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 100
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 300
+		}
+	}
+
+	required_input_goods = electricity
+}

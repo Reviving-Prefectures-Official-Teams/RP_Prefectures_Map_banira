@@ -1,4 +1,4 @@
-TKY = {
+﻿TKY = {
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 149 39 158 }
 	color2 = rgb { 149 39 158 }

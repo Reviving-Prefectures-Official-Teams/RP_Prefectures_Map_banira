@@ -1,4 +1,4 @@
-GIF = {
+﻿GIF = {
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 255 255 255 }
 	color2 = rgb { 255 255 255 }
