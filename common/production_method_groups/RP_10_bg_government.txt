@@ -41,15 +41,3 @@ pmg_base_building_construction_sector = {
 		pm_arc_welded_buildings
 	}
 }
-
-pmg_construction_sector_rp = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	ai_selection = most_productive
-
-	production_methods = {
-		pm_wooden_buildings_rp
-		pm_iron_frame_buildings_rp
-		pm_steel_frame_buildings_rp
-		pm_arc_welded_buildings_rp
-	}
-}
