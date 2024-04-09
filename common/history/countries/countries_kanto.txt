@@ -1,5 +1,5 @@
 ﻿COUNTRIES = {
-	c:OSK ?= {
+	c:KNG ?= {
 		effect_starting_technology_tier_2_tech = yes
 		effect_starting_politics_conservative = yes
 
@@ -38,7 +38,7 @@
 			add_ruling_interest_group = yes
 		}
 	}
-	c:KYT ?= {
+	c:TKY ?= {
 		effect_starting_technology_tier_2_tech = yes
 		effect_starting_politics_conservative = yes
 
@@ -70,7 +70,7 @@
 			level = 2
 		}		
 	}
-	c:HYG ?= {
+	c:SIT ?= {
 		effect_starting_technology_tier_2_tech = yes
 		effect_starting_politics_conservative = yes
 
@@ -102,7 +102,7 @@
 			level = 2
 		}		
 	}
-	c:SHG ?= {
+	c:CHB ?= {
 		effect_starting_technology_tier_2_tech = yes
 		effect_starting_politics_conservative = yes
 
@@ -134,7 +134,7 @@
 			level = 2
 		}		
 	}
-	c:NAR ?= {
+	c:IBR ?= {
 		effect_starting_technology_tier_2_tech = yes
 		effect_starting_politics_conservative = yes
 
@@ -166,7 +166,7 @@
 			level = 2
 		}		
 	}
-	c:WAK ?= {
+	c:TCH ?= {
 		effect_starting_technology_tier_2_tech = yes
 		effect_starting_politics_conservative = yes
 
@@ -230,7 +230,7 @@
 			level = 2
 		}		
 	}
-	c:FKI ?= {
+	c:GNM ?= {
 		effect_starting_technology_tier_2_tech = yes
 		effect_starting_politics_conservative = yes
 

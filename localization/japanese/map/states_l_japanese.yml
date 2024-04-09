@@ -255,6 +255,7 @@
   #神奈川県
  STATE_KAWASAKI: "川崎"
  STATE_YOKOHAMA: "横浜"
+ STATE_YOKOSUKA: "横須賀"
  STATE_SAGAMIHARA: "相模原"
  STATE_SHONAN: "湘南"
  STATE_ODAWARA: "小田原"
@@ -300,7 +301,7 @@
  STATE_HACHINOHE: "八戸"
  STATE_HIROSAKI: "弘前"
  STATE_TOWADA: "十和田"
- STATE_MUTU-: "陸奥"
+ STATE_MUTU: "陸奥"
   #岩手県
  STATE_MORIOKA: "盛岡"
  STATE_KAMAISHI: "釜石"
