@@ -1,15 +1,17 @@
 # Strategic Regions 
 
 # # 北海道
-# region_hokkaido = {
-# 	graphical_culture = "asian"
-# 	capital_province = x000000
-# 	map_color = { 0.1 0.1 0.1 }
-# 	states =
-# 	{
+region_hokkaido = {
+	graphical_culture = "asian"
+	capital_province = x000000
+	map_color = { 0.1 0.1 0.1 }
+	states =
+	{
+		STATE_HAKODATE STATE_SHIRIBESHI STATE_IBURI STATE_HIDAKA STATE_ISHIKARI STATE_SORACHI STATE_RUMOI STATE_KAMIKAWA STATE_TOKACHI STATE_SOYA STATE_KUSHIRO STATE_NEMURO STATE_ABASHIRI STATE_MONBETSU STATE_ETOROFU STATE_HABOMAI STATE_KUNASHIRI STATE_HIYAMA STATE_OSYAMAMBE
 
-# 	}
-# }		
+
+	}
+}		
 # 東北地方
 region_south_tohoku = {
 	graphical_culture = "asian"
