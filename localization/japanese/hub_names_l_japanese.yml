@@ -299,6 +299,25 @@
   
   # =======関西
 
+  # 大阪府
+    
+  HUB_NAME_STATE_HOKUSETSU_city: "都市"
+  HUB_NAME_STATE_HOKUSETSU_mine: "鉱山"
+  HUB_NAME_STATE_HOKUSETSU_farm: "農場"
+  HUB_NAME_STATE_HOKUSETSU_wood: "森林"
+  
+  HUB_NAME_STATE_OSAKA_city: "大阪"
+  HUB_NAME_STATE_OSAKA_port: "大阪港"
+  HUB_NAME_STATE_OSAKA_mine: "鶴見"
+  HUB_NAME_STATE_OSAKA_farm: "西成"
+  HUB_NAME_STATE_OSAKA_wood: "淀川"
+    
+  HUB_NAME_STATE_SAKAI_city: "堺"
+  HUB_NAME_STATE_SAKAI_port: "港湾"
+  HUB_NAME_STATE_SAKAI_mine: "鉱山"
+  HUB_NAME_STATE_SAKAI_farm: "農場"
+  HUB_NAME_STATE_SAKAI_wood: "森林"
+  
 
   # =======中部
   # 新潟県
