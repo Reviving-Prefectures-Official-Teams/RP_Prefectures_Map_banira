@@ -1655,7 +1655,7 @@ pm_byproduction_asbestos = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_asbestos_add = 20
+			goods_output_asbestos_add = 40
 		}
 	}
 }
