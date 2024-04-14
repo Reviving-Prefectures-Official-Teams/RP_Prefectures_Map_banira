@@ -600,43 +600,24 @@ goods_output_financial_service_mult = {
 	good = yes
 	percent = yes
 }
-#domestic_travel_service 国内旅行サービス
-goods_input_domestic_travel_service_add = {
+
+#travel_service 旅行サービス
+goods_input_travel_service_add = {
 	good = no
 	percent = no
 }
 
-goods_output_domestic_travel_service_add = {
+goods_output_travel_service_add = {
 	good = yes
 	percent = no
 }
 
-goods_input_domestic_travel_service_mult = {
+goods_input_travel_service_mult = {
 	good = yes
 	percent = yes
 }
 
-goods_output_domestic_travel_service_mult = {
-	good = yes
-	percent = yes
-}
-#international_travel_service 国際旅行サービス
-goods_input_international_travel_service_add = {
-	good = no
-	percent = no
-}
-
-goods_output_international_travel_service_add = {
-	good = yes
-	percent = no
-}
-
-goods_input_international_travel_service_mult = {
-	good = yes
-	percent = yes
-}
-
-goods_output_international_travel_service_mult = {
+goods_output_travel_service_mult = {
 	good = yes
 	percent = yes
 }
@@ -719,6 +700,90 @@ goods_input_medicine_mult = {
 goods_input_medicine_add = {
 	good = no
 	percent = no
+}
+
+#robot ロボット
+goods_input_robot_add = {
+	good = no
+	percent = no
+}
+
+goods_output_robot_add = {
+	good = yes
+	percent = no
+}
+
+goods_input_robot_mult = {
+	good = yes
+	percent = yes
+}
+
+goods_output_robot_mult = {
+	good = yes
+	percent = yes
+}
+
+#drink 飲料
+goods_input_drink_add = {
+	good = no
+	percent = no
+}
+
+goods_output_drink_add = {
+	good = yes
+	percent = no
+}
+
+goods_input_drink_mult = {
+	good = yes
+	percent = yes
+}
+
+goods_output_drink_mult = {
+	good = yes
+	percent = yes
+}
+
+#media メディア
+goods_input_media_add = {
+	good = no
+	percent = no
+}
+
+goods_output_media_add = {
+	good = yes
+	percent = no
+}
+
+goods_input_media_mult = {
+	good = yes
+	percent = yes
+}
+
+goods_output_media_mult = {
+	good = yes
+	percent = yes
+}
+
+#content_service コンテンツサービス
+goods_input_content_service_add = {
+	good = no
+	percent = no
+}
+
+goods_output_content_service_add = {
+	good = yes
+	percent = no
+}
+
+goods_input_content_service_mult = {
+	good = yes
+	percent = yes
+}
+
+goods_output_content_service_mult = {
+	good = yes
+	percent = yes
 }
 
 ####既存商品の追加修飾子####

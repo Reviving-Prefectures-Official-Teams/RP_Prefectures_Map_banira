@@ -1,236 +1,165 @@
-﻿pmg_mining_equipment_building_coal_mine = {
+﻿######鉱業採掘######
+pmg_drilling_iron = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_picks_and_shovels_building_coal_mine
-		pm_atmospheric_engine_pump_building_coal_mine
-		pm_condensing_engine_pump_building_coal_mine
-		pm_diesel_pump_building_coal_mine
+		pm_mining_iron
+		pm_pneumatic_rock_drilling_iron
+		pm_wagon_drill_iron
+		pm_hydraulic_rock_drilling_iron
+		pm_self_propelled_crawler_drill_iron
+		pm_sonic_drill_iron
+		pm_laser_drilling_iron
 	}
 }
-
-pmg_explosives_building_coal_mine = {
+pmg_drilling_sulfur = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_no_explosives
-		pm_nitroglycerin_building_coal_mine
-		pm_dynamite_building_coal_mine
+		pm_mining_sulfur
+		pm_pneumatic_rock_drilling_sulfur
+		pm_wagon_drill_sulfur
+		pm_hydraulic_rock_drilling_sulfur
+		pm_self_propelled_crawler_drill_sulfur
+		pm_sonic_drill_sulfur
+		pm_laser_drilling_sulfur
 	}
 }
-
-pmg_steam_automation_building_coal_mine = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
-	production_methods = {
-		pm_no_steam_automation
-		pm_steam_donkey_building_coal_mine
-	}
-}
-
-pmg_train_automation_building_coal_mine = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
-	production_methods = {
-		pm_road_carts
-		pm_rail_transport_mine
-	}
-}
-
-pmg_ownership_capital_building_coal_mine = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
-	production_methods = {
-		pm_merchant_guilds_building_coal_mine
-		pm_privately_owned_building_coal_mine
-		pm_publicly_traded_building_coal_mine
-		pm_government_run_building_coal_mine
-		pm_worker_cooperative_building_coal_mine
-	}
-}
-
-pmg_mining_equipment_building_iron_mine = {
+pmg_drilling_lead = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_picks_and_shovels_building_iron_mine
-		pm_atmospheric_engine_pump_building_iron_mine
-		pm_condensing_engine_pump_building_iron_mine
-		pm_diesel_pump_building_iron_mine
+		pm_mining_lead
+		pm_pneumatic_rock_drilling_lead
+		pm_wagon_drill_lead
+		pm_hydraulic_rock_drilling_lead
+		pm_self_propelled_crawler_drill_lead
+		pm_sonic_drill_lead
+		pm_laser_drilling_lead
 	}
 }
-
-pmg_explosives_building_iron_mine = {
+pmg_drilling_minor_metals = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_no_explosives
-		pm_nitroglycerin_building_iron_mine
-		pm_dynamite_building_iron_mine
+		pm_mining_minor_metals
+		pm_pneumatic_rock_drilling_minor_metals
+		pm_wagon_drill_minor_metals
+		pm_hydraulic_rock_drilling_minor_metals
+		pm_self_propelled_crawler_drill_minor_metals
+		pm_sonic_drill_minor_metals
+		pm_laser_drilling_minor_metals
 	}
 }
-
-pmg_steam_automation_building_iron_mine = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
-	production_methods = {
-		pm_no_steam_automation
-		pm_steam_donkey_mine
-	}
-}
-
-pmg_train_automation_building_iron_mine = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
-	production_methods = {
-		pm_road_carts
-		pm_rail_transport_mine
-	}
-}
-
-pmg_ownership_capital_building_iron_mine = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
-	production_methods = {
-		pm_merchant_guilds_building_iron_mine
-		pm_privately_owned_building_iron_mine
-		pm_publicly_traded_building_iron_mine
-		pm_government_run_building_iron_mine
-		pm_worker_cooperative_building_iron_mine
-	}
-}
-
-pmg_mining_equipment_building_lead_mine = {
+pmg_drilling_gold = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_picks_and_shovels_building_lead_mine
-		pm_atmospheric_engine_pump_building_lead_mine
-		pm_condensing_engine_pump_building_lead_mine
-		pm_diesel_pump_building_lead_mine
+		pm_mining_gold
+		pm_pneumatic_rock_drilling_gold
+		pm_wagon_drill_gold
+		pm_hydraulic_rock_drilling_gold
+		pm_self_propelled_crawler_drill_gold
+		pm_sonic_drill_gold
+		pm_laser_drilling_gold
 	}
 }
-
-pmg_explosives_building_lead_mine = {
+pmg_drilling_coal = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_no_explosives
-		pm_nitroglycerin_building_lead_mine
-		pm_dynamite_building_lead_mine
+		pm_mining_coal
+		pm_pneumatic_rock_drilling_coal
+		pm_wagon_drill_coal
+		pm_hydraulic_rock_drilling_coal
+		pm_self_propelled_crawler_drill_coal
+		pm_sonic_drill_coal
+		pm_laser_drilling_coal
 	}
 }
-
-pmg_steam_automation_building_lead_mine = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
-	production_methods = {
-		pm_no_steam_automation
-		pm_steam_donkey_mine
-	}
-}
-
-pmg_train_automation_building_lead_mine = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
-	production_methods = {
-		pm_road_carts
-		pm_rail_transport_mine
-	}
-}
-
-pmg_ownership_capital_building_lead_mine = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
-	production_methods = {
-		pm_merchant_guilds_building_lead_mine
-		pm_privately_owned_building_lead_mine
-		pm_publicly_traded_building_lead_mine
-		pm_government_run_building_lead_mine
-		pm_worker_cooperative_building_lead_mine
-	}
-}
-
-pmg_mining_equipment_building_sulfur_mine = {
+pmg_drilling_asbestos = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_picks_and_shovels_building_sulfur_mine
-		pm_atmospheric_engine_pump_building_sulfur_mine
-		pm_condensing_engine_pump_building_sulfur_mine
-		pm_diesel_pump_building_sulfur_mine
+		pm_mining_asbestos
+		pm_pneumatic_rock_drilling_asbestos
+		pm_wagon_drill_asbestos
+		pm_hydraulic_rock_drilling_asbestos
+		pm_self_propelled_crawler_drill_asbestos
+		pm_sonic_drill_asbestos
+		pm_laser_drilling_asbestos
 	}
 }
 
-pmg_explosives_building_sulfur_mine = {
+######鉱業爆破######
+pmg_explosive_iron = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_no_explosives
-		pm_nitroglycerin_building_sulfur_mine
-		pm_dynamite_building_sulfur_mine
+		pm_no_explosive_iron
+		pm_dynamite_iron
+		pm_ammonium_nitrate_explosive_iron
+		pm_water_gel_explosive_iron
+		pm_liquid_explosive_iron
 	}
 }
-
-pmg_steam_automation_building_sulfur_mine = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
-	production_methods = {
-		pm_no_steam_automation
-		pm_steam_donkey_mine
-	}
-}
-
-pmg_train_automation_building_sulfur_mine = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
-	production_methods = {
-		pm_road_carts
-		pm_rail_transport_mine
-	}
-}
-
-pmg_ownership_capital_building_sulfur_mine = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
-	production_methods = {
-		pm_merchant_guilds_building_sulfur_mine
-		pm_privately_owned_building_sulfur_mine
-		pm_publicly_traded_building_sulfur_mine
-		pm_government_run_building_sulfur_mine
-		pm_worker_cooperative_building_sulfur_mine
-	}
-}
-
-pmg_mining_equipment_building_gold_mine = {
+pmg_explosive_sulfur = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_picks_and_shovels_building_gold_mine
-		pm_atmospheric_engine_pump_building_gold_mine
-		pm_condensing_engine_pump_building_gold_mine
-		pm_diesel_pump_building_gold_mine
+		pm_no_explosive_sulfur
+		pm_dynamite_sulfur
+		pm_ammonium_nitrate_explosive_sulfur
+		pm_water_gel_explosive_sulfur
+		pm_liquid_explosive_sulfur
 	}
 }
-
-pmg_explosives_building_gold_mine = {
+pmg_explosive_lead = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_no_explosives
-		pm_nitroglycerin_building_gold_mine
-		pm_dynamite_building_gold_mine
+		pm_no_explosive_lead
+		pm_dynamite_lead
+		pm_ammonium_nitrate_explosive_lead
+		pm_water_gel_explosive_lead
+		pm_liquid_explosive_lead
 	}
 }
-
-pmg_steam_automation_building_gold_mine = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
-	production_methods = {
-		pm_no_steam_automation
-		pm_steam_donkey_mine
-	}
-}
-
-pmg_train_automation_building_gold_mine = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
-	production_methods = {
-		pm_road_carts
-		pm_rail_transport_mine
-	}
-}
-
-pmg_ownership_capital_building_gold_mine = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
-	production_methods = {
-		pm_merchant_guilds_building_gold_mine
-		pm_privately_owned_building_gold_mine
-		pm_publicly_traded_building_gold_mine
-		pm_government_run_building_gold_mine
-		pm_worker_cooperative_building_gold_mine
-	}
-}
-
-pmg_base_building_gold_fields = {
+pmg_explosive_minor_metals = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		default_building_gold_fields
+		pm_no_explosive_minor_metals
+		pm_dynamite_minor_metals
+		pm_ammonium_nitrate_explosive_minor_metals
+		pm_water_gel_explosive_minor_metals
+		pm_liquid_explosive_minor_metals
+	}
+}
+pmg_explosive_gold = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_explosive_gold
+		pm_dynamite_gold
+		pm_ammonium_nitrate_explosive_gold
+		pm_water_gel_explosive_gold
+		pm_liquid_explosive_gold
+	}
+}
+pmg_explosive_coal = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_explosive_coal
+		pm_dynamite_coal
+		pm_ammonium_nitrate_explosive_coal
+		pm_water_gel_explosive_coal
+		pm_liquid_explosive_coal
+	}
+}
+
+######鉱業自動化######
+pmg_automation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_manual_mining
+		pm_autonomous_mining
+		pm_site_cooperation_mining
+		pm_ai_management_mining
+	}
+}
+pmg_byproducts = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_byproduction_asbestos
+		pm_no_byproducts
 	}
 }

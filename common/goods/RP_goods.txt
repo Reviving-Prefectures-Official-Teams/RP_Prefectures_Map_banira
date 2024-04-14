@@ -1,7 +1,7 @@
 ﻿#============追加軍事============
 #航空機
 airplane = { 
-	texture = "gfx/interface/icons/goods_icons/aircraft.dds"
+	texture = "gfx/interface/icons/goods_icons/airplane.dds"
 	cost = 500
 	category = military
 	
@@ -58,25 +58,10 @@ vegetables = {
 	consumption_tax_cost = 200
 }
 
-#雑誌
-magazines = { 
-	texture = "gfx/interface/icons/goods_icons/magazines.dds"
+#メディア
+media = { 
+	texture = "gfx/interface/icons/goods_icons/media.dds"
 	cost = 30
-	category = staple
-	
-	obsession_chance = 1.0
-	prestige_factor = 4
-
-	traded_quantity = 7.5
-	convoy_cost_multiplier = 0.75
-	
-	consumption_tax_cost = 200
-}
-
-#新聞
-newspapers = { 
-	texture = "gfx/interface/icons/goods_icons/newspapers.dds"
-	cost = 25
 	category = staple
 	
 	obsession_chance = 1.0
@@ -173,18 +158,9 @@ asbestos = {
 	prestige_factor = 5
 }
 
-#タンカー
+#大型船舶
 tankers = { 
-	texture = "gfx/interface/icons/goods_icons/tanker.dds"
-	cost = 300
-	category = industrial
-	
-	prestige_factor = 5
-}
-
-#コンテナ船
-container_ships = { 
-	texture = "gfx/interface/icons/goods_icons/container_ship.dds"
+	texture = "gfx/interface/icons/goods_icons/tankers.dds"
 	cost = 300
 	category = industrial
 	
@@ -210,7 +186,7 @@ luxury_food = {
 
 #高級車
 luxury_cars = { 
-	texture = "gfx/interface/icons/goods_icons/luxury_car.dds"
+	texture = "gfx/interface/icons/goods_icons/luxury_cars.dds"
 	cost = 200
 	category = luxury
 	
@@ -285,24 +261,9 @@ home_appliance = {
 
 #楽器
 musical_instruments = { 
-	texture = "gfx/interface/icons/goods_icons/musical_instrument.dds"
+	texture = "gfx/interface/icons/goods_icons/musical_instruments.dds"
 	cost = 80
 	category = luxury
-	
-	obsession_chance = 1.0
-	prestige_factor = 30
-
-	traded_quantity = 7.5
-	convoy_cost_multiplier = 0.75
-	
-	consumption_tax_cost = 100
-}
-
-#映画
-movie = { 
-	texture = "gfx/interface/icons/goods_icons/movie.dds"
-	cost = 30
-	category = service
 	
 	obsession_chance = 1.0
 	prestige_factor = 30
@@ -328,8 +289,8 @@ web_service = {
 	consumption_tax_cost = 100
 }
 
-#文化サービス
-culture_service = { 
+#コンテンツサービス
+content_service = { 
 	texture = "gfx/interface/icons/goods_icons/culture_service.dds"
 	cost = 40
 	category = service
@@ -368,8 +329,8 @@ financial_service = {
 	consumption_tax_cost = 100
 }
 
-#国際旅行サービス
-international_travel_service = { 
+#旅行サービス
+travel_service = { 
 	texture = "gfx/interface/icons/goods_icons/international_travel_service.dds"
 	cost = 140
 	category = service
@@ -440,7 +401,7 @@ medicine = {
 robot = { 
 	texture = "gfx/interface/icons/goods_icons/robot.dds"
 	cost = 60
-	category = luxury
+	category = industrial
 	
 	obsession_chance = 1.0
 	prestige_factor = 30
@@ -449,4 +410,15 @@ robot = {
 	convoy_cost_multiplier = 0.75
 	
 	consumption_tax_cost = 100
+}
+
+#飲料
+drink = { 
+	texture = "gfx/interface/icons/goods_icons/coffee.dds"
+	cost = 30
+	category = luxury
+	
+	obsession_chance = 1.5
+	prestige_factor = 4
+	convoy_cost_multiplier = 0.75
 }

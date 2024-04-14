@@ -414,25 +414,25 @@ wine = { #ワイン
 	convoy_cost_multiplier = 0.75
 }
 
-tea = { #茶
-	texture = "gfx/interface/icons/goods_icons/tea.dds"
-	cost = 50
-	category = luxury
-	
-	obsession_chance = 1.5
-	prestige_factor = 4
-	convoy_cost_multiplier = 0.75
-}
+#tea = { #茶
+#	texture = "gfx/interface/icons/goods_icons/tea.dds"
+#	cost = 50
+#	category = luxury
+#	
+#	obsession_chance = 1.5
+#	prestige_factor = 4
+#	convoy_cost_multiplier = 0.75
+#}
 
-coffee = { #コーヒー
-	texture = "gfx/interface/icons/goods_icons/coffee.dds"
-	cost = 50
-	category = luxury
-	
-	obsession_chance = 1.5
-	prestige_factor = 4
-	convoy_cost_multiplier = 0.75
-}
+#coffee = { #コーヒー
+#	texture = "gfx/interface/icons/goods_icons/coffee.dds"
+#	cost = 50
+#	category = luxury
+#	
+#	obsession_chance = 1.5
+#	prestige_factor = 4
+#	convoy_cost_multiplier = 0.75
+#}
 
 sugar = { #砂糖
 	texture = "gfx/interface/icons/goods_icons/sugar.dds"

@@ -359,22 +359,6 @@ pm_aggregated_smart_farm = {
 }
 
 ###スイートコーン
-#生産なし
-pm_unproducing = { 
-    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
-    building_modifiers = {
-        workforce_scaled = {
-            # output goods													
-            goods_output_grain_add = 0
-        }
-
-        level_scaled = {
-            building_employment_laborers_add = 0
-            building_employment_farmers_add = 0
-        }
-    }
-}
-
 #スイートコーン
 pm_sweet_corn = { 
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
@@ -552,10 +536,11 @@ pm_japanese_cattle = {
     building_modifiers = {
         workforce_scaled = {
             # input goods
-            goods_input_grain_add = 5
+            goods_input_grain_add = 10
             # output goods		
-            goods_output_meat_add = 12										
-            goods_output_luxury_food_add = 4
+            goods_output_meat_add = 16								
+            goods_output_luxury_food_add = 12
+            goods_output_fertilizer_add = 5
         }
 
         level_scaled = {
@@ -571,10 +556,11 @@ pm_dairy_cattle = {
     building_modifiers = {
         workforce_scaled = {
             # input goods
-            goods_input_grain_add = 5
+            goods_input_grain_add = 10
             # output goods		
             goods_output_meat_add = 8									
             goods_output_dairy_products_add = 4
+            goods_output_fertilizer_add = 5
         }
 
         level_scaled = {
@@ -590,10 +576,11 @@ pm_foreign_cattle = {
     building_modifiers = {
         workforce_scaled = {
             # input goods
-            goods_input_grain_add = 25
+            goods_input_grain_add = 35
             # output goods	
             goods_output_meat_add = 48	
-            goods_output_luxury_food_add = 16									
+            goods_output_luxury_food_add = 16	
+            goods_output_fertilizer_add = 15								
         }
 
         level_scaled = {
@@ -609,7 +596,7 @@ pm_holstein = {
     building_modifiers = {
         workforce_scaled = {
             # input goods
-            goods_input_grain_add = 25
+            goods_input_grain_add = 35
             # output goods		
             goods_output_meat_add = 24					
             goods_output_dairy_products_add = 24
@@ -622,167 +609,777 @@ pm_holstein = {
     }
 }
 
-##########冷凍庫##########
-#塩漬け
-pm_salted = { 
+#####生産(豚)
+#原種
+pm_primitive_pig = { 
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
         workforce_scaled = {
+            # input goods
+            goods_input_grain_add = 10
+            # output goods		
+            goods_output_meat_add = 20									
+            goods_output_fertilizer_add = 10
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 700
+            building_employment_farmers_add = 300
+        }
+    }
+}
+
+#LWD三元豚
+pm_LWD_pig = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_grain_add = 30
+            # output goods		
+            goods_output_meat_add = 30							
+            goods_output_fertilizer_add = 25
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 200
+            building_employment_farmers_add = 300
+        }
+    }
+}
+
+#####生産(鶏)
+#名古屋コーチン
+pm_nagoya_coachin = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_grain_add = 10
+            # output goods		
+            goods_output_meat_add = 20						
+            goods_output_fabric_add = 10
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 700
+            building_employment_farmers_add = 300
+        }
+    }
+}
+#ロードアイランドレッド
+pm_rhode_island_red = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_grain_add = 10
+            # output goods		
+            goods_output_meat_add = 10
+            goods_output_groceries_add = 10
+            goods_output_fabric_add = 10
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 700
+            building_employment_farmers_add = 300
+        }
+    }
+}  
+#ブロイラー種
+pm_broiler_breed = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_grain_add = 30
+            # output goods		
+            goods_output_meat_add = 40
+            goods_output_groceries_add = 15
+            goods_output_fabric_add = 20
+        }
+        level_scaled = {
+            building_employment_laborers_add = 200
+            building_employment_farmers_add = 300
+        }
+    }
+}
+
+##########プランテーション
+
+#####綿花
+#有機栽培（綿花）
+pm_organic_farming_cotton = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # output goods													
+            goods_output_cotton_add = 20
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 800
+            building_employment_farmers_add = 200
+        }
+    }
+}
+#肥料（綿花）
+pm_fertilizer_cotton = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods													
+            goods_input_fertilizer_add = 10			
             
+            # output goods												   
+            goods_output_cotton_add = 40
         }
 
         level_scaled = {
-            building_employment_engineers_add = 200
-            building_employment_machinists_add = 200
             building_employment_laborers_add = 600
+            building_employment_farmers_add = 200
+        }
+    }
+}
+#品種改良（綿花）
+pm_breeding_cotton = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods													
+            goods_input_tool_add = 1
+            goods_input_fertilizer_add = 18
+            
+            # output goods												   
+            goods_output_cotton_add = 65
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 400
+            building_employment_farmers_add = 200
+        }
+    }
+}
+#アグリテック利用（綿花）
+pm_agritech_cotton = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods													
+            goods_input_tool_add = 5
+            goods_input_fertilizer_add = 15
+            goods_input_computers_add = 5
+            
+            # output goods												   
+            goods_output_cotton_add = 100
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 200
+            building_employment_farmers_add = 200
+        }
+    }
+}
+#無人農園（綿花）
+pm_unmanned_farm_cotton = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods													
+            goods_input_tool_add = 10
+            goods_input_fertilizer_add = 15
+            goods_input_computers_add = 10
+            goods_input_web_service_add = 30
+            
+            # output goods												   
+            goods_output_cotton_add = 150
+        }
+
+        level_scaled = {
+            building_employment_farmers_add = 200
         }
     }
 }
 
-#冷凍庫
-pm_freezer = { 
+#####茶
+#有機栽培（茶）
+pm_organic_farming_tea = { 
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
         workforce_scaled = {
-            goods_input_coal_add = 2
-            goods_input_electricity_add = 1
+            # output goods													
+            goods_output_drink_add = 20
         }
 
         level_scaled = {
-            building_employment_engineers_add = 200
-            building_employment_machinists_add = 200
-            building_employment_laborers_add = 300
+            building_employment_laborers_add = 800
+            building_employment_farmers_add = 200
+        }
+    }
+}
+#肥料（茶）
+pm_fertilizer_tea = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods													
+            goods_input_fertilizer_add = 10			
+            
+            # output goods												   
+            goods_output_drink_add = 40
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 600
+            building_employment_farmers_add = 200
+        }
+    }
+}
+#品種改良（茶）
+pm_breeding_tea = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods													
+            goods_input_tool_add = 1
+            goods_input_fertilizer_add = 18
+            
+            # output goods												   
+            goods_output_drink_add = 65
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 400
+            building_employment_farmers_add = 200
+        }
+    }
+}
+#アグリテック利用（茶）
+pm_agritech_tea = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods													
+            goods_input_tool_add = 5
+            goods_input_fertilizer_add = 15
+            goods_input_computers_add = 5
+            
+            # output goods												   
+            goods_output_drink_add = 100
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 200
+            building_employment_farmers_add = 200
+        }
+    }
+}
+#無人農園（茶）
+pm_unmanned_farm_tea = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods													
+            goods_input_tool_add = 10
+            goods_input_fertilizer_add = 15
+            goods_input_computers_add = 10
+            goods_input_web_service_add = 30
+            
+            # output goods												   
+            goods_output_drink_add = 150
+        }
+
+        level_scaled = {
+            building_employment_farmers_add = 200
         }
     }
 }
 
-#急速冷凍
-pm_quick_freezing = { 
+#####タバコ
+#有機栽培（タバコ）
+pm_organic_farming_tobacco = { 
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
         workforce_scaled = {
-            goods_input_coal_add = 6
-            goods_input_electricity_add = 2
+            # output goods													
+            goods_output_tobacco_add = 20
         }
 
         level_scaled = {
-            building_employment_engineers_add = 200
-            building_employment_machinists_add = 200
+            building_employment_laborers_add = 800
+            building_employment_farmers_add = 200
+        }
+    }
+}
+#肥料（タバコ）
+pm_fertilizer_tobacco = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods													
+            goods_input_fertilizer_add = 10			
+            
+            # output goods												   
+            goods_output_tobacco_add = 40
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 600
+            building_employment_farmers_add = 200
+        }
+    }
+}
+#品種改良（タバコ）
+pm_breeding_tobacco = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods													
+            goods_input_tool_add = 1
+            goods_input_fertilizer_add = 18
+            
+            # output goods												   
+            goods_output_tobacco_add = 65
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 400
+            building_employment_farmers_add = 200
+        }
+    }
+}
+#アグリテック利用（タバコ）
+pm_agritech_tobacco = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods													
+            goods_input_tool_add = 5
+            goods_input_fertilizer_add = 15
+            goods_input_computers_add = 5
+            
+            # output goods												   
+            goods_output_tobacco_add = 100
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 200
+            building_employment_farmers_add = 200
+        }
+    }
+}
+#無人農園（タバコ）
+pm_unmanned_farm_tobacco = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods													
+            goods_input_tool_add = 10
+            goods_input_fertilizer_add = 15
+            goods_input_computers_add = 10
+            goods_input_web_service_add = 30
+            
+            # output goods												   
+            goods_output_tobacco_add = 150
+        }
+
+        level_scaled = {
+            building_employment_farmers_add = 200
+        }
+    }
+}
+
+#####サトウキビ
+#有機栽培（サトウキビ）
+pm_organic_farming_sugarcane = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # output goods													
+            goods_output_sugar_add = 20
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 800
+            building_employment_farmers_add = 200
+        }
+    }
+}
+#肥料（サトウキビ）
+pm_fertilizer_sugarcane = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods													
+            goods_input_fertilizer_add = 10			
+            
+            # output goods												   
+            goods_output_sugar_add = 40
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 600
+            building_employment_farmers_add = 200
+        }
+    }
+}
+#品種改良（サトウキビ）
+pm_breeding_sugarcane = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods													
+            goods_input_tool_add = 1
+            goods_input_fertilizer_add = 18
+            
+            # output goods												   
+            goods_output_sugar_add = 65
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 400
+            building_employment_farmers_add = 200
+        }
+    }
+}
+#アグリテック利用（サトウキビ）
+pm_agritech_sugarcane = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods													
+            goods_input_tool_add = 5
+            goods_input_fertilizer_add = 15
+            goods_input_computers_add = 5
+            
+            # output goods												   
+            goods_output_sugar_add = 100
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 200
+            building_employment_farmers_add = 200
+        }
+    }
+}
+#無人農園（サトウキビ）
+pm_unmanned_farm_sugarcane = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods													
+            goods_input_tool_add = 10
+            goods_input_fertilizer_add = 15
+            goods_input_computers_add = 10
+            goods_input_web_service_add = 30
+            
+            # output goods												   
+            goods_output_sugar_add = 150
+        }
+
+        level_scaled = {
+            building_employment_farmers_add = 200
+        }
+    }
+}
+
+#####果樹園
+#有機栽培（果樹園）
+pm_organic_farming_orchard = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # output goods													
+            goods_output_fruit_add = 20
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 800
+            building_employment_farmers_add = 200
+        }
+    }
+}
+#肥料（果樹園）
+pm_fertilizer_orchard = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods													
+            goods_input_fertilizer_add = 10			
+            
+            # output goods												   
+            goods_output_fruit_add = 40
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 600
+            building_employment_farmers_add = 200
+        }
+    }
+}
+#品種改良（果樹園）
+pm_breeding_orchard = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods													
+            goods_input_tool_add = 1
+            goods_input_fertilizer_add = 18
+            
+            # output goods												   
+            goods_output_fruit_add = 65
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 400
+            building_employment_farmers_add = 200
+        }
+    }
+}
+#アグリテック利用（果樹園）
+pm_agritech_orchard = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods													
+            goods_input_tool_add = 5
+            goods_input_fertilizer_add = 15
+            goods_input_computers_add = 5
+            
+            # output goods												   
+            goods_output_fruit_add = 100
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 200
+            building_employment_farmers_add = 200
+        }
+    }
+}
+#無人農園（果樹園）
+pm_unmanned_farm_orchard = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods													
+            goods_input_tool_add = 10
+            goods_input_fertilizer_add = 15
+            goods_input_computers_add = 10
+            goods_input_web_service_add = 30
+            
+            # output goods												   
+            goods_output_fruit_add = 150
+        }
+
+        level_scaled = {
+            building_employment_farmers_add = 200
+        }
+    }
+}
+
+#####野菜畑
+#有機栽培（野菜畑）
+pm_organic_farming_vegetable_farms = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # output goods													
+            goods_output_fruit_add = 20
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 800
+            building_employment_farmers_add = 200
+        }
+    }
+}
+#肥料（野菜畑）
+pm_fertilizer_vegetable_farms = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods													
+            goods_input_fertilizer_add = 10			
+            
+            # output goods												   
+            goods_output_fruit_add = 40
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 600
+            building_employment_farmers_add = 200
+        }
+    }
+}
+#品種改良（野菜畑）
+pm_breeding_vegetable_farms = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods													
+            goods_input_tool_add = 1
+            goods_input_fertilizer_add = 18
+            
+            # output goods												   
+            goods_output_fruit_add = 65
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 400
+            building_employment_farmers_add = 200
+        }
+    }
+}
+#アグリテック利用（野菜畑）
+pm_agritech_vegetable_farms = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods													
+            goods_input_tool_add = 5
+            goods_input_fertilizer_add = 15
+            goods_input_computers_add = 5
+            
+            # output goods												   
+            goods_output_fruit_add = 100
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 200
+            building_employment_farmers_add = 200
+        }
+    }
+}
+#無人農園（野菜畑）
+pm_unmanned_farm_vegetable_farms = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods													
+            goods_input_tool_add = 10
+            goods_input_fertilizer_add = 15
+            goods_input_computers_add = 10
+            goods_input_web_service_add = 30
+            
+            # output goods												   
+            goods_output_fruit_add = 150
+        }
+
+        level_scaled = {
+            building_employment_farmers_add = 200
+        }
+    }
+}
+
+#####蒸留所
+#有機栽培（ブドウ農園）
+pm_organic_farming_vineyard = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # output goods													
+            goods_output_liqour_add = 20
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 800
+            building_employment_farmers_add = 200
+        }
+    }
+}
+#肥料（ブドウ農園）
+pm_fertilizer_vineyard = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods													
+            goods_input_fertilizer_add = 10			
+            
+            # output goods												   
+            goods_output_liqour_add = 40
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 600
+            building_employment_farmers_add = 200
+        }
+    }
+}
+#品種改良（ブドウ農園）
+pm_breeding_vineyard = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods													
+            goods_input_tool_add = 1
+            goods_input_fertilizer_add = 18
+            
+            # output goods												   
+            goods_output_liqour_add = 65
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 400
+            building_employment_farmers_add = 200
+        }
+    }
+}
+#アグリテック利用（ブドウ農園）
+pm_agritech_vineyard = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods													
+            goods_input_tool_add = 5
+            goods_input_fertilizer_add = 15
+            goods_input_computers_add = 5
+            
+            # output goods												   
+            goods_output_liqour_add = 100
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 200
+            building_employment_farmers_add = 200
+        }
+    }
+}
+#無人農園（ブドウ農園）
+pm_unmanned_farm_vineyard = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods													
+            goods_input_tool_add = 10
+            goods_input_fertilizer_add = 15
+            goods_input_computers_add = 10
+            goods_input_web_service_add = 30
+            
+            # output goods												   
+            goods_output_liqour_add = 150
+        }
+
+        level_scaled = {
+            building_employment_farmers_add = 200
+        }
+    }
+}
+#ウィスキー樽
+pm_whiskey_barrel = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods													
+            goods_input_water_add = 10
+            goods_input_sugar_add = 10
+            goods_input_grain_add = 20
+            # output goods												   
+            goods_output_liqour_add = 50
+        }
+
+        level_scaled = {
             building_employment_laborers_add = 100
-        }
-    }
-}
-
-#超高速冷凍
-pm_ultra_high_speed_freezing = { 
-    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
-    building_modifiers = {
-        workforce_scaled = {
-            goods_input_coal_add = 12
-            goods_input_electricity_add = 3
-        }
-
-        level_scaled = {
-            building_employment_engineers_add = 200
-            building_employment_machinists_add = 100
-        }
-    }
-}
-
-##########輸送##########
-#手動輸送
-pm_no_cart = {
-	texture = "gfx/interface/icons/production_method_icons/rail_transport.dds"
-
-	state_modifiers = {
-	}
-		
-	unlocking_technologies = {
-	}
-		
-	building_modifiers = {
-		workforce_scaled = {
-			# input goods					
-			goods_input_transportation_add = 0
-		}
-
-		level_scaled = {
-			building_employment_laborers_add = 4500	
-		}
-	}
-}
-
-#鉄道輸送
-pm_railway = {
-	texture = "gfx/interface/icons/production_method_icons/rail_transport.dds"
-
-	state_modifiers = {
-		workforce_scaled = {
-			state_pollution_generation_add = 10
-		}
-	}
-		
-	unlocking_technologies = {
-		railways
-	}
-		
-	building_modifiers = {
-		workforce_scaled = {
-			# input goods					
-			goods_input_transportation_add = 10
-		}
-
-		level_scaled = {
-			building_employment_laborers_add = 1000	
-		}
-	}
-}
-
-#トラック輸送
-pm_trailer = {
-    texture = "gfx/interface/icons/production_method_icons/rail_transport.dds"
-
-    state_modifiers = {
-        workforce_scaled = {
-            state_pollution_generation_add = 5
-        }
-    }
-        
-    unlocking_technologies = {
-    }
-        
-    building_modifiers = {
-        workforce_scaled = {
-            # input goods					
-            goods_input_transportation_add = 5
-        }
-
-        level_scaled = {
-            building_employment_laborers_add = 2000	
-        }
-    }
-}
-
-#総合ロジスティクス
-pm_integrated_logistics = {
-    texture = "gfx/interface/icons/production_method_icons/rail_transport.dds"
-
-    state_modifiers = {
-        workforce_scaled = {
-        }
-    }
-        
-    unlocking_technologies = {
-    }
-        
-    building_modifiers = {
-        workforce_scaled = {
-            # input goods					
-            goods_input_transportation_add = 5
-        }
-
-        level_scaled = {
-            building_employment_laborers_add = 500	
+            building_employment_farmers_add = 100
         }
     }
 }

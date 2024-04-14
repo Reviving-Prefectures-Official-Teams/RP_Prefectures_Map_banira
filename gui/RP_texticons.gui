@@ -42,37 +42,302 @@ texticon = {
 	}
 }
 #乳製品
-#野菜
-#雑誌
-#新聞
+texticon = {
+	icon = dairy_products
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/dairy_products.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
 #ビール
+texticon = {
+	icon = beer
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/beer.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
 #天然ガス
+texticon = {
+	icon = natural_gas
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/natural_gas.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
 #レアメタル
+texticon = {
+	icon = minor_metals
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/minor_metals.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
 #浄水
+texticon = {
+	icon = water
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/water.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
 #ウラン
+texticon = {
+	icon = uranium
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/uranium.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
 #コンピュータ
+texticon = {
+	icon = computers
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/computers.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
 #プラスチック
+texticon = {
+	icon = plastics
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/plastics.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
 #石綿
+texticon = {
+	icon = asbestos
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/asbestos.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
 #タンカー
-#コンテナ船
+texticon = {
+	icon = tankers
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/tankers.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
 #高級肉
+texticon = {
+	icon = luxury_food
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/luxury_food.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
 #高級車
+texticon = {
+	icon = luxury_cars
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/luxury_cars.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
 #カメラ
+texticon = {
+	icon = camera
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/camera.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
 #ゲーム機
+texticon = {
+	icon = game_console
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/game_console.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
 #ドローン
+texticon = {
+	icon = drone
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/drone.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
 #家電
+texticon = {
+	icon = home_appliance
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/home_appliance.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
 #楽器
-#高級魚
+texticon = {
+	icon = musical_instruments
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/musical_instruments.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
 #映画
+texticon = {
+	icon = movie
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/movie.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
 #Webサービス
-#音楽サービス
-#放送サービス
-#文化サービス
+texticon = {
+	icon = web_service
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/web_service.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+#コンテンツサービス
+texticon = {
+	icon = content_service
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/culture_service.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+#メディア
+texticon = {
+	icon = media
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/media.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
 #医療サービス
+texticon = {
+	icon = medical_service
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/medical_service.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
 #金融商品
-#国内旅行サービス
-#国際旅行サービス
+texticon = {
+	icon = financial_service
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/financial_service.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+#旅行サービス
+texticon = {
+	icon = travel_service
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/international_travel_service.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
 #宇宙旅行サービス
+texticon = {
+	icon = space_travel_service
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/space_travel_service.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
 #建設サービス
+texticon = {
+	icon = construction_service
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/construction_service.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
 #菓子
+sweets = {
+	icon = travel_service
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/sweets.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
 #薬剤
+texticon = {
+	icon = medicine
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/medicine.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+#ロボット
+texticon = {
+	icon = robot
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/robot.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+#飲料
+texticon = {
+	icon = drink
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/drink.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}

@@ -23,3 +23,13 @@ state_building_hospital_max_level_add = {
 	num_decimals = 0
 	ai_value = 100
 }
+
+building_asbestos_mine_throughput_add = {
+	good = yes
+	percent = yes
+}
+
+building_minor_metal_mine_throughput_add = {
+	good = yes
+	percent = yes
+}

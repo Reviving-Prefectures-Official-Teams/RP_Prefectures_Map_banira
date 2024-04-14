@@ -1,0 +1,1671 @@
+﻿#########鉱業#########
+
+########採掘
+######鉄
+#工具採掘（鉄）
+pm_mining_iron = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 5
+			goods_output_iron_add = 20
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 800
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#空圧削岩機（鉄）
+pm_pneumatic_rock_drilling_iron = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 10
+			goods_input_engines_add = 2
+			goods_input_oil_add = 2
+
+			goods_output_iron_add = 40
+			goods_output_asbestos_mult = 0.5
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 800
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#ワゴンドリル（鉄）
+pm_wagon_drill_iron = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 20
+			goods_input_engines_add = 5
+			goods_input_oil_add = 5
+			
+			goods_output_iron_add = 60
+			goods_output_asbestos_mult = 1.0
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 600
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#油圧削岩機（鉄）
+pm_hydraulic_rock_drilling_iron = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 30
+			goods_input_engines_add = 5
+			goods_input_oil_add = 5
+			
+			goods_output_iron_add = 80
+			goods_output_asbestos_mult = 1.5
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 400
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#自走式クローラドリル（鉄）
+pm_self_propelled_crawler_drill_iron = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 50
+			goods_input_engines_add = 5
+			goods_input_oil_add = 5
+			
+			goods_output_iron_add = 120
+			goods_output_asbestos_mult = 2.0
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 200
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#ソニックドリル（鉄）
+pm_sonic_drill_iron = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 50
+			goods_input_engines_add = 10
+			goods_input_eletricity_add = 5
+			
+			goods_output_iron_add = 160
+			goods_output_asbestos_mult = 2.5
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#レーザー掘削機（鉄）
+pm_laser_drilling_iron = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 80
+			goods_input_engines_add = 10
+			goods_input_eletricity_add = 20
+			
+			goods_output_iron_add = 200
+			goods_output_asbestos_mult = 3.0
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_engineers_add = 100
+		}
+	}
+}
+
+######硫黄
+#工具採掘（硫黄）
+pm_mining_sulfur = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 5
+			goods_output_sulfur_add = 20
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 800
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#空圧削岩機（硫黄）
+pm_pneumatic_rock_drilling_sulfur = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 10
+			goods_input_engines_add = 2
+			goods_input_oil_add = 2
+
+			goods_output_sulfur_add = 40
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 800
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#ワゴンドリル（硫黄）
+pm_wagon_drill_sulfur = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 20
+			goods_input_engines_add = 5
+			goods_input_oil_add = 5
+			
+			goods_output_sulfur_add = 60
+			goods_output_asbestos_mult = 1.0
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 600
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#油圧削岩機（硫黄）
+pm_hydraulic_rock_drilling_sulfur = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 30
+			goods_input_engines_add = 5
+			goods_input_oil_add = 5
+			
+			goods_output_sulfur_add = 80
+			goods_output_asbestos_mult = 1.5
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 400
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#自走式クローラドリル（硫黄）
+pm_self_propelled_crawler_drill_sulfur = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 50
+			goods_input_engines_add = 5
+			goods_input_oil_add = 5
+			
+			goods_output_sulfur_add = 120
+			goods_output_asbestos_mult = 2.0
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 200
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#ソニックドリル（硫黄）
+pm_sonic_drill_sulfur = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 50
+			goods_input_engines_add = 10
+			goods_input_eletricity_add = 5
+			
+			goods_output_sulfur_add = 160
+			goods_output_asbestos_mult = 2.5
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#レーザー掘削機（硫黄）
+pm_laser_drilling_sulfur = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 80
+			goods_input_engines_add = 10
+			goods_input_eletricity_add = 20
+			
+			goods_output_sulfur_add = 200
+			goods_output_asbestos_mult = 3.0
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_engineers_add = 100
+		}
+	}
+}
+
+######鉛
+#工具採掘（鉛）
+pm_sonic_drill_lead = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 50
+			goods_input_engines_add = 10
+			goods_input_eletricity_add = 5
+			
+			goods_output_lead_add = 20
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#空圧削岩機（鉛）
+pm_pneumatic_rock_drilling_lead = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 10
+			goods_input_engines_add = 2
+			goods_input_oil_add = 2
+
+			goods_output_lead_add = 40
+			goods_output_asbestos_mult = 0.5
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 800
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#ワゴンドリル（鉛）
+pm_wagon_drill_lead = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 20
+			goods_input_engines_add = 5
+			goods_input_oil_add = 5
+			
+			goods_output_lead_add = 60
+			goods_output_asbestos_mult = 1.0
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 600
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#油圧削岩機（鉛）
+pm_hydraulic_rock_drilling_lead = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 30
+			goods_input_engines_add = 5
+			goods_input_oil_add = 5
+			
+			goods_output_lead_add = 80
+			goods_output_asbestos_mult = 1.5
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 400
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#自走式クローラドリル（鉛）
+pm_self_propelled_crawler_drill_lead = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 50
+			goods_input_engines_add = 5
+			goods_input_oil_add = 5
+			
+			goods_output_lead_add = 120
+			goods_output_asbestos_mult = 2.0
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 200
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#ソニックドリル（鉛）
+pm_laser_drilling_lead = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 80
+			goods_input_engines_add = 10
+			goods_input_eletricity_add = 20
+			
+			goods_output_lead_add = 160
+			goods_output_asbestos_mult = 2.5
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#レーザー掘削機（鉛）
+pm_laser_drilling_lead = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 80
+			goods_input_engines_add = 10
+			goods_input_eletricity_add = 20
+			
+			goods_output_lead_add = 200
+			goods_output_asbestos_mult = 3.0
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_engineers_add = 100
+		}
+	}
+}
+
+######レアメタル
+#工具採掘（レアメタル）
+pm_mining_minor_metals = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 5
+			goods_output_minor_metals_add = 20
+			goods_output_asbestos_mult = 0.0
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 800
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#空圧削岩機（レアメタル）
+pm_pneumatic_rock_drilling_minor_metals = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 10
+			goods_input_engines_add = 2
+			goods_input_oil_add = 2
+
+			goods_output_minor_metals_add = 40
+			goods_output_asbestos_mult = 0.5
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 800
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#ワゴンドリル（レアメタル）
+pm_wagon_drill_minor_metals = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 20
+			goods_input_engines_add = 5
+			goods_input_oil_add = 5
+			
+			goods_output_minor_metals_add = 60
+			goods_output_asbestos_mult = 1.0
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 600
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#油圧削岩機（レアメタル）
+pm_hydraulic_rock_drilling_minor_metals = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 30
+			goods_input_engines_add = 5
+			goods_input_oil_add = 5
+			
+			goods_output_minor_metals_add = 80
+			goods_output_asbestos_mult = 1.5
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 400
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#自走式クローラドリル（レアメタル）
+pm_self_propelled_crawler_drill_minor_metals = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 50
+			goods_input_engines_add = 5
+			goods_input_oil_add = 5
+			
+			goods_output_minor_metals_add = 120
+			goods_output_asbestos_mult = 2.0
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 200
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#ソニックドリル（レアメタル）
+pm_sonic_drill_minor_metals = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 50
+			goods_input_engines_add = 10
+			goods_input_eletricity_add = 5
+			
+			goods_output_minor_metals_add = 160
+			goods_output_asbestos_mult = 2.5
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#レーザー掘削機（レアメタル）
+pm_laser_drilling_minor_metals = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 80
+			goods_input_engines_add = 10
+			goods_input_eletricity_add = 20
+			
+			goods_output_minor_metals_add = 200
+			goods_output_asbestos_mult = 3.0
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_engineers_add = 100
+		}
+	}
+}
+
+######金
+#工具採掘（金）
+pm_mining_gold = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 5
+			goods_output_gold_add = 20
+			goods_output_asbestos_mult = 0.0
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 800
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#空圧削岩機（金）
+pm_pneumatic_rock_drilling_gold = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 10
+			goods_input_engines_add = 2
+			goods_input_oil_add = 2
+
+			goods_output_gold_add = 40
+			goods_output_asbestos_mult = 0.5
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 800
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#ワゴンドリル（金）
+pm_wagon_drill_gold = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 20
+			goods_input_engines_add = 5
+			goods_input_oil_add = 5
+			
+			goods_output_gold_add = 60
+			goods_output_asbestos_mult = 1.0
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 600
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#油圧削岩機（金）
+pm_hydraulic_rock_drilling_gold = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 30
+			goods_input_engines_add = 5
+			goods_input_oil_add = 5
+			
+			goods_output_gold_add = 80
+			goods_output_asbestos_mult = 1.5
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 400
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#自走式クローラドリル（金）
+pm_self_propelled_crawler_drill_gold = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 50
+			goods_input_engines_add = 5
+			goods_input_oil_add = 5
+			
+			goods_output_gold_add = 120
+			goods_output_asbestos_mult = 2.0
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 200
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#ソニックドリル（金）
+pm_sonic_drill_gold = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 50
+			goods_input_engines_add = 10
+			goods_input_eletricity_add = 5
+			
+			goods_output_gold_add = 160
+			goods_output_asbestos_mult = 2.5
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#レーザー掘削機（金）
+pm_laser_drilling_gold = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 80
+			goods_input_engines_add = 10
+			goods_input_eletricity_add = 20
+			
+			goods_output_gold_add = 200
+			goods_output_asbestos_mult = 3.0
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_engineers_add = 100
+		}
+	}
+}
+
+######石炭
+#工具採掘（石炭）
+pm_mining_coal = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 5
+			goods_output_coal_add = 20
+			goods_output_asbestos_mult = 0.0
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 800
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#空圧削岩機（石炭）
+pm_pneumatic_rock_drilling_coal = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 10
+			goods_input_engines_add = 2
+			goods_input_oil_add = 2
+
+			goods_output_coal_add = 40
+			goods_output_asbestos_mult = 0.5
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 800
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#ワゴンドリル（石炭）
+pm_wagon_drill_coal = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 20
+			goods_input_engines_add = 5
+			goods_input_oil_add = 5
+			
+			goods_output_coal_add = 60
+			goods_output_asbestos_mult = 1.0
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 600
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#油圧削岩機（石炭）
+pm_hydraulic_rock_drilling_coal = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 30
+			goods_input_engines_add = 5
+			goods_input_oil_add = 5
+			
+			goods_output_coal_add = 80
+			goods_output_asbestos_mult = 1.5
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 400
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#自走式クローラドリル（石炭）
+pm_self_propelled_crawler_drill_coal = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 50
+			goods_input_engines_add = 5
+			goods_input_oil_add = 5
+			
+			goods_output_coal_add = 120
+			goods_output_asbestos_mult = 2.0
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 200
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#ソニックドリル（石炭）
+pm_sonic_drill_coal = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 50
+			goods_input_engines_add = 10
+			goods_input_eletricity_add = 5
+			
+			goods_output_coal_add = 160
+			goods_output_asbestos_mult = 2.5
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#レーザー掘削機（石炭）
+pm_laser_drilling_coal = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 80
+			goods_input_engines_add = 10
+			goods_input_eletricity_add = 20
+			
+			goods_output_coal_add = 200
+			goods_output_asbestos_mult = 3.0
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_engineers_add = 100
+		}
+	}
+}
+
+######石綿
+#工具採掘（石綿）
+pm_mining_asbestos = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 5
+			goods_output_asbestos_add = 40
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 800
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#空圧削岩機（石綿）
+pm_pneumatic_rock_drilling_asbestos = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 10
+			goods_input_engines_add = 2
+			goods_input_oil_add = 2
+
+			goods_output_asbestos_add = 80
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 800
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#ワゴンドリル（石綿）
+pm_wagon_drill_asbestos = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 20
+			goods_input_engines_add = 5
+			goods_input_oil_add = 5
+			
+			goods_output_asbestos_add = 120
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 600
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#油圧削岩機（石綿）
+pm_hydraulic_rock_drilling_asbestos = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 30
+			goods_input_engines_add = 5
+			goods_input_oil_add = 5
+			
+			goods_output_asbestos_add = 160
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 400
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#自走式クローラドリル（石綿）
+pm_self_propelled_crawler_drill_asbestos = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 50
+			goods_input_engines_add = 5
+			goods_input_oil_add = 5
+			
+			goods_output_asbestos_add = 240
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 200
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#ソニックドリル（石綿）
+pm_sonic_drill_asbestos = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 50
+			goods_input_engines_add = 10
+			goods_input_eletricity_add = 5
+			
+			goods_output_asbestos_add = 320
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#レーザー掘削機（石綿）
+pm_laser_drilling_asbestos = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 80
+			goods_input_engines_add = 10
+			goods_input_eletricity_add = 20
+			
+			goods_output_asbestos_add = 400
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_engineers_add = 100
+		}
+	}
+}
+
+########爆薬利用
+######鉄
+#火薬なし（鉄）
+pm_no_explosive_iron = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_iron_mult = 0.00
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 800
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#ダイナマイト（鉄）
+pm_dynamite_iron = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_explosives_add = 5
+			goods_output_iron_mult = 0.25
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 600
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#硝安油剤爆薬（鉄）
+pm_ammonium_nitrate_explosive_iron = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_explosives_add = 15
+			goods_output_iron_mult = 0.50
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 400
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#含水爆薬（鉄）
+pm_water_gel_explosive_iron = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_explosives_add = 30
+			goods_output_iron_mult = 0.75
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 200
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#液状爆薬（鉄）
+pm_liquid_explosive_iron = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_explosives_add = 50
+			goods_output_iron_mult = 1.00
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+
+######硫黄
+#火薬なし（硫黄）
+pm_no_explosive_sulfur = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_sulfur_mult = 0.00
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 800
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#ダイナマイト（硫黄）
+pm_dynamite_sulfur = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_explosives_add = 5
+			goods_output_sulfur_mult = 0.25
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 600
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#硝安油剤爆薬（硫黄）
+pm_ammonium_nitrate_explosive_sulfur = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_explosives_add = 15
+			goods_output_sulfur_mult = 0.50
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 400
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#含水爆薬（硫黄）
+pm_water_gel_explosive_sulfur = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_explosives_add = 30
+			goods_output_sulfur_mult = 0.75
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 200
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#液状爆薬（硫黄）
+pm_liquid_explosive_sulfur = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_explosives_add = 50
+			goods_output_sulfur_mult = 1.00
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+
+######鉛
+#火薬なし（鉛）
+pm_no_explosive_lead = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_lead_mult = 0.00
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 800
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#ダイナマイト（鉛）
+pm_dynamite_lead = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_explosives_add = 5
+			goods_output_lead_mult = 0.25
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 600
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#硝安油剤爆薬（鉛）
+pm_ammonium_nitrate_explosive_lead = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_explosives_add = 15
+			goods_output_lead_mult = 0.50
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 400
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#含水爆薬（鉛）
+pm_water_gel_explosive_lead = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_explosives_add = 30
+			goods_output_lead_mult = 0.75
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 200
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#液状爆薬（鉛）
+pm_liquid_explosive_lead = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_explosives_add = 50
+			goods_output_lead_mult = 1.00
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+
+######レアメタル
+#火薬なし（レアメタル）
+pm_no_explosive_minor_metals = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_minor_metals_mult = 0.00
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 800
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#ダイナマイト（レアメタル）
+pm_dynamite_minor_metals = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_explosives_add = 5
+			goods_output_minor_metals_mult = 0.25
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 600
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#硝安油剤爆薬（レアメタル）
+pm_ammonium_nitrate_explosive_minor_metals = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_explosives_add = 15
+			goods_output_minor_metals_mult = 0.50
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 400
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#含水爆薬（レアメタル）
+pm_water_gel_explosive_minor_metals = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_explosives_add = 30
+			goods_output_minor_metals_mult = 0.75
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 200
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#液状爆薬（レアメタル）
+pm_liquid_explosive_minor_metals = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_explosives_add = 50
+			goods_output_minor_metals_mult = 1.00
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+
+######金
+#火薬なし（金）
+pm_no_explosive_gold = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_gold_mult = 0.00
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 800
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#ダイナマイト（金）
+pm_dynamite_gold = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_explosives_add = 5
+			goods_output_gold_mult = 0.25
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 600
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#硝安油剤爆薬（金）
+pm_ammonium_nitrate_explosive_gold = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_explosives_add = 15
+			goods_output_gold_mult = 0.50
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 400
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#含水爆薬（金）
+pm_water_gel_explosive_gold = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_explosives_add = 30
+			goods_output_gold_mult = 0.75
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 200
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#液状爆薬（金）
+pm_liquid_explosive_gold = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_explosives_add = 50
+			goods_output_gold_mult = 1.00
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+
+######石炭
+#火薬なし（石炭）
+pm_no_explosive_coal = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_coal_mult = 0.00
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 800
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#ダイナマイト（石炭）
+pm_dynamite_coal = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_explosives_add = 5
+			goods_output_coal_mult = 0.25
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 600
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#硝安油剤爆薬（石炭）
+pm_ammonium_nitrate_explosive_coal = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_explosives_add = 15
+			goods_output_coal_mult = 0.50
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 400
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#含水爆薬（石炭）
+pm_water_gel_explosive_coal = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_explosives_add = 30
+			goods_output_coal_mult = 0.75
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 200
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#液状爆薬（石炭）
+pm_liquid_explosive_coal = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_explosives_add = 50
+			goods_output_coal_mult = 1.00
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+
+######汎用鉱業自動化
+#手動採掘
+pm_manual_mining = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 2000
+		}
+	}
+}
+#自律採掘
+pm_autonomous_mining = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_robot_add = 10
+			goods_input_computers_add = 5
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 1000
+		}
+	}
+}
+#現場連携
+pm_site_cooperation_mining = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_robot_add = 15
+			goods_input_computers_add = 10
+			goods_input_web_service_add = 10
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 500
+		}
+	}
+}
+#AI管理
+pm_ai_management_mining = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_robot_add = 20
+			goods_input_computers_add = 20
+			goods_input_web_service_add = 20
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 200
+		}
+	}
+}
+
+########副産物
+#アスベスト
+pm_byproduction_asbestos = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_asbestos_add = 20
+		}
+	}
+}
+#副産物なし
+pm_no_byproducts = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_asbestos_add = 0
+		}
+	}
+}

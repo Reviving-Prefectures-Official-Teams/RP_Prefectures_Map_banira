@@ -9,11 +9,10 @@
 	}
 
 	production_method_groups = {
-		pmg_mining_equipment_building_coal_mine
-		pmg_explosives_building_coal_mine
-		pmg_steam_automation_building_coal_mine
-		pmg_train_automation_building_coal_mine
-		pmg_ownership_capital_building_coal_mine
+		pmg_drilling_coal
+		pmg_explosive_coal
+		pmg_automation
+		pmg_byproducts
 	}
 }
  
@@ -29,11 +28,10 @@ building_iron_mine = {
 	}
 
 	production_method_groups = {
-		pmg_mining_equipment_building_iron_mine
-		pmg_explosives_building_iron_mine
-		pmg_steam_automation_building_iron_mine
-		pmg_train_automation_building_iron_mine
-		pmg_ownership_capital_building_iron_mine
+		pmg_drilling_iron
+		pmg_explosive_iron
+		pmg_automation
+		pmg_byproducts
 	}
 }
 
@@ -45,15 +43,13 @@ building_lead_mine = {
 	required_construction = construction_cost_medium
 	terrain_manipulator = mining
 	unlocking_technologies = {
-		shaft_mining
 	}
 
 	production_method_groups = {
-		pmg_mining_equipment_building_lead_mine
-		pmg_explosives_building_lead_mine
-		pmg_steam_automation_building_lead_mine
-		pmg_train_automation_building_lead_mine
-		pmg_ownership_capital_building_lead_mine
+		pmg_drilling_lead
+		pmg_explosive_lead
+		pmg_automation
+		pmg_byproducts
 	}
 }
 
@@ -68,11 +64,10 @@ building_sulfur_mine = {
 	}
 
 	production_method_groups = {
-		pmg_mining_equipment_building_sulfur_mine
-		pmg_explosives_building_sulfur_mine
-		pmg_steam_automation_building_sulfur_mine
-		pmg_train_automation_building_sulfur_mine
-		pmg_ownership_capital_building_sulfur_mine
+		pmg_drilling_sulfur
+		pmg_explosive_sulfur
+		pmg_automation
+		pmg_byproducts
 	}
 }
  
@@ -90,11 +85,10 @@ building_gold_mine = {
 	ai_value = 3000 # Gold mines are very nice for minting revenue
 
 	production_method_groups = {
-		pmg_mining_equipment_building_gold_mine
-		pmg_explosives_building_gold_mine
-		pmg_steam_automation_building_gold_mine
-		pmg_train_automation_building_gold_mine
-		pmg_ownership_capital_building_gold_mine
+		pmg_drilling_gold
+		pmg_explosive_gold
+		pmg_automation
+		pmg_byproducts
 	}
 }
 
@@ -115,8 +109,8 @@ building_gold_fields = {
 	}
 }
 
-building_minor_metal_mining = {
-	building_group = bg_minor_metal_mining
+building_minor_metals_mine = {
+	building_group = bg_minor_metals_mining
 	texture = "gfx/interface/icons/building_icons/minor_metal_mine.dds"
 	city_type = mine
 	levels_per_mesh = 5
@@ -129,10 +123,29 @@ building_minor_metal_mining = {
 	ai_value = 3000 # minor_metal mines are very nice for minting revenue
 
 	production_method_groups = {
-		pmg_mining_equipment_building_minor_metal_mine
-		pmg_explosives_building_minor_metal_mine
-		pmg_steam_automation_building_minor_metal_mine
-		pmg_train_automation_building_minor_metal_mine
-		pmg_ownership_capital_building_minor_metal_mine
+		pmg_drilling_minor_metals
+		pmg_explosive_minor_metals
+		pmg_automation
+		pmg_byproducts
+	}
+}
+
+building_asbestos_mine = {
+	building_group = bg_asbestos_mining
+	texture = "gfx/interface/icons/building_icons/asbestos_mine.dds"
+	city_type = mine
+	levels_per_mesh = 5
+	required_construction = construction_cost_medium
+	terrain_manipulator = mining
+	#buildable = no
+	#expandable = no
+	
+	unlocking_technologies = {
+	}
+
+	production_method_groups = {
+		pmg_drilling_asbestos
+		pmg_automation
+		pmg_byproducts
 	}
 }
