@@ -1,9 +1,0 @@
-pm_bank_trade_adjust_credit = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
-	building_bank_throughput_mult = -0.25
-}
-pm_bank_trade_adjust_deposit = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
-	building_input_services_mult = 0.50
-	# building_bank_throughput_mult = -0.25
-}

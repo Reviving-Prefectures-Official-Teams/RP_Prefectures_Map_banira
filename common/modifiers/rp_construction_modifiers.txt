@@ -1,4 +1,0 @@
-rp_construction_1 = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
-	country_construction_add = 10
-}

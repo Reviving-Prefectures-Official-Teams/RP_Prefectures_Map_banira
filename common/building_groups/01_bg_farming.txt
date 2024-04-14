@@ -90,16 +90,16 @@ bg_ranching = {
 }
 
 #牛牧場
-bg_livestock_ranches = {
+bg_cattle_ranch = {
 	parent_group = bg_ranching
 	
-	default_building = building_livestock_ranch
+	default_building = building_cattle_ranch
 	
 	cash_reserves_max = 25000
 }
 
 #鶏舎
-bg_poultry_farms = {
+bg_poultry_farm = {
 	parent_group = bg_ranching
 	
 	default_building = building_poultry_farm
@@ -108,19 +108,10 @@ bg_poultry_farms = {
 }
 
 #養豚場
-bg_pig_farms = {
+bg_hog_farm = {
 	parent_group = bg_ranching
 	
-	default_building = building_pig_farm
-	
-	cash_reserves_max = 25000
-}
-
-#酪農場
-bg_dairy_farms = {
-	parent_group = bg_ranching
-	
-	default_building = building_dairy_farm
+	default_building = building_hog_farm
 	
 	cash_reserves_max = 25000
 }

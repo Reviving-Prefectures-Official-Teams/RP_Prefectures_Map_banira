@@ -2,17 +2,26 @@
 STATE_KAWASAKI = {
     id = 320
     provinces = { "x72DEF0" "x899FDF" "xDC9ADC" "xDFB3E8" "xEEC742" "xF2FCB6" "xF71EEE" }
-    arable_resources = { "bg_rice_farms" "bg_buckwheat_farms" "bg_tea_plantations" "bg_wheat_farms" "bg_livestock_ranches" "bg_poultry_farms" "bg_pig_farms" "bg_dairy_farms" "bg_orchards" "bg_vegetable_farms"  }
+    arable_resources = { "bg_rice_farms" "bg_tea_plantations" "bg_wheat_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" "bg_orchards" "bg_vegetable_farms"  }
     capped_resources = {
-        bg_logging = 20
-        bg_tree_planting_farm = 20
-        bg_minor_metal_mining = 20
-        bg_oil_extraction = 20
+        bg_betulaceae_forest = 20
+        bg_castanopsis_forest = 20
+        bg_chamaecyparis_obtusa_forest = 20
+        bg_cryptomeria_forest = 20
+
+        bg_gold_mining = 20
+        bg_asbestos_mining = 20
+        bg_minor_metals_mining = 20
+        bg_coal_mining = 20
+        bg_iron_mining = 20
+        bg_lead_mining = 20
+        bg_sulfur_mining = 20
+
         bg_oil_refinery = 20
-        bg_offshore_platform = 20
-        bg_gas_extraction = 20
         bg_gas_refinery = 20
+        bg_offshore_platform = 20
         bg_uranium_extraction = 20
+
         bg_strategic_resource_storage = 20
         bg_water_sampling_area = 20
         bg_hydro_power_plant = 20

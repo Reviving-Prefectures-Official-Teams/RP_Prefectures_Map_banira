@@ -1,0 +1,21 @@
+﻿#冷蔵
+pmg_refrigeration = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+    production_methods = {
+        pm_salted
+        pm_freezer
+        pm_quick_freezing
+        pm_ultra_high_speed_freezing
+    }
+}
+
+#輸送
+pmg_transport = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_transport.dds"
+    production_methods = {
+        pm_transportation_department
+        pm_semi_outsourcing
+        pm_full_outsourcing
+        pm_warehouse_outsourcing
+    }
+}

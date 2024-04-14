@@ -62,8 +62,8 @@ building_maize_farm = {
 
 ######畜産
 #牛牧場
-building_livestock_ranch = {
-	building_group = bg_livestock_ranches
+building_cattle_ranch = {
+	building_group = bg_cattle_ranch
 
 	texture = "gfx/interface/icons/building_icons/cattle_ranch.dds"
 	
@@ -71,7 +71,6 @@ building_livestock_ranch = {
 	levels_per_mesh = 5
 
 	unlocking_technologies = {
-		enclosure
 	}
 
 	production_method_groups = {
@@ -85,20 +84,19 @@ building_livestock_ranch = {
 }
 
 #養鶏場
-bg_poultry_farms = {
-	building_group = bg_livestock_ranches
+building_poultry_farm = {
+	building_group = bg_poultry_farm
 
-	texture = "gfx/interface/icons/building_icons/cattle_ranch.dds"
+	texture = "gfx/interface/icons/building_icons/poultry_farm.dds"
 	
 	city_type = farm
 	levels_per_mesh = 5
 
 	unlocking_technologies = {
-		enclosure
 	}
 
 	production_method_groups = {
-		pmg_base_building_livestock_ranch
+		pmg_pig_ranch
 		pmg_refrigeration
 	}
 
@@ -108,20 +106,19 @@ bg_poultry_farms = {
 }
 
 #養豚場
-bg_pig_farms = {
-	building_group = bg_livestock_ranches
+building_hog_farm = {
+	building_group = bg_hog_farm
 
-	texture = "gfx/interface/icons/building_icons/cattle_ranch.dds"
+	texture = "gfx/interface/icons/building_icons/hog_farm.dds"
 	
 	city_type = farm
 	levels_per_mesh = 5
 
 	unlocking_technologies = {
-		enclosure
 	}
 
 	production_method_groups = {
-		pmg_base_building_livestock_ranch
+		pmg_chicken_ranch
 		pmg_refrigeration
 	}
 
@@ -141,25 +138,9 @@ building_vineyard_plantation = {
 	levels_per_mesh = 5
 	
 	production_method_groups = {
-		pmg_base_building_vineyard_plantation
-		pmg_train_automation_building_vineyard_plantation
-		pmg_ownership_land_building_vineyard_plantation
-	}
-}
-
-#コーヒー農園
-building_coffee_plantation = {
-	building_group = bg_coffee_plantations
-	texture = "gfx/interface/icons/building_icons/coffee_plantation.dds"
-	required_construction = construction_cost_low
-
-	city_type = farm
-	levels_per_mesh = 5
-	
-	production_method_groups = {
-		pmg_base_building_coffee_plantation
-		pmg_train_automation_building_coffee_plantation
-		pmg_ownership_land_building_coffee_plantation
+		pmg_vineyard
+		pmg_whiskey
+		pmg_transport
 	}
 }
 
@@ -173,13 +154,12 @@ building_cotton_plantation = {
 	levels_per_mesh = 5
 
 	production_method_groups = {
-		pmg_base_building_cotton_plantation
-		pmg_train_automation_building_cotton_plantation
-		pmg_ownership_land_building_cotton_plantation
+		pmg_cotton
+		pmg_transport
 	}
 }
 
-#紅茶農園
+#茶農園
 building_tea_plantation = {
 	building_group = bg_tea_plantations
 	texture = "gfx/interface/icons/building_icons/tea_plantation.dds"
@@ -189,9 +169,8 @@ building_tea_plantation = {
 	levels_per_mesh = 5
 	
 	production_method_groups = {
-		pmg_base_building_tea_plantation
-		pmg_train_automation_building_tea_plantation
-		pmg_ownership_land_building_tea_plantation
+		pmg_tea
+		pmg_transport
 	}
 }
 
@@ -205,13 +184,12 @@ building_tobacco_plantation = {
 	levels_per_mesh = 5
 	
 	production_method_groups = {
-		pmg_base_building_tobacco_plantation
-		pmg_train_automation_building_tobacco_plantation
-		pmg_ownership_land_building_tobacco_plantation
+		pmg_tobacco
+		pmg_transport
 	}
 }
 
-#砂糖農園
+#サトウキビ農園
 building_sugar_plantation = {
 	building_group = bg_sugar_plantations
 	texture = "gfx/interface/icons/building_icons/sugar_plantation.dds"
@@ -221,9 +199,8 @@ building_sugar_plantation = {
 	levels_per_mesh = 5
 
 	production_method_groups = {
-		pmg_base_building_sugar_plantation
-		pmg_train_automation_building_sugar_plantation
-		pmg_ownership_land_building_sugar_plantation
+		pmg_sugarcane
+		pmg_transport
 	}
 }
 
@@ -237,12 +214,12 @@ building_orchard = {
 	levels_per_mesh = 5
 	
 	production_method_groups = {
-		pmg_base_building_banana_plantation
-		pmg_train_automation_building_banana_plantation
-		pmg_ownership_land_building_banana_plantation
+		pmg_orchard
+		pmg_transport
 	}
 }
 
+#野菜農園
 building_vegetable_farms = {
 	building_group = bg_vegetable_farms
 	texture = "gfx/interface/icons/building_icons/vegetable_farm.dds"
@@ -252,8 +229,7 @@ building_vegetable_farms = {
 	levels_per_mesh = 5
 	
 	production_method_groups = {
-		pmg_base_building_vegetable_farms
-		pmg_train_automation_building_vegetable_farms
-		pmg_ownership_land_building_vegetable_farms
+		pmg_vegetable_farm
+		pmg_transport
 	}
 }

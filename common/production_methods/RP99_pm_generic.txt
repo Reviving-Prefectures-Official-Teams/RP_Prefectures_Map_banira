@@ -1,0 +1,140 @@
+﻿##########冷凍庫##########
+#塩漬け
+pm_salted = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            
+        }
+
+        level_scaled = {
+            building_employment_engineers_add = 200
+            building_employment_machinists_add = 200
+            building_employment_laborers_add = 600
+        }
+    }
+}
+
+#冷凍庫
+pm_freezer = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_coal_add = 2
+            goods_input_electricity_add = 1
+        }
+
+        level_scaled = {
+            building_employment_engineers_add = 200
+            building_employment_machinists_add = 200
+            building_employment_laborers_add = 300
+        }
+    }
+}
+
+#急速冷凍
+pm_quick_freezing = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_coal_add = 6
+            goods_input_electricity_add = 2
+        }
+
+        level_scaled = {
+            building_employment_engineers_add = 200
+            building_employment_machinists_add = 200
+            building_employment_laborers_add = 100
+        }
+    }
+}
+
+#超高速冷凍
+pm_ultra_high_speed_freezing = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_coal_add = 12
+            goods_input_electricity_add = 3
+        }
+
+        level_scaled = {
+            building_employment_engineers_add = 200
+            building_employment_machinists_add = 100
+        }
+    }
+}
+
+##########輸送契約##########
+#自社物流整備
+pm_transportation_department = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 3000
+        }
+    }
+}
+#運輸部分委託
+pm_semi_outsourcing = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_transportation_add = 10
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 2000
+        }
+    }
+}
+
+#運輸完全委託
+pm_full_outsourcing = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_transportation_add = 40
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 1000
+        }
+    }
+}
+
+#倉庫委託
+pm_warehouse_outsourcing = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_transportation_add = 45
+            goods_input_web_service_add = 10
+            goods_input_web_camera_add = 5
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 100
+        }
+    }
+}
+
+
+##########生産なし##########
+pm_unproducing = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # output goods													
+            goods_output_grain_add = 0
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 0
+            building_employment_farmers_add = 0
+        }
+    }
+}

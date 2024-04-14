@@ -7,16 +7,45 @@
 	flag_definition = { 
 		coa = HOK_fascism #coat_of_arms ファイルからこの国旗を読み込む
 		subject_canton = HOK #この国旗の際に、属国のカントン部分に使う国旗
-		allow_overlord_canton = no	#この国旗の際に、上位国のカントン部分が使えるか
-		coa_with_overlord_canton = HOK_subject #属国の場合に使う国旗		
-		priority = 2 # この国旗の他の国旗に対する優先度
+		priority = 2000 # この国旗の他の国旗に対する優先度
 		trigger = { # この国旗を使う条件
-            OR = {
-                coa_military_trigger = yes
-                coa_def_fascist_flag_trigger = yes
-                coa_dictatorship_trigger = yes
-                coa_anarchy_trigger = yes
-            }
+            scope:actor = { 
+				has_ruling_interest_group = ig_armed_forces
+			}
+			any_scope_character = {
+				is_ruler = yes
+				OR = {
+					has_ideology = ideology:ideology_fascist
+					has_ideology = ideology:ideology_integralist
+				}
+			}
+			has_law = law_type:law_presidential_republic
+		}
+	}
+}
+
+AOM = {
+	flag_definition = {
+		coa = AOM
+		subject_canton = AOM
+		priority = 1
+	}
+	flag_definition = { 
+		coa = AOM_fascism #coat_of_arms ファイルからこの国旗を読み込む
+		subject_canton = AOM #この国旗の際に、属国のカントン部分に使う国旗
+		priority = 2000 # この国旗の他の国旗に対する優先度
+		trigger = { # この国旗を使う条件
+            scope:actor = { 
+				has_ruling_interest_group = ig_armed_forces
+			}
+			any_scope_character = {
+				is_ruler = yes
+				OR = {
+					has_ideology = ideology:ideology_fascist
+					has_ideology = ideology:ideology_integralist
+				}
+			}
+			has_law = law_type:law_presidential_republic
 		}
 	}
 }

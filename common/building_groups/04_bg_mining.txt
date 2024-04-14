@@ -76,10 +76,18 @@ bg_sulfur_mining = {
 	can_use_slaves = yes
 }
 
-bg_minor_metal_mining = {
+bg_minor_metals_mining = {
 	parent_group = bg_mining
 	
-	default_building = building_minor_metal_mine
+	default_building = building_minor_metals_mine
+
+	can_use_slaves = yes
+}
+
+bg_asbestos_mining = {
+	parent_group = bg_mining
+	
+	default_building = building_asbestos_mine
 
 	can_use_slaves = yes
 }
