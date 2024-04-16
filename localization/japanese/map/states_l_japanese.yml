@@ -88,7 +88,7 @@
  STATE_BIZEN: "備前"
  STATE_BICCHU: "備中"
  STATE_MIMASAKA: "美作"
- STATE_OKAYAMABIZEN: "岡山備前"
+ STATE_OKAYAMABIHOKU: "岡山備北"
   #島根県
  STATE_MATSUE: "松江"
  STATE_IZUMO: "出雲"
@@ -115,9 +115,11 @@
  STATE_MIYOSHI: "三馬"
  STATE_YOSHINOGAWA: "三好"
   #愛媛県
- STATE_TOYO: "東予"
- STATE_NANYO: "南予"
+ STATE_TOYO: "今治"
+ STATE_NANYO: "宇和島"
  STATE_CHUYO: "中予"
+ STATE_SEYO: "西予"
+ STATE_SHIKOKUCHUOH: "四国中央"
  STATE_UESHIMA: "上島"
   #高知県
  STATE_KOCHI: "高知"
