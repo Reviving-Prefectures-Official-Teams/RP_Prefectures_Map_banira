@@ -2,11 +2,9 @@
 bg_extractions = {
 	category = rural
 
-	capped_by_resources = yes
-	
 	economy_of_scale = yes
 	
-	discoverable_resource = yes
+	capped_by_resources = yes
 	
 	lens = mine
 	
@@ -20,15 +18,6 @@ bg_extractions = {
 	}
 	
 	economy_of_scale_ai_factor = 2.0
-}
-
-#石油リグ
-bg_oil_extraction = {
-	parent_group = bg_extractions
-	
-	default_building = building_oil_rig
-	
-	cash_reserves_max = 25000
 }
 
 
@@ -46,15 +35,6 @@ bg_oil_refinery = {
 	parent_group = bg_extractions
 	
 	default_building = building_oil_refinery
-	
-	cash_reserves_max = 25000
-}
-
-#ガスプラント
-bg_gas_extraction = {
-	parent_group = bg_extractions
-	
-	default_building = building_gas_plant
 	
 	cash_reserves_max = 25000
 }

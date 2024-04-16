@@ -1041,6 +1041,293 @@ pm_laser_drilling_asbestos = {
 	}
 }
 
+######石油
+#生産なし（石油）
+pm_unproducing = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+		}
+
+		level_scaled = {
+			# employment
+		}
+	}
+}
+#空圧削岩機（石油）
+pm_pneumatic_rock_drilling_oil = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 10
+			goods_input_engines_add = 2
+
+			goods_output_oil_add = 40
+			goods_output_rubber_mult = 1.0
+			goods_output_gas_mult = 1.0
+
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 800
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#ワゴンドリル（石油）
+pm_wagon_drill_oil = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 20
+			goods_input_engines_add = 5
+			
+			goods_output_oil_add = 60
+			goods_output_rubber_mult = 1.5
+			goods_output_gas_mult = 1.5
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 600
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#油圧削岩機（石油）
+pm_hydraulic_rock_drilling_oil = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 30
+			goods_input_engines_add = 5
+			
+			goods_output_oil_add = 80
+			goods_output_rubber_mult = 2.0
+			goods_output_gas_mult = 2.0
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 400
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#自走式クローラドリル（石油）
+pm_self_propelled_crawler_drill_oil = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 50
+			goods_input_engines_add = 5
+			
+			goods_output_oil_add = 120
+			goods_output_rubber_mult = 2.5
+			goods_output_gas_mult = 2.5
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 200
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#ソニックドリル（石油）
+pm_sonic_drill_oil = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 50
+			goods_input_engines_add = 10
+			goods_input_eletricity_add = 5
+			
+			goods_output_oil_add = 160
+			goods_output_rubber_mult = 3.0
+			goods_output_gas_mult = 3.0
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#レーザー掘削機（石油）
+pm_laser_drilling_oil = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 80
+			goods_input_engines_add = 10
+			goods_input_eletricity_add = 20
+			
+			goods_output_oil_add = 200
+			goods_output_rubber_mult = 3.5
+			goods_output_gas_mult = 3.5
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_engineers_add = 100
+		}
+	}
+}
+
+######ガス
+#生産なし（ガス）
+pm_unproducing = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+		}
+
+		level_scaled = {
+			# employment
+		}
+	}
+}
+#空圧削岩機（ガス）
+pm_pneumatic_rock_drilling_gas = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 10
+			goods_input_engines_add = 2
+
+			goods_output_gas_add = 40
+			goods_output_rubber_mult = 1.0
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 800
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#ワゴンドリル（ガス）
+pm_wagon_drill_gas = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 20
+			goods_input_engines_add = 5
+			
+			goods_output_gas_add = 60
+			goods_output_rubber_mult = 1.5
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 600
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#油圧削岩機（ガス）
+pm_hydraulic_rock_drilling_gas = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 30
+			goods_input_engines_add = 5
+			
+			goods_output_gas_add = 80
+			goods_output_rubber_mult = 2.0
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 400
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#自走式クローラドリル（ガス）
+pm_self_propelled_crawler_drill_gas = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 50
+			goods_input_engines_add = 5
+			
+			goods_output_gas_add = 120
+			goods_output_rubber_mult = 2.5
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 200
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#ソニックドリル（ガス）
+pm_sonic_drill_gas = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 50
+			goods_input_engines_add = 10
+			goods_input_eletricity_add = 5
+			
+			goods_output_gas_add = 160
+			goods_output_rubber_mult = 3.0
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#レーザー掘削機（ガス）
+pm_laser_drilling_gas = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 80
+			goods_input_engines_add = 10
+			goods_input_eletricity_add = 20
+			
+			goods_output_gas_add = 200
+			goods_output_rubber_mult = 3.5
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_engineers_add = 100
+		}
+	}
+}
+
 ########爆薬利用
 ######鉄
 #火薬なし（鉄）
@@ -1666,6 +1953,187 @@ pm_no_byproducts = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_output_asbestos_add = 0
+		}
+	}
+}
+
+########輸入
+######石油
+#輸入（石油）
+pm_import_oil = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_transportation_add = 10
+
+			goods_output_oil_add = 20
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 800
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#大型船輸送（石油）
+pm_large_ship_transport_oil = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_transportation_add = 20
+
+			goods_output_oil_add = 60
+			goods_output_rubber_mult = 1.0
+			goods_output_gas_mult = 1.0
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 600
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#超大型船輸送（石油）
+pm_super_large_ship_transport_oil = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_transportation_add = 30
+
+			goods_output_oil_add = 120
+			goods_output_rubber_mult = 2.5
+			goods_output_gas_mult = 2.5
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+######ガス
+#輸入（ガス）
+pm_import_gas = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_transportation_add = 10
+
+			goods_output_gas_add = 20
+			goods_output_rubber_mult = 1.0
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 800
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#大型船輸送（ガス）
+pm_large_ship_transport_gas = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_transportation_add = 20
+
+			goods_output_gas_add = 60
+			goods_output_rubber_mult = 1.5
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 600
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#超大型船輸送（ガス）
+pm_super_large_ship_transport_gas = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_transportation_add = 30
+
+			goods_output_gas_add = 120
+			goods_output_rubber_mult = 2.5
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+
+######加工
+#####石油
+#生産なし（石油）
+pm_unproducing_oil = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_oil_mult = 1.0
+		}
+
+		level_scaled = {
+		}
+	}
+}
+#常圧蒸留装置（石油）
+pm_atmospheric_distillation_oil = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_water_add = 3
+			goods_input_electricity_add = 3
+
+			goods_output_rubber_add = 9
+			goods_output_gas_add = 3
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 800
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#真空蒸留装置（石油）
+pm_vacuum_distillation_oil = {
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_water_add = 10
+			goods_input_electricity_add = 10
+
+			goods_output_rubber_add = 15
+			goods_output_gas_add = 5
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 400
+			building_employment_machinists_add = 100
+			building_employment_engineers_add = 100
 		}
 	}
 }

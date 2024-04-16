@@ -140,15 +140,6 @@ computers = {
 	prestige_factor = 10
 }
 
-#プラスチック
-plastics = { 
-	texture = "gfx/interface/icons/goods_icons/plastic.dds"
-	cost = 20
-	category = industrial
-	
-	prestige_factor = 5
-}
-
 #石綿
 asbestos = { 
 	texture = "gfx/interface/icons/goods_icons/asbestos.dds"

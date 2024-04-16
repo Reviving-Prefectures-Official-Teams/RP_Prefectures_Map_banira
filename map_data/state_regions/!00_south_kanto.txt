@@ -23,6 +23,7 @@ STATE_KAWASAKI = {
         bg_uranium_extraction = 20
 
         bg_strategic_resource_storage = 20
+
         bg_water_sampling_area = 20
         bg_hydro_power_plant = 20
         bg_solar_power_plant = 20

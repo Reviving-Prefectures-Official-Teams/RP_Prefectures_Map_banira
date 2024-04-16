@@ -41,8 +41,7 @@
  shiroishi: "白石"
  soma: "相馬"
 
- fukushima_prefecture: "福島県"
- fukushima_group: "福島文化"
+ fukushima_prefecture: "福島文化"
  fukushima: "福島"
  iwaki: "磐城"
  aidu: "会津"
@@ -302,6 +301,7 @@
  osumi: "大隅"
  yakushima: "屋久島"
  minamata: "水俣"
+ miyakonojo: "都城"
 
  amami_group: "奄美文化"
  amami: "奄美"

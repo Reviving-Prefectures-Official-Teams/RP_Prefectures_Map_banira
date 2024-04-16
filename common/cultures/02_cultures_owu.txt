@@ -1942,7 +1942,7 @@ soma = {
 fukushima = {
 	color = rgb{156 170 146}
 	religion = shinbutsu_shugo
-	traits = { owu fukushima_group }
+	traits = { owu fukushima_prefecture }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -2118,7 +2118,7 @@ fukushima = {
 iwaki = {
 	color = rgb{176 190 146}
 	religion = shinbutsu_shugo
-	traits = { owu fukushima_group kanto }
+	traits = { owu fukushima_prefecture kanto }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -2294,7 +2294,7 @@ iwaki = {
 aidu = {
 	color = rgb{126 130 116}
 	religion = shinbutsu_shugo
-	traits = { owu fukushima_group }
+	traits = { owu fukushima_prefecture }
 	male_common_first_names={
 		Aritomo
 		Gentaro

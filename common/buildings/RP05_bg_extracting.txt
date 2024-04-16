@@ -21,8 +21,8 @@ building_strategic_resource_storage = {
 
 #石油精製所
 building_oil_refinery = {
-	building_group = bg_oil_extraction
-	texture = "gfx/interface/icons/building_icons/oil_refinery.dds"
+	building_group = bg_oil_refinery
+	texture = "gfx/interface/icons/building_icons/oil_rig.dds"
 	city_type = mine
 	levels_per_mesh = 5
 	required_construction = construction_cost_very_high
@@ -31,16 +31,17 @@ building_oil_refinery = {
 	}
 	
 	production_method_groups = {
-		pmg_base_building_oil_refinery # -燃油 +プラスチック 
-		pmg_transportation_building_oil_refinery
-		pmg_ownership_capital_building_oil_refinery
+		pmg_drilling_oil
+		pmg_import_oil
+		pmg_processing_oil
+		pmg_transport
 	}
 }
 
 #ガス精製所
 building_gas_refinery = {
-	building_group = bg_gas_extraction
-	texture = "gfx/interface/icons/building_icons/gas_extraction.dds"
+	building_group = bg_gas_refinery
+	texture = "gfx/interface/icons/building_icons/oil_rig.dds"
 	city_type = mine
 	levels_per_mesh = 5
 	required_construction = construction_cost_very_high
@@ -49,9 +50,9 @@ building_gas_refinery = {
 	}
 	
 	production_method_groups = {
-		pmg_base_building_gas_extraction # +天然ガス 
-		pmg_transportation_building_gas_extraction
-		pmg_ownership_capital_building_gas_extraction
+		pmg_drilling_gas
+		pmg_import_gas
+		pmg_transport
 	}
 }
 

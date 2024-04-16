@@ -288,7 +288,7 @@ hardwood = { #硬材
 	prestige_factor = 5
 }
 
-rubber = { #ゴム
+rubber = { #合成樹脂
 	texture = "gfx/interface/icons/goods_icons/rubber.dds"
 	cost = 40
 	category = industrial
