@@ -236,3 +236,23 @@
  building_cristo_redentor: "コルコバードのキリスト像"
  #Skyscraper
  building_skyscraper: "摩天楼"
+
+
+ building_betulaceae_forest: "カバ林"
+ building_betulaceae_forest_lens_option: "$building_betulaceae_forest$を拡張"
+ building_castanopsis_forest: "カシ林"
+ building_castanopsis_forest_lens_option: "$building_castanopsis_forest$を拡張"
+ building_chamaecyparis_obtusa_forest: "ヒノキ林"
+ building_chamaecyparis_obtusa_forest_lens_option: "$building_chamaecyparis_obtusa_forest$を拡張"
+ building_cryptomeria_forest: "スギ林"
+  building_cryptomeria_forest_lens_option: "$building_cryptomeria_forest$を拡張"
+
+ building_asbestos_mine: "石綿鉱山"
+  building_asbestos_mine_lens_option: "$building_asbestos_mine$を拡張"
+ building_minor_metals_mine: "希少金属鉱山"
+  building_minor_metals_mine_lens_option: "$building_minor_metals_mine$を拡張"
+
+  building_oil_refinery: "石油精製所"
+  building_oil_refinery_lens_option: "$building_oil_refinery$を拡張"
+  building_gas_refinery: "ガス精製所"
+  building_gas_refinery_lens_option: "$building_gas_refinery$を拡張"
