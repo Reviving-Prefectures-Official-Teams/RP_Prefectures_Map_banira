@@ -298,9 +298,35 @@
   HUB_NAME_STATE_^^_wood: "森林"
   
   # =======関西
-
-  # 大阪府
+  # 京都府  
+  HUB_NAME_STATE_TANGO_city: "与謝野"
+  HUB_NAME_STATE_TANGO_port: "宮津"
+  HUB_NAME_STATE_TANGO_mine: "網野"
+  HUB_NAME_STATE_TANGO_farm: "峰山"
+  HUB_NAME_STATE_TANGO_wood: "伊根"
     
+  HUB_NAME_STATE_CHUTAN_city: "福知山"
+  HUB_NAME_STATE_CHUTAN_port: "舞鶴"
+  HUB_NAME_STATE_CHUTAN_mine: ""
+  HUB_NAME_STATE_CHUTAN_farm: "大江"
+  HUB_NAME_STATE_CHUTAN_wood: "綾部"
+    
+  HUB_NAME_STATE_NANTAN_city: "亀岡"
+  HUB_NAME_STATE_NANTAN_mine: "和知"
+  HUB_NAME_STATE_NANTAN_farm: "瑞穂"
+  HUB_NAME_STATE_NANTAN_wood: "南丹"
+  
+  HUB_NAME_STATE_KYOTO_city: "京都"
+  HUB_NAME_STATE_KYOTO_mine: "嵯峨"
+  HUB_NAME_STATE_KYOTO_farm: "山科"
+  HUB_NAME_STATE_KYOTO_wood: "桂"
+
+  HUB_NAME_STATE_YAMASHIRO_city: "宇治"
+  HUB_NAME_STATE_YAMASHIRO_mine: "南山城"
+  HUB_NAME_STATE_YAMASHIRO_farm: "八幡"
+  HUB_NAME_STATE_YAMASHIRO_wood: "木津川"
+    
+  # 大阪府
   HUB_NAME_STATE_HOKUSETSU_city: "都市"
   HUB_NAME_STATE_HOKUSETSU_mine: "鉱山"
   HUB_NAME_STATE_HOKUSETSU_farm: "農場"
@@ -312,11 +338,121 @@
   HUB_NAME_STATE_OSAKA_farm: "西成"
   HUB_NAME_STATE_OSAKA_wood: "淀川"
     
+  HUB_NAME_STATE_KITAKAWACHI_city: "枚岡"
+  HUB_NAME_STATE_KITAKAWACHI_mine: "柏原"
+  HUB_NAME_STATE_KITAKAWACHI_farm: "枚方"
+  HUB_NAME_STATE_KITAKAWACHI_wood: "寝屋川"
+      
+  HUB_NAME_STATE_MINAMIKAWACHI_city: "富田林"
+  HUB_NAME_STATE_MINAMIKAWACHI_mine: "河内長野"
+  HUB_NAME_STATE_MINAMIKAWACHI_farm: "羽曳野"
+  HUB_NAME_STATE_MINAMIKAWACHI_wood: "狭山"
+
   HUB_NAME_STATE_SAKAI_city: "堺"
-  HUB_NAME_STATE_SAKAI_port: "港湾"
-  HUB_NAME_STATE_SAKAI_mine: "鉱山"
-  HUB_NAME_STATE_SAKAI_farm: "農場"
-  HUB_NAME_STATE_SAKAI_wood: "森林"
+  HUB_NAME_STATE_SAKAI_port: "湊"
+  HUB_NAME_STATE_SAKAI_mine: "泉ヶ丘"
+  HUB_NAME_STATE_SAKAI_farm: "野田"
+  HUB_NAME_STATE_SAKAI_wood: "百舌鳥"
+      
+  HUB_NAME_STATE_SENSYU_city: "都市"
+  HUB_NAME_STATE_SENSYU_port: "港湾"
+  HUB_NAME_STATE_SENSYU_mine: "鉱山"
+  HUB_NAME_STATE_SENSYU_farm: "農場"
+  HUB_NAME_STATE_SENSYU_wood: "森林"
+  
+  # 兵庫県
+        
+  HUB_NAME_STATE_AWAJI_city: "津名"
+  HUB_NAME_STATE_AWAJI_port: "港湾"
+  HUB_NAME_STATE_AWAJI_mine: "淡路"
+  HUB_NAME_STATE_AWAJI_farm: "三原"
+  HUB_NAME_STATE_AWAJI_wood: "洲本"
+      
+  HUB_NAME_STATE_SETTSU_city: "西宮"
+  HUB_NAME_STATE_SETTSU_port: "港湾"
+  HUB_NAME_STATE_SETTSU_mine: "尼崎"
+  HUB_NAME_STATE_SETTSU_farm: "宝塚"
+  HUB_NAME_STATE_SETTSU_wood: "森林"
+        
+  HUB_NAME_STATE_KOBE_city: "神戸"
+  HUB_NAME_STATE_KOBE_port: "港湾"
+  HUB_NAME_STATE_KOBE_mine: "鉱山"
+  HUB_NAME_STATE_KOBE_farm: "農場"
+  HUB_NAME_STATE_KOBE_wood: "森林"
+        
+  HUB_NAME_STATE_HIGASHI_HARIMA_city: "明石"
+  HUB_NAME_STATE_HIGASHI_HARIMA_port: "港湾"
+  HUB_NAME_STATE_HIGASHI_HARIMA_mine: "鉱山"
+  HUB_NAME_STATE_HIGASHI_HARIMA_farm: "農場"
+  HUB_NAME_STATE_HIGASHI_HARIMA_wood: "森林"
+        
+  HUB_NAME_STATE_NAKA_HARIMA_city: "神戸"
+  HUB_NAME_STATE_NAKA_HARIMA_port: "港湾"
+  HUB_NAME_STATE_NAKA_HARIMA_mine: "鉱山"
+  HUB_NAME_STATE_NAKA_HARIMA_farm: "農場"
+  HUB_NAME_STATE_NAKA_HARIMA_wood: "森林"
+        
+  HUB_NAME_STATE_NISHI_HARIMA_city: "相生"
+  HUB_NAME_STATE_NISHI_HARIMA_port: "港湾"
+  HUB_NAME_STATE_NISHI_HARIMA_mine: "鉱山"
+  HUB_NAME_STATE_NISHI_HARIMA_farm: "農場"
+  HUB_NAME_STATE_NISHI_HARIMA_wood: "森林"
+        
+  HUB_NAME_STATE_TAJIMA_city: "豊岡"
+  HUB_NAME_STATE_TAJIMA_port: "港湾"
+  HUB_NAME_STATE_TAJIMA_mine: "香美"
+  HUB_NAME_STATE_TAJIMA_farm: "城崎"
+  HUB_NAME_STATE_TAJIMA_wood: "浜崎"
+  
+  HUB_NAME_STATE_^^_city: "都市"
+  HUB_NAME_STATE_^^_port: "港湾"
+  HUB_NAME_STATE_^^_mine: "鉱山"
+  HUB_NAME_STATE_^^_farm: "農場"
+  HUB_NAME_STATE_^^_wood: "森林"
+  
+  HUB_NAME_STATE_^^_city: "都市"
+  HUB_NAME_STATE_^^_port: "港湾"
+  HUB_NAME_STATE_^^_mine: "鉱山"
+  HUB_NAME_STATE_^^_farm: "農場"
+  HUB_NAME_STATE_^^_wood: "森林"
+  
+  # =======東海
+  # 愛知県
+  HUB_NAME_STATE_IZU_city: "三島"
+  HUB_NAME_STATE_IZU_port: "熱海"
+  HUB_NAME_STATE_IZU_mine: "伊東"
+  HUB_NAME_STATE_IZU_farm: "下田"
+  HUB_NAME_STATE_IZU_wood: "松崎"
+    
+  HUB_NAME_STATE_GOTENBA_city: "都市"
+  HUB_NAME_STATE_GOTENBA_port: "港湾"
+  HUB_NAME_STATE_GOTENBA_mine: "鉱山"
+  HUB_NAME_STATE_GOTENBA_farm: "農場"
+  HUB_NAME_STATE_GOTENBA_wood: "森林"
+    
+  HUB_NAME_STATE_^^_city: "都市"
+  HUB_NAME_STATE_^^_port: "港湾"
+  HUB_NAME_STATE_^^_mine: "鉱山"
+  HUB_NAME_STATE_^^_farm: "農場"
+  HUB_NAME_STATE_^^_wood: "森林"
+    
+  HUB_NAME_STATE_^^_city: "都市"
+  HUB_NAME_STATE_^^_port: "港湾"
+  HUB_NAME_STATE_^^_mine: "鉱山"
+  HUB_NAME_STATE_^^_farm: "農場"
+  HUB_NAME_STATE_^^_wood: "森林"
+    
+  HUB_NAME_STATE_^^_city: "都市"
+  HUB_NAME_STATE_^^_port: "港湾"
+  HUB_NAME_STATE_^^_mine: "鉱山"
+  HUB_NAME_STATE_^^_farm: "農場"
+  HUB_NAME_STATE_^^_wood: "森林"
+    
+  HUB_NAME_STATE_^^_city: "都市"
+  HUB_NAME_STATE_^^_port: "港湾"
+  HUB_NAME_STATE_^^_mine: "鉱山"
+  HUB_NAME_STATE_^^_farm: "農場"
+  HUB_NAME_STATE_^^_wood: "森林"
   
 
   # =======中部

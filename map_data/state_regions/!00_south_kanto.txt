@@ -2,7 +2,7 @@
 STATE_KAWASAKI = {
     id = 320
     provinces = { "x72DEF0" "x899FDF" "xDC9ADC" "xDFB3E8" "xEEC742" "xF2FCB6" "xF71EEE" }
-    arable_resources = { "bg_rice_farms" "bg_buckwheat_farms" "bg_tea_plantations" "bg_wheat_farms" "bg_livestock_ranches" "bg_poultry_farms" "bg_pig_farms" "bg_dairy_farms" "bg_orchards" "bg_vegetable_farms"  }
+    arable_resources = { "bg_rice_farms" "bg_buckwheat_farms" "bg_tea_plantations" "bg_wheat_farms" "bg_livestock_ranches" "bg_poultry_farms" "bg_pig_farms" "bg_dairy_farms" "bg_orchards" "bg_vegetable_farms" }
     capped_resources = {
         bg_logging = 20
         bg_tree_planting_farm = 20
