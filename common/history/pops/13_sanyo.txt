@@ -127,44 +127,32 @@
 		region_state:HRS = {
 			create_pop = {
 				culture = hiroshima
-				size = 60576
-			}
-			create_pop = {
-				culture = fukuyama
-				size = 70000
+				size = 130576
 			}
 		}
 	}
 	s:STATE_BINGO = { #807992
 		region_state:HRS = {
 			create_pop = {
-				culture = hiroshima
-				size = 407992
-			}
-			create_pop = {
 				culture = fukuyama
-				size = 400000
+				size = 807992
 			}
 		}
 	}
 	s:STATE_BIHOKU = { #188795
 		region_state:HRS = {
 			create_pop = {
-				culture = hiroshima
-				size = 98795
-			}
-			create_pop = {
-				culture = bizen
-				size = 90000
+				culture = bitchu
+				size = 180000
 			}
 		}
 	}
 	
 	#岡山
-	s:STATE_OKAYAMABIZEN = { #241040
+	s:STATE_OKAYAMABIHOKU = { #241040
 		region_state:OKY = {
 			create_pop = {
-				culture = bizen
+				culture = bitchu
 				size = 241040
 			}
 		}
@@ -193,34 +181,27 @@
 		region_state:OKY = {
 			create_pop = {
 				culture = bizen
-				size = 96295
+				size = 186295
 			}
-			create_pop = {
-				culture = bizen
-				size = 90000
-			}
+
 		}
 	}
 	s:STATE_BICCHU = { #227033
 		region_state:OKY = {
 			create_pop = {
-				culture = bizen
-				size = 127033
-			}
-			create_pop = {
 				culture = bitchu
-				size = 100000
+				size = 227033
 			}
 		}
 	}
 	s:STATE_MIMASAKA = { #276945
 		region_state:OKY = {
 			create_pop = {
-				culture = bizen
+				culture = mimasaka
 				size = 146945
 			}
 			create_pop = {
-				culture = mimasaka
+				culture = bizen
 				size = 130000
 			}
 		}
