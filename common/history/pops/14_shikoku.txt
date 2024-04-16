@@ -109,19 +109,11 @@
 	}
 
 	#愛媛
-	s:STATE_TOYO = { #480041
+	s:STATE_TOYO = { #360041
 		region_state:EHI = {
 			create_pop = {
-				culture = uma
-				size = 120000
-			}
-			create_pop = {
-				culture = matsuyama
-				size = 240041
-			}
-			create_pop = {
 				culture = imabari
-				size = 120000
+				size = 360041
 			}
 		}
 	}
@@ -140,10 +132,6 @@
 	s:STATE_NANYO = { #534545
 		region_state:EHI = {
 			create_pop = {
-				culture = matsuyama
-				size = 284545
-			}
-			create_pop = {
 				culture = uwajima
 				size = 250000
 			}
@@ -158,6 +146,22 @@
 			create_pop = {
 				culture = imabari
 				size = 40000
+			}
+		}
+	}
+	s:STATE_SHIKOKUCHUOH = { #74396
+		region_state:EHI = {
+			create_pop = {
+				culture = uma
+				size = 120000
+			}
+		}
+	}
+	s:STATE_SEYO = { #284545
+		region_state:EHI = {
+			create_pop = {
+				culture = matsuyama
+				size = 284545
 			}
 		}
 	}
