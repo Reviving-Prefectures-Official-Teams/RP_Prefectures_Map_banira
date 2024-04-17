@@ -90,7 +90,7 @@ bg_ranching = {
 }
 
 #牛牧場
-bg_cattle_ranch = {
+bg_cattle_ranch = { #"bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" 
 	parent_group = bg_ranching
 	
 	default_building = building_cattle_ranch
@@ -157,7 +157,7 @@ bg_plantations = {
 }
 
 #ワイナリー
-bg_vineyard_plantations = {
+bg_vineyard_plantations = { #"bg_vineyard_plantations" 
 	parent_group = bg_agriculture
 	
 	default_building = building_vineyard_plantation
@@ -222,7 +222,7 @@ bg_sugar_plantations = {
 }
 
 #果樹園
-bg_orchards = {
+bg_orchards = { #"bg_orchards"
 	parent_group = bg_plantations
 	
 	default_building = building_orchard
