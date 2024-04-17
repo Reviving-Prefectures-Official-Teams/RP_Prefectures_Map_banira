@@ -8,9 +8,9 @@ STATE_IWAKI = {
         bg_iron_mining = 7   
         bg_coal_mining = 24
         bg_minor_metals_mining = 6
-        cryptomeria_forest = 20
+        bg_bg_cryptomeria_forest = 20
         bg_chamaecyparis_obtusa_forest = 7
-        castanopsis_forest = 8
+        bg_bg_castanopsis_forest= 8
     }
 }
 STATE_SOSO = {
@@ -23,7 +23,7 @@ STATE_SOSO = {
         bg_coal_mining = 22
         bg_lead_mining = 28
         bg_minor_metals_mining = 6
-        cryptomeria_forest = 21
+        bg_bg_cryptomeria_forest = 21
         bg_chamaecyparis_obtusa_forest = 7
     }
 }
@@ -38,7 +38,7 @@ STATE_FUKUSHIMA = {
         bg_sulfur_mining = 22
         bg_minor_metals_mining = 4
         bg_asbestos_mining = 21
-        cryptomeria_forest = 8
+        bg_bg_cryptomeria_forest = 8
         bg_chamaecyparis_obtusa_forest = 3
     }
 }
@@ -53,7 +53,7 @@ STATE_KORIYAMA = {
         bg_sulfur_mining = 36
         bg_minor_metals_mining = 4
         bg_asbestos_mining = 44
-        cryptomeria_forest = 16
+        bg_cryptomeria_forest = 16
         bg_chamaecyparis_obtusa_forest = 3
     }
 }
@@ -64,8 +64,8 @@ STATE_SHIRAKAWA = {
     arable_resources = { "bg_vegetable_farms" "bg_cotton_plantations" "bg_rice_farms" "bg_wheat_farms" "bg_maize_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
     capped_resources = {
         bg_coal_mining = 17
-        cryptomeria_forest = 20
-        castanopsis_forest = 10
+        bg_cryptomeria_forest = 20
+        bg_castanopsis_forest= 10
     }
 }
 STATE_AIZU = {
@@ -78,7 +78,7 @@ STATE_AIZU = {
         bg_coal_mining = 12
         bg_sulfur_mining = 12
         bg_lead_mining = 21
-        cryptomeria_forest = 16
+        bg_cryptomeria_forest = 16
     }
 }
 STATE_MINAMIAIZU = {
@@ -88,8 +88,8 @@ STATE_MINAMIAIZU = {
     arable_resources = { "bg_vineyard_plantations" "bg_vegetable_farms" "bg_cotton_plantations" "bg_rice_farms" "bg_wheat_farms" "bg_maize_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
     capped_resources = {
         bg_lead_mining = 18
-        cryptomeria_forest = 18
-        betulaceae_forest = 18
+        bg_cryptomeria_forest = 18
+        bg_betulaceae_forest = 18
     }
 }
 #宮城県 https://www.pref.miyagi.jp/site/profile/kouiki.html
@@ -102,7 +102,7 @@ STATE_SENDAI = {
         bg_iron_mining = 12
         bg_coal_mining = 36
         bg_minor_metals_mining = 8
-        cryptomeria_forest = 18
+        bg_cryptomeria_forest = 18
     }
 }
 STATE_SENNAN = {
@@ -111,7 +111,7 @@ STATE_SENNAN = {
     arable_land = 30
     arable_resources = { "bg_vegetable_farms" "bg_tea_plantations" "bg_rice_farms" "bg_wheat_farms"  "bg_maize_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
     capped_resources = {
-        cryptomeria_forest = 28
+        bg_cryptomeria_forest = 28
         bg_chamaecyparis_obtusa_forest = 2
     }
 }
@@ -123,7 +123,7 @@ STATE_ISHINOMAKI = {
     capped_resources = {
         bg_coal_mining = 22
         bg_minor_metals_mining = 8
-        cryptomeria_forest = 8
+        bg_cryptomeria_forest = 8
         bg_chamaecyparis_obtusa_forest = 3
     }
 }
@@ -136,7 +136,7 @@ STATE_OOSAKI = {
         bg_iron_mining = 7
         bg_coal_mining = 12
         bg_sulfur_mining = 32
-        cryptomeria_forest = 8
+        bg_cryptomeria_forest = 8
     }
 }
 STATE_KURIHARA = {
@@ -149,7 +149,7 @@ STATE_KURIHARA = {
         bg_coal_mining = 24
         bg_sulfur_mining = 24
         bg_lead_mining = 3
-        cryptomeria_forest = 12
+        bg_cryptomeria_forest = 12
     }
 }
 STATE_TOME = {
@@ -159,7 +159,7 @@ STATE_TOME = {
     arable_resources = { "bg_vegetable_farms" "bg_tea_plantations" "bg_rice_farms" "bg_wheat_farms" "bg_maize_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
     capped_resources = {
         bg_coal_mining = 18
-        cryptomeria_forest = 12
+        bg_cryptomeria_forest = 12
         bg_chamaecyparis_obtusa_forest = 3
     }
 }
@@ -171,7 +171,7 @@ STATE_KESENNUMA = {
     capped_resources = {
         bg_iron_mining = 21
         bg_coal_mining = 24
-        cryptomeria_forest = 10
+        bg_cryptomeria_forest = 10
         bg_chamaecyparis_obtusa_forest = 3
     }
 }
@@ -186,7 +186,7 @@ STATE_MURAYAMA = {
         bg_coal_mining = 16
         bg_lead_mining = 12
         bg_minor_metals_mining = 4
-        cryptomeria_forest = 22
+        bg_cryptomeria_forest = 22
     }
 }
 STATE_YONEZAWA = {
@@ -198,7 +198,7 @@ STATE_YONEZAWA = {
         bg_coal_mining = 12
         bg_sulfur_mining = 23
         bg_lead_mining = 16
-        cryptomeria_forest = 21
+        bg_cryptomeria_forest = 21
     }
 }
 STATE_SYONAI = {
@@ -210,7 +210,7 @@ STATE_SYONAI = {
         bg_sulfur_mining = 21
         bg_coal_mining = 8
         bg_minor_metals_mining = 4
-        cryptomeria_forest = 10
+        bg_cryptomeria_forest = 10
     }
 }
 STATE_MOGAMI = {
@@ -223,8 +223,8 @@ STATE_MOGAMI = {
         bg_coal_mining = 33
         bg_sulfur_mining = 11
         bg_lead_mining = 8
-        cryptomeria_forest = 18
-        betulaceae_forest = 24
+        bg_cryptomeria_forest = 18
+        bg_betulaceae_forest = 24
     }
 }
 #岩手県
@@ -239,10 +239,10 @@ STATE_MORIOKA = {
         bg_sulfur_mining = 8
         bg_minor_metals_mining = 6
         bg_asbestos_mining = 21
-        cryptomeria_forest = 32
+        bg_cryptomeria_forest = 32
         bg_chamaecyparis_obtusa_forest = 3
-        betulaceae_forest = 20
-        castanopsis_forest = 1
+        bg_betulaceae_forest = 20
+        bg_castanopsis_forest= 1
     }
 }
 STATE_KAMAISHI = {
@@ -255,9 +255,9 @@ STATE_KAMAISHI = {
         bg_coal_mining = 16
         bg_minor_metals_mining = 4
         bg_asbestos_mining = 22
-        cryptomeria_forest = 50
+        bg_cryptomeria_forest = 50
         bg_chamaecyparis_obtusa_forest = 2
-        castanopsis_forest = 3
+        bg_castanopsis_forest= 3
     }
 }
 STATE_HANAMAKI = {
@@ -269,7 +269,7 @@ STATE_HANAMAKI = {
         bg_iron_mining = 18
         bg_coal_mining = 18
         bg_lead_mining = 4
-        cryptomeria_forest = 36
+        bg_cryptomeria_forest = 36
         bg_chamaecyparis_obtusa_forest = 3
     }
 }
@@ -279,9 +279,9 @@ STATE_KUJI = {
     arable_land = 50
     arable_resources = { "bg_vineyard_plantations" "bg_orchards" "bg_vegetable_farms" "bg_tobacco_plantations" "bg_rice_farms" "bg_wheat_farms" "bg_maize_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
     capped_resources = {
-        cryptomeria_forest = 48
+        bg_cryptomeria_forest = 48
         bg_chamaecyparis_obtusa_forest = 2
-        betulaceae_forest = 26
+        bg_betulaceae_forest = 26
     }
 }
 #秋田県
@@ -294,9 +294,9 @@ STATE_AKITA = {
         bg_iron_mining = 16
         bg_coal_mining = 22
         bg_lead_mining = 42
-        cryptomeria_forest = 32
-        castanopsis_forest = 3
-        castanopsis_forest = 2
+        bg_cryptomeria_forest = 32
+        bg_castanopsis_forest= 3
+        bg_castanopsis_forest= 2
     }
 }
 STATE_YURIHONJYOU = {
@@ -306,8 +306,8 @@ STATE_YURIHONJYOU = {
     arable_resources = { "bg_vegetable_farms" "bg_tea_plantations" "bg_rice_farms" "bg_wheat_farms" "bg_maize_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
     capped_resources = {
         bg_coal_mining = 18
-        cryptomeria_forest = 20
-        castanopsis_forest = 2
+        bg_cryptomeria_forest = 20
+        bg_castanopsis_forest= 2
     }
 }
 STATE_YOKOTE = {
@@ -320,8 +320,8 @@ STATE_YOKOTE = {
         bg_sulfur_mining = 8
         bg_lead_mining = 6
         bg_minor_metals_mining = 4
-        cryptomeria_forest = 50
-        castanopsis_forest = 2
+        bg_cryptomeria_forest = 50
+        bg_castanopsis_forest= 2
     }
 }
 STATE_DAISEN = {
@@ -334,7 +334,7 @@ STATE_DAISEN = {
         bg_coal_mining = 16
         bg_sulfur_mining = 22
         bg_lead_mining = 28
-        cryptomeria_forest = 45
+        bg_cryptomeria_forest = 45
     }
 }
 STATE_OODATE = {
@@ -347,8 +347,8 @@ STATE_OODATE = {
         bg_sulfur_mining = 18
         bg_lead_mining = 62
         bg_minor_metals_mining = 8
-        cryptomeria_forest = 40
-        castanopsis_forest = 1
+        bg_cryptomeria_forest = 40
+        bg_castanopsis_forest= 1
     }
 }
 #青森県
@@ -360,7 +360,7 @@ STATE_AOMORI = {
     capped_resources = {
         bg_coal_mining = 12
         bg_lead_mining = 12
-        cryptomeria_forest = 10
+        bg_cryptomeria_forest = 10
     }
 }
 STATE_HACHINOHE = {
@@ -372,8 +372,8 @@ STATE_HACHINOHE = {
         bg_iron_mining = 6
         bg_coal_mining = 8
         bg_minor_metals_mining = 8
-        cryptomeria_forest = 17
-        betulaceae_forest = 23
+        bg_cryptomeria_forest = 17
+        bg_betulaceae_forest = 23
     }
 }
 STATE_HIROSAKI = {
@@ -383,7 +383,7 @@ STATE_HIROSAKI = {
     arable_resources = { "bg_vineyard_plantations" "bg_vegetable_farms" "bg_cotton_plantations" "bg_rice_farms" "bg_wheat_farms" "bg_maize_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" } 
     capped_resources = {
         bg_coal_mining = 8
-        cryptomeria_forest = 36
+        bg_cryptomeria_forest = 36
         
         
     }
@@ -397,8 +397,8 @@ STATE_TOWADA = {
         bg_iron_mining = 3
         bg_coal_mining = 12
         bg_lead_mining = 10
-        cryptomeria_forest = 18
-        betulaceae_forest = 10
+        bg_cryptomeria_forest = 18
+        bg_betulaceae_forest = 10
     }
 }
 STATE_MUTU = {
@@ -411,6 +411,6 @@ STATE_MUTU = {
         bg_coal_mining = 4
         bg_sulfur_mining = 22
         bg_lead_mining = 8
-        cryptomeria_forest = 3
+        bg_cryptomeria_forest = 3
     }
 }
