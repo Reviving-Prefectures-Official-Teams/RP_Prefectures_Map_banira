@@ -1,0 +1,756 @@
+﻿##########パン工場##########
+#####小麦輸入
+#小口輸入
+pm_import_wheat = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_transportation_add = 2
+			goods_output_grain_add = 20
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 800
+			building_employment_clerks_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#ばら積み船
+pm_bulk_carrier_wheat = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_transportation_add = 5
+			goods_output_grain_add = 40
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 600
+			building_employment_clerks_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#コンテナ船
+pm_container_ship_wheat = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_transportation_add = 10
+			goods_output_grain_add = 80
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 400
+			building_employment_clerks_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#超大型コンテナ船
+pm_oversize_container_ship_wheat = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_transportation_add = 20
+			goods_output_grain_add = 160
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 200
+			building_employment_clerks_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#####パン製造
+#手作りパン
+pm_handmade_bread = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_grain_add = 20
+			goods_output_groceries_add = 25
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 200
+			building_employment_clerks_add = 100
+		}
+	}
+}
+#食パン
+pm_white_bread = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_grain_add = 40
+			goods_output_groceries_add = 50
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 100
+			building_employment_clerks_add = 100
+		}
+	}
+}
+#惣菜パン
+pm_sandwich_bread = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_grain_add = 20
+			goods_input_sugar_add = 10
+			goods_input_fruit_add = 10
+			goods_output_groceries_add = 50
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 100
+			building_employment_clerks_add = 100
+		}
+	}
+}
+#####製造管理
+#手動組み立て生産
+pm_manual_assembly_bread = { 
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 2
+			goods_output_groceries_mult = 0.00
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 500
+			building_employment_engineers_add = 100
+			building_employment_clerks_add = 100
+		}
+	}
+}
+#バッチ生産方式
+pm_batch_production_bread = { 
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 3
+			goods_input_electricity_add = 1
+			goods_output_groceries_mult = 0.20
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 400
+			building_employment_engineers_add = 150
+			building_employment_clerks_add = 100
+		}
+	}
+}
+#フロー生産方式
+pm_flow_production_bread = { 
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 4
+			goods_input_electricity_add = 2
+			goods_output_groceries_mult = 0.40
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 300
+			building_employment_engineers_add = 200
+			building_employment_clerks_add = 100
+		}
+	}
+}
+#セル生産方式
+pm_cell_production_bread = { 
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 5
+			goods_input_electricity_add = 3
+			goods_output_groceries_mult = 0.60
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 200
+			building_employment_engineers_add = 250
+			building_employment_clerks_add = 100
+		}
+	}
+}
+#ロボット組み立て
+pm_robot_assembly_bread = { 
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 5
+			goods_input_robot_add = 2
+			goods_output_groceries_mult = 0.80
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 100
+			building_employment_engineers_add = 300
+			building_employment_clerks_add = 100
+		}
+	}
+}
+#AI制御生産
+pm_ai_production_bread = { 
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 7
+			goods_input_robot_add = 3
+			goods_input_web_service_add = 2
+			goods_output_groceries_mult = 1.00
+		}
+
+		level_scaled = {
+			building_employment_engineers_add = 400
+			building_employment_clerks_add = 100
+		}
+	}
+}
+#####環境対策
+
+
+
+##########飲料工場##########
+#####清涼飲料
+#濃縮還元
+pm_fruit_juice = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_fruit_add = 5
+			goods_output_drink_add = 15
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 200
+			building_employment_clerks_add = 100
+		}
+	}
+}
+#炭酸飲料
+pm_carbonated_drink = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_fruit_add = 3
+			goods_input_sugar_add = 1
+			goods_input_water_add = 1
+			goods_output_drink_add = 15
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 300
+			building_employment_clerks_add = 100
+		}
+	}
+}
+#スポーツドリンク
+pm_sports_drink = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_transportation_add = 1
+			goods_input_sugar_add = 3
+			goods_input_water_add = 1
+			goods_output_drink_add = 15
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 300
+			building_employment_clerks_add = 100
+		}
+	}
+}
+#####カフェイン飲料
+#缶コーヒー
+pm_canned_coffee = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_transportation_add = 3
+			goods_input_sugar_add = 1
+			goods_input_water_add = 1
+			goods_output_drink_add = 15
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 300
+			building_employment_clerks_add = 100
+		}
+	}
+}
+#エナジードリンク
+pm_energy_drink = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_groceries_add = 1
+			goods_input_sugar_add = 1
+			goods_input_water_add = 3
+			goods_output_drink_add = 15
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 300
+			building_employment_clerks_add = 100
+		}
+	}
+}
+#####ビール
+#ピルスナー
+pm_pilsner = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_grain_add = 3
+			goods_input_fruit_add = 1
+			goods_input_water_add = 1
+			goods_output_beer_add = 10
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 300
+			building_employment_clerks_add = 100
+		}
+	}
+}
+#エール
+pm_ale = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_grain_add = 4
+			goods_input_water_add = 1
+			goods_output_beer_add = 10
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 300
+			building_employment_clerks_add = 100
+		}
+	}
+}
+#####輸送
+
+#####製造管理
+#手動組み立て生産
+pm_manual_assembly_juice = { 
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 2
+			building_drink_factory_throughput_mult = 0.00
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 500
+			building_employment_engineers_add = 100
+			building_employment_clerks_add = 100
+		}
+	}
+}
+#バッチ生産方式
+pm_batch_production_juice = { 
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 3
+			goods_input_electricity_add = 1
+			building_drink_factory_throughput_mult = 0.20
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 400
+			building_employment_engineers_add = 150
+			building_employment_clerks_add = 100
+		}
+	}
+}
+#フロー生産方式
+pm_flow_production_juice = { 
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 4
+			goods_input_electricity_add = 2
+			building_drink_factory_throughput_mult = 0.40
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 300
+			building_employment_engineers_add = 200
+			building_employment_clerks_add = 100
+		}
+	}
+}
+#セル生産方式
+pm_cell_production_juice = { 
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 5
+			goods_input_electricity_add = 3
+			building_drink_factory_throughput_mult = 0.60
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 200
+			building_employment_engineers_add = 250
+			building_employment_clerks_add = 100
+		}
+	}
+}
+#ロボット組み立て
+pm_robot_assembly_juice = { 
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 5
+			goods_input_robot_add = 2
+			building_drink_factory_throughput_mult = 0.80
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 100
+			building_employment_engineers_add = 300
+			building_employment_clerks_add = 100
+		}
+	}
+}
+#AI制御生産
+pm_ai_production_juice = { 
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 7
+			goods_input_robot_add = 3
+			goods_input_web_service_add = 2
+			building_drink_factory_throughput_mult = 1.00
+		}
+
+		level_scaled = {
+			building_employment_engineers_add = 400
+			building_employment_clerks_add = 100
+		}
+	}
+}
+
+#####環境対策
+
+##########缶詰工場##########
+#####食肉加工
+#肉缶詰
+pm_canned_meat = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_meat_add = 20		# x30 =  600
+			goods_input_iron_add = 10		# x40 =  400
+			
+			# output goods
+			goods_output_groceries_add = 30	# x30 =  900
+		}
+
+		level_scaled = {
+			# profit = 300 (20.8)
+			building_employment_machinists_add = 500	# x1.5 = 750 laborer wages
+		}
+	}
+}
+#####魚介加工
+pm_canned_fish = {
+	texture = "gfx/interface/icons/production_method_icons/canneries.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_fish_add = 30		# x20 =  600
+			goods_input_iron_add = 10		# x40 =  400
+			
+			# output goods
+			goods_output_groceries_add = 30	# x30 =  900
+		}
+
+		level_scaled = {
+			# profit = 300 (20.8)
+			building_employment_machinists_add = 500	# x1.5 = 750 laborer wages
+		}
+	}
+}
+#####野菜加工
+pm_canned_vegetable = {
+	texture = "gfx/interface/icons/production_method_icons/canneries.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_fruit_add = 30	# x20 =  600
+			goods_input_iron_add = 10		# x40 =  400
+			
+			# output goods
+			goods_output_groceries_add = 30	# x30 =  900
+		}
+
+		level_scaled = {
+			# profit = 300 (20.8)
+			building_employment_machinists_add = 500	# x1.5 = 750 laborer wages
+		}
+	}
+}
+#####輸送
+#####製造管理
+#真空缶詰
+pm_vacuum_canning = { 
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 2
+			goods_output_groceries_mult = 0.00
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 500
+			building_employment_engineers_add = 100
+			building_employment_clerks_add = 100
+		}
+	}
+}
+#二重巻締
+pm_double_seaming = {
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 3
+			goods_input_electricity_add = 1
+			goods_output_groceries_mult = 0.50
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 400
+			building_employment_engineers_add = 150
+			building_employment_clerks_add = 100
+		}
+	}
+
+}
+#高速缶詰巻締機
+pm_high_speed_seaming = {
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 4
+			goods_input_electricity_add = 2
+			goods_output_groceries_mult = 1.00
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 300
+			building_employment_engineers_add = 200
+			building_employment_clerks_add = 100
+		}
+	}
+}
+#####環境対策
+##########菓子工場##########
+#####菓子製造
+#チョコレート
+pm_chocolate = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_sugar_add = 5
+			goods_input_groceries_add = 5
+			goods_input_dairy_products_add = 5
+			goods_output_sweets_add = 30
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 200
+			building_employment_clerks_add = 100
+		}
+	}
+}
+#ビスケット
+pm_biscuit = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_grain_add = 10
+			goods_input_sugar_add = 5
+			goods_output_sweets_add = 25
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 200
+			building_employment_clerks_add = 100
+		}
+	}
+}
+#和菓子
+pm_japanese_sweets = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_grain_add = 5
+			goods_input_sugar_add = 5
+			goods_output_sweets_add = 20
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 200
+			building_employment_clerks_add = 100
+		}
+	}
+}
+#スナック菓子
+pm_snack = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_grain_add = 10
+			goods_output_groceries_add = 15
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 200
+			building_employment_clerks_add = 100
+		}
+	}
+}
+#####輸送
+#####製造管理
+#手作り菓子
+pm_handmade_sweets = { 
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 2
+			goods_output_sweets_mult = 0.00
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 500
+			building_employment_engineers_add = 100
+			building_employment_clerks_add = 100
+		}
+	}
+}
+#flow生産
+pm_flow_production = { 
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 3
+			goods_input_electricity_add = 1
+			goods_output_sweets_mult = 1
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 400
+			building_employment_engineers_add = 150
+			building_employment_clerks_add = 100
+		}
+	}
+}
+#全自動生産
+pm_full_auto_production = { 
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 4
+			goods_input_computers_add = 1
+			goods_input_electricity_add = 2
+			goods_output_sweets_mult = 2
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 300
+			building_employment_engineers_add = 200
+			building_employment_clerks_add = 100
+		}
+	}
+}
+#####環境対策
+##########野菜工場##########
+#####野菜
+#野菜生産
+pm_vegetable = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 10
+			goods_output_fruit_add = 60
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 200
+			building_employment_clerks_add = 100
+		}
+	}
+}
+#ロボット管理
+pm_robot_management = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 20
+			goods_input_robot_add = 5
+			goods_output_fruit_add = 120
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_engineers_add = 200
+			building_employment_clerks_add = 100
+		}
+	}
+}
+#####輸送
+
