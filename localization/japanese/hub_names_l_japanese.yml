@@ -149,17 +149,17 @@
   HUB_NAME_STATE_NORTH_KATSUSHIKA_farm: "春日部"
   HUB_NAME_STATE_NORTH_KATSUSHIKA_wood: "草加"
   
-  HUB_NAME_STATE_TONE_city: "都市"
-  HUB_NAME_STATE_TONE_mine: "鉱山"
-  HUB_NAME_STATE_TONE_farm: "農場"
-  HUB_NAME_STATE_TONE_wood: "森林"
+  HUB_NAME_STATE_TONE_city: "久喜"
+  HUB_NAME_STATE_TONE_mine: "行田"
+  HUB_NAME_STATE_TONE_farm: "羽生"
+  HUB_NAME_STATE_TONE_wood: "鴻巣"
   
   # 千葉県
-  HUB_NAME_STATE_NANSO_city: "都市"
-  HUB_NAME_STATE_NANSO_port: "港湾"
-  HUB_NAME_STATE_NANSO_mine: "鉱山"
-  HUB_NAME_STATE_NANSO_farm: "農場"
-  HUB_NAME_STATE_NANSO_wood: "森林"
+  HUB_NAME_STATE_NANSO_city: "袖ヶ浦"
+  HUB_NAME_STATE_NANSO_port: "木更津"
+  HUB_NAME_STATE_NANSO_mine: "富津"
+  HUB_NAME_STATE_NANSO_farm: "館山"
+  HUB_NAME_STATE_NANSO_wood: "鴨川"
   
   HUB_NAME_STATE_TOSO_city: "都市"
   HUB_NAME_STATE_TOSO_port: "港湾"
@@ -197,63 +197,62 @@
   
   # =======北関東
   # 群馬県
-  HUB_NAME_STATE_TOMOU_city: "都市"
-  HUB_NAME_STATE_TOMOU_mine: "鉱山"
-  HUB_NAME_STATE_TOMOU_farm: "農場"
-  HUB_NAME_STATE_TOMOU_wood: "森林"
+  HUB_NAME_STATE_TOMOU_city: "太田"
+  HUB_NAME_STATE_TOMOU_mine: "館林"
+  HUB_NAME_STATE_TOMOU_farm: "板倉"
+  HUB_NAME_STATE_TOMOU_wood: "桐生"
   
-  HUB_NAME_STATE_MAEBASHI_city: "都市"
+  HUB_NAME_STATE_MAEBASHI_city: "前橋"
   HUB_NAME_STATE_MAEBASHI_mine: "鉱山"
-  HUB_NAME_STATE_MAEBASHI_farm: "農場"
-  HUB_NAME_STATE_MAEBASHI_wood: "森林"
+  HUB_NAME_STATE_MAEBASHI_farm: "吉岡"
+  HUB_NAME_STATE_MAEBASHI_wood: "伊勢崎"
   
-  HUB_NAME_STATE_SEIMOU_city: "都市"
-  HUB_NAME_STATE_SEIMOU_mine: "鉱山"
-  HUB_NAME_STATE_SEIMOU_farm: "農場"
-  HUB_NAME_STATE_SEIMOU_wood: "森林"
+  HUB_NAME_STATE_SEIMOU_city: "高崎"
+  HUB_NAME_STATE_SEIMOU_mine: "下仁田"
+  HUB_NAME_STATE_SEIMOU_farm: "藤岡"
+  HUB_NAME_STATE_SEIMOU_wood: "安中"
   
-  HUB_NAME_STATE_NUMATA_city: "都市"
-  HUB_NAME_STATE_NUMATA_mine: "鉱山"
-  HUB_NAME_STATE_NUMATA_farm: "農場"
-  HUB_NAME_STATE_NUMATA_wood: "森林"
-  
-  
-  HUB_NAME_STATE_AGATSUMA_city: "都市"
-  HUB_NAME_STATE_AGATSUMA_mine: "鉱山"
-  HUB_NAME_STATE_AGATSUMA_farm: "農場"
-  HUB_NAME_STATE_AGATSUMA_wood: "森林"
+  HUB_NAME_STATE_NUMATA_city: "沼田"
+  HUB_NAME_STATE_NUMATA_mine: ""
+  HUB_NAME_STATE_NUMATA_farm: "水上"
+  HUB_NAME_STATE_NUMATA_wood: ""
+    
+  HUB_NAME_STATE_AGATSUMA_city: "草津"
+  HUB_NAME_STATE_AGATSUMA_mine: "中之条"
+  HUB_NAME_STATE_AGATSUMA_farm: "嬬恋"
+  HUB_NAME_STATE_AGATSUMA_wood: "東吾妻"
   
   # 栃木県  
-  HUB_NAME_STATE_ASHIKAGA_city: "都市"
-  HUB_NAME_STATE_ASHIKAGA_mine: "鉱山"
-  HUB_NAME_STATE_ASHIKAGA_farm: "農場"
-  HUB_NAME_STATE_ASHIKAGA_wood: "森林"
+  HUB_NAME_STATE_ASHIKAGA_city: "足利"
+  HUB_NAME_STATE_ASHIKAGA_mine: ""
+  HUB_NAME_STATE_ASHIKAGA_farm: "佐野"
+  HUB_NAME_STATE_ASHIKAGA_wood: "田沼"
   
   
-  HUB_NAME_STATE_TOCHIGI_city: "都市"
-  HUB_NAME_STATE_TOCHIGI_mine: "鉱山"
-  HUB_NAME_STATE_TOCHIGI_farm: "農場"
-  HUB_NAME_STATE_TOCHIGI_wood: "森林"
+  HUB_NAME_STATE_TOCHIGI_city: "栃木"
+  HUB_NAME_STATE_TOCHIGI_mine: "壬生"
+  HUB_NAME_STATE_TOCHIGI_farm: "下野"
+  HUB_NAME_STATE_TOCHIGI_wood: "小山"
     
-  HUB_NAME_STATE_UTSUNOMIYA_city: "都市"
-  HUB_NAME_STATE_UTSUNOMIYA_mine: "鉱山"
-  HUB_NAME_STATE_UTSUNOMIYA_farm: "農場"
-  HUB_NAME_STATE_UTSUNOMIYA_wood: "森林"
+  HUB_NAME_STATE_UTSUNOMIYA_city: "宇都宮"
+  HUB_NAME_STATE_UTSUNOMIYA_mine: "鹿沼"
+  HUB_NAME_STATE_UTSUNOMIYA_farm: ""
+  HUB_NAME_STATE_UTSUNOMIYA_wood: ""
     
-  HUB_NAME_STATE_NIKKO_city: "都市"
-  HUB_NAME_STATE_NIKKO_mine: "鉱山"
-  HUB_NAME_STATE_NIKKO_farm: "農場"
-  HUB_NAME_STATE_NIKKO_wood: "森林"
+  HUB_NAME_STATE_NIKKO_city: "日光"
+  HUB_NAME_STATE_NIKKO_mine: ""
+  HUB_NAME_STATE_NIKKO_farm: ""
+  HUB_NAME_STATE_NIKKO_wood: ""
     
-  HUB_NAME_STATE_NASU_city: "都市"
-  HUB_NAME_STATE_NASU_mine: "鉱山"
-  HUB_NAME_STATE_NASU_farm: "農場"
-  HUB_NAME_STATE_NASU_wood: "森林"
+  HUB_NAME_STATE_NASU_city: "黒磯"
+  HUB_NAME_STATE_NASU_mine: "矢坂"
+  HUB_NAME_STATE_NASU_farm: "大田原"
+  HUB_NAME_STATE_NASU_wood: "那須"
   
-  HUB_NAME_STATE_HAGA_city: "都市"
-  HUB_NAME_STATE_HAGA_mine: "鉱山"
-  HUB_NAME_STATE_HAGA_farm: "農場"
-  HUB_NAME_STATE_HAGA_wood: "森林"
+  HUB_NAME_STATE_HAGA_city: "真岡"
+  HUB_NAME_STATE_HAGA_mine: "那珂川"
+  HUB_NAME_STATE_HAGA_farm: "芳賀"
+  HUB_NAME_STATE_HAGA_wood: "茂木"
   
   # 茨城県
   HUB_NAME_STATE_ROKKO_city: "都市"
@@ -262,34 +261,32 @@
   HUB_NAME_STATE_ROKKO_farm: "農場"
   HUB_NAME_STATE_ROKKO_wood: "森林"
   
-  HUB_NAME_STATE_HITACHI_city: "都市"
-  HUB_NAME_STATE_HITACHI_port: "港湾"
-  HUB_NAME_STATE_HITACHI_mine: "鉱山"
-  HUB_NAME_STATE_HITACHI_farm: "農場"
-  HUB_NAME_STATE_HITACHI_wood: "森林"
+  HUB_NAME_STATE_HITACHI_city: "日立"
+  HUB_NAME_STATE_HITACHI_port: "高萩"
+  HUB_NAME_STATE_HITACHI_mine: "大子"
+  HUB_NAME_STATE_HITACHI_farm: "常陸大宮"
+  HUB_NAME_STATE_HITACHI_wood: "北茨城"
   
-  HUB_NAME_STATE_MITO_city: "都市"
-  HUB_NAME_STATE_MITO_port: "港湾"
-  HUB_NAME_STATE_MITO_mine: "鉱山"
-  HUB_NAME_STATE_MITO_farm: "農場"
-  HUB_NAME_STATE_MITO_wood: "森林"
+  HUB_NAME_STATE_MITO_city: "水戸"
+  HUB_NAME_STATE_MITO_port: "大洗"
+  HUB_NAME_STATE_MITO_mine: "笠間"
+  HUB_NAME_STATE_MITO_farm: "東海"
+  HUB_NAME_STATE_MITO_wood: "小美玉"
   
-  HUB_NAME_STATE_RYUUGASAKI_city: "都市"
-  HUB_NAME_STATE_RYUUGASAKI_port: "港湾"
-  HUB_NAME_STATE_RYUUGASAKI_mine: "鉱山"
-  HUB_NAME_STATE_RYUUGASAKI_farm: "農場"
-  HUB_NAME_STATE_RYUUGASAKI_wood: "森林"
+  HUB_NAME_STATE_RYUUGASAKI_city: "牛久"
+  HUB_NAME_STATE_RYUUGASAKI_mine: "龍ヶ崎"
+  HUB_NAME_STATE_RYUUGASAKI_farm: "取手"
+  HUB_NAME_STATE_RYUUGASAKI_wood: "稲敷"
     
-  HUB_NAME_STATE_TSUKUBA_city: "都市"
-  HUB_NAME_STATE_TSUKUBA_mine: "鉱山"
-  HUB_NAME_STATE_TSUKUBA_farm: "農場"
-  HUB_NAME_STATE_TSUKUBA_wood: "森林"
+  HUB_NAME_STATE_TSUKUBA_city: "土浦"
+  HUB_NAME_STATE_TSUKUBA_mine: "石岡"
+  HUB_NAME_STATE_TSUKUBA_farm: "常総"
+  HUB_NAME_STATE_TSUKUBA_wood: "筑西"
     
-  HUB_NAME_STATE_KOGA_city: "都市"
-  HUB_NAME_STATE_KOGA_port: "港湾"
-  HUB_NAME_STATE_KOGA_mine: "鉱山"
-  HUB_NAME_STATE_KOGA_farm: "農場"
-  HUB_NAME_STATE_KOGA_wood: "森林"
+  HUB_NAME_STATE_KOGA_city: "古河"
+  HUB_NAME_STATE_KOGA_mine: "八千代"
+  HUB_NAME_STATE_KOGA_farm: "結城"
+  HUB_NAME_STATE_KOGA_wood: "坂東"
     
   HUB_NAME_STATE_^^_city: "都市"
   HUB_NAME_STATE_^^_port: "港湾"
@@ -298,7 +295,192 @@
   HUB_NAME_STATE_^^_wood: "森林"
   
   # =======関西
+  # 京都府  
+  HUB_NAME_STATE_TANGO_city: "与謝野"
+  HUB_NAME_STATE_TANGO_port: "宮津"
+  HUB_NAME_STATE_TANGO_mine: "網野"
+  HUB_NAME_STATE_TANGO_farm: "峰山"
+  HUB_NAME_STATE_TANGO_wood: "伊根"
+    
+  HUB_NAME_STATE_CHUTAN_city: "福知山"
+  HUB_NAME_STATE_CHUTAN_port: "舞鶴"
+  HUB_NAME_STATE_CHUTAN_mine: ""
+  HUB_NAME_STATE_CHUTAN_farm: "大江"
+  HUB_NAME_STATE_CHUTAN_wood: "綾部"
+    
+  HUB_NAME_STATE_NANTAN_city: "亀岡"
+  HUB_NAME_STATE_NANTAN_mine: "和知"
+  HUB_NAME_STATE_NANTAN_farm: "瑞穂"
+  HUB_NAME_STATE_NANTAN_wood: "南丹"
+  
+  HUB_NAME_STATE_KYOTO_city: "京都"
+  HUB_NAME_STATE_KYOTO_mine: "嵯峨"
+  HUB_NAME_STATE_KYOTO_farm: "山科"
+  HUB_NAME_STATE_KYOTO_wood: "桂"
 
+  HUB_NAME_STATE_YAMASHIRO_city: "宇治"
+  HUB_NAME_STATE_YAMASHIRO_mine: "南山城"
+  HUB_NAME_STATE_YAMASHIRO_farm: "八幡"
+  HUB_NAME_STATE_YAMASHIRO_wood: "木津川"
+    
+  # 大阪府
+  HUB_NAME_STATE_HOKUSETSU_city: "都市"
+  HUB_NAME_STATE_HOKUSETSU_mine: "鉱山"
+  HUB_NAME_STATE_HOKUSETSU_farm: "農場"
+  HUB_NAME_STATE_HOKUSETSU_wood: "森林"
+  
+  HUB_NAME_STATE_OSAKA_city: "大阪"
+  HUB_NAME_STATE_OSAKA_port: "大阪港"
+  HUB_NAME_STATE_OSAKA_mine: "鶴見"
+  HUB_NAME_STATE_OSAKA_farm: "西成"
+  HUB_NAME_STATE_OSAKA_wood: "淀川"
+    
+  HUB_NAME_STATE_KITAKAWACHI_city: "枚岡"
+  HUB_NAME_STATE_KITAKAWACHI_mine: "柏原"
+  HUB_NAME_STATE_KITAKAWACHI_farm: "枚方"
+  HUB_NAME_STATE_KITAKAWACHI_wood: "寝屋川"
+      
+  HUB_NAME_STATE_MINAMIKAWACHI_city: "富田林"
+  HUB_NAME_STATE_MINAMIKAWACHI_mine: "河内長野"
+  HUB_NAME_STATE_MINAMIKAWACHI_farm: "羽曳野"
+  HUB_NAME_STATE_MINAMIKAWACHI_wood: "狭山"
+
+  HUB_NAME_STATE_SAKAI_city: "堺"
+  HUB_NAME_STATE_SAKAI_port: "湊"
+  HUB_NAME_STATE_SAKAI_mine: "泉ヶ丘"
+  HUB_NAME_STATE_SAKAI_farm: "野田"
+  HUB_NAME_STATE_SAKAI_wood: "百舌鳥"
+      
+  HUB_NAME_STATE_SENSYU_city: "都市"
+  HUB_NAME_STATE_SENSYU_port: "港湾"
+  HUB_NAME_STATE_SENSYU_mine: "鉱山"
+  HUB_NAME_STATE_SENSYU_farm: "農場"
+  HUB_NAME_STATE_SENSYU_wood: "森林"
+  
+  # 兵庫県
+        
+  HUB_NAME_STATE_AWAJI_city: "津名"
+  HUB_NAME_STATE_AWAJI_port: "港湾"
+  HUB_NAME_STATE_AWAJI_mine: "淡路"
+  HUB_NAME_STATE_AWAJI_farm: "三原"
+  HUB_NAME_STATE_AWAJI_wood: "洲本"
+      
+  HUB_NAME_STATE_SETTSU_city: "西宮"
+  HUB_NAME_STATE_SETTSU_port: "港湾"
+  HUB_NAME_STATE_SETTSU_mine: "尼崎"
+  HUB_NAME_STATE_SETTSU_farm: "宝塚"
+  HUB_NAME_STATE_SETTSU_wood: "森林"
+        
+  HUB_NAME_STATE_KOBE_city: "神戸"
+  HUB_NAME_STATE_KOBE_port: "港湾"
+  HUB_NAME_STATE_KOBE_mine: "鉱山"
+  HUB_NAME_STATE_KOBE_farm: "農場"
+  HUB_NAME_STATE_KOBE_wood: "森林"
+        
+  HUB_NAME_STATE_HIGASHI_HARIMA_city: "明石"
+  HUB_NAME_STATE_HIGASHI_HARIMA_port: "港湾"
+  HUB_NAME_STATE_HIGASHI_HARIMA_mine: "鉱山"
+  HUB_NAME_STATE_HIGASHI_HARIMA_farm: "農場"
+  HUB_NAME_STATE_HIGASHI_HARIMA_wood: "森林"
+        
+  HUB_NAME_STATE_NAKA_HARIMA_city: "姫路"
+  HUB_NAME_STATE_NAKA_HARIMA_port: "港湾"
+  HUB_NAME_STATE_NAKA_HARIMA_mine: "鉱山"
+  HUB_NAME_STATE_NAKA_HARIMA_farm: "農場"
+  HUB_NAME_STATE_NAKA_HARIMA_wood: "森林"
+        
+  HUB_NAME_STATE_NISHI_HARIMA_city: "相生"
+  HUB_NAME_STATE_NISHI_HARIMA_port: "港湾"
+  HUB_NAME_STATE_NISHI_HARIMA_mine: "鉱山"
+  HUB_NAME_STATE_NISHI_HARIMA_farm: "農場"
+  HUB_NAME_STATE_NISHI_HARIMA_wood: "森林"
+        
+  HUB_NAME_STATE_TAJIMA_city: "豊岡"
+  HUB_NAME_STATE_TAJIMA_port: "港湾"
+  HUB_NAME_STATE_TAJIMA_mine: "香美"
+  HUB_NAME_STATE_TAJIMA_farm: "城崎"
+  HUB_NAME_STATE_TAJIMA_wood: "浜崎"
+  
+  HUB_NAME_STATE_^^_city: "都市"
+  HUB_NAME_STATE_^^_port: "港湾"
+  HUB_NAME_STATE_^^_mine: "鉱山"
+  HUB_NAME_STATE_^^_farm: "農場"
+  HUB_NAME_STATE_^^_wood: "森林"
+  
+  HUB_NAME_STATE_^^_city: "都市"
+  HUB_NAME_STATE_^^_port: "港湾"
+  HUB_NAME_STATE_^^_mine: "鉱山"
+  HUB_NAME_STATE_^^_farm: "農場"
+  HUB_NAME_STATE_^^_wood: "森林"
+  
+  # =======東海
+  # 愛知県
+  HUB_NAME_STATE_IZU_city: "三島"
+  HUB_NAME_STATE_IZU_port: "熱海"
+  HUB_NAME_STATE_IZU_mine: "伊東"
+  HUB_NAME_STATE_IZU_farm: "下田"
+  HUB_NAME_STATE_IZU_wood: "松崎"
+    
+  HUB_NAME_STATE_GOTENBA_city: "富士"
+  HUB_NAME_STATE_GOTENBA_port: "沼津"
+  HUB_NAME_STATE_GOTENBA_mine: "富士宮"
+  HUB_NAME_STATE_GOTENBA_farm: "御殿場"
+  HUB_NAME_STATE_GOTENBA_wood: "裾野"
+    
+  HUB_NAME_STATE_SIZUOKA_city: "静岡"
+  HUB_NAME_STATE_SIZUOKA_port: "焼津"
+  HUB_NAME_STATE_SIZUOKA_mine: "金谷"
+  HUB_NAME_STATE_SIZUOKA_farm: "島田"
+  HUB_NAME_STATE_SIZUOKA_wood: "森林"
+       
+  HUB_NAME_STATE_^^_city: "都市"
+  HUB_NAME_STATE_^^_port: "港湾"
+  HUB_NAME_STATE_^^_mine: "鉱山"
+  HUB_NAME_STATE_^^_farm: "農場"
+  HUB_NAME_STATE_^^_wood: "森林"
+       
+  HUB_NAME_STATE_^^_city: "都市"
+  HUB_NAME_STATE_^^_port: "港湾"
+  HUB_NAME_STATE_^^_mine: "鉱山"
+  HUB_NAME_STATE_^^_farm: "農場"
+  HUB_NAME_STATE_^^_wood: "森林"
+       
+  HUB_NAME_STATE_^^_city: "都市"
+  HUB_NAME_STATE_^^_port: "港湾"
+  HUB_NAME_STATE_^^_mine: "鉱山"
+  HUB_NAME_STATE_^^_farm: "農場"
+  HUB_NAME_STATE_^^_wood: "森林"
+       
+  HUB_NAME_STATE_^^_city: "都市"
+  HUB_NAME_STATE_^^_port: "港湾"
+  HUB_NAME_STATE_^^_mine: "鉱山"
+  HUB_NAME_STATE_^^_farm: "農場"
+  HUB_NAME_STATE_^^_wood: "森林"
+       
+  HUB_NAME_STATE_^^_city: "都市"
+  HUB_NAME_STATE_^^_port: "港湾"
+  HUB_NAME_STATE_^^_mine: "鉱山"
+  HUB_NAME_STATE_^^_farm: "農場"
+  HUB_NAME_STATE_^^_wood: "森林"
+    
+  HUB_NAME_STATE_^^_city: "都市"
+  HUB_NAME_STATE_^^_port: "港湾"
+  HUB_NAME_STATE_^^_mine: "鉱山"
+  HUB_NAME_STATE_^^_farm: "農場"
+  HUB_NAME_STATE_^^_wood: "森林"
+    
+  HUB_NAME_STATE_^^_city: "都市"
+  HUB_NAME_STATE_^^_port: "港湾"
+  HUB_NAME_STATE_^^_mine: "鉱山"
+  HUB_NAME_STATE_^^_farm: "農場"
+  HUB_NAME_STATE_^^_wood: "森林"
+    
+  HUB_NAME_STATE_^^_city: "都市"
+  HUB_NAME_STATE_^^_port: "港湾"
+  HUB_NAME_STATE_^^_mine: "鉱山"
+  HUB_NAME_STATE_^^_farm: "農場"
+  HUB_NAME_STATE_^^_wood: "森林"
+  
 
   # =======中部
   # 新潟県
@@ -357,7 +539,6 @@
 
 
   # 宮城県
-
   HUB_NAME_STATE_SENDAI_city: "仙台"
   HUB_NAME_STATE_SENDAI_mine: "富谷"
   HUB_NAME_STATE_SENDAI_farm: "名取"
