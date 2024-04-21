@@ -480,7 +480,7 @@ STATE_ASHIZURI = {
 }
 
 STATE_AKI = {
-    id = 191
+    id = 302
     provinces = { "x32DCEE" "x70E4ED" "x7BA5FC" "x8CD6BE" "xB0DAE4" "xC6BAB9" "xD28DBC" "xDCBED4" "xE3E64A" "xEC7EE9" "xEDC840" "xEDFCD9" "xEFC16A" "xF5FB74" "xF64CED" "xF8997B" "xFC76E4" "xFDB26F" }
     arable_resources = { "bg_rice_farms" "bg_dye_plantations" "bg_tea_plantations" }
     capped_resources = {
@@ -490,7 +490,7 @@ STATE_AKI = {
 }
 
 STATE_MONOBE = {
-    id = 192
+    id = 303
     provinces = { "x65C8CC" "x93D2DF" "xA1C9B4" "xABBDD9" "xBCB8CA" "xC361F4" "xC37BD1" "xCCDE7F" "xD8F659" "xEDDCB3" "xF0DBA3" "xF6AB60" "xF6F3DA" "xF8EBFE" }
     arable_resources = { "bg_rice_farms" "bg_tea_plantations" }
     capped_resources = {
