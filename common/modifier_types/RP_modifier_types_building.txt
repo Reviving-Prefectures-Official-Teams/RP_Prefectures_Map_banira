@@ -10,6 +10,13 @@ building_bank_throughput_mult = {
 	ai_value = 10000 # +1 securities = same value as 100 pounds of profit
 }
 
+building_drink_factory_throughput_mult = {
+	good = yes
+	percent = no
+
+	ai_value = 10000
+}
+
 state_building_bank_max_level_add = {
 	good = yes
 	percent = no

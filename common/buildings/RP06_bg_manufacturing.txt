@@ -1,5 +1,4 @@
 ﻿######工業######
-
 ###食品加工
 #食品工場
 building_food_industry = {
@@ -12,34 +11,13 @@ building_food_industry = {
 	}
 
 	production_method_groups = {
-		pmg_base_building_food_industry
-		pmg_sweets # +菓子 -砂糖・小麦・乳製品
-		#pmg_canning
-		pmg_automation_building_food_industry
-		pmg_ownership_capital_building_food_industry
+		pmg_wheat_importing
+		pmg_bread
+		pmg_manufacturing_management_bread
+		pmg_transport
 	}
 
 	required_construction = construction_cost_high
-}
-
-#製粉所 
-building_flour_mills = {
-	building_group = bg_food_processing
-	texture = "gfx/interface/icons/building_icons/flour_mills.dds"
-	city_type = city
-	levels_per_mesh = 5
-	
-	unlocking_technologies = {
-	}
-
-	production_method_groups = {
-		pmg_base_building_flour_mills # +小麦 -輸送
-		pmg_sugar # +砂糖 -輸送
-		pmg_automation_building_flour_mills
-		pmg_ownership_capital_building_flour_mills
-	}
-
-	required_construction = construction_cost_low
 }
 
 #缶詰工場
@@ -53,17 +31,17 @@ building_canning_factories = {
 	}
 
 	production_method_groups = {
-		pmg_canning_meet # +食品 -肉・アルミニウム・鉄
-		pmg_canning_fish # +食品 -魚・アルミニウム・鉄
-		pmg_canning_fruit # +食品 -果物・アルミニウム・鉄
-		pmg_automation_building_canning_factories
-		pmg_ownership_capital_building_canning_factories
+		pmg_fish_canned
+		pmg_meat_canned
+		pmg_vegetable_canned
+		pmg_manufacturing_management_canned
+		pmg_transport
 	}
 	required_construction = construction_cost_low
 }
 
-#蒸留所
-building_distilleries = {
+#飲料工場
+building_drink_factory = {
 	building_group = bg_food_processing
 	texture = "gfx/interface/icons/building_icons/distilleries.dds"
 	city_type = city
@@ -73,10 +51,30 @@ building_distilleries = {
 	}
 
 	production_method_groups = {
-		pmg_brewery # +ビール -穀物
-		pmg_distillery # +洋酒 -穀物・砂糖
-		pmg_automation_building_distilleries
-		pmg_ownership_capital_building_distilleries
+		pmg_juice
+		pmg_caffeine_drink
+		pmg_beer
+		pmg_manufacturing_management_juice
+		pmg_transport
+	}
+
+	required_construction = construction_cost_low
+}
+
+#菓子工場
+building_sweets_factory = {
+	building_group = bg_food_processing
+	texture = "gfx/interface/icons/building_icons/distilleries.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+	}
+
+	production_method_groups = {
+		pmg_sweets
+		pmg_manufacturing_management_sweets
+		pmg_transport
 	}
 
 	required_construction = construction_cost_low
@@ -93,9 +91,8 @@ building_vegetable_factorys = {
 	}
 
 	production_method_groups = {
-		pmg_base_building_vegetable_factorys # +野菜 -輸送
-		pmg_automation_building_vegetable_factorys
-		pmg_ownership_capital_building_vegetable_factorys
+		pmg_vegetable
+		pmg_transport
 	}
 
 	required_construction = construction_cost_low
