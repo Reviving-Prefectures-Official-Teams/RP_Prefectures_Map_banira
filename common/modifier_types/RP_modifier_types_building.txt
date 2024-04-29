@@ -12,7 +12,7 @@ building_bank_throughput_mult = {
 
 building_drink_factory_throughput_mult = {
 	good = yes
-	percent = no
+	percent = yes
 
 	ai_value = 10000
 }
@@ -31,12 +31,32 @@ state_building_hospital_max_level_add = {
 	ai_value = 100
 }
 
-building_asbestos_mine_throughput_add = {
+building_asbestos_mine_throughput_mult = {
 	good = yes
 	percent = yes
 }
 
-building_minor_metal_mine_throughput_add = {
+building_minor_metal_mine_throughput_mult = {
+	good = yes
+	percent = yes
+}
+
+building_glassworks_throughput_mult = {
+	good = yes
+	percent = yes
+}
+
+building_computer_factory_throughput_mult = {
+	good = yes
+	percent = yes
+}
+
+building_telecommunication_factory_throughput_mult = {
+	good = yes
+	percent = yes
+}
+
+building_furniture_manufacturies_throughput_mult = {
 	good = yes
 	percent = yes
 }

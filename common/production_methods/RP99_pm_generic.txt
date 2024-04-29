@@ -138,3 +138,19 @@ pm_unproducing = {
         }
     }
 }
+
+#手動組立
+pm_manual_assembly = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            
+        }
+
+        level_scaled = {
+            building_employment_engineers_add = 200
+            building_employment_machinists_add = 200
+            building_employment_laborers_add = 600
+        }
+    }
+}

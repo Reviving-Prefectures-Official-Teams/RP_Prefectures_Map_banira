@@ -114,6 +114,7 @@ pmg_manufacturing_management_canned = {
 }
 
 #####菓子工場#####
+#菓子
 pmg_sweets = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
@@ -141,5 +142,435 @@ pmg_vegetable = {
 	production_methods = {
 		pm_vegetable
 		pm_robot_management
+	}
+}
+
+#####ガラス工場
+#ガラス生産
+pmg_glass = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_float_glass
+		pm_reflecting_glass
+		pm_tempered_glass
+		pm_bulletproof_glass
+	}
+}
+
+#製造管理（ガラス工場）
+pmg_manufacturing_management_glass = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_manual_assembly
+		pm_batch_production_glass
+		pm_flow_production_glass
+		pm_cell_production_glass
+		pm_robot_assembly_glass
+		pm_ai_production_glass
+	}
+}
+
+#####コンピュータ工場
+#コンピュータ製造
+pmg_computer = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_8bit_computer
+		pm_32bit_computer
+		pm_laptop_computer
+		pm_quantum_computer
+	}
+}
+
+#製造管理（コンピュータ工場）
+pmg_manufacturing_management_computer = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_manual_assembly
+		pm_batch_production_computer
+		pm_flow_production_computer
+		pm_cell_production_computer
+		pm_robot_assembly_computer
+		pm_ai_production_computer
+	}
+}
+
+#####通信機器工場
+#通信機器製造
+pmg_communication_device = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_transistor_radio
+		pm_analog_mobile_phone
+		pm_galapagos_mobile_phone
+		pm_smartphone
+		pm_smart_glasses
+	}
+}
+
+#製造管理（通信機器工場）
+pmg_manufacturing_management_communication_device = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_manual_assembly
+		pm_batch_production_telephones
+		pm_flow_production_telephones
+		pm_cell_production_telephones
+		pm_robot_assembly_telephones
+		pm_ai_production_telephones
+	}
+}
+
+#####家具工場
+#家具製造
+pmg_furniture = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_wooden_furniture
+		pm_metal_furniture
+		pm_plastic_furniture
+		pm_pine_furniture
+	}
+}
+
+#製造管理（家具工場）
+pmg_manufacturing_management_furniture = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_manual_assembly
+		pm_batch_production_furniture
+		pm_flow_production_furniture
+		pm_cell_production_furniture
+		pm_robot_assembly_furniture
+		pm_ai_production_furniture
+	}
+}
+
+#####注文家具工場
+#注文家具製造
+pmg_order_furniture = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_classic_style
+		pm_japanese_style
+		pm_modern_style
+		pm_modern_art_style
+	}
+}
+
+#製造管理（注文家具工場）
+pmg_manufacturing_management_order_furniture = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_manual_assembly
+		pm_batch_production_luxury_furniture
+		pm_flow_production_luxury_furniture
+		pm_cell_production_luxury_furniture
+		pm_robot_assembly_luxury_furniture
+		pm_ai_production_luxury_furniture
+	}
+}
+
+#####化学繊維工場
+#化学繊維製造
+pmg_chemical_fiber = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_polyester
+		pm_nylon
+		pm_carbon_fiber
+		pm_highlact
+	}
+}
+
+#製造管理（化学繊維工場）
+pmg_manufacturing_management_chemical_fiber = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_manual_assembly
+		pm_batch_production_fabric
+		pm_flow_production_fabric
+		pm_cell_production_fabric
+		pm_robot_assembly_fabric
+		pm_ai_production_fabric
+	}
+}
+
+#####服飾工場
+#服飾製造
+pmg_clothes = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_womens_standard_clothes
+		pm_japanese_tailoring
+		pm_post_modern
+		pm_universal_design
+	}
+}
+
+#製造管理（服飾工場）
+pmg_manufacturing_management_clothes = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_manual_assembly
+		pm_batch_production_clothes
+		pm_flow_production_clothes
+		pm_cell_production_clothes
+		pm_robot_assembly_clothes
+		pm_ai_production_clothes
+	}
+}
+
+#####高級服飾工場 
+#高級服飾製造
+pmg_order_clothes = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_western_tailoring
+		pm_haute_couture
+		pm_high_fashion
+		pm_avant_garde_design
+	}
+}
+
+#製造管理（高級服飾工場）
+pmg_manufacturing_management_order_clothes = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_manual_assembly
+		pm_batch_production_luxury_clothes
+		pm_flow_production_luxury_clothes
+		pm_cell_production_luxury_clothes
+		pm_robot_assembly_luxury_clothes
+		pm_ai_production_luxury_clothes
+	}
+}
+
+#####楽器工場
+#楽器製造
+pmg_musical_instruments = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_acoustic_guitar
+		pm_grand_piano
+		pm_electronic_organ
+		pm_dtm_software
+		pm_vocaloid
+	}
+}
+
+#製造管理（楽器工場）
+pmg_manufacturing_management_musical_instruments = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_manual_assembly
+		pm_batch_production_musical_instruments
+		pm_flow_production_musical_instruments
+		pm_cell_production_musical_instruments
+		pm_robot_assembly_musical_instruments
+		pm_ai_production_musical_instruments
+	}
+}
+
+#####セラミックス工場
+#セラミックス製造
+pmg_ceramics = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_pottery
+		pm_porcelain
+		pm_ceramic
+		pm_composite_ceramic
+	}
+}
+
+#製造管理（セラミックス工場）
+pmg_manufacturing_management_ceramics = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_manual_assembly
+		pm_batch_production_porcelain
+		pm_flow_production_porcelain
+		pm_cell_production_porcelain
+		pm_robot_assembly_porcelain
+		pm_ai_production_porcelain
+	}
+}
+
+#####工作機械工場
+#工作機械製造
+pmg_machine_tools = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_simple_tools
+		pm_cutting_tools
+		pm_machine_tools
+		pm_precision_machinery
+	}
+}
+
+#製造管理（工作機械工場）
+pmg_manufacturing_management_machine_tools = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_manual_assembly
+		pm_batch_production_tools
+		pm_flow_production_tools
+		pm_cell_production_tools
+		pm_robot_assembly_tools
+		pm_ai_production_tools
+	}
+}
+
+#####製紙工場
+#製紙製造
+pmg_paper = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_japanese_paper
+		pm_western_paper
+		pm_copy_paper
+		pm_packaging_paper
+	}
+}
+
+#製造管理（製紙工場）
+pmg_manufacturing_management_paper = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_manual_assembly
+		pm_batch_production_paper
+		pm_flow_production_paper
+		pm_cell_production_paper
+		pm_robot_assembly_paper
+		pm_ai_production_paper
+	}
+}
+
+#####ゲーム機工場
+#ゲーム機製造
+pmg_game_consoles = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_arcade_game
+		pm_home_game_console
+		pm_portable_game_console
+		pm_xr_game_console
+		pm_full_dive_vr_game_console
+	}
+}
+
+#製造管理（ゲーム機工場）
+pmg_manufacturing_management_game_consoles = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_manual_assembly
+		pm_batch_production_game_consoles
+		pm_flow_production_game_consoles
+		pm_cell_production_game_consoles
+		pm_robot_assembly_game_consoles
+		pm_ai_production_game_consoles
+	}
+}
+
+#####テレビ工場
+#テレビ製造
+pmg_television = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_monochrome_television
+		pm_color_television
+		pm_digital_television
+		pm_4k_television
+		pm_8k_television
+	}
+}
+
+#製造管理（テレビ工場）
+pmg_manufacturing_management_television = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_manual_assembly
+		pm_batch_production_television
+		pm_flow_production_television
+		pm_cell_production_television
+		pm_robot_assembly_television
+		pm_ai_production_television
+	}
+}
+
+#####洗濯機工場
+#洗濯機製造
+pmg_washing_machine = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_single_tub_washing_machine
+		pm_double_tub_washing_machine
+		pm_fully_automatic_washing_machine
+		pm_washer_dryer
+		pm_ai_washing_machine
+	}
+}
+
+#製造管理（洗濯機工場）
+pmg_manufacturing_management_washing_machine = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_manual_assembly
+		pm_batch_production_washing_machine
+		pm_flow_production_washing_machine
+		pm_cell_production_washing_machine
+		pm_robot_assembly_washing_machine
+		pm_ai_production_washing_machine
+	}
+}
+
+#####冷蔵庫工場
+#冷蔵庫製造
+pmg_refrigerator = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_ice_refrigerator
+		pm_two_door_refrigerator
+		pm_multi_door_refrigerator
+		pm_multi_function_refrigerator
+	}
+}
+
+#製造管理（冷蔵庫工場）
+pmg_manufacturing_management_refrigerator = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_manual_assembly
+		pm_batch_production_refrigerator
+		pm_flow_production_refrigerator
+		pm_cell_production_refrigerator
+		pm_robot_assembly_refrigerator
+		pm_ai_production_refrigerator
+	}
+}
+#####カメラ工場
+#カメラ製造
+pmg_camera = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_silver_halide_camera
+		pm_ae_camera
+		pm_digital_camera
+		pm_mirrorless_camera
+		pm_ai_corrected_camera
+	}
+}
+
+#製造管理（カメラ工場）
+pmg_manufacturing_management_camera = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_manual_assembly
+		pm_batch_production_camera
+		pm_flow_production_camera
+		pm_cell_production_camera
+		pm_robot_assembly_camera
+		pm_ai_production_camera
 	}
 }
