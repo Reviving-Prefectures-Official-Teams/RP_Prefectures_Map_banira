@@ -1,0 +1,99 @@
+﻿######工業######
+###食品加工
+#食品工場
+building_food_industry = {
+	building_group = bg_food_processing
+	texture = "gfx/interface/icons/building_icons/food_industry.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+	}
+
+	production_method_groups = {
+		pmg_wheat_importing
+		pmg_bread
+		pmg_manufacturing_management_bread
+		pmg_transport
+	}
+
+	required_construction = construction_cost_high
+}
+
+#缶詰工場
+building_canning_factories = {
+	building_group = bg_food_processing
+	texture = "gfx/interface/icons/building_icons/canning_factories.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+	}
+
+	production_method_groups = {
+		pmg_fish_canned
+		pmg_meat_canned
+		pmg_vegetable_canned
+		pmg_manufacturing_management_canned
+		pmg_transport
+	}
+	required_construction = construction_cost_low
+}
+
+#飲料工場
+building_drink_factory = {
+	building_group = bg_food_processing
+	texture = "gfx/interface/icons/building_icons/distilleries.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+	}
+
+	production_method_groups = {
+		pmg_juice
+		pmg_caffeine_drink
+		pmg_beer
+		pmg_manufacturing_management_juice
+		pmg_transport
+	}
+
+	required_construction = construction_cost_low
+}
+
+#菓子工場
+building_sweets_factory = {
+	building_group = bg_food_processing
+	texture = "gfx/interface/icons/building_icons/distilleries.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+	}
+
+	production_method_groups = {
+		pmg_sweets
+		pmg_manufacturing_management_sweets
+		pmg_transport
+	}
+
+	required_construction = construction_cost_low
+}
+
+#野菜工場
+building_vegetable_factorys = {
+	building_group = bg_food_processing
+	texture = "gfx/interface/icons/building_icons/vegetable_factorys.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+	}
+
+	production_method_groups = {
+		pmg_vegetable
+		pmg_transport
+	}
+
+	required_construction = construction_cost_low
+}
