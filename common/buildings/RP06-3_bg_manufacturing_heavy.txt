@@ -1,6 +1,6 @@
 ﻿######工業######
 ###重工業
-#化学プラント
+#化成肥料プラント
 building_chemical_plants = {
 	building_group = bg_chemical_industry
 	texture = "gfx/interface/icons/building_icons/chemicals_industry.dds"
@@ -12,9 +12,8 @@ building_chemical_plants = {
 	levels_per_mesh = 5
 
 	production_method_groups = {
-		pmg_fertilizer_production
-		pmg_synthetic_dyes
-		pmg_ownership_capital_building_chemical_plants
+		pmg_chemical_fertilizer
+		pmg_transport
 	}
 
 	required_construction = construction_cost_very_high
@@ -31,96 +30,7 @@ building_chemical_plants = {
 	}
 }
 
-#爆薬工場
-building_explosives_factory = {
-	building_group = bg_chemical_industry
-	texture = "gfx/interface/icons/building_icons/explosives_factory.dds"
-	
-	unlocking_technologies = {
-	}
-	
-	city_type = city
-	levels_per_mesh = 5
-
-	production_method_groups = {
-		pmg_explosives_building_chemical_plants
-		pmg_ownership_capital_building_explosives_factory
-	}
-
-	required_construction = construction_cost_very_high
-
-	possible = {
-		error_check = {
-			severity = fail
-			this = {
-				owner = { 
-					NOT = { has_law = law_type:law_industry_banned } 
-				}
-			}
-		}
-	}
-}
-
-#合成プラント
-building_synthetics_plants = {
-	building_group = bg_chemical_industry
-	texture = "gfx/interface/icons/building_icons/synthetics_plants.dds"
-	city_type = city
-	levels_per_mesh = 5
-	
-	unlocking_technologies = {
-	}
-	
-	production_method_groups = {
-		
-		pmg_ownership_capital_building_synthetics_plants
-	}
-	
-	required_construction = construction_cost_very_high
-
-	possible = {
-		error_check = {
-			severity = fail
-			this = {
-				owner = { 
-					NOT = { has_law = law_type:law_industry_banned } 
-				}
-			}
-		}
-	}
-}
-
-#製薬工場
-building_pharmaceuticals_factory = {
-	building_group = bg_chemical_industry
-	texture = "gfx/interface/icons/building_icons/pharmaceuticals_factory.dds"
-	city_type = city
-	levels_per_mesh = 5
-	
-	unlocking_technologies = {
-	}
-	
-	production_method_groups = {
-		pmg_pharmaceuticals_building_chemical_plants
-		pmg_ownership_capital_building_pharmaceuticals_factory
-	}
-	
-	required_construction = construction_cost_very_high
-
-	possible = {
-		error_check = {
-			severity = fail
-			this = {
-				owner = { 
-					NOT = { has_law = law_type:law_industry_banned } 
-				}
-			}
-		}
-	}
-}
-
-###重工業
-#製鉄所
+#金属加工工場
 building_steel_mills = {
 	building_group = bg_heavy_industry
 	texture = "gfx/interface/icons/building_icons/steel_mills.dds"
@@ -131,10 +41,9 @@ building_steel_mills = {
 	}
 	
 	production_method_groups = {
-		pmg_steelmaking_process
-		pmg_bauxite_process # +アルミニウム -電気・輸送
-		pmg_automation_building_steel_mills
-		pmg_ownership_capital_building_steel_mills
+		pmg_metal_processing
+		pmg_conberting
+		pmg_transport
 	}
 	
 	required_construction = construction_cost_very_high
@@ -151,10 +60,10 @@ building_steel_mills = {
 	}
 }
 
-#エンジン工場
-building_motor_industry = {
+#航空機工場
+building_aircraft_factory = {
 	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/motor_industry.dds"
+	texture = "gfx/interface/icons/building_icons/aircraft_factory.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
@@ -162,10 +71,67 @@ building_motor_industry = {
 	}
 
 	production_method_groups = {
-		pmg_base_building_motor_industry
-		pmg_automobile_production
-		pmg_automation_building_motor_industry
-		pmg_ownership_capital_building_motor_industry
+		pmg_aircraft
+		pmg_manufacturing_management_aircraft
+	}
+	
+	required_construction = construction_cost_very_high
+
+	possible = {
+		error_check = {
+			severity = fail
+			this = {
+				owner = { 
+					NOT = { has_law = law_type:law_industry_banned } 
+				}
+			}
+		}
+	}
+}
+
+#ドローン工場
+building_drone_factory = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/drone_factory.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+	}
+
+	production_method_groups = {
+		pmg_drone
+		pmg_manufacturing_management_drone
+		pmg_transport
+	}
+	
+	required_construction = construction_cost_very_high
+
+	possible = {
+		error_check = {
+			severity = fail
+			this = {
+				owner = { 
+					NOT = { has_law = law_type:law_industry_banned } 
+				}
+			}
+		}
+	}
+}
+
+#合成樹脂プラント
+building_synthetics_plants = {
+	building_group = bg_chemical_industry
+	texture = "gfx/interface/icons/building_icons/synthetics_plants.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+	}
+	
+	production_method_groups = {
+		pmg_synthetic_resin
+		pmg_transport
 	}
 	
 	required_construction = construction_cost_very_high
@@ -193,9 +159,8 @@ building_automobile_factory = {
 	}
 
 	production_method_groups = {
-		pmg_automobile_production
-		pmg_high_end_automobiles
-		pmg_ownership_capital_building_automobile_factory
+		pmg_automobile
+		pmg_manufacturing_management_automobile
 	}
 	
 	required_construction = construction_cost_very_high
@@ -212,7 +177,64 @@ building_automobile_factory = {
 	}
 }
 
-#造船所
+#高級車工場
+building_luxury_automobile_factory = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/luxury_automobile_factory.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+	}
+
+	production_method_groups = {
+		pmg_luxury_automobile
+		pmg_manufacturing_management_luxury_automobile
+	}
+	
+	required_construction = construction_cost_very_high
+
+	possible = {
+		error_check = {
+			severity = fail
+			this = {
+				owner = { 
+					NOT = { has_law = law_type:law_industry_banned } 
+				}
+			}
+		}
+	}
+}
+
+#製薬工場
+building_pharmaceuticals_factory = {
+	building_group = bg_chemical_industry
+	texture = "gfx/interface/icons/building_icons/pharmaceuticals_factory.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+	}
+	
+	production_method_groups = {
+		pmg_medicines
+	}
+	
+	required_construction = construction_cost_very_high
+
+	possible = {
+		error_check = {
+			severity = fail
+			this = {
+				owner = { 
+					NOT = { has_law = law_type:law_industry_banned } 
+				}
+			}
+		}
+	}
+}
+
+#大型造船所
 building_shipyards = {
 	building_group = bg_shipyards
 	texture = "gfx/interface/icons/building_icons/shipyards.dds"
@@ -222,8 +244,7 @@ building_shipyards = {
 	}
 
 	production_method_groups = {
-		pmg_base_building_shipyards
-		pmg_ownership_capital_building_shipyards
+		pmg_large_shipbuilding
 	}
 
 	required_construction = construction_cost_high
@@ -236,19 +257,19 @@ building_shipyards = {
 	}	
 }
 
-#飛行機工場
-building_aircraft_factory = {
-	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/aircraft_factory.dds"
+#合成染料プラント
+building_synthetic_dyes_plants = {
+	building_group = bg_chemical_industry
+	texture = "gfx/interface/icons/building_icons/synthetic_dyes_plants.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
 	unlocking_technologies = {
 	}
-
+	
 	production_method_groups = {
-		pmg_base_building_airplane_factory
-		pmg_ownership_capital_building_aircraft_factory
+		pmg_synthetic_dye
+		pmg_transport
 	}
 	
 	required_construction = construction_cost_very_high
@@ -265,10 +286,10 @@ building_aircraft_factory = {
 	}
 }
 
-#宇宙船工場
-building_spacecraft_factory = {
+#エンジン工場
+building_motor_industry = {
 	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/spacecraft_factory.dds"
+	texture = "gfx/interface/icons/building_icons/motor_industry.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
@@ -276,10 +297,71 @@ building_spacecraft_factory = {
 	}
 
 	production_method_groups = {
-		pmg_base_building_spacecraft_factory
-		pmg_ownership_capital_building_spacecraft_factory
+		pmg_engine
+		pmg_manufacturing_management_engine
+		pmg_transport
 	}
 	
+	required_construction = construction_cost_very_high
+
+	possible = {
+		error_check = {
+			severity = fail
+			this = {
+				owner = { 
+					NOT = { has_law = law_type:law_industry_banned } 
+				}
+			}
+		}
+	}
+}
+
+#ロボット工場
+building_robot_factory = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/robot_factory.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+	}
+
+	production_method_groups = {
+		pmg_robot
+		pmg_manufacturing_management_robot
+		pmg_transport
+	}
+	
+	required_construction = construction_cost_very_high
+
+	possible = {
+		error_check = {
+			severity = fail
+			this = {
+				owner = { 
+					NOT = { has_law = law_type:law_industry_banned } 
+				}
+			}
+		}
+	}
+}
+
+#爆薬工場
+building_explosives_factory = {
+	building_group = bg_chemical_industry
+	texture = "gfx/interface/icons/building_icons/explosives_factory.dds"
+	
+	unlocking_technologies = {
+	}
+	
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_explosive
+		pmg_transport
+	}
+
 	required_construction = construction_cost_very_high
 
 	possible = {
@@ -305,10 +387,37 @@ building_general_constructor_industry = {
 	}
 
 	production_method_groups = {
-		pmg_base_building_construction_industry
-		pmg_automation_building_construction_industry
-		pmg_ownership_capital_building_construction_industry
+		pmg_housing_construction
+		pmg_insulation_material
 	}
 	
 	required_construction = construction_cost_high
 }
+
+#宇宙船工場
+#building_spacecraft_factory = {
+#	building_group = bg_heavy_industry
+#	texture = "gfx/interface/icons/building_icons/spacecraft_factory.dds"
+#	city_type = city
+#	levels_per_mesh = 5
+#	
+#	unlocking_technologies = {
+#
+#	}
+#
+#	production_method_groups = {
+#	}
+#	
+#	required_construction = construction_cost_very_high
+#
+#	possible = {
+#		error_check = {
+#			severity = fail
+#			this = {
+#				owner = { 
+#					NOT = { has_law = law_type:law_industry_banned } 
+#				}
+#			}
+#		}
+#	}
+#}

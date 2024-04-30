@@ -1,7 +1,7 @@
 ﻿POPS = {
 	#合衆国軍
 	s:STATE_OGASAWARA = { #600 + y500
-		region_state:USR = {
+		region_state:USB = {
 			create_pop = {
 				culture = ogasawara
 				size = 510
@@ -25,7 +25,7 @@
 		}
 	}
 	s:STATE_KAZANRETTO = { #y500
-		region_state:USR = {
+		region_state:USB = {
 			create_pop = {
 				culture = yankee
 				size = 500
