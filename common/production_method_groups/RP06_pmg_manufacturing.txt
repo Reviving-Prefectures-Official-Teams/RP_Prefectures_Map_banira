@@ -1,4 +1,5 @@
-﻿#####パン工場#####
+﻿#=============================食品産業==============================
+#####パン工場#####
 #小麦輸入
 pmg_wheat_importing = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
@@ -144,6 +145,8 @@ pmg_vegetable = {
 		pm_robot_management
 	}
 }
+
+#=============================軽工業==============================
 
 #####ガラス工場
 #ガラス生産
@@ -572,5 +575,277 @@ pmg_manufacturing_management_camera = {
 		pm_cell_production_camera
 		pm_robot_assembly_camera
 		pm_ai_production_camera
+	}
+}
+
+#=============================重工業==============================
+#####化成肥料プラント
+#肥料合成
+pmg_chemical_fertilizer = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_lime
+		pm_ammonium_sulfide
+		pm_urea
+		pm_npk_fertilizer
+	}
+}
+
+#####金属加工工場
+#製鋼
+pmg_metal_processing = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_open_hearth_furnace_method
+		pm_arc_furnace_method
+		pm_induction_furnace_method
+		pm_electric_arc_furnace_method
+	}
+}
+
+#転炉
+pmg_conberting = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_unproducing
+		pm_ld_converting
+		pm_oxygen_bottom_blowing_process
+		pm_oxygen_top_and_bottom_blowing_process
+	}
+}
+
+#####航空機工場
+#航空機製造
+pmg_aircraft = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_jet_aircraft
+		pm_turbofan_aircraft
+		pm_hybrid_aircraft
+		pm_flying_car
+	}
+}
+
+#自動製造
+pmg_manufacturing_management_aircraft = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_manual_assembly #tier 0
+		pm_line_production_aircraft #tier 3
+		pm_robot_assembly_aircraft #tier 4
+	}
+}
+
+#####ドローン工場
+#ドローン製造
+pmg_drone = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_multicopter #tier 3
+		pm_camera_drone #tier 4
+	}
+}
+
+#製造管理（ドローン工場）
+pmg_manufacturing_management_drone = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_manual_assembly #tier 0
+		pm_line_production_drone #tier 3
+		pm_robot_assembly_drone #tier 4
+		pm_ai_production_drone
+	}
+}
+
+#####合成樹脂プラント（合成ゴム・合成樹脂・プラスチック）
+#合成樹脂製造
+pmg_synthetic_resin = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_synthetic_rubber #tier 0
+		pm_synthetic_resin #tier 1
+		pm_plastic #tier 2
+		pm_high_performance_plastic #tier 3
+		pm_biodegradable_plastic #tier 4
+	}
+}
+
+#####自動車工場
+#自動車製造
+pmg_automobile = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_automobile #tier 0
+		pm_hybrid_automobile #tier 3
+		pm_fuel_cell_automobile #tier 4
+		pm_autonomous_automobile #tier 5
+	}
+}
+
+#製造管理（自動車工場）
+pmg_manufacturing_management_automobile = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_manual_assembly #tier 0
+		pm_line_production_automobile #tier 1
+		pm_robot_assembly_automobile #tier 3
+		pm_ai_production_automobile #tier 4
+	}
+}
+
+#####高級車工場
+#高級車製造
+pmg_luxury_automobile = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_luxury_automobile #tier 0
+		pm_sports_car #tier 2
+		pm_supercar #tier 3
+		pm_hypercar #tier 4
+	}
+}
+
+#製造管理（高級車工場）
+pmg_manufacturing_management_luxury_automobile = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_manual_assembly #tier 0
+		pm_line_production_luxury_automobile #tier 1
+		pm_robot_assembly_luxury_automobile #tier 3
+		pm_ai_production_luxury_automobile #tier 4
+	}
+}
+
+#####大型造船所
+#造船
+pmg_large_shipbuilding = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_arc_welding_large #tier 0 (~1950)
+		pm_block_construction_large #tier 1 (~1970)
+		pm_semi_automatic_welding_large #tier 2 (~1990)
+		pm_automatic_welding_large #tier 3 (~2010)
+		pm_large_scale_automatic_welding_large #tier 4 (~2030)
+		pm_robot_welding_large #tier 5 (~2050)
+	}
+}
+
+pmg_small_shipbuilding = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_arc_welding_small #tier 0 (~1950)
+		pm_block_construction_small #tier 1 (~1970)
+		pm_semi_automatic_welding_small #tier 2 (~1990)
+		pm_automatic_welding_small #tier 3 (~2010)
+		pm_large_scale_automatic_welding_small #tier 4 (~2030)
+		pm_robot_welding_small #tier 5 (~2050)
+	}
+}
+
+#####合成染料プラント
+#合成染料製造
+pmg_synthetic_dye = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_aniline_dye #tier 0 
+		pm_acid_dye #tier 1
+		pm_disperse_dye
+		pm_reactive_dye
+	}
+}
+
+#####エンジン工場（車・農機具用内燃機関）
+#エンジン製造
+pmg_engine = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_gasoline_engine
+		pm_diesel_engine
+		pm_turbine_engine
+		pm_fuel_cell_engine
+	}
+}
+
+#製造管理（エンジン工場）
+pmg_manufacturing_management_engine = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_manual_assembly
+		pm_batch_production_engine
+		pm_flow_production_engine
+		pm_cell_production_engine
+		pm_robot_assembly_engine
+		pm_ai_production_engine
+	}
+}
+
+#####ロボット工場
+#ロボット製造
+pmg_robot = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_industrial_robot
+		pm_service_robot
+		pm_military_robot
+		pm_ai_robot
+	}
+}
+
+#製造管理（ロボット工場）
+pmg_manufacturing_management_robot = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_manual_assembly
+		pm_batch_production_robot
+		pm_flow_production_robot
+		pm_cell_production_robot
+		pm_robot_assembly_robot
+		pm_ai_production_robot
+	}
+}
+
+#####爆薬工場
+#爆薬製造
+pmg_explosive = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_plastic_explosive #tier 0 (~1950)
+		pm_ammonium_nitrate_explosive #tier 1 (~1970)
+		pm_water_gel_explosive #tier 2 (~1990)
+	}
+}
+
+#####薬剤工場
+#薬剤製造
+pmg_medicines = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_antibiotics #tier 0
+		pm_antiviral_drugs #tier 1
+		pm_cancer_drugs #tier 2
+		pm_regenerative_medicine #tier 3
+	}
+}
+
+#####総合工事産業
+#住宅建設
+pmg_housing_construction = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_traditional_method
+		pm_prefabricated_method
+		pm_conventional_method
+		pm_3d_printing
+	}
+}
+#断熱材
+pmg_insulation_material = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_asbestos
+		pm_rock_wool
+		pm_glass_wool
+		pm_urethane_foam
+		pm_aerogel
 	}
 }

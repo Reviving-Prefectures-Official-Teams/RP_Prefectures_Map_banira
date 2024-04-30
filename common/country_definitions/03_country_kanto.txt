@@ -55,6 +55,7 @@ KNG = {
 	capital = STATE_YOKOHAMA
 }
 
+# 小笠原
 OGS = {
 	color = { 205 255 255 }
 	country_type = recognized
@@ -63,3 +64,11 @@ OGS = {
 	capital = STATE_OGASAWARA
 }
 
+# ボニン
+USB = {
+	color = { 205 255 255 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { ogasawara }
+	capital = STATE_OGASAWARA
+}
