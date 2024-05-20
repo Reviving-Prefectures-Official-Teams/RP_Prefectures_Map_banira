@@ -5,12 +5,12 @@ STATE_IWAKI = {
     arable_land = 60
     arable_resources = { "bg_vineyard_plantations" "bg_vegetable_farms" "bg_cotton_plantations" "bg_rice_farms" "bg_wheat_farms" "bg_maize_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
     capped_resources = {
-        bg_iron_mining = 7   
+        bg_iron_mining = 7
         bg_coal_mining = 24
         bg_minor_metals_mining = 6
         bg_bg_cryptomeria_forest = 20
         bg_chamaecyparis_obtusa_forest = 7
-        bg_bg_castanopsis_forest= 8
+        bg_bg_castanopsis_forest = 8
     }
 }
 STATE_SOSO = {
@@ -65,7 +65,7 @@ STATE_SHIRAKAWA = {
     capped_resources = {
         bg_coal_mining = 17
         bg_cryptomeria_forest = 20
-        bg_castanopsis_forest= 10
+        bg_castanopsis_forest = 10
     }
 }
 STATE_AIZU = {
@@ -109,7 +109,7 @@ STATE_SENNAN = {
     id = 257
     provinces = { "x1CF9EB" "x47E6FC" "x5DC5DD" "x69F3BA" "x76DAEE" "x78F3F4" "x7AF9F4" "x83D0EC" "x84DAF8" "x88FDB0" "x9BB7BA" "x9DD8DA" "xA5ECE5" "xAEC9CF" "xB1EEB4" "xB489EC" "xB5F1A9" "xB6F6E0" "xBAB98C" "xBAE36B" "xBCF262" "xC187B0" "xC1F4EA" "xC2BFF2" "xC883BE" "xCFB3FD" "xCFE6D2" "xD3B59C" "xD695A1" "xD6E560" "xD7C582" "xDA87B0" "xDCE88B" "xDEC968" "xE1BB77" "xE7A2D0" "xE9CCEE" "xEEACE0" "xEF86DB" "xEFF540" "xF4F619" "xF7E4B0" "xF839F2" "xF9BFAA" "xFA6E91" "xFB8B96" "xFF4FFF" }
     arable_land = 30
-    arable_resources = { "bg_vegetable_farms" "bg_tea_plantations" "bg_rice_farms" "bg_wheat_farms"  "bg_maize_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
+    arable_resources = { "bg_vegetable_farms" "bg_tea_plantations" "bg_rice_farms" "bg_wheat_farms" "bg_maize_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
     capped_resources = {
         bg_cryptomeria_forest = 28
         bg_chamaecyparis_obtusa_forest = 2
@@ -193,7 +193,7 @@ STATE_YONEZAWA = {
     id = 264
     provinces = { "x1BE7F3" "x47F9E7" "x72D9CC" "x81C5D5" "x918CDD" "x91A9E5" "x94E2FB" "x99E392" "x9BB5F7" "xA6E0E5" "xA9F3CA" "xB070E5" "xB495F3" "xB4C1BD" "xB789C1" "xB7AEB4" "xB9BBCA" "xB9E5DE" "xBABFE2" "xC7C381" "xD28BE0" "xD397F4" "xD3AFCC" "xD7A6B1" "xDAEF84" "xDCC764" "xDEFCA3" "xE065DB" "xE272E7" "xE37EF3" "xE7B7DC" "xEB86F6" "xEFB4D9" "xF1CDDD" "xF29FE9" "xF4FE9F" "xF5D06A" "xF7A092" "xF8C4F2" "xFAA1BB" "xFEE09B" "xFF8FFF" }
     arable_land = 30
-    arable_resources = { "bg_vineyard_plantations" "bg_orchards" "bg_vegetable_farms" "bg_rice_farms"  "bg_wheat_farms" "bg_maize_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
+    arable_resources = { "bg_vineyard_plantations" "bg_orchards" "bg_vegetable_farms" "bg_rice_farms" "bg_wheat_farms" "bg_maize_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
     capped_resources = {
         bg_coal_mining = 12
         bg_sulfur_mining = 23
@@ -242,7 +242,7 @@ STATE_MORIOKA = {
         bg_cryptomeria_forest = 32
         bg_chamaecyparis_obtusa_forest = 3
         bg_betulaceae_forest = 20
-        bg_castanopsis_forest= 1
+        bg_castanopsis_forest = 1
     }
 }
 STATE_KAMAISHI = {
@@ -257,7 +257,7 @@ STATE_KAMAISHI = {
         bg_asbestos_mining = 22
         bg_cryptomeria_forest = 50
         bg_chamaecyparis_obtusa_forest = 2
-        bg_castanopsis_forest= 3
+        bg_castanopsis_forest = 3
     }
 }
 STATE_HANAMAKI = {
@@ -295,8 +295,8 @@ STATE_AKITA = {
         bg_coal_mining = 22
         bg_lead_mining = 42
         bg_cryptomeria_forest = 32
-        bg_castanopsis_forest= 3
-        bg_castanopsis_forest= 2
+        bg_castanopsis_forest = 3
+        bg_castanopsis_forest = 2
     }
 }
 STATE_YURIHONJYOU = {
@@ -307,7 +307,7 @@ STATE_YURIHONJYOU = {
     capped_resources = {
         bg_coal_mining = 18
         bg_cryptomeria_forest = 20
-        bg_castanopsis_forest= 2
+        bg_castanopsis_forest = 2
     }
 }
 STATE_YOKOTE = {
@@ -321,7 +321,7 @@ STATE_YOKOTE = {
         bg_lead_mining = 6
         bg_minor_metals_mining = 4
         bg_cryptomeria_forest = 50
-        bg_castanopsis_forest= 2
+        bg_castanopsis_forest = 2
     }
 }
 STATE_DAISEN = {
@@ -348,7 +348,7 @@ STATE_OODATE = {
         bg_lead_mining = 62
         bg_minor_metals_mining = 8
         bg_cryptomeria_forest = 40
-        bg_castanopsis_forest= 1
+        bg_castanopsis_forest = 1
     }
 }
 #青森県
@@ -380,12 +380,12 @@ STATE_HIROSAKI = {
     id = 278
     provinces = { "x2FD0C0" "x517B97" "x5FA7F9" "x6D2578" "x75D4E0" "x7CF4E9" "x8EBB92" "x92E39B" "x95E7DF" "x98EBEC" "x9D0F44" "xA739B7" "xB85BBD" "xBFD8C1" "xC4CEBD" "xC976D4" "xCA82CD" "xCBDA86" "xCC1358" "xCE0492" "xD09559" "xD0A7EA" "xE1BA94" "xE2D36F" "xE91665" "xEC3769" "xED2BF6" "xED4182" "xF16E9E" "xF696FE" "xF69FB7" "xF79CAA" "xFB3FC4" }
     arable_land = 70
-    arable_resources = { "bg_vineyard_plantations" "bg_vegetable_farms" "bg_cotton_plantations" "bg_rice_farms" "bg_wheat_farms" "bg_maize_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" } 
+    arable_resources = { "bg_vineyard_plantations" "bg_vegetable_farms" "bg_cotton_plantations" "bg_rice_farms" "bg_wheat_farms" "bg_maize_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
     capped_resources = {
         bg_coal_mining = 8
         bg_cryptomeria_forest = 36
-        
-        
+
+
     }
 }
 STATE_TOWADA = {
