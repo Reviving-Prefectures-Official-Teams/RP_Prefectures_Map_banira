@@ -1,0 +1,336 @@
+﻿
+######工業######
+###軽工業
+#ガラス工場
+building_glassworks = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/glassworks.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+	}
+
+	production_method_groups = {
+		pmg_glass
+		pmg_manufacturing_management_glass
+		pmg_transport
+	}
+	
+	required_construction = construction_cost_high
+}
+
+#コンピュータ工場
+building_computer_factory = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/computer_factory.dds"
+	
+	unlocking_technologies = {
+	}
+
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_computer
+		pmg_manufacturing_management_computer
+		pmg_transport
+	}
+	
+	required_construction = construction_cost_high
+}
+
+#通信機器工場
+building_telecommunication_factory = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/telecommunication_factory.dds"
+	
+	unlocking_technologies = {
+	}
+
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_communication_device
+		pmg_manufacturing_management_communication_device
+		pmg_transport
+	}
+	
+	required_construction = construction_cost_high
+}
+
+#家具工場
+building_furniture_manufacturies = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/furniture_manufacturies.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+	}
+
+	production_method_groups = {
+		pmg_furniture
+		pmg_manufacturing_management_furniture
+		pmg_transport
+	}
+
+	required_construction = construction_cost_high
+}
+
+#注文家具工場
+building_custom_furniture_manufacturies = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_iconscustom_furniture_manufacturies.dds"
+	city_type = city
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+	}
+
+	production_method_groups = {
+		pmg_order_furniture
+		pmg_manufacturing_management_order_furniture
+		pmg_transport
+	}
+
+	required_construction = construction_cost_high
+}
+
+#楽器工場
+building_musical_instrument_manufacturies = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_iconscustom_furniture_manufacturies.dds"
+	city_type = city
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+	}
+
+	production_method_groups = {
+		pmg_musical_instruments
+		pmg_manufacturing_management_musical_instruments
+		pmg_transport
+	}
+
+	required_construction = construction_cost_high
+}
+
+#化学繊維工場
+building_synthetic_fiber_factory = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/synthetic_fiber_factory.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+	}
+
+	production_method_groups = {
+		pmg_chemical_fiber
+		pmg_manufacturing_management_chemical_fiber
+		pmg_transport
+	}
+	
+	required_construction = construction_cost_high
+}
+
+#織物工場
+building_textile_mills = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/textile_industry.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+	}
+
+	production_method_groups = {
+		pmg_clothes
+		pmg_manufacturing_management_clothes
+		pmg_transport
+	}
+	
+	required_construction = construction_cost_high
+}
+
+#注文織物工場
+building_custom_textile_mills = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/textile_industry.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+	}
+
+	production_method_groups = {
+		pmg_order_clothes
+		pmg_manufacturing_management_order_clothes
+		pmg_transport
+	}
+	
+	required_construction = construction_cost_high
+}
+
+#セラミック工場
+building_ceramics_manufacturies = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/pottery_workshops.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+	}
+
+	production_method_groups = {
+		pmg_ceramics
+		pmg_manufacturing_management_ceramics
+		pmg_transport
+	}
+	
+	required_construction = construction_cost_high
+}
+
+#工具工房
+building_tooling_workshops = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/tooling_workshops.dds"
+	
+	unlocking_technologies = {
+	}
+
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_machine_tools
+		pmg_manufacturing_management_machine_tools
+		pmg_transport
+	}
+
+	required_construction = construction_cost_high
+	
+	ai_value = 2000 # Tools are very important
+}
+
+#製紙工場
+building_paper_mills = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/paper_mills.dds"
+	
+	unlocking_technologies = {
+	}
+
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_paper
+		pmg_manufacturing_management_paper
+		pmg_transport
+	}
+	
+	required_construction = construction_cost_high
+}
+
+#ゲーム機工場
+building_game_console_factory = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/game_console_factory.dds"
+	
+	unlocking_technologies = {
+	}
+
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_game_console
+		pmg_manufacturing_management_game_console
+		pmg_transport
+	}
+	
+	required_construction = construction_cost_high
+}
+
+#テレビ工場
+building_television_factory = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/television_factory.dds"
+	
+	unlocking_technologies = {
+	}
+
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_television
+		pmg_manufacturing_management_television
+		pmg_transport
+	}
+	
+	required_construction = construction_cost_high
+}
+
+#洗濯機工場
+building_washing_machine_factory = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/washing_machine_factory.dds"
+	
+	unlocking_technologies = {
+	}
+
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_washing_machine
+		pmg_manufacturing_management_washing_machine
+		pmg_transport
+	}
+	
+	required_construction = construction_cost_high
+}
+
+#冷蔵庫工場
+building_refrigerator_factory = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/refrigerator_factory.dds"
+	
+	unlocking_technologies = {
+	}
+
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_refrigerator
+		pmg_manufacturing_management_refrigerator
+		pmg_transport
+	}
+	
+	required_construction = construction_cost_high
+}
+
+#カメラ工場
+building_camera_factory = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/camera_factory.dds"
+	
+	unlocking_technologies = {
+	}
+
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_camera
+		pmg_manufacturing_management_camera
+		pmg_transport
+	}
+	
+	required_construction = construction_cost_high
+}

@@ -68,3 +68,14 @@ USR = { #琉球列島米国民政府
 	cultures = { yankee }
 	capital = STATE_CHUZAN
 }
+
+USB = { #小笠原
+	color = { 66 94 193 }
+	
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { ogasawara yankee }
+	capital = STATE_OGASAWARA
+}

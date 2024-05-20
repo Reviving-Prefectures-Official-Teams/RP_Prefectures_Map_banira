@@ -1,1 +1,3402 @@
-﻿
+﻿#==========商品リスト==========
+#####食品#####
+#穀物 grain (小麦・米・トウモロコシ等)
+#魚 fish
+#食料品 groceries (加工食品)
+#ビール beer
+#食肉 meat (牛肉・豚肉・鶏肉等)
+#青果 fruit (果物・野菜等)
+#洋酒 liquor (ウイスキー・ブランデー・ワイン等)
+#砂糖 sugar
+#日本酒 sake
+#乳製品 dairy_products (牛乳・チーズ・バター等)
+#飲料 drink (コーヒー・紅茶・ジュース等)
+#菓子 sweets (菓子・チョコレート・スナック等)
+
+#####日用品#####
+#衣類 clothes (標準的な衣類)
+#家具 furniture (標準的な家具)
+#電気 electricity
+#タバコ tobacco
+#書籍 books (書籍・雑誌等)
+#紙 paper (紙・ダンボール等)
+#布 fabric (布・綿・麻・羊毛・合成繊維等)
+
+#####資源・素材#####
+#硫黄 sulfur
+#石炭 coal
+#鉄鉱石 iron (鉄鉱石・錬鉄・銑鉄等)
+#鉛 lead
+#金 gold
+#アスベスト asbestos
+#レアメタル minor_metals (亜鉛・アルミニウム・ニッケル等希少金属)
+#燃油 oil (石油・石炭液化燃料・アルコール燃料等)
+#天然ガス gas (天然ガス・合成ガス等)
+#浄水 water (飲料水・浄水器等)
+#濃縮ウラン uranium (ウラン鉱石・ウラン濃縮物等)
+#硬材 hardwood
+#軟材 wood (軟材・パルプ・木材等)
+#ガラス glass (ガラス・鏡・光学機器等)
+#鋼鉄 steel (鋼鉄・ステンレス鋼等)
+#セラミック porcelain (陶器・磁器・セラミック素材等)
+
+#####工業・化学製品#####
+#発動機 engines (蒸気機関・内燃機関等)
+#工作機械 tools (工具・機械部品・工作機械等)
+#コンピュータ computers (コンピュータ・CPU・メモリ等)
+#ロボット robot (ロボット)
+#通信機器 telephones (電話機・無線機等)
+#カメラ camera (カメラ・ビデオカメラ等)
+#ゲーム機 game_console (ゲーム機・ゲームソフト等)
+#ドローン drones (ドローン・無人機等)
+#家電 home_appliances (テレビ・冷蔵庫・洗濯機等)
+#軍需品 small_arms (戦車・小銃・弾薬・大砲等を含む)
+#航空機 aeroplanes
+#自動車 automobiles (自動車・オートバイ等)
+#大型船舶 tankers (タンカー・貨物船等)
+#肥料 fertilizer (化学肥料・有機肥料等)
+#爆薬 explosives (火薬・爆薬・火工品等)
+#薬剤 medicine (医薬品・薬剤等)
+#染料 dye (天然染料・合成染料)
+#樹脂 rubber (天然ゴム・合成ゴム・プラスチック等)
+
+#####高級品#####
+#美術品 fine_art (絵画・彫刻等)
+#楽器 musical_instruments (楽器・音楽機器等)
+#高級衣類 luxury_clothes (高級衣類)
+#高級家具 luxury_furniture (高級家具)
+#高級車 luxury_cars (高級自動車)
+#高級食品 luxury_food (高級魚・高級肉・高級果物等)
+#宇宙旅行 space_travel (宇宙旅行・宇宙開発等)
+#金融 finance (銀行・証券・保険等)
+
+#####サービス#####
+#都市サービス services (飲食・宿泊・通信等)
+#輸送 transport (鉄道・船舶・航空機等)
+#メディア media (新聞・ラジオ・テレビ等)
+#Web web (インターネット・SNS等)
+#コンテンツ contents (映画・音楽・ゲーム等)
+#医療 medical (病院・医療機器等)
+#旅行 travel (旅行・観光等)
+#建設 construction (建設・不動産等)
+
+#==========生産方式==========
+#####ガラス工場 building_glassworks
+###ガラス生産 
+#フロートガラス
+pm_float_glass = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_coal_add = 5
+			goods_output_glass_add = 20
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 800
+			building_employment_clerks_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#熱反射ガラス
+pm_reflecting_glass = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_coal_add = 10
+			goods_output_glass_add = 45
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 600
+			building_employment_clerks_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#強化ガラス
+pm_tempered_glass = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_coal_add = 15
+			goods_output_glass_add = 75
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 400
+			building_employment_clerks_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
+#防弾ガラス
+pm_bulletproof_glass = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_coal_add = 20
+            goods_output_glass_add = 110
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 200
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+
+###生産自動化
+#バッチ生産方式
+pm_batch_production_glass = { 
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 3
+			
+			goods_input_coal_mult = 0.20
+            goods_output_glass_mult = 0.20
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 400
+			building_employment_engineers_add = 150
+			building_employment_clerks_add = 100
+		}
+	}
+}
+#フロー生産方式
+pm_flow_production_glass = { 
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 4
+			
+			goods_input_coal_mult = 0.40
+            goods_output_glass_mult = 0.40
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 300
+			building_employment_engineers_add = 200
+			building_employment_clerks_add = 100
+		}
+	}
+}
+#セル生産方式
+pm_cell_production_glass = { 
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 5
+			goods_input_electricity_add = 1
+
+			goods_input_coal_mult = 0.60
+            goods_output_glass_mult = 0.60
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 200
+			building_employment_engineers_add = 250
+			building_employment_clerks_add = 100
+		}
+	}
+}
+#ロボット組み立て
+pm_robot_assembly_glass = { 
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 5
+			goods_input_robot_add = 2
+
+			goods_input_coal_mult = 0.80
+            goods_output_glass_mult = 0.80
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 100
+			building_employment_engineers_add = 300
+			building_employment_clerks_add = 100
+		}
+	}
+}
+#AI制御生産
+pm_ai_production_glass = { 
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 7
+			goods_input_robot_add = 3
+			goods_input_web_add = 2
+
+			goods_input_coal_mult = 1.00
+            goods_output_glass_mult = 1.00
+		}
+
+		level_scaled = {
+			building_employment_engineers_add = 400
+			building_employment_clerks_add = 100
+		}
+	}
+}
+
+#####コンピュータ工場 building_computer_factory
+###コンピュータ生産
+#8ビットコンピュータ
+pm_8bit_computer = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_minor_metals_add = 3
+            goods_input_rubber_add = 3
+            goods_output_computer_add = 8
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 800
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#32ビットコンピュータ
+pm_32bit_computer = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_minor_metals_add = 5
+            goods_input_rubber_add = 5
+            goods_output_computer_add = 14
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 600
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#ノートパソコン
+pm_laptop_computer = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_minor_metals_add = 8
+            goods_input_rubber_add = 8
+            goods_output_computer_add = 24
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 400
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#量子コンピュータ
+pm_quantum_computer = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_minor_metals_add = 10
+            goods_input_rubber_add = 10
+            goods_output_computer_add = 32
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 200
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+###生産自動化
+#バッチ生産方式
+pm_batch_production_computer = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 3
+            
+            goods_input_minor_metals_mult = 0.2
+            goods_input_rubber_mult = 0.2
+            goods_output_computer_mult = 0.2
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 400
+            building_employment_engineers_add = 150
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#フロー生産方式
+pm_flow_production_computer = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 4
+            
+            goods_input_minor_metals_mult = 0.4
+            goods_input_rubber_mult = 0.4
+            goods_output_computer_mult = 0.4
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 300
+            building_employment_engineers_add = 200
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#セル生産方式
+pm_cell_production_computer = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 5
+            goods_input_electricity_add = 1
+
+            goods_input_minor_metals_mult = 0.6
+            goods_input_rubber_mult = 0.6
+            goods_output_computer_mult = 0.6
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 200
+            building_employment_engineers_add = 250
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#ロボット組み立て
+pm_robot_assembly_computer = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 5
+            goods_input_robot_add = 2
+
+            goods_input_minor_metals_mult = 0.8
+            goods_input_rubber_mult = 0.8
+            goods_output_computer_mult = 0.8
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 100
+            building_employment_engineers_add = 300
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#AI制御生産
+pm_ai_production_computer = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 7
+            goods_input_robot_add = 3
+            goods_input_web_add = 2
+
+            goods_input_minor_metals_mult = 1.0
+            goods_input_rubber_mult = 1.0
+            goods_output_computer_mult = 1.0
+        }
+
+        level_scaled = {
+            building_employment_engineers_add = 400
+            building_employment_clerks_add = 100
+        }
+    }
+}
+
+#####通信機器工場 building_telecommunication_factory
+###通信機器生産
+#トランジスタラジオ
+pm_transistor_radio = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_minor_metals_add = 5
+            goods_input_rubber_add = 5
+            goods_output_telephones_add = 12
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 800
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#アナログ携帯電話
+pm_analog_mobile_phone = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_minor_metals_add = 5
+            goods_input_rubber_add = 3
+            goods_input_services_add = 2
+            goods_output_telephones_add = 16
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 600
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#ガラパゴスケータイ
+pm_galapagos_mobile_phone = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_minor_metals_add = 5
+            goods_input_rubber_add = 5
+            goods_input_glass_add = 3
+            goods_output_telephones_add = 20
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 400
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#スマートフォン
+pm_smartphone = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_minor_metals_add = 5
+            goods_input_glass_add = 5
+            goods_input_computer_add = 5
+            goods_output_telephones_add = 25
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 200
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#スマートグラス
+pm_smart_glasses = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_minor_metals_add = 8
+            goods_input_glass_add = 8
+            goods_input_computer_add = 6
+            goods_output_telephones_add = 30
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 100
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+###生産自動化
+#バッチ生産方式
+pm_batch_production_telephones = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 3
+            
+            goods_input_minor_metals_mult = 0.2
+            goods_input_rubber_mult = 0.2
+            goods_input_glass_mult = 0.2
+            goods_input_services_mult = 0.2
+            goods_input_computer_add = 0.2
+            goods_output_telephones_add = 0.2
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 400
+            building_employment_engineers_add = 150
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#フロー生産方式
+pm_flow_production_telephones = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 4
+            
+            goods_input_minor_metals_mult = 0.4
+            goods_input_rubber_mult = 0.4
+            goods_input_glass_mult = 0.4
+            goods_input_services_mult = 0.4
+            goods_input_computer_add = 0.4
+            goods_output_telephones_add = 0.4
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 300
+            building_employment_engineers_add = 200
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#セル生産方式
+pm_cell_production_telephones = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 5
+            goods_input_electricity_add = 1
+
+            goods_input_minor_metals_mult = 0.6
+            goods_input_rubber_mult = 0.6
+            goods_input_glass_mult = 0.6
+            goods_input_services_mult = 0.6
+            goods_input_computer_add = 0.6
+            goods_output_telephones_add = 0.6
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 200
+            building_employment_engineers_add = 250
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#ロボット組み立て
+pm_robot_assembly_telephones = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 5
+            goods_input_robot_add = 2
+
+            goods_input_minor_metals_mult = 0.8
+            goods_input_rubber_mult = 0.8
+            goods_input_glass_mult = 0.8
+            goods_input_services_mult = 0.8
+            goods_input_computer_add = 0.8
+            goods_output_telephones_add = 0.8
+        }
+
+        level_scaled = {
+            building_employment_laborers_add = 100
+            building_employment_engineers_add = 300
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#AI制御生産
+pm_ai_production_telephones = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 7
+            goods_input_robot_add = 3
+            goods_input_web_add = 2
+
+            goods_input_minor_metals_mult = 1.0
+            goods_input_rubber_mult = 1.0
+            goods_input_glass_mult = 1.0
+            goods_input_services_mult = 1.0
+            goods_input_computer_add = 1.0
+            goods_output_telephones_add = 1.0
+        }
+
+        level_scaled = {
+            building_employment_engineers_add = 400
+            building_employment_clerks_add = 100
+        }
+    }
+}
+
+#####家具工場 building_furniture_manufacturies
+###家具生産
+#木製家具
+pm_wooden_furniture = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_hardwood_add = 15
+            goods_input_fabric_add = 5
+            goods_output_furniture_add = 30
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 800
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#金属家具
+pm_metal_furniture = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_iron_add = 10
+            goods_input_fabric_add = 5
+            goods_output_furniture_add = 35
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 600
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#プラスチック家具
+pm_plastic_furniture = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_rubber_add = 10
+            goods_input_fabric_add = 5
+            goods_output_furniture_add = 40
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 400
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#パイン材家具
+pm_pine_furniture = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_hardwood_add = 10
+            goods_input_wood_add = 5
+            goods_input_fabric_add = 5
+            goods_output_furniture_add = 40
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 600
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+
+###生産自動化
+#バッチ生産方式
+pm_batch_production_furniture = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 3
+            
+            goods_input_hardwood_mult = 0.20
+            goods_input_wood_mult = 0.20
+            goods_input_fabric_mult = 0.20
+            goods_output_furniture_mult = 0.20
+        }
+        level_scaled = {
+            building_employment_laborers_add = 400
+            building_employment_engineers_add = 150
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#フロー生産方式
+pm_flow_production_furniture = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 4
+            
+            goods_input_hardwood_mult = 0.40
+            goods_input_wood_mult = 0.40
+            goods_input_fabric_mult = 0.40
+            goods_output_furniture_mult = 0.40
+        }
+        level_scaled = {
+            building_employment_laborers_add = 300
+            building_employment_engineers_add = 200
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#セル生産方式
+pm_cell_production_furniture = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 5
+            goods_input_electricity_add = 1
+
+            goods_input_hardwood_mult = 0.60
+            goods_input_wood_mult = 0.60
+            goods_input_fabric_mult = 0.60
+            goods_output_furniture_mult = 0.60
+        }
+        level_scaled = {
+            building_employment_laborers_add = 200
+            building_employment_engineers_add = 250
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#ロボット組み立て
+pm_robot_assembly_furniture = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 5
+            goods_input_robot_add = 2
+
+            goods_input_hardwood_mult = 0.80
+            goods_input_wood_mult = 0.80
+            goods_input_fabric_mult = 0.80
+            goods_output_furniture_mult = 0.80
+        }
+        level_scaled = {
+            building_employment_laborers_add = 100
+            building_employment_engineers_add = 300
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#AI制御生産
+pm_ai_production_furniture = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 7
+            goods_input_robot_add = 3
+            goods_input_web_add = 2
+
+            goods_input_hardwood_mult = 1.00
+            goods_input_wood_mult = 1.00
+            goods_input_fabric_mult = 1.00
+            goods_output_furniture_mult = 1.00
+        }
+        level_scaled = {
+            building_employment_engineers_add = 400
+            building_employment_clerks_add = 100
+        }
+    }
+}
+
+#####注文家具工場 building_custom_furniture_manufacturies
+###高級家具生産
+#クラシックスタイル
+pm_classic_style = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_hardwood_add = 5
+            goods_input_glass_add = 5
+            goods_input_fabric_add = 5
+            goods_output_luxury_furniture_add = 20
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 800
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#和風家具
+pm_japanese_style = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_wood_add = 8
+            goods_input_paper_add = 5
+            goods_input_fabric_add = 5
+            goods_output_luxury_furniture_add = 20
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 600
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#モダンスタイル
+pm_modern_style = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_hardwood_add = 5
+            goods_input_glass_add = 5
+            goods_input_iron_add = 5
+            goods_output_luxury_furniture_add = 20
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 400
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#現代アート風
+pm_modern_art_style = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_hardwood_add = 5
+            goods_input_glass_add = 5
+            goods_input_fine_art_add = 1
+            goods_output_luxury_furniture_add = 20
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 200
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+
+###生産自動化
+#バッチ生産方式
+pm_batch_production_luxury_furniture = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 3
+            
+            goods_input_hardwood_mult = 0.20
+            goods_input_wood_mult = 0.20
+            goods_input_glass_mult = 0.20
+            goods_input_fabric_mult = 0.20
+            goods_input_iron_mult = 0.20
+            goods_input_paper_mult = 0.20
+            goods_input_fine_art_mult = 0.20
+            goods_output_luxury_furniture_mult = 0.20
+        }
+        level_scaled = {
+            building_employment_laborers_add = 400
+            building_employment_engineers_add = 150
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#フロー生産方式
+pm_flow_production_luxury_furniture = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 4
+            
+            goods_input_hardwood_mult = 0.40
+            goods_input_wood_mult = 0.40
+            goods_input_glass_mult = 0.40
+            goods_input_fabric_mult = 0.40
+            goods_input_iron_mult = 0.40
+            goods_input_paper_mult = 0.40
+            goods_input_fine_art_mult = 0.40
+            goods_output_luxury_furniture_mult = 0.40
+        }
+        level_scaled = {
+            building_employment_laborers_add = 300
+            building_employment_engineers_add = 200
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#セル生産方式
+pm_cell_production_luxury_furniture = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 5
+            goods_input_electricity_add = 1
+
+            goods_input_hardwood_mult = 0.60
+            goods_input_wood_mult = 0.60
+            goods_input_glass_mult = 0.60
+            goods_input_fabric_mult = 0.60
+            goods_input_iron_mult = 0.60
+            goods_input_paper_mult = 0.60
+            goods_input_fine_art_mult = 0.60
+            goods_output_luxury_furniture_mult = 0.60
+        }
+        level_scaled = {
+            building_employment_laborers_add = 200
+            building_employment_engineers_add = 250
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#ロボット組み立て
+pm_robot_assembly_luxury_furniture = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 5
+            goods_input_robot_add = 2
+
+            goods_input_hardwood_mult = 0.80
+            goods_input_wood_mult = 0.80
+            goods_input_glass_mult = 0.80
+            goods_input_fabric_mult = 0.80
+            goods_input_iron_mult = 0.80
+            goods_input_paper_mult = 0.80
+            goods_input_fine_art_mult = 0.80
+            goods_output_luxury_furniture_mult = 0.80
+        }
+        level_scaled = {
+            building_employment_laborers_add = 100
+            building_employment_engineers_add = 300
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#AI制御生産
+pm_ai_production_luxury_furniture = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 7
+            goods_input_robot_add = 3
+            goods_input_web_add = 2
+
+            goods_input_hardwood_mult = 1.00
+            goods_input_wood_mult = 1.00
+            goods_input_glass_mult = 1.00
+            goods_input_fabric_mult = 1.00
+            goods_input_iron_mult = 1.00
+            goods_input_paper_mult = 1.00
+            goods_input_fine_art_mult = 1.00
+            goods_output_luxury_furniture_mult = 1.00
+        }
+        level_scaled = {
+            building_employment_engineers_add = 400
+            building_employment_clerks_add = 100
+        }
+    }
+}
+
+#####化学繊維工場 building_synthetic_fiber_factory
+###化学繊維生産
+#ナイロン
+pm_nylon = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_coal_add = 5
+            goods_input_oil_add = 5
+            goods_output_fabric_add = 20
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 800
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#ポリエステル
+pm_polyester = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_oil_add = 10
+            goods_output_fabric_add = 24
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 600
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#炭素繊維
+pm_carbon_fiber = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_coal_add = 8
+            goods_output_fabric_add = 24
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 400
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#ハイラクト
+pm_highlact = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_grain_add = 10
+            goods_output_fabric_add = 24
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 200
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+
+###生産自動化
+#バッチ生産方式
+pm_batch_production_fabric = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 3
+            
+            goods_input_coal_mult = 0.20
+            goods_input_oil_mult = 0.20
+            goods_input_grain_mult = 0.20
+            goods_output_fabric_mult = 0.20
+        }
+        level_scaled = {
+            building_employment_laborers_add = 400
+            building_employment_engineers_add = 150
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#フロー生産方式
+pm_flow_production_fabric = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 4
+            
+            goods_input_coal_mult = 0.40
+            goods_input_oil_mult = 0.40
+            goods_input_grain_mult = 0.40
+            goods_output_fabric_mult = 0.40
+        }
+        level_scaled = {
+            building_employment_laborers_add = 300
+            building_employment_engineers_add = 200
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#セル生産方式
+pm_cell_production_fabric = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 5
+            goods_input_electricity_add = 1
+
+            goods_input_coal_mult = 0.60
+            goods_input_oil_mult = 0.60
+            goods_input_grain_mult = 0.60
+            goods_output_fabric_mult = 0.60
+        }
+        level_scaled = {
+            building_employment_laborers_add = 200
+            building_employment_engineers_add = 250
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#ロボット組み立て
+pm_robot_assembly_fabric = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 5
+            goods_input_robot_add = 2
+
+            goods_input_coal_mult = 0.80
+            goods_input_oil_mult = 0.80
+            goods_input_grain_mult = 0.80
+            goods_output_fabric_mult = 0.80
+        }
+        level_scaled = {
+            building_employment_laborers_add = 100
+            building_employment_engineers_add = 300
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#AI制御生産
+pm_ai_production_fabric = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 7
+            goods_input_robot_add = 3
+            goods_input_web_add = 2
+
+            goods_input_coal_mult = 1.00
+            goods_input_oil_mult = 1.00
+            goods_input_grain_mult = 1.00
+            goods_output_fabric_mult = 1.00
+        }
+        level_scaled = {
+            building_employment_engineers_add = 400
+            building_employment_clerks_add = 100
+        }
+    }
+}
+
+#####服飾工場 building_textile_mills
+###服飾生産
+#婦人標準服
+pm_womens_standard_clothes = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_fabric_add = 20
+            goods_output_clothes_add = 30
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 800
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#和裁
+pm_japanese_tailoring = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_fabric_add = 15
+            goods_input_dye_add = 2
+            goods_output_clothes_add = 30
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 600
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#ポストモダン
+pm_post_modern = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_fabric_add = 5
+            goods_input_rubber_add = 5
+            goods_input_dye_add = 5
+            goods_output_clothes_add = 30
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 400
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#ユニバーサルデザイン
+pm_universal_design = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_fabric_add = 14
+            goods_input_rubber_add = 2
+            goods_input_dye_add = 2
+            goods_output_clothes_add = 30
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 200
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+
+###生産自動化
+#バッチ生産方式
+pm_batch_production_clothes = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 3
+            
+            goods_input_fabric_mult = 0.20
+            goods_input_rubber_mult = 0.20
+            goods_input_dye_mult = 0.20
+            goods_output_clothes_mult = 0.20
+        }
+        level_scaled = {
+            building_employment_laborers_add = 400
+            building_employment_engineers_add = 150
+            building_employment_clerks_add = 100
+        }
+    }
+}  
+#フロー生産方式
+pm_flow_production_clothes = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 4
+            
+            goods_input_fabric_mult = 0.40
+            goods_input_rubber_mult = 0.40
+            goods_input_dye_mult = 0.40
+            goods_output_clothes_mult = 0.40
+        }
+        level_scaled = {
+            building_employment_laborers_add = 300
+            building_employment_engineers_add = 200
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#セル生産方式
+pm_cell_production_clothes = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 5
+            goods_input_electricity_add = 1
+
+            goods_input_fabric_mult = 0.60
+            goods_input_rubber_mult = 0.60
+            goods_input_dye_mult = 0.60
+            goods_output_clothes_mult = 0.60
+        }
+        level_scaled = {
+            building_employment_laborers_add = 200
+            building_employment_engineers_add = 250
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#ロボット組み立て
+pm_robot_assembly_clothes = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 5
+            goods_input_robot_add = 2
+
+            goods_input_fabric_mult = 0.80
+            goods_input_rubber_mult = 0.80
+            goods_input_dye_mult = 0.80
+            goods_output_clothes_mult = 0.80
+        }
+        level_scaled = {
+            building_employment_laborers_add = 100
+            building_employment_engineers_add = 300
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#AI制御生産
+pm_ai_production_clothes = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 7
+            goods_input_robot_add = 3
+            goods_input_web_add = 2
+
+            goods_input_fabric_mult = 1.00
+            goods_input_rubber_mult = 1.00
+            goods_input_dye_mult = 1.00
+            goods_output_clothes_mult = 1.00
+        }
+        level_scaled = {
+            building_employment_engineers_add = 400
+            building_employment_clerks_add = 100
+        }
+    }
+}
+
+#####注文服飾工場 building_custom_textile_mills
+###高級服生産
+#洋裁
+pm_western_tailoring = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_fabric_add = 20
+            goods_input_dye_add = 2
+            goods_output_luxury_clothes_add = 20
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 800
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#オートクチュール
+pm_haute_couture = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_fabric_add = 15
+            goods_input_dye_add = 2
+            goods_input_rubber_add = 2
+            goods_output_luxury_clothes_add = 24
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 600
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#ハイファッション
+pm_high_fashion = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_fabric_add = 5
+            goods_input_rubber_add = 5
+            goods_input_dye_add = 5
+            goods_output_luxury_clothes_add = 27
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 400
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#前衛デザイン
+pm_avant_garde_design = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_fabric_add = 3
+            goods_input_rubber_add = 10
+            goods_input_dye_add = 5
+            goods_output_luxury_clothes_add = 30
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 200
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+
+###生産自動化
+#バッチ生産方式
+pm_batch_production_luxury_clothes = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 3
+            
+            goods_input_fabric_mult = 0.20
+            goods_input_rubber_mult = 0.20
+            goods_input_dye_mult = 0.20
+            goods_output_luxury_clothes_mult = 0.20
+        }
+        level_scaled = {
+            building_employment_laborers_add = 400
+            building_employment_engineers_add = 150
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#フロー生産方式
+pm_flow_production_luxury_clothes = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 4
+            
+            goods_input_fabric_mult = 0.40
+            goods_input_rubber_mult = 0.40
+            goods_input_dye_mult = 0.40
+            goods_output_luxury_clothes_mult = 0.40
+        }
+        level_scaled = {
+            building_employment_laborers_add = 300
+            building_employment_engineers_add = 200
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#セル生産方式
+pm_cell_production_luxury_clothes = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 5
+            goods_input_electricity_add = 1
+
+            goods_input_fabric_mult = 0.60
+            goods_input_rubber_mult = 0.60
+            goods_input_dye_mult = 0.60
+            goods_output_luxury_clothes_mult = 0.60
+        }
+        level_scaled = {
+            building_employment_laborers_add = 200
+            building_employment_engineers_add = 250
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#ロボット組み立て
+pm_robot_assembly_luxury_clothes = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 5
+            goods_input_robot_add = 2
+
+            goods_input_fabric_mult = 0.80
+            goods_input_rubber_mult = 0.80
+            goods_input_dye_mult = 0.80
+            goods_output_luxury_clothes_mult = 0.80
+        }
+        level_scaled = {
+            building_employment_laborers_add = 100
+            building_employment_engineers_add = 300
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#AI制御生産
+pm_ai_production_luxury_clothes = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 7
+            goods_input_robot_add = 3
+            goods_input_web_add = 2
+
+            goods_input_fabric_mult = 1.00
+            goods_input_rubber_mult = 1.00
+            goods_input_dye_mult = 1.00
+            goods_output_luxury_clothes_mult = 1.00
+        }
+        level_scaled = {
+            building_employment_engineers_add = 400
+            building_employment_clerks_add = 100
+        }
+    }
+}
+
+#####楽器工場 building_musical_instrument_manufacturies
+###楽器生産
+#アコースティックギター
+pm_acoustic_guitar = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_wood_add = 5
+            goods_input_iron_add = 5
+            goods_output_musical_instruments_add = 15
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 800
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#グランドピアノ
+pm_grand_piano = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_hardwood_add = 8
+            goods_input_rubber_add = 1
+            goods_output_musical_instruments_add = 15
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 600
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#電子オルガン
+pm_electronic_organ = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_iron_add = 2
+            goods_input_minor_metals_add = 2
+            goods_input_rubber_add = 5
+            goods_output_musical_instruments_add = 15
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 400
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#DTMソフト
+pm_dtm_software = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 5
+            goods_input_services_add = 2
+            goods_output_musical_instruments_add = 15
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 200
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#ボーカロイド
+pm_vocaloid = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 4
+            goods_input_services_add = 3
+            goods_output_musical_instruments_add = 15
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 200
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+
+###生産自動化
+#バッチ生産方式
+pm_batch_production_musical_instruments = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 3
+            
+            goods_input_wood_mult = 0.20
+            goods_input_hardwood_mult = 0.20
+            goods_input_iron_mult = 0.20
+            goods_input_minor_metals_mult = 0.20
+            goods_input_rubber_mult = 0.20
+            goods_input_services_mult = 0.20
+            goods_output_musical_instruments_mult = 0.20
+        }
+        level_scaled = {
+            building_employment_laborers_add = 400
+            building_employment_engineers_add = 150
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#フロー生産方式
+pm_flow_production_musical_instruments = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 4
+            
+            goods_input_wood_mult = 0.40
+            goods_input_hardwood_mult = 0.40
+            goods_input_iron_mult = 0.40
+            goods_input_minor_metals_mult = 0.40
+            goods_input_rubber_mult = 0.40
+            goods_input_services_mult = 0.40
+            goods_output_musical_instruments_mult = 0.40
+        }
+        level_scaled = {
+            building_employment_laborers_add = 300
+            building_employment_engineers_add = 200
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#セル生産方式
+pm_cell_production_musical_instruments = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 5
+            goods_input_electricity_add = 1
+
+            goods_input_wood_mult = 0.60
+            goods_input_hardwood_mult = 0.60
+            goods_input_iron_mult = 0.60
+            goods_input_minor_metals_mult = 0.60
+            goods_input_rubber_mult = 0.60
+            goods_input_services_mult = 0.60
+            goods_output_musical_instruments_mult = 0.60
+        }
+        level_scaled = {
+            building_employment_laborers_add = 200
+            building_employment_engineers_add = 250
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#ロボット組み立て
+pm_robot_assembly_musical_instruments = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 5
+            goods_input_robot_add = 2
+
+            goods_input_wood_mult = 0.80
+            goods_input_hardwood_mult = 0.80
+            goods_input_iron_mult = 0.80
+            goods_input_minor_metals_mult = 0.80
+            goods_input_rubber_mult = 0.80
+            goods_input_services_mult = 0.80
+            goods_output_musical_instruments_mult = 0.80
+        }
+        level_scaled = {
+            building_employment_laborers_add = 100
+            building_employment_engineers_add = 300
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#AI制御生産
+pm_ai_production_musical_instruments = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 7
+            goods_input_robot_add = 3
+            goods_input_web_add = 2
+
+            goods_input_wood_mult = 1.00
+            goods_input_hardwood_mult = 1.00
+            goods_input_iron_mult = 1.00
+            goods_input_minor_metals_mult = 1.00
+            goods_input_rubber_mult = 1.00
+            goods_input_services_mult = 1.00
+            goods_output_musical_instruments_mult = 1.00
+        }
+        level_scaled = {
+            building_employment_engineers_add = 400
+            building_employment_clerks_add = 100
+        }
+    }
+}
+
+#####セラミックス工場 building_ceramics_manufacturies
+###セラミックス生産
+#陶器
+pm_pottery = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_wood_add = 5
+            goods_output_porcelain_add = 5
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 800
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#磁器
+pm_porcelain = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_wood_add = 5
+            goods_input_dye_add = 1
+            goods_output_porcelain_add = 7
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 600
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#セラミック
+pm_ceramic = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_coal_add = 5
+            goods_input_minor_metals_add = 1
+            goods_output_porcelain_add = 10
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 400
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#複合セラミック
+pm_composite_ceramic = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_coal_add = 5
+            goods_input_rubber_add = 3
+            goods_output_porcelain_add = 12
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 200
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+
+###生産自動化
+#バッチ生産方式
+pm_batch_production_porcelain = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 3
+            
+            goods_input_wood_mult = 0.20
+            goods_input_coal_mult = 0.20
+            goods_input_minor_metals_mult = 0.20
+            goods_input_rubber_mult = 0.20
+            goods_output_porcelain_mult = 0.20
+        }
+        level_scaled = {
+            building_employment_laborers_add = 400
+            building_employment_engineers_add = 150
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#フロー生産方式
+pm_flow_production_porcelain = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 4
+            
+            goods_input_wood_mult = 0.40
+            goods_input_coal_mult = 0.40
+            goods_input_minor_metals_mult = 0.40
+            goods_input_rubber_mult = 0.40
+            goods_output_porcelain_mult = 0.40
+        }
+        level_scaled = {
+            building_employment_laborers_add = 300
+            building_employment_engineers_add = 200
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#セル生産方式
+pm_cell_production_porcelain = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 5
+            goods_input_electricity_add = 1
+
+            goods_input_wood_mult = 0.60
+            goods_input_coal_mult = 0.60
+            goods_input_minor_metals_mult = 0.60
+            goods_input_rubber_mult = 0.60
+            goods_output_porcelain_mult = 0.60
+        }
+        level_scaled = {
+            building_employment_laborers_add = 200
+            building_employment_engineers_add = 250
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#ロボット組み立て
+pm_robot_assembly_porcelain = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 5
+            goods_input_robot_add = 2
+
+            goods_input_wood_mult = 0.80
+            goods_input_coal_mult = 0.80
+            goods_input_minor_metals_mult = 0.80
+            goods_input_rubber_mult = 0.80
+            goods_output_porcelain_mult = 0.80
+        }
+        level_scaled = {
+            building_employment_laborers_add = 100
+            building_employment_engineers_add = 300
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#AI制御生産
+pm_ai_production_porcelain = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 7
+            goods_input_robot_add = 3
+            goods_input_web_add = 2
+
+            goods_input_wood_mult = 1.00
+            goods_input_coal_mult = 1.00
+            goods_input_minor_metals_mult = 1.00
+            goods_input_rubber_mult = 1.00
+            goods_output_porcelain_mult = 1.00
+        }
+        level_scaled = {
+            building_employment_engineers_add = 400
+            building_employment_clerks_add = 100
+        }
+    }
+}
+
+#####工作機械工場 building_tooling_workshops
+###工作機械生産
+#簡単な工具
+pm_simple_tools = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_iron_add = 10
+            goods_input_wood_add = 10
+            goods_output_tools_add = 30
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 800
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#切削工具
+pm_cutting_tools = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_iron_add = 5
+            goods_input_rubber_add = 5
+            goods_input_wood_add = 5
+            goods_output_tools_add = 40
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 600
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#工作機械
+pm_machine_tools = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_iron_add = 5
+            goods_input_engines_add = 2
+            goods_input_wood_add = 5
+            goods_output_tools_add = 30
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 400
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#精密機械
+pm_precision_machinery = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_iron_add = 5
+            goods_input_electricity_add = 5
+            goods_input_porcelein_add = 2
+            goods_output_tools_add = 40
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 200
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+
+###生産自動化
+#バッチ生産方式
+pm_batch_production_tools = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 3
+            
+            goods_input_iron_mult = 0.20
+            goods_input_rubber_mult = 0.20
+            goods_input_wood_mult = 0.20
+            goods_input_engines_mult = 0.20
+            goods_input_electricity_mult = 0.20
+            goods_input_porcelein_mult = 0.20
+            goods_output_tools_mult = 0.20
+        }
+        level_scaled = {
+            building_employment_laborers_add = 400
+            building_employment_engineers_add = 150
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#フロー生産方式
+pm_flow_production_tools = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 4
+            
+            goods_input_iron_mult = 0.40
+            goods_input_rubber_mult = 0.40
+            goods_input_wood_mult = 0.40
+            goods_input_engines_mult = 0.40
+            goods_input_electricity_mult = 0.40
+            goods_input_porcelein_mult = 0.40
+            goods_output_tools_mult = 0.40
+        }
+        level_scaled = {
+            building_employment_laborers_add = 300
+            building_employment_engineers_add = 200
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#セル生産方式
+pm_cell_production_tools = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 5
+            goods_input_electricity_add = 1
+
+            goods_input_iron_mult = 0.60
+            goods_input_rubber_mult = 0.60
+            goods_input_wood_mult = 0.60
+            goods_input_engines_mult = 0.60
+            goods_input_electricity_mult = 0.60
+            goods_input_porcelein_mult = 0.60
+            goods_output_tools_mult = 0.60
+        }
+        level_scaled = {
+            building_employment_laborers_add = 200
+            building_employment_engineers_add = 250
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#ロボット組み立て
+pm_robot_assembly_tools = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 5
+            goods_input_robot_add = 2
+
+            goods_input_iron_mult = 0.80
+            goods_input_rubber_mult = 0.80
+            goods_input_wood_mult = 0.80
+            goods_input_engines_mult = 0.80
+            goods_input_electricity_mult = 0.80
+            goods_input_porcelein_mult = 0.80
+            goods_output_tools_mult = 0.80
+        }
+        level_scaled = {
+            building_employment_laborers_add = 100
+            building_employment_engineers_add = 300
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#AI制御生産
+pm_ai_production_tools = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 7
+            goods_input_robot_add = 3
+            goods_input_web_add = 2
+
+            goods_input_iron_mult = 1.00
+            goods_input_rubber_mult = 1.00
+            goods_input_wood_mult = 1.00
+            goods_input_engines_mult = 1.00
+            goods_input_electricity_mult = 1.00
+            goods_input_porcelein_mult = 1.00
+            goods_output_tools_mult = 1.00
+        }
+        level_scaled = {
+            building_employment_engineers_add = 400
+            building_employment_clerks_add = 100
+        }
+    }
+}
+
+#####製紙工場
+###製紙生産
+#和紙
+pm_japanese_paper = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_wood_add = 10
+            goods_input_water_add = 10
+            goods_output_paper_add = 30
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 800
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#洋紙
+pm_western_paper = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_wood_add = 5
+            goods_input_water_add = 10
+            goods_input_rubber_add = 5
+            goods_output_paper_add = 30
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 600
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#コピー用紙
+pm_copy_paper = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_wood_add = 5
+            goods_input_water_add = 5
+            goods_input_oil_add = 5
+            goods_output_paper_add = 30
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 400
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#包装紙
+pm_packaging_paper = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_wood_add = 3
+            goods_input_water_add = 10
+            goods_input_rubber_add = 3
+            goods_output_paper_add = 30
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 200
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+
+###生産自動化
+#バッチ生産方式
+pm_batch_production_paper = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 3
+            
+            goods_input_wood_mult = 0.20
+            goods_input_water_mult = 0.20
+            goods_input_rubber_mult = 0.20
+            goods_input_oil_mult = 0.20
+            goods_output_paper_mult = 0.20
+        }
+        level_scaled = {
+            building_employment_laborers_add = 400
+            building_employment_engineers_add = 150
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#フロー生産方式
+pm_flow_production_paper = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 4
+            
+            goods_input_wood_mult = 0.40
+            goods_input_water_mult = 0.40
+            goods_input_rubber_mult = 0.40
+            goods_input_oil_mult = 0.40
+            goods_output_paper_mult = 0.40
+        }
+        level_scaled = {
+            building_employment_laborers_add = 300
+            building_employment_engineers_add = 200
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#セル生産方式
+pm_cell_production_paper = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 5
+            goods_input_electricity_add = 1
+
+            goods_input_wood_mult = 0.60
+            goods_input_water_mult = 0.60
+            goods_input_rubber_mult = 0.60
+            goods_input_oil_mult = 0.60
+            goods_output_paper_mult = 0.60
+        }
+        level_scaled = {
+            building_employment_laborers_add = 200
+            building_employment_engineers_add = 250
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#ライン機械化
+pm_line_mechanization_paper = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 5
+            goods_input_robot_add = 2
+
+            goods_input_wood_mult = 0.80
+            goods_input_water_mult = 0.80
+            goods_input_rubber_mult = 0.80
+            goods_input_oil_mult = 0.80
+            goods_output_paper_mult = 0.80
+        }
+        level_scaled = {
+            building_employment_laborers_add = 100
+            building_employment_engineers_add = 300
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#AI制御生産
+pm_ai_production_paper = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 7
+            goods_input_robot_add = 3
+            goods_input_web_add = 2
+
+            goods_input_wood_mult = 1.00
+            goods_input_water_mult = 1.00
+            goods_input_rubber_mult = 1.00
+            goods_input_oil_mult = 1.00
+            goods_output_paper_mult = 1.00
+        }
+        level_scaled = {
+            building_employment_engineers_add = 400
+            building_employment_clerks_add = 100
+        }
+    }
+}
+
+#####ゲーム機工場 building_game_console_factory
+###ゲーム機生産
+#アーケードゲーム
+pm_arcade_game = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_iron_add = 5
+            goods_input_computer_add = 5
+            goods_input_glass_add = 5
+            goods_input_electricity_add = 3
+            goods_output_game_consoles_add = 30
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 800
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#家庭用ゲーム機
+pm_home_game_console = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_iron_add = 5
+            goods_input_computer_add = 5
+            goods_input_electricity_add = 3
+            goods_output_game_consoles_add = 30
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 600
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#携帯型ゲーム機
+pm_portable_game_console = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_rubber_add = 5
+            goods_input_computer_add = 5
+            goods_input_electricity_add = 3
+            goods_output_game_consoles_add = 35
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 400
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#XRゲーム機
+pm_xr_game_console = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_rubber_add = 5
+            goods_input_telephones_add = 5
+            goods_input_electricity_add = 3
+            goods_output_game_consoles_add = 40
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 200
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#フルダイブ型VRゲーム機
+pm_full_dive_vr_game_console = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_rubber_add = 5
+            goods_input_telephones_add = 5
+            goods_input_porcelein_add = 5
+            goods_input_electricity_add = 3
+            goods_output_game_consoles_add = 45
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 200
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+
+###生産自動化
+#バッチ生産方式
+pm_batch_production_game_consoles = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 3
+            
+            goods_input_iron_mult = 0.20
+            goods_input_rubber_mult = 0.20
+            goods_input_computer_mult = 0.20
+            goods_input_glass_mult = 0.20
+            goods_input_telephones_mult = 0.20
+            goods_input_porcelein_mult = 0.20
+            goods_input_electricity_mult = 0.20
+            goods_output_game_consoles_mult = 0.20
+        }
+        level_scaled = {
+            building_employment_laborers_add = 400
+            building_employment_engineers_add = 150
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#フロー生産方式
+pm_flow_production_game_consoles = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 4
+            
+            goods_input_iron_mult = 0.40
+            goods_input_rubber_mult = 0.40
+            goods_input_computer_mult = 0.40
+            goods_input_glass_mult = 0.40
+            goods_input_telephones_mult = 0.40
+            goods_input_porcelein_mult = 0.40
+            goods_input_electricity_mult = 0.40
+            goods_output_game_consoles_mult = 0.40
+        }
+        level_scaled = {
+            building_employment_laborers_add = 300
+            building_employment_engineers_add = 200
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#セル生産方式
+pm_cell_production_game_consoles = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 5
+            goods_input_electricity_add = 1
+
+            goods_input_iron_mult = 0.60
+            goods_input_rubber_mult = 0.60
+            goods_input_computer_mult = 0.60
+            goods_input_glass_mult = 0.60
+            goods_input_telephones_mult = 0.60
+            goods_input_porcelein_mult = 0.60
+            goods_input_electricity_mult = 0.60
+            goods_output_game_consoles_mult = 0.60
+        }
+        level_scaled = {
+            building_employment_laborers_add = 200
+            building_employment_engineers_add = 250
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#ロボット組み立て
+pm_robot_assembly_game_consoles = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 5
+            goods_input_robot_add = 2
+
+            goods_input_iron_mult = 0.80
+            goods_input_rubber_mult = 0.80
+            goods_input_computer_mult = 0.80
+            goods_input_glass_mult = 0.80
+            goods_input_telephones_mult = 0.80
+            goods_input_porcelein_mult = 0.80
+            goods_input_electricity_mult = 0.80
+            goods_output_game_consoles_mult = 0.80
+        }
+        level_scaled = {
+            building_employment_laborers_add = 100
+            building_employment_engineers_add = 300
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#AI制御生産
+pm_ai_production_game_consoles = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 7
+            goods_input_robot_add = 3
+            goods_input_web_add = 2
+
+            goods_input_iron_mult = 1.00
+            goods_input_rubber_mult = 1.00
+            goods_input_computer_mult = 1.00
+            goods_input_glass_mult = 1.00
+            goods_input_telephones_mult = 1.00
+            goods_input_porcelein_mult = 1.00
+            goods_input_electricity_mult = 1.00
+            goods_output_game_consoles_mult = 1.00
+        }
+        level_scaled = {
+            building_employment_engineers_add = 400
+            building_employment_clerks_add = 100
+        }
+    }
+}
+
+#####テレビ工場 building_television_factory
+###テレビ生産
+#モノクロテレビ
+pm_monochrome_television = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_iron_add = 5
+            goods_input_glass_add = 5
+            goods_input_electricity_add = 5
+            goods_output_home_appliances_add = 30
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 800
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#カラーテレビ
+pm_color_television = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_iron_add = 5
+            goods_input_glass_add = 5
+            goods_input_electricity_add = 5
+            goods_input_dye_add = 5
+            goods_output_home_appliances_add = 35
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 600
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#デジタルテレビ
+pm_digital_television = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_iron_add = 5
+            goods_input_glass_add = 5
+            goods_input_electricity_add = 5
+            goods_input_computer_add = 5
+            goods_output_home_appliances_add = 40
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 400
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#4Kテレビ
+pm_4k_television = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_rubber_add = 5
+            goods_input_glass_add = 5
+            goods_input_electricity_add = 5
+            goods_input_computer_add = 5
+            goods_output_home_appliances_add = 45
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 200
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#8Kテレビ
+pm_8k_television = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_rubber_add = 10
+            goods_input_glass_add = 5
+            goods_input_electricity_add = 5
+            goods_input_computer_add = 5
+            goods_output_home_appliances_add = 50
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 200
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+
+###生産自動化
+#バッチ生産方式
+pm_batch_production_television = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 3
+            
+            goods_input_iron_mult = 0.20
+            goods_input_rubber_mult = 0.20
+            goods_input_glass_mult = 0.20
+            goods_input_electricity_mult = 0.20
+            goods_input_dye_mult = 0.20
+            goods_input_computer_mult = 0.20
+            goods_output_home_appliances_mult = 0.20
+        }
+        level_scaled = {
+            building_employment_laborers_add = 400
+            building_employment_engineers_add = 150
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#フロー生産方式
+pm_flow_production_television = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 4
+            
+            goods_input_iron_mult = 0.40
+            goods_input_rubber_mult = 0.40
+            goods_input_glass_mult = 0.40
+            goods_input_electricity_mult = 0.40
+            goods_input_dye_mult = 0.40
+            goods_input_computer_mult = 0.40
+            goods_output_home_appliances_mult = 0.40
+        }
+        level_scaled = {
+            building_employment_laborers_add = 300
+            building_employment_engineers_add = 200
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#セル生産方式
+pm_cell_production_television = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 5
+            goods_input_electricity_add = 1
+
+            goods_input_iron_mult = 0.60
+            goods_input_rubber_mult = 0.60
+            goods_input_glass_mult = 0.60
+            goods_input_electricity_mult = 0.60
+            goods_input_dye_mult = 0.60
+            goods_input_computer_mult = 0.60
+            goods_output_home_appliances_mult = 0.60
+        }
+        level_scaled = {
+            building_employment_laborers_add = 200
+            building_employment_engineers_add = 250
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#ロボット組み立て
+pm_robot_assembly_television = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 5
+            goods_input_robot_add = 2
+
+            goods_input_iron_mult = 0.80
+            goods_input_rubber_mult = 0.80
+            goods_input_glass_mult = 0.80
+            goods_input_electricity_mult = 0.80
+            goods_input_dye_mult = 0.80
+            goods_input_computer_mult = 0.80
+            goods_output_home_appliances_mult = 0.80
+        }
+        level_scaled = {
+            building_employment_laborers_add = 100
+            building_employment_engineers_add = 300
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#AI制御生産
+pm_ai_production_television = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 7
+            goods_input_robot_add = 3
+            goods_input_web_add = 2
+
+            goods_input_iron_mult = 1.00
+            goods_input_rubber_mult = 1.00
+            goods_input_glass_mult = 1.00
+            goods_input_electricity_mult = 1.00
+            goods_input_dye_mult = 1.00
+            goods_input_computer_mult = 1.00
+            goods_output_home_appliances_mult = 1.00
+        }
+        level_scaled = {
+            building_employment_engineers_add = 400
+            building_employment_clerks_add = 100
+        }
+    }
+}
+
+#####洗濯機工場 building_washing_machine_factory
+###洗濯機生産
+#一槽洗濯機
+pm_single_tub_washing_machine = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_rubber_add = 5
+            goods_input_water_add = 5
+            goods_output_home_appliances_add = 20
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 800
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#二槽洗濯機
+pm_double_tub_washing_machine = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_rubber_add = 5
+            goods_input_water_add = 5
+            goods_input_electricity_add = 5
+            goods_output_home_appliances_add = 25
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 600
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#全自動洗濯機
+pm_fully_automatic_washing_machine = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_rubber_add = 2
+            goods_input_water_add = 10
+            goods_input_electricity_add = 5
+            goods_input_computer_add = 5
+            goods_output_home_appliances_add = 30
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 400
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#洗濯乾燥機
+pm_washer_dryer = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_rubber_add = 5
+            goods_input_water_add = 10
+            goods_input_electricity_add = 10
+            goods_input_computer_add = 5
+            goods_output_home_appliances_add = 35
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 200
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#AI洗濯機
+pm_ai_washing_machine = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_rubber_add = 5
+            goods_input_water_add = 10
+            goods_input_electricity_add = 15
+            goods_input_computer_add = 3
+            goods_input_web_add = 3
+            goods_output_home_appliances_add = 40
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 200
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+
+###生産自動化
+#バッチ生産方式
+pm_batch_production_washing_machine = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 3
+            
+            goods_input_rubber_mult = 0.20
+            goods_input_water_mult = 0.20
+            goods_input_electricity_mult = 0.20
+            goods_input_computer_mult = 0.20
+            goods_output_home_appliances_mult = 0.20
+        }
+        level_scaled = {
+            building_employment_laborers_add = 400
+            building_employment_engineers_add = 150
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#フロー生産方式
+pm_flow_production_washing_machine = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 4
+            
+            goods_input_rubber_mult = 0.40
+            goods_input_water_mult = 0.40
+            goods_input_electricity_mult = 0.40
+            goods_input_computer_mult = 0.40
+            goods_output_home_appliances_mult = 0.40
+        }
+        level_scaled = {
+            building_employment_laborers_add = 300
+            building_employment_engineers_add = 200
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#セル生産方式
+pm_cell_production_washing_machine = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 5
+            goods_input_electricity_add = 1
+
+            goods_input_rubber_mult = 0.60
+            goods_input_water_mult = 0.60
+            goods_input_electricity_mult = 0.60
+            goods_input_computer_mult = 0.60
+            goods_output_home_appliances_mult = 0.60
+        }
+        level_scaled = {
+            building_employment_laborers_add = 200
+            building_employment_engineers_add = 250
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#ロボット組み立て
+pm_robot_assembly_washing_machine = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 5
+            goods_input_robot_add = 2
+
+            goods_input_rubber_mult = 0.80
+            goods_input_water_mult = 0.80
+            goods_input_electricity_mult = 0.80
+            goods_input_computer_mult = 0.80
+            goods_output_home_appliances_mult = 0.80
+        }
+        level_scaled = {
+            building_employment_laborers_add = 100
+            building_employment_engineers_add = 300
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#AI制御生産
+pm_ai_production_washing_machine = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 7
+            goods_input_robot_add = 3
+            goods_input_web_add = 2
+
+            goods_input_rubber_mult = 1.00
+            goods_input_water_mult = 1.00
+            goods_input_electricity_mult = 1.00
+            goods_input_computer_mult = 1.00
+            goods_output_home_appliances_mult = 1.00
+        }
+        level_scaled = {
+            building_employment_engineers_add = 400
+            building_employment_clerks_add = 100
+        }
+    }
+}
+
+#####冷蔵庫工場 building_refrigerator_factory
+###冷蔵庫生産
+#氷式冷蔵庫
+pm_ice_refrigerator = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_wood_add = 5
+            goods_input_hardwood_add = 5
+            goods_output_home_appliances_add = 20
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 800
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#2ドア式冷蔵庫
+pm_two_door_refrigerator = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_wood_add = 5
+            goods_input_hardwood_add = 5
+            goods_input_gas_add = 5
+            goods_output_home_appliances_add = 25
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 600
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#マルチドア冷蔵庫
+pm_multi_door_refrigerator = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_wood_add = 5
+            goods_input_hardwood_add = 5
+            goods_input_gas_add = 5
+            goods_input_electricity_add = 5
+            goods_output_home_appliances_add = 30
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 400
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#多機能冷蔵庫
+pm_multi_function_refrigerator = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_wood_add = 5
+            goods_input_hardwood_add = 5
+            goods_input_gas_add = 5
+            goods_input_electricity_add = 5
+            goods_input_computer_add = 5
+            goods_output_home_appliances_add = 35
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 200
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+
+###生産自動化
+#バッチ生産方式
+pm_batch_production_refrigerator = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 3
+            
+            goods_input_wood_mult = 0.20
+            goods_input_hardwood_mult = 0.20
+            goods_input_gas_mult = 0.20
+            goods_input_electricity_mult = 0.20
+            goods_input_computer_mult = 0.20
+            goods_output_home_appliances_mult = 0.20
+        }
+        level_scaled = {
+            building_employment_laborers_add = 400
+            building_employment_engineers_add = 150
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#フロー生産方式
+pm_flow_production_refrigerator = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 4
+            
+            goods_input_wood_mult = 0.40
+            goods_input_hardwood_mult = 0.40
+            goods_input_gas_mult = 0.40
+            goods_input_electricity_mult = 0.40
+            goods_input_computer_mult = 0.40
+            goods_output_home_appliances_mult = 0.40
+        }
+        level_scaled = {
+            building_employment_laborers_add = 300
+            building_employment_engineers_add = 200
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#セル生産方式
+pm_cell_production_refrigerator = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 5
+            goods_input_electricity_add = 1
+
+            goods_input_wood_mult = 0.60
+            goods_input_hardwood_mult = 0.60
+            goods_input_gas_mult = 0.60
+            goods_input_electricity_mult = 0.60
+            goods_input_computer_mult = 0.60
+            goods_output_home_appliances_mult = 0.60
+        }
+        level_scaled = {
+            building_employment_laborers_add = 200
+            building_employment_engineers_add = 250
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#ロボット組み立て
+pm_robot_assembly_refrigerator = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 5
+            goods_input_robot_add = 2
+
+            goods_input_wood_mult = 0.80
+            goods_input_hardwood_mult = 0.80
+            goods_input_gas_mult = 0.80
+            goods_input_electricity_mult = 0.80
+            goods_input_computer_mult = 0.80
+            goods_output_home_appliances_mult = 0.80
+        }
+        level_scaled = {
+            building_employment_laborers_add = 100
+            building_employment_engineers_add = 300
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#AI制御生産
+pm_ai_production_refrigerator = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 7
+            goods_input_robot_add = 3
+            goods_input_web_add = 2
+
+            goods_input_wood_mult = 1.00
+            goods_input_hardwood_mult = 1.00
+            goods_input_gas_mult = 1.00
+            goods_input_electricity_mult = 1.00
+            goods_input_computer_mult = 1.00
+            goods_output_home_appliances_mult = 1.00
+        }
+        level_scaled = {
+            building_employment_engineers_add = 400
+            building_employment_clerks_add = 100
+        }
+    }
+}
+
+#####カメラ工場 building_camera_factory
+###カメラ生産
+#銀塩カメラ
+pm_silver_halide_camera = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_glass_add = 12
+            goods_output_home_appliances_add = 25
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 600
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#AEカメラ
+pm_ae_camera = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_glass_add = 15
+            goods_input_electricity_add = 5
+            goods_output_home_appliances_add = 30
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 400
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#デジタルカメラ
+pm_digital_camera = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_glass_add = 15
+            goods_input_electricity_add = 5
+            goods_input_computer_add = 5
+            goods_output_home_appliances_add = 35
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 200
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#立体カメラレンズ
+pm_mirrorless_camera = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_glass_add = 20
+            goods_input_electricity_add = 5
+            goods_input_computer_add = 5
+            goods_output_home_appliances_add = 40
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 200
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+#AI補正カメラ
+pm_ai_corrected_camera = {
+    texture = "gfx/interface/icons/production_method_icons/"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_glass_add = 20
+            goods_input_electricity_add = 5
+            goods_input_computer_add = 5
+            goods_input_web_add = 5
+            goods_output_home_appliances_add = 45
+        }
+
+        level_scaled = {
+            # employment
+            building_employment_laborers_add = 200
+            building_employment_clerks_add = 100
+            building_employment_engineers_add = 100
+        }
+    }
+}
+
+###生産自動化
+#バッチ生産方式
+pm_batch_production_camera = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 3
+            
+            goods_input_glass_mult = 0.20
+            goods_input_electricity_mult = 0.20
+            goods_input_computer_mult = 0.20
+            goods_output_home_appliances_mult = 0.20
+        }
+        level_scaled = {
+            building_employment_laborers_add = 400
+            building_employment_engineers_add = 150
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#フロー生産方式
+pm_flow_production_camera = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 4
+            
+            goods_input_glass_mult = 0.40
+            goods_input_electricity_mult = 0.40
+            goods_input_computer_mult = 0.40
+            goods_output_home_appliances_mult = 0.40
+        }
+        level_scaled = {
+            building_employment_laborers_add = 300
+            building_employment_engineers_add = 200
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#セル生産方式
+pm_cell_production_camera = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 5
+            goods_input_electricity_add = 1
+
+            goods_input_glass_mult = 0.60
+            goods_input_electricity_mult = 0.60
+            goods_input_computer_mult = 0.60
+            goods_output_home_appliances_mult = 0.60
+        }
+        level_scaled = {
+            building_employment_laborers_add = 200
+            building_employment_engineers_add = 250
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#ロボット組み立て
+pm_robot_assembly_camera = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 5
+            goods_input_robot_add = 2
+
+            goods_input_glass_mult = 0.80
+            goods_input_electricity_mult = 0.80
+            goods_input_computer_mult = 0.80
+            goods_output_home_appliances_mult = 0.80
+        }
+        level_scaled = {
+            building_employment_laborers_add = 100
+            building_employment_engineers_add = 300
+            building_employment_clerks_add = 100
+        }
+    }
+}
+#AI制御生産
+pm_ai_production_camera = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 7
+            goods_input_robot_add = 3
+            goods_input_web_add = 2
+
+            goods_input_glass_mult = 1.00
+            goods_input_electricity_mult = 1.00
+            goods_input_computer_mult = 1.00
+            goods_output_home_appliances_mult = 1.00
+        }
+        level_scaled = {
+            building_employment_engineers_add = 400
+            building_employment_clerks_add = 100
+        }
+    }
+}

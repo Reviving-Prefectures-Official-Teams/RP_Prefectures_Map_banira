@@ -1,5 +1,6 @@
 ﻿#==========農業グループ==========#
 #######穀物農場グループ
+#畑テンプレート "bg_vegetable_farms" "bg_cotton_plantations" "bg_wheat_farms" "bg_rice_farms" "bg_maize_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm"
 bg_agriculture = {
 	category = rural
 

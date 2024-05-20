@@ -480,184 +480,124 @@ goods_output_movie_mult = {
 	good = yes
 	percent = yes
 }
-#web_service ウェブサービス
-goods_input_web_service_add = {
+#web ウェブサービス
+goods_input_web_add = {
 	good = no
 	percent = no
 }
 
-goods_output_web_service_add = {
+goods_output_web_add = {
 	good = yes
 	percent = no
 }
 
-goods_input_web_service_mult = {
+goods_input_web_mult = {
 	good = yes
 	percent = yes
 }
 
-goods_output_web_service_mult = {
+goods_output_web_mult = {
 	good = yes
 	percent = yes
 }
-#music_service 音楽サービス
-goods_input_music_service_add = {
+#medical 医療サービス
+goods_input_medical_add = {
 	good = no
 	percent = no
 }
 
-goods_output_music_service_add = {
+goods_output_medical_add = {
 	good = yes
 	percent = no
 }
 
-goods_input_music_service_mult = {
+goods_input_medical_mult = {
 	good = yes
 	percent = yes
 }
 
-goods_output_music_service_mult = {
+goods_output_medical_mult = {
 	good = yes
 	percent = yes
 }
-#broadcast_service 放送サービス
-goods_input_broadcast_service_add = {
+#finance 金融サービス
+goods_input_finance_add = {
 	good = no
 	percent = no
 }
 
-goods_output_broadcast_service_add = {
+goods_output_finance_add = {
 	good = yes
 	percent = no
 }
 
-goods_input_broadcast_service_mult = {
+goods_input_finance_mult = {
 	good = yes
 	percent = yes
 }
 
-goods_output_broadcast_service_mult = {
+goods_output_finance_mult = {
 	good = yes
 	percent = yes
 }
-#culture_service 文化サービス
-goods_input_culture_service_add = {
+
+#travel 旅行サービス
+goods_input_travel_add = {
 	good = no
 	percent = no
 }
 
-goods_output_culture_service_add = {
+goods_output_travel_add = {
 	good = yes
 	percent = no
 }
 
-goods_input_culture_service_mult = {
+goods_input_travel_mult = {
 	good = yes
 	percent = yes
 }
 
-goods_output_culture_service_mult = {
+goods_output_travel_mult = {
 	good = yes
 	percent = yes
 }
-#medical_service 医療サービス
-goods_input_medical_service_add = {
+#space_travel 宇宙旅行サービス
+goods_input_space_travel_add = {
 	good = no
 	percent = no
 }
 
-goods_output_medical_service_add = {
+goods_output_space_travel_add = {
 	good = yes
 	percent = no
 }
 
-goods_input_medical_service_mult = {
+goods_input_space_travel_mult = {
 	good = yes
 	percent = yes
 }
 
-goods_output_medical_service_mult = {
+goods_output_space_travel_mult = {
 	good = yes
 	percent = yes
 }
-#financial_service 金融サービス
-goods_input_financial_service_add = {
+#construction 建設サービス
+goods_input_construction_add = {
 	good = no
 	percent = no
 }
 
-goods_output_financial_service_add = {
+goods_output_construction_add = {
 	good = yes
 	percent = no
 }
 
-goods_input_financial_service_mult = {
+goods_input_construction_mult = {
 	good = yes
 	percent = yes
 }
 
-goods_output_financial_service_mult = {
-	good = yes
-	percent = yes
-}
-
-#travel_service 旅行サービス
-goods_input_travel_service_add = {
-	good = no
-	percent = no
-}
-
-goods_output_travel_service_add = {
-	good = yes
-	percent = no
-}
-
-goods_input_travel_service_mult = {
-	good = yes
-	percent = yes
-}
-
-goods_output_travel_service_mult = {
-	good = yes
-	percent = yes
-}
-#space_travel_service 宇宙旅行サービス
-goods_input_space_travel_service_add = {
-	good = no
-	percent = no
-}
-
-goods_output_space_travel_service_add = {
-	good = yes
-	percent = no
-}
-
-goods_input_space_travel_service_mult = {
-	good = yes
-	percent = yes
-}
-
-goods_output_space_travel_service_mult = {
-	good = yes
-	percent = yes
-}
-#construction_service 建設サービス
-goods_input_construction_service_add = {
-	good = no
-	percent = no
-}
-
-goods_output_construction_service_add = {
-	good = yes
-	percent = no
-}
-
-goods_input_construction_service_mult = {
-	good = yes
-	percent = yes
-}
-
-goods_output_construction_service_mult = {
+goods_output_construction_mult = {
 	good = yes
 	percent = yes
 }
@@ -765,23 +705,23 @@ goods_output_media_mult = {
 	percent = yes
 }
 
-#content_service コンテンツサービス
-goods_input_content_service_add = {
+#contents コンテンツサービス
+goods_input_contents_add = {
 	good = no
 	percent = no
 }
 
-goods_output_content_service_add = {
+goods_output_contents_add = {
 	good = yes
 	percent = no
 }
 
-goods_input_content_service_mult = {
+goods_input_contents_mult = {
 	good = yes
 	percent = yes
 }
 
-goods_output_content_service_mult = {
+goods_output_contents_mult = {
 	good = yes
 	percent = yes
 }
