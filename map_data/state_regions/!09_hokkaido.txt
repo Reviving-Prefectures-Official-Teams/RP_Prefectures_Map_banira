@@ -1,8 +1,6 @@
 ﻿#北海道
 STATE_HAKODATE = {
     #函館
-STATE_HAKODATE = {
-    #函館
     id = 281
     provinces = { "x1CFDFC" "x44C5F7" "x5AD5E5" "x64E9B0" "x66B1F6" "x6D94F6" "x71F0EC" "x7CD9C9" "x80B4D2" "x818DEC" "x837DFB" "x84CDAA" "x90BEFD" "x93BEEF" "x93CDD6" "x97E885" "x9889DD" "x9CC2D1" "xA7F6D6" "xA9C8E2" "xAAB0A2" "xB0EA96" "xB1CDC0" "xB2B9EC" "xB68BF6" "xBCCCF6" "xBDC6E2" "xBFF5DA" "xC2D6B6" "xC7AEDD" "xC957E8" "xCAFCB8" "xCD72D0" "xCE8D9C" "xD0E55E" "xD1F1E0" "xD29BDE" "xD2A6E2" "xD2F77E" "xD49CA3" "xD4BF6B" "xD8C1F5" "xD8D1AB" "xDB93E3" "xDBBFB0" "xDBF09A" "xE3FBB0" "xE7A277" "xE8F151" "xE9BE6F" "xEACB59" "xEAD776" "xEB2BEE" "xEC89F0" "xF0F564" "xF4B274" "xF6BEF1" "xF8CAA0" "xFA5CB8" }
     arable_land = 80
@@ -17,8 +15,6 @@ STATE_HAKODATE = {
     }
     naval_exit_id = 3055
 }
-STATE_SHIRIBESHI = {
-    #後志
 STATE_SHIRIBESHI = {
     #後志
     id = 282
@@ -39,8 +35,6 @@ STATE_SHIRIBESHI = {
 }
 STATE_IBURI = {
     #胆振
-STATE_IBURI = {
-    #胆振
     id = 283
     provinces = { "x26FDF4" "x34FDF9" "x3CD1FA" "x52D4E1" "x56DAEE" "x58CAEE" "x63F0EE" "x67C6DC" "x69B8F4" "x6DD4CE" "x6ED4EA" "x70FCAA" "x72EFEC" "x74EFBC" "x76FBF5" "x80D3F9" "x84FB9F" "x87EFC0" "x89E7E8" "x89FD8B" "x9396E7" "x94FE86" "x98C8F4" "x98F3B6" "x99FB8E" "x9BCEC4" "xA0A2D0" "xA0B5B2" "xA1B3B6" "xA6D8B8" "xA9C6EE" "xAEDA8C" "xB0EFED" "xB1D47C" "xB473D0" "xB7D38D" "xB9F5D1" "xBA87DA" "xBCCCB7" "xBFA0AA" "xC1C9AD" "xC1E189" "xC3E4D3" "xC4F7F0" "xC577CF" "xC659FB" "xC7BBA5" "xC9ECA8" "xCAADB7" "xCBB3D0" "xCCF3E9" "xCE79DA" "xCEEEAD" "xCFA2DA" "xCFF239" "xD2E1B7" "xD2FB41" "xD498BA" "xD7C2F4" "xD84EDF" "xD887F8" "xD8DCDD" "xD8FA7D" "xDE37EB" "xDEDCC0" "xE0CF80" "xE19BC1" "xE19CA3" "xE244F9" "xE2D07C" "xE3D942" "xE580FD" "xE5CD62" "xE79AC4" "xE7E487" "xE87BD1" "xE8C2CF" "xE8F1DF" "xF1ED46" "xF1F342" "xF28BCA" "xF89DE7" "xF9D280" "xFC47EA" "xFCD74F" "xFF2FBF" "xFF6FBF" "xFFBFBF" "xFFFFBF" }
     arable_land = 90
@@ -59,8 +53,6 @@ STATE_IBURI = {
 }
 STATE_HIDAKA = {
     #日高
-STATE_HIDAKA = {
-    #日高
     id = 284
     provinces = { "x0BFEFE" "x162301" "x5AE0DB" "x68E9C7" "x69DDB9" "x6CD9FD" "x70B4F9" "x89F8FA" "x8DF3DD" "x8E93E2" "x8F93E1" "x8FEEFE" "x91EB79" "x93DDD0" "x96DCFD" "x98F6DE" "x9DC0F6" "xA7F7A5" "xA8D4C0" "xAAA7D7" "xAAB0DF" "xABC6F9" "xBA95DA" "xBCA1E5" "xBCB8FC" "xBEF04D" "xBF98EB" "xBFDCEB" "xC163F0" "xC48FAA" "xC4EAEE" "xC9B7AB" "xCE88D0" "xCE9FD4" "xCEEA5F" "xD19CBA" "xD6BBFD" "xD750F8" "xD7BED6" "xD7DAC2" "xD7F9BA" "xD97E9E" "xD98AAD" "xD9F84F" "xDB4EDC" "xDE9199" "xE5D64C" "xE5ECDF" "xE6AD6D" "xE7F4AA" "xE828E7" "xE945F1" "xEACE97" "xEBC373" "xEBF1FD" "xEC98E0" "xEF55F5" "xF05BDB" "xF3A3D3" "xF3D6D7" "xF48EEE" "xF4D44F" "xF7D666" "xF93FCA" "xF9B0F2" "xFACFE7" "xFFAFBF" "xFFEFBF" }
     arable_land = 40
@@ -75,8 +67,6 @@ STATE_HIDAKA = {
     }
     naval_exit_id = 3053
 }
-STATE_ISHIKARI = {
-    #石狩
 STATE_ISHIKARI = {
     #石狩
     id = 285
@@ -96,8 +86,6 @@ STATE_ISHIKARI = {
 }
 STATE_SORACHI = {
     #空知
-STATE_SORACHI = {
-    #空知
     id = 286
     provinces = { "x46D1EA" "x53F4BB" "x63F7F7" "x6EBDFD" "x6EE7C0" "x77F6B1" "x7CF5B7" "x7ECFE3" "x84B1F7" "x8796F4" "x87EE83" "x91CDAB" "x94D0E9" "x9CE1E5" "x9D91DB" "x9EB8EB" "xA29BEC" "xA2A7EF" "xA2EA9F" "xA3F2ED" "xA6FED5" "xA97EE1" "xABB0F2" "xACE68E" "xAF74F7" "xB4CEED" "xB6FCC1" "xB8D073" "xBAC194" "xBB74F4" "xBB9FD6" "xBBC9C2" "xBBDE9D" "xBDC57C" "xBE8BAD" "xBFB78D" "xBFBF93" "xC0D9A4" "xC194A6" "xC2DDC9" "xC3EBF2" "xC4C8BD" "xC5F485" "xC9AE8C" "xCBA7F8" "xCCADE0" "xCCC8F5" "xCCF171" "xCE2CFD" "xCEB8CE" "xCEF941" "xCFF9B9" "xD0C184" "xD340EE" "xD5B99D" "xD7A3EC" "xD7C7F8" "xD89CEE" "xD972BB" "xD9969A" "xD9F184" "xDA8994" "xDAE7CB" "xDAE9DE" "xDBA57E" "xDBACB8" "xDCC8D3" "xDDF93A" "xDF42E0" "xDF56DF" "xDFE5B9" "xE0B5D2" "xE15BD6" "xE1DA91" "xE1FA2B" "xE2FD58" "xE4A776" "xE5ACDC" "xE6EB5B" "xE945DF" "xEBBD6F" "xEC55DC" "xECBF89" "xEDBCFC" "xEDC19C" "xEE85BC" "xEEC5A7" "xEEFEAE" "xEFB091" "xF07BE8" "xF0DB2C" "xF156F8" "xF2E6A2" "xF59C70" "xF68879" "xF6BDCB" "xF751C7" "xF878D5" "xF9A5F5" "xF9B6D9" "xFA4EC8" "xFAB6DD" "xFB3BF3" "xFCD6E7" "xFCDF56" "xFCFBB6" "xFE53AE" "xFED050" }
     arable_land = 310
@@ -109,8 +97,6 @@ STATE_SORACHI = {
         bg_cryptomeria_forest = 4
     }
 }
-STATE_RUMOI = {
-    #留萌
 STATE_RUMOI = {
     #留萌
     id = 287
@@ -125,8 +111,6 @@ STATE_RUMOI = {
     }
     naval_exit_id = 3046
 }
-STATE_KAMIKAWA = {
-    #上川
 STATE_KAMIKAWA = {
     #上川
     id = 288
@@ -145,8 +129,6 @@ STATE_KAMIKAWA = {
 }
 STATE_TOKACHI = {
     #十勝
-STATE_TOKACHI = {
-    #十勝
     id = 289
     provinces = { "x33F9F3" "x36D7F1" "x3AEED1" "x40F6E3" "x53FCEF" "x5FFDB3" "x62E7E6" "x68FCF0" "x74C9DF" "x75A9D7" "x80D4A4" "x8583F7" "x8AEAFB" "x8EB5DA" "x8FB4D1" "x98D1AC" "x99A9C8" "x9E9EDE" "x9FEE73" "xA296DB" "xA4E0D8" "xABE8DE" "xAE75F5" "xB06CF6" "xB19BD3" "xB884C4" "xBFCACE" "xC2D18B" "xC9F9A2" "xCEF636" "xD069EF" "xD159D4" "xD2CFD2" "xD6E682" "xD79EDB" "xDAC582" "xDBDCBB" "xDBF3ED" "xDFB1C2" "xE1DA41" "xE28BD9" "xE2FAEE" "xE7B0A7" "xE8D4C7" "xEB9C79" "xEBBF4B" "xEBED6A" "xEDABE3" "xF2C67B" "xF4ABEC" "xF4B071" "xF5E32C" "xFADB74" }
     arable_land = 330
@@ -160,8 +142,6 @@ STATE_TOKACHI = {
     }
     naval_exit_id = 3053
 }
-STATE_SOYA = {
-    #宗谷
 STATE_SOYA = {
     #宗谷
     id = 290
@@ -180,8 +160,6 @@ STATE_SOYA = {
 }
 STATE_KUSHIRO = {
     #釧路
-STATE_KUSHIRO = {
-    #釧路
     id = 291
     provinces = { "x3DF7EA" "x49E7F4" "x4CFCE2" "x74E1FD" "x95D1E7" "x97D0FD" "x9DEDE1" "x9DF89C" "xA0A7F1" "xA0E99C" "xA1C7E8" "xA1FDFB" "xA9EAA1" "xAAF658" "xAE6BE9" "xAFFA71" "xB1B0F2" "xB1DABF" "xB3A3C9" "xBB8EC0" "xBCCDFB" "xBEB58E" "xC0C9E1" "xC295F6" "xC2C5B2" "xC3E2E2" "xC9F2AB" "xCBA2EA" "xCE85C5" "xCFD2FE" "xD4DDBE" "xD4E9A9" "xD5948D" "xD97DA0" "xDD49F3" "xDDA794" "xE3E94B" "xE689CE" "xE79BB0" "xE8DF60" "xEDFB63" "xEDFECC" "xEFC44F" "xF0F68A" "xF1AC7C" "xF384B2" "xF3D8B5" "xF48EC2" "xF8D9D8" "xF9F2BA" "xFCFA83" "xFD7DF5" "xFEDB31" "xFEDDFB" }
     arable_land = 230
@@ -195,8 +173,6 @@ STATE_KUSHIRO = {
     }
     naval_exit_id = 3052
 }
-STATE_NEMURO = {
-    #根室
 STATE_NEMURO = {
     #根室
     id = 292
@@ -213,8 +189,6 @@ STATE_NEMURO = {
 }
 STATE_ABASHIRI = {
     #網走
-STATE_ABASHIRI = {
-    #網走
     id = 293
     provinces = { "x45F8CB" "x4EEAE7" "x58F4B3" "x5BE8BC" "x6FC9EA" "x78FBCF" "x82DBA5" "x8CECFD" "x92F78F" "x9AA3C7" "xA1EDD6" "xA58FCB" "xA7CC93" "xB0A3D7" "xBADDD7" "xBD70D5" "xC3B0CE" "xC4F5D2" "xCBEFA6" "xCDECF8" "xCEEAA2" "xD395A0" "xD4AEE1" "xD9A6FE" "xDC91B6" "xDCCD79" "xDDACE9" "xDF30EE" "xDFC7BD" "xEAFD18" "xEB8FEF" "xEF5BDA" "xF173D2" "xF257CF" "xF39ACA" "xF5BDF9" "xFA50CF" "xFDD4D1" }
     arable_land = 90
@@ -228,8 +202,6 @@ STATE_ABASHIRI = {
     }
     naval_exit_id = 3049
 }
-STATE_MONBETSU = {
-    #紋別
 STATE_MONBETSU = {
     #紋別
     id = 294
@@ -249,16 +221,12 @@ STATE_MONBETSU = {
 }
 STATE_ETOROFU = {
     #択捉
-STATE_ETOROFU = {
-    #択捉
     id = 295
     provinces = { "x3EEBE4" "x4DEACB" "x6AA6FD" "x82D1B6" "x8DB8DB" "x9AFA95" "xA2F680" "xB9AEF5" "xB9F77E" "xCE7BEF" "xD7D8C8" "xE2ACCA" "xE2E763" "xE2F5B5" "xE3B9BE" "xEA66C8" "xECE5D2" "xEDEB3B" "xEEE3C7" "xEF4FC4" "xF29EE1" "xF3D0B1" "xF3F090" "xFAEDFB" "xFBC0E4" }
     arable_resources = { "bg_rice_farms" "bg_wheat_farms" "bg_vegetable_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
     capped_resources = {}
     naval_exit_id = 3051
 }
-STATE_HABOMAI = {
-    #歯舞
 STATE_HABOMAI = {
     #歯舞
     id = 296
@@ -269,16 +237,12 @@ STATE_HABOMAI = {
 }
 STATE_KUNASHIRI = {
     #国後
-STATE_KUNASHIRI = {
-    #国後
     id = 297
     provinces = { "x75BDFB" "x7F7FF9" "x82D7EF" "xA5FDD7" "xBAF84B" "xC7EACE" "xCC7CF7" "xCCBCEF" "xD3FE7C" "xD8B37A" "xDC8FFC" "xDEDAE7" "xE883E0" "xF45EEA" "xF8F6E7" }
     arable_resources = { "bg_rice_farms" "bg_wheat_farms" "bg_vegetable_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
     capped_resources = {}
     naval_exit_id = 3050
 }
-STATE_HIYAMA = {
-    #渡島
 STATE_HIYAMA = {
     #渡島
     id = 298
@@ -296,9 +260,6 @@ STATE_HIYAMA = {
     }
     naval_exit_id = 3045
 }
-STATE_OSYAMAMBE = {
-    #長万部
-    id = 299
 STATE_OSYAMAMBE = {
     #長万部
     id = 299
