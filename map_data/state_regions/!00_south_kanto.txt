@@ -32,6 +32,7 @@ STATE_KAWASAKI = {
         bg_geothermal_power_plant = 20
         bg_tidal_power_plant = 20
     }
+    naval_exit_id = 3000
 }
 STATE_YOKOHAMA = {
     id = 330
@@ -43,6 +44,7 @@ STATE_YOKOHAMA = {
         bg_iron_mining = 8
         bg_cryptomeria_forest = 2
     }
+    naval_exit_id = 3000
 }
 STATE_YOKOSUKA = {
     id = 340
@@ -52,6 +54,7 @@ STATE_YOKOSUKA = {
     capped_resources = {
         bg_cryptomeria_forest = 2
     }
+    naval_exit_id = 3000
 }
 STATE_SAGAMIHARA = {
     id = 4
@@ -75,6 +78,7 @@ STATE_SHONAN = {
         bg_chamaecyparis_obtusa_forest = 3
         bg_castanopsis_forest = 2
     }
+    naval_exit_id = 3001
 }
 STATE_ODAWARA = {
     id = 6
@@ -86,6 +90,7 @@ STATE_ODAWARA = {
         bg_betulaceae_forest = 7
         bg_castanopsis_forest = 7
     }
+    naval_exit_id = 3001
 }
 #東京都
 STATE_OKUTAMA = {
@@ -156,6 +161,7 @@ STATE_JONAN = {
     capped_resources = {
 
     }
+    naval_exit_id = 3000
 }
 STATE_CENTER_TOKYO = {
     id = 14
@@ -165,6 +171,7 @@ STATE_CENTER_TOKYO = {
     capped_resources = {
 
     }
+    naval_exit_id = 3000
 }
 STATE_JOTO = {
     id = 15
@@ -174,6 +181,7 @@ STATE_JOTO = {
     capped_resources = {
 
     }
+    naval_exit_id = 3000
 }
 STATE_IZU_ISLAND = {
     id = 16
@@ -183,6 +191,7 @@ STATE_IZU_ISLAND = {
     capped_resources = {
 
     }
+    naval_exit_id = 3001
 }
 STATE_HACHIJO = {
     id = 17
@@ -301,6 +310,7 @@ STATE_NANSO = {
         bg_chamaecyparis_obtusa_forest = 12
         bg_castanopsis_forest = 7
     }
+    naval_exit_id = 3000
 }
 STATE_TOSO = {
     id = 28
@@ -314,6 +324,7 @@ STATE_TOSO = {
         bg_chamaecyparis_obtusa_forest = 14
         bg_castanopsis_forest = 11
     }
+    naval_exit_id = 3000
 }
 STATE_CHIBA = {
     id = 29
@@ -324,6 +335,7 @@ STATE_CHIBA = {
         bg_coal_mining = 4
         bg_castanopsis_forest = 1
     }
+    naval_exit_id = 3000
 }
 STATE_KATSUSHIKA = {
     id = 30
@@ -333,6 +345,7 @@ STATE_KATSUSHIKA = {
     capped_resources = {
         bg_coal_mining = 2
     }
+    naval_exit_id = 3000
 }
 STATE_EAST_KATSUSHIKA = {
     id = 31
@@ -359,6 +372,7 @@ STATE_KUJYUKURI = {
         bg_chamaecyparis_obtusa_forest = 14
         bg_castanopsis_forest = 11
     }
+    naval_exit_id = 3060
 }
 STATE_INBA = {
     id = 33

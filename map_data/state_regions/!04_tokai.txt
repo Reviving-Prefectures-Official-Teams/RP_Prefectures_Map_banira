@@ -6,6 +6,7 @@ STATE_IZU = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3001
 }
 STATE_GOTENBA = {
     id = 91
@@ -14,6 +15,7 @@ STATE_GOTENBA = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3007
 }
 STATE_SIZUOKA = {
     id = 92
@@ -22,6 +24,7 @@ STATE_SIZUOKA = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3007
 }
 STATE_HAMAMATSU = {
     id = 93
@@ -30,6 +33,7 @@ STATE_HAMAMATSU = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3007
 }
 STATE_KAKEGAWA = {
     id = 94
@@ -38,6 +42,7 @@ STATE_KAKEGAWA = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3007
 }
 #愛知県
 STATE_OWARI = {
@@ -47,6 +52,7 @@ STATE_OWARI = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3008
 }
 STATE_NAGOYA = {
     id = 96
@@ -55,6 +61,7 @@ STATE_NAGOYA = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3008
 }
 STATE_TOYOTA = {
     id = 97
@@ -71,6 +78,7 @@ STATE_OKAZAKI = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3008
 }
 STATE_ATSUMI = {
     id = 99
@@ -79,6 +87,7 @@ STATE_ATSUMI = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3008
 }
 STATE_HIGASHIMIKAWA = {
     id = 100
@@ -95,6 +104,7 @@ STATE_CHITA = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3008
 }
 STATE_HIGASHI_OWARI = {
     id = 102

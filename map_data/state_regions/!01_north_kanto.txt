@@ -135,6 +135,7 @@ STATE_ROKKO = {
         bg_castanopsis_forest = 1
         bg_chamaecyparis_obtusa_forest = 3
     }
+    naval_exit_id = 3060
 }
 STATE_HITACHI = {
     id = 46
@@ -146,6 +147,7 @@ STATE_HITACHI = {
         bg_chamaecyparis_obtusa_forest = 14
         bg_cryptomeria_forest = 16
     }
+    naval_exit_id = 3059
 }
 STATE_MITO = {
     id = 47
@@ -159,6 +161,7 @@ STATE_MITO = {
         bg_chamaecyparis_obtusa_forest = 16
         bg_cryptomeria_forest = 12
     }
+    naval_exit_id = 3060
 }
 STATE_RYUUGASAKI = {
     id = 48

@@ -12,6 +12,7 @@ STATE_IWAKI = {
         bg_chamaecyparis_obtusa_forest = 7
         bg_bg_castanopsis_forest = 8
     }
+    naval_exit_id = 3059
 }
 STATE_SOSO = {
     id = 250
@@ -26,6 +27,7 @@ STATE_SOSO = {
         bg_bg_cryptomeria_forest = 21
         bg_chamaecyparis_obtusa_forest = 7
     }
+    naval_exit_id = 3059
 }
 STATE_FUKUSHIMA = {
     id = 251
@@ -104,6 +106,7 @@ STATE_SENDAI = {
         bg_minor_metals_mining = 8
         bg_cryptomeria_forest = 18
     }
+    naval_exit_id = 3058
 }
 STATE_SENNAN = {
     id = 257
@@ -126,6 +129,7 @@ STATE_ISHINOMAKI = {
         bg_cryptomeria_forest = 8
         bg_chamaecyparis_obtusa_forest = 3
     }
+    naval_exit_id = 3058
 }
 STATE_OOSAKI = {
     id = 259
@@ -174,6 +178,7 @@ STATE_KESENNUMA = {
         bg_cryptomeria_forest = 10
         bg_chamaecyparis_obtusa_forest = 3
     }
+    naval_exit_id = 3057
 }
 #山形県 https://www.pref.yamagata.jp/020026/kensei/information/clink.html
 STATE_MURAYAMA = {
@@ -212,6 +217,7 @@ STATE_SYONAI = {
         bg_minor_metals_mining = 4
         bg_cryptomeria_forest = 10
     }
+    naval_exit_id = 3043
 }
 STATE_MOGAMI = {
     id = 266
@@ -244,6 +250,7 @@ STATE_MORIOKA = {
         bg_betulaceae_forest = 20
         bg_castanopsis_forest = 1
     }
+    naval_exit_id = 3057
 }
 STATE_KAMAISHI = {
     id = 268
@@ -259,6 +266,7 @@ STATE_KAMAISHI = {
         bg_chamaecyparis_obtusa_forest = 2
         bg_castanopsis_forest = 3
     }
+    naval_exit_id = 3056
 }
 STATE_HANAMAKI = {
     id = 269
@@ -283,6 +291,7 @@ STATE_KUJI = {
         bg_chamaecyparis_obtusa_forest = 2
         bg_betulaceae_forest = 26
     }
+    naval_exit_id = 3056
 }
 #秋田県
 STATE_AKITA = {
