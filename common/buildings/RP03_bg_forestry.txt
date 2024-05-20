@@ -10,6 +10,7 @@ building_castanopsis_forest = {
 
 	production_method_groups = {
 		pmg_hardwood
+		pmg_charcoal
 		pmg_transport
 	}
 }
@@ -25,6 +26,7 @@ building_betulaceae_forest = {
 
 	production_method_groups = {
 		pmg_hardwood
+		pmg_charcoal
 		pmg_transport
 	}
 }
@@ -40,6 +42,7 @@ building_chamaecyparis_obtusa_forest = {
 
 	production_method_groups = {
 		pmg_softwood
+		pmg_charcoal
 		pmg_carbonized_wood
 		pmg_transport
 	}
@@ -56,6 +59,7 @@ building_cryptomeria_forest = {
 
 	production_method_groups = {
 		pmg_softwood
+		pmg_charcoal
 		pmg_carbonized_wood
 		pmg_transport
 	}

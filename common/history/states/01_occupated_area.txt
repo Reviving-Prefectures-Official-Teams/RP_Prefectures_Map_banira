@@ -3,7 +3,7 @@ STATES = {
 	#米国占領
 	s:STATE_OGASAWARA = {
 		create_state = {
-			country = c:USR
+			country = c:USB
     		owned_provinces = { "x77D4CC" "x77D4CC" "xB3D0F8" "xBBEBB1" "xBDC08F" "xDAE3F4" "xF2E177" }
 		}
 		add_homeland = cu:ogasawara
@@ -11,7 +11,7 @@ STATES = {
 	
 	s:STATE_KAZANRETTO = {
 		create_state = {
-			country = c:USR
+			country = c:USB
     		owned_provinces = { "xA8BB99" "xF6B499" "xFC8388" }
 		}
 		add_homeland = cu:iwo
