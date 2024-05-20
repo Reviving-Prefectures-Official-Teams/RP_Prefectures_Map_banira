@@ -32,6 +32,7 @@ STATE_KAWASAKI = {
         bg_geothermal_power_plant = 20
         bg_tidal_power_plant = 20
     }
+    naval_exit_id = 3000
 }
 STATE_YOKOHAMA = {
     id = 330
@@ -43,21 +44,23 @@ STATE_YOKOHAMA = {
         bg_iron_mining = 8
         bg_cryptomeria_forest = 2
     }
+    naval_exit_id = 3000
 }
 STATE_YOKOSUKA = {
     id = 340
     provinces = { "x8DD6C7" "x8FB7E2" "xFD71DD" }
     arable_land = 20
-    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms"    }
+    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
         bg_cryptomeria_forest = 2
     }
+    naval_exit_id = 3000
 }
 STATE_SAGAMIHARA = {
     id = 4
     provinces = { "x63B0ED" "x74FAA1" "x8E7EEE" "xA2FBF3" "xAE9FB5" "xB0B3E3" "xCCA1A5" "xD39FE6" "xD5A6DF" "xD6B580" "xDEFC3B" "xDEFC3B" "xEDDAC4" "xF9BFEC" "xFEEDB2" }
     arable_land = 80
-    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms"    }
+    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
         bg_cryptomeria_forest = 5
         bg_chamaecyparis_obtusa_forest = 7
@@ -68,13 +71,14 @@ STATE_SHONAN = {
     id = 5
     provinces = { "x61F7B1" "x67C8D8" "x89ADEA" "x8BFCE4" "x97BCEA" "xACB99B" "xB19EC7" "xB7C6CA" "xB8E75C" "xB8E75C" "xB8F54B" "xC17FC5" "xDCEDB8" "xE04EEE" "xE46DE1" "xE4EE7F" "xEF8A81" "xEFB78F" "xF375B9" "xF9F257" }
     arable_land = 45
-    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms"   }
+    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
         bg_coal_mining = 21
         bg_cryptomeria_forest = 3
         bg_chamaecyparis_obtusa_forest = 3
         bg_castanopsis_forest = 2
     }
+    naval_exit_id = 3001
 }
 STATE_ODAWARA = {
     id = 6
@@ -86,13 +90,14 @@ STATE_ODAWARA = {
         bg_betulaceae_forest = 7
         bg_castanopsis_forest = 7
     }
+    naval_exit_id = 3001
 }
 #東京都
 STATE_OKUTAMA = {
     id = 7
     provinces = { "x27F8E2" "x28FAEE" "x78BDEF" "x92ECF7" "xBADDDB" "xCC88A2" "xD79D97" "xDE8D90" "xE0BA8B" "xE16FE4" "xE58CEA" "xE5ABE4" "xE647F2" "xF790BE" "xFF0FBF" "xFF4FBF" }
     arable_land = 60
-    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_vineyard_plantations" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms"  }
+    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_vineyard_plantations" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
         bg_cryptomeria_forest = 12
         bg_chamaecyparis_obtusa_forest = 6
@@ -104,7 +109,7 @@ STATE_SOUTH_TAMA = {
     id = 8
     provinces = { "xBDE1B9" "xD9EA4C" "xE169C0" "xEED259" "xF5F60D" "xF9ED9D" }
     arable_land = 140
-    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_vineyard_plantations" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms"   }
+    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_vineyard_plantations" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
         bg_cryptomeria_forest = 5
         bg_chamaecyparis_obtusa_forest = 5
@@ -115,7 +120,7 @@ STATE_NORTH_TAMA = {
     id = 9
     provinces = { "x22D7FD" "x49C8E5" "x8BF0BF" "xA8E0C6" "xB9B6E5" "xBA49FB" "xBAD4BC" "xC647EB" "xD5D05B" "xDDFB6D" "xE040E1" "xE6F235" "xFB75E9" "xFBDF88" "xFDD59F" }
     arable_land = 80
-    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_vineyard_plantations" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms"   }
+    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_vineyard_plantations" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
         bg_coal_mining = 10
         bg_castanopsis_forest = 2
@@ -125,18 +130,18 @@ STATE_MACHIDA = {
     id = 10
     provinces = { "x75D5AB" "xED7EFA" "xF788AC" }
     arable_land = 30
-    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms"   }
+    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
-       
+
     }
 }
 STATE_JOSAI = {
     id = 11
     provinces = { "x60C6F4" "x719FE7" "x82D9C0" "x9486F8" "xB9CFB4" "xBF55F5" "xC4B7AF" "xC5F4EE" "xCAFBA3" "xD162C3" "xEAE773" "xF1F61C" "xF3E4B4" "xF56BE8" "xFECA8E" }
     arable_land = 70
-    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_vineyard_plantations" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms"  }
+    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_vineyard_plantations" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
-       
+
     }
 }
 STATE_JOHOKU = {
@@ -145,17 +150,18 @@ STATE_JOHOKU = {
     arable_land = 70
     arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_vineyard_plantations" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
-       
+
     }
 }
 STATE_JONAN = {
     id = 13
     provinces = { "x43EDF2" "x8BBAD8" "xABF2BA" "xB1F4A8" "xB54FF5" "xD3F74D" "xE9E8AF" "xEC74B6" }
     arable_land = 70
-    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_vineyard_plantations" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms"  }
+    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_vineyard_plantations" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
-       
+
     }
+    naval_exit_id = 3000
 }
 STATE_CENTER_TOKYO = {
     id = 14
@@ -163,8 +169,9 @@ STATE_CENTER_TOKYO = {
     arable_land = 5
     arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
-       
+
     }
+    naval_exit_id = 3000
 }
 STATE_JOTO = {
     id = 15
@@ -172,8 +179,9 @@ STATE_JOTO = {
     arable_land = 70
     arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_vineyard_plantations" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
-       
+
     }
+    naval_exit_id = 3000
 }
 STATE_IZU_ISLAND = {
     id = 16
@@ -181,8 +189,9 @@ STATE_IZU_ISLAND = {
     arable_land = 50
     arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
-       
+
     }
+    naval_exit_id = 3001
 }
 STATE_HACHIJO = {
     id = 17
@@ -190,7 +199,7 @@ STATE_HACHIJO = {
     arable_land = 50
     arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
-       
+
     }
 }
 STATE_OGASAWARA = {
@@ -199,7 +208,7 @@ STATE_OGASAWARA = {
     arable_land = 70
     arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
-       
+
     }
 }
 STATE_KAZANRETTO = {
@@ -208,7 +217,7 @@ STATE_KAZANRETTO = {
     arable_land = 10
     arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
-       
+
     }
 }
 #埼玉県
@@ -216,7 +225,7 @@ STATE_CHICHIBU = {
     id = 20
     provinces = { "x51EAD4" "x67D5F7" "x6ADAE9" "x74B5FA" "x8A86E5" "x90C2FD" "x946AFA" "x98B7DA" "x9BBFEF" "xA8BADC" "xACB8CC" "xB58FCD" "xB5C2AC" "xBCB4D5" "xC2C4AD" "xC5F143" "xDC8FDD" "xEB3AF3" "xEDD542" "xF661AA" "xF6E722" "xF7B9C9" "xFCC572" }
     arable_land = 60
-    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_vineyard_plantations" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms"  }
+    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_vineyard_plantations" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
         bg_iron_mining = 80
         bg_iron_mining = 20
@@ -231,7 +240,7 @@ STATE_KODAMA_OSATO = {
     id = 21
     provinces = { "x7BAAF4" "x80A1DD" "xA7D975" "xB6F9FB" "xBFA1BC" "xC3EBDE" "xCE54F5" "xCFD795" "xCFEAC8" "xE288F7" "xEAC1A3" "xF262F8" "xF724E5" }
     arable_land = 80
-    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms"  }
+    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
         bg_coal_mining = 6
         bg_cryptomeria_forest = 11
@@ -243,7 +252,7 @@ STATE_HIKI = {
     id = 22
     provinces = { "x63F5A9" "x91C4EA" "x95C0AC" "xACB7BD" "xACB7BD" "xACB7BD" "xACB7BD" "xB363DF" "xC8BCA8" "xD6ECF7" "xDDEFBE" "xE1F24A" "xE6E462" "xFB92BF" "xFD6F8C" }
     arable_land = 60
-    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms"   }
+    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
         bg_cryptomeria_forest = 3
         bg_chamaecyparis_obtusa_forest = 3
@@ -254,7 +263,7 @@ STATE_IRUMA = {
     id = 23
     provinces = { "x79B4C9" "x81F5F4" "x84BED9" "x89C1C3" "x9EFCA8" "xA2D492" "xA490DE" "xADD3B9" "xADD3B9" "xBB60F1" "xC0E5BB" "xC0E5BB" "xC1E6AD" "xC2BEA6" "xC3A39E" "xC5CEC4" "xC771C3" "xD0ADA2" "xD0BDE8" "xD180D1" "xD186AF" "xD1AEB0" "xD4C690" "xD53AFD" "xD870BE" "xDAE0DD" "xDC9D95" "xE1BC79" "xE3D5E8" "xE591C3" "xE9DA66" "xEDA368" "xEE78C9" "xEEA2B3" "xEFAADB" "xF666B6" "xF68DA2" "xF6CD3E" "xF778BA" "xF9F18B" "xFACAD8" }
     arable_land = 80
-    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms"   }
+    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
         bg_coal_mining = 4
         bg_chamaecyparis_obtusa_forest = 2
@@ -265,7 +274,7 @@ STATE_SAITAMA = {
     id = 24
     provinces = { "x2CF9D5" "x41F8C2" "x71C5F1" "x89CDE2" "x8DF5C1" "x94F877" "x9EB9D3" "xA7F5E9" "xACCAEF" "xB271EB" "xB8F8D3" "xC393E1" "xC5F2D3" "xD7B7BD" "xDFFC8D" "xE59ED5" "xEA41D3" "xF25FB7" "xF3BF64" "xF755DE" "xFA58B6" "xFAC0FE" }
     arable_land = 135
-    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms"  }
+    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
         bg_coal_mining = 8
     }
@@ -274,7 +283,7 @@ STATE_NORTH_KATSUSHIKA = {
     id = 25
     provinces = { "x5EB1E9" "x62F6B8" "x78A3DC" "x78FDA8" "x7C97E6" "x8BBAB7" "x9EA0CC" "xAAE4C1" "xB58BFE" "xB8EE9A" "xC7F061" "xCDD5D9" "xD2AC8D" "xDF5EEF" "xF855B5" "xF9EEAA" "xFBE591" "xFC78E3" }
     arable_land = 60
-    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms"  }
+    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
         bg_coal_mining = 6
     }
@@ -283,7 +292,7 @@ STATE_TONE = {
     id = 26
     provinces = { "x58F8D2" "x66E7B9" "x72D2D6" "x75D5CE" "x81DDE0" "x83F97A" "x8F7DEE" "xA1F5CD" "xA4CFCD" "xA7EAF4" "xA8F3A4" "xB2EAD1" "xC09EDE" "xC3E9A8" "xC5E18E" "xCBF734" "xCD6CE6" "xCD9EEC" "xCDF088" "xD1ED6E" "xD2FBF3" "xD6CD73" "xE4F0A6" "xEB7896" "xEDF0B4" "xEFB59B" "xF067F7" "xF067F7" "xF2D79B" "xF526ED" "xF6F96D" "xF758E0" "xFB26E1" "xFD8992" "xFDF2F1" }
     arable_land = 60
-    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms"  }
+    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
         bg_coal_mining = 6
     }
@@ -293,20 +302,21 @@ STATE_NANSO = {
     id = 27
     provinces = { "x7FCDC8" "x8DDBE5" "x9BE2A8" "xA3C1BC" "xA7D0DF" "xAF86D5" "xBCEAA3" "xBD79E7" "xBE8BDE" "xC370DD" "xC5E2B3" "xC5E84A" "xCE91FE" "xD474C7" "xD5FB5F" "xD679C6" "xE0BFD1" "xE2A0F8" "xE3A8D8" "xE4FE4D" "xE7FC2C" "xECFDD5" "xF19F95" "xF96AC3" "xF9C4E9" "xFB9996" }
     arable_land = 78
-    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_orchards" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms"  }
+    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_orchards" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
         bg_coal_mining = 26
-        bg_sulfur_mining =62
+        bg_sulfur_mining = 62
         bg_cryptomeria_forest = 12
         bg_chamaecyparis_obtusa_forest = 12
         bg_castanopsis_forest = 7
     }
+    naval_exit_id = 3000
 }
 STATE_TOSO = {
     id = 28
     provinces = { "x62E9E8" "x63C8E2" "x7DE8AD" "x7EFE8F" "x7FB5E5" "x89EAD8" "x8AF8C5" "x9280F3" "xA4A5B9" "xB6EB97" "xB760F1" "xBFE7C5" "xCD80B6" "xCFE85E" "xD5F9D8" "xD9CDDA" "xE067DE" "xE47ACD" "xE5AA9A" "xE9A879" "xEFC861" "xF060DC" "xF0BCC7" "xF197E0" "xF5AF73" "xF641D0" "xFB81CC" "xFCD8CF" }
     arable_land = 50
-    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_orchards" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms"   }
+    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_orchards" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
         bg_coal_mining = 6
         bg_iron_mining = 14
@@ -314,31 +324,34 @@ STATE_TOSO = {
         bg_chamaecyparis_obtusa_forest = 14
         bg_castanopsis_forest = 11
     }
+    naval_exit_id = 3000
 }
 STATE_CHIBA = {
     id = 29
     provinces = { "x33E6E0" "x53B3FB" "x5BF6E5" "x94E5EE" "x998EEE" "xC480C0" "xD1C3AF" "xDBA09F" "xE1E6B3" "xE535DF" "xEBB5F3" "xEBBEAB" "xF7D3F6" }
     arable_land = 90
-    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms"  }
+    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
         bg_coal_mining = 4
         bg_castanopsis_forest = 1
     }
+    naval_exit_id = 3000
 }
 STATE_KATSUSHIKA = {
     id = 30
     provinces = { "x22E4F4" "x61E2DD" "x6CBBD9" "x9CB4EB" "xA491F9" "xA5BACC" "xB2AF9E" "xBED280" "xBFEB84" "xC5F1D6" "xCCE493" "xD7958D" "xDBF536" "xDD9CAD" "xE6C95E" "xF2E125" "xFAAED0" }
     arable_land = 110
-    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms"  }
+    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
         bg_coal_mining = 2
     }
+    naval_exit_id = 3000
 }
 STATE_EAST_KATSUSHIKA = {
     id = 31
     provinces = { "x43E3E0" "x59FCE0" "x61F9D4" "x6AB6F9" "x74F9A8" "x8BD8A9" "xA3DB90" "xAFCFE8" "xB2FA5F" "xB488E7" "xB65BEA" "xC4F3C4" "xC8AAF2" "xCDEED3" "xD673E1" "xDC73BC" "xE2B675" "xEBF4B7" "xEF38CE" "xEF88F1" "xF0898B" "xF6839D" }
     arable_land = 50
-    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms"  }
+    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
         bg_coal_mining = 8
         bg_iron_mining = 12
@@ -350,21 +363,22 @@ STATE_KUJYUKURI = {
     id = 32
     provinces = { "x000000" "x37DDE2" "x64C5EC" "x64CECA" "x65ECDF" "x7CE8A3" "x7CE8A3" "x82DDCD" "x8DF7AA" "x94BDF4" "x94D0C0" "xA5C29F" "xAFD1C5" "xB2C7DA" "xB694F4" "xBD46FC" "xBDC9CB" "xBDE185" "xC0B1A6" "xC2D488" "xCAB4B1" "xD563D6" "xE2F473" "xE450FB" "xE5E6CB" "xE6A8FC" "xECDAB5" "xF0F753" "xF5987E" "xF8FB48" "xFBE6F2" "xFCE28F" }
     arable_land = 150
-    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms"   }
+    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
         bg_coal_mining = 4
         bg_iron_mining = 24
-        bg_sulfur_mining =110
+        bg_sulfur_mining = 110
         bg_cryptomeria_forest = 2
         bg_chamaecyparis_obtusa_forest = 14
         bg_castanopsis_forest = 11
     }
+    naval_exit_id = 3060
 }
 STATE_INBA = {
     id = 33
     provinces = { "x50DAE6" "x50DAE6" "x5EE5DF" "x69C9EE" "x6DEDF7" "x6FF9CA" "x7CD0FC" "x8ECDCB" "x8EECD9" "x95FB96" "x98E782" "x99B7D6" "x9FFBDB" "xAB7FF1" "xAEA4C4" "xB47EE1" "xB8F2C1" "xBE8CC7" "xCC88BB" "xD3C5CF" "xD5E174" "xDAB47A" "xE0EFED" "xE36ADB" "xE4F6B2" "xE55DE0" "xE7D8AC" "xEE34E8" "xEE91C9" "xF49994" "xF49994" "xF5C676" "xF9A861" "xFA3BD6" "xFBDAE1" "xFD8E8B" }
     arable_land = 140
-    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_orchards" "bg_cotton_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms"   }
+    arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_orchards" "bg_cotton_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
         bg_coal_mining = 16
         bg_sulfur_mining = 8

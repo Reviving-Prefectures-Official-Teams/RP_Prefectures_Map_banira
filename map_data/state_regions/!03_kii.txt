@@ -14,6 +14,7 @@ STATE_KICHU = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3010
 }
 STATE_KINAN = {
     id = 78
@@ -22,6 +23,7 @@ STATE_KINAN = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3010
 }
 STATE_WAKAYAMA = {
     id = 79
@@ -30,6 +32,7 @@ STATE_WAKAYAMA = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3010
 }
 #奈良県
 STATE_NARA = {
@@ -72,6 +75,7 @@ STATE_YOKKAICHI = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3008
 }
 STATE_IGA = {
     id = 85
@@ -89,6 +93,7 @@ STATE_TSU = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3008
 }
 STATE_MATSUSAKA = {
     id = 87
@@ -97,6 +102,7 @@ STATE_MATSUSAKA = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3008
 }
 STATE_ISE = {
     id = 88
@@ -105,6 +111,7 @@ STATE_ISE = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3008
 }
 STATE_KII = {
     id = 89
@@ -113,4 +120,5 @@ STATE_KII = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3009
 }

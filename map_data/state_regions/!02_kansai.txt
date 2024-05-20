@@ -42,6 +42,7 @@ STATE_TANGO = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3039
 }
 STATE_CHUTAN = {
     id = 56
@@ -50,6 +51,7 @@ STATE_CHUTAN = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3039
 }
 STATE_NANTAN = {
     id = 57
@@ -91,6 +93,7 @@ STATE_OSAKA = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3012
 }
 STATE_KITAKAWACHI = {
     id = 62
@@ -115,6 +118,7 @@ STATE_SAKAI = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3012
 }
 STATE_SENSYU = {
     id = 65
@@ -123,6 +127,7 @@ STATE_SENSYU = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3012
 }
 #兵庫県
 STATE_AWAJI = {
@@ -133,6 +138,7 @@ STATE_AWAJI = {
         bg_logging = 20
         bg_lead_mining = 20
     }
+    naval_exit_id = 3012
 }
 STATE_KOBE = {
     id = 67
@@ -141,6 +147,7 @@ STATE_KOBE = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3012
 }
 STATE_HIGASHI_HARIMA = {
     id = 68
@@ -150,6 +157,7 @@ STATE_HIGASHI_HARIMA = {
         bg_logging = 20
         bg_lead_mining = 20
     }
+    naval_exit_id = 3013
 }
 STATE_NAKA_HARIMA = {
     id = 69
@@ -159,6 +167,7 @@ STATE_NAKA_HARIMA = {
         bg_logging = 20
         bg_lead_mining = 20
     }
+    naval_exit_id = 3013
 }
 STATE_NISHI_HARIMA = {
     id = 70
@@ -167,6 +176,7 @@ STATE_NISHI_HARIMA = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3013
 }
 STATE_TAJIMA = {
     id = 71
@@ -183,6 +193,7 @@ STATE_TANBA = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3018
 }
 STATE_SETTSU = {
     id = 73
@@ -191,6 +202,7 @@ STATE_SETTSU = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3012
 }
 STATE_MINAMI_TAJIMA = {
     id = 74
@@ -208,4 +220,5 @@ STATE_WAKASA = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3039
 }

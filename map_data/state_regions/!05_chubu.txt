@@ -7,6 +7,7 @@ STATE_KANAZAWA = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3040
 }
 
 STATE_OKUNOTO = {
@@ -16,6 +17,7 @@ STATE_OKUNOTO = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3040
 }
 
 STATE_NAKANOTO = {
@@ -25,6 +27,7 @@ STATE_NAKANOTO = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3041
 }
 
 STATE_MINAMIKAMO = {
@@ -35,6 +38,7 @@ STATE_MINAMIKAMO = {
         bg_logging = 20
         bg_lead_mining = 20
     }
+    naval_exit_id = 3040
 }
 #富山
 
@@ -45,6 +49,7 @@ STATE_TOYAMA = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3041
 }
 
 STATE_NIIKAWA = {
@@ -56,6 +61,7 @@ STATE_NIIKAWA = {
         bg_iron_mining = 20
         bg_lead_mining = 20
     }
+    naval_exit_id = 3041
 }
 
 STATE_TAKAOKA = {
@@ -65,6 +71,7 @@ STATE_TAKAOKA = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3041
 }
 
 STATE_TONAMI = {
@@ -86,6 +93,7 @@ STATE_NIIGATA = {
         bg_logging = 20
         bg_iron_mining = 20
     }
+    naval_exit_id = 3042
 }
 
 STATE_KAETSU = {
@@ -97,6 +105,7 @@ STATE_KAETSU = {
         bg_iron_mining = 20
         bg_lead_mining = 20
     }
+    naval_exit_id = 3043
 }
 
 STATE_NIIGATAMINAMI = {
@@ -115,6 +124,7 @@ STATE_NAGAOKA = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3042
 }
 
 STATE_UONUMA = {
@@ -135,6 +145,7 @@ STATE_JOETSU = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3041
 }
 
 STATE_SADO = {
@@ -144,6 +155,7 @@ STATE_SADO = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3042
 }
 #福井
 
@@ -155,6 +167,7 @@ STATE_FUKUI = {
         bg_logging = 20
         bg_lead_mining = 20
     }
+    naval_exit_id = 3040
 }
 
 STATE_OKUETSU = {
@@ -174,6 +187,7 @@ STATE_TANNAN = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3039
 }
 #長野
 
