@@ -684,44 +684,23 @@ goods_output_drink_mult = {
 	percent = yes
 }
 
-#media メディア
-goods_input_media_add = {
+#media_contents コンテンツサービス
+goods_input_media_contents_add = {
 	good = no
 	percent = no
 }
 
-goods_output_media_add = {
+goods_output_media_contents_add = {
 	good = yes
 	percent = no
 }
 
-goods_input_media_mult = {
+goods_input_media_contents_mult = {
 	good = yes
 	percent = yes
 }
 
-goods_output_media_mult = {
-	good = yes
-	percent = yes
-}
-
-#contents コンテンツサービス
-goods_input_contents_add = {
-	good = no
-	percent = no
-}
-
-goods_output_contents_add = {
-	good = yes
-	percent = no
-}
-
-goods_input_contents_mult = {
-	good = yes
-	percent = yes
-}
-
-goods_output_contents_mult = {
+goods_output_media_contents_mult = {
 	good = yes
 	percent = yes
 }

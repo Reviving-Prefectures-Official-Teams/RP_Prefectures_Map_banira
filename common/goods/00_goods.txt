@@ -687,21 +687,7 @@ transportation = { #輸送
 	consumption_tax_cost = 200
 }
 
-media = { #メディア
-	texture = "gfx/interface/icons/goods_icons/media.dds"
-	cost = 30
-	category = staple
-	
-	obsession_chance = 1.0
-	prestige_factor = 4
-	
-	traded_quantity = 7.5
-	convoy_cost_multiplier = 0.75
-	
-	consumption_tax_cost = 200
-}
-
-web = { #webサービス
+web = { #デジタルサービス
 	texture = "gfx/interface/icons/goods_icons/web_service.dds"
 	cost = 30
 	category = service
@@ -715,9 +701,9 @@ web = { #webサービス
 	consumption_tax_cost = 100
 }
 
-contents = { #コンテンツサービス 
+media_contents = { #メディアコンテンツ
 	texture = "gfx/interface/icons/goods_icons/culture_service.dds"
-	cost = 40
+	cost = 30
 	category = service
 	
 	obsession_chance = 1.0
@@ -786,6 +772,20 @@ construction = { #建設サービス
 	
 	consumption_tax_cost = 100
 }
+
+professionals = { #専門家
+	texture = "gfx/interface/icons/goods_icons/professionals_service.dds"
+	cost = 100
+	category = service
+	
+	prestige_factor = 30
+
+	traded_quantity = 7.5
+	convoy_cost_multiplier = 0.75
+	
+	consumption_tax_cost = 100
+}
+
 
 #============削除============
 #manowars = { #戦列艦
