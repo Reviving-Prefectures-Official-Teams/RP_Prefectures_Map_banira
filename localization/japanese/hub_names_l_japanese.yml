@@ -17,7 +17,7 @@
 
   HUB_NAME_STATE_YOKOHAMA_city: "横浜"
   HUB_NAME_STATE_YOKOHAMA_port: "根岸"
-  HUB_NAME_STATE_YOKOHAMA_mine: "新横浜"
+  HUB_NAME_STATE_YOKOHAMA_mine: "菊名"
   HUB_NAME_STATE_YOKOHAMA_farm: "大船"
   HUB_NAME_STATE_YOKOHAMA_wood: "湘南台"
   
@@ -330,7 +330,7 @@
   HUB_NAME_STATE_HOKUSETSU_wood: "森林"
   
   HUB_NAME_STATE_OSAKA_city: "大阪"
-  HUB_NAME_STATE_OSAKA_port: "大阪港"
+  HUB_NAME_STATE_OSAKA_port: ""
   HUB_NAME_STATE_OSAKA_mine: "鶴見"
   HUB_NAME_STATE_OSAKA_farm: "西成"
   HUB_NAME_STATE_OSAKA_wood: "淀川"
