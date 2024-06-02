@@ -250,7 +250,6 @@ STATE_MORIOKA = {
         bg_betulaceae_forest = 20
         bg_castanopsis_forest = 1
     }
-    naval_exit_id = 3057
 }
 STATE_KAMAISHI = {
     id = 268
@@ -307,6 +306,7 @@ STATE_AKITA = {
         bg_castanopsis_forest = 3
         bg_castanopsis_forest = 2
     }
+    naval_exit_id = 3043
 }
 STATE_YURIHONJYOU = {
     id = 272
@@ -318,6 +318,7 @@ STATE_YURIHONJYOU = {
         bg_cryptomeria_forest = 20
         bg_castanopsis_forest = 2
     }
+    naval_exit_id = 3043
 }
 STATE_YOKOTE = {
     id = 273
@@ -371,6 +372,7 @@ STATE_AOMORI = {
         bg_lead_mining = 12
         bg_cryptomeria_forest = 10
     }
+    naval_exit_id = 3055
 }
 STATE_HACHINOHE = {
     id = 277
@@ -384,6 +386,7 @@ STATE_HACHINOHE = {
         bg_cryptomeria_forest = 17
         bg_betulaceae_forest = 23
     }
+    naval_exit_id = 3056
 }
 STATE_HIROSAKI = {
     id = 278
@@ -393,9 +396,8 @@ STATE_HIROSAKI = {
     capped_resources = {
         bg_coal_mining = 8
         bg_cryptomeria_forest = 36
-
-
     }
+    naval_exit_id = 3044
 }
 STATE_TOWADA = {
     id = 279
@@ -409,6 +411,7 @@ STATE_TOWADA = {
         bg_cryptomeria_forest = 18
         bg_betulaceae_forest = 10
     }
+    naval_exit_id = 3055
 }
 STATE_MUTU = {
     id = 280
@@ -422,4 +425,5 @@ STATE_MUTU = {
         bg_lead_mining = 8
         bg_cryptomeria_forest = 3
     }
+    naval_exit_id = 3055
 }
