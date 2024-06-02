@@ -8,6 +8,7 @@ STATE_KITAKYUSHU = {
         bg_iron_mining = 20
         bg_lead_mining = 20
     }
+    naval_exit_id = 3017
 }
 
 STATE_MINAMICHIKUGO = {
@@ -17,6 +18,7 @@ STATE_MINAMICHIKUGO = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3031
 }
 
 STATE_KEICHIKU = {
@@ -26,6 +28,7 @@ STATE_KEICHIKU = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3016
 }
 
 STATE_FUKUOKA = {
@@ -35,6 +38,7 @@ STATE_FUKUOKA = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3034
 }
 
 STATE_CHIKUHOU = {
@@ -63,6 +67,7 @@ STATE_OHITA = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3016
 }
 
 STATE_BUZEN = {
@@ -72,6 +77,7 @@ STATE_BUZEN = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3016
 }
 
 STATE_KUSU = {
@@ -111,6 +117,7 @@ STATE_KUNISAKI = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3016
 }
 
 STATE_SAIKI = {
@@ -120,6 +127,7 @@ STATE_SAIKI = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3018
 }
 #佐賀
 
@@ -130,6 +138,7 @@ STATE_SAGA = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3031
 }
 
 STATE_TOSU = {
@@ -157,6 +166,7 @@ STATE_KARATSU = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3034
 }
 
 STATE_IMARI = {
@@ -166,6 +176,7 @@ STATE_IMARI = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3032
 }
 
 STATE_KASHIMA = {
@@ -175,6 +186,7 @@ STATE_KASHIMA = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3031
 }
 #熊本
 
@@ -185,6 +197,7 @@ STATE_KUMAMOTO = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3031
 }
 
 STATE_ARAO = {
@@ -194,6 +207,7 @@ STATE_ARAO = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3031
 }
 
 STATE_YAMAGAKIKUCHI = {
@@ -231,6 +245,7 @@ STATE_UKIYATSUSHIRO = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3031
 }
 
 STATE_KUMA = {
@@ -250,6 +265,7 @@ STATE_ASHIKITA = {
         bg_logging = 20
         bg_iron_mining = 20
     }
+    naval_exit_id = 3031
 }
 
 STATE_AMAKUSA = {
@@ -259,6 +275,7 @@ STATE_AMAKUSA = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3031
 }
 #長崎
 
@@ -269,6 +286,7 @@ STATE_NAGASAKI = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3031
 }
 
 STATE_OHMURA = {
@@ -278,6 +296,7 @@ STATE_OHMURA = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3032
 }
 
 STATE_SASEBO = {
@@ -287,6 +306,7 @@ STATE_SASEBO = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3032
 }
 
 STATE_SHIMABARA = {
@@ -296,6 +316,7 @@ STATE_SHIMABARA = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3031
 }
 
 STATE_IKI_SHOTOH = {
@@ -305,6 +326,7 @@ STATE_IKI_SHOTOH = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3032
 }
 
 STATE_TSUSHIMA_SHOTOH = {
@@ -314,6 +336,7 @@ STATE_TSUSHIMA_SHOTOH = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3033
 }
 
 STATE_GOTO_RETTOH = {
@@ -323,6 +346,7 @@ STATE_GOTO_RETTOH = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3032
 }
 #宮崎
 
@@ -333,6 +357,7 @@ STATE_MIYAZAKI = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3019
 }
 
 STATE_MIYAKONOJOH = {
@@ -351,6 +376,7 @@ STATE_NICHINAN = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3019
 }
 
 STATE_NISHIMORO = {
@@ -370,6 +396,7 @@ STATE_KOYU = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3019
 }
 
 STATE_HIGASHIUSUKI = {
@@ -379,6 +406,7 @@ STATE_HIGASHIUSUKI = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3019
 }
 
 STATE_NISHIUSUKI = {
@@ -398,6 +426,7 @@ STATE_NOBEOKA = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3018
 }
 #鹿児島
 
@@ -408,6 +437,7 @@ STATE_KITASATSUMA = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3031
 }
 
 STATE_MINAMISATSUMA = {
@@ -417,6 +447,7 @@ STATE_MINAMISATSUMA = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3029
 }
 
 STATE_KAGOSHIMA = {
@@ -426,6 +457,7 @@ STATE_KAGOSHIMA = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3029
 }
 
 STATE_KIRISHIMA = {
@@ -435,6 +467,7 @@ STATE_KIRISHIMA = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3029
 }
 
 STATE_OHSUMI = {
@@ -444,6 +477,7 @@ STATE_OHSUMI = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3019
 }
 
 STATE_OHSUMI_SHOTOH = {
@@ -454,6 +488,7 @@ STATE_OHSUMI_SHOTOH = {
         bg_logging = 20
         bg_sulfur_mining = 20
     }
+    naval_exit_id = 3020
 }
 
 STATE_AMAMI_GUNTOH = {
@@ -463,6 +498,7 @@ STATE_AMAMI_GUNTOH = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3022
 }
 
 STATE_TOKARA_RETTOH = {
@@ -472,6 +508,7 @@ STATE_TOKARA_RETTOH = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3021
 }
 # 沖縄県
 
@@ -482,6 +519,7 @@ STATE_DAITOH_SHOTOH = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3024
 }
 
 STATE_HOKUZAN = {
@@ -491,6 +529,7 @@ STATE_HOKUZAN = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3025
 }
 
 STATE_CHUZAN = {
@@ -500,6 +539,7 @@ STATE_CHUZAN = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3025
 }
 
 STATE_NANZAN = {
@@ -509,6 +549,7 @@ STATE_NANZAN = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3025
 }
 
 STATE_KUME_SHOTOH = {
@@ -518,6 +559,7 @@ STATE_KUME_SHOTOH = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3025
 }
 
 STATE_SENTAN_SHOTOH = {
@@ -527,6 +569,7 @@ STATE_SENTAN_SHOTOH = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3027
 }
 
 STATE_SENKAKU_SHOTOH = {
@@ -536,4 +579,5 @@ STATE_SENKAKU_SHOTOH = {
     capped_resources = {
         bg_logging = 20
     }
+    naval_exit_id = 3028
 }
