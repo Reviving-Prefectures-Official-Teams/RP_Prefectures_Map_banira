@@ -50,3 +50,47 @@ building_construction_sector = {
 	
 	ai_value = 2000 # Construction sector should generally be preferred over other equal-priority spending items
 }
+
+######都市施設
+#芸術院
+building_arts_academy = {
+	building_group = bg_arts
+
+	city_type = city
+	
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+	}
+
+	production_method_groups = {
+		pmg_base_building_arts_academy
+		pmg_ownership_building_arts_academy
+	}
+	
+	texture = "gfx/interface/icons/building_icons/building_arts_academy.dds"
+
+	required_construction = construction_cost_medium
+}
+
+#大学
+building_university = {
+
+	building_group = bg_technology
+
+	city_type = city
+
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+	}
+
+	production_method_groups = {
+		pmg_base_building_university
+		pmg_university_academia
+	}
+
+	texture = "gfx/interface/icons/building_icons/building_university.dds"
+
+	required_construction = construction_cost_medium
+}

@@ -10,10 +10,7 @@ building_urban_center = {
 	}
 	
 	production_method_groups = {
-		pmg_amenities
-		pmg_street_lighting
-		pmg_public_transport
-		pmg_urban_clergy
+		pmg_shopping_street
 	}
 	
 	buildable = no
@@ -67,10 +64,10 @@ building_skyscraper = {
 	ai_value = 10000
 }
 
-#旅行代理店
-building_travel_agency = {
+#専門ファーム
+building_specialized_farm = {
 	building_group = bg_service
-	texture = "gfx/interface/icons/building_icons/travel_agency.dds"
+	texture = "gfx/interface/icons/building_icons/specialized_farm.dds"
 	city_type = city
 	residence_points_per_level = 0
 	
@@ -82,183 +79,168 @@ building_travel_agency = {
 	}
 	
 	production_method_groups = {
-		pmg_amenities
-		pmg_tourism
+		pmg_exparts_affairs
+		pmg_digitalization
 	}
 	
 	terrain_manipulator = urban_city
 }
 
-######都市施設
-#芸術院
-building_arts_academy = {
-	building_group = bg_arts
-
+#デジタル業界
+building_digital_industry = {
+	building_group = bg_service
+	texture = "gfx/interface/icons/building_icons/digital_industry.dds"
 	city_type = city
+	residence_points_per_level = 0
 	
-	levels_per_mesh = 5
+	buildable = no
+	expandable = no
+	downsizeable = no
 
-	unlocking_technologies = {
+	unlocking_technologies = { 
 	}
-
+	
 	production_method_groups = {
-		pmg_base_building_arts_academy
-		pmg_ownership_building_arts_academy
+		pmg_digital_service
+		pmg_special_service_digital_industry
 	}
 	
-	texture = "gfx/interface/icons/building_icons/building_arts_academy.dds"
-
-	required_construction = construction_cost_medium
+	terrain_manipulator = urban_city
 }
 
-#大学
-building_university = {
-
-	building_group = bg_technology
-
+#メディア業界
+building_printing = {
+	building_group = bg_service
+	texture = "gfx/interface/icons/building_icons/printing.dds"
 	city_type = city
+	residence_points_per_level = 0
+	
+	buildable = no
+	expandable = no
+	downsizeable = no
 
-	levels_per_mesh = 5
-
-	unlocking_technologies = {
+	unlocking_technologies = { 
 	}
-
+	
 	production_method_groups = {
-		pmg_base_building_university
-		pmg_university_academia
+		pmg_printing
+		pmg_broadcasting
+		pmg_special_service_media_industry
+		pmg_digitalization
 	}
+	
+	terrain_manipulator = urban_city
+}
 
-	texture = "gfx/interface/icons/building_icons/building_university.dds"
+#出版業界
+building_publishing = {
+	building_group = bg_service
+	texture = "gfx/interface/icons/building_icons/publishing.dds"
+	city_type = city
+	residence_points_per_level = 0
+	
+	buildable = no
+	expandable = no
+	downsizeable = no
 
-	required_construction = construction_cost_medium
+	unlocking_technologies = { 
+	}
+	
+	production_method_groups = {
+		pmg_publishing
+		pmg_special_service_publishing_industry
+		pmg_digitalization
+	}
+	
+	terrain_manipulator = urban_city
+}
+
+#輸送センター
+building_transport_center = {
+	building_group = bg_service
+	texture = "gfx/interface/icons/building_icons/transport_center.dds"
+	city_type = city
+	residence_points_per_level = 0
+	
+	buildable = no
+	expandable = no
+	downsizeable = no
+
+	unlocking_technologies = { 
+	}
+	
+	production_method_groups = {
+		pmg_small_vehicle
+		pmg_large_vehicle
+		pmg_digitalization
+	}
+	
+	terrain_manipulator = urban_city
+}
+
+#旅行業界
+building_travel_industry = {
+	building_group = bg_service
+	texture = "gfx/interface/icons/building_icons/travel_industry.dds"
+	city_type = city
+	residence_points_per_level = 0
+	
+	buildable = no
+	expandable = no
+	downsizeable = no
+
+	unlocking_technologies = { 
+	}
+	
+	production_method_groups = {
+		pmg_travel_service
+		pmg_special_service_travel_industry
+		pmg_digitalization
+	}
+	
+	terrain_manipulator = urban_city
+}
+
+#金融業界
+building_financial_industry = {
+	building_group = bg_service
+	texture = "gfx/interface/icons/building_icons/financial_industry.dds"
+	city_type = city
+	residence_points_per_level = 0
+	
+	buildable = no
+	expandable = no
+	downsizeable = no
+
+	unlocking_technologies = { 
+	}
+	
+	production_method_groups = {
+		pmg_financial_service
+		pmg_special_service_financial_industry
+		pmg_digitalization
+	}
+	
+	terrain_manipulator = urban_city
 }
 
 #病院
 building_hospital = {
-	building_group = bg_health
+	building_group = bg_service
 	texture = "gfx/interface/icons/building_icons/hospital.dds"
-	levels_per_mesh = 5
-
 	city_type = city
+	residence_points_per_level = 0
+	
+	buildable = no
+	expandable = no
+	downsizeable = no
 
 	unlocking_technologies = { 
 	}
-
+	
 	production_method_groups = {
-		pmg_base_building_hospital
-		pmg_ownership_building_hospital
+		pmg_medical_service
 	}
 	
-	required_construction = construction_cost_medium
-}
-
-#映画プロダクション
-building_movie_production = {
-	building_group = bg_urban_facilities
-	texture = "gfx/interface/icons/building_icons/movie_production.dds"
-	levels_per_mesh = 5
-
-	city_type = city
-
-	unlocking_technologies = { 
-	}
-
-	production_method_groups = {
-		pmg_base_building_movie_production
-		pmg_ownership_building_movie_production
-	}
-	
-	required_construction = construction_cost_medium
-}
-
-#音楽プロダクション
-building_music_production = {
-	building_group = bg_urban_facilities
-	texture = "gfx/interface/icons/building_icons/music_production.dds"
-	levels_per_mesh = 5
-
-	city_type = city
-
-	unlocking_technologies = { 
-	}
-
-	production_method_groups = {
-		pmg_base_building_music_production
-		pmg_ownership_building_music_production
-	}
-	
-	required_construction = construction_cost_medium
-}
-
-#出版社
-building_publishing_house = {
-	building_group = bg_urban_facilities
-	texture = "gfx/interface/icons/building_icons/publishing_house.dds"
-	levels_per_mesh = 5
-
-	city_type = city
-
-	unlocking_technologies = { 
-	}
-
-	production_method_groups = {
-		pmg_base_building_publishing_house
-		pmg_ownership_building_publishing_house
-	}
-	
-	required_construction = construction_cost_medium
-}
-#新聞社
-building_newspaper = {
-	building_group = bg_urban_facilities
-	texture = "gfx/interface/icons/building_icons/newspaper.dds"
-	levels_per_mesh = 5
-
-	city_type = city
-
-	unlocking_technologies = { 
-	}
-
-	production_method_groups = {
-		pmg_base_building_newspaper
-		pmg_ownership_building_newspaper
-	}
-	
-	required_construction = construction_cost_medium
-}
-#放送局
-building_broadcasting_station = {
-	building_group = bg_urban_facilities
-	texture = "gfx/interface/icons/building_icons/broadcasting_station.dds"
-	levels_per_mesh = 5
-
-	city_type = city
-
-	unlocking_technologies = { 
-	}
-
-	production_method_groups = {
-		pmg_base_building_broadcasting_station
-		pmg_ownership_building_broadcasting_station
-	}
-	
-	required_construction = construction_cost_medium
-}
-#銀行
-building_bank = {
-	building_group = bg_urban_facilities
-	texture = "gfx/interface/icons/building_icons/bank.dds"
-	levels_per_mesh = 5
-
-	city_type = city
-
-	unlocking_technologies = { 
-	}
-
-	production_method_groups = {
-		pmg_base_building_bank
-		pmg_ownership_building_bank
-	}
-	
-	required_construction = construction_cost_medium
+	terrain_manipulator = urban_city
 }

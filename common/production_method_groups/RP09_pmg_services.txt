@@ -1,98 +1,209 @@
-﻿pmg_amenities = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_market_stalls
-		pm_market_squares
-		pm_covered_markets
-		pm_arcades
-	}
-}
-
-pmg_street_lighting = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_no_street_lighting
-		pm_gas_streetlights
-		pm_electric_streetlights
-	}
-}
-
-pmg_public_transport = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
-	production_methods = {
-		pm_no_public_transport
-		pm_public_trams
-		pm_public_motor_carriages
-	}
-}
-
-pmg_urban_clergy = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
-	production_methods = {
-		pm_state_urban_clergy
-		pm_free_urban_clergy
-		pm_no_urban_clergy
-	}
-}
-
-pmg_base_building_arts_academy = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+﻿#####専門ファーム
+###専門業務
+pmg_exparts_affairs = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
 	ai_selection = most_productive
 
 	production_methods = {
-		pm_traditional_art
-		pm_realist_art
-		pm_photographic_art
-		pm_film_art
+		pm_expart_firm #専門事務所
+		pm_financial_consulting #財務コンサルティング
+		pm_general_consulting #総合コンサルティング
+		pm_strategic_consulting #戦略コンサルティング
 	}
 }
 
-pmg_ownership_building_arts_academy = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
-	production_methods = {
-		pm_traditional_patronage
-		pm_bourgeoisie_patronage
-		pm_independent_artists
-	}
-}
-
-pmg_base_building_university = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+#####デジタル業界
+###デジタルサービス
+pmg_digital_service = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
 	ai_selection = most_productive
 
 	production_methods = {
-		pm_scholastic_education
-		pm_philosophy_department
-		pm_analytical_philosophy_department
+		pm_software #ソフトウェア
+		pm_web_service #ウェブサービス
+		pm_cloud_service #クラウドサービス
 	}
-}
-
-pmg_university_academia = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+}	
+###専門サービス
+pmg_special_service_digital_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
 	ai_selection = most_productive
 
 	production_methods = {
-		pm_religious_academia
-		pm_secular_academia
+		pm_outsourcing_contract #委託契約
+		pm_exclusive_contract_digital_industry #専属契約
+		pm_consulting_digital_industry #コンサルティング
 	}
 }
 
-pmg_base_building_skyscraper = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+#####市街地
+###商店街
+pmg_shopping_street = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
 	ai_selection = most_productive
 
 	production_methods = {
-		pm_skyscraper_bureaucratic_nexus
-		pm_skyscraper_trade_nexus
+		pm_yami_ichi #闇市
+		pm_shopping_street #商店街
+		pm_department_store #百貨店
+		pm_complex_commercial_facility #複合商業施設
 	}
 }
 
-pmg_airship_mooring_post = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+#####メディア業界
+###印刷
+pmg_printing = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
 	ai_selection = most_productive
 
 	production_methods = {
-		pm_no_airships
-		pm_airship_mooring_post
+		pm_monochrome_printing #モノクロ印刷
+		pm_color_printing #カラー印刷
+		pm_digital_printing #デジタル印刷
+		pm_digital_distribution #デジタル配信
+	}
+}
+###放送
+pmg_broadcasting = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_monochrome_broadcasting #モノクロ放送
+		pm_color_broadcasting #カラー放送
+		pm_satellite_broadcasting #衛星放送
+		pm_digital_broadcasting #デジタル放送 
+		pm_streaming_service #ストリーミングサービス
+	}
+}
+###専門サービス
+pmg_special_service_media_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_outsourcing_contract_media_industry #委託契約
+		pm_exclusive_contract #専属契約
+		pm_consulting_media_industry #コンサルティング 
+	}
+}
+
+#####出版業界
+###出版事業
+pmg_publishing = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_offset_printing #オフセット印刷
+		pm_color_printing #カラー印刷
+		pm_digital_printing #デジタル印刷
+		pm_ebook #電子書籍
+		pm_audiobook #オーディオブック 
+	}
+}
+###専門サービス
+pmg_special_service_publishing_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_outsourcing_contract #委託契約
+		pm_exclusive_contract_publishing_industry #専属契約
+		pm_consulting_publishing_industry #コンサルティング
+	}
+}
+
+#####輸送センター
+###小型車両
+pmg_small_vehicle = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_gasoline_truck #ガソリントラック
+		pm_small_truck #小型トラック
+		pm_commercial_van #商用バン
+		pm_hybrid_truck #ハイブリッドトラック
+		pm_ev_truck #EVトラック
+		pm_autonomous_small_truck #自動運転小型トラック 
+	}
+}
+###大型車両
+pmg_large_vehicle = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_diesel_truck #ディーゼルトラック
+		pm_5t_truck #5tトラック
+		pm_large_truck #大型トラック
+		pm_cng_truck #CNGトラック
+		pm_double_truck #ダブル連結トラック
+		pm_autonomous_large_truck #自動運転大型トラック 
+	}
+}
+
+#####旅行業界
+###旅行サービス
+pmg_travel_service = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_domestic_travel #国内旅行
+		pm_package_tour #パッケージツアー
+		pm_computer_reservation #コンピュータ予約
+	}
+}
+###専門サービス
+pmg_special_service_travel_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_outsourcing_contract #委託契約
+		pm_exclusive_contract_travel_industry #専属契約
+		pm_consulting_travel_industry #コンサルティング
+	}
+}
+
+#####金融業界
+###金融サービス
+pmg_financial_service = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_finance #金融
+		pm_internet_banking #インターネットバンキング
+		pm_fintech #フィンテック
+		pm_blockchain_finance #ブロックチェーン金融
+	}
+}
+###専門サービス
+pmg_special_service_financial_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_outsourcing_contract #委託契約
+		pm_exclusive_contract_finance_industry #専属契約
+		pm_consulting_finance_industry #コンサルティング
+	}
+}
+
+#####病院
+###医療サービス
+pmg_medical_service = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_prescription #処方箋
+		pm_specialized_medical #専門医療
+		pm_general_medical #総合医療
+		pm_revisit #回診
+		pm_online_medical #オンライン診療
 	}
 }

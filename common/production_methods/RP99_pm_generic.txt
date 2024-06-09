@@ -113,7 +113,7 @@ pm_warehouse_outsourcing = {
     building_modifiers = {
         workforce_scaled = {
             goods_input_transportation_add = 20 #45
-            goods_input_web_service_add = 1 #10
+            goods_input_web_add = 1 #10
             goods_input_camera_add = 2 #5
         }
 
@@ -153,4 +153,75 @@ pm_manual_assembly = {
             building_employment_laborers_add = 600
         }
     }
+}
+
+###########デジタル化##########
+###デジタル化
+#デジタル化なし
+pm_no_digitalization = { 
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 2000
+			building_employment_clerks_add = 1000
+			building_employment_bureaucrats = 500
+			building_employment_academics = 500
+		}
+	}
+}
+#メーリング
+pm_mailing = { 
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_computers_add = 1
+			goods_input_web_add = 1
+		}
+
+		level_scaled = {
+			level_scaled = {
+			building_employment_laborers_add = 1000
+			building_employment_clerks_add = 500
+			building_employment_bureaucrats = 500
+			building_employment_academics = 500
+		}
+		}
+	}
+}
+#編集ツール
+pm_editing_tool = { 
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_computers_add = 2
+			goods_input_web_add = 2
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 500
+			building_employment_clerks_add = 250
+			building_employment_bureaucrats = 250
+			building_employment_academics = 250
+		}
+	}
+}
+#DX
+pm_dx = { 
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_computers_add = 3
+			goods_input_web_add = 3
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 250
+			building_employment_clerks_add = 125
+			building_employment_bureaucrats = 125
+			building_employment_academics = 125
+		}
+	}
 }

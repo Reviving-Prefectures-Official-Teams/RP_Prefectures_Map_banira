@@ -82,6 +82,8 @@
 
 #==========生産方式==========
 #####テンプレート
+###テンプレート
+#テンプレート
 pm_template = {
 	texture = "gfx/interface/icons/production_method_icons/"
 
@@ -105,80 +107,757 @@ pm_template = {
 #####専門ファーム
 ###専門業務
 #専門事務所
+pm_expart_firm = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_services_add = 5
+			goods_output_professionals_add = 6
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 100
+			building_employment_bureaucrats_add = 50
+			building_employment_academics_add = 50
+		}
+	}
+}
 #財務コンサルティング
+pm_financial_consulting = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_services_add = 10
+			goods_output_professionals_add = 13
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 100
+			building_employment_bureaucrats_add = 100
+			building_employment_academics_add = 50
+		}
+	}
+}
 #総合コンサルティング
+pm_general_consulting = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_services_add = 15
+			goods_output_professionals_add = 21
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 100
+			building_employment_bureaucrats_add = 150
+			building_employment_academics_add = 100
+		}
+	}
+}
+#戦略コンサルティング
+pm_strategic_consulting = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_services_add = 20
+			goods_output_professionals_add = 30
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 100
+			building_employment_bureaucrats_add = 200
+			building_employment_academics_add = 150
+		}
+	}
+}
 
 #####デジタル業界
 ###デジタルサービス
 #ソフトウェア
+pm_software = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_services_add = 5
+			goods_input_electricity_add = 5
+			goods_output_web_add = 12
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 100
+			building_employment_engineers_add = 50
+		}
+	}
+}
 #ウェブサービス
+pm_web_service = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_services_add = 10
+			goods_input_electricity_add = 10
+			goods_output_web_add = 25
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 200
+			building_employment_engineers_add = 100
+		}
+	}
+}
 #クラウドサービス
+pm_cloud_service = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_services_add = 15
+			goods_input_electricity_add = 15
+			goods_output_web_add = 40
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 300
+			building_employment_engineers_add = 150
+		}
+	}
+}
 ###専門サービス
 #委託契約
+pm_outsourcing_contract = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_professionals_add = 1
+        }
+        
+    }
+}
 #専属契約
+pm_exclusive_contract_digital_industry = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_professionals_add = 3
+			building_digital_industry_throughput_mult = 0.25
+        }
+    }
+}
 #コンサルティング
+pm_consulting_digital_industry = { 
+    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_professionals_add = 6
+			building_digital_industry_throughput_mult = 0.5
+        }
+    }
+}
 
 #####市街地
 ###商店街
 #闇市
-#商店
+pm_yami_ichi = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_services_add = 5
+			goods_output_grain_add = 0.2
+			goods_output_fabric_add = 0.2
+			goods_output_clothes_add = 0.2
+			goods_output_furniture_add = 0.2
+			goods_output_tobacco_add = 0.2
+			goods_output_meat_add = 0.2
+			goods_output_fish_add = 0.2
+			goods_output_fruit_add = 0.2
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 2000
+		}
+	}
+}
+#商店街
+pm_shopping_street = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_services_add = 12
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 2000
+		}
+	}
+}
 #百貨店
+pm_department_store = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 10
+			goods_output_services_add = 24
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 500
+			building_employment_clerks_add = 500
+			building_employment_shopkeepers_add = 500
+		}
+	}
+}
 #複合商業施設
+pm_complex_commercial_facility = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 15
+			goods_output_services_add = 48
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 500
+			building_employment_clerks_add = 500
+			building_employment_shopkeepers_add = 500
+		}
+	}
+}
 
 #####メディア業界
-###ニュース
+###印刷
 #モノクロ印刷
+pm_monochrome_printing = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_paper_add = 5
+			goods_output_media_contents_add = 8
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 800
+			building_employment_clerks_add = 200
+		}
+	}
+}
 #カラー印刷
+pm_color_printing = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_paper_add = 10
+			goods_output_media_contents_add = 16
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 800
+			building_employment_clerks_add = 200
+		}
+	}
+}
 #デジタル印刷
+pm_digital_printing = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_paper_add = 15
+			goods_output_media_contents_add = 24
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 800
+			building_employment_clerks_add = 200
+		}
+	}
+}
 #デジタル配信
-###メディアコンテンツ
+pm_digital_distribution = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_web_add = 5
+			goods_output_media_contents_add = 8
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 800
+			building_employment_clerks_add = 200
+		}
+	}
+}
+###放送
 #モノクロ放送
+pm_monochrome_broadcasting = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_camera_add = 2
+			goods_input_electricity_add = 2
+			goods_output_media_contents_add = 8
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 800
+			building_employment_clerks_add = 200
+		}
+	}
+}
 #カラー放送
+pm_color_broadcasting = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_camera_add = 3
+			goods_input_electricity_add = 5
+			goods_output_media_contents_add = 16
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 800
+			building_employment_clerks_add = 200
+		}
+	}
+}
 #衛星放送
+pm_satellite_broadcasting = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_camera_add = 5
+			goods_input_electricity_add = 10
+			goods_output_media_contents_add = 24
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 800
+			building_employment_clerks_add = 200
+		}
+	}
+}
 #デジタル放送
+pm_digital_broadcasting = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_camera_add = 5
+			goods_input_electricity_add = 10
+			goods_input_web_add = 5
+			goods_output_media_contents_add = 32
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 800
+			building_employment_clerks_add = 200
+		}
+	}
+}
 #ストリーミングサービス
+pm_streaming_service = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_camera_add = 5
+			goods_input_electricity_add = 10
+			goods_input_web_add = 10
+			goods_output_media_contents_add = 40
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 800
+			building_employment_clerks_add = 200
+		}
+	}
+}
 ###専門サービス
 #委託契約
+pm_outsourcing_contract_media_industry = { 
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_professionals_add = 1
+		}
+		
+	}
+}
 #専属契約
+pm_exclusive_contract = { 
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_professionals_add = 3
+			building_media_industry_throughput_mult = 0.25
+		}
+	}
+}
 #コンサルティング
+pm_consulting_media_industry = { 
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_professionals_add = 6
+			building_media_industry_throughput_mult = 0.5
+		}
+	}
+}
 ###デジタル化
-#デジタル化なし
-#メーリング
-#編集ツール
-#DX
 
 #####出版業界
 ###出版事業
 #オフセット印刷
+pm_offset_printing = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_paper_add = 5
+			goods_output_books_add = 8
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 800
+			building_employment_clerks_add = 200
+		}
+	}
+}
 #カラー印刷
+pm_color_printing = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_paper_add = 10
+			goods_output_books_add = 16
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 800
+			building_employment_clerks_add = 200
+		}
+	}
+}
 #デジタル印刷
+pm_digital_printing = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_paper_add = 15
+			goods_output_books_add = 24
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 800
+			building_employment_clerks_add = 200
+		}
+	}
+}
 #電子書籍
+pm_ebook = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_web_add = 10
+			goods_output_books_add = 24
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 800
+			building_employment_clerks_add = 200
+		}
+	}
+}
 #オーディオブック
+pm_audiobook = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_web_add = 15
+			goods_output_books_add = 36
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 800
+			building_employment_clerks_add = 200
+		}
+	}
+}
 ###専門サービス
 #委託契約
+pm_outsourcing_contract = { 
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_professionals_add = 1
+		}
+		
+	}
+}
 #専属契約
+pm_exclusive_contract_publishing_industry = { 
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_professionals_add = 3
+			building_publishing_industry_throughput_mult = 0.25
+		}
+	}
+}
 #コンサルティング
+pm_consulting_publishing_industry = { 
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_professionals_add = 6
+			building_publishing_industry_throughput_mult = 0.5
+		}
+	}
+}
 ###デジタル化
-#デジタル化なし
-#メーリング
-#編集ツール
-#DX
 
 #####輸送センター
 ###小型車両
 #ガソリントラック
+pm_gasoline_truck = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_oil_add = 1
+			goods_input_automobiles_add = 1
+			goods_output_transport_add = 8
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 400
+			building_employment_clerks_add = 50
+			building_employment_engineers_add = 50
+		}
+	}
+}
 #小型トラック
+pm_small_truck = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_oil_add = 2
+			goods_input_automobiles_add = 2
+			goods_output_transport_add = 18
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 800
+			building_employment_clerks_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
 #商用バン
+pm_commercial_van = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_oil_add = 2
+			goods_input_automobiles_add = 3
+			goods_output_transport_add = 28
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1200
+			building_employment_clerks_add = 150
+			building_employment_engineers_add = 150
+		}
+	}
+}
 #ハイブリッドトラック
+pm_hybrid_truck = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_oil_add = 2
+			goods_input_electricity_add = 1
+			goods_input_automobiles_add = 4
+			goods_output_transport_add = 38
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1600
+			building_employment_clerks_add = 200
+			building_employment_engineers_add = 200
+		}
+	}
+}
 #EVトラック
+pm_ev_truck = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 6
+			goods_input_automobiles_add = 5
+			goods_output_transport_add = 48
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 2000
+			building_employment_clerks_add = 250
+			building_employment_engineers_add = 250
+		}
+	}
+}
 #自動運転小型トラック
+pm_autonomous_small_truck = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 8
+			goods_input_automobiles_add = 6
+			goods_input_web_add = 2
+			goods_output_transport_add = 58
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 2400
+			building_employment_clerks_add = 300
+			building_employment_engineers_add = 300
+		}
+	}
+}
 ###大型車両
 #ディーゼルトラック
+pm_diesel_truck = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_oil_add = 1
+			goods_input_laxury_cars_add = 1
+			goods_output_transport_add = 25
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 800
+			building_employment_clerks_add = 100
+			building_employment_engineers_add = 100
+		}
+	}
+}
 #5tトラック
+pm_5t_truck = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_oil_add = 2
+			goods_input_laxury_cars_add = 2
+			goods_output_transport_add = 45
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1600
+			building_employment_clerks_add = 200
+			building_employment_engineers_add = 200
+		}
+	}
+}
 #大型トラック
+pm_large_truck = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_oil_add = 2
+			goods_input_laxury_cars_add = 3
+			goods_output_transport_add = 65
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 2400
+			building_employment_clerks_add = 300
+			building_employment_engineers_add = 300
+		}
+	}
+}
 #CNGトラック
+pm_cng_truck = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_gas_add = 2
+			goods_input_laxury_cars_add = 4
+			goods_output_transport_add = 85
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 3200
+			building_employment_clerks_add = 400
+			building_employment_engineers_add = 400
+		}
+	}
+}
 #ダブル連結トラック
+pm_double_truck = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_oil_add = 2
+			goods_input_gas_add = 2
+			goods_input_laxury_cars_add = 5
+			goods_output_transport_add = 105
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_clerks_add = 500
+			building_employment_engineers_add = 500
+		}
+	}
+}
 #自動運転大型トラック
+pm_autonomous_large_truck = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 6
+			goods_input_laxury_cars_add = 6
+			goods_input_web_add = 2
+			goods_output_transport_add = 125
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 4800
+			building_employment_clerks_add = 600
+			building_employment_engineers_add = 600
+		}
+	}
+}
 ###倉庫
 #施設内倉庫
 #大型倉庫
@@ -197,66 +876,277 @@ pm_template = {
 #####旅行業界
 ###旅行サービス
 #国内旅行
+pm_domestic_travel = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_services_add = 3
+			goods_input_transport_add = 1
+			goods_output_travel_add = 8
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 400
+			building_employment_shopkeepers_add = 100
+		}
+	}
+}
 #パッケージツアー
+pm_package_tour = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_services_add = 6
+			goods_input_transport_add = 2
+			goods_output_travel_add = 16
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 800
+			building_employment_shopkeepers_add = 200
+		}
+	}
+}
 #コンピュータ予約
-#エコツーリズム
+pm_computer_reservation = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_web_add = 5
+			goods_input_transport_add = 3
+			goods_output_travel_add = 24
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 1200
+			building_employment_shopkeepers_add = 300
+		}
+	}
+}
 ###専門サービス
 #委託契約
+pm_outsourcing_contract = { 
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_professionals_add = 1
+		}
+		
+	}
+}
 #専属契約
+pm_exclusive_contract_travel_industry = { 
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_professionals_add = 3
+			building_travel_industry_throughput_mult = 0.25
+		}
+	}
+}
 #コンサルティング
+pm_consulting_travel_industry = { 
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_professionals_add = 6
+			building_travel_industry_throughput_mult = 0.5
+		}
+	}
+}
 ###デジタル化
-#デジタル化なし
-#メーリング
-#編集ツール
-#DX
 
 #####金融業界
 ###銀行
 #金融
+pm_finance = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_services_add = 10
+			goods_output_finance_add = 8
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 400
+			building_employment_bureaucrats_add = 100
+			building_employment_academics_add = 100
+		}
+	}
+}
 #インターネットバンキング
+pm_internet_banking = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_web_add = 10
+			goods_input_services_add = 10
+			goods_output_finance_add = 16
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 800
+			building_employment_bureaucrats_add = 200
+			building_employment_academics_add = 200
+		}
+	}
+}
 #フィンテック
+pm_fintech = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_web_add = 15
+			goods_input_services_add = 15
+			goods_output_finance_add = 24
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 1200
+			building_employment_bureaucrats_add = 300
+			building_employment_academics_add = 300
+		}
+	}
+}
 #ブロックチェーン金融
+pm_blockchain_finance = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_web_add = 20
+			goods_input_services_add = 20
+			goods_output_finance_add = 32
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 1600
+			building_employment_bureaucrats_add = 400
+			building_employment_academics_add = 400
+		}
+	}
+}
 ###専門サービス
 #委託契約
+pm_outsourcing_contract = { 
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_professionals_add = 1
+		}
+		
+	}
+}
 #専属契約
+pm_exclusive_contract_finance_industry = { 
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_professionals_add = 3
+			building_finance_industry_throughput_mult = 0.25
+		}
+	}
+}
 #コンサルティング
+pm_consulting_finance_industry = { 
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_professionals_add = 6
+			building_finance_industry_throughput_mult = 0.5
+		}
+	}
+}
 ###デジタル化
-#デジタル化なし
-#メーリング
-#編集ツール
-#DX
 
 #####病院
 ###医療サービス
-#処方箋			
+#処方箋
+pm_prescription = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_medicine_add = 5
+			goods_output_medical_add = 10
+		}
+
+		level_scaled = {
+			building_employment_bureaucrats_add = 400
+			building_employment_academics_add = 100
+		}
+	}
+}
 #専門医療
+pm_specialized_medical = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_medicine_add = 10
+			goods_output_medical_add = 20
+		}
+
+		level_scaled = {
+			building_employment_bureaucrats_add = 800
+			building_employment_academics_add = 200
+		}
+	}
+}
 #総合医療
+pm_general_medical = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_medicine_add = 10
+			goods_input_services_add = 10
+			goods_output_medical_add = 30
+		}
+
+		level_scaled = {
+			building_employment_bureaucrats_add = 1200
+			building_employment_academics_add = 300
+		}
+	}
+}
 #回診
+pm_revisit = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_medicine_add = 15
+			goods_input_services_add = 15
+			goods_output_medical_add = 40
+		}
+
+		level_scaled = {
+			building_employment_bureaucrats_add = 1600
+			building_employment_academics_add = 400
+		}
+	}
+}
 #オンライン診療
+pm_online_medical = {
+	texture = "gfx/interface/icons/production_method_icons/"
 
-#####医科大学
-###医療研究
-#化学療法
-#専門医療
-#総合医療
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_web_add = 5
+			goods_input_medicine_add = 20
+			goods_output_medical_add = 50
+		}
 
-#####芸術大学
-###美術学部
-#製作教育
-#コンセプチュアル教育
-#システム教育
-
-#####大学
-###学部教育
-#リベラルアーツ
-#学部教育
-#社会教育
-#ゆとり教育
-#起業家教育
-
-#####美術館
-###アート展示
-#アート展示
-#インタラクティブ展示
-#デジタルアーカイブ
-#VR展示
+		level_scaled = {
+			building_employment_bureaucrats_add = 2000
+			building_employment_academics_add = 500
+		}
+	}
+}

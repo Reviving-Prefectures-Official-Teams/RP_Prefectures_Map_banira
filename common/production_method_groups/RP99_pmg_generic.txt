@@ -19,3 +19,14 @@ pmg_transport = {
         pm_warehouse_outsourcing
     }
 }
+
+#デジタル化
+pmg_digitalization = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+    production_methods = {
+        pm_no_digitalization
+        pm_mailing
+        pm_editing_tool
+        pm_dx
+    }
+}
