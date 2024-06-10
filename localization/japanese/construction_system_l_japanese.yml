@@ -1,0 +1,20 @@
+﻿l_japanese:
+
+ construction: "建設サービス"
+ 
+ building_construction_sector: "建設現場"
+
+ building_construction_sector_mod: "建設部門"
+ building_construction_sector_mod_lens_option: "$building_construction_sector_mod$を拡大"
+ 
+ modifier_building_output_construction_add: "@construction! 建設サービスレベル別出力"
+ modifier_building_output_construction_add_desc: "@construction!の数量 建物によって生み出される建設サービス"
+ modifier_building_input_construction_add: "@construction! 建設サービスレベルごとの入力"
+ modifier_building_input_construction_add_desc: "@construction!の数量 建物で消費される建設サービス" 
+
+ 
+ pmg_base_building_construction_sector_mod: "$pm_base$"
+ 
+ pmg_ownership_construction_sector: "$pmg_ownership$" 
+ 
+GOVERNMENT_CONSTRUCTION_BOUGHT: "政府による建設サービス@construction!購入量:"

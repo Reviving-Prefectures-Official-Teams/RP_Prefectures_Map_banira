@@ -341,3 +341,13 @@ texticon = {
 		fontsize = 18
 	}
 }
+#専門家サービス
+texticon = {
+	icon = professionals
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/professionals.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}

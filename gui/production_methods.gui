@@ -55,6 +55,17 @@ types production_methods
 		}
 	}
 
+
+	type construction_mod_container = flowcontainer {
+		direction = vertical
+		parentanchor = hcenter
+		using = default_content_fade
+
+
+	}
+
+
+
 	type production_methods_panel = default_block_window {
 		name = "production_methods_panel"
 		
@@ -91,116 +102,12 @@ types production_methods
 				flowcontainer = {
 					direction = vertical
 					parentanchor = center
-					spacing = 0
-
-					#レベルボタンをおいた
-					flowcontainer = {
-						name = "rp_construction_level"
-						direction = horizontal
-						parentanchor = hcenter
-						spacing = 10
-						tooltip = "CONSTRUCTION_LEVEL_TOOLTIP"
-
-						tax_exp_frame_coin = {
-
-							blockoverride "tutorial_highilight_name" {
-								name = "tutorial_construction_level"
-							}
-
-							blockoverride "text_upper" {
-								text = "construction_level"
-							}
-
-							blockoverride "text_lower" {
-								datacontext = "[AccessPlayer.AccessActiveLawFromGroup('lawgroup_taxation')]"
-								text = "[Law.GetNameNoFormatting]"
-								tooltipwidget = {
-									FancyTooltip_Law = {
-
-									}
-								}
-							}
-
-							blockoverride "text_money" {
-							}
-
-							blockoverride "button_1_click" {
-								onclick = "[ExecuteConsoleCommand('event rp_gui.3')]"
-								enabled = yes
-							}
-							
-							blockoverride "button_2_click" {
-								onclick = "[Execute(GetPlayer.SetConstructionWageLevelLow)]"
-								enabled = yes
-							}									
-
-							blockoverride "button_3_click" {
-								onclick = "[Execute(GetPlayer.SetGovernmentWageLevelMedium)]"
-								enabled = yes
-							}
-
-							blockoverride "button_4_click" {
-								onclick = "[Execute(GetPlayer.SetGovernmentWageLevelHigh)]"
-								enabled = yes
-							}
-							
-							blockoverride "button_5_click" {
-								onclick = "[Execute(GetPlayer.SetGovernmentWageLevelVeryHigh)]"
-								enabled = yes
-							}
-
-							blockoverride "setvisible_very_low" {
-								visible = "[Not(IsValid(GetPlayer.SetConstructionWageLevelVeryLow))]"
-							}
-							blockoverride "setvisible_very_low_2" {
-								visible = "[IsValid(GetPlayer.SetConstructionWageLevelVeryLow)]"
-							}
-
-							blockoverride "setvisible_low" {
-								visible = "[Not(IsValid(GetPlayer.SetConstructionWageLevelLow))]"
-							}
-							blockoverride "setvisible_low_2" {
-								visible = "[IsValid(GetPlayer.SetConstructionWageLevelLow)]"
-							}
-
-							blockoverride "setvisible_medium" {
-								visible = "[Not(IsValid(GetPlayer.SetTaxLevelMedium))]"
-							}
-							blockoverride "setvisible_medium_2" {
-								visible = "[IsValid(GetPlayer.SetTaxLevelMedium)]"
-							}
-
-							blockoverride "setvisible_high" {
-								visible = "[Not(IsValid(GetPlayer.SetTaxLevelHigh))]"
-							}
-							blockoverride "setvisible_high_2" {
-								visible = "[IsValid(GetPlayer.SetTaxLevelHigh)]"
-							}
-
-							blockoverride "setvisible_very_high" {
-								visible = "[Not(IsValid(GetPlayer.SetTaxLevelVeryHigh))]"
-							}
-							blockoverride "setvisible_very_high_2" {
-								visible = "[IsValid(GetPlayer.SetTaxLevelVeryHigh)]"
-							}									
-						}
-					}
-
+					spacing = 5
+					
 					flowcontainer = {
 						parentanchor = hcenter
 						spacing = 10
 						tooltip = "CONSTRUCTION_SPEED_BASE_TOOLTIP"
-
-						
-
-						#マイナスボタンをおいてみた
-						button_icon_minus_action = {
-							size = { 35 35 }
-							parentanchor = vcenter
-							onclick = "[ExecuteConsoleCommand('event rp_gui.1')]"
-							tooltip = "RP_reduce_construction_budget"
-							using = tooltip_below
-						}
 
 						icon = {
 							parentanchor = vcenter
@@ -215,17 +122,6 @@ types production_methods
 							texture = "gfx/interface/icons/state_status_icons/has_construction_paused.dds"
 							visible = "[Country.IsConstructionPaused]"
 						}
-						#プラスボタンをおいてみた
-						button_icon_plus_action = {
-							size = { 35 35 }
-							parentanchor = vcenter
-							blockoverride "primary_visible" {}
-							name = "advcm_treasury"
-							onclick = "[ExecuteConsoleCommand('event rp_gui.2')]"
-							tooltip = "RP_increase_construction_budget"
-							using = tooltip_below
-							button_ignore = none
-						}
 
 						textbox = {
 							parentanchor = vcenter
@@ -234,17 +130,15 @@ types production_methods
 							autoresize = yes
 							align = center|nobaseline
 						}
-					}	
-					
-					#この辺に建設費表示をおいてみた		
-					# textbox = {
-					# 	parentanchor = hcenter
-					# 	using = fontsize_large
-					# 	autoresize = yes
-					# 	text = "CONSTRUCTION_GOODS_EXPENSES_BREAKDOWN_2"
-					# 	using = investment_pool_tooltip_with_graph
-					# 	align = center|nobaseline
-					# }
+					}					
+					textbox = {
+						parentanchor = hcenter
+						using = fontsize_large
+						autoresize = yes
+						text = "CURRENT_INVESTMENT_POOL"
+						using = investment_pool_tooltip_with_graph
+						align = center|nobaseline
+					}
 				}
 			}
 
@@ -341,9 +235,9 @@ types production_methods
 				flowcontainer = {
 					using = default_list_position
 					direction = vertical
-					spacing = 5
-					margin_top = 10
-
+					#spacing = 5
+					#margin_top = 10
+					#visible = "[Not(InformationPanel.IsTabSelected('construction_queues'))]"
 					production_methods_entries_container = {
 						visible = "[InformationPanel.IsTabSelected('urban')]"
 						blockoverride "production_entries" {
@@ -383,19 +277,19 @@ types production_methods
 						}
 					}
 
-					production_methods_entries_container = {
+					construction_mod_container = {
 						visible = "[InformationPanel.IsTabSelected('construction_queues')]"
 						datacontext = "[AccessPlayer]"
+						construction_queue = {}		
+						#blockoverride "production_entries" {
+						#	#datamodel = "[ProductionMethodsPanel.AccessProductionMethodPanelEntriesConstruction]"
+						#}						
 
-						blockoverride "production_entries" {
-							datamodel = "[ProductionMethodsPanel.AccessProductionMethodPanelEntriesConstruction]"
-						}						
+						## There are no potential entries yet, for now hide the header and list
+						#blockoverride "potential_entries_header" {}
+						#blockoverride "potential_entries_entire_widget" {}
 
-						# There are no potential entries yet, for now hide the header and list
-						blockoverride "potential_entries_header" {}
-						blockoverride "potential_entries_entire_widget" {}
-
-						construction_queue = {}					
+			
 					}
 				}
 			}
@@ -941,7 +835,15 @@ types production_methods
 							spacing = 5
 
 							icon = {
-								visible = "[Building.ShouldShowAsUnableToHire]"
+								visible = "[And(Building.ShouldShowAsUnableToHire,Building.HasFailedHires)]"
+								size = { 28 28 }
+								texture = "gfx/interface/icons/generic_icons/employment_not_full.dds"
+								parentanchor = vcenter
+								tooltip = "NOT_FULLY_EMPLOYED"
+							}
+							
+							icon = {
+								visible = "[And(Building.ShouldShowAsUnableToHire,Not(Building.HasFailedHires))]"
 								size = { 28 28 }
 								texture = "gfx/interface/icons/generic_icons/employment_not_full.dds"
 								parentanchor = vcenter
@@ -953,7 +855,7 @@ types production_methods
 								size = { 28 28 }
 								texture = "gfx/interface/icons/generic_icons/employment_not_hiring.dds"
 								parentanchor = vcenter
-								tooltip = "NOT_HIRING"
+								tooltip = "NOT_FULLY_EMPLOYED"
 							}
 							
 							icon = {

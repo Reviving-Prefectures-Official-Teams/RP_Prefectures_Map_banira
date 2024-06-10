@@ -1,6 +1,6 @@
 ﻿#sake 酒
 goods_input_sake_add = {
-	good = no
+	good = yes
 	percent = no
 }
 
@@ -21,7 +21,7 @@ goods_output_sake_mult = {
 
 #dairy_products 乳製品
 goods_input_dairy_products_add = {
-	good = no
+	good = yes
 	percent = no
 }
 
@@ -42,7 +42,7 @@ goods_output_dairy_products_mult = {
 
 #vegetables 野菜
 goods_input_vegetables_add = {
-	good = no
+	good = yes
 	percent = no
 }
 
@@ -62,7 +62,7 @@ goods_output_vegetables_mult = {
 }
 #magazines 雑誌
 goods_input_magazines_add = {
-	good = no
+	good = yes
 	percent = no
 }
 
@@ -82,7 +82,7 @@ goods_output_magazines_mult = {
 }
 #newspapers 新聞
 goods_input_newspapers_add = {
-	good = no
+	good = yes
 	percent = no
 }
 
@@ -102,7 +102,7 @@ goods_output_newspapers_mult = {
 }
 #beer ビール
 goods_input_beer_add = {
-	good = no
+	good = yes
 	percent = no
 }
 
@@ -122,7 +122,7 @@ goods_output_beer_mult = {
 }
 #gas ガス
 goods_input_gas_add = {
-	good = no
+	good = yes
 	percent = no
 }
 
@@ -142,7 +142,7 @@ goods_output_gas_mult = {
 }
 #minor_metals レアメタル
 goods_input_minor_metals_add = {
-	good = no
+	good = yes
 	percent = no
 }
 
@@ -162,7 +162,7 @@ goods_output_minor_metals_mult = {
 }
 #water 水
 goods_input_water_add = {
-	good = no
+	good = yes
 	percent = no
 }
 
@@ -182,7 +182,7 @@ goods_output_water_mult = {
 }
 #uranium ウラン
 goods_input_uranium_add = {
-	good = no
+	good = yes
 	percent = no
 }
 
@@ -202,7 +202,7 @@ goods_output_uranium_mult = {
 }
 #computers コンピュータ
 goods_input_computers_add = {
-	good = no
+	good = yes
 	percent = no
 }
 
@@ -222,7 +222,7 @@ goods_output_computers_mult = {
 }
 #plastics プラスチック
 goods_input_plastics_add = {
-	good = no
+	good = yes
 	percent = no
 }
 
@@ -242,7 +242,7 @@ goods_output_plastics_mult = {
 }
 #asbestos アスベスト
 goods_input_asbestos_add = {
-	good = no
+	good = yes
 	percent = no
 }
 
@@ -262,7 +262,7 @@ goods_output_asbestos_mult = {
 }
 #tankers タンカー
 goods_input_tankers_add = {
-	good = no
+	good = yes
 	percent = no
 }
 
@@ -282,7 +282,7 @@ goods_output_tankers_mult = {
 }
 #container_ships コンテナ船
 goods_input_container_ships_add = {
-	good = no
+	good = yes
 	percent = no
 }
 
@@ -302,7 +302,7 @@ goods_output_container_ships_mult = {
 }
 #luxury_food 高級食品
 goods_input_luxury_food_add = {
-	good = no
+	good = yes
 	percent = no
 }
 
@@ -322,7 +322,7 @@ goods_output_luxury_food_mult = {
 }
 #luxury_cars 高級車
 goods_input_luxury_cars_add = {
-	good = no
+	good = yes
 	percent = no
 }
 
@@ -342,7 +342,7 @@ goods_output_luxury_cars_mult = {
 }
 #camera カメラ
 goods_input_camera_add = {
-	good = no
+	good = yes
 	percent = no
 }
 
@@ -362,7 +362,7 @@ goods_output_camera_mult = {
 }
 #game_console ゲーム機
 goods_input_game_console_add = {
-	good = no
+	good = yes
 	percent = no
 }
 
@@ -382,7 +382,7 @@ goods_output_game_console_mult = {
 }
 #drone ドローン
 goods_input_drone_add = {
-	good = no
+	good = yes
 	percent = no
 }
 
@@ -402,7 +402,7 @@ goods_output_drone_mult = {
 }
 #home_appliance 家電
 goods_input_home_appliance_add = {
-	good = no
+	good = yes
 	percent = no
 }
 
@@ -422,7 +422,7 @@ goods_output_home_appliance_mult = {
 }
 #musical_instruments 楽器
 goods_input_musical_instruments_add = {
-	good = no
+	good = yes
 	percent = no
 }
 
@@ -442,7 +442,7 @@ goods_output_musical_instruments_mult = {
 }
 #luxury_fish 高級魚
 goods_input_luxury_fish_add = {
-	good = no
+	good = yes
 	percent = no
 }
 
@@ -462,7 +462,7 @@ goods_output_luxury_fish_mult = {
 }
 #movie 映画
 goods_input_movie_add = {
-	good = no
+	good = yes
 	percent = no
 }
 
@@ -482,7 +482,7 @@ goods_output_movie_mult = {
 }
 #web ウェブサービス
 goods_input_web_add = {
-	good = no
+	good = yes
 	percent = no
 }
 
@@ -502,7 +502,7 @@ goods_output_web_mult = {
 }
 #medical 医療サービス
 goods_input_medical_add = {
-	good = no
+	good = yes
 	percent = no
 }
 
@@ -522,7 +522,7 @@ goods_output_medical_mult = {
 }
 #finance 金融サービス
 goods_input_finance_add = {
-	good = no
+	good = yes
 	percent = no
 }
 
@@ -543,7 +543,7 @@ goods_output_finance_mult = {
 
 #travel 旅行サービス
 goods_input_travel_add = {
-	good = no
+	good = yes
 	percent = no
 }
 
@@ -563,7 +563,7 @@ goods_output_travel_mult = {
 }
 #space_travel 宇宙旅行サービス
 goods_input_space_travel_add = {
-	good = no
+	good = yes
 	percent = no
 }
 
@@ -583,7 +583,7 @@ goods_output_space_travel_mult = {
 }
 #construction 建設サービス
 goods_input_construction_add = {
-	good = no
+	good = yes
 	percent = no
 }
 
@@ -603,7 +603,7 @@ goods_output_construction_mult = {
 }
 #sweets お菓子
 goods_input_sweets_add = {
-	good = no
+	good = yes
 	percent = no
 }
 
@@ -638,13 +638,13 @@ goods_input_medicine_mult = {
 }
 
 goods_input_medicine_add = {
-	good = no
+	good = yes
 	percent = no
 }
 
 #robot ロボット
 goods_input_robot_add = {
-	good = no
+	good = yes
 	percent = no
 }
 
@@ -665,7 +665,7 @@ goods_output_robot_mult = {
 
 #drink 飲料
 goods_input_drink_add = {
-	good = no
+	good = yes
 	percent = no
 }
 
@@ -686,7 +686,7 @@ goods_output_drink_mult = {
 
 #media_contents コンテンツサービス
 goods_input_media_contents_add = {
-	good = no
+	good = yes
 	percent = no
 }
 
@@ -704,6 +704,24 @@ goods_output_media_contents_mult = {
 	good = yes
 	percent = yes
 }
+#professionals 専門家サービス
+goods_input_professionals_add = {
+	good = yes
+	percent = no
+}
+goods_output_professionals_add = {
+	good = yes
+	percent = no
+}
+goods_input_professionals_mult = {
+	good = yes
+	percent = yes
+}
+goods_output_professionals_mult = {
+	good = yes
+	percent = yes
+}
+
 
 ####既存商品の追加修飾子####
 #アート
@@ -713,7 +731,7 @@ goods_input_fine_art_mult = {
 }
 
 goods_input_fine_art_add = {
-	good = no
+	good = yes
 	percent = no
 }
 
@@ -724,7 +742,7 @@ goods_input_luxury_furnitur_mult = {
 }
 
 goods_input_luxury_furnitur_add = {
-	good = no
+	good = yes
 	percent = no
 }
 
@@ -735,7 +753,7 @@ goods_input_luxury_clothes_mult = {
 }
 
 goods_input_luxury_clothes_add = {
-	good = no
+	good = yes
 	percent = no
 }
 
@@ -746,6 +764,6 @@ goods_input_service_mult = {
 }
 
 goods_input_service_add = {
-	good = no
+	good = yes
 	percent = no
 }

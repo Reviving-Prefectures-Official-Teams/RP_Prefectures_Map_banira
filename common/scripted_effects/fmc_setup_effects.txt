@@ -1,0 +1,37 @@
+﻿initialize_gov_factories_variable = {
+    if = {
+	    limit = {
+	        not = {
+	            has_variable = num_gov_factories
+	        }
+	    }
+	    set_variable = {
+	        name = num_gov_factories
+	        value = 0
+	    }
+	}
+}
+
+country_construction_setup = {
+	initialize_gov_factories_variable = yes
+	country_replace_sectors = yes
+	if = {
+		limit = {
+			fmc_amount_of_sectors = 0
+		}
+		capital = {
+			create_building = {
+				building = building_general_constructor_industry
+				level = 1
+			}
+		}
+	}
+	# capital = {
+	# 	create_building = {
+	# 		building = building_construction_sector
+	# 		level = 1
+	# 	}
+	# }
+	#country_update_private_public = yes
+}
+
