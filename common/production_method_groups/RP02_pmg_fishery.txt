@@ -1,58 +1,46 @@
-﻿pmg_base_building_fishing_wharf = {
+﻿pmg_fishery = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_simple_fishing
-		pm_steam_trawlers
+		pm_fishfinder
+		pm_trawler
+		pm_fishing_fleet
 	}
 }
 
-pmg_refrigeration_building_fishing_wharf = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
-	production_methods = {
-		pm_unrefrigerated
-		pm_refrigerated_storage_building_fishing_wharf
-		pm_refrigerated_rail_cars_building_fishing_wharf
-		pm_flash_freezing_building_fishing_wharf
-	}
-}
-
-pmg_ownership_capital_building_fishing_wharf = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
-	production_methods = {
-		pm_merchant_guilds_building_fishing_wharf
-		pm_privately_owned_building_fishing_wharf
-		pm_publicly_traded_building_fishing_wharf
-		pm_government_run_building_fishing_wharf
-		pm_worker_cooperative_building_fishing_wharf
-	}
-}
-
-pmg_base_building_whaling_station = {
+pmg_ocean_fishing = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_simple_whaling
-		pm_wooden_whaling_ships
-		pm_steam_whaling_ships
+		pm_dengerous_fishing
+		pm_gps
+		pm_ocean_trawler
 	}
 }
 
-pmg_refrigeration_building_whaling_station = {
+pmg_refrigeration = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
 	production_methods = {
 		pm_unrefrigerated
-		pm_refrigerated_storage_building_whaling_station
-		pm_refrigerated_rail_cars_building_whaling_station
-		pm_flash_freezing_building_whaling_station
+		pm_flash_freezing
+		pm_cold_chain
+		pm_super_chilled
 	}
 }
 
-pmg_ownership_capital_building_whaling_station = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+pmg_aquaculture = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_merchant_guilds_building_whaling_station
-		pm_privately_owned_building_whaling_station
-		pm_publicly_traded_building_whaling_station
-		pm_government_run_building_whaling_station
-		pm_worker_cooperative_building_whaling_station
+		pm_simple_aquaculture
+		pm_fish_farm
+		pm_aquaculture_farm
+		pm_aquaculture_complex
+	}
+}
+
+pmg_land_aquaculture = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_CRAS #閉鎖循環式陸上養殖システム
+		pm_large_CRAS #大規模閉鎖循環式陸上養殖システム
 	}
 }

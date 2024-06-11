@@ -1,43 +1,47 @@
-﻿pmg_base_building_government_administration = {
+﻿pmg_administration = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
-		pm_simple_organization
-		pm_horizontal_drawer_cabinets
-		pm_vertical_filing_cabinets
-		pm_switch_boards
+		pm_conventional_administration
+		pm_system_administration
+		pm_digital_administration
+		pm_ai_administration
 	}
 }
 
-pmg_government_administration_bureaucrat_professionalism = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
-	ai_selection = most_productive
-
-	production_methods = {
-		pm_hereditary_bureaucrats
-		pm_professional_bureaucrats
-	}
-}
-
-pmg_government_administration_religious_administration = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
-	ai_selection = most_productive
-
-	production_methods = {
-		pm_religious_bureaucrats
-		pm_secular_bureaucrats
-	}
-}
-
-pmg_base_building_construction_sector = {
+pmg_art_museum = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
-		pm_wooden_buildings
-		pm_iron_frame_buildings
-		pm_steel_frame_buildings
-		pm_arc_welded_buildings
+		pm_art_exhibition
+		pm_interactive_exhibition
+		pm_digital_archive
+		pm_vr_exhibition
+	}
+}
+
+pmg_university = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_liberal_arts
+		pm_undergraduate
+		pm_social_education
+		pm_yutori_education
+		pm_entrepreneur_education
+	}
+}
+
+pmg_university_of_art = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_art_school
+		pm_conceptual_school
+		pm_system_school
 	}
 }
