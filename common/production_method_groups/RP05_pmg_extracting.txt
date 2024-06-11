@@ -51,3 +51,15 @@ pmg_processing_oil = {
 		pm_vacuum_distillation_oil
 	}
 }
+
+######ウラン濃縮######
+pmg_uranium_enrichment = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_gaseous_diffusion #気体拡散法
+		pm_gas_centrifuge #気体遠心分離法
+		pm_laser_enrichment #レーザー濃縮法
+		pm_electromagnetic_isotope_separation #電磁分離法
+		pm_molten_salt_reactor #溶融塩炉
+	}
+}
