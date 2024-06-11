@@ -4,6 +4,9 @@
 	# multiply = investment_price_incentive
 }
 
+#民間建設支出目標値
+##基本の値は投資プール / 52
+
 public_construction_use_target = {
 	if = {
 		limit = {
@@ -16,15 +19,25 @@ public_construction_use_target = {
 	}
 }
 
+#公共建設使用目標値
+##政府工場の数がある場合、政府工場の数
+##そうでなければ、1
+
 private_construction_use_target = {
 	value = private_construction_spending_target
 	divide = construction_price
 }
 
+#民間建設使用目標値
+##基本の値は民間建設支出目標値 / 建設価格
+
 total_construction_use_target = {
 	value = private_construction_use_target
 	add = public_construction_use_target
 }
+
+#建設総使用目標値
+##基本の値は民間建設使用目標値 + 公共建設使用目標値
 
 private_public_construction_ratio_target = {
 	if = {
@@ -39,3 +52,7 @@ private_public_construction_ratio_target = {
 	}
 	multiply = 100
 }
+
+#民間公共建設比率目標値
+##建設総使用目標値が0の場合、1に100をかける
+##そうでなければ、民間建設使用目標値 / 建設総使用目標値に100をかける

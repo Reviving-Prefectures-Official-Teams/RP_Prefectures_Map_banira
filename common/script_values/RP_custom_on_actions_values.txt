@@ -1,0 +1,27 @@
+﻿RP_days_since_last_event_execution = {
+    if = {
+        limit = {
+            NOT = {
+                has_global_variable = RP_date_of_last_daily_pulse
+            }
+        }
+        value = 1
+    }
+    else = {
+        value = game_date
+        subtract = global_var:RP_date_of_last_daily_pulse
+        min = 0
+    }
+}
+
+#最後のイベント実行からの日数
+##もし、最後の日次パルスがない場合、値を1にする
+##そうでなければ、ゲーム日 - 最後の日次パルスの日付
+
+RP_num_main_event_executions_modulo_7 = {
+    value = global_var:RP_num_main_event_executions
+    modulo = 7
+}
+
+#メインイベント実行数の7での剰余
+##メインイベント実行数を7で割った余り

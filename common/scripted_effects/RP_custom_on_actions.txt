@@ -1,4 +1,4 @@
-﻿fmc_on_weekly_pulse = {
+﻿RP_on_weekly_pulse = {
 	if = {
 		limit = {
 			NOT = {
@@ -16,8 +16,11 @@
 	}
 }
 
+#週次パルス時の処理
+##中央集権型である場合、建設データを更新
+##AIである場合、建設を更新
 
-fmc_on_border_changes = {
+RP_on_border_changes = {
 	if = {
 		limit = {
 			NOT = {
@@ -28,3 +31,6 @@ fmc_on_border_changes = {
 		country_update_sectors = yes
 	}
 }
+
+#国境変更時の処理
+##中央集権型である場合、セクターを更新
