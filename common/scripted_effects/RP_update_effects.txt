@@ -11,11 +11,11 @@
 				SPEC_TYPE = building_construction_sector
 			}
 		}
-		fmc_state_on_construction_end = yes
+		RP_state_on_construction_end = yes
 	}
 	if = {
 		limit = {
-			fmc_amount_of_sectors = 0
+			RP_amount_of_sectors = 0
 		}
 		capital = {
 			create_building = {
@@ -26,10 +26,19 @@
 	}
 }
 
+#セクターの更新
+##建設中の建物がある場合、建設セクターのレベルを1に設定
+##建設終了時の処理を実行
+##セクターが0の場合、首都に建設セクターを1つ作成
+
 country_update_construction_data = {
 	country_update_private_public = yes
 	update_construction_effect = yes
 }
+
+#建設データの更新
+##民間と公共の更新
+##建設効果の更新
 
 country_update_private_public = {
 	remove_modifier = private_public_share_modifier
@@ -39,37 +48,47 @@ country_update_private_public = {
 	}
 }
 
+#民間と公共の更新
+##private_public_share_modifier（民間と公共のシェア）を削除
+
 update_construction_effect = {
 	every_scope_building = {
 		limit = {
 			type = bt:building_construction_sector
 		}
 		remove_modifier = add_construction_modifier
-		# save_scope_as = fmc_current_building
+		# save_scope_as = RP_current_building
 		owner = {
 			set_variable = {
-				name = fmc_throughput_amount
-				value = fmc_construction_per_sector
+				name = RP_throughput_amount
+				value = RP_construction_per_sector
 			}
 			if = {
 				limit = {
 					prev.occupancy != 0
 				}
 				change_variable = {
-					name = fmc_throughput_amount
+					name = RP_throughput_amount
 					divide = prev.occupancy
 					#subtract = 1
 				}
 			}
 
 			change_variable = {
-				name = fmc_throughput_amount
+				name = RP_throughput_amount
 				subtract = 1
 			}
 		}
 		add_modifier = {
 			name = add_construction_modifier
-			multiplier = owner.var:fmc_throughput_amount
+			multiplier = owner.var:RP_throughput_amount
 		}
 	}
 }
+
+#建設効果の更新
+##建設セクターの場合、add_construction_modifier（建設効果）を削除
+##RP_throughput_amount（スループット量）をRP_construction_per_sector（セクターごとの建設）に設定
+##占有率が0でない場合、RP_throughput_amount（スループット量）を占有率で割る
+##RP_throughput_amount（スループット量）を1で引く
+##add_construction_modifier（建設効果）を追加

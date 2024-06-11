@@ -1,11 +1,14 @@
-﻿fmc_state_on_construction_start = {
+﻿RP_state_on_construction_start = {
 	create_building = {
 		building = building_construction_sector
 		level = 1
 	}
 }
 
-fmc_state_on_construction_end = {
+#建設開始時の処理
+##建設セクターを1つ作成
+
+RP_state_on_construction_end = {
 	if = {
 		limit = {
 			NOT = {
@@ -20,3 +23,6 @@ fmc_state_on_construction_end = {
 		remove_building = building_construction_sector
 	}
 }
+
+#建設終了時の処理
+##建設中の建物がない場合、建設セクターを削除
