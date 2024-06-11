@@ -1,6 +1,6 @@
 ﻿RP_state_on_construction_start = {
 	create_building = {
-		building = building_construction_sector
+		building = building_general_constructor_industry
 		level = 1
 	}
 }
@@ -17,10 +17,10 @@ RP_state_on_construction_end = {
 				}
 			}
 			any_scope_building = {
-				type = bt:building_construction_sector
+				type = bt:building_general_constructor_industry
 			}
 		}
-		remove_building = building_construction_sector
+		remove_building = building_general_constructor_industry
 	}
 }
 

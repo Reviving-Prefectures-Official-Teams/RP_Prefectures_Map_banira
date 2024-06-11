@@ -31,7 +31,7 @@ country_construction_setup = {
 	}
 	# capital = {
 	# 	create_building = {
-	# 		building = building_construction_sector
+	# 		building = building_general_constructor_industry
 	# 		level = 1
 	# 	}
 	# }

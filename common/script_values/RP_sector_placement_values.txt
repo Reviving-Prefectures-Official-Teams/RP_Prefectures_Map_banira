@@ -16,7 +16,7 @@ RP_amount_of_sectors = {
 	value = 0
 	every_scope_building = {
 		limit = {
-			type = bt:building_construction_sector
+			type = bt:building_general_constructor_industry
 		}
 		add = 1
 	}
