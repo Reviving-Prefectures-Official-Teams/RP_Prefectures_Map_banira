@@ -6,7 +6,6 @@ building_government_administration = {
 	levels_per_mesh = 10
 
 	unlocking_technologies = {
-		tech_bureaucracy
 	}
 
 	should_auto_expand = {
