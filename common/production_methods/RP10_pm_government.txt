@@ -1,0 +1,509 @@
+﻿#==========商品リスト==========
+#####食品#####
+#穀物 grain (小麦・米・トウモロコシ等)
+#魚 fish
+#食料品 groceries (加工食品)
+#ビール beer
+#食肉 meat (牛肉・豚肉・鶏肉等)
+#青果 fruit (果物・野菜等)
+#洋酒 liquor (ウイスキー・ブランデー・ワイン等)
+#砂糖 sugar
+#日本酒 sake
+#乳製品 dairy_products (牛乳・チーズ・バター等)
+#飲料 drink (コーヒー・紅茶・ジュース等)
+#菓子 sweets (菓子・チョコレート・スナック等)
+
+#####日用品#####
+#衣類 clothes (標準的な衣類)
+#家具 furniture (標準的な家具)
+#電気 electricity
+#タバコ tobacco
+#書籍 books (書籍・雑誌等)
+#紙 paper (紙・ダンボール等)
+#布 fabric (布・綿・麻・羊毛・合成繊維等)
+
+#####資源・素材#####
+#硫黄 sulfur
+#石炭 coal
+#鉄鉱石 iron (鉄鉱石・錬鉄・銑鉄等)
+#鉛 lead
+#金 gold
+#アスベスト asbestos
+#レアメタル minor_metals (亜鉛・アルミニウム・ニッケル等希少金属)
+#燃油 oil (石油・石炭液化燃料・アルコール燃料等)
+#天然ガス gas (天然ガス・合成ガス等)
+#浄水 water (飲料水・浄水器等)
+#濃縮ウラン uranium (ウラン鉱石・ウラン濃縮物等)
+#硬材 hardwood
+#軟材 wood (軟材・パルプ・木材等)
+#ガラス glass (ガラス・鏡・光学機器等)
+#鋼鉄 steel (鋼鉄・ステンレス鋼等)
+#セラミック porcelain (陶器・磁器・セラミック素材等)
+
+#####工業・化学製品#####
+#発動機 engines (蒸気機関・内燃機関等)
+#工作機械 tools (工具・機械部品・工作機械等)
+#コンピュータ computers (コンピュータ・CPU・メモリ等)
+#ロボット robot (ロボット)
+#通信機器 telephones (電話機・無線機等)
+#カメラ camera (カメラ・ビデオカメラ等)
+#ゲーム機 game_console (ゲーム機・ゲームソフト等)
+#ドローン drones (ドローン・無人機等)
+#家電 home_appliances (テレビ・冷蔵庫・洗濯機等)
+#軍需品 small_arms (戦車・小銃・弾薬・大砲等を含む)
+#航空機 aeroplanes
+#自動車 automobiles (自動車・オートバイ等)
+#大型船舶 tankers (タンカー・貨物船等)
+#肥料 fertilizer (化学肥料・有機肥料等)
+#爆薬 explosives (火薬・爆薬・火工品等)
+#薬剤 medicine (医薬品・薬剤等)
+#染料 dye (天然染料・合成染料)
+#樹脂 rubber (天然ゴム・合成ゴム・プラスチック等)
+
+#####高級品#####
+#美術品 fine_art (絵画・彫刻等)
+#楽器 musical_instruments (楽器・音楽機器等)
+#高級衣類 luxury_clothes (高級衣類)
+#高級家具 luxury_furniture (高級家具)
+#高級車 luxury_cars (高級自動車)
+#高級食品 luxury_food (高級魚・高級肉・高級果物等)
+#宇宙旅行 space_travel (宇宙旅行・宇宙開発等)
+#金融 finance (銀行・証券・保険等)
+
+#####サービス#####
+#都市サービス services (飲食・宿泊・通信等)
+#輸送 transport (鉄道・船舶・航空機等)
+#メディアコンテンツ media_contents (新聞・ラジオ・テレビ等)
+#デジタルサービス web (インターネット・SNS等)
+#医療 medical (病院・医療機器等)
+#旅行 travel (旅行・観光等)
+#建設 construction (建設・不動産等)
+#専門サービス professionals (弁護士・会計士・コンサルタント等)
+
+#==========生産方式==========
+#####テンプレート
+###テンプレート
+#テンプレート
+pm_template = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+            #消費
+			goods_input_coal_add = 5 #商品はリストから選択
+            #生産
+			goods_output_glass_add = 20 #商品はリストから選択
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 800
+			building_employment_clerks_add = 100
+			building_employment_academics_add = 100
+		}
+	}
+}
+
+#####芸術大学
+###美術学部
+#製作教育
+pm_art_school = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_paper_add = 1
+			goods_input_lead_add = 1
+			goods_input_books_add = 1
+			goods_input_fabric_add = 1
+			goods_output_fine_art_add = 4
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 300
+			building_employment_academics_add = 100
+		}
+		
+	}
+}
+#コンセプチュアル教育
+pm_conceptual_school = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_books_add = 3
+			goods_output_fine_art_add = 8
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 300
+			building_employment_academics_add = 100
+		}
+	}
+}
+#システム教育
+pm_system_school = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_books_add = 3
+			goods_input_computers_add = 1
+			goods_output_fine_art_add = 12
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 300
+			building_employment_academics_add = 100
+		}
+	}
+}
+
+#####大学
+###学部教育
+#リベラルアーツ
+pm_liberal_arts = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_books_add = 5
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 300
+			building_employment_academics_add = 100
+		}
+	}
+
+	country_modifiers = {
+		workforce_scaled = { 
+			country_weekly_innovation_add = 1
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = { 
+			state_pop_qualifications_mult = 0.05
+		}	
+	}	
+}
+#学部教育
+pm_undergraduate = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_books_add = 10
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 300
+			building_employment_academics_add = 200
+		}
+	}
+
+	country_modifiers = {
+		workforce_scaled = { 
+			country_weekly_innovation_add = 2
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = { 
+			state_pop_qualifications_mult = 0.10
+		}	
+	}	
+}
+#社会教育
+pm_social_education = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_books_add = 15
+			goods_input_computers_add = 1
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 300
+			building_employment_academics_add = 300
+		}
+	}
+
+	country_modifiers = {
+		workforce_scaled = { 
+			country_weekly_innovation_add = 3
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = { 
+			state_pop_qualifications_mult = 0.15
+		}	
+	}	
+}
+#ゆとり教育
+pm_yutori_education = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_books_add = 20
+			goods_input_computers_add = 2
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 300
+			building_employment_academics_add = 400
+		}
+	}
+
+	country_modifiers = {
+		workforce_scaled = { 
+			country_weekly_innovation_add = 2
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = { 
+			state_pop_qualifications_mult = 0.25
+		}	
+	}	
+}
+#起業家教育
+pm_entrepreneur_education = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_books_add = 25
+			goods_input_computers_add = 3
+			goods_output_professionals_add = 2
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 300
+			building_employment_academics_add = 400
+		}
+	}
+
+	country_modifiers = {
+		workforce_scaled = { 
+			country_weekly_innovation_add = 6
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = { 
+			state_pop_qualifications_mult = 0.1
+		}	
+	}	
+}
+
+#####美術館
+###アート展示
+#アート展示
+pm_art_exhibition = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_fine_art_add = 1
+			goods_output_media_contents_add = 30
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 300
+			building_employment_academics_add = 100
+		}
+	}
+}
+#インタラクティブ展示
+pm_interactive_exhibition = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_fine_art_add = 2
+			goods_input_computers_add = 1
+			goods_output_media_contents_add = 60
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 300
+			building_employment_academics_add = 100
+		}
+	}
+}
+#デジタルアーカイブ
+pm_digital_archive = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_fine_art_add = 3
+			goods_input_computers_add = 2
+			goods_input_web_add = 1
+			goods_output_media_contents_add = 90
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 300
+			building_employment_academics_add = 100
+		}
+	}
+}
+#VR展示
+pm_vr_exhibition = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_fine_art_add = 4
+			goods_input_computers_add = 2
+			goods_input_web_add = 2
+			goods_output_media_contents_add = 120
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 300
+			building_employment_academics_add = 100
+		}
+	}
+}
+
+#####行政機関
+###行政機構
+#従来の行政
+pm_conventional_administration = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_bureaucracy_add = 30
+
+		}
+	}	
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_tax_capacity_add = 5
+		}		
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_paper_add = 1
+			goods_input_books_add = 1
+			goods_output_government_administration_add = 4
+		}
+
+		level_scaled = {
+			building_employment_bureaucrats_add = 1000
+		}
+	}
+}
+#システム化行政
+pm_system_administration = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_bureaucracy_add = 70
+
+		}
+	}	
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_tax_capacity_add = 10
+		}		
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_paper_add = 1
+			goods_input_books_add = 1
+			goods_input_computers_add = 1
+			goods_output_government_administration_add = 6
+		}
+
+		level_scaled = {
+			building_employment_bureaucrats_add = 1000
+		}
+	}
+}
+#デジタル行政
+pm_digital_administration = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_bureaucracy_add = 110
+
+		}
+	}	
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_tax_capacity_add = 20
+		}		
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_paper_add = 1
+			goods_input_books_add = 1
+			goods_input_computers_add = 2
+			goods_output_government_administration_add = 8
+		}
+
+		level_scaled = {
+			building_employment_bureaucrats_add = 1000
+		}
+	}
+}
+#AI行政
+pm_ai_administration = {
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_bureaucracy_add = 150
+
+		}
+	}	
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_tax_capacity_add = 40
+		}		
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_paper_add = 1
+			goods_input_books_add = 1
+			goods_input_computers_add = 3
+			goods_output_government_administration_add = 10
+		}
+
+		level_scaled = {
+			building_employment_bureaucrats_add = 1000
+		}
+	}
+}
+
+#####貿易センター
+
+#####宇宙開発
+
+#####商社業界
+
+#####医科大学
+###医療研究
+#化学療法
+#専門医療
+#総合医療

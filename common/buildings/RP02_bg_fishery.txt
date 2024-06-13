@@ -1,13 +1,14 @@
-﻿building_fishing_wharf = {
+#漁港
+building_fishing_wharf = {
 	building_group = bg_fishing
 	texture = "gfx/interface/icons/building_icons/fishing_wharf.dds"
 	city_type = port
 	required_construction = construction_cost_low
 
 	production_method_groups = {
-		pmg_base_building_fishing_wharf
-		pmg_refrigeration_building_fishing_wharf
-		pmg_ownership_capital_building_fishing_wharf
+		pmg_fishery
+		pmg_ocean_fishing
+		pmg_refrigeration
 	}
 	
 	possible = {
@@ -18,26 +19,40 @@
 	}
 }
 
-building_whaling_station = {
-	building_group = bg_whaling
-	texture = "gfx/interface/icons/building_icons/whaling_station.dds"
+#養殖場
+building_aquaculture_farm = {
+	building_group = bg_fishing
+	texture = "gfx/interface/icons/building_icons/aquaculture_farm.dds"
 	city_type = port
 	required_construction = construction_cost_low
-	
-	unlocking_technologies = {
-		navigation
-	}
 
 	production_method_groups = {
-		pmg_base_building_whaling_station
-		pmg_refrigeration_building_whaling_station
-		pmg_ownership_capital_building_whaling_station
+		pmg_aquaculture
 	}
 	
 	possible = {
 		error_check = {
 			severity = fail
-			is_sea_adjacent = yes
+			is_sea_adjacent = no
+		}
+	}
+}
+
+#陸上養殖場
+building_land_aquaculture = {
+	building_group = bg_fishing
+	texture = "gfx/interface/icons/building_icons/land_aquaculture.dds"
+	city_type = wood
+	required_construction = construction_cost_low
+
+	production_method_groups = {
+		pmg_land_aquaculture
+	}
+	
+	possible = {
+		error_check = {
+			severity = fail
+			is_sea_adjacent = no
 		}
 	}
 }
