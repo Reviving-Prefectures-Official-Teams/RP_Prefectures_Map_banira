@@ -1,5 +1,3 @@
-
-
 pmg_base_building_construction_sector = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
@@ -15,8 +13,7 @@ pmg_base_building_construction_sector = {
 pmg_administration = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
-
-	production_methods = {
+  production_methods = {
 		pm_conventional_administration
 		pm_system_administration
 		pm_digital_administration
@@ -27,8 +24,7 @@ pmg_administration = {
 pmg_art_museum = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
-
-	production_methods = {
+  production_methods = {
 		pm_art_exhibition
 		pm_interactive_exhibition
 		pm_digital_archive
