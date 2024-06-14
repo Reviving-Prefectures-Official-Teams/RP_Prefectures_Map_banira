@@ -245,7 +245,7 @@ pm_dengerous_fishing = {
     }
 }
 #GPS
-pm_gps = {
+pm_gps_fishing = {
     texture = "gfx/interface/icons/production_method_icons/method_production_0.dds"
     building_modifiers = {
         workforce_scaled = {

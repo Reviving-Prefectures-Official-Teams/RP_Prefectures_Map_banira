@@ -1,4 +1,21 @@
-﻿############ GOVERNMENT BUILDINGS
+building_construction_sector = {
+	building_group = bg_construction
+	texture = "gfx/interface/icons/building_icons/construction_camp.dds"
+	city_type = city
+	expandable = no
+	buildable = no
+	downsizeable = no
+	unlocking_technologies = {
+	}
+	production_method_groups = {
+		pmg_dummy
+	}
+	
+	ai_value = 2000 # Construction sector should generally be preferred over other equal-priority spending items
+}
+
+############ GOVERNMENT BUILDINGS
+
 building_government_administration = {
 	building_group = bg_bureaucracy
 	city_type = city
