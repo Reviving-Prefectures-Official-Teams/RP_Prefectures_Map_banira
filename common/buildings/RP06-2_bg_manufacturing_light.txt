@@ -247,7 +247,7 @@ building_game_console_factory = {
 	levels_per_mesh = 5
 
 	production_method_groups = {
-		pmg_game_console
+		pmg_game_consoles
 		pmg_manufacturing_management_game_console
 		pmg_transport
 	}

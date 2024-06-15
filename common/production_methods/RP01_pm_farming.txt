@@ -798,7 +798,7 @@ pm_organic_farming_cotton = {
     building_modifiers = {
         workforce_scaled = {
             # output goods													
-            goods_output_cotton_add = 20
+            goods_output_fabric_add = 20
         }
 
         level_scaled = {
@@ -816,7 +816,7 @@ pm_fertilizer_cotton = {
             goods_input_fertilizer_add = 10			
             
             # output goods												   
-            goods_output_cotton_add = 40
+            goods_output_fabric_add = 40
         }
 
         level_scaled = {
@@ -835,7 +835,7 @@ pm_breeding_cotton = {
             goods_input_fertilizer_add = 18
             
             # output goods												   
-            goods_output_cotton_add = 65
+            goods_output_fabric_add = 65
         }
 
         level_scaled = {
@@ -855,7 +855,7 @@ pm_agritech_cotton = {
             goods_input_computers_add = 5
             
             # output goods												   
-            goods_output_cotton_add = 100
+            goods_output_fabric_add = 100
         }
 
         level_scaled = {
@@ -876,7 +876,7 @@ pm_unmanned_farm_cotton = {
             goods_input_web_add = 30
             
             # output goods												   
-            goods_output_cotton_add = 150
+            goods_output_fabric_add = 150
         }
 
         level_scaled = {
@@ -1362,7 +1362,7 @@ pm_organic_farming_vineyard = {
     building_modifiers = {
         workforce_scaled = {
             # output goods													
-            goods_output_liqour_add = 20
+            goods_output_liquor_add = 20
         }
 
         level_scaled = {
@@ -1380,7 +1380,7 @@ pm_fertilizer_vineyard = {
             goods_input_fertilizer_add = 10			
             
             # output goods												   
-            goods_output_liqour_add = 40
+            goods_output_liquor_add = 40
         }
 
         level_scaled = {
@@ -1399,7 +1399,7 @@ pm_breeding_vineyard = {
             goods_input_fertilizer_add = 18
             
             # output goods												   
-            goods_output_liqour_add = 65
+            goods_output_liquor_add = 65
         }
 
         level_scaled = {
@@ -1419,7 +1419,7 @@ pm_agritech_vineyard = {
             goods_input_computers_add = 5
             
             # output goods												   
-            goods_output_liqour_add = 100
+            goods_output_liquor_add = 100
         }
 
         level_scaled = {
@@ -1440,7 +1440,7 @@ pm_unmanned_farm_vineyard = {
             goods_input_web_add = 30
             
             # output goods												   
-            goods_output_liqour_add = 150
+            goods_output_liquor_add = 150
         }
 
         level_scaled = {
@@ -1458,7 +1458,7 @@ pm_whiskey_barrel = {
             goods_input_sugar_add = 10
             goods_input_grain_add = 20
             # output goods												   
-            goods_output_liqour_add = 50
+            goods_output_liquor_add = 50
         }
 
         level_scaled = {

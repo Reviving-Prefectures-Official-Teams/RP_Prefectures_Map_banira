@@ -401,22 +401,22 @@ goods_output_drone_mult = {
 	percent = yes
 }
 #home_appliance 家電
-goods_input_home_appliance_add = {
+goods_input_home_appliances_add = {
 	good = yes
 	percent = no
 }
 
-goods_output_home_appliance_add = {
+goods_output_home_appliances_add = {
 	good = yes
 	percent = no
 }
 
-goods_input_home_appliance_mult = {
+goods_input_home_appliances_mult = {
 	good = yes
 	percent = yes
 }
 
-goods_output_home_appliance_mult = {
+goods_output_home_appliances_mult = {
 	good = yes
 	percent = yes
 }
@@ -480,7 +480,7 @@ goods_output_movie_mult = {
 	good = yes
 	percent = yes
 }
-#web ウェブサービス
+#web 情報サービス
 goods_input_web_add = {
 	good = yes
 	percent = no
@@ -718,6 +718,40 @@ goods_input_professionals_mult = {
 	percent = yes
 }
 goods_output_professionals_mult = {
+	good = yes
+	percent = yes
+}
+#books 本
+goods_input_books_add = {
+	good = yes
+	percent = no
+}
+goods_output_books_add = {
+	good = yes
+	percent = no
+}
+goods_input_books_mult = {
+	good = yes
+	percent = yes
+}
+goods_output_books_mult = {
+	good = yes
+	percent = yes
+}
+#aeroplanes 飛行機
+goods_input_aeroplanes_add = {
+	good = yes
+	percent = no
+}
+goods_output_aeroplanes_add = {
+	good = yes
+	percent = no
+}
+goods_input_aeroplanes_mult = {
+	good = yes
+	percent = yes
+}
+goods_output_aeroplanes_mult = {
 	good = yes
 	percent = yes
 }
