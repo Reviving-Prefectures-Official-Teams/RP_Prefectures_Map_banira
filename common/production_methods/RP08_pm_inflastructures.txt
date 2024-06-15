@@ -110,7 +110,7 @@ pm_aerodrome = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_aeroplanes_add = 3
-			goods_output_transport_add = 30
+			goods_output_transportation_add = 30
 		}
 
 		level_scaled = {
@@ -128,7 +128,7 @@ pm_local_airport = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_aeroplanes_add = 5
-			goods_output_transport_add = 55
+			goods_output_transportation_add = 55
 		}
 
 		level_scaled = {
@@ -147,7 +147,7 @@ pm_international_airport = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_aeroplanes_add = 8
-			goods_output_transport_add = 100
+			goods_output_transportation_add = 100
 		}
 
 		level_scaled = {
@@ -168,7 +168,7 @@ pm_radar_system = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_electricity_add = 10
-			goods_output_transport_mult = 1.0
+			goods_output_transportation_mult = 1.0
 		}
 
 		level_scaled = {
@@ -184,7 +184,7 @@ pm_air_traffic_management = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_electricity_add = 20
-			goods_output_transport_mult = 1.3
+			goods_output_transportation_mult = 1.3
 		}
 
 		level_scaled = {
@@ -200,7 +200,7 @@ pm_gps_navigation = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_electricity_add = 30
-			goods_output_transport_mult = 1.6
+			goods_output_transportation_mult = 1.6
 		}
 
 		level_scaled = {
@@ -216,7 +216,7 @@ pm_3d_radar = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_electricity_add = 40
-			goods_output_transport_mult = 2.0
+			goods_output_transportation_mult = 2.0
 		}
 
 		level_scaled = {
@@ -246,7 +246,7 @@ pm_xray_scanner = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_electricity_add = 1
-			goods_input_computer_add = 1
+			goods_input_computers_add = 1
 		}
 
 		level_scaled = {
@@ -261,7 +261,7 @@ pm_body_scanner = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_electricity_add = 2
-			goods_input_computer_add = 2
+			goods_input_computers_add = 2
 		}
 
 		level_scaled = {
@@ -275,7 +275,7 @@ pm_ai_security = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_electricity_add = 3
-			goods_input_computer_add = 3
+			goods_input_computers_add = 3
 		}
 
 		level_scaled = {
@@ -291,7 +291,7 @@ pm_dirt_road = {
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_transport_add = 1
+			goods_output_transportation_add = 1
 		}
 
 		level_scaled = {
@@ -305,7 +305,7 @@ pm_asphalt = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_oil_add = 1
-			goods_output_transport_add = 3
+			goods_output_transportation_add = 3
 		}
 
 		level_scaled = {
@@ -320,7 +320,7 @@ pm_polymer_asphalt = {
 		workforce_scaled = {
 			goods_input_oil_add = 2
 			goods_input_rubber_add = 1
-			goods_output_transport_add = 5
+			goods_output_transportation_add = 5
 		}
 
 		level_scaled = {
@@ -335,7 +335,7 @@ pm_high_performance_concrete = {
 		workforce_scaled = {
 			goods_input_oil_add = 4
 			goods_input_rubber_add = 2
-			goods_output_transport_add = 8
+			goods_output_transportation_add = 8
 		}
 
 		level_scaled = {
@@ -350,7 +350,7 @@ pm_self_repairing_pavement = {
 		workforce_scaled = {
 			goods_input_oil_add = 6
 			goods_input_rubber_add = 3
-			goods_output_transport_add = 12
+			goods_output_transportation_add = 12
 		}
 
 		level_scaled = {
@@ -377,7 +377,7 @@ pm_fluorescent_lamp = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_electricity_add = 1
-			goods_output_transport_mult = 1
+			goods_output_transportation_mult = 1
 		}
 
 		level_scaled = {
@@ -391,7 +391,7 @@ pm_high_pressure_sodium_lamp = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_electricity_add = 2
-			goods_output_transport_mult = 1.5
+			goods_output_transportation_mult = 1.5
 		}
 
 		level_scaled = {
@@ -405,7 +405,7 @@ pm_led = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_electricity_add = 3
-			goods_output_transport_mult = 2
+			goods_output_transportation_mult = 2
 		}
 
 		level_scaled = {
@@ -419,7 +419,7 @@ pm_solar_power = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_electricity_add = 4
-			goods_output_transport_mult = 2.5
+			goods_output_transportation_mult = 2.5
 		}
 
 		level_scaled = {
@@ -437,7 +437,7 @@ pm_steam_engine = {
 		workforce_scaled = {
 			goods_input_coal_add = 3
 			goods_input_engines_add = 1
-			goods_output_transport_add = 10
+			goods_output_transportation_add = 10
 		}
 
 		level_scaled = {
@@ -454,7 +454,7 @@ pm_diesel_engine = {
 		workforce_scaled = {
 			goods_input_oil_add = 3
 			goods_input_engines_add = 1
-			goods_output_transport_add = 20
+			goods_output_transportation_add = 20
 		}
 
 		level_scaled = {
@@ -471,7 +471,7 @@ pm_electric_engine = {
 		workforce_scaled = {
 			goods_input_electricity_add = 3
 			goods_input_engines_add = 1
-			goods_output_transport_add = 30
+			goods_output_transportation_add = 30
 		}
 
 		level_scaled = {
@@ -487,7 +487,7 @@ pm_maglev = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_electricity_add = 5
-			goods_output_transport_add = 40
+			goods_output_transportation_add = 40
 		}
 
 		level_scaled = {
@@ -503,7 +503,7 @@ pm_hydrogen_hybrid = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_electricity_add = 7
-			goods_output_transport_add = 50
+			goods_output_transportation_add = 50
 		}
 
 		level_scaled = {
@@ -521,7 +521,7 @@ pm_wooden_carriage = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_wood_add = 1
-			goods_output_transport_add = 3
+			goods_output_transportation_add = 3
 		}
 
 		level_scaled = {
@@ -537,7 +537,7 @@ pm_steel_carriage = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_steel_add = 1
-			goods_output_transport_add = 5
+			goods_output_transportation_add = 5
 		}
 
 		level_scaled = {
@@ -553,7 +553,7 @@ pm_aluminum_carriage = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_minor_metals_add = 1
-			goods_output_transport_add = 7
+			goods_output_transportation_add = 7
 		}
 
 		level_scaled = {
@@ -570,7 +570,7 @@ pm_lightweight_composite_carriage = {
 		workforce_scaled = {
 			goods_input_minor_metals_add = 1
 			goods_input_coal_add = 1
-			goods_output_transport_add = 10
+			goods_output_transportation_add = 10
 		}
 
 		level_scaled = {
@@ -600,7 +600,7 @@ pm_ato_atc = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_electricity_add = 2
-			goods_input_computer_add = 1
+			goods_input_computers_add = 1
 		}
 
 		level_scaled = {
@@ -615,7 +615,7 @@ pm_level_4_autonomous = {
 		workforce_scaled = {
 			goods_input_electricity_add = 2
 			goods_input_web_add = 2
-			goods_input_computer_add = 1
+			goods_input_computers_add = 1
 		}
 
 		level_scaled = {
@@ -632,7 +632,7 @@ pm_interchange = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_oil_add = 5
-			goods_output_transport_add = 10
+			goods_output_transportation_add = 10
 		}
 
 		level_scaled = {
@@ -648,7 +648,7 @@ pm_multimodal_interchange = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_oil_add = 10
-			goods_output_transport_add = 20
+			goods_output_transportation_add = 20
 		}
 
 		level_scaled = {
@@ -665,7 +665,7 @@ pm_smart_highway = {
 		workforce_scaled = {
 			goods_input_electricity_add = 5
 			goods_input_oil_add = 5
-			goods_output_transport_add = 30
+			goods_output_transportation_add = 30
 		}
 
 		level_scaled = {
@@ -683,7 +683,7 @@ pm_autonomous_vehicle_design = {
 			goods_input_electricity_add = 10
 			goods_input_oil_add = 10
 			goods_input_web_add = 5
-			goods_output_transport_add = 40
+			goods_output_transportation_add = 40
 		}
 
 		level_scaled = {
@@ -702,7 +702,7 @@ pm_shinkansen = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_electricity_add = 5
-			goods_output_transport_add = 50
+			goods_output_transportation_add = 50
 		}
 
 		level_scaled = {
@@ -718,7 +718,7 @@ pm_linear = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_electricity_add = 10
-			goods_output_transport_add = 100
+			goods_output_transportation_add = 100
 		}
 
 		level_scaled = {
@@ -734,7 +734,7 @@ pm_hyperloop = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_electricity_add = 15
-			goods_output_transport_add = 150
+			goods_output_transportation_add = 150
 		}
 
 		level_scaled = {
@@ -1352,7 +1352,7 @@ pm_small_port = {
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_transport_add = 10
+			goods_output_transportation_add = 10
 		}
 
 		level_scaled = {
@@ -1368,7 +1368,7 @@ pm_medium_port = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_tankers_add = 1
-			goods_output_transport_add = 20
+			goods_output_transportation_add = 20
 		}
 
 		level_scaled = {
@@ -1384,7 +1384,7 @@ pm_large_port = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_tankers_add = 2
-			goods_output_transport_add = 40
+			goods_output_transportation_add = 40
 		}
 
 		level_scaled = {
@@ -1400,7 +1400,7 @@ pm_mega_port = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_tankers_add = 3
-			goods_output_transport_add = 80
+			goods_output_transportation_add = 80
 		}
 
 		level_scaled = {

@@ -584,7 +584,7 @@ drone = { #ドローン
 	consumption_tax_cost = 100
 }
 
-home_appliance = { #家電
+home_appliances = { #家電
 	texture = "gfx/interface/icons/goods_icons/home_appliance.dds"
 	cost = 60
 	category = luxury

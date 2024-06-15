@@ -1,4 +1,7 @@
 ﻿RP_state_on_construction_start = {
+	limit = {
+		capital = yes
+	}
 	create_building = {
 		building = building_general_constructor_industry
 		level = 1

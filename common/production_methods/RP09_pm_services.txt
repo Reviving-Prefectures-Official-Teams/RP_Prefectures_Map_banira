@@ -645,7 +645,7 @@ pm_gasoline_truck = {
 		workforce_scaled = {
 			goods_input_oil_add = 1
 			goods_input_automobiles_add = 1
-			goods_output_transport_add = 8
+			goods_output_transportation_add = 8
 		}
 
 		level_scaled = {
@@ -663,7 +663,7 @@ pm_small_truck = {
 		workforce_scaled = {
 			goods_input_oil_add = 2
 			goods_input_automobiles_add = 2
-			goods_output_transport_add = 18
+			goods_output_transportation_add = 18
 		}
 
 		level_scaled = {
@@ -681,7 +681,7 @@ pm_commercial_van = {
 		workforce_scaled = {
 			goods_input_oil_add = 2
 			goods_input_automobiles_add = 3
-			goods_output_transport_add = 28
+			goods_output_transportation_add = 28
 		}
 
 		level_scaled = {
@@ -700,7 +700,7 @@ pm_hybrid_truck = {
 			goods_input_oil_add = 2
 			goods_input_electricity_add = 1
 			goods_input_automobiles_add = 4
-			goods_output_transport_add = 38
+			goods_output_transportation_add = 38
 		}
 
 		level_scaled = {
@@ -718,7 +718,7 @@ pm_ev_truck = {
 		workforce_scaled = {
 			goods_input_electricity_add = 6
 			goods_input_automobiles_add = 5
-			goods_output_transport_add = 48
+			goods_output_transportation_add = 48
 		}
 
 		level_scaled = {
@@ -737,7 +737,7 @@ pm_autonomous_small_truck = {
 			goods_input_electricity_add = 8
 			goods_input_automobiles_add = 6
 			goods_input_web_add = 2
-			goods_output_transport_add = 58
+			goods_output_transportation_add = 58
 		}
 
 		level_scaled = {
@@ -756,7 +756,7 @@ pm_diesel_truck = {
 		workforce_scaled = {
 			goods_input_oil_add = 1
 			goods_input_laxury_cars_add = 1
-			goods_output_transport_add = 25
+			goods_output_transportation_add = 25
 		}
 
 		level_scaled = {
@@ -774,7 +774,7 @@ pm_5t_truck = {
 		workforce_scaled = {
 			goods_input_oil_add = 2
 			goods_input_laxury_cars_add = 2
-			goods_output_transport_add = 45
+			goods_output_transportation_add = 45
 		}
 
 		level_scaled = {
@@ -792,7 +792,7 @@ pm_large_truck = {
 		workforce_scaled = {
 			goods_input_oil_add = 2
 			goods_input_laxury_cars_add = 3
-			goods_output_transport_add = 65
+			goods_output_transportation_add = 65
 		}
 
 		level_scaled = {
@@ -810,7 +810,7 @@ pm_cng_truck = {
 		workforce_scaled = {
 			goods_input_gas_add = 2
 			goods_input_laxury_cars_add = 4
-			goods_output_transport_add = 85
+			goods_output_transportation_add = 85
 		}
 
 		level_scaled = {
@@ -829,7 +829,7 @@ pm_double_truck = {
 			goods_input_oil_add = 2
 			goods_input_gas_add = 2
 			goods_input_laxury_cars_add = 5
-			goods_output_transport_add = 105
+			goods_output_transportation_add = 105
 		}
 
 		level_scaled = {
@@ -848,7 +848,7 @@ pm_autonomous_large_truck = {
 			goods_input_electricity_add = 6
 			goods_input_laxury_cars_add = 6
 			goods_input_web_add = 2
-			goods_output_transport_add = 125
+			goods_output_transportation_add = 125
 		}
 
 		level_scaled = {
@@ -882,7 +882,7 @@ pm_domestic_travel = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_services_add = 3
-			goods_input_transport_add = 1
+			goods_input_transportation_add = 1
 			goods_output_travel_add = 8
 		}
 
@@ -899,7 +899,7 @@ pm_package_tour = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_services_add = 6
-			goods_input_transport_add = 2
+			goods_input_transportation_add = 2
 			goods_output_travel_add = 16
 		}
 
@@ -910,13 +910,13 @@ pm_package_tour = {
 	}
 }
 #コンピュータ予約
-pm_computer_reservation = {
+pm_computers_reservation = {
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_web_add = 5
-			goods_input_transport_add = 3
+			goods_input_transportation_add = 3
 			goods_output_travel_add = 24
 		}
 

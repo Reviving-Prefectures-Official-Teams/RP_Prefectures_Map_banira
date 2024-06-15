@@ -639,7 +639,7 @@ pm_automobile = {
         workforce_scaled = {
             goods_input_steel_add = 10
             goods_input_engines_add = 4
-            goods_output_automobile_add = 30
+            goods_output_automobiles_add = 30
         }
 
         level_scaled = {
@@ -657,7 +657,7 @@ pm_subcompact_automobile = {
         workforce_scaled = {
             goods_input_rubber_add = 15
             goods_input_engines_add = 4
-            goods_output_automobile_add = 30
+            goods_output_automobiles_add = 30
         }
 
         level_scaled = {
@@ -678,7 +678,7 @@ pm_hybrid_automobile = {
             goods_input_engines_add = 6
             goods_input_minor_metals_add = 2
             goods_input_computers_add = 2
-            goods_output_automobile_add = 40
+            goods_output_automobiles_add = 40
         }
 
         level_scaled = {
@@ -699,7 +699,7 @@ pm_fuel_cell_automobile = {
             goods_input_engines_add = 8
             goods_input_minor_metals_add = 4
             goods_input_computers_add = 4
-            goods_output_automobile_add = 50
+            goods_output_automobiles_add = 50
         }
 
         level_scaled = {
@@ -726,7 +726,7 @@ pm_line_production_automobile = {
             goods_input_engines_mult = 0.5
             goods_input_minor_metals_mult = 0.5
             goods_input_computers_mult = 0.5
-            goods_output_automobile_mult = 0.5
+            goods_output_automobiles_mult = 0.5
         }
 
         level_scaled = {
@@ -748,7 +748,7 @@ pm_robot_assembly_automobile = {
             goods_input_engines_mult = 1
             goods_input_minor_metals_mult = 1
             goods_input_computers_mult = 1
-            goods_output_automobile_mult = 1
+            goods_output_automobiles_mult = 1
         }
 
         level_scaled = {
@@ -770,7 +770,7 @@ pm_ai_production_automobile = {
             goods_input_engines_mult = 2
             goods_input_minor_metals_mult = 2
             goods_input_computers_mult = 2
-            goods_output_automobile_mult = 2
+            goods_output_automobiles_mult = 2
         }
 
         level_scaled = {
@@ -1098,7 +1098,7 @@ pm_gasoline_engine = {
         workforce_scaled = {
             goods_input_steel_add = 10
             goods_input_oil_add = 5
-            goods_output_engine_add = 20
+            goods_output_engines_add = 20
         }
 
         level_scaled = {
@@ -1116,7 +1116,7 @@ pm_diesel_engine = {
         workforce_scaled = {
             goods_input_steel_add = 20
             goods_input_oil_add = 10
-            goods_output_engine_add = 40
+            goods_output_engines_add = 40
         }
 
         level_scaled = {
@@ -1134,7 +1134,7 @@ pm_turbine_engine = {
         workforce_scaled = {
             goods_input_steel_add = 30
             goods_input_oil_add = 15
-            goods_output_engine_add = 60
+            goods_output_engines_add = 60
         }
 
         level_scaled = {
@@ -1152,7 +1152,7 @@ pm_fuel_cell_engine = {
         workforce_scaled = {
             goods_input_steel_add = 40
             goods_input_oil_add = 20
-            goods_output_engine_add = 80
+            goods_output_engines_add = 80
         }
 
         level_scaled = {
@@ -1175,7 +1175,7 @@ pm_batch_production_engine = {
 
             goods_input_steel_mult = 0.2
             goods_input_oil_mult = 0.2
-            goods_output_engine_mult = 0.2
+            goods_output_engines_mult = 0.2
         }
 
         level_scaled = {
@@ -1194,7 +1194,7 @@ pm_flow_production_engine = {
 
             goods_input_steel_mult = 0.4
             goods_input_oil_mult = 0.4
-            goods_output_engine_mult = 0.4
+            goods_output_engines_mult = 0.4
         }
 
         level_scaled = {
@@ -1213,7 +1213,7 @@ pm_cell_production_engine = {
 
             goods_input_steel_mult = 0.6
             goods_input_oil_mult = 0.6
-            goods_output_engine_mult = 0.6
+            goods_output_engines_mult = 0.6
         }
 
         level_scaled = {
@@ -1232,7 +1232,7 @@ pm_robot_assembly_engine = {
 
             goods_input_steel_mult = 0.8
             goods_input_oil_mult = 0.8
-            goods_output_engine_mult = 0.8
+            goods_output_engines_mult = 0.8
         }
 
         level_scaled = {
@@ -1252,7 +1252,7 @@ pm_ai_production_engine = {
 
             goods_input_steel_mult = 1
             goods_input_oil_mult = 1
-            goods_output_engine_mult = 1
+            goods_output_engines_mult = 1
         }
 
         level_scaled = {

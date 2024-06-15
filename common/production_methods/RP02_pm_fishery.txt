@@ -169,7 +169,7 @@ pm_fishfinder = {
     building_modifiers = {
         workforce_scaled = {
             # input goods
-            goods_input_computer_add = 1
+            goods_input_computers_add = 1
             goods_input_electricity_add = 5
             # output goods
             goods_output_fish_add = 40
@@ -190,7 +190,7 @@ pm_trawler = {
             # input goods
             goods_input_steel_add = 5
             goods_input_engine_add = 1
-            goods_input_computer_add = 1
+            goods_input_computers_add = 1
             # output goods
             goods_output_fish_add = 60
         }
@@ -210,7 +210,7 @@ pm_fishing_fleet = {
             # input goods
             goods_input_steel_add = 10
             goods_input_engine_add = 2
-            goods_input_computer_add = 2
+            goods_input_computers_add = 2
             # output goods
             goods_output_fish_add = 100
         }
@@ -232,7 +232,7 @@ pm_dengerous_fishing = {
             # input goods
             goods_input_steel_add = 5
             goods_input_engine_add = 1
-            goods_input_computer_add = 1
+            goods_input_computers_add = 1
             # output goods
             goods_output_luxury_food_add = 15
         }
@@ -245,12 +245,12 @@ pm_dengerous_fishing = {
     }
 }
 #GPS
-pm_gps_fishing = {
+pm_gps = {
     texture = "gfx/interface/icons/production_method_icons/method_production_0.dds"
     building_modifiers = {
         workforce_scaled = {
             # input goods
-            goods_input_computer_add = 1
+            goods_input_computers_add = 1
             goods_input_electricity_add = 5
             # output goods
             goods_output_luxury_food_add = 30
@@ -271,7 +271,7 @@ pm_ocean_trawler = {
             # input goods
             goods_input_steel_add = 5
             goods_input_engine_add = 1
-            goods_input_computer_add = 1
+            goods_input_computers_add = 1
             # output goods
             goods_output_luxury_food_add = 60
         }
@@ -406,7 +406,7 @@ pm_aquaculture_complex = {
             # input goods
             goods_input_grain_add = 20
             goods_input_wood_add = 10
-            goods_input_computer_add = 2
+            goods_input_computers_add = 2
             # output goods
             goods_output_fish_add = 100
         }
@@ -427,7 +427,7 @@ pm_CRAS = {
     building_modifiers = {
         workforce_scaled = {
             # input goods
-            goods_input_computer_add = 2
+            goods_input_computers_add = 2
             goods_input_rubber_add = 5
             goods_input_electricity_add = 5
             # output goods
@@ -448,7 +448,7 @@ pm_large_CRAS = {
     building_modifiers = {
         workforce_scaled = {
             # input goods
-            goods_input_computer_add = 5
+            goods_input_computers_add = 5
             goods_input_rubber_add = 10
             goods_input_electricity_add = 10
             # output goods

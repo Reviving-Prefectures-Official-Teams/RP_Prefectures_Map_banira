@@ -249,7 +249,7 @@ pm_ai_production_glass = {
 	}
 }
 
-#####コンピュータ工場 building_computer_factory
+#####コンピュータ工場 building_computers_factory
 ###コンピュータ生産
 #8ビットコンピュータ
 pm_8bit_computer = {
@@ -259,7 +259,7 @@ pm_8bit_computer = {
         workforce_scaled = {
             goods_input_minor_metals_add = 3
             goods_input_rubber_add = 3
-            goods_output_computer_add = 8
+            goods_output_computers_add = 8
         }
 
         level_scaled = {
@@ -278,7 +278,7 @@ pm_32bit_computer = {
         workforce_scaled = {
             goods_input_minor_metals_add = 5
             goods_input_rubber_add = 5
-            goods_output_computer_add = 14
+            goods_output_computers_add = 14
         }
 
         level_scaled = {
@@ -297,7 +297,7 @@ pm_laptop_computer = {
         workforce_scaled = {
             goods_input_minor_metals_add = 8
             goods_input_rubber_add = 8
-            goods_output_computer_add = 24
+            goods_output_computers_add = 24
         }
 
         level_scaled = {
@@ -316,7 +316,7 @@ pm_quantum_computer = {
         workforce_scaled = {
             goods_input_minor_metals_add = 10
             goods_input_rubber_add = 10
-            goods_output_computer_add = 32
+            goods_output_computers_add = 32
         }
 
         level_scaled = {
@@ -337,7 +337,7 @@ pm_batch_production_computer = {
             
             goods_input_minor_metals_mult = 0.2
             goods_input_rubber_mult = 0.2
-            goods_output_computer_mult = 0.2
+            goods_output_computers_mult = 0.2
         }
 
         level_scaled = {
@@ -356,7 +356,7 @@ pm_flow_production_computer = {
             
             goods_input_minor_metals_mult = 0.4
             goods_input_rubber_mult = 0.4
-            goods_output_computer_mult = 0.4
+            goods_output_computers_mult = 0.4
         }
 
         level_scaled = {
@@ -376,7 +376,7 @@ pm_cell_production_computer = {
 
             goods_input_minor_metals_mult = 0.6
             goods_input_rubber_mult = 0.6
-            goods_output_computer_mult = 0.6
+            goods_output_computers_mult = 0.6
         }
 
         level_scaled = {
@@ -396,7 +396,7 @@ pm_robot_assembly_computer = {
 
             goods_input_minor_metals_mult = 0.8
             goods_input_rubber_mult = 0.8
-            goods_output_computer_mult = 0.8
+            goods_output_computers_mult = 0.8
         }
 
         level_scaled = {
@@ -417,7 +417,7 @@ pm_ai_production_computer = {
 
             goods_input_minor_metals_mult = 1.0
             goods_input_rubber_mult = 1.0
-            goods_output_computer_mult = 1.0
+            goods_output_computers_mult = 1.0
         }
 
         level_scaled = {
@@ -496,7 +496,7 @@ pm_smartphone = {
         workforce_scaled = {
             goods_input_minor_metals_add = 5
             goods_input_glass_add = 5
-            goods_input_computer_add = 5
+            goods_input_computers_add = 5
             goods_output_telephones_add = 25
         }
 
@@ -516,7 +516,7 @@ pm_smart_glasses = {
         workforce_scaled = {
             goods_input_minor_metals_add = 8
             goods_input_glass_add = 8
-            goods_input_computer_add = 6
+            goods_input_computers_add = 6
             goods_output_telephones_add = 30
         }
 
@@ -540,7 +540,7 @@ pm_batch_production_telephones = {
             goods_input_rubber_mult = 0.2
             goods_input_glass_mult = 0.2
             goods_input_services_mult = 0.2
-            goods_input_computer_add = 0.2
+            goods_input_computers_add = 0.2
             goods_output_telephones_add = 0.2
         }
 
@@ -562,7 +562,7 @@ pm_flow_production_telephones = {
             goods_input_rubber_mult = 0.4
             goods_input_glass_mult = 0.4
             goods_input_services_mult = 0.4
-            goods_input_computer_add = 0.4
+            goods_input_computers_add = 0.4
             goods_output_telephones_add = 0.4
         }
 
@@ -585,7 +585,7 @@ pm_cell_production_telephones = {
             goods_input_rubber_mult = 0.6
             goods_input_glass_mult = 0.6
             goods_input_services_mult = 0.6
-            goods_input_computer_add = 0.6
+            goods_input_computers_add = 0.6
             goods_output_telephones_add = 0.6
         }
 
@@ -608,7 +608,7 @@ pm_robot_assembly_telephones = {
             goods_input_rubber_mult = 0.8
             goods_input_glass_mult = 0.8
             goods_input_services_mult = 0.8
-            goods_input_computer_add = 0.8
+            goods_input_computers_add = 0.8
             goods_output_telephones_add = 0.8
         }
 
@@ -632,7 +632,7 @@ pm_ai_production_telephones = {
             goods_input_rubber_mult = 1.0
             goods_input_glass_mult = 1.0
             goods_input_services_mult = 1.0
-            goods_input_computer_add = 1.0
+            goods_input_computers_add = 1.0
             goods_output_telephones_add = 1.0
         }
 
@@ -2354,7 +2354,7 @@ pm_arcade_game = {
     building_modifiers = {
         workforce_scaled = {
             goods_input_iron_add = 5
-            goods_input_computer_add = 5
+            goods_input_computers_add = 5
             goods_input_glass_add = 5
             goods_input_electricity_add = 3
             goods_output_game_consoles_add = 30
@@ -2375,7 +2375,7 @@ pm_home_game_console = {
     building_modifiers = {
         workforce_scaled = {
             goods_input_iron_add = 5
-            goods_input_computer_add = 5
+            goods_input_computers_add = 5
             goods_input_electricity_add = 3
             goods_output_game_consoles_add = 30
         }
@@ -2395,7 +2395,7 @@ pm_portable_game_console = {
     building_modifiers = {
         workforce_scaled = {
             goods_input_rubber_add = 5
-            goods_input_computer_add = 5
+            goods_input_computers_add = 5
             goods_input_electricity_add = 3
             goods_output_game_consoles_add = 35
         }
@@ -2460,7 +2460,7 @@ pm_batch_production_game_consoles = {
             
             goods_input_iron_mult = 0.20
             goods_input_rubber_mult = 0.20
-            goods_input_computer_mult = 0.20
+            goods_input_computers_mult = 0.20
             goods_input_glass_mult = 0.20
             goods_input_telephones_mult = 0.20
             goods_input_porcelein_mult = 0.20
@@ -2483,7 +2483,7 @@ pm_flow_production_game_consoles = {
             
             goods_input_iron_mult = 0.40
             goods_input_rubber_mult = 0.40
-            goods_input_computer_mult = 0.40
+            goods_input_computers_mult = 0.40
             goods_input_glass_mult = 0.40
             goods_input_telephones_mult = 0.40
             goods_input_porcelein_mult = 0.40
@@ -2507,7 +2507,7 @@ pm_cell_production_game_consoles = {
 
             goods_input_iron_mult = 0.60
             goods_input_rubber_mult = 0.60
-            goods_input_computer_mult = 0.60
+            goods_input_computers_mult = 0.60
             goods_input_glass_mult = 0.60
             goods_input_telephones_mult = 0.60
             goods_input_porcelein_mult = 0.60
@@ -2531,7 +2531,7 @@ pm_robot_assembly_game_consoles = {
 
             goods_input_iron_mult = 0.80
             goods_input_rubber_mult = 0.80
-            goods_input_computer_mult = 0.80
+            goods_input_computers_mult = 0.80
             goods_input_glass_mult = 0.80
             goods_input_telephones_mult = 0.80
             goods_input_porcelein_mult = 0.80
@@ -2556,7 +2556,7 @@ pm_ai_production_game_consoles = {
 
             goods_input_iron_mult = 1.00
             goods_input_rubber_mult = 1.00
-            goods_input_computer_mult = 1.00
+            goods_input_computers_mult = 1.00
             goods_input_glass_mult = 1.00
             goods_input_telephones_mult = 1.00
             goods_input_porcelein_mult = 1.00
@@ -2622,7 +2622,7 @@ pm_digital_television = {
             goods_input_iron_add = 5
             goods_input_glass_add = 5
             goods_input_electricity_add = 5
-            goods_input_computer_add = 5
+            goods_input_computers_add = 5
             goods_output_home_appliances_add = 40
         }
 
@@ -2643,7 +2643,7 @@ pm_4k_television = {
             goods_input_rubber_add = 5
             goods_input_glass_add = 5
             goods_input_electricity_add = 5
-            goods_input_computer_add = 5
+            goods_input_computers_add = 5
             goods_output_home_appliances_add = 45
         }
 
@@ -2664,7 +2664,7 @@ pm_8k_television = {
             goods_input_rubber_add = 10
             goods_input_glass_add = 5
             goods_input_electricity_add = 5
-            goods_input_computer_add = 5
+            goods_input_computers_add = 5
             goods_output_home_appliances_add = 50
         }
 
@@ -2690,7 +2690,7 @@ pm_batch_production_television = {
             goods_input_glass_mult = 0.20
             goods_input_electricity_mult = 0.20
             goods_input_dye_mult = 0.20
-            goods_input_computer_mult = 0.20
+            goods_input_computers_mult = 0.20
             goods_output_home_appliances_mult = 0.20
         }
         level_scaled = {
@@ -2712,7 +2712,7 @@ pm_flow_production_television = {
             goods_input_glass_mult = 0.40
             goods_input_electricity_mult = 0.40
             goods_input_dye_mult = 0.40
-            goods_input_computer_mult = 0.40
+            goods_input_computers_mult = 0.40
             goods_output_home_appliances_mult = 0.40
         }
         level_scaled = {
@@ -2735,7 +2735,7 @@ pm_cell_production_television = {
             goods_input_glass_mult = 0.60
             goods_input_electricity_mult = 0.60
             goods_input_dye_mult = 0.60
-            goods_input_computer_mult = 0.60
+            goods_input_computers_mult = 0.60
             goods_output_home_appliances_mult = 0.60
         }
         level_scaled = {
@@ -2758,7 +2758,7 @@ pm_robot_assembly_television = {
             goods_input_glass_mult = 0.80
             goods_input_electricity_mult = 0.80
             goods_input_dye_mult = 0.80
-            goods_input_computer_mult = 0.80
+            goods_input_computers_mult = 0.80
             goods_output_home_appliances_mult = 0.80
         }
         level_scaled = {
@@ -2782,7 +2782,7 @@ pm_ai_production_television = {
             goods_input_glass_mult = 1.00
             goods_input_electricity_mult = 1.00
             goods_input_dye_mult = 1.00
-            goods_input_computer_mult = 1.00
+            goods_input_computers_mult = 1.00
             goods_output_home_appliances_mult = 1.00
         }
         level_scaled = {
@@ -2842,7 +2842,7 @@ pm_fully_automatic_washing_machine = {
             goods_input_rubber_add = 2
             goods_input_water_add = 10
             goods_input_electricity_add = 5
-            goods_input_computer_add = 5
+            goods_input_computers_add = 5
             goods_output_home_appliances_add = 30
         }
 
@@ -2863,7 +2863,7 @@ pm_washer_dryer = {
             goods_input_rubber_add = 5
             goods_input_water_add = 10
             goods_input_electricity_add = 10
-            goods_input_computer_add = 5
+            goods_input_computers_add = 5
             goods_output_home_appliances_add = 35
         }
 
@@ -2884,7 +2884,7 @@ pm_ai_washing_machine = {
             goods_input_rubber_add = 5
             goods_input_water_add = 10
             goods_input_electricity_add = 15
-            goods_input_computer_add = 3
+            goods_input_computers_add = 3
             goods_input_web_add = 3
             goods_output_home_appliances_add = 40
         }
@@ -2909,7 +2909,7 @@ pm_batch_production_washing_machine = {
             goods_input_rubber_mult = 0.20
             goods_input_water_mult = 0.20
             goods_input_electricity_mult = 0.20
-            goods_input_computer_mult = 0.20
+            goods_input_computers_mult = 0.20
             goods_output_home_appliances_mult = 0.20
         }
         level_scaled = {
@@ -2929,7 +2929,7 @@ pm_flow_production_washing_machine = {
             goods_input_rubber_mult = 0.40
             goods_input_water_mult = 0.40
             goods_input_electricity_mult = 0.40
-            goods_input_computer_mult = 0.40
+            goods_input_computers_mult = 0.40
             goods_output_home_appliances_mult = 0.40
         }
         level_scaled = {
@@ -2950,7 +2950,7 @@ pm_cell_production_washing_machine = {
             goods_input_rubber_mult = 0.60
             goods_input_water_mult = 0.60
             goods_input_electricity_mult = 0.60
-            goods_input_computer_mult = 0.60
+            goods_input_computers_mult = 0.60
             goods_output_home_appliances_mult = 0.60
         }
         level_scaled = {
@@ -2971,7 +2971,7 @@ pm_robot_assembly_washing_machine = {
             goods_input_rubber_mult = 0.80
             goods_input_water_mult = 0.80
             goods_input_electricity_mult = 0.80
-            goods_input_computer_mult = 0.80
+            goods_input_computers_mult = 0.80
             goods_output_home_appliances_mult = 0.80
         }
         level_scaled = {
@@ -2993,7 +2993,7 @@ pm_ai_production_washing_machine = {
             goods_input_rubber_mult = 1.00
             goods_input_water_mult = 1.00
             goods_input_electricity_mult = 1.00
-            goods_input_computer_mult = 1.00
+            goods_input_computers_mult = 1.00
             goods_output_home_appliances_mult = 1.00
         }
         level_scaled = {
@@ -3075,7 +3075,7 @@ pm_multi_function_refrigerator = {
             goods_input_hardwood_add = 5
             goods_input_gas_add = 5
             goods_input_electricity_add = 5
-            goods_input_computer_add = 5
+            goods_input_computers_add = 5
             goods_output_home_appliances_add = 35
         }
 
@@ -3100,7 +3100,7 @@ pm_batch_production_refrigerator = {
             goods_input_hardwood_mult = 0.20
             goods_input_gas_mult = 0.20
             goods_input_electricity_mult = 0.20
-            goods_input_computer_mult = 0.20
+            goods_input_computers_mult = 0.20
             goods_output_home_appliances_mult = 0.20
         }
         level_scaled = {
@@ -3121,7 +3121,7 @@ pm_flow_production_refrigerator = {
             goods_input_hardwood_mult = 0.40
             goods_input_gas_mult = 0.40
             goods_input_electricity_mult = 0.40
-            goods_input_computer_mult = 0.40
+            goods_input_computers_mult = 0.40
             goods_output_home_appliances_mult = 0.40
         }
         level_scaled = {
@@ -3143,7 +3143,7 @@ pm_cell_production_refrigerator = {
             goods_input_hardwood_mult = 0.60
             goods_input_gas_mult = 0.60
             goods_input_electricity_mult = 0.60
-            goods_input_computer_mult = 0.60
+            goods_input_computers_mult = 0.60
             goods_output_home_appliances_mult = 0.60
         }
         level_scaled = {
@@ -3165,7 +3165,7 @@ pm_robot_assembly_refrigerator = {
             goods_input_hardwood_mult = 0.80
             goods_input_gas_mult = 0.80
             goods_input_electricity_mult = 0.80
-            goods_input_computer_mult = 0.80
+            goods_input_computers_mult = 0.80
             goods_output_home_appliances_mult = 0.80
         }
         level_scaled = {
@@ -3188,7 +3188,7 @@ pm_ai_production_refrigerator = {
             goods_input_hardwood_mult = 1.00
             goods_input_gas_mult = 1.00
             goods_input_electricity_mult = 1.00
-            goods_input_computer_mult = 1.00
+            goods_input_computers_mult = 1.00
             goods_output_home_appliances_mult = 1.00
         }
         level_scaled = {
@@ -3207,7 +3207,7 @@ pm_silver_halide_camera = {
     building_modifiers = {
         workforce_scaled = {
             goods_input_glass_add = 12
-            goods_output_home_appliances_add = 25
+            goods_output_camera_add = 25
         }
 
         level_scaled = {
@@ -3226,7 +3226,7 @@ pm_ae_camera = {
         workforce_scaled = {
             goods_input_glass_add = 15
             goods_input_electricity_add = 5
-            goods_output_home_appliances_add = 30
+            goods_output_camera_add = 30
         }
 
         level_scaled = {
@@ -3245,8 +3245,8 @@ pm_digital_camera = {
         workforce_scaled = {
             goods_input_glass_add = 15
             goods_input_electricity_add = 5
-            goods_input_computer_add = 5
-            goods_output_home_appliances_add = 35
+            goods_input_computers_add = 5
+            goods_output_camera_add = 35
         }
 
         level_scaled = {
@@ -3265,8 +3265,8 @@ pm_mirrorless_camera = {
         workforce_scaled = {
             goods_input_glass_add = 20
             goods_input_electricity_add = 5
-            goods_input_computer_add = 5
-            goods_output_home_appliances_add = 40
+            goods_input_computers_add = 5
+            goods_output_camera_add = 40
         }
 
         level_scaled = {
@@ -3285,9 +3285,9 @@ pm_ai_corrected_camera = {
         workforce_scaled = {
             goods_input_glass_add = 20
             goods_input_electricity_add = 5
-            goods_input_computer_add = 5
+            goods_input_computers_add = 5
             goods_input_web_add = 5
-            goods_output_home_appliances_add = 45
+            goods_output_camera_add = 45
         }
 
         level_scaled = {
@@ -3309,7 +3309,7 @@ pm_batch_production_camera = {
             
             goods_input_glass_mult = 0.20
             goods_input_electricity_mult = 0.20
-            goods_input_computer_mult = 0.20
+            goods_input_computers_mult = 0.20
             goods_output_home_appliances_mult = 0.20
         }
         level_scaled = {
@@ -3328,7 +3328,7 @@ pm_flow_production_camera = {
             
             goods_input_glass_mult = 0.40
             goods_input_electricity_mult = 0.40
-            goods_input_computer_mult = 0.40
+            goods_input_computers_mult = 0.40
             goods_output_home_appliances_mult = 0.40
         }
         level_scaled = {
@@ -3348,7 +3348,7 @@ pm_cell_production_camera = {
 
             goods_input_glass_mult = 0.60
             goods_input_electricity_mult = 0.60
-            goods_input_computer_mult = 0.60
+            goods_input_computers_mult = 0.60
             goods_output_home_appliances_mult = 0.60
         }
         level_scaled = {
@@ -3368,7 +3368,7 @@ pm_robot_assembly_camera = {
 
             goods_input_glass_mult = 0.80
             goods_input_electricity_mult = 0.80
-            goods_input_computer_mult = 0.80
+            goods_input_computers_mult = 0.80
             goods_output_home_appliances_mult = 0.80
         }
         level_scaled = {
@@ -3389,7 +3389,7 @@ pm_ai_production_camera = {
 
             goods_input_glass_mult = 1.00
             goods_input_electricity_mult = 1.00
-            goods_input_computer_mult = 1.00
+            goods_input_computers_mult = 1.00
             goods_output_home_appliances_mult = 1.00
         }
         level_scaled = {

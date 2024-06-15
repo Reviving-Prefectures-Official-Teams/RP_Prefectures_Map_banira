@@ -2063,7 +2063,7 @@ pm_import_oil = {
 	}
 }
 #大型船輸送（石油）
-pm_large_ship_transport_oil = {
+pm_large_ship_transportation_oil = {
 	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
 
 	building_modifiers = {
@@ -2084,7 +2084,7 @@ pm_large_ship_transport_oil = {
 	}
 }
 #超大型船輸送（石油）
-pm_super_large_ship_transport_oil = {
+pm_super_large_ship_transportation_oil = {
 	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
 
 	building_modifiers = {
@@ -2125,7 +2125,7 @@ pm_import_gas = {
 	}
 }
 #大型船輸送（ガス）
-pm_large_ship_transport_gas = {
+pm_large_ship_transportation_gas = {
 	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
 
 	building_modifiers = {
@@ -2145,7 +2145,7 @@ pm_large_ship_transport_gas = {
 	}
 }
 #超大型船輸送（ガス）
-pm_super_large_ship_transport_gas = {
+pm_super_large_ship_transportation_gas = {
 	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
 
 	building_modifiers = {
