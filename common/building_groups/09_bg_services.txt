@@ -12,21 +12,23 @@ bg_services = {
 	economy_of_scale_ai_factor = 1.5
 }
 
-#都心
-bg_service = {
-	parent_group = bg_services
+#オフィスビル
+bg_office_building = {
+	category = urban
+	land_usage = urban
+	always_possible = yes	
 	auto_place_buildings = yes	
 	economy_of_scale = yes
 	default_building = building_urban_center
 	cash_reserves_max = 25000
 }
 
-#高層オフィスビル
-bg_skyscraper = {
+#都心
+bg_service = {
 	parent_group = bg_services
 	auto_place_buildings = yes	
 	economy_of_scale = yes
-	default_building = building_skyscraper 
+	default_building = building_urban_center
 	cash_reserves_max = 25000
 }
 

@@ -1,7 +1,7 @@
 ﻿######都市化
 #都市センター
 building_urban_center = {
-	building_group = bg_service
+	building_group = bg_office_building
 	texture = "gfx/interface/icons/building_icons/urban_center.dds"
 	city_type = city
 	residence_points_per_level = 0
@@ -20,90 +20,27 @@ building_urban_center = {
 	terrain_manipulator = urban_city
 }
 
-#高層ビル
-building_skyscraper = {
-
-	building_group = bg_skyscraper
-
-	city_type = city
-
-	levels_per_mesh = 1
-
-	enable_air_connection = yes
-
-	override_centerpiece_mesh = yes
-
-	downsizeable = no
-
-	production_method_groups = {
-		pmg_base_building_skyscraper
-		pmg_office_and_internet
-		pmg_airship_mooring_post
-	}
-
+building_office_building = {
+	building_group = bg_office_building
 	texture = "gfx/interface/icons/building_icons/skyscraper.dds"
-
-	required_construction = construction_cost_monument
-
-	#can_build_government = {
-	#	error_check = {
-	#		severity = fail
-	#		custom_tooltip = {
-	#			text = skyscraper_can_construct_tt
-	#			has_modifier = skyscraper_site
-	#		}
-	#	}
-	#}
-	#can_build_private = {
-	#	error_check = {
-	#		severity = potential
-	#		always = no
-	#	}
-	#}	
-	
-	ai_value = 10000
-}
-
-#専門ファーム
-building_specialized_farm = {
-	building_group = bg_service
-	texture = "gfx/interface/icons/building_icons/specialized_farm.dds"
 	city_type = city
 	residence_points_per_level = 0
 	
-	buildable = no
-	expandable = no
-	downsizeable = no
-
 	unlocking_technologies = { 
 	}
 	
 	production_method_groups = {
+		pmg_financial_service
 		pmg_exparts_affairs
+		pmg_travel_service
+		pmg_digital_service
+		#上記4業界の効率化生産方式は、存在するが未使用である。
 		pmg_digitalization
 	}
 	
-	terrain_manipulator = urban_city
-}
-
-#デジタル業界
-building_digital_industry = {
-	building_group = bg_service
-	texture = "gfx/interface/icons/building_icons/digital_industry.dds"
-	city_type = city
-	residence_points_per_level = 0
-	
 	buildable = no
 	expandable = no
-	downsizeable = no
-
-	unlocking_technologies = { 
-	}
-	
-	production_method_groups = {
-		pmg_digital_service
-		pmg_special_service_digital_industry
-	}
+	downsizeable = no	
 	
 	terrain_manipulator = urban_city
 }
@@ -195,29 +132,6 @@ building_travel_industry = {
 	production_method_groups = {
 		pmg_travel_service
 		pmg_special_service_travel_industry
-		pmg_digitalization
-	}
-	
-	terrain_manipulator = urban_city
-}
-
-#金融業界
-building_financial_industry = {
-	building_group = bg_service
-	texture = "gfx/interface/icons/building_icons/financial_industry.dds"
-	city_type = city
-	residence_points_per_level = 0
-	
-	buildable = no
-	expandable = no
-	downsizeable = no
-
-	unlocking_technologies = { 
-	}
-	
-	production_method_groups = {
-		pmg_financial_service
-		pmg_special_service_financial_industry
 		pmg_digitalization
 	}
 	
