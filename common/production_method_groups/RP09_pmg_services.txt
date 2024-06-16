@@ -19,22 +19,12 @@ pmg_digital_service = {
 	ai_selection = most_productive
 
 	production_methods = {
+		pm_unproducing
 		pm_software #ソフトウェア
 		pm_web_service #ウェブサービス
 		pm_cloud_service #クラウドサービス
 	}
 }	
-###専門サービス
-pmg_special_service_digital_industry = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
-	ai_selection = most_productive
-
-	production_methods = {
-		pm_outsourcing_contract #委託契約
-		pm_exclusive_contract_digital_industry #専属契約
-		pm_consulting_digital_industry #コンサルティング
-	}
-}
 
 #####市街地
 ###商店街
@@ -151,6 +141,7 @@ pmg_travel_service = {
 	ai_selection = most_productive
 
 	production_methods = {
+		pm_unproducing
 		pm_domestic_travel #国内旅行
 		pm_package_tour #パッケージツアー
 		pm_computer_reservation #コンピュータ予約
@@ -162,6 +153,7 @@ pmg_special_service_travel_industry = {
 	ai_selection = most_productive
 
 	production_methods = {
+		pm_unproducing
 		pm_outsourcing_contract #委託契約
 		pm_exclusive_contract_travel_industry #専属契約
 		pm_consulting_travel_industry #コンサルティング
