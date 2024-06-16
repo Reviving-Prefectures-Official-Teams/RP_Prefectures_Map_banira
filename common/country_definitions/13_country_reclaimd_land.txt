@@ -1,0 +1,41 @@
+﻿RL1 = {
+	color = { 177 51 34 }
+	
+	country_type = decentralized
+	
+}
+
+RL2 = {
+	color = { 66  94  193 }
+	
+	country_type = decentralized
+	
+}
+
+RL3 = {
+	color = { 190  186  202 }
+	
+	country_type = decentralized
+	
+}
+
+RL4 = {
+	color = { 106  124  243 }
+	
+	country_type = decentralized
+	
+}
+
+RL5 = {
+	color = { 212 100 141 }
+	
+	country_type = decentralized
+	
+}
+
+RL6 = {
+	color = { 177 51 34 }
+	
+	country_type = decentralized
+	
+}

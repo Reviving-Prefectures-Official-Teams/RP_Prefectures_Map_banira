@@ -1,0 +1,56 @@
+﻿#3200-3299番 を埋立地/開発地に割り当てる
+#八郎潟
+STATE_HACHIROHGATA = {
+    id = 3200
+    provinces = { "x03D4D0" "x04C826" "x1CAB2F" "x1CAB30" "x1D1A03" "x217DEF" "x28268D" "x3090BB" "x3E81B4" "x3FF795" "x60B61E" "x6F830E" "x82D218" "xB6545B" "xC1D609" "xC3ABE5" "xD5D46A" "xD5DC9C" "xD9B88C" "xE4EEB1" "xE6166B" }
+}
+#青函トンネル青森側出口
+STATE_TUNNEL_AOMORI = {
+    id = 3201
+    provinces = { "x03D4D1" "xD9B88D" }
+}
+#青函トンネル北海道側出口
+STATE_TUNNEL_HOKKAIDO = {
+    id = 3202
+    provinces = { "x3E81B5" "xC3ABE6" }
+}
+#東京湾埋立地1
+STATE_TOKYOWAN_1 = {
+    id = 3203
+    provinces = { "x08D632" "x3090BC" "x82D219" "xAA4D41" "xB08D2D" }
+}
+#東京湾埋立地2
+STATE_TOKYOWAN_2 = {
+    id = 3204
+    provinces = { "x012488" "x22EF86" "x37C2D0" "x408732" "x47F3E5" "x695453" "x70AADC" "x7148C8" "x869073" "x9C46B5" "x9D5011" "x9F88E4" "xAAE339" "xAFD589" "xBE95E8" "xC8F40B" "xCDD7E9" "xD523FF" "xF09616" }
+}
+#大阪湾埋立地1
+STATE_OSAKAWAN_1 = {
+    id = 3205
+    provinces = { "x2538F8" "x54E6F1" "x57CDE7" "x595524" "x62BE50" "x739FF7" "x7D27DB" "x88FCB4" "x9B68F7" "xA935BD" "xCBD9A1" "xD10B83" "xD57EE2" "xD5F562" "xEA916E" "xEB99CA" "xF27AF5" }
+}
+#大阪湾埋立地2
+STATE_OSAKAWAN_2 = {
+    id = 3206
+    provinces = { "x000028" "x457C03" "x722409" "x7AADCA" "x99BB34" "x99BB35" "xAC0D0F" "xB403DE" "xBF9AC5" "xBFF061" "xD19B63" "xE3A9D6" "xF76A74" }
+}
+#未記入
+STATE_RECLAIMED_007 = {
+    id = 3207
+    provinces = {}
+}
+
+STATE_RECLAIMED_008 = {
+    id = 3208
+    provinces = {}
+}
+
+STATE_RECLAIMED_009 = {
+    id = 3209
+    provinces = {}
+}
+
+STATE_RECLAIMED_010 = {
+    id = 3210
+    provinces = {}
+}

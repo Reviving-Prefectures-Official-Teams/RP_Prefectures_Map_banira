@@ -1,1 +1,2 @@
-#
+From,To,Type,Through,start_x,start_y,stop_x,stop_y,adjacency_rule_name,Comment
+xd9b88d,x3e81b5,sea,-1,5272,2317,5269,2451,,青函トンネル
