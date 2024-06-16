@@ -1,4 +1,4 @@
-region_pacific_ocean = {
+﻿region_pacific_ocean = {
 	states = {STATE_PACIFIC_OCEAN}
 }
 region_philippine_sea = {

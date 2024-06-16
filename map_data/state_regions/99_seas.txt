@@ -1,34 +1,43 @@
 ﻿STATE_PACIFIC_OCEAN = {
     id = 2000
     provinces = { "x0e0b47" }
+    impassable = { "x0e0b47" }
+
 }
 STATE_PHILIPPINE_SEA = {
     id = 2001
     provinces = { "x040651" }
+    impassable = { "x040651" }
 }
 STATE_SOUTH_PHILIPPINE_SEA = {
     id = 2002
     provinces = { "x030532" }
+    impassable = { "x030532" }
 }
 STATE_SOUTH_OKINAWA = {
     id = 2003
     provinces = { "x020258" }
+    impassable = { "x020258" }
 }
 STATE_NORTH_OKINAWA = {
     id = 2004
     provinces = { "x110e31" }
+    impassable = { "x110e31" }
 }
 STATE_EASTERN_CHINA_SEA = {
     id = 2005
     provinces = { "x06033a" }
+    impassable = { "x06033a" }
 }
 STATE_SEA_OF_JAPAN = {
     id = 2006
     provinces = { "x021c38" }
+    impassable = { "x021c38" }
 }
 STATE_SEA_OF_OKHOTSK = {
     id = 2007
     provinces = { "x021429" }
+    impassable = { "x021429" }
 }
 #Coastal States
 STATE_BAY_OF_TOKYO = {
