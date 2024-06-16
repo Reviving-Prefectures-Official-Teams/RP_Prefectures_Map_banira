@@ -42,6 +42,22 @@
     "common/production_method_groups/11_private_infrastructure.txt": true,
     "common/production_method_groups/12_subsistence.txt": true,
     "common/production_method_groups/13_construction.txt": true,
-    "common/buildings/02_agro.txt": true
+    "common/buildings/02_agro.txt": true,
+    "map_data/state_regions/00_west_europe.txt": true,
+    "map_data/state_regions/01_south_europe.txt": true,
+    "map_data/state_regions/02_east_europe.txt": true,
+    "map_data/state_regions/03_north_africa.txt": true,
+    "map_data/state_regions/04_subsaharan_africa.txt": true,
+    "map_data/state_regions/05_north_america.txt": true,
+    "map_data/state_regions/06_central_america.txt": true,
+    "map_data/state_regions/07_south_america.txt": true,
+    "map_data/state_regions/08_middle_east.txt": true,
+    "map_data/state_regions/09_central_asia.txt": true,
+    "map_data/state_regions/10_india.txt": true,
+    "map_data/state_regions/11_east_asia.txt": true,
+    "map_data/state_regions/12_indonesia.txt": true,
+    "map_data/state_regions/13_australasia.txt": true,
+    "map_data/state_regions/14_siberia.txt": true,
+    "map_data/state_regions/99_seas.txt": true
   }
 }
