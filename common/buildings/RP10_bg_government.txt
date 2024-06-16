@@ -90,16 +90,26 @@ building_art_museum = {
 }
 
 building_construction_sector = {
-	building_group = bg_construction
-	expandable = no
+	building_group = bg_construction_dummy
+	texture = "gfx/interface/icons/building_icons/construction_camp.dds"
+	levels_per_mesh = 2
 	buildable = no
+	expandable = no
 	downsizeable = no
-	unlocking_technologies = {
-		urbanization
-	}
+	min_raise_to_hire = -1.0
+	hiring_rate = 1.0
+	residence_points_per_level = 0
+	#economic_contribution = 0.0
+	#auto_place_buildings = yes
 	production_method_groups = {
-		pmg_dummy
+		pmg_base_building_construction_sector
 	}
-	
-	ai_value = 2000 # Construction sector should generally be preferred over other equal-priority spending items
+	#possible = {
+	#	this = {
+	#		#state = {
+	#			is_capital = yes
+	#		#}
+	#	}
+	#}
+
 }

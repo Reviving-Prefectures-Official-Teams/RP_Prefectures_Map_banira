@@ -496,6 +496,62 @@ pm_ai_administration = {
 	}
 }
 
+pm_wooden_buildings = {
+	texture = "gfx/interface/icons/production_method_icons/wooden_buildings.dds"
+	
+	is_default = yes
+
+			
+
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 0.1
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_construction_add = 1
+		}
+
+		level_scaled = {
+			building_employment_bureaucrats_add = 10
+		#	building_employment_clerks_add = 500
+		#	building_employment_laborers_add = 10
+		}
+		#unscaled = {
+		#	building_laborers_mortality_mult = 0.1
+		#}
+	}
+}
+
+pm_iron_frame_buildings = {
+	texture = "gfx/interface/icons/production_method_icons/wooden_buildings.dds"
+	
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 0.1
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_construction_add = 1
+		}
+
+		level_scaled = {
+			building_employment_bureaucrats_add = 10
+		#	building_employment_clerks_add = 500
+		#	building_employment_laborers_add = 4000
+		}
+		#unscaled = {
+		#	building_laborers_mortality_mult = 0.1
+		#}
+	}
+}
+
+
 #####貿易センター
 
 #####宇宙開発
