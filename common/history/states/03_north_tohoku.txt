@@ -4,7 +4,11 @@ STATES = {
         create_state = {
             country = c:AOM
             owned_provinces = { "x000000" "x14C2BE" "x296161" "x31EAE4" "x41F5A9" "x4BAFAF" "x60F7D4" "x69E1B4" "x69F6C4" "x78E9B4" "x7CBFD1" "x7EF3C3" "x7FACD9" "x8AC0D8" "x8BE298" "x8BE9F1" "x8BF9C9" "x91FEF3" "x920A5F" "x98F3D7" "x9DDF8E" "xA1AEF8" "xB8BDB5" "xBB96E4" "xBD93F1" "xC0D7ED" "xC2E571" "xC3CA88" "xC75FE1" "xC864D4" "xC8D8C5" "xCBFB7D" "xCCA0BA" "xCCE9E9" "xCECDD4" "xD195A6" "xD254D6" "xD4BB95" "xD7BDEB" "xDE66C0" "xDFD380" "xE3F980" "xE84DC2" "xEADFA3" "xEBD185" "xECF23F" "xF1D4D3" "xF33DAF" "xF4A076" "xF561D4" "xF66FC4" "xF9ACFB" "xFC8079" "xFED42E" }
-       }
+        }
+        create_state = {
+                country = c:RL2
+                owned_provinces = { "x03D4D1" "xD9B88D" }
+        }
         add_homeland = cu:aomori
     }
     s:STATE_HACHINOHE = {

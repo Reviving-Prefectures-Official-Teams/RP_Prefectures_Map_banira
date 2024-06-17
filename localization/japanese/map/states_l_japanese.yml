@@ -137,6 +137,8 @@
  STATE_MINAMIKAWACHI: "南河内"
  STATE_SAKAI: "堺"
  STATE_SENSYU: "泉州"
+ STATE_OSAKAWAN_1: "大阪中央埋立地"
+ STATE_OSAKAWAN_2: "大阪南埋立地"
   #兵庫県
  STATE_AWAJI: "淡路"
  STATE_KOBE: "神戸"
@@ -254,6 +256,8 @@
  STATE_HACHIJO: "八丈島"
  STATE_OGASAWARA: "小笠原諸島"
  STATE_KAZANRETTO: "火山列島"
+ STATE_TOKYOWAN_1: "東京南埋立地"
+ STATE_TOKYOWAN_2: "東京東埋立地"
   #神奈川県
  STATE_KAWASAKI: "川崎"
  STATE_YOKOHAMA: "横浜"
@@ -323,6 +327,7 @@
  STATE_YOKOTE: "横手"
  STATE_DAISEN: "大仙"
  STATE_OODATE: "大館"
+ STATE_HACHIROHGATA: "八郎潟"
   #山形県
  STATE_MURAYAMA: "村山"
  STATE_YONEZAWA: "米沢"
