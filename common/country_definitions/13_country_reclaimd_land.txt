@@ -39,3 +39,17 @@ RL6 = {
 	country_type = decentralized
 	
 }
+
+RL7 = {
+	color = { 66  94  193 }
+	
+	country_type = decentralized
+	
+}
+
+RL8 = {
+	color = { 190  186  202 }
+	
+	country_type = decentralized
+	
+}

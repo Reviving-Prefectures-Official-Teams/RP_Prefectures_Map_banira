@@ -4,15 +4,15 @@ STATE_HACHIROHGATA = {
     id = 3200
     provinces = { "x03D4D0" "x04C826" "x1CAB2F" "x1CAB30" "x1D1A03" "x217DEF" "x28268D" "x3090BB" "x3E81B4" "x3FF795" "x60B61E" "x6F830E" "x82D218" "xB6545B" "xC1D609" "xC3ABE5" "xD5D46A" "xD5DC9C" "xD9B88C" "xE4EEB1" "xE6166B" }
 }
-#青函トンネル青森側出口
-STATE_TUNNEL_AOMORI = {
+#未割り当て
+STATE_RECLAIMED_001 = {
     id = 3201
-    provinces = { "x03D4D1" "xD9B88D" }
+    provinces = {  }
 }
-#青函トンネル北海道側出口
-STATE_TUNNEL_HOKKAIDO = {
+#未割り当て
+STATE_RECLAIMED_002 = {
     id = 3202
-    provinces = { "x3E81B5" "xC3ABE6" }
+    provinces = {  }
 }
 #東京湾埋立地1
 STATE_TOKYOWAN_1 = {
@@ -34,23 +34,48 @@ STATE_OSAKAWAN_2 = {
     id = 3206
     provinces = { "x000028" "x457C03" "x722409" "x7AADCA" "x99BB34" "x99BB35" "xAC0D0F" "xB403DE" "xBF9AC5" "xBFF061" "xD19B63" "xE3A9D6" "xF76A74" }
 }
-#未記入
+#未割り当て
 STATE_RECLAIMED_007 = {
     id = 3207
-    provinces = {}
+    provinces = {  }
 }
-
+#未割り当て
 STATE_RECLAIMED_008 = {
     id = 3208
     provinces = {}
 }
-
+#未割り当て
 STATE_RECLAIMED_009 = {
     id = 3209
     provinces = {}
 }
-
+#未割り当て
 STATE_RECLAIMED_010 = {
     id = 3210
+    provinces = {}
+}
+#未割り当て
+STATE_RECLAIMED_011 = {
+    id = 3211
+    provinces = {}
+}
+#未割り当て
+STATE_RECLAIMED_012 = {
+    id = 3212
+    provinces = {}
+}
+#未割り当て
+STATE_RECLAIMED_013 = {
+    id = 3213
+    provinces = {}
+}
+#未割り当て
+STATE_RECLAIMED_014 = {
+    id = 3214
+    provinces = {}
+}
+#未割り当て
+STATE_RECLAIMED_015 = {
+    id = 3215
     provinces = {}
 }
