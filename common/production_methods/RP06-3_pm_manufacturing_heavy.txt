@@ -1624,12 +1624,11 @@ pm_3d_printing = {
 }
 
 ###断熱材
-pm_asbestos = {
+pm_rock_wool = {
     texture = "gfx/interface/icons/production_method_icons/"
     building_modifiers = {
         workforce_scaled = {
-            goods_input_asbestos_add = 10
-            goods_output_construction_mult = 0.5
+            goods_output_construction_mult = 0.1
         }
 
         level_scaled = {
@@ -1639,11 +1638,12 @@ pm_asbestos = {
         } 
     }
 }
-pm_rock_wool = {
+pm_asbestos = {
     texture = "gfx/interface/icons/production_method_icons/"
     building_modifiers = {
         workforce_scaled = {
-            goods_output_construction_mult = 0.1
+            goods_input_asbestos_add = 10
+            goods_output_construction_mult = 0.5
         }
 
         level_scaled = {

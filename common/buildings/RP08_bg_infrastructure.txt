@@ -138,7 +138,7 @@ building_airport = {
 }
 
 #高速道路
-highway = {
+building_highway = {
 	building_group = bg_private_infrastructure
 	texture = "gfx/interface/icons/building_icons/building_highway.dds"
 

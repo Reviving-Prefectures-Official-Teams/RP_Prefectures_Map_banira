@@ -13,6 +13,7 @@
   region_shikoku: "四国"
   region_kyushu: "九州"
   region_okinawa: "沖縄"
+  region_abroad: "海外"
 
   region_pacific_ocean: "太平洋"
   region_philippine_sea: "フィリピン海"
