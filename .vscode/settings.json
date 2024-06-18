@@ -58,6 +58,14 @@
     "map_data/state_regions/12_indonesia.txt": true,
     "map_data/state_regions/13_australasia.txt": true,
     "map_data/state_regions/14_siberia.txt": true,
-    "map_data/state_regions/99_seas.txt": true
+    "map_data/state_regions/99_seas.txt": true,
+    "common/strategic_regions/_strategic_regions.info": true,
+    "common/strategic_regions/african_strategic_regions.txt": true,
+    "common/strategic_regions/east_asia_strategic_regions.txt": true,
+    "common/strategic_regions/europe_strategic_regions.txt": true,
+    "common/strategic_regions/north_america_strategic_regions.txt": true,
+    "common/strategic_regions/south_america_strategic_regions.txt": true,
+    "common/strategic_regions/water_strategic_regions.txt": true,
+    "common/strategic_regions/west_south_asia_strategic_regions.txt": true
   }
 }

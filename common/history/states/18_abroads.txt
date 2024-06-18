@@ -1,0 +1,90 @@
+﻿# "Why do some state entries have quote marks around them, when others don't?"
+# "It's because of differing methods of editing throughout the production of the game. Quote marks are unnecessary, but harmless if present."
+
+STATES = {
+	#アメリカ本土
+	s:STATE_RECLAIMED_001 = {
+		create_state = {
+			country = c:AB1
+    		owned_provinces = { "x35CA23" }
+		}
+	}
+	#ソビエト本土
+	s:STATE_RECLAIMED_002 = {
+		create_state = {
+			country = c:AB2
+			owned_provinces = { "x334F1F" }
+		}
+	}
+	#北朝鮮
+	s:STATE_RECLAIMED_007 = {
+		create_state = {
+			country = c:AB3
+			owned_provinces = { "xF347EF" }
+		}
+	}
+	#韓国
+	s:STATE_RECLAIMED_008 = {
+		create_state = {
+			country = c:AB4
+			owned_provinces = { "x5359AB" }
+		}
+	}
+	#中国
+	s:STATE_RECLAIMED_009 = {
+		create_state = {
+			country = c:AB5
+			owned_provinces = { "x028186" }
+		}
+	}
+	#オーストラリア
+	s:STATE_RECLAIMED_010 = {
+		create_state = {
+			country = c:AB6
+			owned_provinces = { "xE057CA" }
+		}
+	}
+	#東南アジア
+	s:STATE_RECLAIMED_011 = {
+		create_state = {
+			country = c:AB7
+			owned_provinces = { "x72FE9F" }
+		}
+	}
+	#インド
+	s:STATE_RECLAIMED_012 = {
+		create_state = {
+			country = c:AB8
+			owned_provinces = { "x28739A" }
+		}
+	}
+	#アラブ世界
+	s:STATE_RECLAIMED_013 = {
+		create_state = {
+			country = c:AB9
+			owned_provinces = { "x2A7A7A" }
+		}
+	}
+	#ヨーロッパ
+	s:STATE_RECLAIMED_014 = {
+		create_state = {
+			country = c:AB10
+			owned_provinces = { "x414CFA" }
+		}
+	}
+	#ラテンアメリカ
+	s:STATE_RECLAIMED_015 = {
+		create_state = {
+			country = c:AB10
+			owned_provinces = { "xC1A979" }
+		}
+	}
+	#アフリカ
+	s:STATE_RECLAIMED_016 = {
+		create_state = {
+			country = c:AB10
+			owned_provinces = { "xF7F14C" }
+		}
+	}
+
+}
