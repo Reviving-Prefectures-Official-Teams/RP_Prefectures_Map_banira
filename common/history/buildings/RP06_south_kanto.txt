@@ -1,1 +1,12 @@
-﻿
+﻿BUILDINGS={
+    s:STATE_KAWASAKI = {
+        region_state:KNG={
+            create_building={
+				building="building_government_administration"
+				level=4
+				reserves=1
+				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+            }
+        }
+    }
+}

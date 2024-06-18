@@ -1,1 +1,322 @@
-﻿
+﻿BUILDINGS={
+    s:STATE_IWAKI = {
+        region_state:FKS={
+            create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+            }
+        }
+    }
+    s:STATE_SOSO = {
+        region_state:FKS={
+            create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+            }
+        }
+    }
+    s:STATE_FUKUSHIMA = {
+        region_state:FKS={
+            create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+            }
+        }
+    }
+    s:STATE_KORIYAMA = {
+        region_state:FKS={
+            create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+            }
+        }
+    }
+    s:STATE_SHIRAKAWA= {
+        region_state:FKS={
+            create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+            }
+        }
+    }
+    s:STATE_AIZU = {
+        region_state:FKS={
+            create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+            }
+        }
+    }
+    s:STATE_MINAMIAIZU = {
+        region_state:FKS={
+            create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+            }
+        }
+    }
+    s:STATE_SENDAI = {
+        region_state:MYG={
+            create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+            }
+        }
+    }
+    s:STATE_SENNAN = {
+        region_state:MYG={
+            create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+            }
+        }
+    }
+    s:STATE_ISHINOMAKI = {
+        region_state:MYG={
+            create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+            }
+        }
+    }
+    s:STATE_OOSAKI = {
+        region_state:MYG={
+            create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+            }
+        }
+    }
+    s:STATE_KURIHARA = {
+        region_state:MYG={
+            create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+            }
+        }
+    }
+    s:STATE_TOME = {
+        region_state:MYG={
+            create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+            }
+        }
+    }
+    s:STATE_KESENNUMA = {
+        region_state:MYG={
+            create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+            }
+        }
+    }
+    s:STATE_MURAYAMA = {
+        region_state:YMG={
+            create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+            }
+        }
+    }
+    s:STATE_YONEZAWA = {
+        region_state:YMG={
+            create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+            }
+        }
+    }
+    s:STATE_SYONAI = {
+        region_state:YMG={
+            create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+            }
+        }
+    }
+    s:STATE_MOGAMI = {
+        region_state:YMG={
+            create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+            }
+        }
+    }
+    s:STATE_MORIOKA = {
+        region_state:IWT={
+            create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+            }
+        }
+    }
+    s:STATE_KAMAISHI = {
+        region_state:IWT={
+            create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+            }
+        }
+    }
+    s:STATE_HANAMAKI = {
+        region_state:IWT={
+            create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+            }
+        }
+    }
+    s:STATE_KUJI = {
+        region_state:IWT={
+            create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+            }
+        }
+    }
+    s:STATE_AKITA = {
+        region_state:AKT={
+            create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+            }
+        }
+    }
+    s:STATE_YURIHONJYOU = {
+        region_state:AKT={
+            create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+            }
+        }
+    }
+    s:STATE_YOKOTE = {
+        region_state:AKT={
+            create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+            }
+        }
+    }
+    s:STATE_DAISEN = {
+        region_state:AKT={
+            create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+            }
+        }
+    }
+    s:STATE_OODATE = {
+        region_state:AKT={
+            create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+            }
+        }
+    }
+    s:STATE_AOMORI = {
+        region_state:AOM={
+            create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+            }
+        }
+    }
+    s:STATE_HACHINOHE = {
+        region_state:AOM={
+            create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+            }
+        }
+    }
+    s:STATE_HIROSAKI = {
+        region_state:AOM={
+            create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+            }
+        }
+    }
+    s:STATE_TOWADA = {
+        region_state:AOM={
+            create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+            }
+        }
+    }
+    s:STATE_MUTU = {
+        region_state:AOM={
+            create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+            }
+        }
+    }
+}
