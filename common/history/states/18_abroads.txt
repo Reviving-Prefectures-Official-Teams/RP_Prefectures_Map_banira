@@ -75,14 +75,14 @@ STATES = {
 	#ラテンアメリカ
 	s:STATE_RECLAIMED_015 = {
 		create_state = {
-			country = c:AB10
+			country = c:AB11
 			owned_provinces = { "xC1A979" }
 		}
 	}
 	#アフリカ
 	s:STATE_RECLAIMED_016 = {
 		create_state = {
-			country = c:AB10
+			country = c:AB12
 			owned_provinces = { "xF7F14C" }
 		}
 	}

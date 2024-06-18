@@ -66,6 +66,21 @@
     "common/strategic_regions/north_america_strategic_regions.txt": true,
     "common/strategic_regions/south_america_strategic_regions.txt": true,
     "common/strategic_regions/water_strategic_regions.txt": true,
-    "common/strategic_regions/west_south_asia_strategic_regions.txt": true
+    "common/strategic_regions/west_south_asia_strategic_regions.txt": true,
+    "common/history/buildings/00_west_europe.txt": true,
+    "common/history/buildings/01_south_europe.txt": true,
+    "common/history/buildings/02_east_europe.txt": true,
+    "common/history/buildings/03_north_africa.txt": true,
+    "common/history/buildings/04_subsaharan_africa.txt": true,
+    "common/history/buildings/05_north_america.txt": true,
+    "common/history/buildings/06_central_america.txt": true,
+    "common/history/buildings/07_south_america.txt": true,
+    "common/history/buildings/08_middle_east.txt": true,
+    "common/history/buildings/09_central_asia.txt": true,
+    "common/history/buildings/10_india.txt": true,
+    "common/history/buildings/11_east_asia.txt": true,
+    "common/history/buildings/12_indonesia.txt": true,
+    "common/history/buildings/13_australasia.txt": true,
+    "common/history/buildings/14_siberia.txt": true
   }
 }

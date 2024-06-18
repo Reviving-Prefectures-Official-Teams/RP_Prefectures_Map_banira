@@ -1,0 +1,170 @@
+﻿BUILDINGS = {
+    s:STATE_RECLAIMED_001 = {
+        region_state:AB1 = {
+            create_building = {
+                building="building_government_administration"
+                level=1
+                reserves=1
+            }
+            create_building = {
+                building="building_port"
+                level=1
+                reserves=1
+            }
+        }
+    }
+    s:STATE_RECLAIMED_002 = {
+        region_state:AB2 = {
+            create_building = {
+                building="building_government_administration"
+                level=1
+                reserves=1
+            }
+            create_building = {
+                building="building_port"
+                level=1
+                reserves=1
+            }
+        }
+    }
+    s:STATE_RECLAIMED_007 = {
+        region_state:AB3 = {
+            create_building = {
+                building="building_government_administration"
+                level=1
+                reserves=1
+            }
+            create_building = {
+                building="building_port"
+                level=1
+                reserves=1
+            }
+        }
+    }
+    s:STATE_RECLAIMED_008 = {
+        region_state:AB4 = {
+            create_building = {
+                building="building_government_administration"
+                level=1
+                reserves=1
+            }
+            create_building = {
+                building="building_port"
+                level=1
+                reserves=1
+            }
+        }
+    }
+    s:STATE_RECLAIMED_009 = {
+        region_state:AB5 = {
+            create_building = {
+                building="building_government_administration"
+                level=1
+                reserves=1
+            }
+            create_building = {
+                building="building_port"
+                level=1
+                reserves=1
+            }
+        }
+    }
+    s:STATE_RECLAIMED_010 = {
+        region_state:AB6 = {
+            create_building = {
+                building="building_government_administration"
+                level=1
+                reserves=1
+            }
+            create_building = {
+                building="building_port"
+                level=1
+                reserves=1
+            }
+        }
+    }
+    s:STATE_RECLAIMED_011 = {
+        region_state:AB7 = {
+            create_building = {
+                building="building_government_administration"
+                level=1
+                reserves=1
+            }
+            create_building = {
+                building="building_port"
+                level=1
+                reserves=1
+            }
+        }
+    }
+    s:STATE_RECLAIMED_012 = {
+        region_state:AB8 = {
+            create_building = {
+                building="building_government_administration"
+                level=1
+                reserves=1
+            }
+            create_building = {
+                building="building_port"
+                level=1
+                reserves=1
+            }
+        }
+    }
+    s:STATE_RECLAIMED_013 = {
+        region_state:AB9 = {
+            create_building = {
+                building="building_government_administration"
+                level=1
+                reserves=1
+            }
+            create_building = {
+                building="building_port"
+                level=1
+                reserves=1
+            }
+        }
+    }
+    s:STATE_RECLAIMED_014 = {
+        region_state:AB10 = {
+            create_building = {
+                building="building_government_administration"
+                level=1
+                reserves=1
+            }
+            create_building = {
+                building="building_port"
+                level=1
+                reserves=1
+            }
+        }
+    }
+    s:STATE_RECLAIMED_015 = {
+        region_state:AB11 = {
+            create_building = {
+                building="building_government_administration"
+                level=1
+                reserves=1
+            }
+            create_building = {
+                building="building_port"
+                level=1
+                reserves=1
+            }
+        }
+    }
+    s:STATE_RECLAIMED_016 = {
+        region_state:AB12 = {
+            create_building = {
+                building="building_government_administration"
+                level=1
+                reserves=1
+            }
+            create_building = {
+                building="building_port"
+                level=1
+                reserves=1
+            }
+        }
+    }
+}
