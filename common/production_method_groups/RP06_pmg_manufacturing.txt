@@ -842,8 +842,8 @@ pmg_housing_construction = {
 pmg_insulation_material = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_asbestos
 		pm_rock_wool
+		pm_asbestos
 		pm_glass_wool
 		pm_urethane_foam
 		pm_aerogel

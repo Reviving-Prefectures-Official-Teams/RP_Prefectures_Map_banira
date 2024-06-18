@@ -2357,7 +2357,7 @@ pm_arcade_game = {
             goods_input_computers_add = 5
             goods_input_glass_add = 5
             goods_input_electricity_add = 3
-            goods_output_game_consoles_add = 30
+            goods_output_game_console_add = 30
         }
 
         level_scaled = {
@@ -2377,7 +2377,7 @@ pm_home_game_console = {
             goods_input_iron_add = 5
             goods_input_computers_add = 5
             goods_input_electricity_add = 3
-            goods_output_game_consoles_add = 30
+            goods_output_game_console_add = 30
         }
 
         level_scaled = {
@@ -2397,7 +2397,7 @@ pm_portable_game_console = {
             goods_input_rubber_add = 5
             goods_input_computers_add = 5
             goods_input_electricity_add = 3
-            goods_output_game_consoles_add = 35
+            goods_output_game_console_add = 35
         }
 
         level_scaled = {
@@ -2417,7 +2417,7 @@ pm_xr_game_console = {
             goods_input_rubber_add = 5
             goods_input_telephones_add = 5
             goods_input_electricity_add = 3
-            goods_output_game_consoles_add = 40
+            goods_output_game_console_add = 40
         }
 
         level_scaled = {
@@ -2438,7 +2438,7 @@ pm_full_dive_vr_game_console = {
             goods_input_telephones_add = 5
             goods_input_porcelein_add = 5
             goods_input_electricity_add = 3
-            goods_output_game_consoles_add = 45
+            goods_output_game_console_add = 45
         }
 
         level_scaled = {
