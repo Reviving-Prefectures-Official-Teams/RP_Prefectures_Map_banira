@@ -41,29 +41,32 @@
 # 社会技術
  # Tier0
   newspaper: "新聞"
-  newspaper_desc: ""
   shortwave_broadcasting: "短波放送"
-  shortwave_broadcasting_desc: ""
-  computer_science: "計算機科学"
-  computer_science_desc: ""
  # Tier1
-  journalism: "ジャーナリズム"
-  journalism_desc: ""
-  koban: "交番"
-  koban_desc: ""
-  space_development: "宇宙開発"
-  space_development_desc: ""
-  group_employment: "集団就職"
-  group_employment_desc: ""
-  pollution_contol_law: "公害対策基本法"
-  pollution_contol_law_desc: ""
-  high_speed_rail: "高速鉄道"
-  high_speed_rail_desc: ""
-  astrophysics: "天体物理学"
-  astrophysics_desc: ""
-  anti_cancer_agent: "抗がん剤"
-  anti_cancer_agent_desc: ""
-  organ_transplantation: "臓器移植"
-  organ_transplantation_desc: ""
-  city_bank: "都市銀行"
-  city_bank_desc: ""
+  tech_color_broadcasting: "カラー放送"
+  tech_color_printing: "カラー印刷"
+  tech_shopping_street: "商店街"
+  tech_specialized_medical_care: "専門医療"
+  tech_domestic_travel: "国内旅行"
+  tech_modern_postmodernism: "モダン・ポストモダン"
+  tech_social_education: "社会教育"
+ # Tier2
+  tech_affluent_school: "ゆとりある学校"
+  tech_comprehensive_medical_care: "総合医療"
+  tech_conceptual_art: "コンセプチュアルアート"
+  tech_digital_printing: "デジタル印刷"
+  tech_MIDI_file: "MIDIファイル"
+  tech_package_tour: "パッケージツアー"
+  tech_self_service: "セルフサービス"
+ # Tier3
+  tech_synthetic_voice_engine: "合成音声エンジン"
+  tech_mixed_use_commercial_facility: "複合商業施設"
+  tech_rounds: "回診"
+  tech_universal_design: "ユニバーサルデザイン"
+  tech_internet: "インターネット"
+
+
+
+
+
+  
