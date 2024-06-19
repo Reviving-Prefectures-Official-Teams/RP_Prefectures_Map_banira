@@ -1,6 +1,16 @@
-﻿l_japanese:
+l_japanese:
 
-# 生産
+# 社会技術
+  # Tier0
+    newspaper: "新聞"
+    shortwave_broadcasting: "短波放送"
+  # Tier1
+  # Tier2
+  # Tier3
+
+# 生産技術
+# 軍事技術
+# 社会技術
 
 tech_block_method: "ブロック工法"
 tech_block_method_desc: "ブロック工法は、大型船舶の建造において、船体の一部をブロックと呼ばれる単位で製造し、それを組み合わせて船体を完成させる工法である。"

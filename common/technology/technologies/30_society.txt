@@ -3,479 +3,195 @@
     	era = era_1
     	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
     	category = society
-    	can_research = yes
     }
 
 	shortwave_broadcasting = {
     	era = era_1
     	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
     	category = society
-    	can_research = yes
     }
-
-	computer_science = {
-    	era = era_1
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
-    	can_research = yes
-    }
-
 
 ### ERA 2 '50~'70
-	journalism = {
+	tech_color_broadcasting = {
     	era = era_2
     	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
     	category = society
-    	can_research = yes
-
-		unlocking_technologies = {
-			newspaper
-		}
-    }
-
-	koban = {
-    	era = era_2
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
-    	can_research = yes
-
-		unlocking_technologies = {
-			newspaper
-		}
-    }
-
-	space_development = {
-    	era = era_2
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
-    	can_research = yes
-
-		unlocking_technologies = {
-			computer_science
-			newspaper
-		}
-    }
-
-	group_employment = {
-    	era = era_2
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
-    	can_research = yes
-
-		unlocking_technologies = {
-			newspaper
-		}
-    }
-	
-	pollution_control_law = {
-    	era = era_2
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
-    	can_research = yes
-
-		unlocking_technologies = {
-			group_employment
-		}
-    }
-	
-	high_speed_rail = {
-    	era = era_2
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
-    	can_research = yes
-
-		unlocking_technologies = {
-			computer_science
-			shortwave_broadcasting
-		}
-    }
-
-	astrophysics = {
-    	era = era_2
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
-    	can_research = yes
-
-		unlocking_technologies = {
-			space_development
-		}
-    }
-
-	anti_cancer_agent = {
-    	era = era_2
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
-    	can_research = yes
 
 		unlocking_technologies = {
 			shortwave_broadcasting
 		}
     }
 
-	organ_transplantation = {
+	tech_color_printing = {
     	era = era_2
     	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
     	category = society
-    	can_research = yes
 
 		unlocking_technologies = {
-			anti_cancer_agent
+			newspaper
 		}
     }
 
-	city_bank = {
+	tech_shopping_street = {
     	era = era_2
     	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
     	category = society
-    	can_research = yes
 
 		unlocking_technologies = {
-			computer_science
+			newspaper
 		}
     }
 
+	tech_domestic_travel = {
+    	era = era_2
+    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+    	category = society
 
+		unlocking_technologies = {
+			tech_shopping_street
+		}
+    }
+
+	tech_specialized_medical_care = {
+    	era = era_2
+    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+    	category = society
+
+		unlocking_technologies = {
+			newspaper
+		}
+    }
+
+	tech_social_education = {
+    	era = era_2
+    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+    	category = society
+
+		unlocking_technologies = {
+			newspaper
+		}
+    }
+
+	tech_modern_postmodernism = {
+    	era = era_2
+    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+    	category = society
+
+		unlocking_technologies = {
+			tech_social_education
+		}
+    }
 
 ### ERA 3 '70~'90
-	anime_Films = {
+	tech_affluent_school = {
     	era = era_3
     	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
     	category = society
-    	can_research = yes
 
 		unlocking_technologies = {
-			journalism
+			tech_social_education
 		}
     }
-
-	data_transfer = {
+	tech_comprehensive_medical_care = {
     	era = era_3
     	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
     	category = society
-    	can_research = yes
 
 		unlocking_technologies = {
+			tech_specialized_medical_care
 		}
     }
-
-	video_game = {
+	tech_conceptual_art = {
     	era = era_3
     	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
     	category = society
-    	can_research = yes
 
 		unlocking_technologies = {
-			anime_Films
+			tech_modern_postmodernism
 		}
     }
-
-	facsimile = {
+	tech_digital_printing = {
     	era = era_3
     	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
     	category = society
-    	can_research = yes
 
 		unlocking_technologies = {
+			tech_color_printing
 		}
     }
-
-	space_physics = {
+	tech_MIDI_file = {
     	era = era_3
     	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
     	category = society
-    	can_research = yes
 
 		unlocking_technologies = {
+			tech_color_broadcasting
 		}
     }
-
-	chemotherapy = {
+	tech_package_tour = {
     	era = era_3
     	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
     	category = society
-    	can_research = yes
 
 		unlocking_technologies = {
+			tech_domestic_travel
 		}
     }
-	fiber_optics = {
+	tech_self_service = {
     	era = era_3
     	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
     	category = society
-    	can_research = yes
 
 		unlocking_technologies = {
+			tech_modern_postmodernism
 		}
     }
-	electric_board= {
-    	era = era_3
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
-    	can_research = yes
-
-		unlocking_technologies = {
-		}
-    }
-
-	manned_space_flight = {
-    	era = era_3
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
-    	can_research = yes
-
-		unlocking_technologies = {
-		}
-    }
-
-	chemical_ethics = {
-    	era = era_3
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
-    	can_research = yes
-
-		unlocking_technologies = {
-		}
-    }
-
-### ERA 4 '90~2010
-	DNA_testing = {
+### ERA 4 '90~2010 
+	tech_synthetic_voice_engine = {
     	era = era_4
     	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
     	category = society
-    	can_research = yes
 
 		unlocking_technologies = {
+			tech_MIDI_file
 		}
     }
-	
-	mp3_player= {
+	tech_mixed_use_commercial_facility = {
     	era = era_4
     	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
     	category = society
-    	can_research = yes
 
 		unlocking_technologies = {
+			tech_self_service
+			tech_conceptual_art
 		}
     }
-
-	pr = {
+	tech_rounds = {
     	era = era_4
     	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
     	category = society
-    	can_research = yes
 
 		unlocking_technologies = {
+			tech_comprehensive_medical_care
 		}
     }
-	
-	social_network= {
+	tech_universal_design = {
     	era = era_4
     	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
     	category = society
-    	can_research = yes
 
 		unlocking_technologies = {
+			tech_conceptual_art
 		}
     }
-	
-	social_media = {
+	tech_internet = {
     	era = era_4
     	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
     	category = society
-    	can_research = yes
 
 		unlocking_technologies = {
+			tech_digital_printing
 		}
     }
-	
-	data_science= {
-    	era = era_4
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
-    	can_research = yes
-
-		unlocking_technologies = {
-		}
-    }
-
-	media_mix= {
-    	era = era_4
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
-    	can_research = yes
-
-		unlocking_technologies = {
-		}
-    }
-
-	encrypted_communication= {
-    	era = era_4
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
-    	can_research = yes
-
-		unlocking_technologies = {
-		}
-    }
-	
-	satellite_broadcasting = {
-    	era = era_4
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
-    	can_research = yes
-
-		unlocking_technologies = {
-		}
-    }
-	
-	behavioral_economics = {
-    	era = era_4
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
-    	can_research = yes
-
-		unlocking_technologies = {
-		}
-    }
-
-	e_mail = {
-    	era = era_4
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
-    	can_research = yes
-
-		unlocking_technologies = {
-		}
-    }
-	
 ### ERA 5 '10~30
-	5G_connection = {
-    	era = era_5
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
-    	can_research = yes
-
-		unlocking_technologies = {
-		}
-    }
-
-	e_sports = {
-    	era = era_5
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
-    	can_research = yes
-
-		unlocking_technologies = {
-		}
-    }
-
-	m_league = {
-    	era = era_5
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
-    	can_research = yes
-
-		unlocking_technologies = {
-		}
-    }
-
-	virtual_reality = {
-    	era = era_5
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
-    	can_research = yes
-
-		unlocking_technologies = {
-		}
-    }
-
-	casino = {
-    	era = era_5
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
-    	can_research = yes
-
-		unlocking_technologies = {
-		}
-    }
-
-	space_travel = {
-    	era = era_5
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
-    	can_research = yes
-
-		unlocking_technologies = {
-		}
-    }
-
-	modern_board_game = {
-    	era = era_5
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
-    	can_research = yes
-
-		unlocking_technologies = {
-		}
-    }
-
-	sustainability = {
-    	era = era_5
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
-    	can_research = yes
-
-		unlocking_technologies = {
-		}
-    }
-	
-	sensationalism = {
-    	era = era_5
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
-    	can_research = yes
-
-		unlocking_technologies = {
-		}
-    }
-
-	knowledge_shareism = {
-    	era = era_5
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
-    	can_research = yes
-
-		unlocking_technologies = {
-		}
-    }
-
 ### ERA 6 '30~50
- 	electronic_administration = {
-    	era = era_6
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
-    	can_research = yes
-
-		unlocking_technologies = {
-		}
-    }
-
- 	electronic_government = {
-    	era = era_6
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
-    	can_research = yes
-
-		unlocking_technologies = {
-		}
-    }
-
-	electronic_voting = {
-    	era = era_6
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
-    	can_research = yes
-
-		unlocking_technologies = {
-		}
-    }
