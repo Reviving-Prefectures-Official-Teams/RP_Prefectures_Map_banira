@@ -181,6 +181,8 @@
     tech_turbofan_engine_desc: "ターボファンエンジンは、ジェットエンジンの一種で、ファンと呼ばれる大型の圧縮機を備えている。ファンが空気を吸い込み、それを圧縮して燃焼室に送り込むことで、推進力を発生させる。"
   # Tier2
     # 陸運技術
+    tech_automatic_train_operation: "列車運転の自動化"
+    tech_automatic_train_operation_desc: ""
     tech_high_pressure_sodium_lamp: "高圧ナトリウム灯"
     tech_high_pressure_sodium_lamp_desc: "高圧ナトリウム灯は、ナトリウムを放電させて光を発する照明器具である。高圧ナトリウム灯は、高輝度や長寿命、省エネルギー性などの特性を持っており、街路灯や工場、スポーツ施設などで広く利用されている。"
     tech_polymer_modified_asphalt: "ポリマー改質アスファルト"
@@ -207,6 +209,10 @@
     tech_x_ray_baggage_inspection_desc: "X線荷物検査は、X線を用いて荷物や荷物の中身を非破壊的に検査する技術のことである。X線荷物検査は、航空機や鉄道、バスなどの乗り物の安全確保や不正物質の検出に広く利用されており、公共の安全を守るために重要な技術として活用されている。"
   # Tier3
     # 陸運技術
+    tech_automatic_train_operation: "列車運転の自動化"
+    tech_automatic_train_operation_desc: "列車運転の自動化は、列車の運転を自動化する技術のことである。列車運転の自動化は、列車の運行管理や安全性を向上させるために重要な役割を果たしており、鉄道業界の発展に貢献している。"
+    tech_magnetic_levitation: "磁気浮上"
+    tech_magnetic_levitation_desc: "磁気浮上は、磁力を利用して物体を浮かせる技術のことである。磁気浮上は、磁気浮上列車や磁気浮上式エレベーターなどの交通機関や設備に広く利用されており、摩擦や振動を低減する効果を持っている。"
     tech_hybrid_technology: "ハイブリッド技術"
     tech_hybrid_technology_desc: "ハイブリッド技術は、内燃機関と電気モーターを組み合わせた車両の駆動方式のことである。ハイブリッド技術は、燃費の向上や排出ガスの削減などの効果をもたらすため、自動車産業や航空機産業などで広く利用されている。"
     tech_CNG_truck: "CNGトラック"
@@ -223,8 +229,6 @@
     tech_LED_lighting_desc: "LED照明は、発光ダイオード(LED)を光源として使用した照明器具のことである。LED照明は、省エネルギーや長寿命、高輝度などの特性を持っており、照明効果や環境負荷の低減を実現している。"
     tech_multimodal_interchange: "マルチモーダルインターチェンジ"
     tech_multimodal_interchange_desc: "マルチモーダルインターチェンジは、複数の交通手段が接続する交通拠点のことである。マルチモーダルインターチェンジは、鉄道やバス、自動車などの交通機関が一体となって運行されることで、交通の利便性や効率性を向上させている。"
-    tech_magnetic_levitation: "磁気浮上"
-    tech_magnetic_levitation_desc: "磁気浮上は、磁力を利用して物体を浮かせる技術のことである。磁気浮上は、磁気浮上列車や磁気浮上式エレベーターなどの交通機関や設備に広く利用されており、摩擦や振動を低減する効果を持っている。"
 
     # 海運技術
     tech_automatic_welding: "自動溶接"
