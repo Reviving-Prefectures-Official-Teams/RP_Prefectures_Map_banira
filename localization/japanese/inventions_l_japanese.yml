@@ -36,13 +36,61 @@
   cooler_desc: ""
  # Tier2
  
-# 軍事技術
+# 社会技術
 
+# 軍事技術
+# Tier0
+  steam_railway: "蒸気機関車"
+  steam_railway_desc: "蒸気機関車は、蒸気エンジンを動力源として走行する鉄道車両のことである。蒸気機関車は、19世紀から20世紀初頭にかけて世界中で広く使用され、産業革命や交通革命に大きな影響を与えた。"
+  narrow_road: "狭隘道路"
+  narrow_road_desc: "狭隘道路は、幅員が狭く、交通量が少ない道路のことである。狭隘道路は、交通の便を図るために整備されることが多く、地域の交通網を補完する役割を果たしている。"
+# Tier1
+  tech_electric_railway: "電気鉄道"
+  tech_aluminum_alloy: "アルミニウム合金"
+  tech_petroleum_asphalt: "石油アスファルト"
+  tech_fluorescent_lamp: "蛍光灯"
+
+  tech_block_method: "ブロック工法"
+  tech_block_method_desc: "ブロック工法は、大型船舶の建造において、船体の一部をブロックと呼ばれる単位で製造し、それを組み合わせて船体を完成させる工法である。"
+  tech_radar_system: "レーダーシステム"
+  tech_radar_system_desc: "レーダーシステムは、電波を用いて物体の位置や速度を測定する装置である。イギリスが第二次世界大戦中に開発した技術で、航空機や船舶の航行支援や防空に広く利用されている。"
+  tech_turbofan_engine: "ターボファンエンジン"
+  tech_turbofan_engine_desc: "ターボファンエンジンは、ジェットエンジンの一種で、ファンと呼ばれる大型の圧縮機を備えている。ファンが空気を吸い込み、それを圧縮して燃焼室に送り込むことで、推進力を発生させる。"
+  tech_aluminum_alloy_plate: "アルミニウム合金"
+  tech_aluminum_alloy_plate_desc: "アルミニウム合金は、アルミニウムに他の金属を添加して強度や耐久性を向上させた合金である。軽量で耐食性に優れているため、航空機や自動車、建築材料などに広く利用されている。"
+  tech_electric_railway: "電気鉄道"
+  tech_electric_railway_desc: "電気鉄道は、電気を動力源として走行する鉄道のことである。電気鉄道は、環境にやさしく、高速での運行が可能なため、都市部や郊外を中心に広く利用されている。"
+  tech_fluorescent_lamp: "蛍光灯"
+  tech_fluorescent_lamp_desc: "蛍光灯は、蛍光体と呼ばれる物質が発する紫外線を可視光に変換することで光を発する照明器具である。蛍光灯は、省エネルギーで長寿命なため、一般家庭やオフィス、店舗などで広く利用されている。"
+  tech_petroleum_asphalt: "石油アスファルト"
+  tech_petroleum_asphalt_desc: "石油アスファルトは、石油から得られるアスファルトの一種で、舗装材料として広く利用されている。石油アスファルトは、耐久性や耐候性に優れており、道路や舗装の材料として重要な役割を果たしている。"
+  tech_physical_distribution: "物的流通"
+  tech_physical_distribution_desc: "物的流通とは、商品やサービスを生産者から消費者に届けるための流通活動のことである。物的流通は、生産から消費までの間における物流や在庫管理、輸送などのプロセスを含んでいる。"
+
+  licensed_aircraft: "ライセンス生産機"
+  licensed_aircraft_desc: "ライセンス生産機は、外国製の航空機を国内で生産するためのライセンスを取得した機体のことである。ライセンス生産機は、国内の航空産業の発展や技術力の向上に貢献するとともに、航空機の供給安定化や国防力の強化に寄与している。"
+  tech_radar_system: "レーダーシステム"
+  tech_radar_system_desc: "レーダーシステムは、電波を用いて物体の位置や速度を測定する装置である。イギリスが第二次世界大戦中に開発した技術で、航空機や船舶の航行支援や防空に広く利用されている。"
+  tech_turbofan_engine: "ターボファンエンジン"
+  tech_turbofan_engine_desc: "ターボファンエンジンは、ジェットエンジンの一種で、ファンと呼ばれる大型の圧縮機を備えている。ファンが空気を吸い込み、それを圧縮して燃焼室に送り込むことで、推進力を発生させる。"
+  tech_air_traffic_management_ATM: "航空交通管理(ATM)"
+  tech_air_traffic_management_ATM_desc: "航空交通管理(ATM)は、航空機の飛行経路や航空交通の調整を行うシステムのことである。航空交通管理は、航空安全や効率性を確保するために重要な役割を果たしており、航空業界の発展に貢献している。"
+  tech_x_ray_baggage_inspection: "X線荷物検査"
+  tech_x_ray_baggage_inspection_desc: "X線荷物検査は、X線を用いて荷物や荷物の中身を非破壊的に検査する技術のことである。X線荷物検査は、航空機や鉄道、バスなどの乗り物の安全確保や不正物質の検出に広く利用されており、公共の安全を守るために重要な技術として活用されている。"
+  tech_full_body_scanner: "全身スキャナー"
+  tech_full_body_scanner_desc: "全身スキャナーは、人体の表面や体内を非侵襲的にスキャンして画像を生成する装置である。全身スキャナーは、航空機や鉄道、バスなどの乗り物の安全確保や不正物質の検出に広く利用されており、公共の安全を守るために重要な技術として活用されている。"
+  tech_GPS: "GPS"
+  tech_GPS_desc: "GPSは、衛星を用いて位置情報を測定するシステムのことである。GPSは、航空機や船舶、自動車などの位置情報や航行情報を提供するために広く利用されており、航空機の航行支援や車両の追跡などに貢献している。"
+  tech_hybrid_technology: "ハイブリッド技術"
+  tech_hybrid_technology_desc: "ハイブリッド技術は、内燃機関と電気モーターを組み合わせた車両の駆動方式のことである。ハイブリッド技術は、燃費の向上や排出ガスの削減などの効果をもたらすため、自動車産業や航空機産業などで広く利用されている。"
 # 社会技術
  # Tier0
   newspaper: "新聞"
   shortwave_broadcasting: "短波放送"
- # Tier1
+  # Tier1
+  # Tier3
+  # Tier2
+
   tech_color_broadcasting: "カラー放送"
   tech_color_printing: "カラー印刷"
   tech_shopping_street: "商店街"
