@@ -105,6 +105,9 @@ pm_import_wheat = {
 #ばら積み船
 pm_bulk_carrier_wheat = {
 	texture = "gfx/interface/icons/production_method_icons/"
+	unlocking_technologies = {
+		tech_block_method
+	}
 
 	building_modifiers = {
 		workforce_scaled = {

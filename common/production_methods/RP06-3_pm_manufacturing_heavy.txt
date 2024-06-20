@@ -321,6 +321,9 @@ pm_jet_aircraft = {
 #ターボファン機
 pm_turbofan_aircraft = {
     texture = "gfx/interface/icons/production_method_icons/"
+    unlocking_technologies = {
+		tech_block_method
+	}
     building_modifiers = {
         workforce_scaled = {
             goods_input_steel_add = 30
@@ -939,6 +942,10 @@ pm_block_construction_large = {
             building_employment_clerks_add = 100
             building_employment_engineers_add = 100
         }
+
+        unlocking_technologies = {
+			tech_block_method
+		}
     }
 }
 #半自動溶接
@@ -1434,6 +1441,9 @@ pm_plastic_explosive = {
     }
 }
 pm_ammonium_nitrate_explosive = {
+    unlocking_technologies = {
+        tech_organic_compound
+    }
     texture = "gfx/interface/icons/production_method_icons/"
     building_modifiers = {
         workforce_scaled = {

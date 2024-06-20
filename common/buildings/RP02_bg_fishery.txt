@@ -29,6 +29,10 @@ building_aquaculture_farm = {
 	production_method_groups = {
 		pmg_aquaculture
 	}
+
+	unlocking_technologies = {
+		tech_aquaculture
+	}
 	
 	possible = {
 		error_check = {
@@ -47,6 +51,10 @@ building_land_aquaculture = {
 
 	production_method_groups = {
 		pmg_land_aquaculture
+	}
+
+	unlocking_technologies = {
+		tech_closed_recirculating_aquaculture_system
 	}
 	
 	possible = {

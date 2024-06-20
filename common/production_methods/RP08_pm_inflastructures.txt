@@ -165,6 +165,9 @@ pm_international_airport = {
 #レーダーシステム
 pm_radar_system = {
 	texture = "gfx/interface/icons/production_method_icons/"
+	unlocking_technologies = {
+		
+	}
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_electricity_add = 10

@@ -106,6 +106,7 @@ building_airport = {
 	texture = "gfx/interface/icons/building_icons/building_airport.dds"
 
 	unlocking_technologies = {
+		tech_radar_system
 	}
 
 	production_method_groups = {

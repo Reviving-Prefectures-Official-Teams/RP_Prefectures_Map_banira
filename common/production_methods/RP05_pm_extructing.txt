@@ -18,6 +18,9 @@ pm_gaseous_diffusion = {
 }
 #気体遠心分離法
 pm_gas_centrifuge = {
+    unlocking_technologies = {
+        tech_centrifugal_separation_method
+    }
     texture = "gfx/interface/icons/production_method_icons/"
     building_modifiers = {
         workforce_scaled = {
@@ -35,6 +38,9 @@ pm_gas_centrifuge = {
 }
 #レーザー濃縮法
 pm_laser_enrichment = {
+    unlocking_technologies = {
+        tech_laser_enrichment
+    }
     texture = "gfx/interface/icons/production_method_icons/"
     building_modifiers = {
         workforce_scaled = {
@@ -52,6 +58,9 @@ pm_laser_enrichment = {
 }
 #電磁分離法
 pm_electromagnetic_isotope_separation = {
+    unlocking_technologies = {
+        tech_electromagnetic_isotope_separation
+    }
     texture = "gfx/interface/icons/production_method_icons/"
     building_modifiers = {
         workforce_scaled = {
@@ -69,6 +78,9 @@ pm_electromagnetic_isotope_separation = {
 }
 #溶融塩炉
 pm_molten_salt_reactor = {
+    unlocking_technologies = {
+        tech_molten_salt_reactor
+    }
     texture = "gfx/interface/icons/production_method_icons/"
     building_modifiers = {
         workforce_scaled = {

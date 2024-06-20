@@ -46,6 +46,7 @@ building_uranium_enrichment = {
 	required_construction = construction_cost_very_high
 
 	unlocking_technologies = {
+		tech_petrochemistry
 	}
 	
 	production_method_groups = {

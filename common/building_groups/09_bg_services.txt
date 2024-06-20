@@ -12,6 +12,7 @@ bg_services = {
 	economy_of_scale_ai_factor = 1.5
 }
 
+
 #オフィスビル
 bg_office_building = {
 	category = urban
@@ -19,31 +20,13 @@ bg_office_building = {
 	always_possible = yes	
 	auto_place_buildings = yes	
 	economy_of_scale = yes
-	default_building = building_urban_center
-	cash_reserves_max = 25000
-}
-
-#都心
-bg_service = {
-	parent_group = bg_services
-	auto_place_buildings = yes	
-	economy_of_scale = yes
-	default_building = building_urban_center
-	cash_reserves_max = 25000
-}
-
-#旅行代理店
-bg_travel_agency = {
-	parent_group = bg_services
-	auto_place_buildings = yes	
-	economy_of_scale = yes
-	default_building = building_travel_agency
+	default_building = bg_office_building
 	cash_reserves_max = 25000
 }
 
 ######都市産業
 bg_urban_industry = {
-	category = urban
+	category = development
 
 	always_possible = yes
 	
@@ -57,7 +40,7 @@ bg_urban_industry = {
 	
 	economy_of_scale_ai_factor = 2.0
 	
-	lens = urban
+	lens = government
 	
 	urbanization = 20
 	infrastructure_usage_per_level = 2
@@ -78,3 +61,12 @@ bg_arts = {
 	parent_group = bg_urban_industry
 }
 
+#芸術院
+bg_hospital = {
+	parent_group = bg_urban_industry
+}
+
+bg_urban_services = {
+	
+	lens = urban
+}

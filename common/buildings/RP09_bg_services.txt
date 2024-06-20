@@ -21,7 +21,7 @@ building_urban_center = {
 }
 
 building_office_building = {
-	building_group = bg_office_building
+	building_group = bg_urban_services
 	texture = "gfx/interface/icons/building_icons/skyscraper.dds"
 	city_type = city
 	residence_points_per_level = 0
@@ -38,23 +38,15 @@ building_office_building = {
 		pmg_digitalization
 	}
 	
-	buildable = no
-	expandable = no
-	downsizeable = no	
-	
 	terrain_manipulator = urban_city
 }
 
 #メディア業界
 building_printing = {
-	building_group = bg_service
+	building_group = bg_urban_services
 	texture = "gfx/interface/icons/building_icons/printing.dds"
 	city_type = city
 	residence_points_per_level = 0
-	
-	buildable = no
-	expandable = no
-	downsizeable = no
 
 	unlocking_technologies = { 
 	}
@@ -71,7 +63,7 @@ building_printing = {
 
 #出版業界
 building_publishing = {
-	building_group = bg_service
+	building_group = bg_urban_services
 	texture = "gfx/interface/icons/building_icons/publishing.dds"
 	city_type = city
 	residence_points_per_level = 0
@@ -94,7 +86,7 @@ building_publishing = {
 
 #輸送センター
 building_transport_center = {
-	building_group = bg_service
+	building_group = bg_urban_services
 	texture = "gfx/interface/icons/building_icons/transport_center.dds"
 	city_type = city
 	residence_points_per_level = 0
@@ -104,6 +96,7 @@ building_transport_center = {
 	downsizeable = no
 
 	unlocking_technologies = { 
+		tech_physical_distribution
 	}
 	
 	production_method_groups = {
@@ -115,32 +108,9 @@ building_transport_center = {
 	terrain_manipulator = urban_city
 }
 
-#旅行業界
-building_travel_industry = {
-	building_group = bg_service
-	texture = "gfx/interface/icons/building_icons/travel_industry.dds"
-	city_type = city
-	residence_points_per_level = 0
-	
-	buildable = no
-	expandable = no
-	downsizeable = no
-
-	unlocking_technologies = { 
-	}
-	
-	production_method_groups = {
-		pmg_travel_service
-		pmg_special_service_travel_industry
-		pmg_digitalization
-	}
-	
-	terrain_manipulator = urban_city
-}
-
 #病院
 building_hospital = {
-	building_group = bg_service
+	building_group = bg_urban_services
 	texture = "gfx/interface/icons/building_icons/hospital.dds"
 	city_type = city
 	residence_points_per_level = 0
