@@ -67,6 +67,17 @@ bg_hospital = {
 }
 
 bg_urban_services = {
+	category = urban
+
+	always_possible = yes
 	
-	lens = urban
+	economy_of_scale = yes
+	
+	cash_reserves_max = 25000
+	
+	should_auto_expand = { 
+		default_auto_expand_rule = yes
+	}
+	
+	economy_of_scale_ai_factor = 2.0
 }

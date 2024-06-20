@@ -24,11 +24,11 @@ building_office_building = {
 	building_group = bg_urban_services
 	texture = "gfx/interface/icons/building_icons/skyscraper.dds"
 	city_type = city
-	residence_points_per_level = 0
+	levels_per_mesh = 5
 	
-	unlocking_technologies = { 
+	unlocking_technologies = {
 	}
-	
+
 	production_method_groups = {
 		pmg_financial_service
 		pmg_exparts_affairs
@@ -38,7 +38,7 @@ building_office_building = {
 		pmg_digitalization
 	}
 	
-	terrain_manipulator = urban_city
+	required_construction = construction_cost_high
 }
 
 #メディア業界
@@ -46,7 +46,7 @@ building_printing = {
 	building_group = bg_urban_services
 	texture = "gfx/interface/icons/building_icons/printing.dds"
 	city_type = city
-	residence_points_per_level = 0
+	residence_points_per_level = 5
 
 	unlocking_technologies = { 
 	}
@@ -66,11 +66,7 @@ building_publishing = {
 	building_group = bg_urban_services
 	texture = "gfx/interface/icons/building_icons/publishing.dds"
 	city_type = city
-	residence_points_per_level = 0
-	
-	buildable = no
-	expandable = no
-	downsizeable = no
+	residence_points_per_level = 5
 
 	unlocking_technologies = { 
 	}
@@ -89,11 +85,7 @@ building_transport_center = {
 	building_group = bg_urban_services
 	texture = "gfx/interface/icons/building_icons/transport_center.dds"
 	city_type = city
-	residence_points_per_level = 0
-	
-	buildable = no
-	expandable = no
-	downsizeable = no
+	residence_points_per_level = 5
 
 	unlocking_technologies = { 
 		tech_physical_distribution
@@ -113,12 +105,7 @@ building_hospital = {
 	building_group = bg_urban_services
 	texture = "gfx/interface/icons/building_icons/hospital.dds"
 	city_type = city
-	residence_points_per_level = 0
-	
-	buildable = no
-	expandable = no
-	downsizeable = no
-
+	residence_points_per_level = 5
 	unlocking_technologies = { 
 	}
 	
