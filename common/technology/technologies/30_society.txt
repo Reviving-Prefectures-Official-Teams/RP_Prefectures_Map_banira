@@ -193,5 +193,71 @@
 			tech_digital_printing
 		}
     }
+
 ### ERA 5 = Tier4
+	tech_audiobook = {
+    	era = era_5
+    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+    	category = society
+
+		unlocking_technologies = {
+			tech_synthetic_voice_engine
+		}
+    }
+	tech_holography = {
+    	era = era_5
+    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+    	category = society
+
+		unlocking_technologies = {
+			tech_internet
+		}
+    }
+	tech_secure_internet = {
+    	era = era_5
+    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+    	category = society
+
+		unlocking_technologies = {
+			tech_rounds
+			tech_internet
+		}
+    }
+	tech_system_thinking = {
+    	era = era_5
+    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+    	category = society
+
+		unlocking_technologies = {
+			tech_affluent_school
+		}
+    }
+	tech_entrepreneurship_education = {
+    	era = era_5
+    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+    	category = society
+
+		unlocking_technologies = {
+			tech_system_thinking
+		}
+    }
+	tech_contemporary_art = {
+    	era = era_5
+    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+    	category = society
+
+		unlocking_technologies = {
+			tech_internet
+			tech_mixed_use_commercial_facility
+		}
+    }
+	tech_eco_movement = {
+    	era = era_5
+    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+    	category = society
+
+		unlocking_technologies = {
+			tech_universal_design
+		}
+    }
 ### ERA 6 = Tier5

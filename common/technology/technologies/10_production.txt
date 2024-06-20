@@ -3,172 +3,149 @@
     	era = era_1
     	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
     	category = production
-    	can_research = yes
     }
 
     planting = {
     	era = era_1
     	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
     	category = production
-    	can_research = yes
     }
 
+	tech_hydroelectric_power = {
+    	era = era_1
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+    }
+	tech_tmp_1 = {
+    	era = era_1
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+    }
 
 ### ERA 2 = Tier1
-    LP_GAS = {
+	tech_high_efficiency_turbine = {
     	era = era_2
     	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
     	category = production
-    	can_research = yes
-
-    	unlocking_technologies = {	
-    		public_phone
-    	}
+		unlocking_technologies = {
+			tech_hydroelectric_power
+		}
     }
- 
-    hydroelectric_power = {
-	    era = era_2
-	    texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
-	    category = production
-	    can_research = yes
-
-    	unlocking_technologies = {	
-    		public_phone
-    	}
+	tech_wood_pulp = {
+    	era = era_2
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			planting
+		}
     }
-
-    nuclear_power = {
-	    era = era_2
-	    texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
-	    category = production
-	    can_research = yes
-
-    	unlocking_technologies = {	
-    		LP_GAS
-            hydro_power_plant
-    	}
+	tech_chocolate = {
+    	era = era_2
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			planting
+		}
     }
-
-    concrete_culverts = {
-	    era = era_2
-	    texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
-	    category = production
-	    can_research = yes
-
-    	unlocking_technologies = {	
-    		planting
-    	}
+	tech_hydrous_distillation = {
+    	era = era_2
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			planting
+		}
     }
-
-    synthetic_fertilizers = {
-	    era = era_2
-	    texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
-	    category = production
-	    can_research = yes
-
-    	unlocking_technologies = {	
-    		concrete_culverts
-    	}
+	tech_canned_drink = {
+    	era = era_2
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_chocolate
+			tech_hydrous_distillation
+		}
     }
- 
-    high_yielding_varieties = {
-	    era = era_2
-	    texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
-	    category = production
-	    can_research = yes
-
-    	unlocking_technologies = {	
-    		concrete_culverts
-    	}
+	tech_machine_tool = {
+    	era = era_2
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			public_phone
+		}
     }
-
-    cultivation = {
-	    era = era_2
-	    texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
-	    category = production
-	    can_research = yes
-
-    	unlocking_technologies = {	
-    		concrete_culverts
-    	}
+	tech_white_goods = {
+    	era = era_2
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_machine_tool
+		}
     }
-    
-    package_tour = {
-	    era = era_2
-	    texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
-	    category = production
-	    can_research = yes
-
-    	unlocking_technologies = {	
-    		public_phone
-    	}
+	tech_assembly_method = {
+    	era = era_2
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_machine_tool
+		}
     }
-    
-    bottom_blowing_furnace = {
-	    era = era_2
-	    texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
-	    category = production
-	    can_research = yes
-
-    	unlocking_technologies = {	
-    		public_phone
-    	}
+	tech_semiconductor = {
+    	era = era_2
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_assembly_method
+		}
     }
-    
-    laminated_glass = {
-	    era = era_2
-	    texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
-	    category = production
-	    can_research = yes
-
-    	unlocking_technologies = {	
-    		bottom_blowing_furnace
-    	}
+	tech_petrochemistry = {
+    	era = era_2
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_tmp_1
+		}
     }
-
-    semi_automatic_assembly= {
-	    era = era_2
-	    texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
-	    category = production
-	    can_research = yes
-
-    	unlocking_technologies = {	
-    		bottom_blowing_furnace
-    	}
+	tech_petrochemistry = {
+    	era = era_2
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			planting
+		}
     }
-    
-    white_goods = {
-	    era = era_2
-	    texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
-	    category = production
-	    can_research = yes
-
-    	unlocking_technologies = {	
-    		public_phone
-    	}
+	tech_high_thermal_melting  = {
+    	era = era_2
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			public_phone
+		}
     }
-    
-    televison = {
-	    era = era_2
-	    texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
-	    category = production
-	    can_research = yes
-
-    	unlocking_technologies = {	
-    		white_goods
-    	}
+	tech_ceramics = {
+    	era = era_2
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_high_thermal_melting
+		}
+    }
+	tech_glass_wool = {
+    	era = era_2
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_hydroelectric_power
+		}
+    }
+	tech_automatic_thresher = {
+    	era = era_2
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_hydroelectric_power
+		}
     }
 
-    cooler = {
-	    era = era_2
-	    texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
-	    category = production
-	    can_research = yes
 
-    	unlocking_technologies = {	
-    		white_goods
-    	}
-    }
 ### ERA 3 = Tier2
 ### ERA 4 = Tier3
 ### ERA 5 = Tier4
