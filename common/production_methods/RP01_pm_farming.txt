@@ -123,6 +123,9 @@ pm_chemical_fertilizer_rice = {
 
 #殺菌剤(米)
 pm_pesticide_rice = { 
+    unlocking_technologies = {
+        tech_organic_compound
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_1.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -145,6 +148,9 @@ pm_pesticide_rice = {
 
 #除草剤(米)
 pm_herbicide_rice = { 
+    unlocking_technologies = {
+        tech_agricultural_chemical
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_2.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -167,6 +173,9 @@ pm_herbicide_rice = {
 
 #高性能農薬(米)
 pm_high_performance_pesticide_rice = { 
+    unlocking_technologies = {
+        tech_inorganic_chemistry
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_3.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -189,6 +198,9 @@ pm_high_performance_pesticide_rice = {
 
 #ドローン散布(米)
 pm_drone_spraying_rice = { 
+    unlocking_technologies = {
+        tech_drone
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_4.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -212,6 +224,9 @@ pm_drone_spraying_rice = {
 
 #集約スマートファーム(米)
 pm_aggregated_smart_farm_rice = { 
+    unlocking_technologies = {
+        tech_smart_farm
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_5.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -273,6 +288,9 @@ pm_traditional_method_sake = {
 
 #加水蒸留
 pm_water_distillation_sake = { 
+    unlocking_technologies = {
+        tech_hydrous_distillation
+    }
     texture = "gfx/interface/icons/production_method_icons/method_refining_2.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -332,6 +350,9 @@ pm_chemical_fertilizer = {
 
 #殺菌剤(その他)
 pm_pesticide = { 
+    unlocking_technologies = {
+        tech_organic_compound
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_1.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -354,6 +375,9 @@ pm_pesticide = {
 
 #除草剤(その他)
 pm_herbicide = { 
+    unlocking_technologies = {
+        tech_agricultural_chemical
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_2.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -376,6 +400,9 @@ pm_herbicide = {
 
 #高性能農薬(その他)
 pm_high_performance_pesticide = { 
+    unlocking_technologies = {
+        tech_inorganic_chemistry
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_3.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -398,6 +425,9 @@ pm_high_performance_pesticide = {
 
 #ドローン散布(その他)
 pm_drone_spraying = { 
+    unlocking_technologies = {
+        tech_drone
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_4.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -421,6 +451,9 @@ pm_drone_spraying = {
 
 #集約スマートファーム(その他)
 pm_aggregated_smart_farm = { 
+    unlocking_technologies = {
+        tech_smart_farm
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_5.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -462,6 +495,9 @@ pm_sweet_corn = {
 
 #殺菌剤(スイートコーン)
 pm_pesticide_sweet_corn = { 
+    unlocking_technologies = {
+        tech_organic_compound
+    }
     texture = "gfx/interface/icons/production_method_icons/method_refining_1.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -502,6 +538,9 @@ pm_udon = {
 
 #包装めん
 pm_packaged_noodles = { 
+    unlocking_technologies = {
+        tech_machine_tool
+    }
     texture = "gfx/interface/icons/production_method_icons/method_refining_2.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -549,6 +588,9 @@ pm_harvesting_tool = {
 
 #コンバイン
 pm_combine = { 
+    unlocking_technologies = {
+        tech_automatic_thresher
+    }
     texture = "gfx/interface/icons/production_method_icons/method_improvement_2.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -565,6 +607,9 @@ pm_combine = {
 
 #自動移植機
 pm_transplanter = { 
+    unlocking_technologies = {
+        tech_early_computer
+    }
     texture = "gfx/interface/icons/production_method_icons/method_improvement_3.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -581,6 +626,9 @@ pm_transplanter = {
 
 #多機能コンバイン
 pm_multi_function_combine = { 
+    unlocking_technologies = {
+        tech_modern_computer
+    }
     texture = "gfx/interface/icons/production_method_icons/method_improvement_4.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -598,6 +646,9 @@ pm_multi_function_combine = {
 
 #自動運転コンバイン
 pm_autonomous_driving_combine = { 
+    unlocking_technologies = {
+        tech_deep_learning
+    }
     texture = "gfx/interface/icons/production_method_icons/method_improvement_5.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -656,6 +707,9 @@ pm_dairy_cattle = {
 
 #外国牛
 pm_foreign_cattle = { 
+    unlocking_technologies = {
+        tech_gene_science
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_1.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -676,6 +730,9 @@ pm_foreign_cattle = {
 
 #ホルスタイン
 pm_holstein = { 
+    unlocking_technologies = {
+        tech_gene_science
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_1.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -715,6 +772,9 @@ pm_primitive_pig = {
 
 #LWD三元豚
 pm_LWD_pig = { 
+    unlocking_technologies = {
+        tech_gene_science
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_1.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -772,6 +832,9 @@ pm_rhode_island_red = {
 }  
 #ブロイラー種
 pm_broiler_breed = { 
+    unlocking_technologies = {
+        tech_gene_science
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_2.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -827,6 +890,9 @@ pm_fertilizer_cotton = {
 }
 #品種改良（綿花）
 pm_breeding_cotton = { 
+    unlocking_technologies = {
+        tech_gene_science
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_2.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -846,6 +912,9 @@ pm_breeding_cotton = {
 }
 #アグリテック利用（綿花）
 pm_agritech_cotton = { 
+    unlocking_technologies = {
+        tech_big_data
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_3.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -866,6 +935,9 @@ pm_agritech_cotton = {
 }
 #無人農園（綿花）
 pm_unmanned_farm_cotton = { 
+    unlocking_technologies = {
+        tech_smart_farm
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_4.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -921,6 +993,9 @@ pm_fertilizer_tea = {
 }
 #品種改良（茶）
 pm_breeding_tea = { 
+    unlocking_technologies = {
+        tech_gene_science
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_2.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -940,6 +1015,9 @@ pm_breeding_tea = {
 }
 #アグリテック利用（茶）
 pm_agritech_tea = { 
+    unlocking_technologies = {
+        tech_big_data
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_3.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -960,6 +1038,9 @@ pm_agritech_tea = {
 }
 #無人農園（茶）
 pm_unmanned_farm_tea = { 
+    unlocking_technologies = {
+        tech_smart_farm
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_4.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -1015,6 +1096,9 @@ pm_fertilizer_tobacco = {
 }
 #品種改良（タバコ）
 pm_breeding_tobacco = { 
+    unlocking_technologies = {
+        tech_gene_science
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_2.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -1034,6 +1118,9 @@ pm_breeding_tobacco = {
 }
 #アグリテック利用（タバコ）
 pm_agritech_tobacco = { 
+    unlocking_technologies = {
+        tech_big_data
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_3.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -1054,6 +1141,9 @@ pm_agritech_tobacco = {
 }
 #無人農園（タバコ）
 pm_unmanned_farm_tobacco = { 
+    unlocking_technologies = {
+        tech_smart_farm
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_4.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -1109,6 +1199,9 @@ pm_fertilizer_sugarcane = {
 }
 #品種改良（サトウキビ）
 pm_breeding_sugarcane = { 
+    unlocking_technologies = {
+        tech_gene_science
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_2.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -1128,6 +1221,9 @@ pm_breeding_sugarcane = {
 }
 #アグリテック利用（サトウキビ）
 pm_agritech_sugarcane = { 
+    unlocking_technologies = {
+        tech_big_data
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_3.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -1148,6 +1244,9 @@ pm_agritech_sugarcane = {
 }
 #無人農園（サトウキビ）
 pm_unmanned_farm_sugarcane = { 
+    unlocking_technologies = {
+        tech_smart_farm
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_4.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -1203,6 +1302,9 @@ pm_fertilizer_orchard = {
 }
 #品種改良（果樹園）
 pm_breeding_orchard = { 
+    unlocking_technologies = {
+        tech_gene_science
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_2.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -1222,6 +1324,9 @@ pm_breeding_orchard = {
 }
 #アグリテック利用（果樹園）
 pm_agritech_orchard = { 
+    unlocking_technologies = {
+        tech_big_data
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_3.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -1242,6 +1347,9 @@ pm_agritech_orchard = {
 }
 #無人農園（果樹園）
 pm_unmanned_farm_orchard = { 
+    unlocking_technologies = {
+        tech_smart_farm
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_4.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -1297,6 +1405,9 @@ pm_fertilizer_vegetable_farms = {
 }
 #品種改良（野菜畑）
 pm_breeding_vegetable_farms = { 
+    unlocking_technologies = {
+        tech_gene_science
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_2.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -1316,6 +1427,9 @@ pm_breeding_vegetable_farms = {
 }
 #アグリテック利用（野菜畑）
 pm_agritech_vegetable_farms = { 
+    unlocking_technologies = {
+        tech_big_data
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_3.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -1336,6 +1450,9 @@ pm_agritech_vegetable_farms = {
 }
 #無人農園（野菜畑）
 pm_unmanned_farm_vegetable_farms = { 
+    unlocking_technologies = {
+        tech_smart_farm
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_4.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -1391,6 +1508,9 @@ pm_fertilizer_vineyard = {
 }
 #品種改良（ブドウ農園）
 pm_breeding_vineyard = { 
+    unlocking_technologies = {
+        tech_gene_science
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_2.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -1410,6 +1530,9 @@ pm_breeding_vineyard = {
 }
 #アグリテック利用（ブドウ農園）
 pm_agritech_vineyard = { 
+    unlocking_technologies = {
+        tech_big_data
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_3.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -1430,6 +1553,9 @@ pm_agritech_vineyard = {
 }
 #無人農園（ブドウ農園）
 pm_unmanned_farm_vineyard = { 
+    unlocking_technologies = {
+        tech_smart_farm
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_4.dds"
     building_modifiers = {
         workforce_scaled = {

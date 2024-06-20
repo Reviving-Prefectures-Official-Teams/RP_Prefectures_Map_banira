@@ -105,46 +105,6 @@ pm_template = {
 }
 
 #==========生産方式==========
-
-#########水田#########
-###生産(米)
-#有機栽培(米)
-pm_organic_farming_rice = { 
-	texture = "gfx/interface/icons/production_method_icons/method_production_0.dds"
-	building_modifiers = {
-		workforce_scaled = {
-			# output goods													
-			goods_output_grain_add = 40
-		}
-
-		level_scaled = {
-			building_employment_laborers_add = 600
-			building_employment_farmers_add = 100
-			building_employment_clergymen_add = 300
-		}
-	}
-}
-
-#化学肥料(米)
-pm_chemical_fertilizer_rice = { 
-	texture = "gfx/interface/icons/production_method_icons/method_production_0.dds"
-	building_modifiers = {
-		workforce_scaled = {
-			# input goods													
-			goods_input_fertilizer_add = 15				
-			
-			# output goods												   
-			goods_output_grain_add = 160
-		}
-
-		level_scaled = {
-			building_employment_laborers_add = 600
-			building_employment_farmers_add = 100
-			building_employment_clergymen_add = 300
-		}
-	}
-}
-
 #########漁港#########
 ###漁業
 #基本的な漁業
@@ -165,6 +125,9 @@ pm_simple_fishing = {
 }
 #魚影探知機
 pm_fishfinder = {
+    unlocking_technologies = {
+        tech_radar_system
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_0.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -184,6 +147,9 @@ pm_fishfinder = {
 }
 #トロール漁船
 pm_trawler = {
+    unlocking_technologies = {
+        tech_shipbuilding 
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_0.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -204,6 +170,9 @@ pm_trawler = {
 }
 #漁業船団
 pm_fishing_fleet = {
+    unlocking_technologies = {
+        tech_fishing_fleet
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_0.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -246,6 +215,9 @@ pm_dengerous_fishing = {
 }
 #GPS
 pm_gps = {
+    unlocking_technologies = {
+        tech_gps
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_0.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -263,26 +235,6 @@ pm_gps = {
         }
     }
 }
-#海洋トロール漁船
-pm_ocean_trawler = {
-    texture = "gfx/interface/icons/production_method_icons/method_production_0.dds"
-    building_modifiers = {
-        workforce_scaled = {
-            # input goods
-            goods_input_steel_add = 5
-            goods_input_engine_add = 1
-            goods_input_computers_add = 1
-            # output goods
-            goods_output_luxury_food_add = 60
-        }
-
-        level_scaled = {
-            building_employment_laborers_add = 600
-            building_employment_shopkeepers_add = 100
-            building_employment_clergymen_add = 300
-        }
-    }
-}
 ###冷凍
 #非冷凍
 pm_unrefrigerated = {
@@ -297,7 +249,7 @@ pm_unrefrigerated = {
         }
     }
 }
-#フラッシュ冷凍
+#瞬間冷凍
 pm_flash_freezing = {
     texture = "gfx/interface/icons/production_method_icons/method_production_0.dds"
     building_modifiers = {
@@ -312,8 +264,11 @@ pm_flash_freezing = {
         }
     }
 }
-#冷蔵
+#コールドチェーン
 pm_cold_chain = {
+    unlocking_technologies = {
+        tech_distribution_system
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_0.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -328,6 +283,9 @@ pm_cold_chain = {
 }
 #超冷却
 pm_super_chilled = {
+    unlocking_technologies = {
+        tech_liquid_science
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_0.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -362,6 +320,9 @@ pm_simple_aquaculture = {
 }
 #養魚場
 pm_fish_farm = {
+    unlocking_technologies = {
+        tech_agricultural_chemical
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_0.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -381,6 +342,9 @@ pm_fish_farm = {
 }
 #養殖場
 pm_aquaculture_farm = {
+    unlocking_technologies = {
+        tech_compound_feed
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_0.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -400,6 +364,9 @@ pm_aquaculture_farm = {
 }
 #養殖複合施設
 pm_aquaculture_complex = {
+    unlocking_technologies = {
+        tech_large-scale_aquaculture_system
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_0.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -423,6 +390,9 @@ pm_aquaculture_complex = {
 ###陸上養殖
 #閉鎖循環式陸上養殖システム
 pm_CRAS = {
+    unlocking_technologies = {
+        tech_closed_recirculating_aquaculture_system
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_0.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -444,6 +414,9 @@ pm_CRAS = {
 }
 #大規模閉鎖循環式陸上養殖システム
 pm_large_CRAS = {
+    unlocking_technologies = {
+        tech_large-scale_aquaculture_system
+    }
     texture = "gfx/interface/icons/production_method_icons/method_production_0.dds"
     building_modifiers = {
         workforce_scaled = {

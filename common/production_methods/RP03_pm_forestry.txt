@@ -97,6 +97,8 @@ pm_logging_soft = {
 			# employment
 			building_employment_laborers_add = 500
 		}
+
+
 	}
 }
 
@@ -129,9 +131,10 @@ pm_chain_saw_soft = {
 
 #ハーベスター
 pm_harvester_soft = {
-	texture = "gfx/interface/icons/production_method_icons/electric_saw_mills.dds"
 	unlocking_technologies = {
+		tech_modern_computer
 	}
+	texture = "gfx/interface/icons/production_method_icons/electric_saw_mills.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -156,9 +159,11 @@ pm_harvester_soft = {
 
 #先進的ハーベスター
 pm_advanced_harvester_soft = {
-	texture = "gfx/interface/icons/production_method_icons/electric_saw_mills.dds"
 	unlocking_technologies = {
+		tech_big_data
 	}
+	texture = "gfx/interface/icons/production_method_icons/electric_saw_mills.dds"
+
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -199,6 +204,9 @@ pm_no_carbonization_soft = {
 }
 #ケボニー化処理
 pm_carbonization_soft = {
+	unlocking_technologies = {
+		tech_kebonization
+	}
 	texture = "gfx/interface/icons/production_method_icons/simple_forestry.dds"
 
 	building_modifiers = {
@@ -264,6 +272,7 @@ pm_chain_saw_hard = {
 pm_harvester_hard = {
 	texture = "gfx/interface/icons/production_method_icons/electric_saw_mills.dds"
 	unlocking_technologies = {
+		tech_modern_computer
 	}
 
 	building_modifiers = {
@@ -291,6 +300,7 @@ pm_harvester_hard = {
 pm_advanced_harvester_hard = {
 	texture = "gfx/interface/icons/production_method_icons/electric_saw_mills.dds"
 	unlocking_technologies = {
+		tech_big_data
 	}
 
 	building_modifiers = {

@@ -3202,6 +3202,9 @@ pm_ai_production_refrigerator = {
 ###カメラ生産
 #銀塩カメラ
 pm_silver_halide_camera = {
+    unlocking_technologies = {
+        tech_organic_compound
+    }
     texture = "gfx/interface/icons/production_method_icons/"
 
     building_modifiers = {
