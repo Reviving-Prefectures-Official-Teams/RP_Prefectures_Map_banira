@@ -1,5 +1,4 @@
-﻿### ADDED TECHNOLOGY
-### ERA 1
+﻿### ERA 1
     public_phone = {
     	era = era_1
     	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
@@ -15,7 +14,7 @@
     }
 
 
-### ERA 2
+### ERA 2 = Tier1
     LP_GAS = {
     	era = era_2
     	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
@@ -170,4 +169,7 @@
     		white_goods
     	}
     }
-### ERA 3
+### ERA 3 = Tier2
+### ERA 4 = Tier3
+### ERA 5 = Tier4
+### ERA 6 = Tier5

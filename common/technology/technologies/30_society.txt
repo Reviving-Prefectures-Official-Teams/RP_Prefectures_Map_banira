@@ -11,7 +11,7 @@
     	category = society
     }
 
-### ERA 2 '50~'70
+### ERA 2 = Tier1
 	tech_color_broadcasting = {
     	era = era_2
     	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
@@ -82,7 +82,7 @@
 		}
     }
 
-### ERA 3 '70~'90
+### ERA 3 = Tier2
 	tech_affluent_school = {
     	era = era_3
     	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
@@ -146,7 +146,7 @@
 			tech_modern_postmodernism
 		}
     }
-### ERA 4 '90~2010 
+### ERA 4 = Tier3 
 	tech_synthetic_voice_engine = {
     	era = era_4
     	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
@@ -193,5 +193,5 @@
 			tech_digital_printing
 		}
     }
-### ERA 5 '10~30
-### ERA 6 '30~50
+### ERA 5 = Tier4
+### ERA 6 = Tier5
