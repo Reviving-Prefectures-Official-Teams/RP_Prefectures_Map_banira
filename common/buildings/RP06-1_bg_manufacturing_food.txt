@@ -48,6 +48,7 @@ building_drink_factory = {
 	levels_per_mesh = 5
 	
 	unlocking_technologies = {
+		tech_canned_drink
 	}
 
 	production_method_groups = {
@@ -88,6 +89,7 @@ building_vegetable_factorys = {
 	levels_per_mesh = 5
 	
 	unlocking_technologies = {
+		tech_digital_tech
 	}
 
 	production_method_groups = {

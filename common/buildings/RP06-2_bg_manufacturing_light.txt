@@ -26,6 +26,7 @@ building_computer_factory = {
 	texture = "gfx/interface/icons/building_icons/computer_factory.dds"
 	
 	unlocking_technologies = {
+		tech_early_computer
 	}
 
 	city_type = city
@@ -241,6 +242,7 @@ building_game_console_factory = {
 	texture = "gfx/interface/icons/building_icons/game_console_factory.dds"
 	
 	unlocking_technologies = {
+		tech_semiconductor
 	}
 
 	city_type = city
