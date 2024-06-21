@@ -125,6 +125,9 @@ pm_bulk_carrier_wheat = {
 }
 #コンテナ船
 pm_container_ship_wheat = {
+	unlocking_technologies = {
+		tech_shipbuilding
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -143,6 +146,9 @@ pm_container_ship_wheat = {
 }
 #超大型コンテナ船
 pm_oversize_container_ship_wheat = {
+	unlocking_technologies = {
+		tech_gigantic_ship
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -179,6 +185,9 @@ pm_handmade_bread = {
 }
 #食パン
 pm_white_bread = {
+	unlocking_technologies = {
+		tech_petrochemistry
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -196,6 +205,9 @@ pm_white_bread = {
 }
 #惣菜パン
 pm_sandwich_bread = {
+	unlocking_technologies = {
+		tech_food_diversity
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -232,6 +244,9 @@ pm_manual_assembly_bread = {
 }
 #バッチ生産方式
 pm_batch_production_bread = { 
+	unlocking_technologies = {
+		tech_batch_process
+	}
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -249,6 +264,9 @@ pm_batch_production_bread = {
 }
 #フロー生産方式
 pm_flow_production_bread = { 
+	unlocking_technologies = {
+		tech_flow_process
+	}
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -266,6 +284,9 @@ pm_flow_production_bread = {
 }
 #セル生産方式
 pm_cell_production_bread = { 
+	unlocking_technologies = {
+		tech_cell_process
+	}
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -283,6 +304,9 @@ pm_cell_production_bread = {
 }
 #ロボット組み立て
 pm_robot_assembly_bread = { 
+	unlocking_technologies = {
+		tech_industrial_robot
+	}
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -300,6 +324,9 @@ pm_robot_assembly_bread = {
 }
 #AI制御生産
 pm_ai_production_bread = { 
+	unlocking_technologies = {
+		tech_industrial_ai
+	}
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -340,6 +367,9 @@ pm_fruit_juice = {
 }
 #炭酸飲料
 pm_carbonated_drink = {
+	unlocking_technologies = {
+		tech_carbonated_beverage
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -359,6 +389,9 @@ pm_carbonated_drink = {
 }
 #スポーツドリンク
 pm_sports_drink = {
+	unlocking_technologies = {
+		tech_sports_drink
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -398,6 +431,9 @@ pm_canned_coffee = {
 }
 #エナジードリンク
 pm_energy_drink = {
+	unlocking_technologies = {
+		tech_carbonated_beverage
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -474,6 +510,9 @@ pm_manual_assembly_juice = {
 }
 #バッチ生産方式
 pm_batch_production_juice = { 
+	unlocking_technologies = {
+		tech_batch_process
+	}
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -491,6 +530,9 @@ pm_batch_production_juice = {
 }
 #フロー生産方式
 pm_flow_production_juice = { 
+	unlocking_technologies = {
+		tech_flow_process
+	}
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -508,6 +550,9 @@ pm_flow_production_juice = {
 }
 #セル生産方式
 pm_cell_production_juice = { 
+	unlocking_technologies = {
+		tech_cell_process
+	}
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -525,6 +570,9 @@ pm_cell_production_juice = {
 }
 #ロボット組み立て
 pm_robot_assembly_juice = { 
+	unlocking_technologies = {
+		tech_industrial_robot
+	}
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -542,6 +590,9 @@ pm_robot_assembly_juice = {
 }
 #AI制御生産
 pm_ai_production_juice = { 
+	unlocking_technologies = {
+		tech_industrial_ai
+	}
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -640,6 +691,9 @@ pm_vacuum_canning = {
 }
 #二重巻締
 pm_double_seaming = {
+	unlocking_technologies = {
+		tech_machine_tool
+	}
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -658,6 +712,9 @@ pm_double_seaming = {
 }
 #高速缶詰巻締機
 pm_high_speed_seaming = {
+	unlocking_technologies = {
+		tech_precision_machinery
+	}
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -733,12 +790,15 @@ pm_japanese_sweets = {
 }
 #スナック菓子
 pm_snack = {
+	unlocking_technologies = {
+		tech_food_diversity
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_grain_add = 10
-			goods_output_groceries_add = 15
+			goods_output_sweets_add = 15
 		}
 
 		level_scaled = {
@@ -768,6 +828,9 @@ pm_handmade_sweets = {
 }
 #flow生産
 pm_flow_production = { 
+	unlocking_technologies = {
+		tech_flow_process
+	}
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -785,6 +848,9 @@ pm_flow_production = {
 }
 #全自動生産
 pm_full_auto_production = { 
+	unlocking_technologies = {
+		tech_precision_machinery
+	}
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -823,6 +889,9 @@ pm_vegetable = {
 }
 #ロボット管理
 pm_robot_management = {
+	unlocking_technologies = {
+		tech_industrial_robot
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
