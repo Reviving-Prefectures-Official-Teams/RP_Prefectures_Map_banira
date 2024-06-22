@@ -167,7 +167,7 @@ pm_bulletproof_glass = {
 #バッチ生産方式
 pm_batch_production_glass = { 
     unlocking_technologies = {
-        tech_batch_production
+        tech_batch_process
     }
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	building_modifiers = {
@@ -188,7 +188,7 @@ pm_batch_production_glass = {
 #フロー生産方式
 pm_flow_production_glass = { 
     unlocking_technologies = {
-        tech_flow_production
+        tech_flow_process
     }
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	building_modifiers = {
@@ -209,7 +209,7 @@ pm_flow_production_glass = {
 #セル生産方式
 pm_cell_production_glass = { 
     unlocking_technologies = {
-        tech_cell_production
+        tech_cell_process
     }
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	building_modifiers = {
@@ -231,7 +231,7 @@ pm_cell_production_glass = {
 #AI制御生産
 pm_ai_production_glass = { 
     unlocking_technologies = {
-        tech_ai_production
+        tech_industrial_ai
     }
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	building_modifiers = {
@@ -344,7 +344,7 @@ pm_quantum_computer = {
 #バッチ生産方式
 pm_batch_production_computer = { 
     unlocking_technologies = {
-        tech_batch_production
+        tech_batch_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -366,7 +366,7 @@ pm_batch_production_computer = {
 #フロー生産方式
 pm_flow_production_computer = { 
     unlocking_technologies = {
-        tech_flow_production
+        tech_flow_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -388,7 +388,7 @@ pm_flow_production_computer = {
 #セル生産方式
 pm_cell_production_computer = { 
     unlocking_technologies = {
-        tech_cell_production
+        tech_cell_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -411,7 +411,7 @@ pm_cell_production_computer = {
 #ロボット組み立て
 pm_robot_assembly_computer = { 
     unlocking_technologies = {
-        tech_robot_assembly
+        tech_industrial_robot
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -434,7 +434,7 @@ pm_robot_assembly_computer = {
 #AI制御生産
 pm_ai_production_computer = { 
     unlocking_technologies = {
-        tech_ai_production
+        tech_industrial_ai
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -574,7 +574,7 @@ pm_smart_glasses = {
 #バッチ生産方式
 pm_batch_production_telephones = { 
     unlocking_technologies = {
-        tech_batch_production
+        tech_batch_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -599,7 +599,7 @@ pm_batch_production_telephones = {
 #フロー生産方式
 pm_flow_production_telephones = { 
     unlocking_technologies = {
-        tech_flow_production
+        tech_flow_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -624,7 +624,7 @@ pm_flow_production_telephones = {
 #セル生産方式
 pm_cell_production_telephones = { 
     unlocking_technologies = {
-        tech_cell_production
+        tech_cell_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -650,7 +650,7 @@ pm_cell_production_telephones = {
 #ロボット組み立て
 pm_robot_assembly_telephones = { 
     unlocking_technologies = {
-        tech_robot_assembly
+        tech_industrial_robot
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -676,7 +676,7 @@ pm_robot_assembly_telephones = {
 #AI制御生産
 pm_ai_production_telephones = { 
     unlocking_technologies = {
-        tech_ai_production
+        tech_industrial_ai
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -794,7 +794,7 @@ pm_pine_furniture = {
 #バッチ生産方式
 pm_batch_production_furniture = { 
     unlocking_technologies = {
-        tech_batch_production
+        tech_batch_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -816,7 +816,7 @@ pm_batch_production_furniture = {
 #フロー生産方式
 pm_flow_production_furniture = { 
     unlocking_technologies = {
-        tech_flow_production
+        tech_flow_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -838,7 +838,7 @@ pm_flow_production_furniture = {
 #セル生産方式
 pm_cell_production_furniture = { 
     unlocking_technologies = {
-        tech_cell_production
+        tech_cell_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -861,7 +861,7 @@ pm_cell_production_furniture = {
 #ロボット組み立て
 pm_robot_assembly_furniture = { 
     unlocking_technologies = {
-        tech_robot_assembly
+        tech_industrial_robot
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -884,7 +884,7 @@ pm_robot_assembly_furniture = {
 #AI制御生産
 pm_ai_production_furniture = { 
     unlocking_technologies = {
-        tech_ai_production
+        tech_industrial_ai
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -1002,7 +1002,7 @@ pm_modern_art_style = {
 #バッチ生産方式
 pm_batch_production_luxury_furniture = { 
     unlocking_technologies = {
-        tech_batch_production
+        tech_batch_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -1028,7 +1028,7 @@ pm_batch_production_luxury_furniture = {
 #フロー生産方式
 pm_flow_production_luxury_furniture = { 
     unlocking_technologies = {
-        tech_flow_production
+        tech_flow_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -1054,7 +1054,7 @@ pm_flow_production_luxury_furniture = {
 #セル生産方式
 pm_cell_production_luxury_furniture = { 
     unlocking_technologies = {
-        tech_cell_production
+        tech_cell_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -1081,7 +1081,7 @@ pm_cell_production_luxury_furniture = {
 #ロボット組み立て
 pm_robot_assembly_luxury_furniture = { 
     unlocking_technologies = {
-        tech_robot_assembly
+        tech_industrial_robot
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -1108,7 +1108,7 @@ pm_robot_assembly_luxury_furniture = {
 #AI制御生産
 pm_ai_production_luxury_furniture = { 
     unlocking_technologies = {
-        tech_ai_production
+        tech_industrial_ai
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -1224,7 +1224,7 @@ pm_highlact = {
 #バッチ生産方式
 pm_batch_production_fabric = { 
     unlocking_technologies = {
-        tech_batch_production
+        tech_batch_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -1246,7 +1246,7 @@ pm_batch_production_fabric = {
 #フロー生産方式
 pm_flow_production_fabric = { 
     unlocking_technologies = {
-        tech_flow_production
+        tech_flow_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -1268,7 +1268,7 @@ pm_flow_production_fabric = {
 #セル生産方式
 pm_cell_production_fabric = { 
     unlocking_technologies = {
-        tech_cell_production
+        tech_cell_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -1291,7 +1291,7 @@ pm_cell_production_fabric = {
 #ロボット組み立て
 pm_robot_assembly_fabric = { 
     unlocking_technologies = {
-        tech_robot_assembly
+        tech_industrial_robot
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -1314,7 +1314,7 @@ pm_robot_assembly_fabric = {
 #AI制御生産
 pm_ai_production_fabric = { 
     unlocking_technologies = {
-        tech_ai_production
+        tech_industrial_ai
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -1429,7 +1429,7 @@ pm_universal_design = {
 #バッチ生産方式
 pm_batch_production_clothes = { 
     unlocking_technologies = {
-        tech_batch_production
+        tech_batch_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -1451,7 +1451,7 @@ pm_batch_production_clothes = {
 #フロー生産方式
 pm_flow_production_clothes = { 
     unlocking_technologies = {
-        tech_flow_production
+        tech_flow_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -1473,7 +1473,7 @@ pm_flow_production_clothes = {
 #セル生産方式
 pm_cell_production_clothes = { 
     unlocking_technologies = {
-        tech_cell_production
+        tech_cell_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -1496,7 +1496,7 @@ pm_cell_production_clothes = {
 #ロボット組み立て
 pm_robot_assembly_clothes = { 
     unlocking_technologies = {
-        tech_robot_assembly
+        tech_industrial_robot
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -1519,7 +1519,7 @@ pm_robot_assembly_clothes = {
 #AI制御生産
 pm_ai_production_clothes = { 
     unlocking_technologies = {
-        tech_ai_production
+        tech_industrial_ai
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -1637,7 +1637,7 @@ pm_avant_garde_design = {
 #バッチ生産方式
 pm_batch_production_luxury_clothes = { 
     unlocking_technologies = {
-        tech_batch_production
+        tech_batch_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -1659,7 +1659,7 @@ pm_batch_production_luxury_clothes = {
 #フロー生産方式
 pm_flow_production_luxury_clothes = { 
     unlocking_technologies = {
-        tech_flow_production
+        tech_flow_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -1681,7 +1681,7 @@ pm_flow_production_luxury_clothes = {
 #セル生産方式
 pm_cell_production_luxury_clothes = { 
     unlocking_technologies = {
-        tech_cell_production
+        tech_cell_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -1704,7 +1704,7 @@ pm_cell_production_luxury_clothes = {
 #ロボット組み立て
 pm_robot_assembly_luxury_clothes = { 
     unlocking_technologies = {
-        tech_robot_assembly
+        tech_industrial_robot
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -1727,7 +1727,7 @@ pm_robot_assembly_luxury_clothes = {
 #AI制御生産
 pm_ai_production_luxury_clothes = { 
     unlocking_technologies = {
-        tech_ai_production
+        tech_industrial_ai
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -1864,7 +1864,7 @@ pm_vocaloid = {
 #バッチ生産方式
 pm_batch_production_musical_instruments = { 
     unlocking_technologies = {
-        tech_batch_production
+        tech_batch_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -1889,7 +1889,7 @@ pm_batch_production_musical_instruments = {
 #フロー生産方式
 pm_flow_production_musical_instruments = { 
     unlocking_technologies = {
-        tech_flow_production
+        tech_flow_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -1914,7 +1914,7 @@ pm_flow_production_musical_instruments = {
 #セル生産方式
 pm_cell_production_musical_instruments = { 
     unlocking_technologies = {
-        tech_cell_production
+        tech_cell_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -1940,7 +1940,7 @@ pm_cell_production_musical_instruments = {
 #ロボット組み立て
 pm_robot_assembly_musical_instruments = { 
     unlocking_technologies = {
-        tech_robot_assembly
+        tech_industrial_robot
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -1966,7 +1966,7 @@ pm_robot_assembly_musical_instruments = {
 #AI制御生産
 pm_ai_production_musical_instruments = { 
     unlocking_technologies = {
-        tech_ai_production
+        tech_industrial_ai
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -2082,7 +2082,7 @@ pm_composite_ceramic = {
 #バッチ生産方式
 pm_batch_production_porcelain = { 
     unlocking_technologies = {
-        tech_batch_production
+        tech_batch_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -2105,7 +2105,7 @@ pm_batch_production_porcelain = {
 #フロー生産方式
 pm_flow_production_porcelain = { 
     unlocking_technologies = {
-        tech_flow_production
+        tech_flow_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -2128,7 +2128,7 @@ pm_flow_production_porcelain = {
 #セル生産方式
 pm_cell_production_porcelain = { 
     unlocking_technologies = {
-        tech_cell_production
+        tech_cell_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -2152,7 +2152,7 @@ pm_cell_production_porcelain = {
 #ロボット組み立て
 pm_robot_assembly_porcelain = { 
     unlocking_technologies = {
-        tech_robot_assembly
+        tech_industrial_robot
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -2176,7 +2176,7 @@ pm_robot_assembly_porcelain = {
 #AI制御生産
 pm_ai_production_porcelain = { 
     unlocking_technologies = {
-        tech_ai_production
+        tech_industrial_ai
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -2294,7 +2294,7 @@ pm_precision_machinery = {
 #バッチ生産方式
 pm_batch_production_tools = { 
     unlocking_technologies = {
-        tech_batch_production
+        tech_batch_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -2319,7 +2319,7 @@ pm_batch_production_tools = {
 #フロー生産方式
 pm_flow_production_tools = { 
     unlocking_technologies = {
-        tech_flow_production
+        tech_flow_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -2344,7 +2344,7 @@ pm_flow_production_tools = {
 #セル生産方式
 pm_cell_production_tools = { 
     unlocking_technologies = {
-        tech_cell_production
+        tech_cell_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -2370,7 +2370,7 @@ pm_cell_production_tools = {
 #ロボット組み立て
 pm_robot_assembly_tools = { 
     unlocking_technologies = {
-        tech_robot_assembly
+        tech_industrial_robot
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -2396,7 +2396,7 @@ pm_robot_assembly_tools = {
 #AI制御生産
 pm_ai_production_tools = { 
     unlocking_technologies = {
-        tech_ai_production
+        tech_industrial_ai
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -2516,7 +2516,7 @@ pm_packaging_paper = {
 #バッチ生産方式
 pm_batch_production_paper = { 
     unlocking_technologies = {
-        tech_batch_production
+        tech_batch_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -2539,7 +2539,7 @@ pm_batch_production_paper = {
 #フロー生産方式
 pm_flow_production_paper = { 
     unlocking_technologies = {
-        tech_flow_production
+        tech_flow_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -2562,7 +2562,7 @@ pm_flow_production_paper = {
 #セル生産方式
 pm_cell_production_paper = { 
     unlocking_technologies = {
-        tech_cell_production
+        tech_cell_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -2610,7 +2610,7 @@ pm_line_mechanization_paper = {
 #AI制御生産
 pm_ai_production_paper = { 
     unlocking_technologies = {
-        tech_ai_production
+        tech_industrial_ai
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -2755,7 +2755,7 @@ pm_full_dive_vr_game_console = {
 #バッチ生産方式
 pm_batch_production_game_consoles = { 
     unlocking_technologies = {
-        tech_batch_production
+        tech_batch_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -2781,7 +2781,7 @@ pm_batch_production_game_consoles = {
 #フロー生産方式
 pm_flow_production_game_consoles = { 
     unlocking_technologies = {
-        tech_flow_production
+        tech_flow_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -2807,7 +2807,7 @@ pm_flow_production_game_consoles = {
 #セル生産方式
 pm_cell_production_game_consoles = { 
     unlocking_technologies = {
-        tech_cell_production
+        tech_cell_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -2834,7 +2834,7 @@ pm_cell_production_game_consoles = {
 #ロボット組み立て
 pm_robot_assembly_game_consoles = { 
     unlocking_technologies = {
-        tech_robot_assembly
+        tech_industrial_robot
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -2861,7 +2861,7 @@ pm_robot_assembly_game_consoles = {
 #AI制御生産
 pm_ai_production_game_consoles = { 
     unlocking_technologies = {
-        tech_ai_production
+        tech_industrial_ai
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -3011,7 +3011,7 @@ pm_8k_television = {
 #バッチ生産方式
 pm_batch_production_television = { 
     unlocking_technologies = {
-        tech_batch_production
+        tech_batch_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -3036,7 +3036,7 @@ pm_batch_production_television = {
 #フロー生産方式
 pm_flow_production_television = { 
     unlocking_technologies = {
-        tech_flow_production
+        tech_flow_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -3061,7 +3061,7 @@ pm_flow_production_television = {
 #セル生産方式
 pm_cell_production_television = { 
     unlocking_technologies = {
-        tech_cell_production
+        tech_cell_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -3087,7 +3087,7 @@ pm_cell_production_television = {
 #ロボット組み立て
 pm_robot_assembly_television = { 
     unlocking_technologies = {
-        tech_robot_assembly
+        tech_industrial_robot
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -3113,7 +3113,7 @@ pm_robot_assembly_television = {
 #AI制御生産
 pm_ai_production_television = { 
     unlocking_technologies = {
-        tech_ai_production
+        tech_industrial_ai
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -3261,7 +3261,7 @@ pm_ai_washing_machine = {
 #バッチ生産方式
 pm_batch_production_washing_machine = { 
     unlocking_technologies = {
-        tech_batch_production
+        tech_batch_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -3284,7 +3284,7 @@ pm_batch_production_washing_machine = {
 #フロー生産方式
 pm_flow_production_washing_machine = { 
     unlocking_technologies = {
-        tech_flow_production
+        tech_flow_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -3307,7 +3307,7 @@ pm_flow_production_washing_machine = {
 #セル生産方式
 pm_cell_production_washing_machine = { 
     unlocking_technologies = {
-        tech_cell_production
+        tech_cell_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -3331,7 +3331,7 @@ pm_cell_production_washing_machine = {
 #ロボット組み立て
 pm_robot_assembly_washing_machine = { 
     unlocking_technologies = {
-        tech_robot_assembly
+        tech_industrial_robot
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -3355,7 +3355,7 @@ pm_robot_assembly_washing_machine = {
 #AI制御生産
 pm_ai_production_washing_machine = { 
     unlocking_technologies = {
-        tech_ai_production
+        tech_industrial_ai
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -3477,7 +3477,7 @@ pm_multi_function_refrigerator = {
 #バッチ生産方式
 pm_batch_production_refrigerator = { 
     unlocking_technologies = {
-        tech_batch_production
+        tech_batch_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -3501,7 +3501,7 @@ pm_batch_production_refrigerator = {
 #フロー生産方式
 pm_flow_production_refrigerator = { 
     unlocking_technologies = {
-        tech_flow_production
+        tech_flow_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -3525,7 +3525,7 @@ pm_flow_production_refrigerator = {
 #セル生産方式
 pm_cell_production_refrigerator = { 
     unlocking_technologies = {
-        tech_cell_production
+        tech_cell_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -3550,7 +3550,7 @@ pm_cell_production_refrigerator = {
 #ロボット組み立て
 pm_robot_assembly_refrigerator = { 
     unlocking_technologies = {
-        tech_robot_assembly
+        tech_industrial_robot
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -3575,7 +3575,7 @@ pm_robot_assembly_refrigerator = {
 #AI制御生産
 pm_ai_production_refrigerator = { 
     unlocking_technologies = {
-        tech_ai_production
+        tech_industrial_ai
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -3718,7 +3718,7 @@ pm_ai_corrected_camera = {
 #バッチ生産方式
 pm_batch_production_camera = { 
     unlocking_technologies = {
-        tech_batch_production
+        tech_batch_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -3740,7 +3740,7 @@ pm_batch_production_camera = {
 #フロー生産方式
 pm_flow_production_camera = { 
     unlocking_technologies = {
-        tech_flow_production
+        tech_flow_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -3762,7 +3762,7 @@ pm_flow_production_camera = {
 #セル生産方式
 pm_cell_production_camera = { 
     unlocking_technologies = {
-        tech_cell_production
+        tech_cell_process
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -3785,7 +3785,7 @@ pm_cell_production_camera = {
 #ロボット組み立て
 pm_robot_assembly_camera = { 
     unlocking_technologies = {
-        tech_robot_assembly
+        tech_industrial_robot
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
@@ -3808,7 +3808,7 @@ pm_robot_assembly_camera = {
 #AI制御生産
 pm_ai_production_camera = { 
     unlocking_technologies = {
-        tech_ai_production
+        tech_industrial_ai
     }
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {

@@ -633,7 +633,7 @@ pm_canned_meat = {
 		}
 	}
 }
-#####魚介加工
+#魚介加工
 pm_canned_fish = {
 	texture = "gfx/interface/icons/production_method_icons/canneries.dds"
 	
@@ -652,7 +652,7 @@ pm_canned_fish = {
 		}
 	}
 }
-#####野菜加工
+#野菜加工
 pm_canned_vegetable = {
 	texture = "gfx/interface/icons/production_method_icons/canneries.dds"
 	
@@ -662,6 +662,24 @@ pm_canned_vegetable = {
 			goods_input_iron_add = 10		# x40 =  400
 			
 			# output goods
+			goods_output_groceries_add = 30	# x30 =  900
+		}
+
+		level_scaled = {
+			# profit = 300 (20.8)
+			building_employment_machinists_add = 500	# x1.5 = 750 laborer wages
+		}
+	}
+}
+#培養食品
+pm_cultured_food = {
+	unlocking_technologies = {
+		tech_artifical_culture
+	}
+	texture = "gfx/interface/icons/production_method_icons/canneries.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
 			goods_output_groceries_add = 30	# x30 =  900
 		}
 
@@ -735,6 +753,9 @@ pm_high_speed_seaming = {
 #####菓子製造
 #チョコレート
 pm_chocolate = {
+	unlocking_technologies = {
+		tech_chocolate
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {

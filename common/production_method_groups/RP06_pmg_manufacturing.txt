@@ -83,6 +83,7 @@ pmg_meat_canned = {
 	production_methods = {
 		pm_unproducing
 		pm_canned_meat
+		pm_cultured_food
 	}
 }
 
@@ -676,6 +677,7 @@ pmg_automobile = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_automobile #tier 0
+		pm_subcompact_automobile #tier 1
 		pm_hybrid_automobile #tier 3
 		pm_fuel_cell_automobile #tier 4
 		pm_autonomous_automobile #tier 5
@@ -759,9 +761,8 @@ pmg_synthetic_dye = {
 pmg_engine = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_gasoline_engine
+		pm_knock_down
 		pm_diesel_engine
-		pm_turbine_engine
 		pm_fuel_cell_engine
 	}
 }
