@@ -11,11 +11,18 @@
     	category = production
     }
 
+	tech_vaccume_tube = {
+    	era = era_1
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+    }
+
 	tech_hydroelectric_power = {
     	era = era_1
     	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
     	category = production
     }
+
 	tech_priority_production = {
     	era = era_1
     	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
@@ -31,6 +38,7 @@
 			tech_hydroelectric_power
 		}
     }
+
 	tech_wood_pulp = {
     	era = era_2
     	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
@@ -39,6 +47,7 @@
 			planting
 		}
     }
+
 	tech_machine_tool = {
     	era = era_2
     	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
@@ -47,6 +56,7 @@
 			public_phone
 		}
     }
+
 	tech_white_goods = {
     	era = era_2
     	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
@@ -55,31 +65,16 @@
 			tech_machine_tool
 		}
     }
+
 	tech_assembly_method = {
     	era = era_2
     	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
     	category = production
 		unlocking_technologies = {
-			tech_automatic_thresher
-			tech_glass_wool
+			tech_machine_tool
 		}
     }
-	tech_semiconductor = {
-    	era = era_2
-    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
-    	category = production
-		unlocking_technologies = {
-			tech_assembly_method
-		}
-    }
-	tech_petrochemistry = {
-    	era = era_2
-    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
-    	category = production
-		unlocking_technologies = {
-			tech_priority_production
-		}
-    }
+
 	tech_high_thermal_melting  = {
     	era = era_2
     	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
@@ -88,6 +83,26 @@
 			tech_priority_production
 		}
     }
+
+	tech_organic_compound = {
+    	era = era_2
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_priority_production
+		}
+    }
+
+	tech_petrochemistry = {
+    	era = era_2
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_high_thermal_melting
+			tech_organic_compound
+		}
+    }
+
 	tech_ceramics = {
     	era = era_2
     	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
@@ -96,6 +111,16 @@
 			tech_high_thermal_melting
 		}
     }
+
+	tech_semiconductor = {
+    	era = era_2
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_vaccume_tube
+		}
+    }
+
 	tech_glass_wool = {
     	era = era_2
     	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
@@ -104,6 +129,7 @@
 			tech_high_thermal_melting
 		}
     }
+
 	tech_automatic_thresher = {
     	era = era_2
     	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
@@ -113,18 +139,54 @@
 		}
     }
 
-
-### ERA 3 = Tier2
-	tech_early_computer = {
+	tech_batch_process = {
     	era = era_2
     	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
     	category = production
 		unlocking_technologies = {
-			tech_semiconductor
+			tech_machine_tool
 		}
     }
-	tech_pine_wood = {
-    	era = era_2
+
+### ERA 3 = Tier2
+	tech_large_turbine = {
+    	era = era_3
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_high_efficiency_turbine
+		}
+    }
+
+	tech_small_hydroelectric_power = {
+    	era = era_3
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_large_turbine
+		}
+    }
+
+	tech_supercritical_pressure_power_generation = {
+    	era = era_3
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_high_efficiency_turbine
+		}
+    }
+
+	tech_breeder_reactor = {
+    	era = era_3
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_supercritical_pressure_power_generation
+		}
+    }
+
+	tech_gene_science = {
+    	era = era_3
     	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
     	category = production
 		unlocking_technologies = {
@@ -132,54 +194,222 @@
 		}
     }
 
-	tech_large-scale_plant = {
-    	era = era_2
-    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
-    	category = production
-		unlocking_technologies = {
-			tech_petrochemistry
-		}
-    }
 	tech_molecular_science = {
-    	era = era_2
+    	era = era_3
     	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
     	category = production
 		unlocking_technologies = {
 			tech_petrochemistry
 		}
     }
-	tech_large_turbine = {
-    	era = era_2
+
+	tech_agricultural_chemical = {
+    	era = era_3
     	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
     	category = production
 		unlocking_technologies = {
-			tech_high_efficiency_turbine
+			tech_petrochemistry
 		}
     }
-	tech_small_hydroelectric_power = {
-    	era = era_2
+
+	tech_plastic = {
+    	era = era_3
     	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
     	category = production
 		unlocking_technologies = {
-			tech_large_turbine
+			tech_petrochemistry
 		}
     }
-	tech_breeder_reactor = {
-    	era = era_2
+
+	tech_rapid_freezing_liquid_nitrogen_liquid_cooling = {
+    	era = era_3
     	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
     	category = production
 		unlocking_technologies = {
-			tech_large_turbine
+			tech_molecular_science
 		}
     }
-	tech_supercritical_pressure_power_generation = {
-    	era = era_2
+
+	tech_large_scale_plant = {
+    	era = era_3
     	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
     	category = production
 		unlocking_technologies = {
-			tech_large_turbine
+			tech_petrochemistry
 		}
     }
+
+	tech_oxygen_steelmaking = {
+    	era = era_3
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_large_scale_plant
+		}
+    }
+
+	tech_early_computer = {
+    	era = era_3
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_semiconductor
+		}
+    }
+
+	tech_pine_wood = {
+    	era = era_3
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_wood_pulp
+		}
+    }
+
+	tech_flow_process = {
+    	era = era_3
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_batch_process
+		}
+    }
+
 ### ERA 4 = Tier3
+	tech_constant_speed_propeller = {
+    	era = era_4
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_small_hydroelectric_power
+		}
+    }
+
+	tech_concentrated_solar_power = {
+    	era = era_4
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_constant_speed_propeller
+		}
+    }
+
+	tech_centrifugal_separation_method = {
+    	era = era_4
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_molecular_science
+			}
+    }
+
+	tech_laser_enrichment = {
+    	era = era_4
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_centrifugal_separation_method
+		}
+    }
+	
+	tech_inorganic_chemistry = {
+    	era = era_4
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_gene_science
+		}
+    }
+	tech_advanced_molecular_science = {
+    	era = era_4
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_molecular_science
+		}
+    }
+
+	tech_kebonization = {
+    	era = era_4
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_wood_pulp
+		}
+    }
+
+	tech_modularization_equipment = {
+    	era = era_4
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_large-scale_plant
+		}
+    }
+
+	tech_precision_machinery = {
+    	era = era_4
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_flow_process
+			tech_early_computer
+		}
+    }
+
+	tech_industrial_drone = {
+    	era = era_4
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_early_computer
+		}
+    }
+
+	tech_gyro_saucer = {
+    	era = era_4
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_early_computer
+		}
+    }
+
+	tech_modern_computer = {
+    	era = era_4
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_early_computer
+		}
+    }
+
+	tech_cell_process = {
+    	era = era_4
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_flow_process
+		}
+    }
+
 ### ERA 5 = Tier4
+	tech_ultra_high_temperature_furnace = {
+    	era = era_5
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_breeder_reactor
+		}
+    }
+
+	tech_nuclear_fusion = {
+    	era = era_5
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_ultra_high_temperature_furnace
+		}
+    }
+
 ### ERA 6 = Tier5

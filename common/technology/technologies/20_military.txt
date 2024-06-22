@@ -1,17 +1,23 @@
 ﻿### ERA 1 
-    steam_railway = {
+    tech_steam_railway = {
     	era = era_1
     	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
     	category = military
     }
 
-	narrow_road = {
+	tech_planned_shipbuilding = {
     	era = era_1
     	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
     	category = military
     }
 
-	licensed_aircraft = {
+	tech_narrow_road = {
+    	era = era_1
+    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+    	category = military
+    }
+
+	tech_licensed_aircraft = {
     	era = era_1
     	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
     	category = military
@@ -23,7 +29,7 @@
     	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
     	category = military
 		unlocking_technologies = {
-			steam_railway
+			tech_steam_railway
 		}
     }
 
@@ -41,7 +47,7 @@
     	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
     	category = military
 		unlocking_technologies = {
-			narrow_road
+			tech_narrow_road
 		}
     }
 
@@ -53,6 +59,7 @@
 			tech_petroleum_asphalt
 		}
     }
+
 	tech_physical_distribution = {
     	era = era_2
     	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
@@ -62,10 +69,23 @@
 			tech_electric_railway
 		}
     }
+
 	tech_block_method = {
     	era = era_2
     	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
     	category = military
+		unlocking_technologies = {
+			tech_planned_shipbuilding
+		}
+    }
+
+	tech_aquaculture = {
+    	era = era_2
+    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+    	category = military		
+		unlocking_technologies = {
+			tech_planned_shipbuilding
+		}
     }
 
 	tech_turbofan_engine = {
@@ -74,7 +94,7 @@
     	category = military
 
 		unlocking_technologies = {
-			licensed_aircraft
+			tech_licensed_aircraft
 		}
     }
 
