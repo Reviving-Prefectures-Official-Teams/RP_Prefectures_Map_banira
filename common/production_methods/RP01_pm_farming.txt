@@ -199,7 +199,7 @@ pm_high_performance_pesticide_rice = {
 #ドローン散布(米)
 pm_drone_spraying_rice = { 
     unlocking_technologies = {
-        tech_drone
+        tech_industrial_drone
     }
     texture = "gfx/interface/icons/production_method_icons/method_production_4.dds"
     building_modifiers = {
@@ -426,7 +426,7 @@ pm_high_performance_pesticide = {
 #ドローン散布(その他)
 pm_drone_spraying = { 
     unlocking_technologies = {
-        tech_drone
+        tech_industrial_drone
     }
     texture = "gfx/interface/icons/production_method_icons/method_production_4.dds"
     building_modifiers = {

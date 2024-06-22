@@ -38,6 +38,7 @@ building_steel_mills = {
 	levels_per_mesh = 5
 
 	unlocking_technologies = {
+		tech_high_thermal_melting 
 	}
 	
 	production_method_groups = {
@@ -97,6 +98,7 @@ building_drone_factory = {
 	levels_per_mesh = 5
 	
 	unlocking_technologies = {
+		tech_gyro_saucer
 	}
 
 	production_method_groups = {
@@ -127,6 +129,7 @@ building_synthetics_plants = {
 	levels_per_mesh = 5
 	
 	unlocking_technologies = {
+		tech_petrochemistry
 	}
 	
 	production_method_groups = {
@@ -185,6 +188,7 @@ building_luxury_automobile_factory = {
 	levels_per_mesh = 5
 	
 	unlocking_technologies = {
+		tech_aluminum_alloy
 	}
 
 	production_method_groups = {
@@ -324,6 +328,7 @@ building_robot_factory = {
 	levels_per_mesh = 5
 	
 	unlocking_technologies = {
+		tech_precision_machinery
 	}
 
 	production_method_groups = {

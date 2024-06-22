@@ -6,9 +6,9 @@ pmg_exparts_affairs = {
 
 	production_methods = {
 		pm_expart_firm #専門事務所
-		pm_financial_consulting #財務コンサルティング
-		pm_general_consulting #総合コンサルティング
 		pm_strategic_consulting #戦略コンサルティング
+		pm_general_consulting #総合コンサルティング
+		
 	}
 }
 

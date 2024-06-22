@@ -85,6 +85,9 @@
 ###テンプレート
 #テンプレート
 pm_template = {
+	unlocking_technologies = {
+		#技術
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -108,7 +111,10 @@ pm_template = {
 ###美術学部
 #製作教育
 pm_art_school = {
-	texture = "gfx/interface/icons/production_method_icons/"
+	unlocking_technologies = {
+		#技術
+	}
+	texture  = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -128,7 +134,10 @@ pm_art_school = {
 }
 #コンセプチュアル教育
 pm_conceptual_school = {
-	texture = "gfx/interface/icons/production_method_icons/"
+	unlocking_technologies = {
+		tech_conceptual_art
+	}
+	texture  = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -144,7 +153,10 @@ pm_conceptual_school = {
 }
 #システム教育
 pm_system_school = {
-	texture = "gfx/interface/icons/production_method_icons/"
+	unlocking_technologies = {
+		tech_system_thinking
+	}
+	texture  = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -162,36 +174,12 @@ pm_system_school = {
 
 #####大学
 ###学部教育
-#リベラルアーツ
-pm_liberal_arts = {
-	texture = "gfx/interface/icons/production_method_icons/"
-
-	building_modifiers = {
-		workforce_scaled = {
-			goods_input_books_add = 5
-		}
-
-		level_scaled = {
-			building_employment_clerks_add = 300
-			building_employment_academics_add = 100
-		}
-	}
-
-	country_modifiers = {
-		workforce_scaled = { 
-			country_weekly_innovation_add = 1
-		}
-	}
-
-	state_modifiers = {
-		workforce_scaled = { 
-			state_pop_qualifications_mult = 0.05
-		}	
-	}	
-}
 #学部教育
 pm_undergraduate = {
-	texture = "gfx/interface/icons/production_method_icons/"
+	unlocking_technologies = {
+		#技術
+	}
+	texture  = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -218,7 +206,10 @@ pm_undergraduate = {
 }
 #社会教育
 pm_social_education = {
-	texture = "gfx/interface/icons/production_method_icons/"
+	unlocking_technologies = {
+		tech_social_education
+	}
+	texture  = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -246,7 +237,10 @@ pm_social_education = {
 }
 #ゆとり教育
 pm_yutori_education = {
-	texture = "gfx/interface/icons/production_method_icons/"
+	unlocking_technologies = {
+		tech_affluent_school
+	}
+	texture  = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -274,7 +268,10 @@ pm_yutori_education = {
 }
 #起業家教育
 pm_entrepreneur_education = {
-	texture = "gfx/interface/icons/production_method_icons/"
+	unlocking_technologies = {
+		tech_entrepreneurship_education
+	}
+	texture  = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -306,7 +303,10 @@ pm_entrepreneur_education = {
 ###アート展示
 #アート展示
 pm_art_exhibition = {
-	texture = "gfx/interface/icons/production_method_icons/"
+	unlocking_technologies = {
+		#技術
+	}
+	texture  = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -322,7 +322,10 @@ pm_art_exhibition = {
 }
 #インタラクティブ展示
 pm_interactive_exhibition = {
-	texture = "gfx/interface/icons/production_method_icons/"
+	unlocking_technologies = {
+		tech_conceptual_art
+	}
+	texture  = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -339,7 +342,10 @@ pm_interactive_exhibition = {
 }
 #デジタルアーカイブ
 pm_digital_archive = {
-	texture = "gfx/interface/icons/production_method_icons/"
+	unlocking_technologies = {
+		tech_internet
+	}
+	texture  = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -357,7 +363,10 @@ pm_digital_archive = {
 }
 #VR展示
 pm_vr_exhibition = {
-	texture = "gfx/interface/icons/production_method_icons/"
+	unlocking_technologies = {
+		tech_holography
+	}
+	texture  = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -378,7 +387,10 @@ pm_vr_exhibition = {
 ###行政機構
 #従来の行政
 pm_conventional_administration = {
-	texture = "gfx/interface/icons/production_method_icons/"
+	unlocking_technologies = {
+		#技術
+	}
+	texture  = "gfx/interface/icons/production_method_icons/"
 
 	country_modifiers = {
 		workforce_scaled = {
@@ -407,7 +419,10 @@ pm_conventional_administration = {
 }
 #システム化行政
 pm_system_administration = {
-	texture = "gfx/interface/icons/production_method_icons/"
+	unlocking_technologies = {
+		tech_modern_computer
+	}
+	texture  = "gfx/interface/icons/production_method_icons/"
 
 	country_modifiers = {
 		workforce_scaled = {
@@ -437,7 +452,10 @@ pm_system_administration = {
 }
 #デジタル行政
 pm_digital_administration = {
-	texture = "gfx/interface/icons/production_method_icons/"
+	unlocking_technologies = {
+		tech_secure_internet
+	}
+	texture  = "gfx/interface/icons/production_method_icons/"
 
 	country_modifiers = {
 		workforce_scaled = {
@@ -467,7 +485,10 @@ pm_digital_administration = {
 }
 #AI行政
 pm_ai_administration = {
-	texture = "gfx/interface/icons/production_method_icons/"
+	unlocking_technologies = {
+		tech_industrial_ai
+	}
+	texture  = "gfx/interface/icons/production_method_icons/"
 
 	country_modifiers = {
 		workforce_scaled = {
@@ -497,7 +518,10 @@ pm_ai_administration = {
 }
 
 pm_wooden_buildings = {
-	texture = "gfx/interface/icons/production_method_icons/wooden_buildings.dds"
+	unlocking_technologies = {
+		#技術
+	}
+	texture  = "gfx/interface/icons/production_method_icons/wooden_buildings.dds"
 	
 	is_default = yes
 
@@ -527,7 +551,10 @@ pm_wooden_buildings = {
 }
 
 pm_iron_frame_buildings = {
-	texture = "gfx/interface/icons/production_method_icons/wooden_buildings.dds"
+	unlocking_technologies = {
+		#技術
+	}
+	texture  = "gfx/interface/icons/production_method_icons/wooden_buildings.dds"
 	
 	country_modifiers = {
 		workforce_scaled = {

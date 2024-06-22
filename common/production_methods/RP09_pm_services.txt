@@ -85,6 +85,8 @@
 ###テンプレート
 #テンプレート
 pm_template = {
+	unlocking_technologies = {
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -108,6 +110,8 @@ pm_template = {
 ###専門業務
 #専門事務所
 pm_expart_firm = {
+	unlocking_technologies = {
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -123,8 +127,11 @@ pm_expart_firm = {
 		}
 	}
 }
-#財務コンサルティング
-pm_financial_consulting = {
+#戦略コンサルティング
+pm_strategic_consulting = {
+	unlocking_technologies = {
+		tech_strategist
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -142,35 +149,21 @@ pm_financial_consulting = {
 }
 #総合コンサルティング
 pm_general_consulting = {
-	texture = "gfx/interface/icons/production_method_icons/"
-
-	building_modifiers = {
-		workforce_scaled = {
-			goods_input_services_add = 15
-			goods_output_professionals_add = 21
-		}
-
-		level_scaled = {
-			building_employment_clerks_add = 100
-			building_employment_bureaucrats_add = 150
-			building_employment_academics_add = 100
-		}
+	unlocking_technologies = {
+		tech_business_process_re-engineering
 	}
-}
-#戦略コンサルティング
-pm_strategic_consulting = {
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_services_add = 20
-			goods_output_professionals_add = 30
+			goods_output_professionals_add = 28
 		}
 
 		level_scaled = {
-			building_employment_clerks_add = 100
-			building_employment_bureaucrats_add = 200
-			building_employment_academics_add = 150
+			building_employment_clerks_add = 150
+			building_employment_bureaucrats_add = 150
+			building_employment_academics_add = 50
 		}
 	}
 }
@@ -179,6 +172,9 @@ pm_strategic_consulting = {
 ###デジタルサービス
 #ソフトウェア
 pm_software = {
+	unlocking_technologies = {
+		tech_early_computer
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -196,6 +192,9 @@ pm_software = {
 }
 #ウェブサービス
 pm_web_service = {
+	unlocking_technologies = {
+		tech_internet
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -213,6 +212,9 @@ pm_web_service = {
 }
 #クラウドサービス
 pm_cloud_service = {
+	unlocking_technologies = {
+		tech_secure_internet
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -230,8 +232,10 @@ pm_cloud_service = {
 }
 ###専門サービス
 #委託契約
-pm_outsourcing_contract = { 
-    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+pm_outsourcing_contract = { 	
+	unlocking_technologies = {
+	}
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_professionals_add = 1
@@ -241,6 +245,9 @@ pm_outsourcing_contract = {
 }
 #専属契約
 pm_exclusive_contract_digital_industry = { 
+	unlocking_technologies = {
+		tech_strategist
+	}
     texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
         workforce_scaled = {
@@ -250,8 +257,11 @@ pm_exclusive_contract_digital_industry = {
     }
 }
 #コンサルティング
-pm_consulting_digital_industry = { 
-    texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+pm_consulting_digital_industry = { 	
+	unlocking_technologies = {
+		tech_business_process_re-engineering
+	}
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_professionals_add = 6
@@ -264,6 +274,8 @@ pm_consulting_digital_industry = {
 ###商店街
 #闇市
 pm_yami_ichi = {
+	unlocking_technologies = {
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -286,6 +298,9 @@ pm_yami_ichi = {
 }
 #商店街
 pm_shopping_street = {
+	unlocking_technologies = {
+		tech_shopping_street
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -300,6 +315,9 @@ pm_shopping_street = {
 }
 #百貨店
 pm_department_store = {
+	unlocking_technologies = {
+		tech_self_service
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -317,6 +335,9 @@ pm_department_store = {
 }
 #複合商業施設
 pm_complex_commercial_facility = {
+	unlocking_technologies = {
+		tech_mixed_use_commercial_facility
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -337,6 +358,8 @@ pm_complex_commercial_facility = {
 ###印刷
 #モノクロ印刷
 pm_monochrome_printing = {
+	unlocking_technologies = {
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -353,6 +376,9 @@ pm_monochrome_printing = {
 }
 #カラー印刷
 pm_color_printing = {
+	unlocking_technologies = {
+		tech_color_printing
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -369,6 +395,9 @@ pm_color_printing = {
 }
 #デジタル印刷
 pm_digital_printing = {
+	unlocking_technologies = {
+		tech_standardization
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -385,6 +414,9 @@ pm_digital_printing = {
 }
 #デジタル配信
 pm_digital_distribution = {
+	unlocking_technologies = {
+		tech_digital_tech
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -402,6 +434,8 @@ pm_digital_distribution = {
 ###放送
 #モノクロ放送
 pm_monochrome_broadcasting = {
+	unlocking_technologies = {
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -419,6 +453,9 @@ pm_monochrome_broadcasting = {
 }
 #カラー放送
 pm_color_broadcasting = {
+	unlocking_technologies = {
+		tech_color_broadcasting
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -436,6 +473,9 @@ pm_color_broadcasting = {
 }
 #衛星放送
 pm_satellite_broadcasting = {
+	unlocking_technologies = {
+		tech_artificial_satellite
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -453,6 +493,9 @@ pm_satellite_broadcasting = {
 }
 #デジタル放送
 pm_digital_broadcasting = {
+	unlocking_technologies = {
+		tech_digital_tech
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -471,6 +514,9 @@ pm_digital_broadcasting = {
 }
 #ストリーミングサービス
 pm_streaming_service = {
+	unlocking_technologies = {
+		tech_5G
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -489,7 +535,9 @@ pm_streaming_service = {
 }
 ###専門サービス
 #委託契約
-pm_outsourcing_contract_media_industry = { 
+pm_outsourcing_contract_media_industry = { 	
+	unlocking_technologies = {
+	}
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -499,7 +547,10 @@ pm_outsourcing_contract_media_industry = {
 	}
 }
 #専属契約
-pm_exclusive_contract = { 
+pm_exclusive_contract_digital_industry = { 
+	unlocking_technologies = {
+		tech_strategist
+	}
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -509,7 +560,10 @@ pm_exclusive_contract = {
 	}
 }
 #コンサルティング
-pm_consulting_media_industry = { 
+pm_consulting_media_industry = { 	
+	unlocking_technologies = {
+		tech_business_process_re-engineering
+	}
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -524,6 +578,8 @@ pm_consulting_media_industry = {
 ###出版事業
 #オフセット印刷
 pm_offset_printing = {
+	unlocking_technologies = {
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -540,6 +596,9 @@ pm_offset_printing = {
 }
 #カラー印刷
 pm_color_printing = {
+	unlocking_technologies = {
+		tech_color_printing
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -556,6 +615,9 @@ pm_color_printing = {
 }
 #デジタル印刷
 pm_digital_printing = {
+	unlocking_technologies = {
+		tech_digital_tech
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -572,6 +634,9 @@ pm_digital_printing = {
 }
 #電子書籍
 pm_ebook = {
+	unlocking_technologies = {
+		tech_internet
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -588,6 +653,9 @@ pm_ebook = {
 }
 #オーディオブック
 pm_audiobook = {
+	unlocking_technologies = {
+		tech_audiobook
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -604,7 +672,9 @@ pm_audiobook = {
 }
 ###専門サービス
 #委託契約
-pm_outsourcing_contract = { 
+pm_outsourcing_contract = { 	
+	unlocking_technologies = {
+	}
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -614,7 +684,10 @@ pm_outsourcing_contract = {
 	}
 }
 #専属契約
-pm_exclusive_contract_publishing_industry = { 
+pm_exclusive_contract_publishing_industry = { 	
+	unlocking_technologies = {
+		tech_strategist
+		}
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -624,7 +697,10 @@ pm_exclusive_contract_publishing_industry = {
 	}
 }
 #コンサルティング
-pm_consulting_publishing_industry = { 
+pm_consulting_publishing_industry = { 	
+	unlocking_technologies = {
+		tech_business_process_re-engineering
+	}
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -639,6 +715,8 @@ pm_consulting_publishing_industry = {
 ###小型車両
 #ガソリントラック
 pm_gasoline_truck = {
+	unlocking_technologies = {
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -657,6 +735,9 @@ pm_gasoline_truck = {
 }
 #小型トラック
 pm_small_truck = {
+	unlocking_technologies = {
+		tech_physical_distribution
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -675,6 +756,9 @@ pm_small_truck = {
 }
 #商用バン
 pm_commercial_van = {
+	unlocking_technologies = {
+		tech_distribution_system
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -693,6 +777,9 @@ pm_commercial_van = {
 }
 #ハイブリッドトラック
 pm_hybrid_truck = {
+	unlocking_technologies = {
+		tech_hybrid_technology
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -712,6 +799,9 @@ pm_hybrid_truck = {
 }
 #EVトラック
 pm_ev_truck = {
+	unlocking_technologies = {
+		tech_electric_vehicle
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -730,6 +820,9 @@ pm_ev_truck = {
 }
 #自動運転小型トラック
 pm_autonomous_small_truck = {
+	unlocking_technologies = {
+		tech_level_5_autonomous_driving
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -750,6 +843,8 @@ pm_autonomous_small_truck = {
 ###大型車両
 #ディーゼルトラック
 pm_diesel_truck = {
+	unlocking_technologies = {
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -768,6 +863,9 @@ pm_diesel_truck = {
 }
 #5tトラック
 pm_5t_truck = {
+	unlocking_technologies = {
+		tech_physical_distribution
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -786,6 +884,9 @@ pm_5t_truck = {
 }
 #大型トラック
 pm_large_truck = {
+	unlocking_technologies = {
+		tech_distribution_system
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -804,6 +905,9 @@ pm_large_truck = {
 }
 #CNGトラック
 pm_cng_truck = {
+	unlocking_technologies = {
+		tech_CNG_truck
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -822,6 +926,9 @@ pm_cng_truck = {
 }
 #ダブル連結トラック
 pm_double_truck = {
+	unlocking_technologies = {
+		tech_double_linked_truck
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -841,6 +948,9 @@ pm_double_truck = {
 }
 #自動運転大型トラック
 pm_autonomous_large_truck = {
+	unlocking_technologies = {
+		tech_level_5_autonomous_driving
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -877,6 +987,9 @@ pm_autonomous_large_truck = {
 ###旅行サービス
 #国内旅行
 pm_domestic_travel = {
+	unlocking_technologies = {
+		tech_domestic_travel
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -894,6 +1007,9 @@ pm_domestic_travel = {
 }
 #パッケージツアー
 pm_package_tour = {
+	unlocking_technologies = {
+		tech_package_tour
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -911,6 +1027,9 @@ pm_package_tour = {
 }
 #コンピュータ予約
 pm_computers_reservation = {
+	unlocking_technologies = {
+		tech_internet
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -928,7 +1047,9 @@ pm_computers_reservation = {
 }
 ###専門サービス
 #委託契約
-pm_outsourcing_contract = { 
+pm_outsourcing_contract = { 	
+	unlocking_technologies = {
+	}
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -938,7 +1059,10 @@ pm_outsourcing_contract = {
 	}
 }
 #専属契約
-pm_exclusive_contract_travel_industry = { 
+pm_exclusive_contract_travel_industry = { 	
+	unlocking_technologies = {
+		tech_strategist
+	}
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -948,7 +1072,10 @@ pm_exclusive_contract_travel_industry = {
 	}
 }
 #コンサルティング
-pm_consulting_travel_industry = { 
+pm_consulting_travel_industry = { 	
+	unlocking_technologies = {
+		tech_business_process_re-engineering
+	}
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -963,6 +1090,8 @@ pm_consulting_travel_industry = {
 ###銀行
 #金融
 pm_finance = {
+	unlocking_technologies = {
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -980,6 +1109,9 @@ pm_finance = {
 }
 #インターネットバンキング
 pm_internet_banking = {
+	unlocking_technologies = {
+		tech_internet
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -998,6 +1130,9 @@ pm_internet_banking = {
 }
 #フィンテック
 pm_fintech = {
+	unlocking_technologies = {
+		tech_secure_internet
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -1016,6 +1151,9 @@ pm_fintech = {
 }
 #ブロックチェーン金融
 pm_blockchain_finance = {
+	unlocking_technologies = {
+		tech_blockchain_financial
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -1034,7 +1172,9 @@ pm_blockchain_finance = {
 }
 ###専門サービス
 #委託契約
-pm_outsourcing_contract = { 
+pm_outsourcing_contract = { 	
+	unlocking_technologies = {
+	}
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -1044,7 +1184,10 @@ pm_outsourcing_contract = {
 	}
 }
 #専属契約
-pm_exclusive_contract_finance_industry = { 
+pm_exclusive_contract_finance_industry = { 	
+	unlocking_technologies = {
+		tech_strategist
+	}
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -1054,7 +1197,10 @@ pm_exclusive_contract_finance_industry = {
 	}
 }
 #コンサルティング
-pm_consulting_finance_industry = { 
+pm_consulting_finance_industry = { 	
+	unlocking_technologies = {
+		tech_business_process_re-engineering
+	}
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -1069,6 +1215,8 @@ pm_consulting_finance_industry = {
 ###医療サービス
 #処方箋
 pm_prescription = {
+	unlocking_technologies = {
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -1085,6 +1233,9 @@ pm_prescription = {
 }
 #専門医療
 pm_specialized_medical = {
+	unlocking_technologies = {
+		tech_specialized_medical_care
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -1101,6 +1252,9 @@ pm_specialized_medical = {
 }
 #総合医療
 pm_general_medical = {
+	unlocking_technologies = {
+		tech_comprehensive_medical_care
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -1118,6 +1272,9 @@ pm_general_medical = {
 }
 #回診
 pm_revisit = {
+	unlocking_technologies = {
+		tech_rounds
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
@@ -1135,6 +1292,9 @@ pm_revisit = {
 }
 #オンライン診療
 pm_online_medical = {
+	unlocking_technologies = {
+		tech_secure_internet
+	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
 	building_modifiers = {
