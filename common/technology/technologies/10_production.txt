@@ -16,7 +16,7 @@
     	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
     	category = production
     }
-	tech_tmp_1 = {
+	tech_priority_production = {
     	era = era_1
     	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
     	category = production
@@ -37,31 +37,6 @@
     	category = production
 		unlocking_technologies = {
 			planting
-		}
-    }
-	tech_chocolate = {
-    	era = era_2
-    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
-    	category = production
-		unlocking_technologies = {
-			planting
-		}
-    }
-	tech_hydrous_distillation = {
-    	era = era_2
-    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
-    	category = production
-		unlocking_technologies = {
-			planting
-		}
-    }
-	tech_canned_drink = {
-    	era = era_2
-    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
-    	category = production
-		unlocking_technologies = {
-			tech_chocolate
-			tech_hydrous_distillation
 		}
     }
 	tech_machine_tool = {
@@ -85,7 +60,8 @@
     	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
     	category = production
 		unlocking_technologies = {
-			tech_machine_tool
+			tech_automatic_thresher
+			tech_glass_wool
 		}
     }
 	tech_semiconductor = {
@@ -101,15 +77,7 @@
     	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
     	category = production
 		unlocking_technologies = {
-			tech_tmp_1
-		}
-    }
-	tech_petrochemistry = {
-    	era = era_2
-    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
-    	category = production
-		unlocking_technologies = {
-			planting
+			tech_priority_production
 		}
     }
 	tech_high_thermal_melting  = {
@@ -117,7 +85,7 @@
     	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
     	category = production
 		unlocking_technologies = {
-			public_phone
+			tech_priority_production
 		}
     }
 	tech_ceramics = {
@@ -133,7 +101,7 @@
     	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
     	category = production
 		unlocking_technologies = {
-			tech_hydroelectric_power
+			tech_high_thermal_melting
 		}
     }
 	tech_automatic_thresher = {
@@ -141,12 +109,77 @@
     	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
     	category = production
 		unlocking_technologies = {
-			tech_hydroelectric_power
+			planting
 		}
     }
 
 
 ### ERA 3 = Tier2
+	tech_early_computer = {
+    	era = era_2
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_semiconductor
+		}
+    }
+	tech_pine_wood = {
+    	era = era_2
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_wood_pulp
+		}
+    }
+
+	tech_large-scale_plant = {
+    	era = era_2
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_petrochemistry
+		}
+    }
+	tech_molecular_science = {
+    	era = era_2
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_petrochemistry
+		}
+    }
+	tech_large_turbine = {
+    	era = era_2
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_high_efficiency_turbine
+		}
+    }
+	tech_small_hydroelectric_power = {
+    	era = era_2
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_large_turbine
+		}
+    }
+	tech_breeder_reactor = {
+    	era = era_2
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_large_turbine
+		}
+    }
+	tech_supercritical_pressure_power_generation = {
+    	era = era_2
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_large_turbine
+		}
+    }
 ### ERA 4 = Tier3
 ### ERA 5 = Tier4
 ### ERA 6 = Tier5
