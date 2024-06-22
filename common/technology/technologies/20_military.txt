@@ -224,7 +224,6 @@
     	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
     	category = military
 		unlocking_technologies = {
-			tech_air_traffic_management_ATM
 			tech_distribution_system
 		}
     }
@@ -317,6 +316,7 @@
     	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
     	category = military
 		unlocking_technologies = {
+			tech_GPS
 			tech_contract_management
 			tech_integrated_logistics
 		}
