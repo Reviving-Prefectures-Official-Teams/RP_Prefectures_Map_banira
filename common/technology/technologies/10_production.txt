@@ -208,7 +208,7 @@
     	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
     	category = production
 		unlocking_technologies = {
-			tech_petrochemistry
+			tech_molecular_science
 		}
     }
 
@@ -299,7 +299,7 @@
     	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
     	category = production
 		unlocking_technologies = {
-			tech_molecular_science
+			tech_advanced_molecular_science
 			}
     }
 
@@ -308,10 +308,19 @@
     	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
     	category = production
 		unlocking_technologies = {
-			tech_centrifugal_separation_method
+			tech_advanced_molecular_science
 		}
     }
 	
+	tech_advanced_molecular_science = {
+    	era = era_4
+    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+    	category = production
+		unlocking_technologies = {
+			tech_agricultural_chemical
+		}
+    }
+
 	tech_inorganic_chemistry = {
     	era = era_4
     	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
@@ -320,15 +329,7 @@
 			tech_gene_science
 		}
     }
-	tech_advanced_molecular_science = {
-    	era = era_4
-    	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
-    	category = production
-		unlocking_technologies = {
-			tech_molecular_science
-		}
-    }
-
+	
 	tech_kebonization = {
     	era = era_4
     	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
@@ -343,7 +344,7 @@
     	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
     	category = production
 		unlocking_technologies = {
-			tech_large-scale_plant
+			tech_oxygen_steelmaking
 		}
     }
 
@@ -362,7 +363,7 @@
     	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
     	category = production
 		unlocking_technologies = {
-			tech_early_computer
+			tech_modern_computer
 		}
     }
 
@@ -371,7 +372,7 @@
     	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
     	category = production
 		unlocking_technologies = {
-			tech_early_computer
+			tech_modern_computer
 		}
     }
 
