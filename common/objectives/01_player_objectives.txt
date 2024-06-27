@@ -1,77 +1,136 @@
-﻿objective_economic_dominance = {
-	background = "gfx/interface/icons/objectives/economic_dominance_illu.dds"
+﻿objective_tutorial = {
+	enabled_background = "gfx/interface/icons/objectives/RP_learning_game.dds"
+	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
+	
+	recommended_tags = { MIE OIT AKT NGN }	
+	#recommended_game_rules = { lenient_ai_behavior low_ai_aggression }
+
+	objective_subgoals = {
+		sg_expand_basic_building
+		sg_fix_budget_deficit
+		sg_establish_trade_route
+		sg_change_production_method
+		sg_expand_productive_building
+		sg_increase_market_access_by_decree
+		sg_improve_market_access_with_railways
+		sg_increase_immigration
+		sg_fix_unproductive_building
+		sg_grow_gdp
+		sg_promote_ig
+		sg_expend_investment_pool
+		sg_improve_supply_network
+		sg_improve_consumer_goods_access
+		sg_make_interest_group_happy
+		sg_enact_institution_law
+		sg_invest_into_an_institution
+		sg_reform_government
+		sg_increase_relations
+		sg_improve_rank
+		sg_prevent_revolution
+		sg_earn_obligation
+		sg_expand_military
+		sg_recruit_promote_commander
+		sg_mobilize_army
+		sg_send_general_to_front
+		sg_convoy_raiding 
+		sg_recover_from_default
+		sg_start_diplomatic_play
+		sg_is_play_target
+		sg_capacity_deficit
+		sg_incorporate_state
+		sg_declare_an_interest
+		sg_make_peace
+		sg_colonize_state
+		sg_research_technology
+		sg_create_formation
+		sg_establish_company
+	}
+	
+	final_subgoal = sg_improve_rank
+	
+	on_start = {
+		start_research_random_technology = yes
+		start_tutorial_lesson = { tutorial_lesson = lesson_basics }
+	}
+}
+
+objective_economic_dominance = {
+	enabled_background = "gfx/interface/icons/objectives/RP_economic_dominance.dds"
 	icon = "gfx/interface/icons/objectives/economic_dominance.dds"
 	
-	recommended_tags = { OSK TKY FKO AIC }
+	recommended_tags = { OSK TKY AIC SHZ }
 	
 	objective_subgoals = {
-		sg_expand_goods_production #rework
-
-		sg_refining_goods #rework, make X number in single, state loc for status
-		sg_specialized_goods #rework, make X number in single state, state loc for status
-		sg_expanding_the_market #rework, add subjects and customs union
-
-		sg_specialized_inputs #missing: LOC
-		sg_exporting_profits #missing: LOC
-		sg_utilizing_our_strength #missing: LOC
-		sg_raise_exports_value #missing: LOC
-		sg_lower_production_costs #missing: LOC
-
-		sg_strong_market #Keep
 	}
 	
-	final_subgoal = sg_strong_market
+	#final_subgoal = sg_strong_market
 	
-	on_start = {
-		start_tutorial_lesson = { tutorial_lesson = economic_dominance }
-	}
+	#on_start = {
+	#	start_tutorial_lesson = { tutorial_lesson = economic_dominance }
+	#}
 }
 
-objective_hegemon = {
-	background = "gfx/interface/icons/objectives/hegemon_illu.dds"
+objective_military_hegemony = {
+	enabled_background = "gfx/interface/icons/objectives/RP_military_hegemony.dds"
 	icon = "gfx/interface/icons/objectives/hegemon.dds"
 	
-	recommended_tags = { KGS AOM GNM HRS }	
-	
+	recommended_tags = { AOM GNM CHB ISK }	
+
 	objective_subgoals = {
-		sg_colonization_laws
-		sg_african_colonies
-		sg_expand_navy_and_army
-		sg_form_alliance
-		sg_take_subject
-		sg_increase_technology
-		sg_greatest_power
-		sg_greater_power
-		sg_great_power
-		sg_unrecognized_power
-		sg_the_hegemon
 	}
-	
-	final_subgoal = sg_the_hegemon
-	
-	on_start = {
-		start_tutorial_lesson = { tutorial_lesson = hegemon }
-	}
+
+	#final_subgoal = sg_strong_army
+
+	#on_start = {
+	#	start_tutorial_lesson = { tutorial_lesson = military_hegemony }
+	#}
 }
+
+objective_technological_advancement = {
+	enabled_background = "gfx/interface/icons/objectives/RP_technological_advancement.dds"
+	icon = "gfx/interface/icons/objectives/technology.dds"
 	
+	recommended_tags = { KGS IBR SIT FKS }
+
+	objective_tags = { }
+}
+
 objective_egalitarian_society = {
-	background = "gfx/interface/icons/objectives/egalitarian_society_illu.dds"
+	enabled_background = "gfx/interface/icons/objectives/RP_egalitarian_society.dds"
 	icon = "gfx/interface/icons/objectives/egalitarian_society.dds"
 	
-	recommended_tags = { USR NGS HOK HYG }	
+	recommended_tags = { USR NGS HOK TKS }	
 	
 	objective_subgoals = {
-		sg_encourage_liberal_ideas
-		sg_pass_laws
-		sg_public_services
-		sg_liberate_the_slaves
-		sg_women_and_children
-		sg_egalitarian_society
+		#sg_encourage_liberal_ideas
+		#sg_pass_laws
+		#sg_public_services
+		#sg_liberate_the_slaves
+		#sg_women_and_children
+		#sg_egalitarian_society
 	}
 	
-	final_subgoal = sg_egalitarian_society
+	#final_subgoal = sg_egalitarian_society
 	
-	on_start = {
-		start_tutorial_lesson = { tutorial_lesson = egalitarian_society }
-	}
+	#on_start = {
+	#	start_tutorial_lesson = { tutorial_lesson = egalitarian_society }
+	#}
+}
+
+objective_criminal_state = {
+	enabled_background = "gfx/interface/icons/objectives/RP_criminal_state.dds"
+	icon = "gfx/interface/icons/objectives/criminal.dds"
+	
+	recommended_tags = { HRS FKO YMG HYG }
+
+	objective_tags = { }
+}
+
+objective_cultural_influence = {
+	enabled_background = "gfx/interface/icons/objectives/RP_cultural_influence.dds"
+	icon = "gfx/interface/icons/objectives/culture.dds"
+	
+	recommended_tags = { KCH KYT YMG NIG }
+
+	objective_tags = { }
 }
