@@ -121,7 +121,7 @@ objective_criminal_state = {
 	enabled_background = "gfx/interface/icons/objectives/RP_criminal_state.dds"
 	icon = "gfx/interface/icons/objectives/criminal.dds"
 	
-	recommended_tags = { HRS FKO YMG HYG }
+	recommended_tags = { HRS FKO YMC HYG }
 
 	objective_tags = { }
 }

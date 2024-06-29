@@ -1,0 +1,4 @@
+﻿add_construction_modifier = {
+	#icon = ""
+	building_throughput_add = 1
+}
