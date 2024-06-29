@@ -16,9 +16,17 @@ bg_government = {
 	economy_of_scale_ai_factor = 2.0
 }
 
+bg_public_infrastructure = {
+	parent_group = bg_infrastructure
+	
+	is_government_funded = yes
+	
+	urbanization = 5
+}
+
 #建設セクター
 bg_construction = {
-	parent_group = bg_government
+	parent_group = bg_public_infrastructure
 
 	infrastructure_usage_per_level = 2
 
@@ -36,26 +44,4 @@ bg_construction = {
 #行政局
 bg_bureaucracy = {
 	parent_group = bg_government
-}
-
-bg_construction_dummy = {
-	#category = development
-    is_shown_in_outliner = no
-	always_possible = yes
-	#stateregion_max_level = yes
-    min_hiring_rate = 1.0
-    max_hiring_rate = 1.0
-	#lens = government
-	is_government_funded = yes
-	economy_of_scale = no
-	can_use_slaves = yes
-	urbanization = 0
-	infrastructure_usage_per_level = 0
-	fired_pops_become_radical = no
-	should_auto_expand = {
-        always = no
-    }
-	#urbanization = 5
-	
-	#economy_of_scale_ai_factor = 5.0
 }

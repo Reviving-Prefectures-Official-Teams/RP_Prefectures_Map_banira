@@ -1,12 +1,47 @@
 ﻿BUILDINGS={
-    s:STATE_KAWASAKI = {
+    s:STATE_KAWASAKI={
         region_state:KNG={
             create_building={
 				building="building_government_administration"
-				level=4
+                add_ownership={
+				    country={
+                        country="c:KNG"
+                        levels=4
+                    }
+                }
 				reserves=1
 				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
             }
+            create_building={
+                building="building_furniture_manufacturies"
+                add_ownership={
+			        building={
+                        type="building_financial_district"
+                        country="c:KNG"
+                        levels=2
+                        region="STATE_KAWASAKI"
+                    }
+                    country={
+                        country="c:KNG"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_wooden_furniture" "pm_manual_assembly" "pm_transportation_department" }
+            }
+            create_building={
+				building="building_rice_farm"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:KNG"
+						levels=2
+						region="STATE_KAWASAKI"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_organic_farming_rice" }
+			}
         }
     }
 }
