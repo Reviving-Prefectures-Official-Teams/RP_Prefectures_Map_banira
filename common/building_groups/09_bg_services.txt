@@ -12,18 +12,6 @@ bg_services = {
 	economy_of_scale_ai_factor = 1.5
 }
 
-
-#オフィスビル
-bg_office_building = {
-	category = urban
-	land_usage = urban
-	always_possible = yes	
-	auto_place_buildings = yes	
-	economy_of_scale = yes
-	default_building = bg_office_building
-	cash_reserves_max = 25000
-}
-
 ######都市産業
 bg_urban_industry = {
 	category = development
@@ -61,11 +49,12 @@ bg_arts = {
 	parent_group = bg_urban_industry
 }
 
-#芸術院
+#病院
 bg_hospital = {
 	parent_group = bg_urban_industry
 }
 
+#サービス業界
 bg_urban_services = {
 	category = urban
 
@@ -75,9 +64,23 @@ bg_urban_services = {
 	
 	cash_reserves_max = 25000
 	
-	should_auto_expand = { 
-		default_auto_expand_rule = yes
-	}
+	economy_of_scale_ai_factor = 2.0
+}
+
+#闇ビジネス
+bg_criminal_syndicate = {
+	category = urban
+
+	always_possible = yes
+	
+	economy_of_scale = yes
+	
+	cash_reserves_max = 25000
 	
 	economy_of_scale_ai_factor = 2.0
+	
+	lens = government
+	
+	urbanization = 10
+	infrastructure_usage_per_level = 5
 }

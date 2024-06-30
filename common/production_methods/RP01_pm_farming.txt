@@ -96,7 +96,7 @@ pm_organic_farming_rice = {
 		level_scaled = {
 			building_employment_laborers_add = 600
 			building_employment_farmers_add = 100
-			building_employment_clergymen_add = 300
+			building_employment_farmers_add = 300
 		}
 	}
 }
@@ -116,7 +116,7 @@ pm_chemical_fertilizer_rice = {
 		level_scaled = {
 			building_employment_laborers_add = 600
 			building_employment_farmers_add = 100
-			building_employment_clergymen_add = 300
+			building_employment_farmers_add = 300
 		}
 	}
 }
@@ -141,7 +141,7 @@ pm_pesticide_rice = {
         level_scaled = {
             building_employment_laborers_add = 500
             building_employment_farmers_add = 100
-            building_employment_clergymen_add = 250
+            building_employment_farmers_add = 250
         }
     }
 }
@@ -166,7 +166,7 @@ pm_herbicide_rice = {
         level_scaled = {
             building_employment_laborers_add = 400
             building_employment_farmers_add = 100
-            building_employment_clergymen_add = 200
+            building_employment_farmers_add = 200
         }
     }
 }
@@ -191,7 +191,7 @@ pm_high_performance_pesticide_rice = {
         level_scaled = {
             building_employment_laborers_add = 300
             building_employment_farmers_add = 100
-            building_employment_clergymen_add = 150
+            building_employment_farmers_add = 150
         }
     }
 }
@@ -217,7 +217,7 @@ pm_drone_spraying_rice = {
         level_scaled = {
             building_employment_laborers_add = 200
             building_employment_farmers_add = 100
-            building_employment_clergymen_add = 100
+            building_employment_farmers_add = 100
         }
     }
 }
@@ -243,7 +243,7 @@ pm_aggregated_smart_farm_rice = {
         level_scaled = {
             building_employment_laborers_add = 100
             building_employment_farmers_add = 300
-            building_employment_clergymen_add = 50
+            building_employment_farmers_add = 50
         }
     }
 }
@@ -261,7 +261,7 @@ pm_no_secondary = {
         level_scaled = {
             building_employment_laborers_add = 0
             building_employment_farmers_add = 0
-            building_employment_clergymen_add = 0
+            building_employment_farmers_add = 0
         }
     }
 }
@@ -323,7 +323,7 @@ pm_organic_farming = {
 		level_scaled = {
 			building_employment_laborers_add = 600
 			building_employment_farmers_add = 100
-			building_employment_clergymen_add = 300
+			building_employment_farmers_add = 300
 		}
 	}
 }
@@ -343,7 +343,7 @@ pm_chemical_fertilizer = {
 		level_scaled = {
 			building_employment_laborers_add = 600
 			building_employment_farmers_add = 100
-			building_employment_clergymen_add = 300
+			building_employment_farmers_add = 300
 		}
 	}
 }
@@ -368,7 +368,7 @@ pm_pesticide = {
         level_scaled = {
             building_employment_laborers_add = 500
             building_employment_farmers_add = 100
-            building_employment_clergymen_add = 250
+            building_employment_farmers_add = 250
         }
     }
 }
@@ -393,7 +393,7 @@ pm_herbicide = {
         level_scaled = {
             building_employment_laborers_add = 400
             building_employment_farmers_add = 100
-            building_employment_clergymen_add = 200
+            building_employment_farmers_add = 200
         }
     }
 }
@@ -418,7 +418,7 @@ pm_high_performance_pesticide = {
         level_scaled = {
             building_employment_laborers_add = 300
             building_employment_farmers_add = 100
-            building_employment_clergymen_add = 150
+            building_employment_farmers_add = 150
         }
     }
 }
@@ -444,7 +444,7 @@ pm_drone_spraying = {
         level_scaled = {
             building_employment_laborers_add = 200
             building_employment_farmers_add = 100
-            building_employment_clergymen_add = 100
+            building_employment_farmers_add = 100
         }
     }
 }
@@ -470,7 +470,7 @@ pm_aggregated_smart_farm = {
         level_scaled = {
             building_employment_laborers_add = 100
             building_employment_farmers_add = 300
-            building_employment_clergymen_add = 50
+            building_employment_farmers_add = 50
         }
     }
 }

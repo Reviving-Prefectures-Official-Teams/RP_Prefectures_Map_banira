@@ -28,6 +28,8 @@ bg_logging = {
 bg_castanopsis_forest = { #樫の木
 	category = rural
 
+	parent_group = bg_logging
+
 	capped_by_resources = yes
 	
 	economy_of_scale = yes
@@ -52,6 +54,8 @@ bg_castanopsis_forest = { #樫の木
 
 bg_betulaceae_forest = { #樺の木
 	category = rural
+
+	parent_group = bg_logging
 
 	capped_by_resources = yes
 	
@@ -78,6 +82,8 @@ bg_betulaceae_forest = { #樺の木
 bg_chamaecyparis_obtusa_forest = { #ヒノキ林
 	category = rural
 
+	parent_group = bg_logging
+
 	capped_by_resources = yes
 	
 	economy_of_scale = yes
@@ -102,6 +108,8 @@ bg_chamaecyparis_obtusa_forest = { #ヒノキ林
 
 bg_cryptomeria_forest = { #杉の木
 	category = rural
+
+	parent_group = bg_logging
 
 	capped_by_resources = yes
 	

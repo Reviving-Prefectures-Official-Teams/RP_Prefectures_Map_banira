@@ -21,7 +21,6 @@ bg_agriculture = {
 	
 	economy_of_scale_ai_factor = 1.5
 }
-
 #小麦
 bg_wheat_farms = {
 	parent_group = bg_agriculture
@@ -30,7 +29,6 @@ bg_wheat_farms = {
 	
 	cash_reserves_max = 25000
 }
-
 #水田
 bg_rice_farms = {
 	parent_group = bg_agriculture
@@ -39,7 +37,6 @@ bg_rice_farms = {
 	
 	cash_reserves_max = 25000
 }
-
 #トウモロコシ畑
 bg_maize_farms = {
 	parent_group = bg_agriculture
@@ -48,7 +45,6 @@ bg_maize_farms = {
 	
 	cash_reserves_max = 25000
 }
-
 #自給農家
 bg_subsistence_agriculture = {
 	parent_group = bg_agriculture
@@ -67,6 +63,7 @@ bg_subsistence_agriculture = {
 	
 	ignores_productivity_when_hiring = yes
 }
+
 
 ######牧場グループ
 bg_ranching = {
@@ -179,27 +176,6 @@ bg_cotton_plantations = {
 	
 	default_building = building_cotton_plantation
 }
-
-#養蚕場（削除）
-#bg_silk_plantations = {
-#	parent_group = bg_plantations
-#	
-#	default_building = building_silk_plantation
-#}
-
-#染料農園（削除）
-#bg_dye_plantations = {
-#	parent_group = bg_plantations
-#	
-#	default_building = building_dye_plantation
-#}
-
-#アヘン農園（削除）
-#bg_opium_plantations = {
-#	parent_group = bg_plantations
-#	
-#	default_building = building_opium_plantation
-#}
 
 #茶畑
 bg_tea_plantations = {

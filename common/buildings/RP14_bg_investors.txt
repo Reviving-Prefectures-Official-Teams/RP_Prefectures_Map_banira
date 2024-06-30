@@ -1,0 +1,830 @@
+﻿#####投資施設#####
+#金融街(民間投資家): 店頭販売・投資信託・ネット証券・NISA building_financial_district
+#邸宅(大地主): 資産管理・不動産投資・ホテル経営 building_manor_house
+#投資ファンド(機関投資家): 資産管理・ベンチャー投資 building_investors_fund
+#宗教施設(伝統宗教): 閉鎖的経営・寄付金集め・観光型運営 bg_religious_sites
+#新興宗教法人(新興宗教): コミューン運営・カルト施設 bg_cults_corporation
+#暴力団事務所(ヤクザ): 土地転がし・闇ビジネス bg_yakuza_offices
+
+#####投資先候補#####
+#農業 bg_agriculture
+#牧場 bg_ranching
+#農場 bg_plantations
+#漁港 bg_fishing
+#林業 bg_logging
+#鉱業(鉱山) bg_mining
+#鉱業(燃料原) bg_extractions
+#軽工業 bg_light_industry
+#食品鉱業 bg_food_processing
+#重工業 bg_heavy_industry
+#私有インフラ bg_private_infrastructure
+#発電所 bg_power
+#文化施設 bg_culture
+#芸術施設 bg_arts
+#病院 bg_hospital
+#サービス業(オフィスビル) bg_urban_services	
+#闇ビジネス bg_criminal_syndicate
+
+#金融街
+##金融街は、民間投資家が自らの資金で投資をする場所です。投資先は工業を中心とした産業全般ですが、発展の余地ある一次産業にも投資を行います。ただし法律によって態度が左右されやすくもあります。
+##投資先（リストから選択）
+###優先度高(1.0): 鉱業(鉱山)、鉱業(燃料原)、重工業、私有インフラ、発電所
+###優先度中(0.5): 農業、牧場、農場、漁港、林業、軽工業、食品鉱業
+###優先度低(0.2): 文化施設、芸術施設、病院、サービス業
+###投資なし: なし
+
+building_financial_district = {
+	building_group = bg_financial_districts
+	city_type = city
+	levels_per_mesh = 10
+
+	lens = infrastructure
+
+	texture = "gfx/interface/icons/building_icons/building_financial_district.dds"
+
+	production_method_groups = {
+		pmg_financial_district
+	}
+	
+	investment_scores = {
+		bg_agriculture_score = {
+			group = "bg_agriculture"
+			score = {
+				value = 0.5									
+			}
+		}
+		bg_ranching_score = {
+			group = "bg_ranching"
+			score = {
+				value = 0.5			
+			}
+		}
+		bg_plantations_score = {
+			group = "bg_plantations"
+			score = {
+				value = 0.5			
+			}
+		}	
+		bg_fishing_score = {
+			group = "bg_fishing"
+			score = {
+				value = 0.5			
+			}
+		}
+		bg_logging_score = {
+			group = "bg_logging"
+			score = {
+				value = 0.5			
+			}
+		}
+		bg_mining_score = {
+			group = "bg_mining"
+			score = {
+				value = 1			
+			}
+		}
+		bg_extractions_score = {
+			group = "bg_extractions"
+			score = {
+				value = 1	
+			}
+		}
+		bg_light_industry_score = {
+			group = "bg_light_industry"
+			score = {
+				value = 0.5
+			}
+		}
+		bg_food_processing_score = {
+			group = "bg_food_processing"
+			score = {
+				value = 0.5
+			}
+		}
+		bg_heavy_industry_score = {
+			group = "bg_heavy_industry"
+			score = {
+				value = 1
+			}
+		}
+		bg_private_infrastructure_score = {
+			group = "bg_private_infrastructure"
+			score = {
+				value = 1
+			}
+		}
+		bg_power_score = {
+			group = "bg_power"
+			score = {
+				value = 1
+			}
+		}
+		bg_culture_score = {
+			group = "bg_culture"
+			score = {
+				value = 0.2
+			}
+		}
+		bg_arts_score = {
+			group = "bg_arts"
+			score = {
+				value = 0.2
+			}
+		}
+		bg_hospital_score = {
+			group = "bg_hospital"
+			score = {
+				value = 0.2
+			}
+		}
+		bg_urban_services_score = {
+			group = "bg_urban_services"
+			score = {
+				value = 0.2
+			}
+		}
+		bg_criminal_syndicate_score = {
+			group = "bg_criminal_syndicate"
+			score = {
+				value = 0
+			}
+		}
+	}
+
+	buildable = no
+	expandable = no
+	downsizeable = no
+	ownership_type = other
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+#邸宅
+##邸宅は、大地主が主に暮らし、投資を行う施設です。まれに芸術や鉱業、伐採などの産業にも投資を行いますが、投資先は農業が中心で、工業には投資を行いません。
+##投資先（リストから選択）
+###優先度高(1.0): 農業、牧場、農場、漁港、林業
+###優先度中(0.5): 文化施設、芸術施設、病院、サービス業
+###優先度低(0.2): なし
+###投資なし(0.0): 軽工業、食品鉱業、重工業、私有インフラ、発電所
+
+building_manor_house = {
+	building_group = bg_manor_houses
+	city_type = farm
+	levels_per_mesh = 10
+
+	lens = infrastructure
+
+	texture = "gfx/interface/icons/building_icons/building_manor_houses.dds"
+
+	production_method_groups = {
+		pmg_manor_house
+	}
+
+	investment_scores = {
+		bg_agriculture_score = {
+			group = "bg_agriculture"
+			score = {
+				value = 1									
+			}
+		}
+		bg_ranching_score = {
+			group = "bg_ranching"
+			score = {
+				value = 1			
+			}
+		}
+		bg_plantations_score = {
+			group = "bg_plantations"
+			score = {
+				value = 1			
+			}
+		}	
+		bg_fishing_score = {
+			group = "bg_fishing"
+			score = {
+				value = 1			
+			}
+		}
+		bg_logging_score = {
+			group = "bg_logging"
+			score = {
+				value = 1			
+			}
+		}
+		bg_mining_score = {
+			group = "bg_mining"
+			score = {
+				value = 0			
+			}
+		}
+		bg_extractions_score = {
+			group = "bg_extractions"
+			score = {
+				value = 0	
+			}
+		}
+		bg_light_industry_score = {
+			group = "bg_light_industry"
+			score = {
+				value = 0
+			}
+		}
+		bg_food_processing_score = {
+			group = "bg_food_processing"
+			score = {
+				value = 0
+			}
+		}
+		bg_heavy_industry_score = {
+			group = "bg_heavy_industry"
+			score = {
+				value = 0
+			}
+		}
+		bg_private_infrastructure_score = {
+			group = "bg_private_infrastructure"
+			score = {
+				value = 0
+			}
+		}
+		bg_power_score = {
+			group = "bg_power"
+			score = {
+				value = 0
+			}
+		}
+		bg_culture_score = {
+			group = "bg_culture"
+			score = {
+				value = 0.5
+			}
+		}
+		bg_arts_score = {
+			group = "bg_arts"
+			score = {
+				value = 0.5
+			}
+		}
+		bg_hospital_score = {
+			group = "bg_hospital"
+			score = {
+				value = 0.5
+			}
+		}
+		bg_urban_services_score = {
+			group = "bg_urban"
+			score = {
+				value = 0.5
+			}
+		}
+		bg_criminal_syndicate_score = {
+			group = "bg_criminal_syndicate"
+			score = {
+				value = 0
+			}
+		}
+	}
+
+	buildable = no
+	expandable = no
+	downsizeable = no
+	ownership_type = other
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+#投資ファンド
+##投資ファンドは、機関投資家が運営する施設です。ベンチャー投資と不動産投資が中心ですが、工業にも投資を行います。ただし一次産業には投資を行いません。
+##投資先（リストから選択）
+###優先度高(1.0): 軽工業、食品鉱業、重工業、私有インフラ、発電所、サービス業
+###優先度中(0.5): 文化施設、芸術施設、病院
+###優先度低(0.2): なし
+###投資なし(0.0): 農業、牧場、農場、漁港、林業、鉱業(鉱山)、鉱業(燃料原)
+
+building_investors_fund = {
+	building_group = bg_investors_fund
+	city_type = city
+	levels_per_mesh = 10
+
+	lens = infrastructure
+
+	texture = "gfx/interface/icons/building_icons/building_investors_fund.dds"
+
+	production_method_groups = {
+		pmg_investors_fund
+	}
+
+	investment_scores = {
+		bg_agriculture_score = {
+			group = "bg_agriculture"
+			score = {
+				value = 0									
+			}
+		}
+		bg_ranching_score = {
+			group = "bg_ranching"
+			score = {
+				value = 0			
+			}
+		}
+		bg_plantations_score = {
+			group = "bg_plantations"
+			score = {
+				value = 0			
+			}
+		}	
+		bg_fishing_score = {
+			group = "bg_fishing"
+			score = {
+				value = 0			
+			}
+		}
+		bg_logging_score = {
+			group = "bg_logging"
+			score = {
+				value = 0			
+			}
+		}
+		bg_mining_score = {
+			group = "bg_mining"
+			score = {
+				value = 0			
+			}
+		}
+		bg_extractions_score = {
+			group = "bg_extractions"
+			score = {
+				value = 0	
+			}
+		}
+		bg_light_industry_score = {
+			group = "bg_light_industry"
+			score = {
+				value = 1
+			}
+		}
+		bg_food_processing_score = {
+			group = "bg_food_processing"
+			score = {
+				value = 1
+			}
+		}
+		bg_heavy_industry_score = {
+			group = "bg_heavy_industry"
+			score = {
+				value = 1
+			}
+		}
+		bg_private_infrastructure_score = {
+			group = "bg_private_infrastructure"
+			score = {
+				value = 1
+			}
+		}
+		bg_power_score = {
+			group = "bg_power"
+			score = {
+				value = 1
+			}
+		}
+		bg_culture_score = {
+			group = "bg_culture"
+			score = {
+				value = 0.5
+			}
+		}
+		bg_arts_score = {
+			group = "bg_arts"
+			score = {
+				value = 0.5
+			}
+		}
+		bg_hospital_score = {
+			group = "bg_hospital"
+			score = {
+				value = 0.5
+			}
+		}
+		bg_urban_services_score = {
+			group = "bg_urban_services"
+			score = {
+				value = 1
+			}
+		}
+		bg_criminal_syndicate_score = {
+			group = "bg_criminal_syndicate"
+			score = {
+				value = 0
+			}
+		}
+	}
+
+	buildable = no
+	expandable = no
+	downsizeable = no
+	ownership_type = other
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+#宗教施設
+##宗教施設は、伝統宗教が運営する施設です。広大な土地と権利を持ち、農業や林業に投資するものの、工業には投資を行いません。ごくまれに文化施設及びサービス業に投資を行います。
+##投資先（リストから選択）
+###優先度高(1.0): 農業、牧場、農場、漁港、林業
+###優先度中(0.5): 文化施設、サービス業
+###優先度低(0.2): なし
+###投資なし(0.0): 軽工業、食品鉱業、重工業、私有インフラ、発電所
+
+building_religious_sites = {
+	building_group = bg_religious_sites
+	city_type = city
+	levels_per_mesh = 10
+
+	lens = infrastructure
+
+	texture = "gfx/interface/icons/building_icons/building_religious_sites.dds"
+
+	production_method_groups = {
+		pmg_religious_sites
+	}
+
+	investment_scores = {
+		bg_agriculture_score = {
+			group = "bg_agriculture"
+			score = {
+				value = 1									
+			}
+		}
+		bg_ranching_score = {
+			group = "bg_ranching"
+			score = {
+				value = 1			
+			}
+		}
+		bg_plantations_score = {
+			group = "bg_plantations"
+			score = {
+				value = 1			
+			}
+		}	
+		bg_fishing_score = {
+			group = "bg_fishing"
+			score = {
+				value = 1			
+			}
+		}
+		bg_logging_score = {
+			group = "bg_logging"
+			score = {
+				value = 1			
+			}
+		}
+		bg_mining_score = {
+			group = "bg_mining"
+			score = {
+				value = 0			
+			}
+		}
+		bg_extractions_score = {
+			group = "bg_extractions"
+			score = {
+				value = 0	
+			}
+		}
+		bg_light_industry_score = {
+			group = "bg_light_industry"
+			score = {
+				value = 0
+			}
+		}
+		bg_food_processing_score = {
+			group = "bg_food_processing"
+			score = {
+				value = 0
+			}
+		}
+		bg_heavy_industry_score = {
+			group = "bg_heavy_industry"
+			score = {
+				value = 0
+			}
+		}
+		bg_private_infrastructure_score = {
+			group = "bg_private_infrastructure"
+			score = {
+				value = 0
+			}
+		}
+		bg_power_score = {
+			group = "bg_power"
+			score = {
+				value = 0
+			}
+		}
+		bg_culture_score = {
+			group = "bg_culture"
+			score = {
+				value = 0.5
+			}
+		}
+		bg_arts = {
+			group = "bg_arts"
+			score = {
+				value = 0.5
+			}
+		}
+		bg_hospital_score = {
+			group = "bg_hospital"
+			score = {
+				value = 0.5
+			}
+		}
+		bg_urban_services_score = {
+			group = "bg_urban_services"
+			score = {
+				value = 0.5
+			}
+		}
+		bg_criminal_syndicate_score = {
+			group = "bg_criminal_syndicate"
+			score = {
+				value = 0
+			}
+		}
+	}
+
+	buildable = no
+	expandable = no
+	downsizeable = no
+	ownership_type = other
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+#新興宗教法人
+##新興宗教法人は、新興宗教が運営する施設です。収益を目的に、どのような産業にも投資を行います。ただし鉱業などの法的な問題がある産業には投資を行いません。
+##投資先（リストから選択）
+###優先度高(1.0): すべての産業
+###優先度中(0.5): なし
+###優先度低(0.2): なし
+###投資なし(0.0): 鉱業(鉱山)、鉱業(燃料原)、私有インフラ、発電所
+
+building_cults_corporation = {
+	building_group = bg_cults_corporation
+	city_type = city
+	levels_per_mesh = 10
+
+	lens = infrastructure
+
+	texture = "gfx/interface/icons/building_icons/building_cults_corporation.dds"
+
+	production_method_groups = {
+		pmg_cults_corporation
+	}
+
+	investment_scores = {
+		bg_agriculture_score = {
+			group = "bg_agriculture"
+			score = {
+				value = 1									
+			}
+		}
+		bg_ranching_score = {
+			group = "bg_ranching"
+			score = {
+				value = 1			
+			}
+		}
+		bg_plantations_score = {
+			group = "bg_plantations"
+			score = {
+				value = 1			
+			}
+		}	
+		bg_fishing_score = {
+			group = "bg_fishing"
+			score = {
+				value = 1			
+			}
+		}
+		bg_logging_score = {
+			group = "bg_logging"
+			score = {
+				value = 1			
+			}
+		}
+		bg_mining_score = {
+			group = "bg_mining"
+			score = {
+				value = 0			
+			}
+		}
+		bg_extractions_score = {
+			group = "bg_extractions"
+			score = {
+				value = 0	
+			}
+		}
+		bg_light_industry_score = {
+			group = "bg_light_industry"
+			score = {
+				value = 1
+			}
+		}
+		bg_food_processing_score = {
+			group = "bg_food_processing"
+			score = {
+				value = 1
+			}
+		}
+		bg_heavy_industry_score = {
+			group = "bg_heavy_industry"
+			score = {
+				value = 1
+			}
+		}
+		bg_private_infrastructure_score = {
+			group = "bg_private_infrastructure"
+			score = {
+				value = 0
+			}
+		}
+		bg_power_score = {
+			group = "bg_power"
+			score = {
+				value = 0
+			}
+		}
+		bg_culture_score = {
+			group = "bg_culture"
+			score = {
+				value = 1
+			}
+		}
+		bg_arts_score = {
+			group = "bg_arts"
+			score = {
+				value = 1
+			}
+		}
+		bg_hospital_score = {
+			group = "bg_hospital"
+			score = {
+				value = 1
+			}
+		}
+		bg_urban_services_score = {
+			group = "bg_urban_services"
+			score = {
+				value = 1
+			}
+		}
+		bg_criminal_syndicate_score = {
+			group = "bg_criminal_syndicate"
+			score = {
+				value = 0
+			}
+		}
+	}
+
+	buildable = no
+	expandable = no
+	downsizeable = no
+	ownership_type = other
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+#暴力団事務所
+##暴力団事務所は、ヤクザが運営する施設です。サービス業を中心に、消費されやすい産業に投資を行います。ただし法律によって態度が左右されやすくもあります。また、唯一闇ビジネスにも投資を行います。
+##投資先（リストから選択）
+###優先度高(1.0): サービス業
+###優先度中(0.5): 軽工業、食品鉱業、私有インフラ
+###優先度低(0.2): 林業、鉱業(鉱山)、鉱業(燃料原)、農業、牧場、農場、漁港、病院
+###投資なし(0.0): 重工業、発電所、文化施設、芸術施設
+
+building_yakuza_office = {
+	building_group = bg_yakuza_office
+	city_type = city
+	levels_per_mesh = 10
+
+	lens = infrastructure
+
+	texture = "gfx/interface/icons/building_icons/building_yakuza_office.dds"
+
+	production_method_groups = {
+		pmg_yakuza_office
+	}
+
+	investment_scores = {
+		bg_agriculture_score = {
+			group = "bg_agriculture"
+			score = {
+				value = 0									
+			}
+		}
+		bg_ranching_score = {
+			group = "bg_ranching"
+			score = {
+				value = 0			
+			}
+		}
+		bg_plantations_score = {
+			group = "bg_plantations"
+			score = {
+				value = 0			
+			}
+		}	
+		bg_fishing_score = {
+			group = "bg_fishing"
+			score = {
+				value = 0			
+			}
+		}
+		bg_logging_score = {
+			group = "bg_logging"
+			score = {
+				value = 0			
+			}
+		}
+		bg_mining_score = {
+			group = "bg_mining"
+			score = {
+				value = 0			
+			}
+		}
+		bg_extractions_score = {
+			group = "bg_extractions"
+			score = {
+				value = 0	
+			}
+		}
+		bg_light_industry_score = {
+			group = "bg_light_industry"
+			score = {
+				value = 0.5
+			}
+		}
+		bg_food_processing_score = {
+			group = "bg_food_processing"
+			score = {
+				value = 0.5
+			}
+		}
+		bg_heavy_industry_score = {
+			group = "bg_heavy_industry"
+			score = {
+				value = 0
+			}
+		}
+		bg_private_infrastructure_score = {
+			group = "bg_private_infrastructure"
+			score = {
+				value = 0.5
+			}
+		}
+		bg_power_score = {
+			group = "bg_power"
+			score = {
+				value = 0
+			}
+		}
+		bg_culture_score = {
+			group = "bg_culture"
+			score = {
+				value = 0
+			}
+		}
+		bg_arts_score = {
+			group = "bg_arts"
+			score = {
+				value = 0
+			}
+		}
+		bg_hospital_score = {
+			group = "bg_hospital"
+			score = {
+				value = 0.2
+			}
+		}
+		bg_urban_services_score = {
+			group = "bg_urban_services"
+			score = {
+				value = 1
+			}
+		}
+		bg_criminal_syndicate_score = {
+			group = "bg_criminal_syndicate"
+			score = {
+				value = 1
+			}
+		}
+	}
+
+	buildable = no
+	expandable = no
+	downsizeable = no
+	ownership_type = other
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}

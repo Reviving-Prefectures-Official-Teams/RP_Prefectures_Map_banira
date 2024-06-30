@@ -1,0 +1,56 @@
+﻿#####投資施設#####
+pmg_financial_district = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_sales_trade
+		pm_net_securities
+	}
+}
+
+pmg_manor_house = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_asset_management
+	}
+}
+
+pmg_investors_fund = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_venture_investment
+	}
+}
+
+pmg_religious_sites = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_closed_management
+		pm_tourism_management
+	}
+}
+
+pmg_cults_corporation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_cults_corporation
+	}
+}
+
+pmg_yakuza_offices = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_yakuza_offices
+	}
+}

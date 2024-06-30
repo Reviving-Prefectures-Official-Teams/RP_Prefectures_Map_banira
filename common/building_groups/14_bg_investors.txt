@@ -1,0 +1,73 @@
+﻿#####投資用建物#####
+
+bg_owner_buildings = {
+	parent_group = bg_urban_facilities
+	
+	min_productivity_to_hire = 10.0
+
+	category = urban
+
+	lens = trade
+
+	always_possible = yes
+	
+	can_use_slaves = yes
+
+	auto_place_buildings = yes
+
+	owns_other_buildings = yes
+
+	min_hiring_rate = 1.0
+	max_hiring_rate = 1.0
+
+	ignores_productivity_when_hiring = yes
+
+	proportionality_limit = 1.0
+
+	economy_of_scale = no
+
+	default_building = building_financial_district
+
+	cash_reserves_max = 10000
+
+	urbanization = 0
+
+	infrastructure_usage_per_level = 0.1
+
+	fired_pops_become_radical = no
+
+	should_auto_expand = {
+		always = no
+	}
+}
+
+#自律投資のために、投資を他の所有建物とは別に追跡する必要がある
+#金融街: 民間投資家
+bg_financial_districts = {
+	parent_group = bg_owner_buildings
+}
+
+#邸宅: 大地主
+bg_manor_houses = {
+	parent_group = bg_owner_buildings
+}
+
+#投資ファンド: 機関投資家
+bg_investors_fund = {
+	parent_group = bg_owner_buildings
+}
+
+#寺社仏閣: 伝統宗教
+bg_religious_sites = {
+	parent_group = bg_owner_buildings
+}
+
+#カルト集団: 新興宗教
+bg_cults_corporation = {
+	parent_group = bg_owner_buildings
+}
+
+#暴力団事務所
+bg_yakuza_office = {
+	parent_group = bg_owner_buildings
+}

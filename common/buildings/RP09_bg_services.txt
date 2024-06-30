@@ -115,3 +115,19 @@ building_hospital = {
 	
 	terrain_manipulator = urban_city
 }
+
+#歓楽街
+building_nightlife_district = {
+	building_group = bg_criminal_syndicate
+	texture = "gfx/interface/icons/building_icons/nightlife_district.dds"
+	city_type = city
+	residence_points_per_level = 5
+	unlocking_technologies = { 
+	}
+	
+	production_method_groups = {
+		pmg_underground_business
+	}
+	
+	terrain_manipulator = urban_city
+}

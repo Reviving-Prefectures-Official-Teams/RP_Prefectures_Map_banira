@@ -36,7 +36,7 @@ building_railway = {
 	}
 }
 
-#高速道路
+#高速鉄道
 building_high_speed_railway = {
 	building_group = bg_private_infrastructure	
 	texture = "gfx/interface/icons/building_icons/building_railway.dds"
@@ -155,7 +155,7 @@ building_highway = {
 
 #幹線道路
 building_road = {
-	building_group = bg_private_infrastructure
+	building_group = bg_public_infrastructure
 	texture = "gfx/interface/icons/building_icons/building_road.dds"
 
 	unlocking_technologies = {
