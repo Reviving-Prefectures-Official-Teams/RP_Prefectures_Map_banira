@@ -1,50 +1,50 @@
 ﻿BUILDINGS={
 	s:TATE_ETOROFU = {
-        region_state:SRA = {
-            ###administration
-            ###agriculture
-            create_building={
-                building="building_wheat_farm"
-                level=1
-                reserves=1
-            }
-            ###fishing
-            create_building={
-                building="building_fishing_wharf"
-                level=2
-                reserves=1
-            }
-            ###industry
-        }
-    }
-    s:STATE_HABOMAI = {
-        region_state:SRA = {
-            ###administration
-            ###agriculture
-            ###minings
-            ###forests
-            ###fishing
-            create_building={
-                building="building_fishing_wharf"
-                level=1
-                reserves=1
-            }
-            ###industry
-        }
-    }
-    s:STATE_KUNASHIRI = {
-        region_state:SRA = {
-            ###administration
-            ###agriculture
-            ###minings
-            ###forests
-            ###fishing
-            create_building={
-                building="building_fishing_wharf"
-                level=1
-                reserves=1
-            }
-            ###industry
-        }
-    }
+		region_state:SRA = {
+			###administration
+			###agriculture
+			create_building={
+				building="building_wheat_farm"
+				level=1
+				reserves=1
+			}
+			###fishing
+			create_building={
+				building="building_fishing_wharf"
+				level=2
+				reserves=1
+			}
+			###industry
+		}
+	}
+	s:STATE_HABOMAI = {
+		region_state:SRA = {
+			###administration
+			###agriculture
+			###minings
+			###forests
+			###fishing
+			create_building={
+				building="building_fishing_wharf"
+				level=1
+				reserves=1
+			}
+			###industry
+		}
+	}
+	s:STATE_KUNASHIRI = {
+		region_state:SRA = {
+			###administration
+			###agriculture
+			###minings
+			###forests
+			###fishing
+			create_building={
+				building="building_fishing_wharf"
+				level=1
+				reserves=1
+			}
+			###industry
+		}
+	}
 }
