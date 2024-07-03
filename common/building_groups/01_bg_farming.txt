@@ -211,3 +211,4 @@ bg_vegetable_farms = {
 	
 	default_building = building_vegetable_farm
 }
+
