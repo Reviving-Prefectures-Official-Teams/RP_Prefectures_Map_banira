@@ -57,6 +57,7 @@
     "map_data/state_regions/12_indonesia.txt": true,
     "map_data/state_regions/13_australasia.txt": true,
     "map_data/state_regions/14_siberia.txt": true,
+    "map_data/state_regions/15_russia.txt": true,
     "map_data/state_regions/99_seas.txt": true,
     "common/strategic_regions/_strategic_regions.info": true,
     "common/strategic_regions/african_strategic_regions.txt": true,
