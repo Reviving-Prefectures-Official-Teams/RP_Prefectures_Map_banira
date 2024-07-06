@@ -79,6 +79,10 @@
     "common/history/buildings/11_east_asia.txt": true,
     "common/history/buildings/12_indonesia.txt": true,
     "common/history/buildings/13_australasia.txt": true,
-    "common/buildings/13_construction.txt": true
+    "common/buildings/13_construction.txt": true,
+    "common/history/buildings/14_siberia.txt": true,
+    "common/history/buildings/15_russia.txt": true,
+    "map_data/state_regions/14_siberia.txt": true,
+    "map_data/state_regions/15_russia.txt": true
   }
 }

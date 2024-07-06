@@ -713,7 +713,7 @@ building_yakuza_office = {
 	texture = "gfx/interface/icons/building_icons/building_yakuza_office.dds"
 
 	production_method_groups = {
-		pmg_yakuza_office
+		pmg_yakuza_offices
 	}
 
 	investment_scores = {
