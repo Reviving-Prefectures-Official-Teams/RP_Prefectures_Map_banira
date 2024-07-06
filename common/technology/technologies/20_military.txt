@@ -1,383 +1,413 @@
 ﻿### ERA 1 
-    tech_steam_railway = {
-    	era = era_1
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
-    }
+	tech_steam_railway = {
+		era = era_1
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
+	}
 
 	tech_planned_shipbuilding = {
-    	era = era_1
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
-    }
+		era = era_1
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
+	}
 
 	tech_narrow_road = {
-    	era = era_1
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
-    }
+		era = era_1
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
+	}
 
 	tech_licensed_aircraft = {
-    	era = era_1
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
-    }
+		era = era_1
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
+	}
 
 ### ERA 2 = Tier1
 	tech_electric_railway = {
-    	era = era_2
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
+		era = era_2
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
 		unlocking_technologies = {
 			tech_steam_railway
 		}
-    }
+	}
 
 	tech_aluminum_alloy = {
-    	era = era_2
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
+		era = era_2
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
 		unlocking_technologies = {
 			tech_electric_railway
 		}
-    }
+	}
 
 	tech_petroleum_asphalt = {
-    	era = era_2
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
+		era = era_2
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
 		unlocking_technologies = {
 			tech_narrow_road
 		}
-    }
+	}
 
 	tech_fluorescent_lamp = {
-    	era = era_2
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
+		era = era_2
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
 		unlocking_technologies = {
 			tech_petroleum_asphalt
 		}
-    }
+	}
 
 	tech_physical_distribution = {
-    	era = era_2
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
+		era = era_2
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
 		unlocking_technologies = {
 			tech_petroleum_asphalt
 			tech_electric_railway
 		}
-    }
+	}
 
 	tech_block_method = {
-    	era = era_2
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
+		era = era_2
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
 		unlocking_technologies = {
 			tech_planned_shipbuilding
 		}
-    }
+	}
 
 	tech_aquaculture = {
-    	era = era_2
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military		
+		era = era_2
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military		
 		unlocking_technologies = {
 			tech_planned_shipbuilding
 		}
-    }
+	}
 
 	tech_turbofan_engine = {
-    	era = era_2
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
+		era = era_2
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
 
 		unlocking_technologies = {
 			tech_licensed_aircraft
 		}
-    }
+	}
 
 	tech_radar_system = {
-    	era = era_2
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
+		era = era_2
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
 
 		unlocking_technologies = {
 			tech_turbofan_engine
 		}
-    }
+	}
 
 ### ERA 3 = Tier2
 	tech_automatic_train_operation = {
-    	era = era_3
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
+		era = era_3
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
 
 		unlocking_technologies = {
 			tech_aluminum_alloy
 			tech_electric_railway
 		}
-    }
+	}
 
 	tech_high_pressure_sodium_lamp = {
-    	era = era_3
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
+		era = era_3
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
 
 		unlocking_technologies = {
 			tech_fluorescent_lamp
 		}
-    }
+	}
 
 	tech_polymer_modified_asphalt = {
-    	era = era_3
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
+		era = era_3
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
 
 		unlocking_technologies = {
 			tech_petroleum_asphalt
 		}
-    }
-
-
-	tech_commercial_van = {
-    	era = era_3
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
-
-		unlocking_technologies = {
-			tech_aluminum_alloy
-			tech_physical_distribution
-		}
-    }
-
-	tech_hydraulic_system = {
-    	era = era_3
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
-
-		unlocking_technologies = {
-			tech_physical_distribution
-		}
-    }
+	}
 
 	tech_distribution_system = {
-    	era = era_3
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
+		era = era_3
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
 
 		unlocking_technologies = {
 			tech_physical_distribution
 		}
-    }
+	}
 
 	tech_shipbuilding = {
-    	era = era_3
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
+		era = era_3
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
 
 		unlocking_technologies = {
 			tech_block_method
 		}
-    }
+	}
 
 	tech_air_traffic_management_ATM = {
-    	era = era_3
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
+		era = era_3
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
 
 		unlocking_technologies = {
 			tech_radar_system
 		}
-    }
+	}
 
 	tech_x_ray_baggage_inspection = {
-    	era = era_3
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
+		era = era_3
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
 
 		unlocking_technologies = {
 			tech_radar_system
 		}
-    }
+	}
 
 ### ERA 4 = Tier3
 	tech_magnetic_levitation = {
-    	era = era_4
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
+		era = era_4
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
 		unlocking_technologies = {
 			tech_automatic_train_operation
 		}
-    }
+	}
 
 	tech_hybrid_technology = {
-    	era = era_4
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
+		era = era_4
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
 		unlocking_technologies = {
 			tech_automatic_train_operation
 		}
-    }
+	}
 
 	tech_CNG_truck = {
-    	era = era_4
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
+		era = era_4
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
 		unlocking_technologies = {
 			tech_commercial_van
 		}
-    }
+	}
 
 	tech_contract_management = {
-    	era = era_4
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
+		era = era_4
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
 		unlocking_technologies = {
 			tech_distribution_system
 		}
-    }
+	}
 
 	tech_integrated_logistics = {
-    	era = era_4
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
+		era = era_4
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
 		unlocking_technologies = {
 			tech_distribution_system
 		}
-    }
+	}
 
 	tech_inorganic_chemistry = {
-    	era = era_4
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
+		era = era_4
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
 		unlocking_technologies = {
 			tech_polymer_modified_asphalt
 		}
-    }
+	}
 
 	tech_LED_lighting = {
-    	era = era_4
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
+		era = era_4
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
 		unlocking_technologies = {
 			tech_high_pressure_sodium_lamp
 		}
-    }
+	}
 
 	tech_multimodal_interchange = {
-    	era = era_4
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
+		era = era_4
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
 		unlocking_technologies = {
 			tech_polymer_modified_asphalt
 		}
-    }
+	}
 
 	tech_automatic_welding = {
-    	era = era_4
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
+		era = era_4
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
 		unlocking_technologies = {
 			tech_shipbuilding
 		}
-    }
+	}
+
+	tech_over_panamax_ship = {
+		era = era_4
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
+		unlocking_technologies = {
+			tech_shipbuilding
+		}
+	}
 
 	tech_full_body_scanner = {
-    	era = era_4
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
+		era = era_4
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
 		unlocking_technologies = {
 			tech_x_ray_baggage_inspection
 		}
-    }
+	}
 	
 	tech_GPS = {
-    	era = era_4
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
+		era = era_4
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
 		unlocking_technologies = {
 			tech_air_traffic_management_ATM
 			tech_x_ray_baggage_inspection
 		}
-    }
+	}
 
 ### ERA 5 = Tier4
+	tech_closed_recirculating_aquaculture_system = {
+		era = era_5
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
+		unlocking_technologies = {
+			tech_aquaculture
+		}
+	}
+
 	tech_large_scale_automatic_welding = {
-    	era = era_5
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
+		era = era_5
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
 		unlocking_technologies = {
 			tech_automatic_welding
 		}
-    }
+	}
 
 	tech_gigantic_ship = {
-    	era = era_5
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
+		era = era_5
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
 		unlocking_technologies = {
-			tech_large_scale_automatic_welding
+			tech_over_panamax_ship
 		}
-    }
+	}
 	
 	tech_real_time_3D_radar = {
-    	era = era_5
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
+		era = era_5
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
 		unlocking_technologies = {
 			tech_GPS
 		}
-    }
+	}
 
 	tech_smart_logistics = {
-    	era = era_5
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
+		era = era_5
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
 		unlocking_technologies = {
 			tech_GPS
 			tech_contract_management
 			tech_integrated_logistics
 		}
-    }
+	}
 
 	tech_smart_road = {
-    	era = era_5
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
+		era = era_5
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
 		unlocking_technologies = {
 			tech_inorganic_chemistry
 			tech_LED_lighting
 			tech_multimodal_interchange
 		}
-    }
+	}
 
 	tech_double_linked_truck = {
-    	era = era_5
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
+		era = era_5
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
 		unlocking_technologies = {
 			tech_CNG_truck
 		}
-    }
+	}
 
 	tech_hybrid_railway = {
-    	era = era_5
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
+		era = era_5
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
 		unlocking_technologies = {
 			tech_magnetic_levitation
 		}
-    }
+	}
 
 	tech_electric_vehicle = {
-    	era = era_5
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = military
+		era = era_5
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
 		unlocking_technologies = {
 			tech_hybrid_technology
 		}
-    }
+	}
 
 ### ERA 6 = Tier5
+	tech_large-scale_aquaculture_system = {
+		era = era_6
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
+		unlocking_technologies = {
+			tech_closed_recirculating_aquaculture_system
+		}
+	}
+	tech_hyperloop = {
+		era = era_6
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
+		unlocking_technologies = {
+			tech_smart_road
+		}
+	}
+	tech_level_5_autonomous_driving = {
+		era = era_6
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
+		unlocking_technologies = {
+			tech_hybrid_railway
+			tech_smart_logistics
+			tech_real_time_3D_radar
+		}
+	}
+	tech_quantum_computer = {
+		era = era_6
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
+		unlocking_technologies = {
+			tech_hybrid_technology
+		}
+	}
