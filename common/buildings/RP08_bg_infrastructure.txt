@@ -77,7 +77,7 @@ building_port = {
 	city_type = port
 	texture = "gfx/interface/icons/building_icons/building_port.dds"
 
-	has_max_level = yes
+	# has_max_level = yes
 	ignore_stateregion_max_level = yes
 	port = yes
 
