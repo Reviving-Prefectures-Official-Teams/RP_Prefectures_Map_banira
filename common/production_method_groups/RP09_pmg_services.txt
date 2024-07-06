@@ -199,3 +199,14 @@ pmg_medical_service = {
 		pm_online_medical #オンライン診療
 	}
 }
+
+pmg_underground_business = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_legally_service #適法サービス
+		pm_illegally_service #違法サービス
+		pm_legal_regulation #法的規制
+	}
+}

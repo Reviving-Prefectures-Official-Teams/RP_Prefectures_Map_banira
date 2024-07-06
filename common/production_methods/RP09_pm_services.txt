@@ -1310,3 +1310,60 @@ pm_online_medical = {
 		}
 	}
 }
+
+#####地下産業
+#適法サービス
+pm_legally_service = {
+	unlocking_technologies = {
+	}
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_foods_add = 5
+			goods_output_service_add = 8
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 400
+			building_employment_shopkeepers_add = 100
+		}
+	}
+
+}
+#違法サービス
+pm_illegally_service = {
+	unlocking_technologies = {
+		tech_illegally_service
+	}
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_service_add = 10
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 400
+			building_employment_shopkeepers_add = 100
+		}
+	}
+}
+#法的規制
+pm_legal_regulation = {
+	unlocking_technologies = {
+		tech_legal_regulation
+	}
+	texture = "gfx/interface/icons/production_method_icons/"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_service_add = 1
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 400
+			building_employment_shopkeepers_add = 100
+		}
+	}
+}

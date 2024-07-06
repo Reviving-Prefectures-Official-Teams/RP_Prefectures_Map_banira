@@ -15,3 +15,54 @@ interest_group_ig_gangster_pop_attraction_mult = {
 	percent = yes
 	num_decimals = 0
 }
+
+country_crimelord_pol_str_mult={
+	decimals=1
+	color=neutral
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+country_crimelord_voting_power_add={
+	decimals=1
+	color=neutral
+	game_data={
+		ai_value=0
+	}
+}
+
+building_employment_crimelord_add={
+	decimals=0
+	color=neutral
+	game_data={
+		ai_value=0
+	}
+}
+
+state_crimelord_investment_pool_contribution_add={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+state_crimelord_investment_pool_efficiency_mult={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+building_crimelord_shares_add={
+	decimals=0
+	color=neutral
+	game_data={
+		ai_value=0
+	}
+}

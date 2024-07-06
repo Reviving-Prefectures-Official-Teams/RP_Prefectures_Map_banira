@@ -11,6 +11,18 @@ bg_infrastructure = {
 	economy_of_scale_ai_factor = 1.5
 }
 
+#公共インフラ
+bg_public_infrastructure = {
+	parent_group = bg_infrastructure
+	
+	is_government_funded = yes
+	subsidized = no
+	
+	cash_reserves_max = 25000
+	
+	urbanization = 5
+}
+
 #個人インフラ
 bg_private_infrastructure = {
 	parent_group = bg_infrastructure
@@ -73,6 +85,7 @@ bg_water_sampling_area = {
 
 # 電力
 bg_power = {
+	parent_group = bg_infrastructure
 	category = development
 	
 	lens = infrastructure	

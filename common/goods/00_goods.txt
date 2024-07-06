@@ -478,7 +478,7 @@ fine_art = { #美術品
 
 porcelain = { #セラミック
 	texture = "gfx/interface/icons/goods_icons/porcelain.dds"
-	cost = 70
+	cost = 30
 	category = luxury
 	
 	obsession_chance = 1.0

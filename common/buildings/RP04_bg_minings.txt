@@ -149,3 +149,4 @@ building_asbestos_mine = {
 		pmg_byproducts
 	}
 }
+

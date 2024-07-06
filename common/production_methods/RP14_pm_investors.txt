@@ -1,0 +1,167 @@
+﻿###金融街
+#店頭販売
+pm_sales_trade = { 
+	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
+	replacement_if_valid = pm_financial_district_principle_divine_economics_2
+	
+	building_modifiers = { 
+		workforce_scaled = {
+			goods_output_finance_add = 10
+		}
+
+		level_scaled = {
+			building_employment_capitalists_add = 50
+			building_employment_shopkeepers_add = 100
+			building_employment_clerks_add = 100
+		}
+		unscaled = {
+			building_capitalists_shares_add = 10
+			building_shopkeepers_shares_add = 1
+		}
+	}
+}
+
+#ネット証券
+pm_net_securities = { 
+	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
+	replacement_if_valid = pm_financial_district_principle_divine_economics_2
+	
+	building_modifiers = { 
+		workforce_scaled = {
+			goods_input_web_add = 5
+			goods_output_finance_add = 20
+		}
+
+		level_scaled = {
+			building_employment_capitalists_add = 75
+			building_employment_shopkeepers_add = 125
+			building_employment_clerks_add = 300
+		}
+		unscaled = {
+			building_capitalists_shares_add = 25
+			building_shopkeepers_shares_add = 5
+		}
+	}
+}
+
+###邸宅
+#資産管理
+pm_asset_management = {
+	texture = "gfx/interface/icons/production_method_icons/ownership_aristocrats.dds"
+	replacement_if_valid = pm_manor_house_principle_divine_economics_2
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_aristocrats_add = 50
+			building_employment_laborers_add = 100
+		}
+		unscaled = {
+			building_aristocrats_shares_add = 10
+		}
+	}
+}
+
+###投資ファンド
+#ベンチャー投資
+pm_venture_investment = {
+	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
+	is_hidden_when_unavailable = yes
+	
+	building_modifiers = { 
+		workforce_scaled = {
+			goods_output_professionals_add = 10
+			goods_output_finance_add = 1
+		}
+
+		level_scaled = {
+			building_employment_capitalists_add = 50
+			building_employment_shopkeepers_add = 100
+			building_employment_engineers_add = 100
+			building_employment_clerks_add = 250
+		}
+		unscaled = {
+			building_capitalists_shares_add = 10
+			building_shopkeepers_shares_add = 1
+			building_engineers_shares_add = 1
+		}
+	}
+}
+
+###宗教施設
+#閉鎖的経営
+pm_closed_management = {
+	texture = "gfx/interface/icons/production_method_icons/ownership_religious.dds"
+	replacement_if_valid = pm_religious_sites_principle_divine_economics_2
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_clergymen_add = 50
+			building_employment_clerks_add = 100
+		}
+		unscaled = {
+			building_religious_shares_add = 10
+		}
+	}
+}
+#観光型運営
+pm_tourism_management = {
+	texture = "gfx/interface/icons/production_method_icons/ownership_religious.dds"
+	replacement_if_valid = pm_religious_sites_principle_divine_economics_2
+	
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_travel_add = 2
+		}
+		level_scaled = {
+			building_employment_clergymen_add = 100
+			building_employment_clerks_add = 100
+		}
+		unscaled = {
+			building_clergymen_shares_add = 10
+		}
+	}
+}
+
+###新興宗教法人
+#カルト施設
+pm_cults_corporation = {
+	texture = "gfx/interface/icons/production_method_icons/ownership_religious.dds"
+	replacement_if_valid = pm_cults_corporation_principle_divine_economics_2
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_luxury_clothes_add = 0.5
+			goods_output_fine_art_add = 0.5
+		}
+		level_scaled = {
+			building_employment_clergymen_add = 50
+			building_employment_clerks_add = 100
+		}
+		unscaled = {
+			building_cultists_shares_add = 10
+		}
+	}
+}
+
+###暴力団事務所
+#闇ビジネス
+pm_yakuza_offices = {
+	texture = "gfx/interface/icons/production_method_icons/ownership_criminal.dds"
+	replacement_if_valid = pm_yakuza_offices_principle_divine_economics_2
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_transport_add = 0.25
+			goods_output_media_contents_add = 0.25
+			goods_output_construction_add = 0.25
+		}
+		level_scaled = {
+			building_employment_crimelord_add = 50
+			building_employment_laborers_add = 100
+		}
+		unscaled = {
+			building_crimelord_shares_add = 10
+		}
+	}
+}

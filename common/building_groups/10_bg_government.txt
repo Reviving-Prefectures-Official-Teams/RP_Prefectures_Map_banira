@@ -16,17 +16,9 @@ bg_government = {
 	economy_of_scale_ai_factor = 2.0
 }
 
-bg_public_infrastructure = {
-	parent_group = bg_infrastructure
-	
-	is_government_funded = yes
-	
-	urbanization = 5
-}
-
 #建設セクター
 bg_construction = {
-	parent_group = bg_public_infrastructure
+	parent_group = bg_government
 
 	infrastructure_usage_per_level = 2
 
