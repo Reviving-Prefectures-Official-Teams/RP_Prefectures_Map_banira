@@ -1,0 +1,116 @@
+﻿hairstyles = {
+    usage = game
+    selection_behavior = weighted_random
+    fallback = no_hair
+
+    no_hair = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = no_hairstyles
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+        }
+    }
+
+    #european_hair_styles = {
+    #    dna_modifiers = {
+    #        accessory = {
+    #            mode = add
+    #            gene = hairstyles
+    #            template = european_hairstyles
+    #            range = { 0 1 } # For the randomness to work correctly
+    #       }
+    #     }
+    #
+    #   weight = {
+    #       base = 0
+    #       modifier = {
+    #            add = 100
+    #            AND = {
+    #                exists = scope:character
+    #                    scope:character = {
+    #                         european_clothes_trigger = yes
+    #                    }
+    #            }
+    #
+    #
+    #      }
+    #   }
+    #}
+
+    european_peasant_hair = {
+        dna_modifiers = {
+            accessory = {
+                mode = replace
+                gene = hairstyles
+                template = european_peasant_hair
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                european_clothes_pop_trigger = yes
+                poor_clothes_pop_trigger = yes
+            }
+        }
+    }
+
+    buddhist_monk_non_hair = {
+        dna_modifiers = {
+            accessory = {
+                mode = replace
+                gene = hairstyles
+                template = no_hairstyles
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 1100
+                OR = {
+                    AND = {
+                        exists = scope:pop
+                        scope:pop = {
+                            religion = {
+                                has_discrimination_trait = buddhist
+                            }
+                            owner = {
+                                ig:ig_devout = {
+                                    NOT = {
+                                        has_ideology = ideology:ideology_confucian
+                                    }
+                                }
+                            }
+                        }
+                        clergy_clothes_pop_trigger = yes
+                    }
+                    AND = {
+                        politician_clothes_trigger = yes
+                        devout_clothes_trigger = yes
+                        exists = scope:character
+                        scope:character = {
+                            religion = {
+                                has_discrimination_trait = buddhist
+                            }
+                            owner = {
+                                ig:ig_devout = {
+                                    NOT = {
+                                        has_ideology = ideology:ideology_confucian
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

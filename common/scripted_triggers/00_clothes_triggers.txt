@@ -1,4 +1,50 @@
-﻿japanese_clothes_trigger = {
+﻿# Character
+
+european_clothes_trigger = {
+	exists = scope:character
+	scope:character = {
+		OR = {
+			AND = {
+				culture = cu:japanese
+				devout_clothes_trigger = no
+				NOT = {
+					has_ideology = ideology:ideology_traditionalist
+					is_ruler = yes
+				}
+				owner ?= {
+					has_variable = meiji_restoration_complete
+				}
+			}
+			has_template = AST_william_light
+			AND = {
+				culture = {
+					has_discrimination_trait = european_heritage
+				}
+				NOT = {
+					culture = cu:circassian
+				}
+				NOT = {
+					AND = { # Albanian characters serving either the Ottomans or Egyptians should wear that country's clothing.
+						culture = cu:albanian
+						exists = home_country
+						OR = {
+							home_country = {
+								exists = c:TUR
+								c:TUR = this
+							}
+							home_country = {
+								exists = c:EGY
+								c:EGY = this
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+japanese_clothes_trigger = {
 	exists = scope:character
 	scope:character = {
           OR = {
@@ -7,51 +53,87 @@
 	}
 }
 
-japanese_clothes_pop_trigger = {
+monarchy_clothes_trigger = {
+    exists = scope:character
+    scope:character = {
+        exists = owner
+        OR = {
+            is_ruler = yes
+            is_heir = yes
+        }
+        owner = {
+            has_law = law_type:law_monarchy
+        }
+    }
+}
+
+republic_clothes_trigger = {
+    exists = scope:character
+    scope:character = {
+        exists = home_country
+        is_ruler = yes
+        home_country = {
+            NOT = { has_law = law_type:law_monarchy}
+        }
+    }
+}
+
+# Pop
+european_clothes_pop_trigger = {
 	exists = scope:pop
 	scope:pop = {
-          OR = {
-          	religion = rel:shinbutsu_shugo            
-          }
+		culture = {
+			has_discrimination_trait = european_heritage
+		}
 	}
 }
 
+japanese_clothes_pop_trigger = {
+    exists = scope:pop
+	scope:pop = {
+		religion = {
+			has_discrimination_trait = shintoist
+		}
+	}
+}
 
 poor_clothes_pop_trigger = {
 	exists = scope:pop
-     scope:pop = {
-       	OR = {
+    scope:pop = {
+		OR = {
 			is_pop_type = farmers
 			is_pop_type = peasants
 			is_pop_type = laborers
 			is_pop_type = machinists
-       	}
-     }   
+		}
+    }   
 }
 
 middle_clothes_pop_trigger = {
-     exists = scope:pop
-     scope:pop = {
-       	OR = {
-			is_pop_type = clerks
-			is_pop_type = engineers
-			is_pop_type = bureaucrats
-			is_pop_type = shopkeepers
-       	}
-     }  
+    exists = scope:pop
+    scope:pop = {
+        OR = {
+            is_pop_type = clerks
+            is_pop_type = engineers
+            is_pop_type = bureaucrats
+            is_pop_type = shopkeepers
+        }
+    }
 }
 
 upper_clothes_pop_trigger = {
-     exists = scope:pop
-     scope:pop = {
-     	OR = {
-			is_pop_type = aristocrats
-			is_pop_type = capitalists
-			is_pop_type = academics
-     	}
-     }  
+    exists = scope:pop
+    scope:pop = {
+        OR = {
+            is_pop_type = aristocrats
+            is_pop_type = capitalists
+			is_pop_type = crimelord
+            is_pop_type = academics
+        }
+    }
 }
 
+# Pop職業別トリガー
 soldier_clothes_pop_trigger = {
      exists = scope:pop
      scope:pop = {
