@@ -3,30 +3,30 @@
     selection_behavior = weighted_random
     fallback = default_clothes
 
-    no_clothes = {
-        dna_modifiers = {
-            accessory = {
-                mode = add
-                gene = outfits
-                template = no_outfit
-                range = { 0 1 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = gene_nudity
-                template = hide_nudity
-                range = { 0 1 } # For the randomness to work correctly
-            }
-        }
-        #outfit_tags = { no_clothes }
-        weight = {
-            base = 0
-            modifier = {
-                add = 5000
-                should_be_fully_naked_portrait_trigger = yes
-            }
-        }
-    }
+    # no_clothes = {
+    #     dna_modifiers = {
+    #         accessory = {
+    #             mode = add
+    #             gene = outfits
+    #             template = no_outfit
+    #             range = { 0 1 } # For the randomness to work correctly
+    #         }
+    #         accessory = {
+    #             mode = add
+    #             gene = gene_nudity
+    #             template = hide_nudity
+    #             range = { 0 1 } # For the randomness to work correctly
+    #         }
+    #     }
+    #     #outfit_tags = { no_clothes }
+    #     weight = {
+    #         base = 0
+    #         modifier = {
+    #             add = 5000
+    #             should_be_fully_naked_portrait_trigger = yes
+    #         }
+    #     }
+    # }
 
     default_clothes = {
         dna_modifiers = {
@@ -496,7 +496,7 @@
     #             }
     #         }
     #     }
-    }
+    # }
 
     # japanese_pop_clothes = {
     #     dna_modifiers = {
@@ -828,8 +828,7 @@
                         japanese_clothes_pop_trigger = yes
                         european_clothes_pop_trigger = yes
                     }
-                        upper_clothes_pop_trigger = yes
-                        clergy_clothes_pop_trigger = no
+                    upper_clothes_pop_trigger = yes
                 }
             }
         }
