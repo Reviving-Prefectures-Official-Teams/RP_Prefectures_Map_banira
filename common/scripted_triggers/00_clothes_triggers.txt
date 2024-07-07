@@ -1,153 +1,200 @@
-﻿japanese_clothes_trigger = {
-	exists = scope:character
-	scope:character = {
-          OR = {
-          	religion = rel:shinbutsu_shugo            
-          }
+﻿# Character
+
+european_clothes_trigger = {
+    exists = scope:character
+    scope:character = {
+        culture = {
+            has_discrimination_trait = european_heritage
+        }
+    }
+}
+
+japanese_clothes_trigger = {
+    exists = scope:character
+    scope:character = {
+        OR = {
+            religion = rel:shinbutsu_shugo
+        }
+    }
+}
+
+monarchy_clothes_trigger = {
+    exists = scope:character
+    scope:character = {
+        exists = owner
+        OR = {
+            is_ruler = yes
+            is_heir = yes
+        }
+        owner = {
+            has_law = law_type:law_monarchy
+        }
+    }
+}
+
+republic_clothes_trigger = {
+    exists = scope:character
+    scope:character = {
+        exists = home_country
+        is_ruler = yes
+        home_country = {
+            NOT = { has_law = law_type:law_monarchy}
+        }
+    }
+}
+
+# Pop
+european_clothes_pop_trigger = {
+	exists = scope:pop
+	scope:pop = {
+		culture = {
+			has_discrimination_trait = european_heritage
+		}
 	}
 }
 
 japanese_clothes_pop_trigger = {
-	exists = scope:pop
+    exists = scope:pop
 	scope:pop = {
-          OR = {
-          	religion = rel:shinbutsu_shugo            
-          }
+		religion = {
+			has_discrimination_trait = shintoist
+		}
 	}
 }
 
-
 poor_clothes_pop_trigger = {
 	exists = scope:pop
-     scope:pop = {
-       	OR = {
+    scope:pop = {
+		OR = {
 			is_pop_type = farmers
 			is_pop_type = peasants
 			is_pop_type = laborers
 			is_pop_type = machinists
-       	}
-     }   
+		}
+    }   
 }
 
 middle_clothes_pop_trigger = {
-     exists = scope:pop
-     scope:pop = {
-       	OR = {
-			is_pop_type = clerks
-			is_pop_type = engineers
-			is_pop_type = bureaucrats
-			is_pop_type = shopkeepers
-       	}
-     }  
+    exists = scope:pop
+    scope:pop = {
+        OR = {
+            is_pop_type = clerks
+            is_pop_type = engineers
+            is_pop_type = bureaucrats
+            is_pop_type = shopkeepers
+        }
+    }
 }
 
 upper_clothes_pop_trigger = {
-     exists = scope:pop
-     scope:pop = {
-     	OR = {
-			is_pop_type = aristocrats
-			is_pop_type = capitalists
-			is_pop_type = academics
-     	}
-     }  
+    exists = scope:pop
+    scope:pop = {
+        OR = {
+            is_pop_type = aristocrats
+            is_pop_type = capitalists
+			is_pop_type = crimelord
+            is_pop_type = academics
+        }
+    }
 }
 
+# Pop職業別トリガー
 soldier_clothes_pop_trigger = {
-     exists = scope:pop
-     scope:pop = {
-		is_pop_type = soldiers
-     }
+    exists = scope:pop
+    scope:pop = {
+        is_pop_type = soldiers
+    }
 }
 
 officers_clothes_pop_trigger = {
-	exists = scope:pop
-	scope:pop = {
-		is_pop_type = officers
-	} 
+    exists = scope:pop
+    scope:pop = {
+        is_pop_type = officers
+    }
 }
 
 clergy_clothes_pop_trigger = {
-	exists = scope:pop
-     scope:pop = {
-		is_pop_type = clergymen
-     }
+    exists = scope:pop
+    scope:pop = {
+        is_pop_type = clergymen
+    }
 }
 
 shopkeepers_clothes_pop_trigger = {
-     exists = scope:pop
-     scope:pop = {
-		is_pop_type = shopkeepers	
-     }    
+    exists = scope:pop
+    scope:pop = {
+        is_pop_type = shopkeepers
+    }
 }
 
 clerks_clothes_pop_trigger = {
-     exists = scope:pop
-     scope:pop = {
-		is_pop_type = clerks	
-     }   
+    exists = scope:pop
+    scope:pop = {
+        is_pop_type = clerks
+    }
 }
 
 academics_clothes_pop_trigger = {
-     exists = scope:pop
-     scope:pop = {
-		is_pop_type = academics	
-     }   
+    exists = scope:pop
+    scope:pop = {
+        is_pop_type = academics
+    }
 }
 
 farmers_clothes_pop_trigger = {
-     exists = scope:pop
-     scope:pop = {
-		is_pop_type = farmers	
-     }   
+    exists = scope:pop
+    scope:pop = {
+        is_pop_type = farmers
+    }
 }
 
 laborers_clothes_pop_trigger = {
-     exists = scope:pop
-     scope:pop = {
-		is_pop_type = laborers	
-     }   
+    exists = scope:pop
+    scope:pop = {
+        is_pop_type = laborers
+    }
 }
 
 peasants_clothes_pop_trigger = {
-     exists = scope:pop
-     scope:pop = {
-		is_pop_type = peasants	
-     }   
+    exists = scope:pop
+    scope:pop = {
+        is_pop_type = peasants
+    }
 }
 
 slaves_clothes_pop_trigger = {
-     exists = scope:pop
-     scope:pop = {
-		is_pop_type = slaves	
-     }   
+    exists = scope:pop
+    scope:pop = {
+        is_pop_type = slaves
+    }
 }
 
 aristocrats_clothes_pop_trigger = {
-     exists = scope:pop
-     scope:pop = {
-		is_pop_type = aristocrats	
-     }   
+    exists = scope:pop
+    scope:pop = {
+        is_pop_type = aristocrats
+    }
 }
 
 machinists_clothes_pop_trigger = {
-     exists = scope:pop
-     scope:pop = {
-		is_pop_type = machinists	
-     }   
+    exists = scope:pop
+    scope:pop = {
+        is_pop_type = machinists
+    }
 }
 
 engineers_clothes_pop_trigger = {
-     exists = scope:pop
-     scope:pop = {
-		is_pop_type = engineers	
-     }   
+    exists = scope:pop
+    scope:pop = {
+        is_pop_type = engineers
+    }
 }
 
 bureaucrats_clothes_pop_trigger = {
-     exists = scope:pop
-     scope:pop = {
-		is_pop_type = bureaucrats	
-     }   
+    exists = scope:pop
+    scope:pop = {
+        is_pop_type = bureaucrats
+    }
 }
 
 slightly_underweight_pop_trigger = {
@@ -275,32 +322,3 @@ agitator_character_trigger = {
 		has_role = agitator
 	}
 }
-
-should_be_naked_trigger = {
-	exists = scope:pop
-	scope:pop = {
-       	OR = {
-			is_pop_type = farmers
-			is_pop_type = peasants
-			is_pop_type = laborers
-			is_pop_type = slaves
-		}
-		OR = {
-			culture = cu:amazonian
-			culture = cu:nuba
-			culture = cu:dinka
-		}
-	}
-}
-
-## Can only be checked in the interface since the setting isn't synced
-should_be_fully_naked_portrait_trigger = {
-	should_be_naked_trigger = yes
-	should_show_nudity = yes
-}
-#
-#should_be_topless_portrait_trigger = {
-#	exists = scope:pop
-#	has_character_flag = single_combat_stripped_to_waist
-#	should_show_nudity = yes
-#}

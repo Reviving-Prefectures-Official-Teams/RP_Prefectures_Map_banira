@@ -12,6 +12,8 @@
     "common/buildings/10_canals.txt": true,
     "common/buildings/11_private_infrastructure.txt": true,
     "common/buildings/_buildings.info": true,
+    "common/cultures/00_cultures.txt": true,
+    "common/customizable_localization/99_ru_custom_loc.txt": true,
     "common/production_methods/02_agro.txt": true,
     "common/production_methods/13_construction.txt": true,
     "common/production_methods/07_government.txt": true,
