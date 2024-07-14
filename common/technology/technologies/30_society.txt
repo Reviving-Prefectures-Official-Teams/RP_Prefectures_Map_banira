@@ -1,353 +1,433 @@
 ﻿### ERA 1 
-    tech_newspaper = {
-    	era = era_1
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
-    }
+	tech_newspaper = {
+		era = era_1
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
+	}
 
 	tech_shortwave_broadcasting = {
-    	era = era_1
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
-    }
+		era = era_1
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
+	}
 
 	tech_foods_industrialization = {
-    	era = era_1
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
-    }
+		era = era_1
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
+	}
 
 ### ERA 2 = Tier1
 	tech_shopping_street = {
-    	era = era_2
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
+		era = era_2
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
 
 		unlocking_technologies = {
 			tech_foods_industrialization
 		}
-    }
+	}
 
 	tech_domestic_travel = {
-    	era = era_2
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
+		era = era_2
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
 
 		unlocking_technologies = {
 			tech_shopping_street
 		}
-    }
+	}
 
 	tech_chocolate = {
-    	era = era_2
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
+		era = era_2
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
 
 		unlocking_technologies = {
 			tech_foods_industrialization
 		}
-    }
+	}
 
 	tech_canned_drink = {
-    	era = era_2
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
+		era = era_2
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
 
 		unlocking_technologies = {
 			tech_chocolate
 		}
-    }
+	}
 
 	tech_hydrous_distillation = {
-    	era = era_2
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
+		era = era_2
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
 
 		unlocking_technologies = {
 			tech_chocolate
 		}
-    }
+	}
 
 	tech_color_broadcasting = {
-    	era = era_2
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
+		era = era_2
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
 
 		unlocking_technologies = {
 			tech_shortwave_broadcasting
 		}
-    }
+	}
 
 	tech_color_printing = {
-    	era = era_2
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
+		era = era_2
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
 
 		unlocking_technologies = {
 			tech_newspaper
 		}
-    }
+	}
 
 	tech_specialized_medical_care = {
-    	era = era_2
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
+		era = era_2
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
 
 		unlocking_technologies = {
 			tech_newspaper
 		}
-    }
+	}
 
 	tech_social_education = {
-    	era = era_2
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
+		era = era_2
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
 
 		unlocking_technologies = {
 			tech_newspaper
 		}
-    }
+	}
 
 	tech_modern_postmodernism = {
-    	era = era_2
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
+		era = era_2
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
 
 		unlocking_technologies = {
 			tech_social_education
 		}
-    }
+	}
 
 ### ERA 3 = Tier2
 	tech_self_service = {
-    	era = era_3
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
+		era = era_3
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
 
 		unlocking_technologies = {
 			tech_shopping_street
 		}
-    }
+	}
 
 	tech_package_tour = {
-    	era = era_3
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
+		era = era_3
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
 
 		unlocking_technologies = {
 			tech_domestic_travel
 		}
-    }
+	}
 
 	tech_food_diversity = {
-    	era = era_3
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
+		era = era_3
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
 
 		unlocking_technologies = {
 			tech_chocolate
 		}
-    }
+	}
 
 	tech_carbonated_beverage = {
-    	era = era_3
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
+		era = era_3
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
 
 		unlocking_technologies = {
 			tech_canned_drink
 		}
-    }
+	}
 
 	tech_standardization = {
-    	era = era_3
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
+		era = era_3
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
 
 		unlocking_technologies = {
 			tech_color_printing
 			tech_color_broadcasting
 		}
-    }
+	}
 	
 	tech_MIDI_file = {
-    	era = era_3
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
+		era = era_3
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
 
 		unlocking_technologies = {
 			tech_color_broadcasting
 		}
-    }
+	}
 
 	tech_comprehensive_medical_care = {
-    	era = era_3
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
+		era = era_3
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
 
 		unlocking_technologies = {
 			tech_specialized_medical_care
 		}
-    }
+	}
 
 	tech_affluent_school = {
-    	era = era_3
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
+		era = era_3
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
 
 		unlocking_technologies = {
 			tech_social_education
 		}
-    }
+	}
 
 	tech_conceptual_art = {
-    	era = era_3
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
+		era = era_3
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
 
 		unlocking_technologies = {
 			tech_modern_postmodernism
 		}
-    }
+	}
 
 	tech_high_fashion = {
-    	era = era_3
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
+		era = era_3
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
 
 		unlocking_technologies = {
 			tech_modern_postmodernism
 		}
-    }
+	}
+
+	tech_strategist = {
+		era = era_3
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
+
+		unlocking_technologies = {
+			tech_shopping_street
+		}
+	}
 
 
 ### ERA 4 = Tier3 
 	tech_mixed_use_commercial_facility = {
-    	era = era_4
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
+		era = era_4
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
 
 		unlocking_technologies = {
 			tech_self_service
 			tech_conceptual_art
 		}
-    }
+	}
 
 	tech_sports_drink = {
-    	era = era_4
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
+		era = era_4
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
 
 		unlocking_technologies = {
 			tech_food_diversity
 			tech_carbonated_beverage
 		}
-    }
+	}
 
 	tech_synthetic_voice_engine = {
-    	era = era_4
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
+		era = era_4
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
 
 		unlocking_technologies = {
 			tech_MIDI_file
 		}
-    }
+	}
 
 	tech_rounds = {
-    	era = era_4
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
+		era = era_4
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
 
 		unlocking_technologies = {
 			tech_comprehensive_medical_care
 		}
-    }
+	}
 
 	tech_universal_design = {
-    	era = era_4
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
+		era = era_4
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
 
 		unlocking_technologies = {
 			tech_conceptual_art
 		}
-    }
+	}
 	
-	tech_internet = {
-    	era = era_4
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
+	tech_digital_tech = {
+		era = era_4
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
 
 		unlocking_technologies = {
 			tech_standardization
 		}
-    }
+	}
+
+	tech_internet = {
+		era = era_4
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
+
+		unlocking_technologies = {
+			tech_digital_tech
+		}
+	}
+
+	tech_business_process_re_engineering = {
+		era = era_4
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
+
+		unlocking_technologies = {
+			tech_strategist
+		}
+	}
+
+	tech_asbestos_regulation = {
+		era = era_4
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
+
+		unlocking_technologies = {
+		}
+	}
 
 ### ERA 5 = Tier4
 	tech_audiobook = {
-    	era = era_5
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
+		era = era_5
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
 
 		unlocking_technologies = {
 			tech_synthetic_voice_engine
 		}
-    }
+	}
 	tech_holography = {
-    	era = era_5
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
+		era = era_5
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
 
 		unlocking_technologies = {
 			tech_internet
 		}
-    }
+	}
 	tech_secure_internet = {
-    	era = era_5
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
+		era = era_5
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
 
 		unlocking_technologies = {
 			tech_rounds
 			tech_internet
 		}
-    }
+	}
 	tech_system_thinking = {
-    	era = era_5
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
+		era = era_5
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
 
 		unlocking_technologies = {
 			tech_affluent_school
 		}
-    }
+	}
 	tech_entrepreneurship_education = {
-    	era = era_5
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
+		era = era_5
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
 
 		unlocking_technologies = {
 			tech_system_thinking
 		}
-    }
+	}
 	tech_contemporary_art = {
-    	era = era_5
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
+		era = era_5
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
 
 		unlocking_technologies = {
 			tech_internet
 			tech_mixed_use_commercial_facility
 		}
-    }
+	}
+
 	tech_eco_movement = {
-    	era = era_5
-    	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
-    	category = society
+		era = era_5
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
 
 		unlocking_technologies = {
 			tech_universal_design
 		}
-    }
+	}
 ### ERA 6 = Tier5
+
+	tech_artifical_culture = {
+		era = era_6
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
+
+		unlocking_technologies = {
+			
+		}
+	}
+
+	tech_smart_glass = {
+		era = era_6
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
+
+		unlocking_technologies = {
+			tech_holography
+		}
+	}
+
+	tech_sword_art_online = {
+		era = era_6
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
+
+		unlocking_technologies = {
+			tech_smart_glass
+		}
+	}
+
+	tech_blockchain = {
+		era = era_6
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
+
+		unlocking_technologies = {
+			
+		}
+	}
