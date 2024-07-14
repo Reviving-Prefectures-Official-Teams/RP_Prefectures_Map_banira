@@ -1,19 +1,4 @@
 ﻿#####STATELIST#####
-###HOKKAIDO###
-#STATE_SORACHI
-#STATE_RUMOI
-#STATE_KAMIKAWA
-#STATE_TOKACHI
-#STATE_SOYA
-#STATE_KUSHIRO
-#STATE_NEMURO
-#STATE_ABASHIRI
-#STATE_MONBETSU
-#STATE_ETOROFU
-#STATE_HABOMAI
-#STATE_KUNASHIRI
-#STATE_HIYAMA
-#STATE_OSYAMAMBE
 
 ###IWATE###
 #STATE_MORIOKA
@@ -34,3 +19,46 @@
 #STATE_HIROSAKI
 #STATE_TOWADA
 #STATE_MUTU
+
+BUILDINGS = {
+    s:STATE_MORIOKA = {
+        region_state:SRA = {
+            ###administration
+            ###agriculture
+            ###minings
+            ###forests
+            ###fishing
+            ###industry
+        }
+    }
+    s:STATE_KAMAISHI = {
+        region_state:SRA = {
+            ###administration
+            ###agriculture
+            ###minings
+            ###forests
+            ###fishing
+            ###industry
+        }
+    }
+    s:STATE_HANAMAKI = {
+        region_state:SRA = {
+            ###administration
+            ###agriculture
+            ###minings
+            ###forests
+            ###fishing
+            ###industry
+        }
+    }
+    s:STATE_KUJI = {
+        region_state:SRA = {
+            ###administration
+            ###agriculture
+            ###minings
+            ###forests
+            ###fishing
+            ###industry
+        }
+    }
+}
