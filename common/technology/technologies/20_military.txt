@@ -181,6 +181,22 @@
 	}
 
 ### ERA 4 = Tier3
+	tech_fishing_fleet = {
+		era = era_4
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
+		unlocking_technologies = {
+			tech_shipbuilding
+		}
+	}
+	tech_compound_feed = {
+		era = era_4
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = military
+		unlocking_technologies = {
+			tech_aquaculture
+		}
+	}
 	tech_magnetic_levitation = {
 		era = era_4
 		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
@@ -204,7 +220,7 @@
 		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
 		category = military
 		unlocking_technologies = {
-			tech_commercial_van
+			tech_distribution_system
 		}
 	}
 
@@ -267,7 +283,7 @@
 		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
 		category = military
 		unlocking_technologies = {
-			tech_shipbuilding
+			tech_automatic_welding
 		}
 	}
 
@@ -296,7 +312,7 @@
 		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
 		category = military
 		unlocking_technologies = {
-			tech_aquaculture
+			tech_compound_feed
 		}
 	}
 
@@ -305,7 +321,7 @@
 		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
 		category = military
 		unlocking_technologies = {
-			tech_automatic_welding
+			tech_over_panamax_ship
 		}
 	}
 
@@ -314,7 +330,7 @@
 		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
 		category = military
 		unlocking_technologies = {
-			tech_over_panamax_ship
+			tech_large_scale_automatic_welding
 		}
 	}
 	

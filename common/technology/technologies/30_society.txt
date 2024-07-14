@@ -220,6 +220,16 @@
 		}
 	}
 
+	tech_strategist = {
+		era = era_3
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
+
+		unlocking_technologies = {
+			tech_shopping_street
+		}
+	}
+
 
 ### ERA 4 = Tier3 
 	tech_mixed_use_commercial_facility = {
@@ -274,13 +284,42 @@
 		}
 	}
 	
-	tech_internet = {
+	tech_digital_tech = {
 		era = era_4
 		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
 		category = society
 
 		unlocking_technologies = {
 			tech_standardization
+		}
+	}
+
+	tech_internet = {
+		era = era_4
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
+
+		unlocking_technologies = {
+			tech_digital_tech
+		}
+	}
+
+	tech_business_process_re_engineering = {
+		era = era_4
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
+
+		unlocking_technologies = {
+			tech_strategist
+		}
+	}
+
+	tech_asbestos_regulation = {
+		era = era_4
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
+
+		unlocking_technologies = {
 		}
 	}
 
@@ -341,6 +380,7 @@
 			tech_mixed_use_commercial_facility
 		}
 	}
+
 	tech_eco_movement = {
 		era = era_5
 		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
@@ -351,3 +391,43 @@
 		}
 	}
 ### ERA 6 = Tier5
+
+	tech_artifical_culture = {
+		era = era_6
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
+
+		unlocking_technologies = {
+			
+		}
+	}
+
+	tech_smart_glass = {
+		era = era_6
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
+
+		unlocking_technologies = {
+			tech_holography
+		}
+	}
+
+	tech_sword_art_online = {
+		era = era_6
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
+
+		unlocking_technologies = {
+			tech_smart_glass
+		}
+	}
+
+	tech_blockchain = {
+		era = era_6
+		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+		category = society
+
+		unlocking_technologies = {
+			
+		}
+	}
