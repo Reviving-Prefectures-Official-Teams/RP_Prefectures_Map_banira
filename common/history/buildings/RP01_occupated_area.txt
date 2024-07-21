@@ -1,5 +1,5 @@
 ﻿BUILDINGS={
-	s:TATE_ETOROFU = {
+	s:STATE_ETOROFU = {
 		region_state:SRA = {
 			###administration
 			###agriculture

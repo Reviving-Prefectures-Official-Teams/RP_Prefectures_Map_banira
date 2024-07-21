@@ -16,6 +16,8 @@ STATE_IWAKI = {
         bg_bg_cryptomeria_forest = 20
         bg_chamaecyparis_obtusa_forest = 7
         bg_bg_castanopsis_forest = 8
+        bg_whaling = 10
+        bg_fishing = 10
     }
     naval_exit_id = 3059
 }
@@ -36,6 +38,8 @@ STATE_SOSO = {
         bg_minor_metals_mining = 6
         bg_bg_cryptomeria_forest = 21
         bg_chamaecyparis_obtusa_forest = 7
+        bg_whaling = 10
+        bg_fishing = 10
     }
     naval_exit_id = 3059
 }

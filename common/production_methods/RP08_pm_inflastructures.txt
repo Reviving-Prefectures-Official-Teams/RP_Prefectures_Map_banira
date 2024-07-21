@@ -293,10 +293,6 @@ pm_ai_security = {
 pm_dirt_road = {
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
-		workforce_scaled = {
-			goods_input_oil_add = 1
-		}
-
 		level_scaled = {
 			building_employment_laborers_add = 100
 		}
@@ -310,10 +306,13 @@ pm_dirt_road = {
 }
 #アスファルト
 pm_asphalt = {
+    unlocking_technologies = {
+        tech_petroleum_asphalt
+    }
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_oil_add = 1.5
+			goods_input_oil_add = 1
 		}
 
 		level_scaled = {
@@ -329,10 +328,13 @@ pm_asphalt = {
 }
 #ポリマー改質アスファルト
 pm_polymer_asphalt = {
+    unlocking_technologies = {
+        tech_polymer_modified_asphalt
+    }
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_oil_add = 2
+			goods_input_oil_add = 1.5
 		}
 
 		level_scaled = {
@@ -348,10 +350,13 @@ pm_polymer_asphalt = {
 }
 #高性能コンクリート
 pm_high_performance_concrete = {
+    unlocking_technologies = {
+        tech_inorganic_chemistry
+    }
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_oil_add = 2.5
+			goods_input_oil_add = 2
 		}
 
 		level_scaled = {
@@ -367,10 +372,13 @@ pm_high_performance_concrete = {
 }
 #自己修復舗装材料
 pm_self_repairing_pavement = {
+    unlocking_technologies = {
+        tech_smart_road
+    }
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_oil_add = 3
+			goods_input_oil_add = 2.5
 		}
 
 		level_scaled = {
@@ -399,6 +407,9 @@ pm_no_lighting = {
 }
 #蛍光灯
 pm_fluorescent_lamp = {
+    unlocking_technologies = {
+        tech_fluorescent_lamp
+    }
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
 		workforce_scaled = {
@@ -413,6 +424,9 @@ pm_fluorescent_lamp = {
 }
 #高圧ナトリウム灯
 pm_high_pressure_sodium_lamp = {
+    unlocking_technologies = {
+        tech_high_pressure_sodium_lamp
+    }
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
 		workforce_scaled = {
@@ -427,6 +441,9 @@ pm_high_pressure_sodium_lamp = {
 }
 #LED
 pm_led = {
+    unlocking_technologies = {
+        tech_LED_lighting
+    }
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
 		workforce_scaled = {
@@ -441,6 +458,9 @@ pm_led = {
 }
 #太陽光発電
 pm_solar_power = {
+    unlocking_technologies = {
+        tech_smart_road
+    }
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
 		workforce_scaled = {
@@ -509,6 +529,9 @@ pm_electric_engine = {
 }
 #磁気浮上
 pm_maglev = {
+    unlocking_technologies = {
+        tech_magnetic_levitation
+    }
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
 		workforce_scaled = {
@@ -525,6 +548,9 @@ pm_maglev = {
 }
 #水素ハイブリッド
 pm_hydrogen_hybrid = {
+    unlocking_technologies = {
+        tech_hybrid_railway
+    }
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
 		workforce_scaled = {
@@ -575,6 +601,9 @@ pm_steel_carriage = {
 }
 #アルミニウム製客車
 pm_aluminum_carriage = {
+    unlocking_technologies = {
+		tech_aluminum_alloy
+    }
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
 		workforce_scaled = {
@@ -622,6 +651,9 @@ pm_manned_operation = {
 }
 #ATO・ATC
 pm_ato_atc = {
+    unlocking_technologies = {
+		tech_automatic_train_operation
+    }
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
 		workforce_scaled = {
@@ -670,6 +702,9 @@ pm_interchange = {
 }
 #マルチモーダルインターチェンジ
 pm_multimodal_interchange = {
+    unlocking_technologies = {
+		tech_multimodal_interchange
+    }
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
 		workforce_scaled = {
@@ -686,6 +721,9 @@ pm_multimodal_interchange = {
 }
 #スマートハイウェイ
 pm_smart_highway = {
+    unlocking_technologies = {
+		tech_smart_road
+    }
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
 		workforce_scaled = {
@@ -703,6 +741,9 @@ pm_smart_highway = {
 }
 #自動運転車対応設計
 pm_autonomous_vehicle_design = {
+    unlocking_technologies = {
+		tech_level_5_autonomous_driving
+    }
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
 		workforce_scaled = {
@@ -724,6 +765,9 @@ pm_autonomous_vehicle_design = {
 ###鉄道設備
 #新幹線
 pm_shinkansen = {
+    unlocking_technologies = {
+		tech_electric_railway
+    }
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
 		workforce_scaled = {
@@ -740,6 +784,9 @@ pm_shinkansen = {
 }
 #超電動式リニア
 pm_linear = {
+    unlocking_technologies = {
+		tech_magnetic_levitation
+    }
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
 		workforce_scaled = {
@@ -756,6 +803,9 @@ pm_linear = {
 }
 #ハイパーループ
 pm_hyperloop = {
+    unlocking_technologies = {
+		tech_hyperloop
+    }
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
 		workforce_scaled = {
@@ -801,6 +851,9 @@ pm_old_coal_power = {
 }
 #高効率発電
 pm_high_efficiency_power = {
+    unlocking_technologies = {
+		tech_high_efficiency_turbine
+    }
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
 		workforce_scaled = {
@@ -816,6 +869,9 @@ pm_high_efficiency_power = {
 }
 #超臨界圧力ボイラー
 pm_ultra_supercritical_boiler = {
+    unlocking_technologies = {
+		tech_supercritical_pressure_power_generation
+    }
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
 		workforce_scaled = {
@@ -831,6 +887,9 @@ pm_ultra_supercritical_boiler = {
 }
 #高効率低排出
 pm_high_efficiency_low_emission = {
+    unlocking_technologies = {
+		tech_modularization_equipment
+    }
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
 		workforce_scaled = {
@@ -846,6 +905,9 @@ pm_high_efficiency_low_emission = {
 }
 #超々臨界圧力ボイラー
 pm_ultra_ultra_supercritical_boiler = {
+    unlocking_technologies = {
+		tech_nuclear_fusion
+    }
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
 		workforce_scaled = {
@@ -889,6 +951,9 @@ pm_light_oil_power = {
 }
 #重油火力
 pm_heavy_oil_power = {
+    unlocking_technologies = {
+		tech_high_efficiency_turbine
+    }
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
 		workforce_scaled = {
@@ -1055,6 +1120,9 @@ pm_no_power = {
 }
 #核融合炉
 pm_fusion_reactor = {
+    unlocking_technologies = {
+		tech_nuclear_fusion_reactor
+    }
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
 		workforce_scaled = {
@@ -1073,6 +1141,9 @@ pm_fusion_reactor = {
 ###風力
 #大型タービン
 pm_large_turbine = {
+    unlocking_technologies = {
+		tech_large_turbine
+    }
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
 		workforce_scaled = {
@@ -1088,6 +1159,9 @@ pm_large_turbine = {
 }
 #可変ピッチブレード
 pm_variable_pitch_blade = {
+    unlocking_technologies = {
+		tech_constant_speed_propeller
+    }
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
 		workforce_scaled = {
@@ -1103,6 +1177,9 @@ pm_variable_pitch_blade = {
 }
 #浮体式風力タービン
 pm_floating_wind_turbine = {
+    unlocking_technologies = {
+		tech_floating_wind_turbine
+    }
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
 		workforce_scaled = {
@@ -1118,6 +1195,9 @@ pm_floating_wind_turbine = {
 }
 #超大型タービン
 pm_super_large_turbine = {
+    unlocking_technologies = {
+		tech_super-large_turbine
+    }
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
 		workforce_scaled = {
@@ -1136,6 +1216,9 @@ pm_super_large_turbine = {
 ###太陽光
 #多結晶シリコン
 pm_polycrystalline_silicon = {
+    unlocking_technologies = {
+		tech_semiconductor
+    }
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
 		workforce_scaled = {
@@ -1152,6 +1235,9 @@ pm_polycrystalline_silicon = {
 }
 #集光型太陽光発電
 pm_concentrated_solar_power = {
+    unlocking_technologies = {
+		tech_concentrated_solar_power
+    }
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
 		workforce_scaled = {
@@ -1168,6 +1254,9 @@ pm_concentrated_solar_power = {
 }
 #透明太陽電池
 pm_transparent_solar_cell = {
+    unlocking_technologies = {
+		tech_nanomaterials_science
+    }
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
 		workforce_scaled = {
@@ -1184,6 +1273,9 @@ pm_transparent_solar_cell = {
 }
 #ペロブスカイト太陽電池
 pm_perovskite_solar_cell = {
+    unlocking_technologies = {
+		tech_perovskite_solar_cells
+    }
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
 		workforce_scaled = {
@@ -1202,6 +1294,9 @@ pm_perovskite_solar_cell = {
 ###水力
 #旧来の水力発電
 pm_old_hydro_power = {
+    unlocking_technologies = {
+		tech_hydroelectric_power
+    }
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
 		workforce_scaled = {
@@ -1217,6 +1312,9 @@ pm_old_hydro_power = {
 }
 #高効率タービン
 pm_high_efficiency_turbine = {
+    unlocking_technologies = {
+		tech_high_efficiency_turbine
+    }
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
 		workforce_scaled = {
