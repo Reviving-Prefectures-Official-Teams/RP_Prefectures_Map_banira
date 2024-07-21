@@ -112,7 +112,7 @@ pm_template = {
 #製作教育
 pm_art_school = {
 	unlocking_technologies = {
-		#技術
+		tech_modern_postmodernism
 	}
 	texture  = "gfx/interface/icons/production_method_icons/"
 

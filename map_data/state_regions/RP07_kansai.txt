@@ -7,7 +7,6 @@ STATE_KOSEI = {
         bg_logging = 20
     }
 }
-
 STATE_KONAN = {
     id = 52
     provinces = { "x2C6DD1" "x4BD3DD" "x6FBFDE" "x9ABBEA" "x9AC2AF" "x9EDBE0" "xA284ED" "xA4F768" "xB0E483" "xB1E263" "xB38CB9" "xB87BDD" "xC7C98F" "xD387F2" "xDAE3B2" "xE7F2C2" "xF37C8B" "xF5F734" "xF9CCA5" "xFA9180" "xFD8CB8" "xFF3F2F" "xFF7F2F" "xFFBF2F" }
@@ -16,7 +15,6 @@ STATE_KONAN = {
         bg_logging = 20
     }
 }
-
 STATE_KOTOU = {
     id = 53
     provinces = { "x5DC2FC" "x71F3E9" "x81A6F4" "x96A4FB" "xBF80ED" "xC6E4E2" "xC8C6FC" "xCCFCAF" "xE17FF1" "xE35DCB" "xE952D3" "xE9BAB9" "xF9FD72" "xFDF21F" }
@@ -25,7 +23,6 @@ STATE_KOTOU = {
         bg_logging = 20
     }
 }
-
 STATE_KOHOKU = {
     id = 54
     provinces = { "xB5CFA2" "xB5F1D2" "xD077B2" "xD2A894" "xD8C3E7" "xDFE3FD" "xE4D7B2" "xE662FC" "xEDDD9E" "xFC8779" "xFED471" }

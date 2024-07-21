@@ -8,7 +8,6 @@ STATE_YAMAGUCHI = {
     }
     naval_exit_id = 3016
 }
-
 STATE_HAGI = {
     id = 144
     provinces = { "x7BD9AD" "x88F0CA" "xAE51FB" "xB2F2D1" "xC6D6E9" "xD824FA" "xE1D3E1" "xE99379" "xEC6DA8" "xEEEF35" "xF1AEB2" "xFBB5FD" "xFE8F9D" }
@@ -20,7 +19,6 @@ STATE_HAGI = {
     }
     naval_exit_id = 3035
 }
-
 STATE_NAGATO = {
     id = 145
     provinces = { "x47FCFC" "x55D3DC" "x75F9AA" "x90B6F9" "x93CFBA" "x9ADFCD" "xA0FED9" "xA89DB4" "xAC5DF4" "xB5C1E9" "xC141F9" "xC5A2EF" "xDE70F4" "xE036F0" "xEDA8EF" "xEDE2A0" "xEDE5A3" "xF27DC4" "xF2DAFD" "xF638D2" "xFB53F5" "xFED1D8" }
@@ -32,7 +30,6 @@ STATE_NAGATO = {
     }
     naval_exit_id = 3017
 }
-
 STATE_YANAI = {
     id = 146
     provinces = { "x6CF5F1" "x72F59C" "xC2CDD3" "xDAEE51" "xF2F8E2" "xFAD89D" }
@@ -42,7 +39,6 @@ STATE_YANAI = {
     }
     naval_exit_id = 3015
 }
-
 STATE_UBE = {
     id = 147
     provinces = { "x2FEEE8" "x42D0F0" "x47E7E9" "x81A2FC" "x9EEB7F" "xAAFE86" "xABC2D3" "xCE95E5" "xD0DE72" "xDF7DBD" "xE0FEC4" "xE4F959" "xEFCC3D" "xF2D231" "xF47DF8" }
@@ -53,7 +49,6 @@ STATE_UBE = {
     }
     naval_exit_id = 3016
 }
-
 STATE_SHUNAN = {
     id = 148
     provinces = { "x64C9CB" "x84E19C" "xA4F3A2" "xA7B1B8" "xDFAD9C" "xE1A0E7" "xEBB090" "xF0A2AA" "xF8ADBE" "xF9F741" "xFF3F3F" }
@@ -64,7 +59,6 @@ STATE_SHUNAN = {
     }
     naval_exit_id = 3016
 }
-
 STATE_IWAKUNI = {
     id = 149
     provinces = { "x88B7CE" "x91ACDD" "xABDFBD" "xB4C090" "xB7C788" "xCEE0BD" "xD7E83B" "xE08AEF" "xE2AC9F" "xE5BBF3" "xF4EF2D" "xFA9BCA" "xFD87A8" }
@@ -75,8 +69,8 @@ STATE_IWAKUNI = {
     }
     naval_exit_id = 3015
 }
-#広島
 
+#広島
 STATE_HATSUKAICHI = {
     id = 150
     provinces = { "x08F1FC" "x4CC0FA" "x78FA8C" "xB0BFF7" "xB17BF9" "xB7FA49" "xC9B6FA" "xD5DDAD" "xD680A3" "xD8B966" "xEE8BCF" "xF3B66C" "xF4F46E" "xFC7CB4" }
@@ -86,7 +80,6 @@ STATE_HATSUKAICHI = {
     }
     naval_exit_id = 3015
 }
-
 STATE_HIROSHIMA = {
     id = 151
     provinces = { "x0FFBFD" "x53E7FD" "x6DB6FB" "x75EBAF" "x76D7C2" "x7CE19D" "x7DE6A1" "x7EEAC8" "x7FB8EC" "x83FCA9" "x958EE1" "x9AEED3" "xA6BBFB" "xA8E181" "xABFDBE" "xAE92D7" "xBECE9C" "xBFF652" "xC48DFA" "xC5EC78" "xC8E359" "xCAE18A" "xCCF470" "xD082E5" "xD0C6A8" "xD4DCCD" "xD784BE" "xDD65FD" "xDD6AAF" "xDD7BAD" "xE074D8" "xE3BEB6" "xE522F6" "xE7FC1F" "xEA93DE" "xECB1C6" "xEDBE81" "xEFB857" "xF258D3" "xF2F154" "xF82CFA" "xF849CA" "xFBF796" "xFD86F8" "xFE50F5" }
@@ -96,7 +89,6 @@ STATE_HIROSHIMA = {
     }
     naval_exit_id = 3015
 }
-
 STATE_KURE = {
     id = 152
     provinces = { "x42ECDA" "x45E3FE" "x62D7EF" "x66EEFD" "x6A97F7" "x6DD0BF" "x8CE7B2" "x91D5E1" "x96B4EC" "x9E93D1" "xA0CFAC" "xA294D2" "xACFA5E" "xB9CFB5" "xBA94D0" "xBAEAB7" "xC67BF6" "xC79BD8" "xD1B0B2" "xDEF19F" "xE25CC9" "xE291DB" "xE2C3A1" "xEDDEAF" "xEDE584" "xEEDAED" "xF0B0BA" "xF0EE3A" "xF266F0" "xF4B2C2" "xF54BEF" "xF8F4B8" "xFDFA32" }
@@ -106,7 +98,6 @@ STATE_KURE = {
     }
     naval_exit_id = 3015
 }
-
 STATE_GEIHOKU = {
     id = 153
     provinces = { "x55D8EF" "x6D93FB" "x81A5D5" "x8DC5A9" "x9FAEF2" "xA275FD" "xA2B3A1" "xA7E0B1" "xB68AF4" "xCF4DDA" "xD4CBA2" "xD991F7" "xD9CA64" "xD9E0F5" "xE2DA6B" "xE4E861" "xE5E17A" "xE5FE5B" "xEE88BD" "xF4987B" "xF5C64D" "xF6B152" "xFDC238" }
@@ -116,7 +107,6 @@ STATE_GEIHOKU = {
         bg_iron_mining = 20
     }
 }
-
 STATE_BINGO = {
     id = 154
     provinces = { "x4FEBF2" "x66DFE2" "x7AE4CF" "x83ACEB" "x84F4BC" "x9BFDCF" "xA3D2CF" "xA5F684" "xADF2F2" "xAEDD9F" "xB0C2FE" "xB395D2" "xB7BDAA" "xB7E7F9" "xB9CA98" "xBDDEF5" "xBE74CB" "xBEB5FD" "xC3F7DD" "xC487C2" "xCED0CD" "xD18DAF" "xD2ACB8" "xD4DFFA" "xD8C8BA" "xDEBD6F" "xDF5FFD" "xE49EEE" "xE5CAAF" "xE7CCDA" "xEAF1B3" "xF4E247" "xF8E87B" "xFAE9FE" "xFC90DA" "xFEFD15" }
@@ -127,7 +117,6 @@ STATE_BINGO = {
     }
     naval_exit_id = 3015
 }
-
 STATE_BIHOKU = {
     id = 155
     provinces = { "x26E4FD" "x39FCC2" "x40D8EA" "x5AEFAE" "x62C9FD" "x75ADFE" "x7BBFE8" "x7DFEC6" "x9CBCFA" "xA6E7CF" "xADD89E" "xB1EE79" "xB9BE83" "xBBFCBD" "xBDD57B" "xBFC5A7" "xBFEFFB" "xC8FEBC" "xCC5DFA" "xCF88BE" "xE07CBB" "xE1BDF7" "xE4BBAE" "xE4FB31" "xEA66F8" "xEC69E0" "xF0BED0" "xF2DA40" "xF49A6D" "xF4C43E" "xFE82EA" "xFEDDBC" }
@@ -137,8 +126,8 @@ STATE_BIHOKU = {
         bg_iron_mining = 20
     }
 }
-#岡山
 
+#岡山
 STATE_OKAYAMABIHOKU = {
     id = 156
     provinces = { "x08F6FE" "x33F2EE" "x68D5BF" "x72FBC4" "x7AB1CA" "x84DA9A" "x8CEEBE" "x8EBCB8" "x97B6DA" "x9B87ED" "xA0AEF4" "xA4D6EA" "xADE0EE" "xB0F475" "xBCB9D1" "xC194C5" "xC7D096" "xCCA8D0" "xD0A7BF" "xD1CF76" "xD285D9" "xD775DB" "xDDDC7E" "xE291AE" "xE6D287" "xE6E7F7" "xE7E686" "xE9DF50" "xEBF99A" "xF093D0" "xF230ED" "xF876F1" "xF888E6" "xF88D8A" "xFB41BB" "xFBEEC6" "xFEEEE2" "xFF2F3F" "xFFFF3F" }
@@ -148,8 +137,6 @@ STATE_OKAYAMABIHOKU = {
         bg_iron_mining = 20
     }
 }
-
-
 STATE_OKAYAMA = {
     id = 157
     provinces = { "x62CFE0" "x71DABB" "x83FBD9" "x8AF68D" "x94B9AF" "x96CBC1" "x9970FD" "x9CE6E0" "xA36EF2" "xABFA5A" "xACF5F2" "xB1F3CF" "xB3C5FD" "xB492CD" "xB58AF0" "xB6D66D" "xC5D769" "xC673FC" "xC7FA3D" "xCFC777" "xD6D8E0" "xDF43D3" "xDFE383" "xE24ED3" "xE2FEB5" "xED1AF9" "xF0A492" "xF3BD98" "xF5B8AB" "xF5F046" "xF648E2" "xFBEDE0" "xFCE139" "xFF3FFF" }
@@ -159,7 +146,6 @@ STATE_OKAYAMA = {
     }
     naval_exit_id = 3013
 }
-
 STATE_KURASHIKI = {
     id = 158
     provinces = { "x65EEC9" "x78D8AF" "x79F0F6" "x79F4DA" "x859CD7" "x9888E4" "xA0A5C2" "xA7ACBB" "xC282FB" "xD2CE70" "xD49BF6" "xD733FE" "xD8C68A" "xE7DFA4" "xEE68CD" "xF1E89C" "xF2ECB3" "xF6BE8B" }
@@ -169,7 +155,6 @@ STATE_KURASHIKI = {
     }
     naval_exit_id = 3014
 }
-
 STATE_BIZEN = {
     id = 159
     provinces = { "x5FC9CE" "x6AD1C3" "x97B6F0" "x99E677" "x9ABAFB" "x9B70FB" "xBA60EF" "xC3F272" "xC7D7D6" "xD3EDAA" "xD7D266" "xD7DEAC" "xD8A978" "xD8E4D5" "xEC76C0" "xEDAE7E" "xEDD6DF" "xF1AD97" "xFCC370" "xFEBFBF" }
@@ -180,7 +165,6 @@ STATE_BIZEN = {
     }
     naval_exit_id = 3013
 }
-
 STATE_BICCHU = {
     id = 160
     provinces = { "x72F9FD" "x77DEA3" "xB4BBE2" "xBADEC8" "xC092E6" "xC0A6B3" "xC3ED62" "xC573BF" "xCFC7DA" "xD1F3EA" "xDBD7A3" "xE0C360" "xE3F565" "xE4EFB6" "xEB8CDA" "xFBD199" "xFDC541" }
@@ -190,7 +174,6 @@ STATE_BICCHU = {
     }
     naval_exit_id = 3014
 }
-
 STATE_MIMASAKA = {
     id = 161
     provinces = { "x44D2EB" "x5BE4DA" "x61E6D1" "x74F99F" "x78AAE9" "x7BDDE7" "xAECFF8" "xB0D2BF" "xB1DA9F" "xB5A6E7" "xB7F771" "xB8D87B" "xC0FE3D" "xD4EB76" "xD5BE6B" "xD6C3DE" "xD865C1" "xD8CBA5" "xDF9CA8" "xE1C1C9" "xE4D891" "xE5DEAB" "xE6C7BF" "xE7D1D8" "xECB7C2" "xECDEA8" "xEECD6D" "xF3CE8E" "xF4ECB0" "xF6AD54" "xF6FB6C" "xF763CE" "xF7A9F5" "xF82FEC" "xF9AD91" }
@@ -200,8 +183,8 @@ STATE_MIMASAKA = {
         bg_iron_mining = 20
     }
 }
-#島根
 
+#島根
 STATE_MATSUE = {
     id = 162
     provinces = { "x35F0FD" "xAFC9CB" "xC7BDB3" "xCBA4E8" "xD999D3" "xDED85E" "xE39EAA" "xE4CED4" "xECCF6B" "xFBC4A9" }
@@ -211,7 +194,6 @@ STATE_MATSUE = {
     }
     naval_exit_id = 3036
 }
-
 STATE_IZUMO = {
     id = 163
     provinces = { "x0A0D6F" "x98AEC4" "xD2D564" "xD484BF" "xE4AC8E" "xF26BBE" "xF5FAA3" "xFA9377" "xFDAACB" "xFEC288" }
@@ -222,7 +204,6 @@ STATE_IZUMO = {
     }
     naval_exit_id = 3035
 }
-
 STATE_OKI = {
     id = 164
     provinces = { "x71D3F3" "x83D8B1" "x86FAD6" "x9EF0EB" "xA48FE2" "xA7F9BD" "xAB69EC" "xB0A9C1" "xCEE1BD" "xDAA1E2" "xEA92AD" "xECE172" "xEEB07F" "xF27DAB" "xF6B096" "xF7AD53" "xFD17F8" }
@@ -232,7 +213,6 @@ STATE_OKI = {
     }
     naval_exit_id = 3036
 }
-
 STATE_UNNAN = {
     id = 165
     provinces = { "x4AF1F8" "x50F7FB" "x5DF5EE" "x7DC5E1" "x84F4F2" "xABE2DA" "xBB8DCA" "xC2B3AF" "xCBDCA3" "xCD8CBA" "xCE8FA4" "xD6D5E0" "xDB50ED" "xDE73EB" "xE2BD66" "xE3C74B" "xE57CA2" "xEE8FF4" "xF2D7E3" }
@@ -242,7 +222,6 @@ STATE_UNNAN = {
         bg_lead_mining = 20
     }
 }
-
 STATE_HAMADA = {
     id = 166
     provinces = { "x17F4EA" "x3CF5F9" "x5DA2FA" "x72E8B2" "x7ECCE3" "x82CAB7" "x8A7BFB" "xA9B2D0" "xAC7DF5" "xB1F9C5" "xB490B4" "xB9F0C3" "xBA91DC" "xBDBED7" "xC2A9E9" "xC547F4" "xCD83B3" "xD1E1C8" "xD1E69C" "xD3D47D" "xD6B689" "xDCF633" "xE190E5" "xE269E0" "xE3C455" "xE7E139" "xE8A1E0" "xE8B2D8" "xEA8A81" "xEDB1A0" "xEFED98" "xF181A5" "xF2E58E" "xF8E4B4" "xFB79AF" "xFCADE8" }
@@ -254,7 +233,6 @@ STATE_HAMADA = {
     }
     naval_exit_id = 3035
 }
-
 STATE_MASUDA = {
     id = 167
     provinces = { "x57F1BD" "x62DCFD" "x62F1F4" "x91EDA3" "x99ADD0" "x9AECC3" "x9CF974" "x9CFCBD" "xA275ED" "xAFB5D1" "xC5A3E7" "xC7BFBF" "xCDEAB0" "xD4ABF7" "xD4D3BE" "xD93FEE" "xDFE263" "xE695AC" "xECA29A" "xEFFEDA" "xF2ADB8" "xF926E5" "xFADA3F" "xFDE4EA" }
@@ -266,8 +244,8 @@ STATE_MASUDA = {
     }
     naval_exit_id = 3035
 }
-#鳥取
 
+#鳥取
 STATE_TOTTORI = {
     id = 168
     provinces = { "x19F4EC" "x847FFA" "x8B89F6" "x9E7BF7" "xA5F279" "xA9D7D2" "xB1C7AA" "xBBC6E0" "xBE73ED" "xBF47EF" "xC880C2" "xCB75F6" "xCCEA4F" "xD0B9DC" "xD336ED" "xD7D5F3" "xE5D0F3" "xE75ED5" "xE795C2" "xEA80EF" "xF161BF" "xF7CECC" }
@@ -277,7 +255,6 @@ STATE_TOTTORI = {
     }
     naval_exit_id = 3038
 }
-
 STATE_YONAGO = {
     id = 169
     provinces = { "x64F5F4" "x7CECB4" "x81E3C8" "x8DCBE0" "x8DCEA2" "x98F574" "xA8A2C6" "xA9E7EA" "xAAF0EF" "xC2DA96" "xCEE4D6" "xD26CCA" "xD6C95F" "xD978F7" "xDA76EB" "xDCF9C2" "xE3FDCF" "xE499CD" "xEDFA42" "xF0D4DA" "xF79794" "xFFBF3F" }
@@ -288,7 +265,6 @@ STATE_YONAGO = {
     }
     naval_exit_id = 3036
 }
-
 STATE_KURAYOSHI = {
     id = 170
     provinces = { "x74BDEC" "x8988F9" "xA2C5D3" "xABF887" "xACCACE" "xB8C08F" "xCDA7B6" "xCF82BA" "xD299B7" "xD9889B" "xDF5BF5" "xEE9D83" "xF1D378" "xF693E4" "xF9AF79" "xF9C9F3" "xFCBE49" }
@@ -298,8 +274,8 @@ STATE_KURAYOSHI = {
     }
     naval_exit_id = 3038
 }
-#香川
 
+#香川
 STATE_TAKAMATSU = {
     id = 171
     provinces = { "x52CAF9" "x5CDBED" "xBA92E1" "xD454D3" "xD9D653" "xDCD7B9" "xE9E1C7" "xF78AF4" "xF9F17A" "xFEE12D" }
@@ -309,7 +285,6 @@ STATE_TAKAMATSU = {
     }
     naval_exit_id = 3013
 }
-
 STATE_MARUGAME = {
     id = 172
     provinces = { "x49E8E2" "x4FD7E0" "x66B6F6" "x66C0EC" "x90D0B4" "x94D2AC" "x9AE7C2" "xAEC8A5" "xD8B5DE" "xE89BCD" "xEAAFD8" "xFAA5DB" "xFBFB43" "xFEDDFE" }
@@ -319,7 +294,6 @@ STATE_MARUGAME = {
     }
     naval_exit_id = 3014
 }
-
 STATE_KOTOHIRA = {
     id = 173
     provinces = { "x72E2C8" "x80E9CA" "x9E9CF0" "xA2D8ED" "xF272C0" "xF49487" }
@@ -329,7 +303,6 @@ STATE_KOTOHIRA = {
     }
     naval_exit_id = 3014
 }
-
 STATE_SANUKI = {
     id = 174
     provinces = { "x20EFF9" "xAA7FDF" "xAFBD92" "xBEE57B" "xCFE098" "xDD9385" "xE4B65C" }
@@ -339,7 +312,6 @@ STATE_SANUKI = {
     }
     naval_exit_id = 3013
 }
-
 STATE_SHIWAKU = {
     id = 175
     provinces = { "xB189C0" "xB6B9E9" "xBAE2AA" "xC5F73B" "xCDEB48" "xED99D8" "xF729E4" "xFDDF95" }
@@ -349,7 +321,6 @@ STATE_SHIWAKU = {
     }
     naval_exit_id = 3014
 }
-
 STATE_SHODOSHIMA = {
     id = 176
     provinces = { "xAAE4D1" "xB2F263" "xBE7CDA" "xC2D778" "xE8EEF1" "xE9ABE9" "xFF7FFF" "xFFBFFF" "xFFFFFF" }
@@ -359,8 +330,8 @@ STATE_SHODOSHIMA = {
     }
     naval_exit_id = 3013
 }
-#徳島
 
+#徳島
 STATE_TOKUSHIMA = {
     id = 177
     provinces = { "x66C4D1" "x6BA8EA" "x86BFE1" "x9AE6F1" "x9C90F0" "xA3A3B9" "xC69AD2" "xC7F750" "xD2DE8A" "xD4C9FB" "xDCDC7A" "xE1FEC7" "xF2F81D" "xFD8FDE" }
@@ -370,7 +341,6 @@ STATE_TOKUSHIMA = {
     }
     naval_exit_id = 3010
 }
-
 STATE_NARUTO = {
     id = 178
     provinces = { "x5AEFC5" "x8EC2E5" "x98AAE5" "xA6D396" "xBBF9C2" "xBC72E0" "xDABEE6" "xEFEC33" "xFB6AF0" }
@@ -380,7 +350,6 @@ STATE_NARUTO = {
     }
     naval_exit_id = 3013
 }
-
 STATE_ANAN = {
     id = 179
     provinces = { "x06FBF8" "x24F7F0" "x67BBDB" "x6ECAE2" "x77FBB5" "x7FD3F2" "x91B9B1" "x96E483" "x9AF1B7" "xA5A6FC" "xA9D9D3" "xACA8B8" "xAFDEB2" "xB0DA6B" "xB7FE42" "xB9EFC0" "xC0F272" "xC6C4CB" "xCFE3E5" "xD3C8ED" "xE0DC8E" "xE66BFA" "xE97CF5" "xEB99A1" "xEDDB4E" "xF1CABC" "xF926EA" }
@@ -390,7 +359,6 @@ STATE_ANAN = {
     }
     naval_exit_id = 3010
 }
-
 STATE_MIYOSHI = {
     id = 180
     provinces = { "x8EEABF" "x918CD8" "x9992F6" "xA2E4FE" "xACECAB" "xB393C8" "xD8B7F7" "xDEB4A9" "xEAD735" "xF2F72A" "xF5D7CB" "xFDDC36" }
@@ -399,7 +367,6 @@ STATE_MIYOSHI = {
         bg_logging = 20
     }
 }
-
 STATE_YOSHINOGAWA = {
     id = 181
     provinces = { "x65DDC1" "x76F58E" "x83DD9D" "x9BE6FD" "xA3B2B3" "xBBABE7" "xD5D8DB" "xD666E2" "xEBC2F5" "xED51EC" "xF34DBD" "xF63CDD" }
@@ -408,8 +375,8 @@ STATE_YOSHINOGAWA = {
         bg_logging = 20
     }
 }
-#愛媛
 
+#愛媛
 STATE_TOYO = {
     id = 182
     provinces = { "x31FBFE" "x62DDC7" "x6AF6E4" "x6EEEE3" "x7EEAFA" "x7EF0CC" "x84B8C8" "xA499FC" "xAFC792" "xB469EB" "xB9DA82" "xC5B4B4" "xC77DB2" "xD3EF36" "xD7C1E9" "xE1F3D9" "xE29B7F" "xE7B1E6" "xEBF0BB" "xF0F2FB" "xF5D6A3" }
@@ -419,7 +386,6 @@ STATE_TOYO = {
     }
     naval_exit_id = 3014
 }
-
 STATE_CHUYO = {
     id = 183
     provinces = { "x22F8F4" "x22FCF4" "x36F4EC" "x4EE3F5" "x50DFF4" "x5CB1EA" "x61EFC8" "x6ECAE9" "x789FED" "x79CEE8" "x81D3A7" "x81E5E0" "x87B4BA" "x8897FA" "x8BB5CA" "x9490D5" "x9F9ACC" "xA3B5C4" "xA6AFB5" "xB1F0AE" "xB4A1DE" "xB5F3D2" "xC1FED2" "xC1FEDC" "xC493A9" "xCB5FFE" "xD6E971" "xE29490" "xE385D1" "xE48FD2" "xE5B2BF" "xE672D0" "xEE32F8" "xF39174" "xF3C261" "xF7CE3F" "xFAC7A0" }
@@ -429,7 +395,6 @@ STATE_CHUYO = {
     }
     naval_exit_id = 3015
 }
-
 STATE_NANYO = {
     id = 184
     provinces = { "x6AF7FA" "x6FCFEB" "x7FCAB0" "x94CE9C" "x97BAEA" "x987DFA" "xB5C9E8" "xB6DA67" "xBCB5D6" "xBD76F4" "xC2DBF6" "xC493AD" "xD2D9DD" "xD7A9DB" "xD8F2B4" "xE4B2A8" "xEDB1D3" "xF2CA3B" "xF380EB" "xF5BA6D" "xF88AE2" "xFE6E94" }
@@ -439,7 +404,6 @@ STATE_NANYO = {
     }
     naval_exit_id = 3018
 }
-
 STATE_UESHIMA = {
     id = 185
     provinces = { "x000000" "x85ECD2" "x89E5AA" "xA3F392" "xA4C8B2" "xB3FB9E" "xE556EE" "xF9EA3F" }
@@ -449,7 +413,6 @@ STATE_UESHIMA = {
     }
     naval_exit_id = 3015
 }
-
 STATE_SHIKOKUCHUOH = {
     id = 300
     provinces = { "x06F5FD" "x3BF8ED" "x66E7CF" "x93C3FB" "x96E3EE" "x9DD6E1" "xB0E17A" "xB1EE5B" "xCDF6B6" "xD1C591" "xDCE990" "xDE9AA3" "xE7E296" "xEBF4BD" "xF36BCC" "xF638F7" "xFBD25A" }
@@ -459,7 +422,6 @@ STATE_SHIKOKUCHUOH = {
     }
     naval_exit_id = 3014
 }
-
 STATE_SEYO = {
     id = 301
     provinces = { "x36D1FB" "x4EF9CB" "x5CECAD" "x7FEAB9" "x86CED4" "x8DBCE7" "x90C9A0" "x94F1B7" "x9EB2B5" "xB0E0A0" "xC0DB67" "xC65AFC" "xCAE454" "xD072E3" "xD485A4" "xD8F84B" "xDBFEBB" "xDF72DC" "xE383BC" "xE3CF54" "xE3E13E" "xE490BA" "xE8C766" "xF3C8AD" "xF5759C" }
@@ -469,8 +431,8 @@ STATE_SEYO = {
     }
     naval_exit_id = 3018
 }
-#高知
 
+#高知
 STATE_KOCHI = {
     id = 186
     provinces = { "x000000" "x39E3DE" "x8BDBED" "xA0E27E" "xA6D6FE" "xB3C1A8" "xD1B396" "xE6CBE6" "xF3CDF9" }
@@ -480,7 +442,6 @@ STATE_KOCHI = {
     }
     naval_exit_id = 3011
 }
-
 STATE_REIHOKU = {
     id = 187
     provinces = { "x52F8D8" "x8DD9C5" "xA0E775" "xAAACC4" "xACF494" "xB8B4F4" "xBFD0AF" "xBFE766" "xC5C88D" "xE4E3F0" "xE5D7A1" "xE9EF82" "xF28E7D" "xF8F90F" }
@@ -490,7 +451,6 @@ STATE_REIHOKU = {
         bg_iron_mining = 20
     }
 }
-
 STATE_NIYODO = {
     id = 188
     provinces = { "x18FCFE" "x7688F8" "x85F389" "x8C8DDF" "x95B6B2" "xAE7DD8" "xBACEE7" "xBCF1A7" "xCCC777" "xCECD62" "xCFB88C" "xD786D9" "xE4AE7E" "xE7F3B9" "xE8E634" "xECC7D2" "xF5E973" }
@@ -500,7 +460,6 @@ STATE_NIYODO = {
     }
     naval_exit_id = 3011
 }
-
 STATE_HATA = {
     id = 189
     provinces = { "x50EFCC" "x5FD5DA" "x70A9F0" "x77F5B4" "x7CC3F4" "x7E9EEF" "x7FEC8C" "x8D8DE1" "xA4C4AC" "xAA5EFA" "xB7ABF8" "xB7ECE5" "xBEA8C4" "xBEB1A4" "xC36DEC" "xC3E2AE" "xD2B79A" "xD5E498" "xDBE08B" "xE5CD80" "xE8A8E5" "xE9FD3A" "xEFA2DC" "xF2A083" "xFA60CF" "xFAAC9E" "xFBA5B0" }
@@ -510,7 +469,6 @@ STATE_HATA = {
     }
     naval_exit_id = 3018
 }
-
 STATE_ASHIZURI = {
     id = 190
     provinces = { "x3BECF9" "x6FF9CE" "x7AC3C7" "x81F9E7" "x86D1D1" "x93A8C6" "xA2D1B0" "xA7C999" "xABE77C" "xB1F656" "xB9ED60" "xC3BC9E" "xC8F240" "xC8FE47" "xD9C5FA" "xDC91B4" "xE096B8" "xE59DCC" "xE6CDF8" "xE6F566" "xEAECCC" "xF6B989" "xFF7F3F" }
@@ -520,7 +478,6 @@ STATE_ASHIZURI = {
     }
     naval_exit_id = 3011
 }
-
 STATE_AKI = {
     id = 302
     provinces = { "x32DCEE" "x70E4ED" "x7BA5FC" "x8CD6BE" "xB0DAE4" "xC6BAB9" "xD28DBC" "xDCBED4" "xE3E64A" "xEC7EE9" "xEDC840" "xEDFCD9" "xEFC16A" "xF5FB74" "xF64CED" "xF8997B" "xFC76E4" "xFDB26F" }
@@ -531,7 +488,6 @@ STATE_AKI = {
     }
     naval_exit_id = 3011
 }
-
 STATE_MONOBE = {
     id = 303
     provinces = { "x65C8CC" "x93D2DF" "xA1C9B4" "xABBDD9" "xBCB8CA" "xC361F4" "xC37BD1" "xCCDE7F" "xD8F659" "xEDDCB3" "xF0DBA3" "xF6AB60" "xF6F3DA" "xF8EBFE" }

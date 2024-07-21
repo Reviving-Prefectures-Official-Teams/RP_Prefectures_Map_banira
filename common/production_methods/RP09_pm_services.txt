@@ -435,6 +435,7 @@ pm_digital_distribution = {
 #モノクロ放送
 pm_monochrome_broadcasting = {
 	unlocking_technologies = {
+		tech_shortwave_broadcasting
 	}
 	texture = "gfx/interface/icons/production_method_icons/"
 
