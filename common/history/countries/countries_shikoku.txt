@@ -12,7 +12,7 @@
 
 		set_tax_level = medium
 		
-		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_parliamentary_republic
 		activate_law = law_type:law_autocracy 
 		activate_law = law_type:law_freedom_of_conscience
 		activate_law = law_type:law_serfdom
@@ -60,7 +60,7 @@
 
 		set_tax_level = medium
 		
-		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_parliamentary_republic
 		activate_law = law_type:law_autocracy 
 		activate_law = law_type:law_freedom_of_conscience
 		activate_law = law_type:law_serfdom
@@ -108,7 +108,7 @@
 
 		set_tax_level = medium
 		
-		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_parliamentary_republic
 		activate_law = law_type:law_autocracy 
 		activate_law = law_type:law_freedom_of_conscience
 		activate_law = law_type:law_serfdom
@@ -156,7 +156,7 @@
 
 		set_tax_level = medium
 		
-		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_parliamentary_republic
 		activate_law = law_type:law_autocracy 
 		activate_law = law_type:law_freedom_of_conscience
 		activate_law = law_type:law_serfdom
