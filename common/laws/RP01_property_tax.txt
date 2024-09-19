@@ -1,0 +1,81 @@
+﻿law_exempt_property_tax = {
+	group = lawgroup_property_tax
+
+	progressiveness = 50
+
+	tax_modifier_very_low = {
+		tax_land_add = 0
+	}	
+	
+	tax_modifier_low = {
+		tax_land_add = 0
+	}
+	
+	tax_modifier_medium = {
+		tax_land_add = 0
+	}	
+	
+	tax_modifier_high = {
+		tax_land_add = 0
+	}
+	
+	tax_modifier_very_high = {
+		tax_land_add = 0
+	}
+
+}
+
+law_land_tax = {
+	group = lawgroup_property_tax
+
+	progressiveness = 50
+
+	tax_modifier_very_low = {
+		tax_land_add = 0
+	}	
+	
+	tax_modifier_low = {
+		tax_land_add = 0
+	}
+	
+	tax_modifier_medium = {
+		tax_land_add = 0
+	}	
+	
+	tax_modifier_high = {
+		tax_land_add = 0
+	}
+	
+	tax_modifier_very_high = {
+		tax_land_add = 0
+	}
+
+}
+
+law_property_tax = {
+	group = lawgroup_property_tax
+
+	progressiveness = 50
+
+	tax_modifier_very_low = {
+		tax_land_add = 0
+	}	
+	
+	tax_modifier_low = {
+		tax_land_add = 0
+	}
+	
+	tax_modifier_medium = {
+		tax_land_add = 0
+	}	
+	
+	tax_modifier_high = {
+		tax_land_add = 0
+	}
+	
+	tax_modifier_very_high = {
+		tax_land_add = 0
+	}
+
+}
+

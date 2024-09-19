@@ -4,252 +4,215 @@
 # enable = {} trigger for whether laws in this group should be possible at all
 
 #power structure laws
-lawgroup_governance_principles = {
-	law_group_category = power_structure
-	base_enactment_days = 200
-	enactment_approval_mult = 2.0
-	affected_by_regime_change = yes
-	
-	progressive_movement_chance = 1
-	regressive_movement_chance = 0.25
-	
-	change_allowed_trigger = {
-		NAND = {
-			is_subject = yes
-			OR = {
-				is_subject_type = subject_type_personal_union
-				has_government_type = gov_chartered_company
-			}			
+	lawgroup_governance_principles = {
+		law_group_category = power_structure
+		base_enactment_days = 200
+		enactment_approval_mult = 2.0
+		affected_by_regime_change = yes
+		
+		progressive_movement_chance = 1
+		regressive_movement_chance = 0.25
+		
+		change_allowed_trigger = {
+			NAND = {
+				is_subject = yes
+				OR = {
+					is_subject_type = subject_type_personal_union
+					has_government_type = gov_chartered_company
+				}
+			}
 		}
 	}
-}
-
-lawgroup_distribution_of_power = {
-	law_group_category = power_structure
-	base_enactment_days = 150
-	affected_by_regime_change = yes
 	
-	progressive_movement_chance = 2.5
-	regressive_movement_chance = 0.25
-}
-
-lawgroup_citizenship = {
-	law_group_category = power_structure
-	affected_by_regime_change = yes
+	lawgroup_distribution_of_power = {
+		law_group_category = power_structure
+		base_enactment_days = 150
+		affected_by_regime_change = yes
+		
+		progressive_movement_chance = 2.5
+		regressive_movement_chance = 0.25
+	}
 	
-	progressive_movement_chance = 2
-	regressive_movement_chance = 0.25
-}
-
-lawgroup_church_and_state = {
-	law_group_category = power_structure
-	affected_by_regime_change = yes
+	lawgroup_bureaucracy = {
+		law_group_category = power_structure
+		affected_by_regime_change = yes
+		
+		progressive_movement_chance = 1.5
+		regressive_movement_chance = 0.05
+	}
 	
-	progressive_movement_chance = 2
-	regressive_movement_chance = 0.25
-}
-
-lawgroup_bureaucracy = {
-	law_group_category = power_structure
-	affected_by_regime_change = yes
+	lawgroup_policing = {
+		law_group_category = power_structure
+		
+		progressive_movement_chance = 1.5
+		regressive_movement_chance = 0.15
+	}
 	
-	progressive_movement_chance = 1.5
-	regressive_movement_chance = 0.05
-}
-
-lawgroup_army_model = {
-	law_group_category = power_structure
+	lawgroup_anti_gangs = {
+		law_group_category = power_structure
+		affected_by_regime_change = yes
+		
+		progressive_movement_chance = 1.5
+		regressive_movement_chance = 0.1
+	}
 	
-	progressive_movement_chance = 1.5
-	regressive_movement_chance = 0.1
-}
-
-lawgroup_conscription = {
-	law_group_category = power_structure
+	lawgroup_army_model = {
+		law_group_category = power_structure
+		
+		progressive_movement_chance = 1.5
+		regressive_movement_chance = 0.1
+	}
 	
-	progressive_movement_chance = 1.5
-	regressive_movement_chance = 0.1
-}
-
-lawgroup_internal_security = {
-	law_group_category = power_structure
-	affected_by_regime_change = yes
+	lawgroup_conscription = {
+		law_group_category = power_structure
+		
+		progressive_movement_chance = 1.5
+		regressive_movement_chance = 0.1
+	}
 	
-	progressive_movement_chance = 1.5
-	regressive_movement_chance = 0.1
-}
-
-lawgroup_anti_gangs = {
-	law_group_category = power_structure
-	affected_by_regime_change = yes
-	
-	progressive_movement_chance = 1.5
-	regressive_movement_chance = 0.1
-}
-
-lawgroup_doshusei = {
-	law_group_category = power_structure
-	affected_by_regime_change = yes
-	
-	progressive_movement_chance = 1.5
-	regressive_movement_chance = 0.1
-}
-
 #economy laws
-lawgroup_property_tax = {
-	law_group_category = economy
+	lawgroup_property_tax = {
+		law_group_category = economy
+		
+		progressive_movement_chance = 1.5
+		regressive_movement_chance = 0.15
+	}
 	
-	progressive_movement_chance = 1.5
-	regressive_movement_chance = 0.15
-}
-
-lawgroup_inhabitant_tax = {
-	law_group_category = economy
+	lawgroup_income_tax = {
+		law_group_category = economy
+		
+		progressive_movement_chance = 1.5
+		regressive_movement_chance = 0.15
+	}
 	
-	progressive_movement_chance = 1.5
-	regressive_movement_chance = 0.15
-}
+	lawgroup_luxury_tax = {
+		law_group_category = economy
+		
+		progressive_movement_chance = 1.5
+		regressive_movement_chance = 0.15
+	}
 
-lawgroup_income_tax = {
-	law_group_category = economy
+	# lawgroup_inhabitant_tax = {
+	# 	law_group_category = economy
+		
+	# 	progressive_movement_chance = 1.5
+	# 	regressive_movement_chance = 0.15
+	# }
+		
+	lawgroup_infrastructure_industry = {
+		law_group_category = economy
+		
+		progressive_movement_chance = 1.5
+		regressive_movement_chance = 0.15
+	}
 	
-	progressive_movement_chance = 1.5
-	regressive_movement_chance = 0.15
-}
-
-lawgroup_luxury_tax = {
-	law_group_category = economy
+	lawgroup_military_industry = {
+		law_group_category = economy
+		
+		progressive_movement_chance = 1.5
+		regressive_movement_chance = 0.15
+	}
 	
-	progressive_movement_chance = 1.5
-	regressive_movement_chance = 0.15
-}
-
-lawgroup_infrastructure_industry = {
-	law_group_category = economy
+	lawgroup_economic_system = {
+		law_group_category = economy	
+		base_enactment_days = 150
+		
+		progressive_movement_chance = 3
+		regressive_movement_chance = 0.15
+	}
 	
-	progressive_movement_chance = 1.5
-	regressive_movement_chance = 0.15
-}
-
-lawgroup_military_industry = {
-	law_group_category = economy
+	lawgroup_trade_policy = {
+		law_group_category = economy
 	
-	progressive_movement_chance = 1.5
-	regressive_movement_chance = 0.15
-}
-
-lawgroup_economic_system = {
-	law_group_category = economy	
-	base_enactment_days = 150
+		progressive_movement_chance = 1.5
+		regressive_movement_chance = 0.15
 	
-	progressive_movement_chance = 3
-	regressive_movement_chance = 0.15
-}
-
-lawgroup_trade_policy = {
-	law_group_category = economy
-
-	progressive_movement_chance = 1.5
-	regressive_movement_chance = 0.15
-
-	change_allowed_trigger = {
-		NOT = {
-			has_modifier = forced_market_opening
-		}
-	}	
-}
-
-lawgroup_environmental_protection = {
-	law_group_category = economy
+		change_allowed_trigger = {
+			NOT = {
+				has_modifier = forced_market_opening
+			}
+		}	
+	}
 	
-	progressive_movement_chance = 1.5
-	regressive_movement_chance = 0.15
-}
-
-lawgroup_agricultural_land_law = {
-	law_group_category = economy
-	enactment_approval_mult = 1.5 # people REALLY care about land reform
-
-	progressive_movement_chance = 3
-	regressive_movement_chance = 1
-}
-
+	lawgroup_environmental_protection = {
+		law_group_category = economy
+		
+		progressive_movement_chance = 1.5
+		regressive_movement_chance = 0.15
+	}
+	
+	lawgroup_agricultural_land_law = {
+		law_group_category = economy
+		enactment_approval_mult = 1.5 # people REALLY care about land reform
+	
+		progressive_movement_chance = 3
+		regressive_movement_chance = 1
+	}
+	
 #human rights laws
-
-lawgroup_education_system = {
-	law_group_category = economy
+	lawgroup_health_system = {
+		law_group_category = human_rights
+		
+		progressive_movement_chance = 2.5
+		regressive_movement_chance = 0.25			
+	}
 	
-	progressive_movement_chance = 2.5
-	regressive_movement_chance = 0.25	
-}
-
-lawgroup_health_system = {
-	law_group_category = economy
+	lawgroup_education_system = {
+		law_group_category = human_rights
+		
+		progressive_movement_chance = 2.5
+		regressive_movement_chance = 0.25	
+	}
 	
-	progressive_movement_chance = 2.5
-	regressive_movement_chance = 0.25			
-}
-
-lawgroup_welfare = {
-	law_group_category = human_rights
+	lawgroup_migration = {
+		law_group_category = human_rights
+		
+		progressive_movement_chance = 1
+		regressive_movement_chance = 0.255
+	}
 	
-	progressive_movement_chance = 2.5
-	regressive_movement_chance = 0.25	
-}
-
-lawgroup_migration = {
-	law_group_category = human_rights
+	lawgroup_disaster_act = {
+		law_group_category = human_rights
+		
+		progressive_movement_chance = 2.5
+		regressive_movement_chance = 0.25	
+	}
 	
-	progressive_movement_chance = 1
-	regressive_movement_chance = 0.255
-}
-
-lawgroup_free_speech = {
-	law_group_category = human_rights
+	lawgroup_citizenship = {
+		law_group_category = human_rights
+		affected_by_regime_change = yes
+		
+		progressive_movement_chance = 2
+		regressive_movement_chance = 0.25
+	}
 	
-	progressive_movement_chance = 2.5
-	regressive_movement_chance = 0.25	
-}
-
-lawgroup_labor_rights = {
-	law_group_category = human_rights
+	lawgroup_free_speech = {#court
+		law_group_category = human_rights
+		
+		progressive_movement_chance = 2.5
+		regressive_movement_chance = 0.25	
+	}
 	
-	progressive_movement_chance = 2.5
-	regressive_movement_chance = 0.25	
-}
-
-lawgroup_childrens_rights = {
-	law_group_category = human_rights
+	lawgroup_church_and_state = {
+		law_group_category = human_rights
+		affected_by_regime_change = yes
+		
+		progressive_movement_chance = 2
+		regressive_movement_chance = 0.25
+	}
 	
-	progressive_movement_chance = 2.5
-	regressive_movement_chance = 0.25	
-}
-
-lawgroup_organ_trade = {
-	law_group_category = human_rights
-	enactment_approval_mult = 2.0
-	base_enactment_days = 150
+	lawgroup_federal_reconstruct_attitude = {
+		law_group_category = other
+		base_enactment_days = 150
+		
+		progressive_movement_chance = 1.5
+		regressive_movement_chance = 0.25
+	}
 	
-	progressive_movement_chance = 5
-	regressive_movement_chance = 0.25
-	
-	change_allowed_trigger = {
-		NOT = {
-			has_modifier = forced_slavery_ban
-		}
-	}	
-}
-
-lawgroup_non_profit_organizations = {
-	law_group_category = economy
-	
-	progressive_movement_chance = 1.5
-	regressive_movement_chance = 0.15
-}
-
-lawgroup_policing = {
-	law_group_category = economy
-	
-	progressive_movement_chance = 1.5
-	regressive_movement_chance = 0.15
-}
+	lawgroup_gun_control = {
+		law_group_category = other
+		base_enactment_days = 75
+		
+		progressive_movement_chance = 1.5
+		regressive_movement_chance = 0.25
+	}

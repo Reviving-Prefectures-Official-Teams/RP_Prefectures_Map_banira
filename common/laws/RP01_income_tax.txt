@@ -1,0 +1,56 @@
+﻿# group = this is the law_group a law belongs to
+# icon = graphical icon shown in-game
+# modifier = {} modifier on country for having adopted this law
+law_no_income_tax = {
+	group = lawgroup_income_tax
+
+	progressiveness = 50
+
+	tax_modifier_very_low = {
+		tax_income_add = 0
+	}	
+	
+	tax_modifier_low = {
+		tax_income_add = 0
+	}
+	
+	tax_modifier_medium = {
+		tax_income_add = 0
+	}	
+	
+	tax_modifier_high = {
+		tax_income_add = 0
+	}
+	
+	tax_modifier_very_high = {
+		tax_income_add = 0
+	}
+
+}
+
+law_single_income_tax = {
+	group = lawgroup_income_tax
+
+	progressiveness = 50
+
+	tax_modifier_very_low = {
+		tax_income_add = 0.20
+	}	
+	
+	tax_modifier_low = {
+		tax_income_add = 0.20
+	}
+	
+	tax_modifier_medium = {
+		tax_income_add = 0.20
+	}	
+	
+	tax_modifier_high = {
+		tax_income_add = 0.20
+	}
+	
+	tax_modifier_very_high = {
+		tax_income_add = 0.20
+	}
+
+}

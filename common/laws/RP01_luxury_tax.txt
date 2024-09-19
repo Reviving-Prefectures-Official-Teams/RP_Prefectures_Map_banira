@@ -1,0 +1,26 @@
+law_no_luxury_tax = {
+	group = lawgroup_luxury_tax
+
+	progressiveness = 50
+
+	tax_modifier_very_low = {
+		tax_consumption_add = 0.1
+	}	
+	
+	tax_modifier_low = {
+		tax_consumption_add = 0.1
+	}
+	
+	tax_modifier_medium = {
+		tax_consumption_add = 0.1
+	}	
+	
+	tax_modifier_high = {
+		tax_consumption_add = 0.1
+	}
+	
+	tax_modifier_very_high = {
+		tax_consumption_add = 0.1
+	}
+
+}
