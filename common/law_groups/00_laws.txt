@@ -91,13 +91,33 @@
 		progressive_movement_chance = 1.5
 		regressive_movement_chance = 0.15
 	}
-
+	
 	# lawgroup_inhabitant_tax = {
 	# 	law_group_category = economy
 		
 	# 	progressive_movement_chance = 1.5
 	# 	regressive_movement_chance = 0.15
 	# }
+
+	lawgroup_npo = {
+		law_group_category = economy
+		
+		progressive_movement_chance = 1.5
+		regressive_movement_chance = 0.15
+	}
+	
+	lawgroup_trade_policy = {
+		law_group_category = economy
+	
+		progressive_movement_chance = 1.5
+		regressive_movement_chance = 0.15
+	
+		change_allowed_trigger = {
+			NOT = {
+				has_modifier = forced_market_opening
+			}
+		}	
+	}
 		
 	lawgroup_infrastructure_industry = {
 		law_group_category = economy
@@ -119,19 +139,6 @@
 		
 		progressive_movement_chance = 3
 		regressive_movement_chance = 0.15
-	}
-	
-	lawgroup_trade_policy = {
-		law_group_category = economy
-	
-		progressive_movement_chance = 1.5
-		regressive_movement_chance = 0.15
-	
-		change_allowed_trigger = {
-			NOT = {
-				has_modifier = forced_market_opening
-			}
-		}	
 	}
 	
 	lawgroup_environmental_protection = {
@@ -200,6 +207,8 @@
 		progressive_movement_chance = 2
 		regressive_movement_chance = 0.25
 	}
+
+#Federal Laws
 	
 	lawgroup_federal_reconstruct_attitude = {
 		law_group_category = other
