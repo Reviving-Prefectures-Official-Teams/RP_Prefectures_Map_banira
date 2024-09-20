@@ -1,7 +1,7 @@
 ﻿COUNTRIES = {
 	#山口
 	c:YMC ?= {
-		effect_starting_technology_tier_4_tech = yes
+		effect_starting_technology = yes
 
 		add_technology_researched = academia
 		add_technology_researched = urban_planning
@@ -49,7 +49,7 @@
 	}
 	#広島
 	c:HRS ?= {
-		effect_starting_technology_tier_4_tech = yes
+		effect_starting_technology = yes
 
 		add_technology_researched = academia
 		add_technology_researched = urban_planning
@@ -97,7 +97,7 @@
 	}
 	#岡山
 	c:OKY ?= {
-		effect_starting_technology_tier_4_tech = yes
+		effect_starting_technology = yes
 
 		add_technology_researched = academia
 		add_technology_researched = urban_planning
@@ -146,7 +146,7 @@
 	}
 	#鳥取
 	c:TTR ?= {
-		effect_starting_technology_tier_4_tech = yes
+		effect_starting_technology = yes
 
 		add_technology_researched = academia
 		add_technology_researched = urban_planning
@@ -194,7 +194,7 @@
 	}
 	#島根
 	c:SMN ?= {
-		effect_starting_technology_tier_4_tech = yes
+		effect_starting_technology = yes
 
 		add_technology_researched = academia
 		add_technology_researched = urban_planning

@@ -1,7 +1,7 @@
 ﻿COUNTRIES = {
 	#香川
 	c:KAG ?= {
-		effect_starting_technology_tier_4_tech = yes
+		effect_starting_technology = yes
 
 		add_technology_researched = academia
 		add_technology_researched = urban_planning
@@ -49,7 +49,7 @@
 	}
 	#愛媛
 	c:EHI ?= {
-		effect_starting_technology_tier_4_tech = yes
+		effect_starting_technology = yes
 
 		add_technology_researched = academia
 		add_technology_researched = urban_planning
@@ -97,7 +97,7 @@
 	}
 	#高知
 	c:KCH ?= {
-		effect_starting_technology_tier_4_tech = yes
+		effect_starting_technology = yes
 
 		add_technology_researched = academia
 		add_technology_researched = urban_planning
@@ -145,7 +145,7 @@
 	}
 	#徳島
 	c:TKS ?= {
-		effect_starting_technology_tier_4_tech = yes
+		effect_starting_technology = yes
 
 		add_technology_researched = academia
 		add_technology_researched = urban_planning
