@@ -112,7 +112,7 @@ popneed_drinks = {
 
 #高級飲料
 popneed_luxury_drinks = {
-	default = 
+	default = drink
 
 	entry = {
 		goods = water
@@ -257,6 +257,19 @@ popneed_simple_clothing = {
 		min_supply_share = 0.0
 	}	
 	
+	entry = {
+		goods = clothes
+		
+		weight = 2
+		max_supply_share = 1.0
+		min_supply_share = 0.0
+	}
+}
+
+#基本的な衣類
+popneed_standard_clothing = {
+	default = clothes
+
 	entry = {
 		goods = clothes
 		
@@ -607,7 +620,7 @@ popneed_property = { #建築サービス 美術品 金融商品 高級車 航空
 	}
 
 	entry = {
-		goods = automobiles
+		goods = luxury_cars
 		
 		weight = 1
 		max_supply_share = 0.5

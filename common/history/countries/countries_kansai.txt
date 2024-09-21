@@ -1,6 +1,6 @@
 ﻿COUNTRIES = {
 	c:OSK ?= {
-		effect_starting_technology_tier_2_tech = yes
+		effect_starting_technology = yes
 		effect_starting_politics_conservative = yes
 
 		add_technology_researched = atmospheric_engine
@@ -39,7 +39,7 @@
 		}
 	}
 	c:KYT ?= {
-		effect_starting_technology_tier_2_tech = yes
+		effect_starting_technology = yes
 		effect_starting_politics_conservative = yes
 
 		add_technology_researched = atmospheric_engine
@@ -71,7 +71,7 @@
 		}		
 	}
 	c:HYG ?= {
-		effect_starting_technology_tier_2_tech = yes
+		effect_starting_technology = yes
 		effect_starting_politics_conservative = yes
 
 		add_technology_researched = atmospheric_engine
@@ -103,7 +103,7 @@
 		}		
 	}
 	c:SHG ?= {
-		effect_starting_technology_tier_2_tech = yes
+		effect_starting_technology = yes
 		effect_starting_politics_conservative = yes
 
 		add_technology_researched = atmospheric_engine
@@ -135,7 +135,7 @@
 		}		
 	}
 	c:NAR ?= {
-		effect_starting_technology_tier_2_tech = yes
+		effect_starting_technology = yes
 		effect_starting_politics_conservative = yes
 
 		add_technology_researched = atmospheric_engine
@@ -167,7 +167,7 @@
 		}		
 	}
 	c:WAK ?= {
-		effect_starting_technology_tier_2_tech = yes
+		effect_starting_technology = yes
 		effect_starting_politics_conservative = yes
 
 		add_technology_researched = atmospheric_engine
@@ -199,7 +199,7 @@
 		}		
 	}
 	c:MIE ?= {
-		effect_starting_technology_tier_2_tech = yes
+		effect_starting_technology = yes
 		effect_starting_politics_conservative = yes
 
 		add_technology_researched = atmospheric_engine
@@ -231,7 +231,7 @@
 		}		
 	}
 	c:FKI ?= {
-		effect_starting_technology_tier_2_tech = yes
+		effect_starting_technology = yes
 		effect_starting_politics_conservative = yes
 
 		add_technology_researched = atmospheric_engine

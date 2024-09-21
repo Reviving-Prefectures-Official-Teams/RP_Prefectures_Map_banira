@@ -1,7 +1,7 @@
 ﻿COUNTRIES = {
 	#福岡
 	c:FKO ?= {
-		effect_starting_technology_tier_4_tech = yes
+		effect_starting_technology = yes
 
 		add_technology_researched = academia
 		add_technology_researched = urban_planning
@@ -49,7 +49,7 @@
 	}
 	#長崎
 	c:NGS ?= {
-		effect_starting_technology_tier_4_tech = yes
+		effect_starting_technology = yes
 
 		add_technology_researched = academia
 		add_technology_researched = urban_planning
@@ -97,7 +97,7 @@
 	}
 	#佐賀
 	c:SAG ?= {
-		effect_starting_technology_tier_4_tech = yes
+		effect_starting_technology = yes
 
 		add_technology_researched = academia
 		add_technology_researched = urban_planning
@@ -145,7 +145,7 @@
 	}
 	#大分
 	c:OIT ?= {
-		effect_starting_technology_tier_4_tech = yes
+		effect_starting_technology = yes
 
 		add_technology_researched = academia
 		add_technology_researched = urban_planning
@@ -193,7 +193,7 @@
 	}
 	#熊本
 	c:KUM ?= {
-		effect_starting_technology_tier_4_tech = yes
+		effect_starting_technology = yes
 
 		add_technology_researched = academia
 		add_technology_researched = urban_planning
@@ -241,7 +241,7 @@
 	}
 	#宮崎
 	c:MYZ ?= {
-		effect_starting_technology_tier_4_tech = yes
+		effect_starting_technology = yes
 
 		add_technology_researched = academia
 		add_technology_researched = urban_planning
@@ -289,7 +289,7 @@
 	}
 	#鹿児島
 	c:KGS ?= {
-		effect_starting_technology_tier_4_tech = yes
+		effect_starting_technology = yes
 
 		add_technology_researched = academia
 		add_technology_researched = urban_planning
@@ -337,7 +337,7 @@
 	}
 	#沖縄
 	c:OKI ?= {
-		effect_starting_technology_tier_4_tech = yes
+		effect_starting_technology = yes
 
 		add_technology_researched = academia
 		add_technology_researched = urban_planning
@@ -385,7 +385,7 @@
 	}
 	#八重山
 	c:YAE ?= {
-		effect_starting_technology_tier_4_tech = yes
+		effect_starting_technology = yes
 
 		add_technology_researched = academia
 		add_technology_researched = urban_planning
@@ -433,7 +433,7 @@
 	}
 	#奄美
 	c:AMA ?= {
-		effect_starting_technology_tier_4_tech = yes
+		effect_starting_technology = yes
 
 		add_technology_researched = academia
 		add_technology_researched = urban_planning
@@ -481,7 +481,7 @@
 	}
 	#大東島
 	c:DAT ?= {
-		effect_starting_technology_tier_4_tech = yes
+		effect_starting_technology = yes
 
 		add_technology_researched = academia
 		add_technology_researched = urban_planning
@@ -529,7 +529,7 @@
 	}
 	#トカラ
 	c:TKR ?= {
-		effect_starting_technology_tier_4_tech = yes
+		effect_starting_technology = yes
 
 		add_technology_researched = academia
 		add_technology_researched = urban_planning
@@ -577,7 +577,7 @@
 	}
 	#対馬
 	c:TSM ?= {
-		effect_starting_technology_tier_4_tech = yes
+		effect_starting_technology = yes
 
 		add_technology_researched = academia
 		add_technology_researched = urban_planning
@@ -625,7 +625,7 @@
 	}
 	#沖縄
 	c:USR ?= {
-		effect_starting_technology_tier_4_tech = yes
+		effect_starting_technology = yes
 
 		add_technology_researched = academia
 		add_technology_researched = urban_planning
@@ -673,7 +673,7 @@
 	}
 	#沖縄
 	c:SRA ?= {
-		effect_starting_technology_tier_4_tech = yes
+		effect_starting_technology = yes
 
 		add_technology_researched = academia
 		add_technology_researched = urban_planning

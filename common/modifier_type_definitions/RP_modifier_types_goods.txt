@@ -1,803 +1,1454 @@
-﻿#sake 酒
-goods_input_sake_add = {
-	good = yes
-	percent = no
+﻿#### MOD追加の商品のModifierを設定。
+## 商品一覧================
+# 書籍	books
+# ビール	beer
+# 飲料	drink
+# 菓子	sweets
+# 日本酒	sake
+# 乳製品	dairy_products
+# ウラン	uranium
+# レアメタル	minor_metals
+# 浄水	water
+# 石綿	asbestos
+# 天然ガス	gas
+# 宇宙旅行	space_travel
+# 楽器	musical_instruments
+# 金融商品	finance
+# 高級車	luxury_cars
+# 高級食品	luxury_food
+# カメラ	camera
+# ゲーム機	game_console
+# コンピュータ	computers
+# ドローン	drone
+# ロボット	robot
+# 家電	home_appliances
+# 大型船舶	tankers
+# 薬剤	medicine
+# Webサービス	web
+# メディアコンテンツ	media_contents
+# 医療	medical
+# 建築サービス	construction
+# 専門サービス	professionals
+# 旅行	travel
+#=========================
+
+# サンプル
+# イベントなどで生産量を乗算する際のトリガー
+# goods_output_sample_mult={
+# 	decimals=1
+# 	color=good
+# 	percent=yes
+# 	game_data={
+# 		ai_value=0
+# 	}
+# }
+# サンプル：建設局のインフラ使用
+# building_group_bg_construction_infrastructure_usage_mult={
+# 	decimals=0
+# 	color=bad
+# 	percent=yes
+# 	game_data={
+# 		ai_value=0
+# 	}
+# }
+# 
+# 参考:バニラstatic_modifier内の記述
+# liquor_production_ban = {
+# 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
+# 	goods_output_liquor_mult = -1.0
+# }
+#
+# 参考：勢力圏の原則、power_bloc_principles内の記述　(建築2)
+# building_group_bg_construction_infrastructure_usage_mult = -0.75
+
+goods_input_books_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
 }
 
-goods_output_sake_add = {
-	good = yes
-	percent = no
-}
-
-goods_input_sake_mult = {
-	good = yes
-	percent = yes
-}
-
-goods_output_sake_mult = {
-	good = yes
-	percent = yes
-}
-
-#dairy_products 乳製品
-goods_input_dairy_products_add = {
-	good = yes
-	percent = no
-}
-
-goods_output_dairy_products_add = {
-	good = yes
-	percent = no
-}
-
-goods_input_dairy_products_mult = {
-	good = yes
-	percent = yes
-}
-
-goods_output_dairy_products_mult = {
-	good = yes
-	percent = yes
-}
-
-#vegetables 野菜
-goods_input_vegetables_add = {
-	good = yes
-	percent = no
-}
-
-goods_output_vegetables_add = {
-	good = yes
-	percent = no
-}
-
-goods_input_vegetables_mult = {
-	good = yes
-	percent = yes
-}
-
-goods_output_vegetables_mult = {
-	good = yes
-	percent = yes
-}
-#magazines 雑誌
-goods_input_magazines_add = {
-	good = yes
-	percent = no
-}
-
-goods_output_magazines_add = {
-	good = yes
-	percent = no
-}
-
-goods_input_magazines_mult = {
-	good = yes
-	percent = yes
-}
-
-goods_output_magazines_mult = {
-	good = yes
-	percent = yes
-}
-#newspapers 新聞
-goods_input_newspapers_add = {
-	good = yes
-	percent = no
-}
-
-goods_output_newspapers_add = {
-	good = yes
-	percent = no
-}
-
-goods_input_newspapers_mult = {
-	good = yes
-	percent = yes
-}
-
-goods_output_newspapers_mult = {
-	good = yes
-	percent = yes
-}
-#beer ビール
 goods_input_beer_add = {
-	good = yes
-	percent = no
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
 }
 
-goods_output_beer_add = {
-	good = yes
-	percent = no
+goods_input_drink_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
 }
 
-goods_input_beer_mult = {
-	good = yes
-	percent = yes
-}
-
-goods_output_beer_mult = {
-	good = yes
-	percent = yes
-}
-#gas ガス
-goods_input_gas_add = {
-	good = yes
-	percent = no
-}
-
-goods_output_gas_add = {
-	good = yes
-	percent = no
-}
-
-goods_input_gas_mult = {
-	good = yes
-	percent = yes
-}
-
-goods_output_gas_mult = {
-	good = yes
-	percent = yes
-}
-#minor_metals レアメタル
-goods_input_minor_metals_add = {
-	good = yes
-	percent = no
-}
-
-goods_output_minor_metals_add = {
-	good = yes
-	percent = no
-}
-
-goods_input_minor_metals_mult = {
-	good = yes
-	percent = yes
-}
-
-goods_output_minor_metals_mult = {
-	good = yes
-	percent = yes
-}
-#water 水
-goods_input_water_add = {
-	good = yes
-	percent = no
-}
-
-goods_output_water_add = {
-	good = yes
-	percent = no
-}
-
-goods_input_water_mult = {
-	good = yes
-	percent = yes
-}
-
-goods_output_water_mult = {
-	good = yes
-	percent = yes
-}
-#uranium ウラン
-goods_input_uranium_add = {
-	good = yes
-	percent = no
-}
-
-goods_output_uranium_add = {
-	good = yes
-	percent = no
-}
-
-goods_input_uranium_mult = {
-	good = yes
-	percent = yes
-}
-
-goods_output_uranium_mult = {
-	good = yes
-	percent = yes
-}
-#computers コンピュータ
-goods_input_computers_add = {
-	good = yes
-	percent = no
-}
-
-goods_output_computers_add = {
-	good = yes
-	percent = no
-}
-
-goods_input_computers_mult = {
-	good = yes
-	percent = yes
-}
-
-goods_output_computers_mult = {
-	good = yes
-	percent = yes
-}
-#plastics プラスチック
-goods_input_plastics_add = {
-	good = yes
-	percent = no
-}
-
-goods_output_plastics_add = {
-	good = yes
-	percent = no
-}
-
-goods_input_plastics_mult = {
-	good = yes
-	percent = yes
-}
-
-goods_output_plastics_mult = {
-	good = yes
-	percent = yes
-}
-#asbestos アスベスト
-goods_input_asbestos_add = {
-	good = yes
-	percent = no
-}
-
-goods_output_asbestos_add = {
-	good = yes
-	percent = no
-}
-
-goods_input_asbestos_mult = {
-	good = yes
-	percent = yes
-}
-
-goods_output_asbestos_mult = {
-	good = yes
-	percent = yes
-}
-#tankers タンカー
-goods_input_tankers_add = {
-	good = yes
-	percent = no
-}
-
-goods_output_tankers_add = {
-	good = yes
-	percent = no
-}
-
-goods_input_tankers_mult = {
-	good = yes
-	percent = yes
-}
-
-goods_output_tankers_mult = {
-	good = yes
-	percent = yes
-}
-#container_ships コンテナ船
-goods_input_container_ships_add = {
-	good = yes
-	percent = no
-}
-
-goods_output_container_ships_add = {
-	good = yes
-	percent = no
-}
-
-goods_input_container_ships_mult = {
-	good = yes
-	percent = yes
-}
-
-goods_output_container_ships_mult = {
-	good = yes
-	percent = yes
-}
-#luxury_food 高級食品
-goods_input_luxury_food_add = {
-	good = yes
-	percent = no
-}
-
-goods_output_luxury_food_add = {
-	good = yes
-	percent = no
-}
-
-goods_input_luxury_food_mult = {
-	good = yes
-	percent = yes
-}
-
-goods_output_luxury_food_mult = {
-	good = yes
-	percent = yes
-}
-#luxury_cars 高級車
-goods_input_luxury_cars_add = {
-	good = yes
-	percent = no
-}
-
-goods_output_luxury_cars_add = {
-	good = yes
-	percent = no
-}
-
-goods_input_luxury_cars_mult = {
-	good = yes
-	percent = yes
-}
-
-goods_output_luxury_cars_mult = {
-	good = yes
-	percent = yes
-}
-#camera カメラ
-goods_input_camera_add = {
-	good = yes
-	percent = no
-}
-
-goods_output_camera_add = {
-	good = yes
-	percent = no
-}
-
-goods_input_camera_mult = {
-	good = yes
-	percent = yes
-}
-
-goods_output_camera_mult = {
-	good = yes
-	percent = yes
-}
-#game_console ゲーム機
-goods_input_game_console_add = {
-	good = yes
-	percent = no
-}
-
-goods_output_game_console_add = {
-	good = yes
-	percent = no
-}
-
-goods_input_game_console_mult = {
-	good = yes
-	percent = yes
-}
-
-goods_output_game_console_mult = {
-	good = yes
-	percent = yes
-}
-#drone ドローン
-goods_input_drone_add = {
-	good = yes
-	percent = no
-}
-
-goods_output_drone_add = {
-	good = yes
-	percent = no
-}
-
-goods_input_drone_mult = {
-	good = yes
-	percent = yes
-}
-
-goods_output_drone_mult = {
-	good = yes
-	percent = yes
-}
-#home_appliance 家電
-goods_input_home_appliances_add = {
-	good = yes
-	percent = no
-}
-
-goods_output_home_appliances_add = {
-	good = yes
-	percent = no
-}
-
-goods_input_home_appliances_mult = {
-	good = yes
-	percent = yes
-}
-
-goods_output_home_appliances_mult = {
-	good = yes
-	percent = yes
-}
-#musical_instruments 楽器
-goods_input_musical_instruments_add = {
-	good = yes
-	percent = no
-}
-
-goods_output_musical_instruments_add = {
-	good = yes
-	percent = no
-}
-
-goods_input_musical_instruments_mult = {
-	good = yes
-	percent = yes
-}
-
-goods_output_musical_instruments_mult = {
-	good = yes
-	percent = yes
-}
-#luxury_fish 高級魚
-goods_input_luxury_fish_add = {
-	good = yes
-	percent = no
-}
-
-goods_output_luxury_fish_add = {
-	good = yes
-	percent = no
-}
-
-goods_input_luxury_fish_mult = {
-	good = yes
-	percent = yes
-}
-
-goods_output_luxury_fish_mult = {
-	good = yes
-	percent = yes
-}
-#movie 映画
-goods_input_movie_add = {
-	good = yes
-	percent = no
-}
-
-goods_output_movie_add = {
-	good = yes
-	percent = no
-}
-
-goods_input_movie_mult = {
-	good = yes
-	percent = yes
-}
-
-goods_output_movie_mult = {
-	good = yes
-	percent = yes
-}
-#web 情報サービス
-goods_input_web_add = {
-	good = yes
-	percent = no
-}
-
-goods_output_web_add = {
-	good = yes
-	percent = no
-}
-
-goods_input_web_mult = {
-	good = yes
-	percent = yes
-}
-
-goods_output_web_mult = {
-	good = yes
-	percent = yes
-}
-#medical 医療サービス
-goods_input_medical_add = {
-	good = yes
-	percent = no
-}
-
-goods_output_medical_add = {
-	good = yes
-	percent = no
-}
-
-goods_input_medical_mult = {
-	good = yes
-	percent = yes
-}
-
-goods_output_medical_mult = {
-	good = yes
-	percent = yes
-}
-#finance 金融サービス
-goods_input_finance_add = {
-	good = yes
-	percent = no
-}
-
-goods_output_finance_add = {
-	good = yes
-	percent = no
-}
-
-goods_input_finance_mult = {
-	good = yes
-	percent = yes
-}
-
-goods_output_finance_mult = {
-	good = yes
-	percent = yes
-}
-
-#travel 旅行サービス
-goods_input_travel_add = {
-	good = yes
-	percent = no
-}
-
-goods_output_travel_add = {
-	good = yes
-	percent = no
-}
-
-goods_input_travel_mult = {
-	good = yes
-	percent = yes
-}
-
-goods_output_travel_mult = {
-	good = yes
-	percent = yes
-}
-#space_travel 宇宙旅行サービス
-goods_input_space_travel_add = {
-	good = yes
-	percent = no
-}
-
-goods_output_space_travel_add = {
-	good = yes
-	percent = no
-}
-
-goods_input_space_travel_mult = {
-	good = yes
-	percent = yes
-}
-
-goods_output_space_travel_mult = {
-	good = yes
-	percent = yes
-}
-#construction 建設サービス
-goods_input_construction_add = {
-	good = yes
-	percent = no
-}
-
-goods_output_construction_add = {
-	good = yes
-	percent = no
-}
-
-goods_input_construction_mult = {
-	good = yes
-	percent = yes
-}
-
-goods_output_construction_mult = {
-	good = yes
-	percent = yes
-}
-#sweets お菓子
 goods_input_sweets_add = {
-	good = yes
-	percent = no
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
 }
 
-goods_output_sweets_add = {
-	good = yes
-	percent = no
+goods_input_dairy_products_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
 }
 
-goods_input_sweets_mult = {
-	good = yes
-	percent = yes
+goods_input_uranium_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
 }
 
-goods_output_sweets_mult = {
-	good = yes
-	percent = yes
-}
-#medicine 薬剤
-goods_output_medicine_add = {
-	good = yes
-	percent = no
+goods_input_minor_metals_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
 }
 
-goods_output_medicine_mult = {
-	good = yes
-	percent = yes
+goods_input_water_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
 }
 
-goods_input_medicine_mult = {
-	good = yes
-	percent = yes
+goods_input_asbestos_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_gas_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_space_travel_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_musical_instruments_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_finance_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_luxury_cars_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_luxury_food_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_camera_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_game_console_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_computers_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_drone_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_robot_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_home_appliances_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_tankers_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
 }
 
 goods_input_medicine_add = {
-	good = yes
-	percent = no
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
 }
 
-#robot ロボット
-goods_input_robot_add = {
-	good = yes
-	percent = no
+goods_input_web_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
 }
 
-goods_output_robot_add = {
-	good = yes
-	percent = no
+goods_input_media_contents_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
 }
 
-goods_input_robot_mult = {
-	good = yes
-	percent = yes
+goods_input_medical_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
 }
 
-goods_output_robot_mult = {
-	good = yes
-	percent = yes
+goods_input_construction_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
 }
 
-#drink 飲料
+goods_input_professional_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_travel_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_books_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_beer_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
 goods_input_drink_add = {
-	good = yes
-	percent = no
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_sweets_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_dairy_products_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_uranium_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_minor_metals_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_water_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_asbestos_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_gas_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_space_travel_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_musical_instruments_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_finance_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_luxury_cars_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_luxury_food_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_camera_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_game_console_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_computers_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_drone_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_robot_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_home_appliances_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_tankers_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_medicine_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_web_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_media_contents_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_medical_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_construction_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_professional_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_travel_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_books_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_beer_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_drink_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_sweets_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_dairy_products_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_uranium_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_minor_metals_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_water_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_asbestos_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_gas_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_space_travel_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_musical_instruments_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_finance_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_luxury_cars_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_luxury_food_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_camera_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_game_console_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_computers_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_drone_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_robot_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_home_appliances_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_tankers_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_medicine_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_web_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_media_contents_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_medical_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_construction_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_professional_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_travel_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_books_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_beer_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
 }
 
 goods_output_drink_add = {
-	good = yes
-	percent = no
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
 }
 
-goods_input_drink_mult = {
-	good = yes
-	percent = yes
+goods_output_sweets_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
 }
 
-goods_output_drink_mult = {
-	good = yes
-	percent = yes
+goods_output_dairy_products_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
 }
 
-#media_contents コンテンツサービス
-goods_input_media_contents_add = {
-	good = yes
-	percent = no
+goods_output_uranium_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_minor_metals_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_water_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_asbestos_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_gas_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_space_travel_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_musical_instruments_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_finance_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_luxury_cars_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_luxury_food_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_camera_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_game_console_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_computers_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_drone_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_robot_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_home_appliances_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_tankers_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_medicine_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_web_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
 }
 
 goods_output_media_contents_add = {
-	good = yes
-	percent = no
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
 }
 
-goods_input_media_contents_mult = {
-	good = yes
-	percent = yes
+goods_output_medical_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
 }
 
-goods_output_media_contents_mult = {
-	good = yes
-	percent = yes
+goods_output_construction_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
 }
-#professionals 専門家サービス
-goods_input_professionals_add = {
-	good = yes
-	percent = no
+
+goods_output_professional_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
 }
-goods_output_professionals_add = {
-	good = yes
-	percent = no
+
+goods_output_travel_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
 }
-goods_input_professionals_mult = {
-	good = yes
-	percent = yes
-}
-goods_output_professionals_mult = {
-	good = yes
-	percent = yes
-}
-#books 本
-goods_input_books_add = {
-	good = yes
-	percent = no
-}
+
 goods_output_books_add = {
-	good = yes
-	percent = no
-}
-goods_input_books_mult = {
-	good = yes
-	percent = yes
-}
-goods_output_books_mult = {
-	good = yes
-	percent = yes
-}
-#aeroplanes 飛行機
-goods_input_aeroplanes_add = {
-	good = yes
-	percent = no
-}
-goods_output_aeroplanes_add = {
-	good = yes
-	percent = no
-}
-goods_input_aeroplanes_mult = {
-	good = yes
-	percent = yes
-}
-goods_output_aeroplanes_mult = {
-	good = yes
-	percent = yes
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
 }
 
-
-####既存商品の追加修飾子####
-#アート
-goods_input_fine_art_mult = {
-	good = yes
-	percent = yes
+goods_output_beer_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
 }
 
-goods_input_fine_art_add = {
-	good = yes
-	percent = no
+goods_output_drink_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
 }
 
-#高級家具
-goods_input_luxury_furnitur_mult = {
-	good = yes
-	percent = yes
+goods_output_sweets_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
 }
 
-goods_input_luxury_furnitur_add = {
-	good = yes
-	percent = no
+goods_output_dairy_products_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
 }
 
-#高級衣類
-goods_input_luxury_clothes_mult = {
-	good = yes
-	percent = yes
+goods_output_uranium_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
 }
 
-goods_input_luxury_clothes_add = {
-	good = yes
-	percent = no
+goods_output_minor_metals_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
 }
 
-#サービス
-goods_input_service_mult = {
-	good = yes
-	percent = yes
+goods_output_water_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
 }
 
-goods_input_service_add = {
-	good = yes
-	percent = no
+goods_output_asbestos_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_gas_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_space_travel_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_musical_instruments_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_finance_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_luxury_cars_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_luxury_food_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_camera_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_game_console_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_computers_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_drone_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_robot_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_home_appliances_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_tankers_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_medicine_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_web_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_media_contents_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_medical_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_construction_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_professional_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_travel_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_books_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_beer_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_drink_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_sweets_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_dairy_products_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_uranium_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_minor_metals_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_water_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_asbestos_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_gas_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_space_travel_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_musical_instruments_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_finance_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_luxury_cars_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_luxury_food_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_camera_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_game_console_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_computers_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_drone_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_robot_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_home_appliances_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_tankers_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_medicine_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_web_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_media_contents_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_medical_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_construction_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_professional_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_travel_muit = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
 }

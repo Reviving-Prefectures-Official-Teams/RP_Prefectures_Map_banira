@@ -570,7 +570,7 @@ game_console = { #ゲーム機
 	consumption_tax_cost = 100
 }
 
-drone = { #ドローン
+drones = { #ドローン
 	texture = "gfx/interface/icons/goods_icons/drone.dds"
 	cost = 60
 	category = luxury
@@ -727,7 +727,7 @@ medical = { #医療サービス
 	consumption_tax_cost = 100
 }
 
-financial = { #金融商品
+finance = { #金融商品
 	texture = "gfx/interface/icons/goods_icons/shares.dds"
 	cost = 200
 	category = service
