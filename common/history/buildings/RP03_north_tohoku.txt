@@ -205,126 +205,126 @@ BUILDINGS = {
             }
         }
     }
-    s:STATE_HANAMAKI = {
-        region_state:IWT = {
-            ###administration
-            ###agriculture
-            ###minings
-            ###forests
-            ###fishing
-            ###industry
-        }
-    }
-    s:STATE_KUJI = {
-        region_state:IWT = {
-            ###administration
-            ###agriculture
-            ###minings
-            ###forests
-            ###fishing
-            ###industry
-        }
-    }
-  #秋田
-    s:STATE_AKITA = {
-        region_state:AKT = {
-            ###administration
-            ###agriculture
-            ###minings
-            ###forests
-            ###fishing
-            ###industry
-        }
-    }
-    s:STATE_YURIHONJYOU = {
-        region_state:AKT = {
-            ###administration
-            ###agriculture
-            ###minings
-            ###forests
-            ###fishing
-            ###industry
-        }
-    }
-    s:STATE_YOKOTE = {
-        region_state:AKT = {
-            ###administration
-            ###agriculture
-            ###minings
-            ###forests
-            ###fishing
-            ###industry
-        }
-    }
-    s:STATE_DAISEN = {
-        region_state:AKT = {
-            ###administration
-            ###agriculture
-            ###minings
-            ###forests
-            ###fishing
-            ###industry
-        }
-    }
-    s:STATE_OODATE = {
-        region_state:AKT = {
-            ###administration
-            ###agriculture
-            ###minings
-            ###forests
-            ###fishing
-            ###industry
-        }
-    }
-  #青森
-    s:STATE_AOMORI = {
-        region_state:AOM = {
-            ###administration
-            ###agriculture
-            ###minings
-            ###forests
-            ###fishing
-            ###industry
-        }
-    }
-    s:STATE_HACHINOHE = {
-        region_state:AOM = {
-            ###administration
-            ###agriculture
-            ###minings
-            ###forests
-            ###fishing
-            ###industry
-        }
-    }
-    s:STATE_HIROSAKI = {
-        region_state:AOM = {
-            ###administration
-            ###agriculture
-            ###minings
-            ###forests
-            ###fishing
-            ###industry
-        }
-    }
-    s:STATE_TOWADA = {
-        region_state:AOM = {
-            ###administration
-            ###agriculture
-            ###minings
-            ###forests
-            ###fishing
-            ###industry
-        }
-    }
-    s:STATE_MUTU = {
-        region_state:AOM = {
-            ###administration
-            ###agriculture
-            ###minings
-            ###forests
-            ###fishing
-            ###industry
-        }
-    }
+#     s:STATE_HANAMAKI = {
+#         region_state:IWT = {
+#             ###administration
+#             ###agriculture
+#             ###minings
+#             ###forests
+#             ###fishing
+#             ###industry
+#         }
+#     }
+#     s:STATE_KUJI = {
+#         region_state:IWT = {
+#             ###administration
+#             ###agriculture
+#             ###minings
+#             ###forests
+#             ###fishing
+#             ###industry
+#         }
+#     }
+#   #秋田
+#     s:STATE_AKITA = {
+#         region_state:AKT = {
+#             ###administration
+#             ###agriculture
+#             ###minings
+#             ###forests
+#             ###fishing
+#             ###industry
+#         }
+#     }
+#     s:STATE_YURIHONJYOU = {
+#         region_state:AKT = {
+#             ###administration
+#             ###agriculture
+#             ###minings
+#             ###forests
+#             ###fishing
+#             ###industry
+#         }
+#     }
+#     s:STATE_YOKOTE = {
+#         region_state:AKT = {
+#             ###administration
+#             ###agriculture
+#             ###minings
+#             ###forests
+#             ###fishing
+#             ###industry
+#         }
+#     }
+#     s:STATE_DAISEN = {
+#         region_state:AKT = {
+#             ###administration
+#             ###agriculture
+#             ###minings
+#             ###forests
+#             ###fishing
+#             ###industry
+#         }
+#     }
+#     s:STATE_OODATE = {
+#         region_state:AKT = {
+#             ###administration
+#             ###agriculture
+#             ###minings
+#             ###forests
+#             ###fishing
+#             ###industry
+#         }
+#     }
+#   #青森
+#     s:STATE_AOMORI = {
+#         region_state:AOM = {
+#             ###administration
+#             ###agriculture
+#             ###minings
+#             ###forests
+#             ###fishing
+#             ###industry
+#         }
+#     }
+#     s:STATE_HACHINOHE = {
+#         region_state:AOM = {
+#             ###administration
+#             ###agriculture
+#             ###minings
+#             ###forests
+#             ###fishing
+#             ###industry
+#         }
+#     }
+#     s:STATE_HIROSAKI = {
+#         region_state:AOM = {
+#             ###administration
+#             ###agriculture
+#             ###minings
+#             ###forests
+#             ###fishing
+#             ###industry
+#         }
+#     }
+#     s:STATE_TOWADA = {
+#         region_state:AOM = {
+#             ###administration
+#             ###agriculture
+#             ###minings
+#             ###forests
+#             ###fishing
+#             ###industry
+#         }
+#     }
+#     s:STATE_MUTU = {
+#         region_state:AOM = {
+#             ###administration
+#             ###agriculture
+#             ###minings
+#             ###forests
+#             ###fishing
+#             ###industry
+#         }
+#     }
 }
