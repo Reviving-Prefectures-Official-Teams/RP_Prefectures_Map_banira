@@ -1,0 +1,33 @@
+﻿
+
+state_trait_sirasu = { #シラス台地
+	icon = "gfx/interface/icons/state_trait_icons/unused/poor_natural_resources.dds"
+	
+	modifier = {
+		state_infrastructure_add = 1
+	}
+}
+
+state_trait_kyusyu_santi = { #九州山地
+	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
+	
+	modifier = {
+		state_infrastructure_add = 1
+	}
+}
+
+state_trait_tukushi_santi = { #筑紫山地
+	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
+	
+	modifier = {
+		state_infrastructure_add = 1
+	}
+}
+
+state_trait_tikugogawa = { #筑後川
+	icon = "gfx/interface/icons/state_trait_icons/river.dds"
+	
+	modifier = {
+		state_infrastructure_add = 1
+	}
+}
