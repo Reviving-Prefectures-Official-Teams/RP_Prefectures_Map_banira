@@ -1,4 +1,4 @@
-COUNTRIES = {
+﻿COUNTRIES = {
 	c:HOK ?= {
 		effect_starting_technology = yes
 		effect_starting_politics_conservative = yes
