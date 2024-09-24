@@ -837,7 +837,7 @@ wealth_48 = {
 		popneed_luxury_entertainment = 216
 		popneed_medical = 10
 		popneed_drinks = 10
-		popneed_information = 
+		popneed_information = 1706
 	}
 }
 wealth_49 = {

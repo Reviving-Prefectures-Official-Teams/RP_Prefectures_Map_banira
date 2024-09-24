@@ -60,7 +60,7 @@ BUILDINGS = {
 					}
 				}
 				reserves = 1
-                activate_production_methods={ "pm_organic_farming_rice" "pm_no_secondary" "" }
+                activate_production_methods={ "pm_organic_farming_rice" "pm_no_secondary" }
             }
             ###minings
             create_building = {
@@ -88,7 +88,7 @@ BUILDINGS = {
 					}
 				}
 				reserves = 1
-                activate_production_methods={ "" }
+                # activate_production_methods={ "" }
             }
             ###fishing
             ###industry
@@ -103,7 +103,7 @@ BUILDINGS = {
 					}
 				}
 				reserves = 1
-                activate_production_methods={ "" }
+                # activate_production_methods={ "" }
             }
         }
     }
@@ -145,7 +145,7 @@ BUILDINGS = {
 					}
 				}
 				reserves = 1
-                activate_production_methods={ "pm_organic_farming_rice" "pm_no_secondary" "" }
+                activate_production_methods={ "pm_organic_farming_rice" "pm_no_secondary" }
             }
             ###minings
             create_building = {
@@ -173,7 +173,7 @@ BUILDINGS = {
 					}
 				}
 				reserves = 1
-                activate_production_methods={ "" }
+                # activate_production_methods={ "" }
             }
             ###fishing
             create_building = {
@@ -187,7 +187,7 @@ BUILDINGS = {
 					}
 				}
 				reserves = 1
-                activate_production_methods={ "" }
+                # activate_production_methods={ "" }
             }
             ###industry
             create_building = {
@@ -201,7 +201,7 @@ BUILDINGS = {
 					}
 				}
 				reserves = 1
-                activate_production_methods={ "" }
+                # activate_production_methods={ "" }
             }
         }
     }
