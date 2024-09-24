@@ -3,13 +3,6 @@
 	c:KAG ?= {
 		effect_starting_technology = yes
 
-		add_technology_researched = academia
-		add_technology_researched = urban_planning
-		add_technology_researched = centralization
-		add_technology_researched = law_enforcement
-		add_technology_researched = colonization
-		add_technology_researched = sericulture
-
 		set_tax_level = medium
 		
 		activate_law = law_type:law_parliamentary_republic
@@ -50,13 +43,6 @@
 	#愛媛
 	c:EHI ?= {
 		effect_starting_technology = yes
-
-		add_technology_researched = academia
-		add_technology_researched = urban_planning
-		add_technology_researched = centralization
-		add_technology_researched = law_enforcement
-		add_technology_researched = colonization
-		add_technology_researched = sericulture
 
 		set_tax_level = medium
 		
@@ -99,13 +85,6 @@
 	c:KCH ?= {
 		effect_starting_technology = yes
 
-		add_technology_researched = academia
-		add_technology_researched = urban_planning
-		add_technology_researched = centralization
-		add_technology_researched = law_enforcement
-		add_technology_researched = colonization
-		add_technology_researched = sericulture
-
 		set_tax_level = medium
 		
 		activate_law = law_type:law_parliamentary_republic
@@ -146,13 +125,6 @@
 	#徳島
 	c:TKS ?= {
 		effect_starting_technology = yes
-
-		add_technology_researched = academia
-		add_technology_researched = urban_planning
-		add_technology_researched = centralization
-		add_technology_researched = law_enforcement
-		add_technology_researched = colonization
-		add_technology_researched = sericulture
 
 		set_tax_level = medium
 		

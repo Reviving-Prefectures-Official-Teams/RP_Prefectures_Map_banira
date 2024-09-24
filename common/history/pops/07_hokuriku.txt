@@ -90,7 +90,7 @@
 	}
 	s:STATE_NIIGATAMINAMI = { #257600
 		region_state:NIG = {
-			reate_pop = {
+			create_pop = {
 				culture = niigata
 				size = 30000
 			}

@@ -4405,7 +4405,7 @@ ashikaga = {
 }
 
 tochigi = {
-	color = rgb{116 5143}
+	color = rgb{116 51 43}
 	religion = shinbutsu_shugo
 	traits = { kanto ryomo_group }
 	male_common_first_names={

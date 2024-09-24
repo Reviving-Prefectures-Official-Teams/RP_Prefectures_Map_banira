@@ -1,9 +1,6 @@
-COUNTRIES = {
+﻿COUNTRIES = {
 	c:HOK ?= {
 		effect_starting_technology = yes
-		effect_starting_politics_conservative = yes
-
-		add_technology_researched = atmospheric_engine
 
 		set_tax_level = medium
 

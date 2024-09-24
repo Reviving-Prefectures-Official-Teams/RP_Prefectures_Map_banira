@@ -1,0 +1,29 @@
+﻿TRADE_ROUTES = {
+	# Britain
+	# c:GBR ?= {
+	# 	create_trade_route = {
+	# 		goods = opium
+	# 		level = 30
+	# 		direction = export
+	# 		target = c:CHI.market
+	# 	}	
+	# 	create_trade_route = {
+	# 		goods = silk
+	# 		level = 28
+	# 		direction = import
+	# 		target = c:CHI.market
+	# 	}	
+	# 	create_trade_route = {
+	# 		goods = tea
+	# 		level = 22
+	# 		direction = import
+	# 		target = c:CHI.market
+	# 	}						
+	# 	create_trade_route = {
+	# 		goods = coffee
+	# 		level = 10
+	# 		direction = import
+	# 		target = c:BRZ.market
+	# 	}		
+	# }	
+}
