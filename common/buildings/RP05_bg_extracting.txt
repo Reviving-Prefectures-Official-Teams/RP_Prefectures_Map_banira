@@ -9,6 +9,7 @@ building_oil_refinery = {
 	required_construction = construction_cost_very_high
 
 	unlocking_technologies = {
+		tech_petrochemistry
 	}
 	
 	production_method_groups = {
@@ -28,6 +29,7 @@ building_gas_refinery = {
 	required_construction = construction_cost_very_high
 
 	unlocking_technologies = {
+		tech_petrochemistry
 	}
 	
 	production_method_groups = {
@@ -40,7 +42,7 @@ building_gas_refinery = {
 #ウラン濃縮施設
 building_uranium_enrichment = {
 	building_group = bg_uranium_extraction
-	texture = "gfx/interface/icons/building_icons/uranium_enrichment.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = mine
 	levels_per_mesh = 5
 	required_construction = construction_cost_very_high
