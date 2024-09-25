@@ -3,8 +3,11 @@ building_fishing_wharf = {
 	building_group = bg_fishing
 	texture = "gfx/interface/icons/building_icons/fishing_wharf.dds"
 	city_type = port
-	required_construction = construction_cost_low
-
+	
+	unlocking_technologies = {
+		tech_planned_shipbuilding
+	}
+	
 	production_method_groups = {
 		pmg_fishery
 		pmg_ocean_fishing
@@ -17,21 +20,25 @@ building_fishing_wharf = {
 			is_sea_adjacent = yes
 		}
 	}
+
+	required_construction = construction_cost_low
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_fishing.dds"
 }
 
 #養殖場
 building_aquaculture_farm = {
 	building_group = bg_fishing
-	texture = "gfx/interface/icons/building_icons/aquaculture_farm.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = port
-	required_construction = construction_cost_low
+	
+	unlocking_technologies = {
+		tech_aquaculture
+	}
 
 	production_method_groups = {
 		pmg_aquaculture
-	}
-
-	unlocking_technologies = {
-		tech_aquaculture
 	}
 	
 	possible = {
@@ -40,14 +47,18 @@ building_aquaculture_farm = {
 			is_sea_adjacent = no
 		}
 	}
+
+	required_construction = construction_cost_low
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_fishing.dds"
 }
 
 #陸上養殖場
 building_land_aquaculture = {
 	building_group = bg_fishing
-	texture = "gfx/interface/icons/building_icons/land_aquaculture.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = wood
-	required_construction = construction_cost_low
 
 	production_method_groups = {
 		pmg_land_aquaculture
@@ -57,10 +68,8 @@ building_land_aquaculture = {
 		tech_closed_recirculating_aquaculture_system
 	}
 	
-	possible = {
-		error_check = {
-			severity = fail
-			is_sea_adjacent = no
-		}
-	}
+	required_construction = construction_cost_low
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_fishing.dds"
 }

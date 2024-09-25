@@ -13,6 +13,9 @@ building_castanopsis_forest = {
 		pmg_charcoal
 		pmg_transport
 	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
 }
 
 #カバノキ林
@@ -29,6 +32,9 @@ building_betulaceae_forest = {
 		pmg_charcoal
 		pmg_transport
 	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
 }
 
 #ヒノキ林
@@ -46,6 +52,9 @@ building_chamaecyparis_obtusa_forest = {
 		pmg_carbonized_wood
 		pmg_transport
 	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
 }
 
 #スギ林
@@ -63,6 +72,9 @@ building_cryptomeria_forest = {
 		pmg_carbonized_wood
 		pmg_transport
 	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
 }
 
 #ゴム農園

@@ -23,6 +23,7 @@ bg_logging = {
 	}
 	
 	economy_of_scale_ai_factor = 1.5
+	foreign_investment_ai_factor = 1.0
 }
 
 bg_castanopsis_forest = { #樫の木
@@ -50,6 +51,7 @@ bg_castanopsis_forest = { #樫の木
 	}
 	
 	economy_of_scale_ai_factor = 1.5
+	foreign_investment_ai_factor = 1.0
 }
 
 bg_betulaceae_forest = { #樺の木
@@ -77,6 +79,7 @@ bg_betulaceae_forest = { #樺の木
 	}
 	
 	economy_of_scale_ai_factor = 1.5
+	foreign_investment_ai_factor = 1.0
 }
 
 bg_chamaecyparis_obtusa_forest = { #ヒノキ林
@@ -104,6 +107,7 @@ bg_chamaecyparis_obtusa_forest = { #ヒノキ林
 	}
 	
 	economy_of_scale_ai_factor = 1.5
+	foreign_investment_ai_factor = 1.0
 }
 
 bg_cryptomeria_forest = { #杉の木
@@ -131,6 +135,7 @@ bg_cryptomeria_forest = { #杉の木
 	}
 	
 	economy_of_scale_ai_factor = 1.5
+	foreign_investment_ai_factor = 1.0
 }
 
 bg_tree_planting_farm = {
@@ -156,6 +161,7 @@ bg_tree_planting_farm = {
 	}
 	
 	economy_of_scale_ai_factor = 1.5
+	foreign_investment_ai_factor = 1.0
 }
 
 #bg_rubber = {
