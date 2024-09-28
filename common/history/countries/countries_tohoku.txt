@@ -1,9 +1,6 @@
 ﻿COUNTRIES = {
 	c:FKS ?= {
 		effect_starting_technology = yes
-		effect_starting_politics_conservative = yes
-
-		add_technology_researched = atmospheric_engine
 
 		set_tax_level = medium
 
@@ -40,9 +37,6 @@
 	}
 	c:MYG ?= {
 		effect_starting_technology = yes
-		effect_starting_politics_conservative = yes
-
-		add_technology_researched = atmospheric_engine
 
 		set_tax_level = medium
 
@@ -72,9 +66,6 @@
 	}
 	c:YMG ?= {
 		effect_starting_technology = yes
-		effect_starting_politics_conservative = yes
-
-		add_technology_researched = atmospheric_engine
 
 		set_tax_level = medium
 
@@ -104,9 +95,6 @@
 	}
 	c:IWT ?= {
 		effect_starting_technology = yes
-		effect_starting_politics_conservative = yes
-
-		add_technology_researched = atmospheric_engine
 
 		set_tax_level = medium
 
@@ -136,9 +124,6 @@
 	}
 	c:AKT ?= {
 		effect_starting_technology = yes
-		effect_starting_politics_conservative = yes
-
-		add_technology_researched = atmospheric_engine
 
 		set_tax_level = medium
 
@@ -168,9 +153,6 @@
 	}
 	c:AOM ?= {
 		effect_starting_technology = yes
-		effect_starting_politics_conservative = yes
-
-		add_technology_researched = atmospheric_engine
 
 		set_tax_level = medium
 

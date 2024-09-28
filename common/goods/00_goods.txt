@@ -136,7 +136,7 @@ electricity = { #電気
 }
 
 beer = { #ビール 
-	texture = "gfx/interface/icons/goods_icons/beer.dds"
+	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
 	cost = 25
 	category = staple
 	
@@ -278,7 +278,7 @@ explosives = { #爆薬
 }
 
 gas = { #天然ガス 
-	texture = "gfx/interface/icons/goods_icons/natural_gas.dds"
+	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
 	cost = 30
 	category = industrial
 	
@@ -288,7 +288,7 @@ gas = { #天然ガス
 }
 
 minor_metals = { #レアメタル 
-	texture = "gfx/interface/icons/goods_icons/rare_metal.dds"
+	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
 	cost = 30
 	category = industrial
 	
@@ -557,7 +557,7 @@ camera = { #カメラ
 }
 
 game_console = { #ゲーム機
-	texture = "gfx/interface/icons/goods_icons/game_console.dds"
+	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
 	cost = 50
 	category = luxury
 	
@@ -651,7 +651,7 @@ drink = { #飲料
 }
 
 books = { #書籍
-	texture = "gfx/interface/icons/goods_icons/book.dds"
+	texture = "gfx/interface/icons/goods_icons/magazines.dds"
 	cost = 30
 	category = luxury
 	
@@ -774,7 +774,7 @@ construction = { #建設サービス
 }
 
 professionals = { #専門家
-	texture = "gfx/interface/icons/goods_icons/professionals_service.dds"
+	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
 	cost = 100
 	category = service
 	
