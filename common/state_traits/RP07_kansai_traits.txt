@@ -1,0 +1,56 @@
+﻿state_trait_ki_santi = { #紀伊山地
+	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
+	
+	modifier = {
+		state_infrastructure_add = 1
+	}
+}
+
+state_trait_tanba_kouti = { #丹波高地
+	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
+	
+	modifier = {
+		state_infrastructure_add = 1
+	}
+}
+
+state_trait_yodogawa = { #淀川
+	icon = "gfx/interface/icons/state_trait_icons/river.dds"
+	
+	modifier = {
+		state_infrastructure_add = 1
+		
+	}
+}
+
+state_trait_osaka_heiya = { #大阪平野
+	icon = "gfx/interface/icons/state_trait_icons/great_plains.dds"
+	
+	modifier = {
+		state_infrastructure_add = 1
+	}
+}
+
+state_trait_oumi_bonti = { #近江盆地
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+	
+	modifier = {
+		state_infrastructure_add = 1
+	}
+}
+
+state_trait_kyoto_bonti = { #京都盆地
+	icon = "gfx/interface/icons/state_trait_icons/great_plains.dds"
+	
+	modifier = {
+		state_infrastructure_add = 1
+	}
+}
+
+state_trait_uji_tea = { #宇治茶の産地
+	icon = "gfx/interface/icons/state_trait_icons/unused/resources_exotic.dds"
+	
+	modifier = {
+		state_infrastructure_add = 1
+	}
+}

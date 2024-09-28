@@ -1,0 +1,42 @@
+﻿
+
+state_trait_hidaka_sanmyaku = { #日高山脈
+	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
+	
+	modifier = {
+		state_infrastructure_add = 1
+	}
+}
+
+state_trait_kitami_santi = { #北見山地
+	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
+	
+	modifier = {
+		state_infrastructure_add = 1
+	}
+}
+
+state_trait_ishikari_heiya = { #石狩平野
+	icon = "gfx/interface/icons/state_trait_icons/great_plains.dds"
+	
+	modifier = {
+		state_infrastructure_add = 1
+		
+	}
+}
+
+state_trait_tokati_heiya = { #十勝平野
+	icon = "gfx/interface/icons/state_trait_icons/resources_grazing.dds"
+	
+	modifier = {
+		state_infrastructure_add = 1
+	}
+}
+
+state_trait_konsen_daiti = { #根釧台地
+	icon = "gfx/interface/icons/state_trait_icons/resources_grazing.dds"
+	
+	modifier = {
+		state_infrastructure_add = 1
+	}
+}

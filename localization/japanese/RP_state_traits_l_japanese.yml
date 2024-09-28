@@ -1,4 +1,47 @@
 ﻿l_japanese:
+#00全国汎用
+state_trait_mainPort: "主要港湾"
+state_trait_subPort: "天然港"
+state_trait_milPort: "主要軍港"
+#北海道
+state_trait_hidaka_sanmyaku: "日高山脈"
+state_trait_kitami_santi: "北見山地"
+state_trait_ishikari_heiya: "石狩平野"
+state_trait_tokati_heiya: "十勝平野"
+state_trait_konsen_daiti: "根釧台地"
+#東北
+state_trait_ouu_sanmyaku: "奥羽山脈"
+state_trait_kitakami_gawa: "北上川"
+state_trait_syounai_heiya: "庄内平野"
+state_trait_akita_heiya: "秋田平野"
+#関東
+state_trait_kantou_santi: "関東山地"
+state_trait_etigo_sanmyaku: "越後山脈"
+state_trait_tone_gawa: "利根川"
+#state_trait_ara_gawa: "荒川"
+state_trait_kantou_heiya: "関東平野"
+#中部
+state_trait_nihon_arupusu: "日本アルプス"
+state_trait_shinano_gawa: "信濃川"
+state_trait_noubi_heiya: "濃尾平野"
+state_trait_hokuriku_heiya: "金沢・富山平野"
+state_trait_etigo_heiya: "越後平野"
+state_trait_makinohara_tea: "牧之原台地"
+state_trait_mtfji: "富士山"
+#関西
+state_trait_ki_santi: "紀伊山地"
+state_trait_tanba_kout: "丹波高地"
+state_trait_yodogawa: "淀川"
+state_trait_osaka_heiya: "大阪平野"
+state_trait_oumi_bonti: "近江盆地"
+state_trait_kyoto_bonti: "京都盆地"
+state_trait_uji_tea: "宇治茶の産地"
+#中国四国
+state_trait_tyugoku_santi: "中国山地"
+state_trait_shikoku_santi: "四国山地"
+state_trait_osaka_heiya: "岡山平地"
+state_trait_tottori_sakyu: "鳥取砂丘"
+#九州
 state_trait_sirasu: "シラス台地"
 state_trait_kyusyu_santi: "九州山地"
 state_trait_tukushi_santi: "筑紫山地"
