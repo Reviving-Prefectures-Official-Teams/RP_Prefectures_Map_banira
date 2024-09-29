@@ -4,7 +4,12 @@ state_trait_mainPort = { #主要な港湾
 	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
 	
 	modifier = {
-		state_infrastructure_add = 1
+		state_infrastructure_mult = 0.1
+		state_market_access_price_impact = 0.1
+		building_shipyards_throughput_add = 0.20
+		building_military_shipyards_throughput_add = 0.15
+		state_building_naval_base_max_level_add = 10	
+		state_building_port_max_level_add = 10
 	}
 }
 
@@ -12,7 +17,11 @@ state_trait_subPort = { #天然港
 	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
 	
 	modifier = {
-		state_infrastructure_add = 1
+		state_infrastructure_mult = 0.05
+		state_market_access_price_impact = 0.05
+		building_shipyards_throughput_add = 0.1
+		building_military_shipyards_throughput_add = 0.05
+		state_building_port_max_level_add = 3
 	}
 }
 
@@ -20,15 +29,12 @@ state_trait_milPort = { #主要軍港
 	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
 	
 	modifier = {
-		state_infrastructure_add = 1
+		state_infrastructure_mult = 0.05
+		building_military_shipyards_throughput_add = 0.25
+		state_building_port_max_level_add = 5
+		state_building_naval_base_max_level_add = 40
 	}
 }
 
-state_trait_mtfuji = { #富士山
-icon = "gfx/interface/icons/state_trait_icons/unused/disaster_zone.dds"
 
-    modifier = {
-	    state_infrastructure_add = 1
-    }
-}
 

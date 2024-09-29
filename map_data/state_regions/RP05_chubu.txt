@@ -141,7 +141,7 @@ STATE_NAGAOKA = { #長岡
 STATE_UONUMA = { #魚沼
     id = 116
     provinces = { "x3ECDEC" "x50EFD7" "x7BDABE" "x9FD9A6" "xADF4EA" "xB3AFF2" "xB9FA8A" "xC8E1F9" "xCE4DF6" "xCEEF40" "xD2F3AB" "xD581C9" "xEBB1E3" "xEFBEB1" "xF1EAC8" "xF295B0" "xF8D07D" "xFA71DA" "xFABF75" "xFDCFB7" }
-    traits = { "state_trait_etigo_heiya" "state_trait_etigo_heiya" "state_trait_shinano_gawa" }
+    traits = { "state_trait_etigo_heiya" "state_trait_shinano_gawa" }
     arable_resources = { "bg_tea_plantations" "bg_vegetable_farms" "bg_cotton_plantations" "bg_wheat_farms" "bg_rice_farms" "bg_vineyard_plantations" "bg_maize_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
     capped_resources = {
 

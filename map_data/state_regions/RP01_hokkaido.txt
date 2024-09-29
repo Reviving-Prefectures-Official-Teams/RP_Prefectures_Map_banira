@@ -119,7 +119,7 @@ STATE_KAMIKAWA = {
 	#上川
 	id = 288
 	provinces = { "x1DF4EE" "x3CFBE3" "x4DF6EB" "x61A5FC" "x6ACDC3" "x72E2DD" "x7EE2C9" "x8FF0A6" "x97ADEB" "x97D8D2" "x99C4DB" "x9EFAF7" "xA87CD5" "xA8F4EE" "xA9F558" "xB3D4DA" "xB5B1B1" "xB5F6A0" "xBE84EE" "xBFD575" "xC0E462" "xC1B5C1" "xC2F6BA" "xC6FD9F" "xC792FB" "xCAF340" "xCBDB66" "xCE88E7" "xCECCB9" "xD17FEF" "xD2DAE7" "xD3FC55" "xD597C0" "xD633F8" "xD6F15D" "xD940FB" "xDC46D5" "xDDA6C5" "xE2A8FA" "xE337E6" "xE37FE2" "xE57AFA" "xE5B0A6" "xE5DC87" "xEA90D2" "xEAD3BA" "xEAFCAD" "xEB3CDA" "xEC60ED" "xECDB6C" "xEDC2D3" "xEEBD8F" "xEF7CAB" "xF0D3E3" "xF2CC95" "xF3BE6C" "xF667F1" "xF6B073" "xF8AD6F" "xF957D9" "xFB68D4" "xFD7CFB" "xFF1FBF" "xFF5FBF" "xFF9FBF" }
-	traits = { "state_trait_tokati_heiya" }
+	traits = { "state_trait_ishikari_heiya" "state_trait_kitami_santi" }
 	arable_land = 340
 	arable_resources = { "bg_rice_farms" "bg_wheat_farms" "bg_maize_farms" "bg_sugar_plantations" "bg_vineyard_plantations" "bg_vegetable_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
 	arable_resources = { "bg_rice_farms" "bg_wheat_farms" "bg_maize_farms" "bg_sugar_plantations" "bg_vineyard_plantations" "bg_vegetable_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
@@ -136,6 +136,7 @@ STATE_TOKACHI = {
 	#十勝
 	id = 289
 	provinces = { "x33F9F3" "x36D7F1" "x3AEED1" "x40F6E3" "x53FCEF" "x5FFDB3" "x62E7E6" "x68FCF0" "x74C9DF" "x75A9D7" "x80D4A4" "x8583F7" "x8AEAFB" "x8EB5DA" "x8FB4D1" "x98D1AC" "x99A9C8" "x9E9EDE" "x9FEE73" "xA296DB" "xA4E0D8" "xABE8DE" "xAE75F5" "xB06CF6" "xB19BD3" "xB884C4" "xBFCACE" "xC2D18B" "xC9F9A2" "xCEF636" "xD069EF" "xD159D4" "xD2CFD2" "xD6E682" "xD79EDB" "xDAC582" "xDBDCBB" "xDBF3ED" "xDFB1C2" "xE1DA41" "xE28BD9" "xE2FAEE" "xE7B0A7" "xE8D4C7" "xEB9C79" "xEBBF4B" "xEBED6A" "xEDABE3" "xF2C67B" "xF4ABEC" "xF4B071" "xF5E32C" "xFADB74" }
+	traits = { "state_trait_tokati_heiya" }
 	arable_land = 330
 	arable_resources = { "bg_rice_farms" "bg_wheat_farms" "bg_maize_farms" "bg_sugar_plantations" "bg_vineyard_plantations" "bg_vegetable_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
 	arable_resources = { "bg_rice_farms" "bg_wheat_farms" "bg_maize_farms" "bg_sugar_plantations" "bg_vineyard_plantations" "bg_vegetable_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
