@@ -6,18 +6,20 @@ building_urban_center = {
 	city_type = city
 	residence_points_per_level = 0
 	
-	unlocking_technologies = { 
-	}
-	
 	production_method_groups = {
 		pmg_shopping_street
 	}
 	
 	buildable = no
 	expandable = no
-	downsizeable = no	
+	downsizeable = no
+	cannot_switch_owner = yes
 	
 	terrain_manipulator = urban_city
+
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }
 
 building_office_building = {
@@ -27,6 +29,7 @@ building_office_building = {
 	levels_per_mesh = 5
 	
 	unlocking_technologies = {
+		tech_domestic_travel
 	}
 
 	production_method_groups = {
@@ -39,16 +42,21 @@ building_office_building = {
 	}
 	
 	required_construction = construction_cost_high
+
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }
 
 #メディア業界
 building_printing = {
 	building_group = bg_urban_services
-	texture = "gfx/interface/icons/building_icons/printing.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	residence_points_per_level = 5
 
-	unlocking_technologies = { 
+	unlocking_technologies = {
+		tech_newspaper
 	}
 	
 	production_method_groups = {
@@ -59,16 +67,21 @@ building_printing = {
 	}
 	
 	terrain_manipulator = urban_city
+
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }
 
 #出版業界
 building_publishing = {
 	building_group = bg_urban_services
-	texture = "gfx/interface/icons/building_icons/publishing.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	residence_points_per_level = 5
 
 	unlocking_technologies = { 
+		tech_newspaper
 	}
 	
 	production_method_groups = {
@@ -78,12 +91,16 @@ building_publishing = {
 	}
 	
 	terrain_manipulator = urban_city
+
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }
 
 #輸送センター
 building_transport_center = {
 	building_group = bg_urban_services
-	texture = "gfx/interface/icons/building_icons/transport_center.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	residence_points_per_level = 5
 
@@ -98,36 +115,43 @@ building_transport_center = {
 	}
 	
 	terrain_manipulator = urban_city
+
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }
 
 #病院
 building_hospital = {
 	building_group = bg_urban_services
-	texture = "gfx/interface/icons/building_icons/hospital.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	residence_points_per_level = 5
-	unlocking_technologies = { 
-	}
 	
 	production_method_groups = {
 		pmg_medical_service
 	}
 	
 	terrain_manipulator = urban_city
+
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }
 
 #歓楽街
 building_nightlife_district = {
 	building_group = bg_criminal_syndicate
-	texture = "gfx/interface/icons/building_icons/nightlife_district.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	residence_points_per_level = 5
-	unlocking_technologies = { 
-	}
 	
 	production_method_groups = {
 		pmg_underground_business
 	}
 	
 	terrain_manipulator = urban_city
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }

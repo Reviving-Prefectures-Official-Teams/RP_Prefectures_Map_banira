@@ -23,6 +23,9 @@ pm_sales_trade = {
 
 #ネット証券
 pm_net_securities = { 
+	unlocking_technologies = {
+		tech_shortwave_broadcasting
+	}
 	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
 	replacement_if_valid = pm_financial_district_principle_divine_economics_2
 	

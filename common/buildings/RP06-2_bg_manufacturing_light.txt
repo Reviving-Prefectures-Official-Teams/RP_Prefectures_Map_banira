@@ -9,6 +9,7 @@ building_glassworks = {
 	levels_per_mesh = 5
 	
 	unlocking_technologies = {
+		tech_planting
 	}
 
 	production_method_groups = {
@@ -18,12 +19,15 @@ building_glassworks = {
 	}
 	
 	required_construction = construction_cost_high
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 #コンピュータ工場
 building_computer_factory = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/computer_factory.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 	
 	unlocking_technologies = {
 		tech_early_computer
@@ -39,14 +43,18 @@ building_computer_factory = {
 	}
 	
 	required_construction = construction_cost_high
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 #通信機器工場
 building_telecommunication_factory = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/telecommunication_factory.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 	
 	unlocking_technologies = {
+		tech_planting
 	}
 
 	city_type = city
@@ -59,6 +67,9 @@ building_telecommunication_factory = {
 	}
 	
 	required_construction = construction_cost_high
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 #家具工場
@@ -69,8 +80,8 @@ building_furniture_manufacturies = {
 	levels_per_mesh = 5
 	
 	unlocking_technologies = {
+		tech_planting
 	}
-
 	production_method_groups = {
 		pmg_furniture
 		pmg_manufacturing_management_furniture
@@ -78,18 +89,21 @@ building_furniture_manufacturies = {
 	}
 
 	required_construction = construction_cost_high
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 #注文家具工場
 building_custom_furniture_manufacturies = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_iconscustom_furniture_manufacturies.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	levels_per_mesh = 5
 
 	unlocking_technologies = {
+		tech_planting
 	}
-
 	production_method_groups = {
 		pmg_order_furniture
 		pmg_manufacturing_management_order_furniture
@@ -97,16 +111,20 @@ building_custom_furniture_manufacturies = {
 	}
 
 	required_construction = construction_cost_high
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 #楽器工場
 building_musical_instrument_manufacturies = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_iconscustom_furniture_manufacturies.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	levels_per_mesh = 5
 
 	unlocking_technologies = {
+		tech_planting
 	}
 
 	production_method_groups = {
@@ -116,18 +134,21 @@ building_musical_instrument_manufacturies = {
 	}
 
 	required_construction = construction_cost_high
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 #化学繊維工場
 building_synthetic_fiber_factory = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/synthetic_fiber_factory.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
 	unlocking_technologies = {
+		tech_planting
 	}
-
 	production_method_groups = {
 		pmg_chemical_fiber
 		pmg_manufacturing_management_chemical_fiber
@@ -135,6 +156,9 @@ building_synthetic_fiber_factory = {
 	}
 	
 	required_construction = construction_cost_high
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 #織物工場
@@ -145,8 +169,8 @@ building_textile_mills = {
 	levels_per_mesh = 5
 	
 	unlocking_technologies = {
+		tech_planting
 	}
-
 	production_method_groups = {
 		pmg_clothes
 		pmg_manufacturing_management_clothes
@@ -154,6 +178,9 @@ building_textile_mills = {
 	}
 	
 	required_construction = construction_cost_high
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 #注文織物工場
@@ -164,6 +191,7 @@ building_custom_textile_mills = {
 	levels_per_mesh = 5
 	
 	unlocking_technologies = {
+		tech_planting
 	}
 
 	production_method_groups = {
@@ -173,16 +201,20 @@ building_custom_textile_mills = {
 	}
 	
 	required_construction = construction_cost_high
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 #セラミック工場
 building_ceramics_manufacturies = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/pottery_workshops.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
 	unlocking_technologies = {
+		tech_planting
 	}
 
 	production_method_groups = {
@@ -192,6 +224,9 @@ building_ceramics_manufacturies = {
 	}
 	
 	required_construction = construction_cost_high
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 #工具工房
@@ -200,6 +235,7 @@ building_tooling_workshops = {
 	texture = "gfx/interface/icons/building_icons/tooling_workshops.dds"
 	
 	unlocking_technologies = {
+		tech_planting
 	}
 
 	city_type = city
@@ -214,6 +250,9 @@ building_tooling_workshops = {
 	required_construction = construction_cost_high
 	
 	ai_value = 2000 # Tools are very important
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 #製紙工場
@@ -222,6 +261,7 @@ building_paper_mills = {
 	texture = "gfx/interface/icons/building_icons/paper_mills.dds"
 	
 	unlocking_technologies = {
+		tech_planting
 	}
 
 	city_type = city
@@ -234,15 +274,18 @@ building_paper_mills = {
 	}
 	
 	required_construction = construction_cost_high
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 #ゲーム機工場
 building_game_console_factory = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/game_console_factory.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 	
 	unlocking_technologies = {
-		tech_semiconductor
+		tech_planting
 	}
 
 	city_type = city
@@ -255,14 +298,18 @@ building_game_console_factory = {
 	}
 	
 	required_construction = construction_cost_high
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 #テレビ工場
 building_television_factory = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/television_factory.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 	
 	unlocking_technologies = {
+		tech_planting
 	}
 
 	city_type = city
@@ -275,14 +322,18 @@ building_television_factory = {
 	}
 	
 	required_construction = construction_cost_high
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 #洗濯機工場
 building_washing_machine_factory = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/washing_machine_factory.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 	
 	unlocking_technologies = {
+		tech_planting
 	}
 
 	city_type = city
@@ -295,14 +346,18 @@ building_washing_machine_factory = {
 	}
 	
 	required_construction = construction_cost_high
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 #冷蔵庫工場
 building_refrigerator_factory = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/refrigerator_factory.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 	
 	unlocking_technologies = {
+		tech_planting
 	}
 
 	city_type = city
@@ -315,14 +370,18 @@ building_refrigerator_factory = {
 	}
 	
 	required_construction = construction_cost_high
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 #カメラ工場
 building_camera_factory = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/camera_factory.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 	
 	unlocking_technologies = {
+		tech_planting
 	}
 
 	city_type = city
@@ -335,4 +394,7 @@ building_camera_factory = {
 	}
 	
 	required_construction = construction_cost_high
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }

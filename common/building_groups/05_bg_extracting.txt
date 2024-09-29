@@ -18,6 +18,7 @@ bg_extractions = {
 	}
 	
 	economy_of_scale_ai_factor = 2.0
+	foreign_investment_ai_factor = 1.0
 }
 
 

@@ -308,7 +308,7 @@ building_investors_fund = {
 
 	lens = infrastructure
 
-	texture = "gfx/interface/icons/building_icons/building_investors_fund.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 
 	production_method_groups = {
 		pmg_investors_fund
@@ -442,7 +442,7 @@ building_religious_sites = {
 
 	lens = infrastructure
 
-	texture = "gfx/interface/icons/building_icons/building_religious_sites.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 
 	production_method_groups = {
 		pmg_religious_sites
@@ -576,7 +576,7 @@ building_cults_corporation = {
 
 	lens = infrastructure
 
-	texture = "gfx/interface/icons/building_icons/building_cults_corporation.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 
 	production_method_groups = {
 		pmg_cults_corporation
@@ -710,7 +710,7 @@ building_yakuza_office = {
 
 	lens = infrastructure
 
-	texture = "gfx/interface/icons/building_icons/building_yakuza_office.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 
 	production_method_groups = {
 		pmg_yakuza_offices

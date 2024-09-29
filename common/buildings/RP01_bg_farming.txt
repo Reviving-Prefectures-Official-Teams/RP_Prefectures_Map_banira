@@ -8,6 +8,10 @@ building_wheat_farm = {
 	city_type = farm
 	levels_per_mesh = 5
 
+	unlocking_technologies = {
+		tech_planting
+	}
+
 	production_method_groups = {
 		pmg_grain_farming
 		pmg_udon
@@ -17,6 +21,9 @@ building_wheat_farm = {
 	required_construction = construction_cost_low
 	
 	terrain_manipulator = farmland_wheat
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
 }
 
 #米畑
@@ -28,6 +35,10 @@ building_rice_farm = {
 	city_type = farm
 	levels_per_mesh = 5
 
+	unlocking_technologies = {
+		tech_planting
+	}
+
 	production_method_groups = {
 		pmg_rice_farming
 		pmg_sake
@@ -38,6 +49,9 @@ building_rice_farm = {
 	required_construction = construction_cost_low
 	
 	terrain_manipulator = farmland_rice
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
 }
 
 #とうもろこし畑
@@ -48,6 +62,10 @@ building_maize_farm = {
 
 	city_type = farm
 	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		tech_planting
+	}
 	
 	production_method_groups = {
 		pmg_grain_farming
@@ -58,6 +76,9 @@ building_maize_farm = {
 	required_construction = construction_cost_low
 	
 	terrain_manipulator = farmland_maize
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
 }
 
 ######畜産
@@ -71,6 +92,7 @@ building_cattle_ranch = {
 	levels_per_mesh = 5
 
 	unlocking_technologies = {
+		tech_planting
 	}
 
 	production_method_groups = {
@@ -81,6 +103,9 @@ building_cattle_ranch = {
 	required_construction = construction_cost_low
 
 	terrain_manipulator = pasture
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
 }
 
 #養鶏場
@@ -93,6 +118,7 @@ building_poultry_farm = {
 	levels_per_mesh = 5
 
 	unlocking_technologies = {
+		tech_planting
 	}
 
 	production_method_groups = {
@@ -103,6 +129,9 @@ building_poultry_farm = {
 	required_construction = construction_cost_low
 
 	terrain_manipulator = pasture
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
 }
 
 #養豚場
@@ -115,6 +144,7 @@ building_hog_farm = {
 	levels_per_mesh = 5
 
 	unlocking_technologies = {
+		tech_planting
 	}
 
 	production_method_groups = {
@@ -125,6 +155,9 @@ building_hog_farm = {
 	required_construction = construction_cost_low
 
 	terrain_manipulator = pasture
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
 }
 
 ######商品作物
@@ -139,7 +172,7 @@ building_vineyard_plantation = {
 	
 	production_method_groups = {
 		pmg_vineyard
-		pmg_whiskey
+		pmg_whisky
 		pmg_transport
 	}
 }
@@ -222,14 +255,14 @@ building_orchard = {
 #野菜農園
 building_vegetable_farms = {
 	building_group = bg_vegetable_farms
-	texture = "gfx/interface/icons/building_icons/vegetable_farm.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 	required_construction = construction_cost_low
 
 	city_type = farm
 	levels_per_mesh = 5
 	
 	production_method_groups = {
-		pmg_vegetable_farm
+		pmg_vegetable_farms
 		pmg_transport
 	}
 }

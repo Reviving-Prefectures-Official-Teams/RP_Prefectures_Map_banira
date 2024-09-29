@@ -8,6 +8,7 @@ building_food_industry = {
 	levels_per_mesh = 5
 	
 	unlocking_technologies = {
+		tech_planting
 	}
 
 	production_method_groups = {
@@ -18,16 +19,20 @@ building_food_industry = {
 	}
 
 	required_construction = construction_cost_high
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 #缶詰工場
 building_canning_factories = {
 	building_group = bg_food_processing
-	texture = "gfx/interface/icons/building_icons/canning_factories.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
 	unlocking_technologies = {
+		tech_planting
 	}
 
 	production_method_groups = {
@@ -38,12 +43,15 @@ building_canning_factories = {
 		pmg_transport
 	}
 	required_construction = construction_cost_low
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 #飲料工場
 building_drink_factory = {
 	building_group = bg_food_processing
-	texture = "gfx/interface/icons/building_icons/distilleries.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
@@ -60,12 +68,15 @@ building_drink_factory = {
 	}
 
 	required_construction = construction_cost_low
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 #菓子工場
 building_sweets_factory = {
 	building_group = bg_food_processing
-	texture = "gfx/interface/icons/building_icons/distilleries.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
@@ -80,12 +91,15 @@ building_sweets_factory = {
 	}
 
 	required_construction = construction_cost_low
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 #野菜工場
 building_vegetable_factorys = {
 	building_group = bg_food_processing
-	texture = "gfx/interface/icons/building_icons/vegetable_factorys.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
@@ -99,4 +113,7 @@ building_vegetable_factorys = {
 	}
 
 	required_construction = construction_cost_low
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
