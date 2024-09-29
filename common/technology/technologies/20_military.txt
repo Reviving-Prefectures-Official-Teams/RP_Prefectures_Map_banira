@@ -3,18 +3,33 @@
 		era = era_1
 		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
 		category = military
+
+		modifier = {
+			state_infrastructure_from_population_add = 5
+			state_infrastructure_from_population_max_add = 20	
+			# state_building_construction_sector_max_level_add = 10
+			market_land_trade_capacity_add = 50
+		}
 	}
 
 	tech_planned_shipbuilding = {
 		era = era_1
 		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
 		category = military
+
 	}
 
 	tech_narrow_road = {
 		era = era_1
 		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
 		category = military
+
+		modifier = {
+			state_infrastructure_from_population_add = 5
+			state_infrastructure_from_population_max_add = 20	
+			# state_building_construction_sector_max_level_add = 10
+			market_land_trade_capacity_add = 50
+		}
 	}
 
 	tech_licensed_aircraft = {
