@@ -49,7 +49,6 @@ state_trait_makinohara_tea = { #牧之原台地
 	
 	modifier = {
 		building_group_bg_tea_plantations_throughput_add = 0.2
-		#お茶補正
 	}
 }
 
