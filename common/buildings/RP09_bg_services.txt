@@ -29,7 +29,7 @@ building_office_building = {
 	levels_per_mesh = 5
 	
 	unlocking_technologies = {
-		tech_domestic_travel
+		tech_shopping_street
 	}
 
 	production_method_groups = {

@@ -4,7 +4,7 @@ HOK = {
 	country_type = recognized
 	tier = kingdom
 	cultures = { sapporo hakodate }
-	capital = STATE_SAPPORO
+	capital = STATE_ISHIKARI
 }
 
 #ソビエト赤軍

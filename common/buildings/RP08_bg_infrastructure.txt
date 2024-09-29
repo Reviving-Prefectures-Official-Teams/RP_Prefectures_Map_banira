@@ -177,8 +177,14 @@ building_road = {
 	building_group = bg_public_infrastructure
 	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 
+	city_type = city
+	# city_type = farm
+	# city_type = mine
+	# city_type = wood
+	# city_type = port
+	
 	unlocking_technologies = {
-		tech_petroleum_asphalt
+		tech_narrow_road
 	}
 
 	production_method_groups = {

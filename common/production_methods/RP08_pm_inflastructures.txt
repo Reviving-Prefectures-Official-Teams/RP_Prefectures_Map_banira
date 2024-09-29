@@ -291,6 +291,9 @@ pm_ai_security = {
 ###舗装
 #あぜ道
 pm_dirt_road = {
+    unlocking_technologies = {
+        tech_narrow_road
+    }
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
 		level_scaled = {
