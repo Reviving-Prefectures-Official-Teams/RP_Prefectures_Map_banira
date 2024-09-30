@@ -16,6 +16,10 @@ building_trade_center = {
 	buildable = no
 	expandable = no
 	downsizeable = no	
+	ownership_type = self
+	cannot_switch_owner = yes
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }
 
 building_general_trader = {
@@ -25,7 +29,7 @@ building_general_trader = {
 
     lens = infrastructure
 
-    texture = "gfx/interface/icons/building_icons/building_general_trader.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 
     production_method_groups = {
         pmg_base_building_general_trader
@@ -35,4 +39,8 @@ building_general_trader = {
     buildable = no
     expandable = no
     downsizeable = no	
+	ownership_type = self
+	cannot_switch_owner = yes
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }

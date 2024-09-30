@@ -21,6 +21,7 @@ bg_whaling = {
 	}
 	
 	economy_of_scale_ai_factor = 2.0
+	foreign_investment_ai_factor = 0.75
 }
 
 bg_fishing = {
@@ -44,4 +45,5 @@ bg_fishing = {
 	}
 	
 	economy_of_scale_ai_factor = 1.5
+	foreign_investment_ai_factor = 0.75
 }

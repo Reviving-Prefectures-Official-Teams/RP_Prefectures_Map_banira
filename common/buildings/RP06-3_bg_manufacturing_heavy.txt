@@ -6,6 +6,7 @@ building_chemical_plants = {
 	texture = "gfx/interface/icons/building_icons/chemicals_industry.dds"
 	
 	unlocking_technologies = {
+	tech_priority_production
 	}
 	
 	city_type = city
@@ -28,6 +29,9 @@ building_chemical_plants = {
 			}
 		}
 	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }
 
 #金属加工工場
@@ -59,16 +63,20 @@ building_steel_mills = {
 			}
 		}
 	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }
 
 #航空機工場
 building_aircraft_factory = {
 	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/aircraft_factory.dds"
+	texture = "gfx/interface/icons/building_icons/vehicles_industry.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
 	unlocking_technologies = {
+	tech_priority_production
 	}
 
 	production_method_groups = {
@@ -88,12 +96,15 @@ building_aircraft_factory = {
 			}
 		}
 	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }
 
 #ドローン工場
 building_drone_factory = {
 	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/drone_factory.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
@@ -119,6 +130,9 @@ building_drone_factory = {
 			}
 		}
 	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }
 
 #合成樹脂プラント
@@ -149,16 +163,20 @@ building_synthetics_plants = {
 			}
 		}
 	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }
 
 #自動車工場
 building_automobile_factory = {
 	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/automobile_factory.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
 	unlocking_technologies = {
+	tech_priority_production
 	}
 
 	production_method_groups = {
@@ -178,12 +196,15 @@ building_automobile_factory = {
 			}
 		}
 	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }
 
 #高級車工場
 building_luxury_automobile_factory = {
 	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/luxury_automobile_factory.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
@@ -208,16 +229,20 @@ building_luxury_automobile_factory = {
 			}
 		}
 	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }
 
 #製薬工場
 building_pharmaceuticals_factory = {
 	building_group = bg_chemical_industry
-	texture = "gfx/interface/icons/building_icons/pharmaceuticals_factory.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
 	unlocking_technologies = {
+	tech_priority_production
 	}
 	
 	production_method_groups = {
@@ -236,6 +261,9 @@ building_pharmaceuticals_factory = {
 			}
 		}
 	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }
 
 #大型造船所
@@ -245,6 +273,7 @@ building_shipyards = {
 	city_type = port
 	
 	unlocking_technologies = {
+	tech_priority_production
 	}
 
 	production_method_groups = {
@@ -258,17 +287,21 @@ building_shipyards = {
 			severity = fail
 			is_coastal = yes
 		}
-	}	
+	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }
 
 #合成染料プラント
 building_synthetic_dyes_plants = {
 	building_group = bg_chemical_industry
-	texture = "gfx/interface/icons/building_icons/synthetic_dyes_plants.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
 	unlocking_technologies = {
+	tech_priority_production
 	}
 	
 	production_method_groups = {
@@ -288,16 +321,20 @@ building_synthetic_dyes_plants = {
 			}
 		}
 	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }
 
 #エンジン工場
 building_motor_industry = {
 	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/motor_industry.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
 	unlocking_technologies = {
+	tech_priority_production
 	}
 
 	production_method_groups = {
@@ -318,12 +355,15 @@ building_motor_industry = {
 			}
 		}
 	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }
 
 #ロボット工場
 building_robot_factory = {
 	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/robot_factory.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
@@ -349,6 +389,9 @@ building_robot_factory = {
 			}
 		}
 	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }
 
 #爆薬工場
@@ -357,6 +400,7 @@ building_explosives_factory = {
 	texture = "gfx/interface/icons/building_icons/explosives_factory.dds"
 	
 	unlocking_technologies = {
+	tech_priority_production
 	}
 	
 	city_type = city
@@ -379,16 +423,20 @@ building_explosives_factory = {
 			}
 		}
 	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }
 
 #総合工事産業
 building_general_constructor_industry = {
 	building_group = bg_construction_industry
-	texture = "gfx/interface/icons/building_icons/construction_industry.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
 	unlocking_technologies = {
+	tech_priority_production
 	}
 
 	production_method_groups = {
@@ -397,6 +445,9 @@ building_general_constructor_industry = {
 	}
 	
 	required_construction = construction_cost_high
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }
 
 #宇宙船工場

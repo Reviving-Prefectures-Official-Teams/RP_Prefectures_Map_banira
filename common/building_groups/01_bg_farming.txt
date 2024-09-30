@@ -20,6 +20,7 @@ bg_agriculture = {
 	}
 	
 	economy_of_scale_ai_factor = 1.5
+	foreign_investment_ai_factor = 0.75
 }
 #小麦
 bg_wheat_farms = {
@@ -85,10 +86,11 @@ bg_ranching = {
 	}
 	
 	economy_of_scale_ai_factor = 1.5
+	foreign_investment_ai_factor = 0.75
 }
 
 #牛牧場
-bg_cattle_ranch = { #"bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" 
+bg_cattle_ranch = {
 	parent_group = bg_ranching
 	
 	default_building = building_cattle_ranch
@@ -152,6 +154,7 @@ bg_plantations = {
 	}
 	
 	economy_of_scale_ai_factor = 1.5
+	foreign_investment_ai_factor = 1.25
 }
 
 #ワイナリー

@@ -13,6 +13,7 @@ bg_manufacturing = {
 	}
 	
 	economy_of_scale_ai_factor = 2.0
+	foreign_investment_ai_factor = 0.25
 }
 
 #軽工業
