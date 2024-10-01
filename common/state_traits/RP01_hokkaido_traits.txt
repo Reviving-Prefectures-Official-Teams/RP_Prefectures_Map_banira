@@ -34,7 +34,7 @@ state_trait_tokati_heiya = { #十勝平野
 	icon = "gfx/interface/icons/state_trait_icons/resources_grazing.dds"
 	
 	modifier = {
-		building_group_bg_ranching_throughput_add = 0.1
+		building_group_bg_ranching_throughput_add = 0.15
 		building_group_bg_plantations_throughput_add = 0.1
 	}
 }
@@ -43,7 +43,7 @@ state_trait_konsen_daiti = { #根釧台地
 	icon = "gfx/interface/icons/state_trait_icons/resources_grazing.dds"
 	
 	modifier = {
-		building_group_bg_agriculture_throughput_add = -0.1
-		building_group_bg_ranching_throughput_add = 0.1
+		building_group_bg_agriculture_throughput_add = -0.15
+		building_group_bg_ranching_throughput_add = 0.15
 	}
 }

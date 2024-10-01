@@ -12,7 +12,7 @@ EHI = {
 	country_type = recognized
 	tier = kingdom
 	cultures = { matsuyama }
-	capital = STATE_TOYO
+	capital = STATE_CHUYO
 }
 # 徳島県
 TKS = {

@@ -65,7 +65,7 @@ USR = { #琉球列島米国民政府
 	
 	tier = principality
 	
-	cultures = { yankee }
+	cultures = { yankee okinawa }
 	capital = STATE_CHUZAN
 }
 

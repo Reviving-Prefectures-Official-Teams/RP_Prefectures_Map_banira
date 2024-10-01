@@ -141,7 +141,7 @@ STATE_NAGAOKA = { #長岡
     id = 115
     provinces = { "x41E8D6" "x5CEBF5" "x78CFEA" "x9ECFD5" "xA5D4E8" "xB5E9AD" "xB7C0F1" "xBAEA67" "xBC89B0" "xBEA59D" "xBFB2B5" "xC0BFB4" "xCAE8A1" "xCC4BDF" "xE6FEE2" "xE7D2FE" "xE9ADCB" "xEFBDCB" "xF1BEA9" }
     traits = { "state_trait_etigo_heiya" "state_trait_shinano_gawa" }
-    arable_land = 60
+    arable_land = 70
     arable_resources = { "bg_tea_plantations" "bg_vegetable_farms" "bg_cotton_plantations" "bg_wheat_farms" "bg_rice_farms" "bg_vineyard_plantations" "bg_maize_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
     capped_resources = {
 
