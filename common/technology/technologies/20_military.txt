@@ -17,6 +17,9 @@
 		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
 		category = military
 
+		modifier = {
+			state_building_port_max_level_add = 3
+		}
 	}
 
 	tech_narrow_road = {
@@ -91,6 +94,10 @@
 		category = military
 		unlocking_technologies = {
 			tech_planned_shipbuilding
+		}
+
+		modifier = {
+			state_building_port_max_level_add = 5
 		}
 	}
 
@@ -172,6 +179,10 @@
 
 		unlocking_technologies = {
 			tech_block_method
+		}
+
+		modifier = {
+			state_building_port_max_level_add = 10
 		}
 	}
 
@@ -299,6 +310,10 @@
 		category = military
 		unlocking_technologies = {
 			tech_automatic_welding
+		}
+
+		modifier = {
+			state_building_port_max_level_add = 15
 		}
 	}
 
