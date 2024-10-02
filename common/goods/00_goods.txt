@@ -763,15 +763,25 @@ space_travel = { #宇宙旅行サービス
 construction = { #建設サービス
 	texture = "gfx/interface/icons/goods_icons/construction_service.dds"
 	cost = 50
-	category = service
+	category = industrial
 	
 	prestige_factor = 30
 
 	traded_quantity = 7.5
 	convoy_cost_multiplier = 0.75
-	
-	consumption_tax_cost = 100
 }
+
+# FMC
+# construction = {
+# 	texture = "gfx/interface/icons/goods_icons/construction_good.dds"
+# 	cost = 100
+# 	category = industrial
+
+# 	#tradeable = no
+	
+# 	prestige_factor = 5
+# }
+
 
 professionals = { #専門家
 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
