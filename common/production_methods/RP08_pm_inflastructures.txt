@@ -291,6 +291,9 @@ pm_ai_security = {
 ###舗装
 #あぜ道
 pm_dirt_road = {
+    unlocking_technologies = {
+        tech_narrow_road
+    }
 	texture = "gfx/interface/icons/production_method_icons/"
 	building_modifiers = {
 		level_scaled = {
@@ -1485,7 +1488,19 @@ pm_small_port = {
 			building_employment_engineers_add = 50
 		}
 	}
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_convoys_capacity_add = 100
+		}
+	}
+	state_modifiers = {
+		workforce_scaled = {
+			state_infrastructure_add = 5
+		}
+	}
 }
+
 #中規模港
 pm_medium_port = {
 	texture = "gfx/interface/icons/production_method_icons/"
@@ -1499,6 +1514,17 @@ pm_medium_port = {
 			building_employment_laborers_add = 200
 			building_employment_machinists_add = 100
 			building_employment_engineers_add = 100
+		}
+	}
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_convoys_capacity_add = 200
+		}
+	}
+	state_modifiers = {
+		workforce_scaled = {
+			state_infrastructure_add = 10
 		}
 	}
 }
@@ -1517,6 +1543,17 @@ pm_large_port = {
 			building_employment_engineers_add = 150
 		}
 	}
+	
+	country_modifiers = {
+		workforce_scaled = {
+			country_convoys_capacity_add = 300
+		}
+	}
+	state_modifiers = {
+		workforce_scaled = {
+			state_infrastructure_add = 15
+		}
+	}
 }
 #メガポート
 pm_mega_port = {
@@ -1531,6 +1568,17 @@ pm_mega_port = {
 			building_employment_laborers_add = 400
 			building_employment_machinists_add = 200
 			building_employment_engineers_add = 200
+		}
+	}
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_convoys_capacity_add = 400
+		}
+	}
+	state_modifiers = {
+		workforce_scaled = {
+			state_infrastructure_add = 20
 		}
 	}
 }

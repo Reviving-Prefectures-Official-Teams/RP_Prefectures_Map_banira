@@ -1,12 +1,124 @@
 ﻿l_japanese:
-  # テンプレ、検索置換を活用してください
+  # テンプレ
+  # HUB_NAME_STATE_^^_city: "都市"
+  # HUB_NAME_STATE_^^_port: "港湾"
+  # HUB_NAME_STATE_^^_mine: "鉱山"
+  # HUB_NAME_STATE_^^_farm: "農場"
+  # HUB_NAME_STATE_^^_wood: "森林"
   
-  HUB_NAME_STATE_^^_city: "都市"
-  HUB_NAME_STATE_^^_port: "港湾"
-  HUB_NAME_STATE_^^_mine: "鉱山"
-  HUB_NAME_STATE_^^_farm: "農場"
-  HUB_NAME_STATE_^^_wood: "森林"
-  
+  # =======北海道
+  HUB_NAME_STATE_HAKODATE_city: "函館"
+  HUB_NAME_STATE_HAKODATE_port: ""
+  HUB_NAME_STATE_HAKODATE_mine: "茅部"
+  HUB_NAME_STATE_HAKODATE_farm: "北斗"
+  HUB_NAME_STATE_HAKODATE_wood: ""
+
+  HUB_NAME_STATE_SHIRIBESHI_city: "岩内"
+  HUB_NAME_STATE_SHIRIBESHI_port: "小樽"
+  HUB_NAME_STATE_SHIRIBESHI_mine: "寿都"
+  HUB_NAME_STATE_SHIRIBESHI_farm: "俱知安"
+  HUB_NAME_STATE_SHIRIBESHI_wood: "蘭越"
+
+  HUB_NAME_STATE_IBURI_city: "苫小牧"
+  HUB_NAME_STATE_IBURI_port: "室蘭"
+  HUB_NAME_STATE_IBURI_mine: "厚真"
+  HUB_NAME_STATE_IBURI_farm: "洞爺湖"
+  HUB_NAME_STATE_IBURI_wood: "千歳"
+
+  HUB_NAME_STATE_HIDAKA_city: "日高"
+  HUB_NAME_STATE_HIDAKA_port: "襟裳"
+  HUB_NAME_STATE_HIDAKA_mine: ""
+  HUB_NAME_STATE_HIDAKA_farm: "浦河"
+  HUB_NAME_STATE_HIDAKA_wood: "新冠"
+
+  HUB_NAME_STATE_ISHIKARI_city: "札幌"
+  HUB_NAME_STATE_ISHIKARI_port: "石狩"
+  HUB_NAME_STATE_ISHIKARI_mine: "江別"
+  HUB_NAME_STATE_ISHIKARI_farm: "恵庭"
+  HUB_NAME_STATE_ISHIKARI_wood: "森林"
+
+  HUB_NAME_STATE_SORACHI_city: "岩見沢"
+  HUB_NAME_STATE_SORACHI_mine: "滝川"
+  HUB_NAME_STATE_SORACHI_farm: "美唄"
+  HUB_NAME_STATE_SORACHI_wood: "深川"
+
+  # HUB_NAME_STATE_RUMOI_city: "都市"
+  # HUB_NAME_STATE_RUMOI_port: "港湾"
+  # HUB_NAME_STATE_RUMOI_mine: "鉱山"
+  # HUB_NAME_STATE_RUMOI_farm: "農場"
+  # HUB_NAME_STATE_RUMOI_wood: "森林"
+
+  HUB_NAME_STATE_KAMIKAWA_city: "旭川"
+  HUB_NAME_STATE_KAMIKAWA_mine: "美深"
+  HUB_NAME_STATE_KAMIKAWA_farm: "富良野"
+  HUB_NAME_STATE_KAMIKAWA_wood: "名寄"
+
+  HUB_NAME_STATE_TOKACHI_city: "帯広"
+  HUB_NAME_STATE_TOKACHI_port: "広尾"
+  HUB_NAME_STATE_TOKACHI_mine: "本別"
+  HUB_NAME_STATE_TOKACHI_farm: "士幌"
+  HUB_NAME_STATE_TOKACHI_wood: "白糠"
+
+  # HUB_NAME_STATE_SOYA_city: "都市"
+  # HUB_NAME_STATE_SOYA_port: "港湾"
+  # HUB_NAME_STATE_SOYA_mine: "鉱山"
+  # HUB_NAME_STATE_SOYA_farm: "農場"
+  # HUB_NAME_STATE_SOYA_wood: "森林"
+
+  HUB_NAME_STATE_KUSHIRO_city: "釧路"
+  HUB_NAME_STATE_KUSHIRO_port: ""
+  HUB_NAME_STATE_KUSHIRO_mine: "鉱山"
+  HUB_NAME_STATE_KUSHIRO_farm: "農場"
+  HUB_NAME_STATE_KUSHIRO_wood: "森林"
+
+  # HUB_NAME_STATE_NEMURO_city: "都市"
+  # HUB_NAME_STATE_NEMURO_port: "港湾"
+  # HUB_NAME_STATE_NEMURO_mine: "鉱山"
+  # HUB_NAME_STATE_NEMURO_farm: "農場"
+  # HUB_NAME_STATE_NEMURO_wood: "森林"
+
+  # HUB_NAME_STATE_ABASHIRI_city: "都市"
+  # HUB_NAME_STATE_ABASHIRI_port: "港湾"
+  # HUB_NAME_STATE_ABASHIRI_mine: "鉱山"
+  # HUB_NAME_STATE_ABASHIRI_farm: "農場"
+  # HUB_NAME_STATE_ABASHIRI_wood: "森林"
+
+  # HUB_NAME_STATE_MONBETSU_city: "都市"
+  # HUB_NAME_STATE_MONBETSU_port: "港湾"
+  # HUB_NAME_STATE_MONBETSU_mine: "鉱山"
+  # HUB_NAME_STATE_MONBETSU_farm: "農場"
+  # HUB_NAME_STATE_MONBETSU_wood: "森林"
+
+  # HUB_NAME_STATE_ETOROFU_city: "都市"
+  # HUB_NAME_STATE_ETOROFU_port: "港湾"
+  # HUB_NAME_STATE_ETOROFU_mine: "鉱山"
+  # HUB_NAME_STATE_ETOROFU_farm: "農場"
+  # HUB_NAME_STATE_ETOROFU_wood: "森林"
+
+  # HUB_NAME_STATE_HABOMAI_city: "都市"
+  # HUB_NAME_STATE_HABOMAI_port: "港湾"
+  # HUB_NAME_STATE_HABOMAI_mine: "鉱山"
+  # HUB_NAME_STATE_HABOMAI_farm: "農場"
+  # HUB_NAME_STATE_HABOMAI_wood: "森林"
+
+  # HUB_NAME_STATE_KUNASHIRI_city: "都市"
+  # HUB_NAME_STATE_KUNASHIRI_port: "港湾"
+  # HUB_NAME_STATE_KUNASHIRI_mine: "鉱山"
+  # HUB_NAME_STATE_KUNASHIRI_farm: "農場"
+  # HUB_NAME_STATE_KUNASHIRI_wood: "森林"
+
+  # HUB_NAME_STATE_HIYAMA_city: "都市"
+  # HUB_NAME_STATE_HIYAMA_port: "港湾"
+  # HUB_NAME_STATE_HIYAMA_mine: "鉱山"
+  # HUB_NAME_STATE_HIYAMA_farm: "農場"
+  # HUB_NAME_STATE_HIYAMA_wood: "森林"
+
+  # HUB_NAME_STATE_OSYAMAMBE_city: "都市"
+  # HUB_NAME_STATE_OSYAMAMBE_port: "港湾"
+  # HUB_NAME_STATE_OSYAMAMBE_mine: "鉱山"
+  # HUB_NAME_STATE_OSYAMAMBE_farm: "農場"
+  # HUB_NAME_STATE_OSYAMAMBE_wood: "森林"
+
   # =======南関東
   # 神奈川県
   HUB_NAME_STATE_KAWASAKI_city: "川崎"

@@ -87,7 +87,7 @@ building_port = {
 	city_type = port
 	texture = "gfx/interface/icons/building_icons/building_port.dds"
 
-	# has_max_level = yes
+	has_max_level = yes
 	ignore_stateregion_max_level = yes
 	port = yes
 
@@ -105,10 +105,7 @@ building_port = {
 	terrain_manipulator = urban_port
 	
 	possible = {
-		error_check = {
-			severity = fail
-			is_coastal = yes
-		}
+		is_coastal = yes
 	}
 
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
@@ -177,8 +174,14 @@ building_road = {
 	building_group = bg_public_infrastructure
 	texture = "gfx/interface/icons/building_icons/placeholder.dds"
 
+	city_type = city
+	# city_type = farm
+	# city_type = mine
+	# city_type = wood
+	# city_type = port
+	
 	unlocking_technologies = {
-		tech_petroleum_asphalt
+		tech_narrow_road
 	}
 
 	production_method_groups = {

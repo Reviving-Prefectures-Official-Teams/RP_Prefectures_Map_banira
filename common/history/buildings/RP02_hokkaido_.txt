@@ -18,35 +18,54 @@
 	#STETE_OSYAMAMBE
 	#STETE_HIYAMA
 
-
 BUILDINGS = {
-	s:STATE_HAKODATE = {
-		region_state:HOK = {
+	s:STATE_HAKODATE = { region_state:HOK = {
+		###administration
 			create_building = {
 				building = "building_government_administration"
                 add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:HOK"
-						levels = 1
-                        region = "STATE_HAKODATE"
-					}
-				}
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
 				reserves = 1
+                activate_production_methods={ "pm_conventional_administration" }
 			}
 			create_building = {
 				building = "building_university"
                 add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:HOK"
-						levels = 1
-                        region = "STATE_HAKODATE"
-					}
-				}
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
 				reserves = 1
 			}
-			###agriculture
+		###infrastracture
+            create_building = {
+                building = "building_road"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_dirt_road" "pm_no_lighting" }
+            }
+			create_building = {
+                building = "building_railway"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_steam_engine" "pm_wooden_carriage" "pm_manned_operation" }
+            }
+		###agriculture
 			create_building = {
 				building = "building_wheat_farm"
 				add_ownership = {
@@ -126,9 +145,9 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###minings
+		###minings
 			create_building = {
-				building = "building_coal_mining"
+				building = "building_coal_mine"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -140,7 +159,7 @@ BUILDINGS = {
 				reserves = 1
 			}
 			create_building = {
-				building = "building_sulfur_mining"
+				building = "building_sulfur_mine"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -151,7 +170,7 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###forests
+		###forests
 			create_building = {
 				building = "building_betulaceae_forest"
                 add_ownership = {
@@ -164,7 +183,7 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###fishing
+		###fishing
 			create_building = {
 				building = "building_fishing_wharf"
                 add_ownership = {
@@ -177,7 +196,7 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###industry
+		###industry
 			create_building = {
 				building = "building_food_industry"
                 add_ownership = {
@@ -250,13 +269,93 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-		}
-	}
-	s:STATE_SHIRIBESHI = {
-		region_state:HOK = {
-			#arable_resources = {"bg_rice_farms""bg_wheat_farms""bg_maize_farms""bg_orchards""bg_vineyard_plantations""bg_vegetable_farms""bg_cattle_ranch""bg_poultry_farm""bg_hog_farm"}
-			###administration
-			###agriculture
+		  #Retail/Service
+			create_building = {
+				building = "building_office_building"
+                add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:HOK"
+						levels = 1
+                        region = "STATE_HAKODATE"
+					}
+				}
+				reserves = 1
+			}
+			create_building = {
+				building = "building_publishing"
+                add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:HOK"
+						levels = 1
+                        region = "STATE_HAKODATE"
+					}
+				}
+				reserves = 1
+			}
+			create_building = {
+				building = "building_transport_center"
+                add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:HOK"
+						levels = 1
+                        region = "STATE_HAKODATE"
+					}
+				}
+				reserves = 1
+			}
+			create_building = {
+				building = "building_nightlife_district"
+                add_ownership = {
+					building = {
+						type = "building_yakuza_office"
+						country = "c:HOK"
+						levels = 1
+                        region = "STATE_HAKODATE"
+					}
+				}
+				reserves = 1
+			}
+	}}
+	s:STATE_SHIRIBESHI = { region_state:HOK = {
+		###administration
+			create_building = {
+				building = "building_government_administration"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+				reserves = 1
+                activate_production_methods={ "pm_conventional_administration" }
+			}
+		###infrastracture
+            create_building = {
+                building = "building_road"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_dirt_road" "pm_no_lighting" }
+            }
+			create_building = {
+                building = "building_railway"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_steam_engine" "pm_wooden_carriage" "pm_manned_operation" }
+            }
+		###agriculture
 			create_building = {
 				building = "building_wheat_farm"
                 add_ownership = {
@@ -305,9 +404,9 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###minings
+		###minings
 			create_building = {
-				building = "building_coal_mining"
+				building = "building_coal_mine"
                 add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -319,7 +418,7 @@ BUILDINGS = {
 				reserves = 1
 			}
 			create_building = {
-				building = "building_lead_mining"
+				building = "building_lead_mine"
                 add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -330,7 +429,7 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###forests
+		###forests
 			create_building = {
 				building = "building_betulaceae_forest"
                 add_ownership = {
@@ -343,7 +442,7 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###fishing
+		###fishing
 			create_building = {
 				building = "building_fishing_wharf"
                 add_ownership = {
@@ -356,14 +455,45 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###industry
-		}
-	}
-	s:STATE_IBURI = {
-		region_state:HOK = {
-			#arable_resources = {"bg_rice_farms""bg_wheat_farms""bg_maize_farms""bg_orchards""bg_vineyard_plantations""bg_vegetable_farms""bg_cattle_ranch""bg_poultry_farm""bg_hog_farm"}
-			###administration
-			###agriculture
+		###industry
+		}}
+	s:STATE_IBURI = { region_state:HOK = {
+		###administration
+			create_building = {
+				building = "building_government_administration"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+				reserves = 1
+                activate_production_methods={ "pm_conventional_administration" }
+			}
+		###infrastracture
+            create_building = {
+                building = "building_road"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_dirt_road" "pm_no_lighting" }
+            }
+			create_building = {
+                building = "building_railway"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_steam_engine" "pm_wooden_carriage" "pm_manned_operation" }
+            }
+		###agriculture
 			create_building = {
 				building = "building_wheat_farm"
                 add_ownership = {
@@ -412,9 +542,9 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###minings
+		###minings
 			create_building = {
-				building = "building_coal_mining"
+				building = "building_coal_mine"
                 add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -426,7 +556,7 @@ BUILDINGS = {
 				reserves = 1
 			}
 			create_building = {
-				building = "building_iron_mining"
+				building = "building_iron_mine"
                 add_ownership = {
 					building = {
 						type = "building_financial_district"
@@ -437,7 +567,7 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###forests
+		###forests
 			create_building = {
 				building = "building_betulaceae_forest"
                 add_ownership = {
@@ -450,7 +580,7 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###fishing
+		###fishing
 			create_building = {
 				building = "building_fishing_wharf"
                 add_ownership = {
@@ -463,13 +593,45 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###industry
-		}
-	}
-	s:STATE_HIDAKA = {
-		region_state:HOK = {
-			###administration
-			###agriculture
+		###industry
+		}}
+	s:STATE_HIDAKA = { region_state:HOK = {
+		###administration
+			create_building = {
+				building = "building_government_administration"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+				reserves = 1
+                activate_production_methods={ "pm_conventional_administration" }
+			}
+		###infrastracture
+            create_building = {
+                building = "building_road"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_dirt_road" "pm_no_lighting" }
+            }
+			create_building = {
+                building = "building_railway"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_steam_engine" "pm_wooden_carriage" "pm_manned_operation" }
+            }
+		###agriculture
 			create_building = {
 				building = "building_wheat_farm"
                 add_ownership = {
@@ -506,9 +668,9 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###minings
+		###minings
 			create_building = {
-				building = "building_asbestos_mining"
+				building = "building_asbestos_mine"
                 add_ownership = {
 					building = {
 						type = "building_yakuza_office"
@@ -519,7 +681,7 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###forests
+		###forests
 			create_building = {
 				building = "building_castanopsis_forest"
                 add_ownership = {
@@ -532,15 +694,46 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###fishing
-			###industry
-		}
-	}
-	s:STATE_ISHIKARI = {
-		region_state:HOK = {
-			#arable_resources = {"bg_rice_farms""bg_wheat_farms""bg_maize_farms""bg_orchards""bg_vineyard_plantations""bg_vegetable_farms""bg_cattle_ranch""bg_poultry_farm""bg_hog_farm"}
-			###administration
-			###agriculture
+		###fishing
+		###industry
+	}}
+	s:STATE_ISHIKARI = { region_state:HOK = {
+		###administration
+			create_building = {
+				building = "building_government_administration"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+				reserves = 1
+                activate_production_methods={ "pm_conventional_administration" }
+			}
+		###infrastracture
+            create_building = {
+                building = "building_road"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_dirt_road" "pm_no_lighting" }
+            }
+			create_building = {
+                building = "building_railway"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_steam_engine" "pm_wooden_carriage" "pm_manned_operation" }
+            }
+		###agriculture
 			create_building = {
 				building = "building_wheat_farm"
                 add_ownership = {
@@ -577,9 +770,9 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###minings
+		###minings
 			create_building = {
-				building = "building_iron_mining"
+				building = "building_iron_mine"
                 add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -591,7 +784,7 @@ BUILDINGS = {
 				reserves = 1
 			}
 			create_building = {
-				building = "building_minor_metals_mining"
+				building = "building_minor_metals_mine"
                 add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -602,7 +795,7 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###forests
+		###forests
 			create_building = {
 				building = "building_cryptomeria_forest"
                 add_ownership = {
@@ -615,14 +808,46 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###fishing
-			###industry
-		}
-	}
-	s:STATE_SORACHI = {
-		region_state:HOK = {
-			###administration
-			###agriculture
+		###fishing
+		###industry
+	}}
+	s:STATE_SORACHI = { region_state:HOK = {
+		###administration
+			create_building = {
+				building = "building_government_administration"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+				reserves = 1
+                activate_production_methods={ "pm_conventional_administration" }
+			}
+		###infrastracture
+            create_building = {
+                building = "building_road"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_dirt_road" "pm_no_lighting" }
+            }
+			create_building = {
+                building = "building_railway"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_steam_engine" "pm_wooden_carriage" "pm_manned_operation" }
+            }
+		###agriculture
 			create_building = {
 				building = "building_wheat_farm"
                 add_ownership = {
@@ -635,20 +860,20 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###minings
+		###minings
 			create_building = {
-				building = "building_coal_mining"
+				building = "building_coal_mine"
                 add_ownership = {
 					building = {
-						type = "building_manor_house"
+						type = "building_financial_district"
 						country = "c:HOK"
-						levels = 1
+						levels = 4
                         region = "STATE_SORACHI"
 					}
 				}
 				reserves = 1
 			}
-			###forests
+		###forests
 			create_building = {
 				building = "building_cryptomeria_forest"
                 add_ownership = {
@@ -661,14 +886,46 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###fishing
-			###industry
-		}
-	}
-	s:STATE_RUMOI = {
-		region_state:HOK = {
-			###administration
-			###agriculture
+		###fishing
+		###industry
+	}}
+	s:STATE_RUMOI = { region_state:HOK = {
+	    ###administration
+			create_building = {
+				building = "building_government_administration"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+				reserves = 1
+                activate_production_methods={ "pm_conventional_administration" }
+			}
+		###infrastracture
+            create_building = {
+                building = "building_road"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_dirt_road" "pm_no_lighting" }
+            }
+			create_building = {
+                building = "building_railway"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_steam_engine" "pm_wooden_carriage" "pm_manned_operation" }
+            }
+		###agriculture
 			create_building = {
 				building = "building_wheat_farm"
                 add_ownership = {
@@ -681,7 +938,7 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###forests
+		###forests
 			create_building = {
 				building = "building_cryptomeria_forest"
                 add_ownership = {
@@ -694,14 +951,46 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###fishing
-			###industry
-		}
-	}
-	s:STATE_KAMIKAWA = {
-		region_state:HOK = {
-			###administration
-			###agriculture
+		###fishing
+		###industry
+	}}
+	s:STATE_KAMIKAWA = { region_state:HOK = {
+		###administration
+			create_building = {
+				building = "building_government_administration"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+				reserves = 1
+                activate_production_methods={ "pm_conventional_administration" }
+			}
+		###infrastracture
+            create_building = {
+                building = "building_road"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_dirt_road" "pm_no_lighting" }
+            }
+			create_building = {
+                building = "building_railway"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_steam_engine" "pm_wooden_carriage" "pm_manned_operation" }
+            }
+		###agriculture
 			create_building = {
 				building = "building_wheat_farm"
                 add_ownership = {
@@ -738,9 +1027,9 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###minings
+		###minings
 			create_building = {
-				building = "building_coal_mining"
+				building = "building_coal_mine"
                 add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -752,7 +1041,7 @@ BUILDINGS = {
 				reserves = 1
 			}
 			create_building = {
-				building = "buildingasbestos_mining_"
+				building = "building_asbestos_mine"
                 add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -763,7 +1052,7 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###forests
+		###forests
 			create_building = {
 				building = "building_cryptomeria_forest"
                 add_ownership = {
@@ -776,16 +1065,13 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###fishing
-			###industry
-		}
-	}
-	s:STATE_TOKACHI = {
-		region_state:HOK = {
-			###administration
-			###agriculture
+		###fishing
+		###industry
+	}}
+	s:STATE_TOKACHI = {	region_state:HOK = {
+		###administration
 			create_building = {
-				building = "building_wheat_farm"
+				building = "building_government_administration"
                 add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -796,13 +1082,37 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
+		###infrastracture
+            create_building = {
+                building = "building_road"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_dirt_road" "pm_no_lighting" }
+            }
 			create_building = {
-				building = "building_rice_farm"
+                building = "building_railway"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_steam_engine" "pm_wooden_carriage" "pm_manned_operation" }
+            }
+		###agriculture
+			create_building = {
+				building = "building_vegetable_farms"
                 add_ownership = {
 					building = {
 						type = "building_manor_house"
 						country = "c:HOK"
-						levels = 1
+						levels = 3
                         region = "STATE_TOKACHI"
 					}
 				}
@@ -820,7 +1130,7 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###minings
+		###minings
 			create_building = {
 				building = "building_"
                 add_ownership = {
@@ -845,9 +1155,9 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###forests
+		###forests
 			create_building = {
-				building = "building_"
+				building = "building_cryptomeria_forest"
                 add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -856,16 +1166,60 @@ BUILDINGS = {
                         region = "STATE_TOKACHI"
 					}
 				}
-				reserves = 1
+				reserves = 3
 			}
-			###fishing
-			###industry
-		}
-	}
-	s:STATE_SOYA = {
-		region_state:HOK = {
-			###administration
-			###agriculture
+		###fishing
+			create_building = {
+				building = "building_fishing_wharf"
+                add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:HOK"
+						levels = 1
+                        region = "STATE_TOKACHI"
+					}
+				}
+				reserves = 2
+			}
+		###industry
+	}}
+	s:STATE_SOYA = { region_state:HOK = {
+		###administration
+			create_building = {
+				building = "building_government_administration"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+				reserves = 1
+                activate_production_methods={ "pm_conventional_administration" }
+			}
+		###infrastracture
+            create_building = {
+                building = "building_road"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_dirt_road" "pm_no_lighting" }
+            }
+			create_building = {
+                building = "building_railway"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_steam_engine" "pm_wooden_carriage" "pm_manned_operation" }
+            }
+		###agriculturev
 			create_building = {
 				building = "building_wheat_farm"
                 add_ownership = {
@@ -883,8 +1237,8 @@ BUILDINGS = {
 				level = 3
 				reserves = 1
 			}
-			###minings
-			###forests
+		###minings
+		###forests
 			create_building = {
 				building = "building_cryptomeria_forest"
                 add_ownership = {
@@ -897,14 +1251,46 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###fishing
-			###industry
-		}
-	}
-	s:STATE_KUSHIRO = {
-		region_state:HOK = {
-			###administration
-			###agriculture
+		###fishing
+		###industry
+	}}
+	s:STATE_KUSHIRO = {	region_state:HOK = {
+		###administration
+			create_building = {
+				building = "building_government_administration"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+				reserves = 1
+                activate_production_methods={ "pm_conventional_administration" }
+			}
+		###infrastracture
+            create_building = {
+                building = "building_road"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_dirt_road" "pm_no_lighting" }
+            }
+			create_building = {
+                building = "building_railway"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_steam_engine" "pm_wooden_carriage" "pm_manned_operation" }
+            }
+		###agriculture
 			create_building = {
 				building = "building_wheat_farm"
                 add_ownership = {
@@ -941,9 +1327,9 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###minings
+		###minings
 			create_building = {
-				building = "building_iron_mining"
+				building = "building_iron_mine"
                 add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -955,7 +1341,7 @@ BUILDINGS = {
 				reserves = 1
 			}
 			create_building = {
-				building = "building_lead_mining"
+				building = "building_lead_mine"
                 add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -966,7 +1352,7 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###forests
+		###forests
 			create_building = {
 				building = "building_betulaceae_forest"
                 add_ownership = {
@@ -979,14 +1365,46 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###fishing
-			###industry
-		}
-	}
-	s:STATE_NEMURO = {
-		region_state:HOK = {
-			###administration
-			###agriculture
+		###fishing
+		###industry
+	}}
+	s:STATE_NEMURO = { region_state:HOK = {
+		###administration
+			create_building = {
+				building = "building_government_administration"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+				reserves = 1
+                activate_production_methods={ "pm_conventional_administration" }
+			}
+		###infrastracture
+            create_building = {
+                building = "building_road"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_dirt_road" "pm_no_lighting" }
+            }
+			create_building = {
+                building = "building_railway"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_steam_engine" "pm_wooden_carriage" "pm_manned_operation" }
+            }
+		###agriculture
 			create_building = {
 				building = "building_wheat_farm"
                 add_ownership = {
@@ -1023,8 +1441,8 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###minings
-			###forests
+		###minings
+		###forests
 			create_building = {
 				building = "building_betulaceae_forest"
                 add_ownership = {
@@ -1037,14 +1455,46 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###fishing
-			###industry
-		}
-	}
-	s:STATE_ABASHIRI = {
-		region_state:HOK = {
-			###administration
-			###agriculture
+		###fishing
+		###industry
+	}}
+	s:STATE_ABASHIRI = { region_state:HOK = {
+		###administration
+			create_building = {
+				building = "building_government_administration"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+				reserves = 1
+                activate_production_methods={ "pm_conventional_administration" }
+			}
+		###infrastracture
+            create_building = {
+                building = "building_road"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_dirt_road" "pm_no_lighting" }
+            }
+			create_building = {
+                building = "building_railway"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_steam_engine" "pm_wooden_carriage" "pm_manned_operation" }
+            }
+		###agriculture
 			create_building = {
 				building = "building_wheat_farm"
                 add_ownership = {
@@ -1057,9 +1507,9 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###minings
+		###minings
 			create_building = {
-				building = "building_coal_mining"
+				building = "building_coal_mine"
                 add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -1070,7 +1520,7 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###forests
+		###forests
 			create_building = {
 				building = "building_betulaceae_forest"
                 add_ownership = {
@@ -1083,7 +1533,7 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###fishing
+		###fishing
 			create_building = {
 				building = "building_fishing_wharf"
                 add_ownership = {
@@ -1096,13 +1546,45 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###industry
-		}
-	}
-	s:STATE_MONBETSU = {
-		region_state:HOK = {
-			###administration
-			###agriculture
+		###industry
+	}}
+	s:STATE_MONBETSU = { region_state:HOK = {
+		###administration
+			create_building = {
+				building = "building_government_administration"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+				reserves = 1
+                activate_production_methods={ "pm_conventional_administration" }
+			}
+		###infrastracture
+            create_building = {
+                building = "building_road"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_dirt_road" "pm_no_lighting" }
+            }
+			create_building = {
+                building = "building_railway"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_steam_engine" "pm_wooden_carriage" "pm_manned_operation" }
+            }
+		###agriculture
 			create_building = {
 				building = "building_wheat_farm"
                 add_ownership = {
@@ -1115,9 +1597,9 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###minings
-			###forests
-			###fishing
+		###minings
+		###forests
+		###fishing
 			create_building = {
 				building = "building_fishing_wharf"
                 add_ownership = {
@@ -1130,13 +1612,45 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###industry
-		}
-	}
-	s:STATE_OSYAMAMBE = {
-		region_state:HOK = {
-			###administration
-			###agriculture
+		###industry
+	}}
+	s:STATE_OSYAMAMBE = { region_state:HOK = {
+		###administration
+			create_building = {
+				building = "building_government_administration"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+				reserves = 1
+                activate_production_methods={ "pm_conventional_administration" }
+			}
+		###infrastracture
+            create_building = {
+                building = "building_road"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_dirt_road" "pm_no_lighting" }
+            }
+			create_building = {
+                building = "building_railway"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_steam_engine" "pm_wooden_carriage" "pm_manned_operation" }
+            }
+		###agriculture
 			create_building = {
 				building = "building_rice_farm"
                 add_ownership = {
@@ -1149,9 +1663,9 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###minings
+		###minings
 			create_building = {
-				building = "building_coal_mining"
+				building = "building_coal_mine"
                 add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -1163,7 +1677,7 @@ BUILDINGS = {
 				reserves = 1
 			}
 			create_building = {
-				building = "building_lead_mining"
+				building = "building_lead_mine"
                 add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -1174,8 +1688,8 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###forests
-			###fishing
+		###forests
+		###fishing
 			create_building = {
 				building = "building_fishing_wharf"
                 add_ownership = {
@@ -1188,13 +1702,45 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###industry
-		}
-	}
-	s:STATE_HIYAMA = {
-		region_state:HOK = {
-			###administration
-			###agriculture
+		###industry
+	}}
+	s:STATE_HIYAMA = { region_state:HOK = {
+		###administration
+			create_building = {
+				building = "building_government_administration"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+				reserves = 1
+                activate_production_methods={ "pm_conventional_administration" }
+			}
+		###infrastracture
+            create_building = {
+                building = "building_road"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_dirt_road" "pm_no_lighting" }
+            }
+			create_building = {
+                building = "building_railway"
+                add_ownership = {
+                    country = {
+                        country="c:HOK"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_steam_engine" "pm_wooden_carriage" "pm_manned_operation" }
+            }
+		###agriculture
 			create_building = {
 				building = "building_wheat_farm"
                 add_ownership = {
@@ -1219,9 +1765,9 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###minings
+		###minings
 			create_building = {
-				building = "building_iron_mining"
+				building = "building_iron_mine"
                 add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -1233,7 +1779,7 @@ BUILDINGS = {
 				reserves = 1
 			}
 			create_building = {
-				building = "building_coal_mining"
+				building = "building_coal_mine"
                 add_ownership = {
 					building = {
 						type = "building_manor_house"
@@ -1244,7 +1790,7 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###forests
+		###forests
 			create_building = {
 				building = "building_betulaceae_forest"
                 add_ownership = {
@@ -1257,7 +1803,7 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###fishing
+		###fishing
 			create_building = {
 				building = "building_fishing_wharf"
                 add_ownership = {
@@ -1270,7 +1816,6 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			###industry
-		}
-	}
+		###industry
+	}}
 }
