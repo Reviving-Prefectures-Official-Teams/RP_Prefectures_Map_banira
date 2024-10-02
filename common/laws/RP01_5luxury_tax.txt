@@ -35,11 +35,11 @@ law_low_luxury_tax = {
 	progressiveness = 50
 
 	tax_modifier_very_low = {
-		tax_consumption_add = 0.25
+		tax_consumption_add = 0.15
 	}	
 	
 	tax_modifier_low = {
-		tax_consumption_add = 0.25
+		tax_consumption_add = 0.20
 	}
 	
 	tax_modifier_medium = {
@@ -47,11 +47,11 @@ law_low_luxury_tax = {
 	}	
 	
 	tax_modifier_high = {
-		tax_consumption_add = 0.25
+		tax_consumption_add = 0.30
 	}
 	
 	tax_modifier_very_high = {
-		tax_consumption_add = 0.25
+		tax_consumption_add = 0.35
 	}
 
 }

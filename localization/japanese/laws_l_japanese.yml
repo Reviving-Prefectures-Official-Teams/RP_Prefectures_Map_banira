@@ -224,6 +224,8 @@
     law_no_income_tax_desc: "所得税はありません。"
     law_single_income_tax: "所得税"
     law_single_income_tax_desc: "所得には税金がかかります。"
+    law_walth_income_tax_desc: "富裕所得税"
+    law_walth_income_tax_desc: "富裕者から多くの所得を徴収する税法です。"
   #贅沢税
     lawgroup_luxury_tax: "贅沢税"
     lawgroup_luxury_tax_desc: "高級品や高価な商品にかかる税金です。"
