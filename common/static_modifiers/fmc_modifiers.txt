@@ -1,0 +1,12 @@
+﻿fmc_add_construction_modifier = {
+	#icon = ""
+	building_throughput_add = 1
+}
+
+fmc_private_public_share_modifier = {
+	country_private_construction_allocation_mult = 0.01
+}
+
+fmc_add_construction_employment = {
+	building_group_fmc_bg_construction_site_employee_mult = 1
+}

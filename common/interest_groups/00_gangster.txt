@@ -6,8 +6,8 @@
 
 	ideologies = {
 		ideology_jingoist
-		ideology_loyalist
-		ideology_patriotic
+		ideology_anti_authoritarianism
+		ideology_chivalry
 	}
 
 	enable = {
