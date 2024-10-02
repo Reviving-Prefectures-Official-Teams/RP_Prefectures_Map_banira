@@ -1,0 +1,48 @@
+ideology_chivalry = { #任侠
+	icon = "gfx/interface/icons/ideology_icons/bakufu.dds"
+	
+	lawgroup_health_system = {
+		law_no_health_system = disapprove
+		law_charitable_health_system = neutral
+		law_private_health_insurance = neutral
+		law_public_health_insurance = strongly_approve
+	}	
+	
+	lawgroup_citizenship = {
+		law_ethnostate = disapprove
+		law_national_supremacy = disapprove
+		law_racial_segregation = neutral
+		law_cultural_exclusion = neutral
+		law_multicultural = approve
+	}
+}
+
+ideology_anti_authoritarianism = { #反権力主義
+	icon = "gfx/interface/icons/ideology_icons/anarchist.dds"
+	lawgroup_migration = {
+		law_closed_borders = disapprove
+		law_migration_controls = neutral
+		law_no_migration_controls = approve
+	}
+
+	lawgroup_trade_policy = {		
+		law_isolationism = neutral
+		law_protectionism = neutral
+		law_mercantilism = neutral
+		law_free_trade = approve
+	}
+
+	lawgroup_policing = {
+		law_militarized_police = strongly_disapprove
+		law_dedicated_police = disapprove
+		law_local_police = neutral
+		law_no_police = approve
+	}
+
+	lawgroup_anti_gangs = {
+		law_exclusion_gangs = strongly_disapprove
+		law_restrict_gangs = disapprove
+		law_monitoring_gangs = neutral
+		law_no_gangs_acts = strongly_approve
+	}
+}

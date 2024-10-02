@@ -89,4 +89,3 @@ law_property_tax = {
 	}
 
 }
-

@@ -3,6 +3,10 @@
 		era = era_1
 		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
 		category = society
+
+		modifier = {
+			state_education_access_wealth_add = 0.01
+		}
 	}
 
 	tech_shortwave_broadcasting = {
@@ -93,6 +97,9 @@
 		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
 		category = society
 
+		modifier = {
+			country_institution_health_system_max_investment_add = 1
+		}		
 		unlocking_technologies = {
 			tech_newspaper
 		}
@@ -103,6 +110,10 @@
 		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
 		category = society
 
+		modifier = {
+			country_institution_schools_max_investment_add = 1
+			state_education_access_wealth_add = 0.005
+		}	
 		unlocking_technologies = {
 			tech_newspaper
 		}
@@ -185,6 +196,9 @@
 		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
 		category = society
 
+		modifier = {
+			country_institution_health_system_max_investment_add = 1
+		}	
 		unlocking_technologies = {
 			tech_specialized_medical_care
 		}
@@ -195,6 +209,9 @@
 		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
 		category = society
 
+		modifier = {
+			country_institution_schools_max_investment_add = 1
+		}	
 		unlocking_technologies = {
 			tech_social_education
 		}
