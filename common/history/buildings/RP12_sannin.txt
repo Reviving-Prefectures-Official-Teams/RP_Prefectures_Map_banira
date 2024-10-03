@@ -1,14 +1,63 @@
 ﻿#####STATELIST#####
+BUILDINGS={
+ ###TOTTORI:TTR
+    s:STATE_TOTTORI = {
+        region_state:TTR ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:TTR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
 
-###TOTTORI:TTR
-    #STATE_TOTTORI
-    #STATE_YONAGO
-    #STATE_KURAYOSHI
+ ###SHIMANE:SMN
+    s:STATE_MATSUE = {
+        region_state:SMN ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:SMN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+    s:STATE_IZUMO = {
+        region_state:SMN ={
 
-###SHIMANE:SMN
-    #STATE_MATSUE
-    #STATE_IZUMO
-    #STATE_OKI
-    #STATE_UNNAN
-    #STATE_HAMADA
-    #STATE_MASUDA
+        }
+    }
+    s:STATE_OKI = {
+        region_state:SMN ={
+
+        }
+    }
+    s:STATE_UNNAN = {
+        region_state:SMN ={
+
+        }
+    }
+    s:STATE_HAMADA = {
+        region_state:SMN ={
+
+        }
+    }
+    s:STATE_MASUDA = {
+        region_state:SMN ={
+
+        }
+    }
+}

@@ -1,46 +1,297 @@
-﻿#####STATELIST#####
+﻿####s:STATELIST#####
+BUILDINGS={
+###FUKUOKA:FKO福岡
+    s:STATE_KITAKYUSHU = {
+        region_state:FKO ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:FKO"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+    s:STATE_MINAMICHIKUGO = {
+        region_state:FKO ={
 
-###FUKUOKA:FKO
-    #STATE_KITAKYUSHU
-    #STATE_MINAMICHIKUGO
-    #STATE_KEICHIKU
-    #STATE_FUKUOKA
-    #STATE_CHIKUHOU
-    #STATE_KITACHIKUGO
+        }
+    }
+    s:STATE_KEICHIKU = {
+        region_state:FKO ={
 
-###SAGA:SAG
-    #STATE_SAGA
-    #STATE_TOSU
-    #STATE_URESHINO
-    #STATE_KARATSU
-    #STATE_IMARI
-    #STATE_KASHIMA
+        }
+    }
+    s:STATE_FUKUOKA = {
+        region_state:FKO ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:FKO"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+    s:STATE_CHIKUHOU = {
+        region_state:FKO ={
 
-###NAGASAKI:NGS
-    #STATE_NAGASAKI
-    #STATE_OHMURA
-    #STATE_SASEBO
-    #STATE_SHIMABARA
-    #STATE_IKI_SHOTOH
-    #STATE_TSUSHIMA_SHOTOH
-    #STATE_GOTO_RETTOH
+        }
+    }
+    s:STATE_KITACHIKUGO = {
+        region_state:FKO ={
 
-###OHITA:OIT
-    #STATE_OHITA
-    #STATE_BUZEN
-    #STATE_KUSU
-    #STATE_HOUHI
-    #STATE_HITA
-    #STATE_KUNISAKI
-    #STATE_SAIKI
+        }
+    }
 
-###KUMAMOTO:KUM
-    #STATE_KUMAMOTO
-    #STATE_ARAO
-    #STATE_YAMAGAKIKUCHI
-    #STATE_ASO
-    #STATE_KAMIMASHIKI
-    #STATE_UKIYATSUSHIRO
-    #STATE_KUMA
-    #STATE_ASHIKITA
-    #STATE_AMAKUSA
+###SAGA:SAG佐賀
+    s:STATE_SAGA = {
+        region_state:SAG ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:SAG"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+    s:STATE_TOSU = {
+        region_state:SAG ={
+
+        }
+    }
+    s:STATE_URESHINO = {
+        region_state:SAG ={
+
+        }
+    }
+    s:STATE_KARATSU = {
+        region_state:SAG ={
+
+        }
+    }
+    s:STATE_IMARI = {
+        region_state:SAG ={
+
+        }
+    }
+    s:STATE_KASHIMA = {
+        region_state:SAG ={
+
+        }
+    }
+
+###NAGASAKI:NGS長崎
+    s:STATE_NAGASAKI = {
+        region_state:NGS ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:NAG"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+    s:STATE_OHMURA = {
+        region_state:NGS ={
+
+        }
+    }
+    s:STATE_SASEBO = {
+        region_state:NGS ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:NGS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+    s:STATE_SHIMABARA = {
+        region_state:NGS ={
+
+        }
+    }
+    s:STATE_IKI_SHOTOH = {
+        region_state:NGS ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:NGS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+    s:STATE_TSUSHIMA_SHOTOH = {
+        region_state:NGS ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:NGS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+    s:STATE_GOTO_RETTOH = {
+        region_state:NGS ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:NGS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+
+###OHITA:OIT大分
+    s:STATE_OHITA = {
+        region_state:OIT ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:OIT"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+    s:STATE_BUZEN = {
+        region_state:OIT ={
+
+        }
+    }
+    s:STATE_KUSU = {
+        region_state:OIT ={
+
+        }
+    }
+    s:STATE_HOUHI = {
+        region_state:OIT ={
+
+        }
+    }
+    s:STATE_HITA = {
+        region_state:OIT ={
+
+        }
+    }
+    s:STATE_KUNISAKI = {
+        region_state:OIT ={
+
+        }
+    }
+    s:STATE_SAIKI = {
+        region_state:OIT ={
+
+        }
+    }
+
+###KUMAMOTO:KUM熊本
+    s:STATE_KUMAMOTO = {
+        region_state:KUM ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:KUM"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+    s:STATE_ARAO = {
+        region_state:KUM ={
+
+        }
+    }
+    s:STATE_YAMAGAKIKUCHI = {
+        region_state:KUM ={
+
+        }
+    }
+    s:STATE_ASO = {
+        region_state:KUM ={
+
+        }
+    }
+    s:STATE_KAMIMASHIKI = {
+        region_state:KUM ={
+
+        }
+    }
+    s:STATE_UKIYATSUSHIRO = {
+        region_state:KUM ={
+
+        }
+    }
+    s:STATE_KUMA = {
+        region_state:KUM ={
+
+        }
+    }
+    s:STATE_ASHIKITA = {
+        region_state:KUM ={
+
+        }
+    }
+    s:STATE_AMAKUSA = {
+        region_state:KUM ={
+
+        }
+    }
+}

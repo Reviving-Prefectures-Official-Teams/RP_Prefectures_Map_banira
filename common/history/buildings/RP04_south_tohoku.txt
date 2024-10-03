@@ -25,6 +25,7 @@
     #STATE_MOGAMI
     
 BUILDINGS={
+ #福島   
     s:STATE_IWAKI = {
         region_state:FKS={
             create_building={
@@ -33,6 +34,18 @@ BUILDINGS={
 				reserves=1
 				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
             }
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:FKS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
         }
     }
     s:STATE_SOSO = {
@@ -95,6 +108,8 @@ BUILDINGS={
             }
         }
     }
+
+ #宮城
     s:STATE_SENDAI = {
         region_state:MYG={
             create_building={
@@ -102,6 +117,18 @@ BUILDINGS={
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+            }
+            ###infrastracture
+            create_building={
+            building="building_port"
+            add_ownership={
+                country={
+                    country="c:MYG"
+                    levels=2
+                }
+            }
+                reserves=2
+                activate_production_methods={ "pm_basic_port" }
             }
         }
     }
@@ -165,6 +192,8 @@ BUILDINGS={
             }
         }
     }
+
+ #山形
     s:STATE_MURAYAMA = {
         region_state:YMG={
             create_building={
@@ -173,6 +202,7 @@ BUILDINGS={
 				reserves=1
 				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
             }
+
         }
     }
     s:STATE_YONEZAWA = {
@@ -193,6 +223,18 @@ BUILDINGS={
 				reserves=1
 				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
             }
+            ###infrastracture
+            create_building={
+            building="building_port"
+            add_ownership={
+                country={
+                    country="c:YMG"
+                    levels=1
+                }
+            }
+                reserves=1
+                activate_production_methods={ "pm_basic_port" }
+            }
         }
     }
     s:STATE_MOGAMI = {
@@ -205,144 +247,5 @@ BUILDINGS={
             }
         }
     }
-    s:STATE_MORIOKA = {
-        region_state:IWT={
-            create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
-            }
-        }
-    }
-    s:STATE_KAMAISHI = {
-        region_state:IWT={
-            create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
-            }
-        }
-    }
-    s:STATE_HANAMAKI = {
-        region_state:IWT={
-            create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
-            }
-        }
-    }
-    s:STATE_KUJI = {
-        region_state:IWT={
-            create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
-            }
-        }
-    }
-    s:STATE_AKITA = {
-        region_state:AKT={
-            create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
-            }
-        }
-    }
-    s:STATE_YURIHONJYOU = {
-        region_state:AKT={
-            create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
-            }
-        }
-    }
-    s:STATE_YOKOTE = {
-        region_state:AKT={
-            create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
-            }
-        }
-    }
-    s:STATE_DAISEN = {
-        region_state:AKT={
-            create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
-            }
-        }
-    }
-    s:STATE_OODATE = {
-        region_state:AKT={
-            create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
-            }
-        }
-    }
-    s:STATE_AOMORI = {
-        region_state:AOM={
-            create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
-            }
-        }
-    }
-    s:STATE_HACHINOHE = {
-        region_state:AOM={
-            create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
-            }
-        }
-    }
-    s:STATE_HIROSAKI = {
-        region_state:AOM={
-            create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
-            }
-        }
-    }
-    s:STATE_TOWADA = {
-        region_state:AOM={
-            create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
-            }
-        }
-    }
-    s:STATE_MUTU = {
-        region_state:AOM={
-            create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
-            }
-        }
-    }
+
 }

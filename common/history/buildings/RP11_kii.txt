@@ -1,21 +1,100 @@
 ﻿#####STATELIST#####
+BUILDINGS={
+ ###MIE:MIE 三重
+    s:STATE_YOKKAICHI = {
+        region_state:MIE ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:MIE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+    s:STATE_IGA = {
+        region_state:MIE ={
 
-###MIE:MIE
-    #STATE_YOKKAICHI
-    #STATE_IGA
-    #STATE_TSU
-    #STATE_MATSUSAKA
-    #STATE_ISE
-    #STATE_KII
+        }
+    }
+    s:STATE_TSU = {
+        region_state:MIE ={
 
-###WAKAYAMA:WAK
-    #STATE_KIHOKU
-    #STATE_KICHU
-    #STATE_KINAN
-    #STATE_WAKAYAMA
+        }
+    }
+    s:STATE_MATSUSAKA = {
+        region_state:MIE ={
 
-###NARA:NAR
-    #STATE_NARA
-    #STATE_UDA
-    #STATE_YOSHINO
-    #STATE_NANWA
+        }
+    }
+    s:STATE_ISE = {
+        region_state:MIE ={
+
+        }
+    }
+    s:STATE_KII = {
+        region_state:MIE ={
+
+        }
+    }
+
+ ###WAKAYAMA:WAK 和歌山
+    s:STATE_KIHOKU = {
+        region_state:WAK ={
+
+        }
+    }
+    s:STATE_KICHU = {
+        region_state:WAK ={
+
+        }
+    }
+    s:STATE_KINAN = {
+        region_state:WAK ={
+
+        }
+    }
+    s:STATE_WAKAYAMA = {
+        region_state:WAK ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:WAK"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+
+ ###NARA:NAR 奈良
+    s:STATE_NARA = {
+        region_state:NAR ={
+
+        }
+    }
+    s:STATE_UDA = {
+        region_state:NAR ={
+
+        }
+    }
+    s:STATE_YOSHINO = {
+        region_state:NAR ={
+
+        }
+    }
+    s:STATE_NANWA = {
+        region_state:NAR ={
+
+        }
+    }
+}

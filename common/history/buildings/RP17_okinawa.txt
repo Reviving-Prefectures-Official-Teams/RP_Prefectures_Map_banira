@@ -1,10 +1,94 @@
-﻿#####STATELIST#####
-
+﻿####s:STATELIST#####
+BUILDINGS={
 ###OKINAWA:OKI/琉球列島米国民政府:USB
-    #STATE_DAITOH_SHOTOH
-    #STATE_HOKUZAN
-    #STATE_CHUZAN
-    #STATE_NANZAN
-    #STATE_KUME_SHOTOH
-    #STATE_SENTAN_SHOTOH
-    #STATE_SENKAKU_SHOTOH
+    s:STATE_DAITOH_SHOTOH = {
+        region_state:USR ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:USR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+    s:STATE_HOKUZAN = {
+        region_state:USR ={
+
+        }
+    }
+    s:STATE_CHUZAN = {
+        region_state:USR ={
+
+        }
+    }
+    s:STATE_NANZAN = {
+        region_state:USR ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:USR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+    s:STATE_KUME_SHOTOH = {
+        region_state:USR ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:FKS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+    s:STATE_SENTAN_SHOTOH = {
+        region_state:USR ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:USR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+    s:STATE_SENKAKU_SHOTOH = {
+        region_state:USR ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:USR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+}

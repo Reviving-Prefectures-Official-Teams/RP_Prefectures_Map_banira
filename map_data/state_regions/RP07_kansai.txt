@@ -7,6 +7,8 @@ STATE_KOSEI = { #湖西
     arable_resources = { "bg_rice_farms" "bg_tea_plantations" }
     capped_resources = {
         bg_logging = 20
+        bg_cryptomeria_forest = 15
+
     }
 }
 STATE_KONAN = { #湖南
@@ -17,6 +19,8 @@ STATE_KONAN = { #湖南
     arable_resources = { "bg_rice_farms" "bg_tea_plantations" }
     capped_resources = {
         bg_logging = 20
+        bg_cryptomeria_forest = 15
+
     }
 }
 STATE_KOTOU = { #湖東
@@ -27,6 +31,8 @@ STATE_KOTOU = { #湖東
     arable_resources = { "bg_rice_farms" "bg_cotton_plantations" "bg_tea_plantations" }
     capped_resources = {
         bg_logging = 20
+        bg_cryptomeria_forest = 15
+
     }
 }
 STATE_KOHOKU = { #湖北
@@ -37,6 +43,8 @@ STATE_KOHOKU = { #湖北
     arable_resources = { "bg_rice_farms" "bg_tea_plantations" }
     capped_resources = {
         bg_logging = 20
+        bg_cryptomeria_forest = 15
+
     }
 }
 #京都府
@@ -47,6 +55,8 @@ STATE_TANGO = { #丹後
     arable_resources = { "bg_rice_farms" "bg_cotton_plantations" }
     capped_resources = {
         bg_logging = 20
+        bg_cryptomeria_forest = 15
+
     }
     naval_exit_id = 3039
 }
@@ -58,6 +68,8 @@ STATE_CHUTAN = { #中丹
     arable_resources = { "bg_rice_farms" "bg_cotton_plantations" }
     capped_resources = {
         bg_logging = 20
+        bg_cryptomeria_forest = 15
+
     }
     naval_exit_id = 3039
 }
@@ -69,6 +81,8 @@ STATE_NANTAN = { #南丹
     arable_resources = { "bg_rice_farms" "bg_tea_plantations" }
     capped_resources = {
         bg_logging = 20
+        bg_cryptomeria_forest = 15
+
     }
 }
 STATE_KYOTO = { #京都
@@ -79,6 +93,8 @@ STATE_KYOTO = { #京都
     arable_resources = { "bg_rice_farms" "bg_tea_plantations" }
     capped_resources = {
         bg_logging = 20
+        bg_cryptomeria_forest = 15
+
     }
 }
 STATE_YAMASHIRO = { #山城
@@ -89,6 +105,8 @@ STATE_YAMASHIRO = { #山城
     arable_resources = { "bg_rice_farms" "bg_tea_plantations" }
     capped_resources = {
         bg_logging = 20
+        bg_cryptomeria_forest = 15
+
     }
 }
 #大阪府
@@ -100,6 +118,8 @@ STATE_HOKUSETSU = { #北摂
     arable_resources = { "bg_rice_farms" }
     capped_resources = {
         bg_logging = 20
+        bg_cryptomeria_forest = 15
+
     }
 }
 STATE_OSAKA = { #大阪
@@ -110,6 +130,8 @@ STATE_OSAKA = { #大阪
     arable_resources = { "bg_rice_farms" }
     capped_resources = {
         bg_logging = 20
+        bg_cryptomeria_forest = 15
+
     }
     naval_exit_id = 3012
 }
@@ -121,6 +143,8 @@ STATE_KITAKAWACHI = { #北河内
     arable_resources = { "bg_rice_farms" }
     capped_resources = {
         bg_logging = 20
+        bg_cryptomeria_forest = 15
+
     }
 }
 STATE_MINAMIKAWACHI = { #南河内
@@ -130,6 +154,8 @@ STATE_MINAMIKAWACHI = { #南河内
     arable_resources = { "bg_rice_farms" }
     capped_resources = {
         bg_logging = 20
+        bg_cryptomeria_forest = 15
+
     }
 }
 STATE_SAKAI = { #堺
@@ -140,6 +166,8 @@ STATE_SAKAI = { #堺
     arable_resources = { "bg_rice_farms" "bg_cotton_plantations" }
     capped_resources = {
         bg_logging = 20
+        bg_cryptomeria_forest = 15
+
     }
     naval_exit_id = 3012
 }
@@ -151,6 +179,8 @@ STATE_SENSYU = { #泉州
     arable_resources = { "bg_rice_farms" "bg_cotton_plantations" }
     capped_resources = {
         bg_logging = 20
+        bg_cryptomeria_forest = 15
+
     }
     naval_exit_id = 3012
 }
@@ -163,6 +193,8 @@ STATE_AWAJI = { #淡路
     capped_resources = {
         bg_logging = 20
         bg_lead_mining = 20
+        bg_cryptomeria_forest = 15
+
     }
     naval_exit_id = 3012
 }
@@ -174,6 +206,8 @@ STATE_KOBE = { #神戸
     arable_resources = { "bg_rice_farms" "bg_tea_plantations" }
     capped_resources = {
         bg_logging = 20
+        bg_cryptomeria_forest = 15
+
     }
     naval_exit_id = 3012
 }
@@ -186,6 +220,8 @@ STATE_HIGASHI_HARIMA = { #東播磨
     capped_resources = {
         bg_logging = 20
         bg_lead_mining = 20
+        bg_cryptomeria_forest = 15
+
     }
     naval_exit_id = 3013
 }
@@ -197,6 +233,8 @@ STATE_NAKA_HARIMA = { #中播磨
     capped_resources = {
         bg_logging = 20
         bg_lead_mining = 20
+        bg_cryptomeria_forest = 15
+
     }
     naval_exit_id = 3013
 }
@@ -207,6 +245,8 @@ STATE_NISHI_HARIMA = { #西播磨
     arable_resources = { "bg_rice_farms" "bg_cotton_plantations" }
     capped_resources = {
         bg_logging = 20
+        bg_cryptomeria_forest = 15
+
     }
     naval_exit_id = 3013
 }
@@ -217,6 +257,8 @@ STATE_TAJIMA = { #但馬
     arable_resources = { "bg_rice_farms" "bg_cotton_plantations" }
     capped_resources = {
         bg_logging = 20
+        bg_cryptomeria_forest = 15
+
     }
 }
 STATE_TANBA = { #丹波
@@ -227,6 +269,8 @@ STATE_TANBA = { #丹波
     arable_resources = { "bg_rice_farms" "bg_cotton_plantations" }
     capped_resources = {
         bg_logging = 20
+        bg_cryptomeria_forest = 15
+
     }
     naval_exit_id = 3018
 }
@@ -238,6 +282,8 @@ STATE_SETTSU = { #摂津
     arable_resources = { "bg_rice_farms" }
     capped_resources = {
         bg_logging = 20
+        bg_cryptomeria_forest = 15
+
     }
     naval_exit_id = 3012
 }
@@ -249,6 +295,8 @@ STATE_MINAMI_TAJIMA = { #南但馬
     arable_resources = { "bg_rice_farms" }
     capped_resources = {
         bg_logging = 20
+        bg_cryptomeria_forest = 15
+
     }
 }
 #福井県西部
@@ -260,6 +308,8 @@ STATE_WAKASA = { #若狭
     arable_resources = { "bg_rice_farms" }
     capped_resources = {
         bg_logging = 20
+        bg_cryptomeria_forest = 15
+
     }
     naval_exit_id = 3039
 }

@@ -1,26 +1,147 @@
 ﻿#####STATELIST#####
+BUILDINGS={
+ ###OKAYAMA:OKY 岡山
+    s:STATE_OKAYAMABIHOKU = {
+        region_state:OKY ={
 
-###OKAYAMA:OKY
-    #STATE_OKAYAMABIHOKU
-    #STATE_OKAYAMA
-    #STATE_KURASHIKI
-    #STATE_BIZEN
-    #STATE_BICCHU
-    #STATE_MIMASAKA
+        }
+    }
+    s:STATE_OKAYAMA = {
+        region_state:OKY ={
 
-###HIROSHIMA:HRS
-    #STATE_HATSUKAICHI
-    #STATE_HIROSHIMA
-    #STATE_KURE
-    #STATE_GEIHOKU
-    #STATE_BINGO
-    #STATE_BIHOKU
+        }
+    }
+    s:STATE_KURASHIKI = {
+        region_state:OKY ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:OKY"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+    s:STATE_BIZEN = {
+        region_state:OKY={
 
-###YAMAGUCHI:YMC
-    #STATE_YAMAGUCHI
-    #STATE_HAGI
-    #STATE_NAGATO
-    #STATE_YANAI
-    #STATE_UBE
-    #STATE_SHUNAN
-    #STATE_IWAKUNI
+        }
+    }
+    s:STATE_BICCHU = {
+        region_state:OKY ={
+
+        }
+    }
+    s:STATE_MIMASAKA = {
+        region_state:OKY ={
+
+        }
+    }
+
+ ###HIROSHIMA:HRS　広島
+    s:STATE_HATSUKAICHI = {
+        region_state:HRS ={
+
+        }
+    }
+    s:STATE_HIROSHIMA = {
+        region_state:HRS ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:HRS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+    s:STATE_KURE = {
+        region_state:HRS ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:HRS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+    s:STATE_GEIHOKU = {
+        region_state:HRS={
+
+        }
+    }
+    s:STATE_BINGO = {
+        region_state:HRS ={
+
+        }
+    }
+    s:STATE_BIHOKU = {
+        region_state:HRS ={
+
+        }
+    }
+
+ ###YAMAGUCHI:YMC 山口
+    s:STATE_YAMAGUCHI = {
+        region_state:YMC ={
+
+        }
+    }
+    s:STATE_HAGI = {
+        region_state:YMC ={
+
+        }
+    }
+    s:STATE_NAGATO = {
+        region_state:YMC ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:YMC"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+    s:STATE_YANAI = {
+        region_state:YMC ={
+
+        }
+    }
+    s:STATE_UBE = {
+        region_state:YMC ={
+
+        }
+    }
+    s:STATE_SHUNAN = {
+        region_state:YMC ={
+
+        }
+    }
+    s:STATE_IWAKUNI = {
+        region_state:YMC ={
+
+        }
+    }
+}

@@ -423,7 +423,7 @@ BUILDINGS = {
 					building = {
 						type = "building_manor_house"
 						country = "c:HOK"
-						levels = 1
+						levels = 2
                         region = "STATE_SHIRIBESHI"
 					}
 				}
@@ -493,6 +493,17 @@ BUILDINGS = {
                 reserves=1
                 activate_production_methods={ "pm_steam_engine" "pm_wooden_carriage" "pm_manned_operation" }
             }
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:HOK"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		###agriculture
 			create_building = {
 				building = "building_wheat_farm"
@@ -733,6 +744,17 @@ BUILDINGS = {
                 reserves=1
                 activate_production_methods={ "pm_steam_engine" "pm_wooden_carriage" "pm_manned_operation" }
             }
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:HOK"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		###agriculture
 			create_building = {
 				building = "building_wheat_farm"
@@ -1219,6 +1241,17 @@ BUILDINGS = {
                 reserves=1
                 activate_production_methods={ "pm_steam_engine" "pm_wooden_carriage" "pm_manned_operation" }
             }
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:HOK"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		###agriculturev
 			create_building = {
 				building = "building_wheat_farm"

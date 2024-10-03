@@ -1,21 +1,142 @@
-﻿#####STATELIST#####
+﻿####s:STATELIST#####
+BUILDINGS={
+###MIYAZAKI:MYZ宮城
+    s:STATE_MIYAZAKI = {
+        region_state:MYZ ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:MYZ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+    s:STATE_MIYAKONOJOH = {
+        region_state:MYZ ={
 
-###MIYAZAKI:MYZ
-    #STATE_MIYAZAKI
-    #STATE_MIYAKONOJOH
-    #STATE_NICHINAN
-    #STATE_NISHIMORO
-    #STATE_KOYU
-    #STATE_HIGASHIUSUKI
-    #STATE_NISHIUSUKI
-    #STATE_NOBEOKA
+        }
+    }
+    s:STATE_NICHINAN = {
+        region_state:MYZ ={
 
-###KAGOSHIMA:KGS
-    #STATE_KITASATSUMA
-    #STATE_MINAMISATSUMA
-    #STATE_KAGOSHIMA
-    #STATE_KIRISHIMA
-    #STATE_OHSUMI
-    #STATE_OHSUMI_SHOTOH
-    #STATE_AMAMI_GUNTOH
-    #STATE_TOKARA_RETTOH
+        }
+    }
+    s:STATE_NISHIMORO = {
+        region_state:MYZ ={
+
+        }
+    }
+    s:STATE_KOYU = {
+        region_state:MYZ ={
+
+        }
+    }
+    s:STATE_HIGASHIUSUKI = {
+        region_state:MYZ ={
+
+        }
+    }
+    s:STATE_NISHIUSUKI = {
+        region_state:MYZ ={
+
+        }
+    }
+    s:STATE_NOBEOKA = {
+        region_state:MYZ ={
+
+        }
+    }
+
+###KAGOSHIMA:KGS鹿児島
+    s:STATE_KITASATSUMA = {
+        region_state:KGS ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:KGS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+    s:STATE_MINAMISATSUMA = {
+        region_state:KGS ={
+
+        }
+    }
+    s:STATE_KAGOSHIMA = {
+        region_state:KGS ={
+
+        }
+    }
+    s:STATE_KIRISHIMA = {
+        region_state:KGS ={
+
+        }
+    }
+    s:STATE_OHSUMI = {
+        region_state:KGS ={
+
+        }
+    }
+    s:STATE_OHSUMI_SHOTOH = {
+        region_state:KGS ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:KGS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+    s:STATE_TOKARA_RETTOH = {
+        region_state:KGS ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:KGS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+    #アメリカ領琉球
+    s:STATE_AMAMI_GUNTOH = {
+        region_state:USR ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:USR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+}

@@ -179,8 +179,8 @@ building_naval_base = {
 	
 	texture = "gfx/interface/icons/building_icons/naval_base.dds"
 	naval = yes
-	unlocking_technologies = { admiralty }
-	
+	#unlocking_technologies = { admiralty }
+	state_building_naval_base_max_level_add = 20
 	production_method_groups = {
 		pmg_naval_theory
 	}

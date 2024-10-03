@@ -1,33 +1,207 @@
-﻿#####STATELIST#####
+﻿####s:STATELIST#####
+BUILDINGS={
+###KAGAWA:KAG香川
+    s:STATE_TAKAMATSU = {
+        region_state:KAG ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:KAG"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+    s:STATE_MARUGAME = {
+        region_state:KAG ={
 
-###KAGAWA:KAG
-    #STATE_TAKAMATSU
-    #STATE_MARUGAME
-    #STATE_KOTOHIRA
-    #STATE_SANUKI
-    #STATE_SHIWAKU
-    #STATE_SHODOSHIMA
+        }
+    }
+    s:STATE_KOTOHIRA = {
+        region_state:KAG ={
 
-###EHIME:EHI
-    #STATE_TOYO
-    #STATE_CHUYO
-    #STATE_NANYO
-    #STATE_UESHIMA
-    #STATE_SHIKOKUCHUOH
-    #STATE_SEYO
+        }
+    }
+    s:STATE_SANUKI = {
+        region_state:KAG ={
 
-###TOKUSHIMA:TKS
-    #STATE_TOKUSHIMA
-    #STATE_NARUTO
-    #STATE_ANAN
-    #STATE_MIYOSHI
-    #STATE_YOSHINOGAWA
+        }
+    }
+    s:STATE_SHIWAKU = {
+        region_state:KAG ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:KAG"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+    s:STATE_SHODOSHIMA = {
+        region_state:KAG ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:KAG"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
 
-###KOCHI:KCH
-    #STATE_KOCHI
-    #STATE_REIHOKU
-    #STATE_NIYODO
-    #STATE_HATA
-    #STATE_ASHIZURI
-    #STATE_AKI
-    #STATE_MONOBE
+###EHIME:EHI愛媛
+    s:STATE_TOYO = {
+        region_state:EHI ={
+
+        }
+    }
+    s:STATE_CHUYO = {
+        region_state:EHI ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:EHI"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+    s:STATE_NANYO = {
+        region_state:EHI ={
+
+        }
+    }
+    s:STATE_UESHIMA = {
+        region_state:EHI ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:EHI"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+    s:STATE_SHIKOKUCHUOH = {
+        region_state:EHI ={
+
+        }
+    }
+    s:STATE_SEYO = {
+        region_state:EHI ={
+
+        }
+    }
+
+###TOKUSHIMA:TKS徳島
+    s:STATE_TOKUSHIMA = {
+        region_state:TKS ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:TKS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+    s:STATE_NARUTO = {
+        region_state:TKS ={
+
+        }
+    }
+    s:STATE_ANAN = {
+        region_state:TKS ={
+
+        }
+    }
+    s:STATE_MIYOSHI = {
+        region_state:TKS ={
+
+        }
+    }
+    s:STATE_YOSHINOGAWA = {
+        region_state:TKS ={
+
+        }
+    }
+
+###KOCHI:KCH高知
+    s:STATE_KOCHI = {
+        region_state:KCH ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:KCH"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+    s:STATE_REIHOKU = {
+        region_state:KCH ={
+
+        }
+    }
+    s:STATE_NIYODO = {
+        region_state:KCH ={
+
+        }
+    }
+    s:STATE_HATA = {
+        region_state:KCH ={
+
+        }
+    }
+    s:STATE_ASHIZURI = {
+        region_state:KCH ={
+
+        }
+    }
+    s:STATE_AKI = {
+        region_state:KCH ={
+
+        }
+    }
+    s:STATE_MONOBE = {
+        region_state:KCH ={
+
+        }
+    }
+}

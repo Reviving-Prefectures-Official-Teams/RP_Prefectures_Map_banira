@@ -2,12 +2,25 @@
 	s:STATE_ETOROFU = {
 		region_state:SRA = {
 			###administration
+			###infrastracture
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:SRA"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 			###agriculture
 			create_building={
 				building="building_wheat_farm"
 				level=1
 				reserves=1
 			}
+
 			###fishing
 			create_building={
 				building="building_fishing_wharf"
@@ -20,6 +33,18 @@
 	s:STATE_HABOMAI = {
 		region_state:SRA = {
 			###administration
+			###infrastracture
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:SRA"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 			###agriculture
 			###minings
 			###forests
@@ -35,6 +60,18 @@
 	s:STATE_KUNASHIRI = {
 		region_state:SRA = {
 			###administration
+			###infrastracture
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:SRA"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 			###agriculture
 			###minings
 			###forests

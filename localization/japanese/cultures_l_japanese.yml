@@ -2,7 +2,7 @@
 #文化グループ
  japanese_and_ryukyuan: "日琉"
  #==================北海道==================
- ezo: "蝦夷"
+ ezo: "北海道系統"
 
  hokkaido_group: "北海道文化"
  sapporo: "札幌"
@@ -20,7 +20,7 @@
  russian: "ロシア"
  white_russian: "白系ロシア" 
  #==================奥羽==================
- owu: "奥羽"
+ owu: "東北系統"
 
  tsugaru_group: "津軽文化"
  aomori: "青森"
@@ -52,7 +52,7 @@
   shonai: "荘内"
   yamagata: "山形"
  #==================関東==================
- kanto: "関東"
+ kanto: "関東系統"
 
  musashi_group: "武蔵文化"
  kawagoe: "川越"
@@ -102,7 +102,7 @@
  iwo_group: "硫黄島文化"
  iwo: "硫黄島"
  #==================北陸道==================
- hokurikudo: "北陸道"
+ hokurikudo: "北陸系統"
 
  echizen: "越前文化"
  fukui: "福井"
@@ -124,7 +124,7 @@
 
  shirakawa: "白川"
  #==================東山道==================
- tozando: "東山道"
+ tozando: "東山系統"
 
  hida_group: "飛騨文化"
  hida: "飛騨"
@@ -147,7 +147,7 @@
  kofu: "甲府"
  fuji: "富士"
  #==================東海道==================
- tokaido: "東海道"
+ tokaido: "東海系統"
 
  tokai_group: "東海文化"
  gifu: "岐阜"
@@ -166,7 +166,7 @@
  izu_group: "伊豆文化"
  izu: "伊豆"
  #==================近畿==================
- kinki: "近畿"
+ kinki: "関西系統"
 
  hyogo_prefecture: "兵庫"
  kyoto_prefecture: "京都"
@@ -212,7 +212,7 @@
  takashima: "高島"
  nagahama: "長浜"
  #==================山陰道==================
- sanindo: "山陰道"
+ sanindo: "山陰系統"
 
  unpaku: "雲伯文化"
  yonago: "米子"
@@ -225,7 +225,7 @@
  tango: "丹後"
  tajima: "但馬"
  #==================山陽道==================
- sanyodo: "山陽道"
+ sanyodo: "山陽系統"
 
  west_chugoku: "西中国文化"
  iwami: "石見"
@@ -247,7 +247,7 @@
  akashi: "明石"
  kobe: "神戸" 
  #==================南海道==================
- nankaido: "南海道"
+ nankaido: "四国系統"
 
  north_shikoku: "北四国文化"
  awaji: "淡路"
@@ -267,7 +267,7 @@
  uwajima: "宇和島"
  simanto: "四万十"
  #==================西海道==================
- seikaido: "西海道"
+ seikaido: "九州系統"
 
  hichiku: "肥筑文化"
  fukuoka: "福岡"
@@ -307,7 +307,7 @@
  amami: "奄美"
  tokara: "吐噶喇"
 #==================琉球================
- ryukyu: "琉球文化"
+ ryukyu: "沖縄系統"
 
  okinawa_group: "沖縄文化"
  okinawa: "沖縄"

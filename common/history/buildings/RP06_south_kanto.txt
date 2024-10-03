@@ -1,49 +1,253 @@
 ﻿#####STATELIST#####
-
-###KANAGAWA:KNG
-    #STATE_KAWASAKI
-    #STATE_YOKOHAMA
-    #STATE_YOKOSUKA
-    #STATE_SAGAMIHARA
-    #STATE_SHONAN
-    #STATE_ODAWARA
-
-###TOKYO:TKY
-    #STATE_OKUTAMA
-    #STATE_SOUTH_TAMA
-    #STATE_NORTH_TAMA
-    #STATE_MACHIDA
-    #STATE_JOSAI
-    #STATE_JOHOKU
-    #STATE_JONAN
-    #STATE_CENTER_TOKYO
-    #STATE_JOTO
-    #STATE_IZU_ISLAND
-    #STATE_HACHIJO
-
-##OGASAWARA:OGS/PONIN:USB
-    #STATE_OGASAWARA
-    #STATE_KAZANRETTO
-
-###SAITAMA:SIT
-    #STATE_CHICHIBU
-    #STATE_KODAMA_OSATO
-    #STATE_HIKI
-    #STATE_IRUMA
-    #STATE_SAITAMA
-    #STATE_NORTH_KATSUSHIKA
-    #STATE_TONE
-
-###CHIBA:CHB
-	#STATE_NANSO
-	#STATE_TOSO
-	#STATE_CHIBA
-	#STATE_KATSUSHIKA
-	#STATE_EAST_KATSUSHIKA
-	#STATE_KUJYUKURI
-	#STATE_INBA
-
 BUILDINGS={
+ ###TOKYO:TKY 東京
+    s:STATE_OKUTAMA = {
+        region_state:TKY ={
+
+        }
+    }
+    s:STATE_SOUTH_TAMA = {
+        region_state:TKY ={
+
+        }
+    }
+    s:STATE_NORTH_TAMA = {
+        region_state:TKY ={
+
+        }
+    }
+    s:STATE_MACHIDA = {
+        region_state:TKY ={
+
+        }
+    }
+    s:STATE_JOSAI = {
+        region_state:TKY ={
+
+        }
+    }
+    s:STATE_JOHOKU = {
+        region_state:TKY ={
+
+        }
+    }
+    s:STATE_JONAN = {
+        region_state:TKY ={
+
+        }
+    }
+    s:STATE_CENTER_TOKYO = {
+        region_state:TKY ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:TKY"
+						levels=4
+					}
+				}
+				reserves=4
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+    s:STATE_JOTO = {
+        region_state:TKY ={
+
+        }
+    }
+    s:STATE_IZU_ISLAND = {
+        region_state:TKY ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:TKY"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+    s:STATE_HACHIJO = {
+        region_state:TKY ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:TKY"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+
+ ##OGASAWARA:OGS/PONIN:USB
+    s:STATE_OGASAWARA = {
+        region_state:USB ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:USB"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+    s:STATE_KAZANRETTO = {
+        region_state:USB ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:USB"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+
+ ###SAITAMA:SIT 埼玉
+    s:STATE_CHICHIBU = {
+        region_state:SIT ={
+
+        }
+    }
+    s:STATE_KODAMA_OSATO = {
+        region_state:SIT ={
+
+        }
+    }
+	s:STATE_HIKI = {
+        region_state:SIT ={
+
+        }
+    }
+	s:STATE_IRUMA = {
+        region_state:SIT ={
+
+        }
+    }
+	s:STATE_SAITAMA = {
+        region_state:SIT ={
+
+        }
+    }
+	s:STATE_NORTH_KATSUSHIKA = {
+        region_state:SIT ={
+
+        }
+    }
+	s:STATE_TONE = {
+        region_state:SIT ={
+
+        }
+    }
+
+ ###CHIBA:CHB 千葉
+    s:STATE_NANSO = {
+        region_state:CHB ={
+
+        }
+    }
+	s:STATE_TOSO = {
+        region_state:CHB ={
+
+        }
+    }
+	s:STATE_CHIBA = {
+        region_state:CHB ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:CHB"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+	s:STATE_KATSUSHIKA = {
+        region_state:CHB ={
+
+        }
+    }
+	s:STATE_EAST_KATSUSHIKA = {
+        region_state:CHB ={
+
+        }
+    }
+	s:STATE_KUJYUKURI = {
+        region_state:CHB ={
+
+        }
+    }
+	s:STATE_INBA = {
+        region_state:CHB ={
+
+        }
+    }
+
+
+
+ ###KANAGAWA:KNG 神奈川
+    s:STATE_YOKOHAMA = {
+        region_state:KNG ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:KNG"
+						levels=2
+					}
+				}
+				reserves=2
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+	s:STATE_YOKOSUKA = {
+        region_state:KNG ={
+
+        }
+    }
+	s:STATE_SAGAMIHARA = {
+        region_state:KNG ={
+
+        }
+    }
+    s:STATE_SHONAN = {
+        region_state:KNG ={
+
+        }
+    }
+	s:STATE_ODAWARA = {
+        region_state:KNG ={
+
+        }
+    }
 	s:STATE_KAWASAKI={
 		region_state:KNG={
 			create_building={

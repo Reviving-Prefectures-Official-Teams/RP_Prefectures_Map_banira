@@ -1,24 +1,104 @@
 ﻿#####STATELIST#####
+BUILDINGS = {
+ ###GUNMA:GNM 群馬
+    s:STATE_TOMOU = {
+        region_state:GNM={
 
-###GUNMA:GNM
-    #STATE_TOMOU
-    #STATE_MAEBASHI
-    #STATE_SEIMOU
-    #STATE_NUMATA
-    #STATE_AGATSUMA
+        }
+    }
+    STATE_MAEBASHI = {
+        region_state:GNM={
 
-###TOCHIGI:TCH
-    #STATE_ASHIKAGA
-    #STATE_TOCHIGI
-    #STATE_UTSUNOMIYA
-    #STATE_NIKKO
-    #STATE_NASU
-    #STATE_HAGA
+        }
+    }
+    s:STATE_SEIMOU = {
+        region_state:GNM={
 
-###IBARAKI:IBR
-    #STATE_ROKKO
-    #STATE_HITACHI
-    #STATE_MITO
-    #STATE_RYUUGASAKI
-    #STATE_TSUKUBA
-    #STATE_KOGA
+        }
+    }
+    s:STATE_NUMATA = {
+        region_state:GNM={
+
+        }
+    }
+    s:STATE_AGATSUMA = {
+        region_state:GNM={
+
+        }
+    }
+ 
+ ###TOCHIGI:TCH 栃木
+    s:STATE_ASHIKAGA = {
+        region_state:TCH ={
+
+        }
+    }
+    s:STATE_TOCHIGI = {
+        region_state:TCH ={
+
+        }
+    }
+    s:STATE_UTSUNOMIYA = {
+        region_state:TCH ={
+
+        }
+    }
+    s:STATE_NIKKO = {
+        region_state:TCH ={
+
+        }
+    }
+    s:STATE_NASU = {
+        region_state:TCH ={
+
+        }
+    }
+    s:STATE_HAGA = {
+        region_state:TCH ={
+
+        }
+    }
+
+ ###IBARAKI:IBR 茨城
+    s:STATE_ROKKO = {
+        region_state:IBR ={
+
+        }
+    }
+    s:STATE_HITACHI = {
+        region_state:IBR ={
+
+        }
+    }
+    s:STATE_MITO = {
+        region_state:IBR ={
+            ###infrastracture
+            create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:IBR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+        }
+    }
+    s:STATE_RYUUGASAKI = {
+        region_state:IBR ={
+
+        }
+    }
+    s:STATE_TSUKUBA = {
+        region_state:IBR ={
+
+        }
+    }
+    s:STATE_KOGA = {
+        region_state:IBR ={
+
+        }
+    }
+}

@@ -8,7 +8,7 @@ state_trait_mainPort = { #主要な港湾
 		state_market_access_price_impact = 0.1
 		building_shipyards_throughput_add = 0.20
 		building_military_shipyards_throughput_add = 0.15
-		state_building_naval_base_max_level_add = 10	
+		state_building_naval_base_max_level_add = 20	
 		state_building_port_max_level_add = 10
 	}
 }
@@ -31,6 +31,7 @@ state_trait_milPort = { #主要軍港
 	modifier = {
 		state_infrastructure_mult = 0.05
 		building_military_shipyards_throughput_add = 0.25
+		building_shipyards_throughput_add = 0.20 #暫定付与
 		state_building_port_max_level_add = 5
 		state_building_naval_base_max_level_add = 40
 	}
