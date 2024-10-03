@@ -17,7 +17,7 @@
 	
 	country_law_enactment_max_setbacks_add = 3
 	
-	country_minting_add = 10000
+	country_minting_add = 2000
 	country_government_dividends_efficiency_add = 0.25
 
 	state_tax_capacity_add = 100
