@@ -1322,7 +1322,7 @@ pm_legally_service = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_foods_add = 5
-			goods_output_service_add = 8
+			goods_output_services_add = 8
 		}
 
 		level_scaled = {
@@ -1341,7 +1341,7 @@ pm_illegally_service = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_service_add = 10
+			goods_output_services_add = 10
 		}
 
 		level_scaled = {
@@ -1359,7 +1359,7 @@ pm_legal_regulation = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_service_add = 1
+			goods_output_services_add = 4
 		}
 
 		level_scaled = {
