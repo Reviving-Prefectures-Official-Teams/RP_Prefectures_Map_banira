@@ -1,13 +1,12 @@
 ﻿#群馬県
-STATE_TOMOU = {
- #東毛
+STATE_TOMOU = { #東毛
     id = 34
     provinces = { "x5DE5BE" "x6EB9E7" "x80FCDF" "x90FDC5" "x95E1B8" "x9BDC96" "xA7C2CF" "xA988F7" "xB1C6E2" "xBF80C5" "xC3D773" "xC4C9AD" "xC6DBE8" "xCDEEF9" "xCDF7EF" "xD478BD" "xD6F3A8" "xD8B18D" "xD9A1B8" "xE193B2" "xE883B3" "xE8AE7C" "xE9F29E" "xEAD35D" "xF8CC80" }
     traits = { "state_trait_kantou_heiya" "state_trait_tone_gawa" }
-    city = "x"
-    farm = "x"
-    mine = "x"
-    wood = "x"
+    city = "x80FCDF"
+    farm = "xA7C2CF"
+    mine = "xC6DBE8"
+    wood = "xD478BD"
     arable_land = 80
     arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
@@ -16,30 +15,28 @@ STATE_TOMOU = {
         bg_chamaecyparis_obtusa_forest = 4
     }
 }
-STATE_MAEBASHI = {
- #前橋
+STATE_MAEBASHI = { #前橋
     id = 35
     provinces = { "x23EFEF" "x30E6EA" "x4EFCCC" "x4EFCCC" "x7DF5D0" "x9482E6" "x9CB6D6" "xABC79C" "xACA1AF" "xADD790" "xD54DD8" "xD6F5C3" "xDC3FE8" "xE77EEF" "xEDE0DB" "xF158E7" "xF49CE2" "xF875BC" "xFAE053" "xFE65AC" }
     traits = { "state_trait_kantou_heiya" "state_trait_tone_gawa" }
-    city = "x"
-    farm = "x"
-    mine = "x"
-    wood = "x"
+    city = "xF875BC"
+    farm = "xABC79C"
+    mine = "xACA1AF"
+    wood = "xD54DD8"
     arable_land = 90
     arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
         bg_castanopsis_forest = 6
     }
 }
-STATE_SEIMOU = {
- #西毛
+STATE_SEIMOU = { #西毛
     id = 36
     provinces = { "x34E5F4" "x49E3F0" "x49FEF3" "x75B8F9" "x88DBE4" "x92FC92" "xA2FBDE" "xA2FD89" "xADDDDC" "xB1F6D0" "xB554F0" "xBAECC6" "xC8F7D2" "xCCD655" "xDE99D4" "xE0D2E8" "xE3CFDC" "xE46AE8" "xE5B2B4" "xE7CDFA" "xEB75F7" "xEFE17B" "xF944CF" "xFAEBB7" "xFAF777" "xFB46CF" "xFEE63E" "xFEFCCF" }
     traits = { "state_trait_kantou_santi" }
-    city = "x"
-    farm = "x"
-    mine = "x"
-    wood = "x"
+    city = "xC8F7D2"
+    farm = "x49E3F0"
+    mine = "xE0D2E8"
+    wood = "xE7CDFA"
     arable_land = 30
     arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
@@ -47,15 +44,14 @@ STATE_SEIMOU = {
 
     }
 }
-STATE_NUMATA = {
- #沼田
+STATE_NUMATA = { #沼田
     id = 37
     provinces = { "x34F7EF" "x4FDFD4" "x58EBE4" "x67D5D0" "x6CC2CD" "x79D3F9" "x86F390" "xABF3E0" "xB365FD" "xCD88EA" "xCDF2B9" "xD4A8A6" "xDBFEDA" "xDF3FFC" "xE155D6" "xE165EC" "xE1F6CB" "xE4A5E2" "xE9D58D" "xE9E88E" "xEE14FB" "xF173B5" "xF458BE" "xF6C4F9" "xF6E371" "xF7F51A" }
     traits = { "state_trait_etigo_sanmyaku" }
-    city = "x"
-    farm = "x"
-    mine = "x"
-    wood = "x"
+    city = "xEE14FB"
+    farm = "xABF3E0"
+    mine = "xDBFEDA"
+    wood = "xE9E88E"
     arable_land = 40
     arable_resources = { "bg_rice_farms" "bg_vineyard_plantations" "bg_vegetable_farms" "bg_cotton_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
@@ -66,15 +62,14 @@ STATE_NUMATA = {
         bg_cryptomeria_forest = 12
     }
 }
-STATE_AGATSUMA = {
- #吾妻
+STATE_AGATSUMA = { #吾妻
     id = 38
     provinces = { "x58A4FC" "xBEF64C" "xBFD0BB" "xC9E5BB" "xD3F7B0" "xD479E7" "xE6B5B6" "xEC81E9" "xEFF1E9" "xF042D6" "xFE91AA" }
     traits = { "state_trait_etigo_sanmyaku" }
-    city = "x"
-    farm = "x"
-    mine = "x"
-    wood = "x"
+    city = "xEC81E9"
+    farm = "xFE91AA"
+    mine = "xEFF1E9"
+    wood = "xBEF64C"
     arable_land = 24
     arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
@@ -88,15 +83,14 @@ STATE_AGATSUMA = {
     }
 }
 #栃木県
-STATE_ASHIKAGA = {
- #足利
+STATE_ASHIKAGA = { #足利
     id = 39
     provinces = { "x17FEEB" "x1AFAF9" "x51BFF6" "x73E4C8" "x86D2BE" "x878EF5" "x89E49A" "x8DC7CD" "x9E91FB" "xA996B6" "xA99CC0" "xACEF90" "xC19BA6" "xC77AFB" "xCEA99F" "xD5B5D4" "xD7F05C" "xDCFA47" "xE2EEB3" "xEA7C9A" "xEB5BF8" "xEF31EB" "xF1B678" "xF5F018" }
     traits = { "state_trait_kantou_heiya" }
-    city = "x"
-    farm = "x"
-    mine = "x"
-    wood = "x"
+    city = "xEF31EB"
+    farm = "xA99CC0"
+    mine = "xF1B678"
+    wood = "x89E49A"
     arable_land = 50
     arable_resources = { "bg_rice_farms" "bg_vineyard_plantations" "bg_vegetable_farms" "bg_orchards" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
@@ -104,15 +98,14 @@ STATE_ASHIKAGA = {
         bg_chamaecyparis_obtusa_forest = 9
     }
 }
-STATE_TOCHIGI = {
- #栃木
+STATE_TOCHIGI = { #栃木
     id = 40
     provinces = { "x59C4FC" "x88E3A0" "x8EBEF0" "x8FE3FD" "xADC8BC" "xBAFBB2" "xCBA4DA" "xCF99D5" "xD776EB" "xD776EB" "xD8E857" "xDEBCE1" "xE0E8DC" "xE2BEFD" "xE6B860" "xE7FBEA" "xF69BEE" "xF69BEE" "xF6B952" "xF839DD" "xF8689B" "xFDEC1D" }
     traits = { "state_trait_kantou_heiya" }
-    city = "x"
-    farm = "x"
-    mine = "x"
-    wood = "x"
+    city = "xFDEC1D"
+    farm = "xF6B952"
+    mine = "xE2BEFD"
+    wood = "xF69BEE"
     arable_land = 70
     arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_orchards" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
@@ -121,15 +114,14 @@ STATE_TOCHIGI = {
         bg_chamaecyparis_obtusa_forest = 5
     }
 }
-STATE_UTSUNOMIYA = {
- #宇都宮
+STATE_UTSUNOMIYA = { #宇都宮
     id = 41
     provinces = { "x5CF3CF" "x6F90F6" "x73CDEB" "x84B0C4" "xA8E5CB" "xB7CBE4" "xC2BF98" "xC3DDF4" "xC3E26B" "xC7ECFD" "xCD9F8C" "xCDC960" "xCFDF55" "xCFEF70" "xD26CE0" "xDA8FCD" "xDE6AD0" "xEEC3E1" "xEEE287" "xFA9D80" "xFB8B7B" }
     traits = { "state_trait_kantou_heiya" }
-    city = "x"
-    farm = "x"
-    mine = "x"
-    wood = "x"
+    city = "xC3DDF4"
+    farm = "xDE6AD0"
+    mine = "xC2BF98"
+    wood = "xA8E5CB"
     arable_land = 80
     arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_orchards" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
@@ -138,14 +130,13 @@ STATE_UTSUNOMIYA = {
         bg_cryptomeria_forest = 7
     }
 }
-STATE_NIKKO = {
- #日光
+STATE_NIKKO = { #日光
     id = 42
     provinces = { "x85A8CC" "x94E6ED" "x97A7DB" "x98BDA5" "x9BFDEF" "xA58DE3" "xB1EA91" "xB4D6A5" "xBC95ED" "xC0B3A1" "xC0CBA7" "xCBAC97" "xD02FF9" "xE1CF5B" "xE81FF3" "xE9EAA4" "xEBD0D7" "xF0F96B" "xF5F27C" "xF824EE" }
-    city = "x"
-    farm = "x"
-    mine = "x"
-    wood = "x"
+    city = "x98BDA5"
+    farm = "xD02FF9"
+    mine = "xF0F96B"
+    wood = "xEBD0D7"
     arable_land = 25
     arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
@@ -154,14 +145,13 @@ STATE_NIKKO = {
         bg_cryptomeria_forest = 11
     }
 }
-STATE_NASU = {
- #那須
+STATE_NASU = { #那須
     id = 43
     provinces = { "x65D7D7" "x76F7AB" "x83FBDB" "x8492F9" "x86F67B" "x8DC5C8" "x95ACC8" "xAC96E0" "xB2FBA7" "xBEC87C" "xC847E6" "xC9F15F" "xD0A2AD" "xD4FE67" "xDED295" "xDF9CE1" "xE7B0F2" "xE9B05C" "xECBCAE" "xF1AAF5" "xF1E06C" "xF329E7" "xF35FC7" "xFACF2F" "xFCC050" "xFCD45D" "xFE5EE4" "xFEAFA5" }
-    city = "x"
-    farm = "x"
-    mine = "x"
-    wood = "x"
+    city = "xF1AAF5"
+    farm = "xFCD45D"
+    mine = "xFE5EE4"
+    wood = "xF1E06C"
     arable_land = 50
     arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
@@ -172,14 +162,13 @@ STATE_NASU = {
         bg_cryptomeria_forest = 7
     }
 }
-STATE_HAGA = {
- #芳賀
+STATE_HAGA = { #芳賀
     id = 44
     provinces = { "x63D1DC" "x6CCDBE" "x6DF3C1" "x99DAA3" "xAAA4BD" "xACA9CF" "xB6C4DF" "xC8D47D" "xCACA73" "xCB67F4" "xD59DF8" "xDC60F5" "xEDCA53" "xF17699" "xF9C17A" "xFA8DCE" }
-    city = "x"
-    farm = "x"
-    mine = "x"
-    wood = "x"
+    city = "xCB67F4"
+    farm = "xF17699"
+    mine = "xD59DF8"
+    wood = "xB6C4DF"
     arable_land = 30
     arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
@@ -188,16 +177,15 @@ STATE_HAGA = {
     }
 }
 #茨城県
-STATE_ROKKO = {
- #鹿行
+STATE_ROKKO = { #鹿行
     id = 45
     provinces = { "x69C4D9" "x8698FC" "x8D98FE" "x95FCFE" "xB093CE" "xB595BE" "xC19FE3" "xD0E045" "xDDCFD7" "xE7BF50" "xEF90BA" "xF1EC80" "xF2FB54" "xF7B276" }
     traits = { "state_trait_kantou_heiya" "state_trait_tone_gawa" }
-    city = "x"
-    port = "x"
-    farm = "x"
-    mine = "x"
-    wood = "x"
+    city = "xD0E045"
+    port = "xDDCFD7"
+    farm = "xDDCFD7"
+    mine = "xF7B276"
+    wood = "xEF90BA"
     arable_land = 50
     arable_resources = { "bg_rice_farms" "bg_vineyard_plantations" "bg_vegetable_farms" "bg_tobacco_plantations" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
@@ -207,15 +195,14 @@ STATE_ROKKO = {
     }
     naval_exit_id = 3060
 }
-STATE_HITACHI = {
- #常陸
+STATE_HITACHI = { #常陸
     id = 46
     provinces = { "x32D2F6" "x4DBEEF" "x5AF1CD" "x71B9E4" "x76CCD8" "x80C7F2" "x82B7D2" "x82EEBB" "x869DED" "x8DB9D2" "x92EEB4" "x9AA5C7" "x9D8AFE" "x9EBACE" "xA1CFB2" "xA4D7BB" "xA7A9C7" "xA9E9F1" "xAAD9A0" "xB0ACD6" "xB1C0FC" "xB4BD85" "xBEBBF4" "xC779CD" "xCAEAB2" "xCDEBEA" "xD1FADD" "xD2AFCA" "xD3C959" "xD69ABC" "xD872C8" "xD9B968" "xDDAB88" "xE0AE75" "xE5FC18" "xE9AFBD" "xF22CF8" "xF498BD" "xFD8EFC" "xFE65A2" "xFED78B" }
-    city = "x"
-    port = "x"
-    farm = "x"
-    mine = "x"
-    wood = "x"
+    city = "xE9AFBD"
+    port = "x869DED"
+    farm = "xD1FADD"
+    mine = "x32D2F6"
+    wood = "xD9B968"
     arable_land = 50
     arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_tobacco_plantations" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
@@ -225,16 +212,15 @@ STATE_HITACHI = {
     }
     naval_exit_id = 3059
 }
-STATE_MITO = {
- #水戸
+STATE_MITO = { #水戸
     id = 47
     provinces = { "x4BC9EA" "x69E4B6" "x709EE7" "x75B0ED" "x78E0FC" "x8DCBBE" "x93CDA3" "x9CF3E3" "xAAF5D7" "xBB62E9" "xBDF9DA" "xC16DCE" "xC4F3D5" "xC9F0E3" "xCC9699" "xD6DBAC" "xDC70B8" "xDCA4C0" "xE4F0D0" "xE9EA66" "xED23F0" "xEDADE4" "xEEE888" "xEF7DBD" "xF8BB67" "xF8D080" "xF9A0E1" "xFBBF3D" "xFBD04A" "xFCD66A" }
     traits = { "state_trait_kantou_heiya" }
-    city = "x"
-    port = "x"
-    farm = "x"
-    mine = "x"
-    wood = "x"
+    city = "x93CDA3"
+    port = "xC9F0E3"
+    farm = "x4BC9EA"
+    mine = "x75B0ED"
+    wood = "xF8BB67"
     arable_land = 80
     arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_tobacco_plantations" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
@@ -246,16 +232,14 @@ STATE_MITO = {
     }
     naval_exit_id = 3060
 }
-STATE_RYUUGASAKI = {
- #竜ケ崎
+STATE_RYUUGASAKI = { #竜ケ崎
     id = 48
     provinces = { "x2AF4DE" "x68F6BE" "x96DD92" "xBDDF62" "xBFD98B" "xC1F992" "xC2DBB3" "xCFE9F6" "xDFFE76" "xED9889" "xEFF53A" "xF3D032" "xF7AC78" "xF8D444" "xF9EB27" "xFE97CE" }
     traits = { "state_trait_kantou_heiya" "state_trait_tone_gawa" }
-    city = "x"
-    port = "x"
-    farm = "x"
-    mine = "x"
-    wood = "x"
+    city = "xF7AC78"
+    farm = "xF3D032"
+    mine = "xC2DBB3"
+    wood = "x68F6BE"
     arable_land = 50
     arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_tobacco_plantations" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
@@ -265,16 +249,14 @@ STATE_RYUUGASAKI = {
         bg_cryptomeria_forest = 3
     }
 }
-STATE_TSUKUBA = {
- #つくば
+STATE_TSUKUBA = { #つくば
     id = 49
     provinces = { "x22F4F0" "x51DCEA" "x54E8E1" "x68C7D3" "x68CDF8" "x73E0F5" "x7BF2A0" "x7FD3FD" "x82BFD5" "x82E5C6" "x8CEBC7" "x928CEB" "x92C1B8" "xA0B7DF" "xAAC4BB" "xAAF4F9" "xB27EDF" "xBAF5D1" "xBDE35B" "xBFBEEC" "xC281B9" "xC6ADE1" "xCE6ED4" "xCF67E3" "xD9FAAE" "xDBDBA4" "xDC72E5" "xDD26F6" "xF0DA41" "xF27698" "xF2A9B1" "xF2EAE0" "xF6CCCC" "xF6DF85" "xF7FE73" "xF837E4" "xFDD32E" }
     traits = { "state_trait_kantou_heiya" }
-    city = "x"
-    port = "x"
-    farm = "x"
-    mine = "x"
-    wood = "x"
+    city = "xF2A9B1"
+    farm = "xF837E4"
+    mine = "xDC72E5"
+    wood = "x7BF2A0"
     arable_land = 60
     arable_resources = { "bg_rice_farms" "bg_vineyard_plantations" "bg_vegetable_farms" "bg_tobacco_plantations" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
@@ -284,16 +266,14 @@ STATE_TSUKUBA = {
         bg_cryptomeria_forest = 4
     }
 }
-STATE_KOGA = {
- #古河
+STATE_KOGA = { #古河
     id = 50
     provinces = { "x4DEFD9" "x51F7F7" "x62E1D1" "x75BCCF" "x9AA2F4" "x9BE49F" "x9CAFC9" "xB9A1E8" "xBBF467" "xC0CB95" "xC272C7" "xCED19D" "xD6EFD0" "xD6F83A" "xD7FB9E" "xD962C3" "xDAEDE7" "xDED8C9" "xE35AC0" "xE363D7" "xF0B859" "xF0EAF2" "xF392D5" "xF9E77B" "xFB8EBD" "xFE42DE" "xFE79EC" }
     traits = { "state_trait_kantou_heiya" "state_trait_tone_gawa" }
-    city = "x"
-    port = "x"
-    farm = "x"
-    mine = "x"
-    wood = "x"
+    city = "xD6EFD0"
+    farm = "x9AA2F4"
+    mine = "xD6F83A"
+    wood = "x75BCCF"
     arable_land = 80
     arable_resources = { "bg_rice_farms" "bg_vineyard_plantations" "bg_vegetable_farms" "bg_tobacco_plantations" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
