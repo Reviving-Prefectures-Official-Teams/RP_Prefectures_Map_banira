@@ -30,10 +30,10 @@
  shimokita: "下北"
 
  nanbu_group: "南部文化"
-  hachinohe: "八戸"
-  morioka: "盛岡"
-  kamaishi: "釜石"
-  hachimantai: "八幡平"
+ hachinohe: "八戸"
+ morioka: "盛岡"
+ kamaishi: "釜石"
+ hachimantai: "八幡平"
 
  sendai_group: "仙台文化"
  kesen: "気仙"
@@ -49,8 +49,8 @@
  dewa_group: "出羽文化"
  akita: "秋田"
  yuri: "由利"
-  shonai: "荘内"
-  yamagata: "山形"
+ shonai: "庄内"
+ yamagata: "山形"
  #==================関東==================
  kanto: "関東"
 
@@ -319,3 +319,4 @@
 #==================その他================
  han: "中国"
  korean: "朝鮮"
+ yankee: "ヤンキー"
