@@ -3,61 +3,280 @@ BUILDINGS={
  ###TOTTORI:TTR
     s:STATE_TOTTORI = {
         region_state:TTR ={
+            ###administration
+            create_building={
+                building="building_government_administration"
+                add_ownership = {
+                    country = {
+                        country="c:TTS"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_conventional_administration" }
+            }
             ###infrastracture
             create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:TTR"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
+                building="building_general_constructor_industry"
+                add_ownership={
+                    building={
+                        type = "building_financial_district"
+                        country = "c:TKY"
+                        levels = 1
+                        region = "STATE_CENTER_TOKYO"
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_traditional_method" }
+            }
+            create_building={
+                building="building_port"
+                add_ownership={
+                    country={
+                        country="c:TKY"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_basic_port" }
+            }
         }
     }
 
  ###SHIMANE:SMN
     s:STATE_MATSUE = {
         region_state:SMN ={
+            ###administration
+            create_building={
+                building="building_government_administration"
+                add_ownership = {
+                    country = {
+                        country="c:SMN"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_conventional_administration" }
+            }
             ###infrastracture
             create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:SMN"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
+                building="building_general_constructor_industry"
+                add_ownership={
+                    building={
+                        type = "building_financial_district"
+                        country = "c:TKY"
+                        levels = 1
+                        region = "STATE_CENTER_TOKYO"
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_traditional_method" }
+            }
+            create_building={
+                building="building_port"
+                add_ownership={
+                    country={
+                        country="c:TKY"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_basic_port" }
+            }
         }
     }
     s:STATE_IZUMO = {
         region_state:SMN ={
-
+            ###administration
+            create_building={
+                building="building_government_administration"
+                add_ownership = {
+                    country = {
+                        country="c:SMN"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_conventional_administration" }
+            }
+            ###infrastracture
+            create_building={
+                building="building_general_constructor_industry"
+                add_ownership={
+                    building={
+                        type = "building_financial_district"
+                        country = "c:TKY"
+                        levels = 1
+                        region = "STATE_CENTER_TOKYO"
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_traditional_method" }
+            }
+            create_building={
+                building="building_port"
+                add_ownership={
+                    country={
+                        country="c:TKY"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_basic_port" }
+            }
         }
     }
     s:STATE_OKI = {
         region_state:SMN ={
-
+            ###administration
+            create_building={
+                building="building_government_administration"
+                add_ownership = {
+                    country = {
+                        country="c:SMN"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_conventional_administration" }
+            }
+            ###infrastracture
+            create_building={
+                building="building_general_constructor_industry"
+                add_ownership={
+                    building={
+                        type = "building_financial_district"
+                        country = "c:TKY"
+                        levels = 1
+                        region = "STATE_CENTER_TOKYO"
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_traditional_method" }
+            }
+            create_building={
+                building="building_port"
+                add_ownership={
+                    country={
+                        country="c:TKY"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_basic_port" }
+            }
         }
     }
     s:STATE_UNNAN = {
         region_state:SMN ={
-
+            ###administration
+            create_building={
+                building="building_government_administration"
+                add_ownership = {
+                    country = {
+                        country="c:SMN"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_conventional_administration" }
+            }
+            ###infrastracture
+            create_building={
+                building="building_general_constructor_industry"
+                add_ownership={
+                    building={
+                        type = "building_financial_district"
+                        country = "c:TKY"
+                        levels = 1
+                        region = "STATE_CENTER_TOKYO"
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_traditional_method" }
+            }
         }
     }
     s:STATE_HAMADA = {
         region_state:SMN ={
-
+            ###administration
+            create_building={
+                building="building_government_administration"
+                add_ownership = {
+                    country = {
+                        country="c:SMN"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_conventional_administration" }
+            }
+            ###infrastracture
+            create_building={
+                building="building_general_constructor_industry"
+                add_ownership={
+                    building={
+                        type = "building_financial_district"
+                        country = "c:TKY"
+                        levels = 1
+                        region = "STATE_CENTER_TOKYO"
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_traditional_method" }
+            }
+            create_building={
+                building="building_port"
+                add_ownership={
+                    country={
+                        country="c:TKY"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_basic_port" }
+            }
         }
     }
     s:STATE_MASUDA = {
         region_state:SMN ={
-
+            ###administration
+            create_building={
+                building="building_government_administration"
+                add_ownership = {
+                    country = {
+                        country="c:SMN"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_conventional_administration" }
+            }
+            ###infrastracture
+            create_building={
+                building="building_general_constructor_industry"
+                add_ownership={
+                    building={
+                        type = "building_financial_district"
+                        country = "c:TKY"
+                        levels = 1
+                        region = "STATE_CENTER_TOKYO"
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_traditional_method" }
+            }
+            create_building={
+                building="building_port"
+                add_ownership={
+                    country={
+                        country="c:TKY"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_basic_port" }
+            }
         }
     }
 }

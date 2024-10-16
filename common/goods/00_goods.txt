@@ -299,7 +299,6 @@ water = { #浄水
 	texture = "gfx/interface/icons/goods_icons/water.dds"
 	cost = 10
 	category = industrial
-	local = yes
 	
 	prestige_factor = 5
 }
