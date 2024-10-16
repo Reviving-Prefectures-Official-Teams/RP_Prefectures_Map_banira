@@ -3,7 +3,32 @@ BUILDINGS={
  ###YAMANASHI:YMN 山梨
     s:STATE_YAMANASHI = {
         region_state:YMN ={
-
+            ###administration
+            create_building={
+                building="building_government_administration"
+                add_ownership = {
+                    country = {
+                        country="c:TKY"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_conventional_administration" }
+            }
+            ###industry
+            create_building={
+                building="building_general_constructor_industry"
+                add_ownership={
+                    building={
+                        type = "building_financial_district"
+                        country = "c:TKY"
+                        levels = 1
+                        region = "STATE_CENTER_TOKYO"
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_traditional_method" }
+            }
         }
     }
     s:STATE_KYOTOH = {
@@ -31,6 +56,32 @@ BUILDINGS={
     s:STATE_GIFU = {
         region_state:GIF ={
 
+            ###administration
+            create_building={
+                building="building_government_administration"
+                add_ownership = {
+                    country = {
+                        country="c:TKY"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_conventional_administration" }
+            }
+            ###industry
+            create_building={
+                building="building_general_constructor_industry"
+                add_ownership={
+                    building={
+                        type = "building_financial_district"
+                        country = "c:TKY"
+                        levels = 1
+                        region = "STATE_CENTER_TOKYO"
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_traditional_method" }
+            }
         }
     }
     s:STATE_HIDA = {
@@ -57,7 +108,32 @@ BUILDINGS={
  ###NAGANO:NGN
     s:STATE_NAGANO = {
         region_state:NGN ={
-
+            ###administration
+            create_building={
+                building="building_government_administration"
+                add_ownership = {
+                    country = {
+                        country="c:TKY"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_conventional_administration" }
+            }
+            ###infrastracture
+            create_building={
+                building="building_general_constructor_industry"
+                add_ownership={
+                    building={
+                        type = "building_financial_district"
+                        country = "c:TKY"
+                        levels = 1
+                        region = "STATE_CENTER_TOKYO"
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_traditional_method" }
+            }
         }
     }
     s:STATE_OKITA = {

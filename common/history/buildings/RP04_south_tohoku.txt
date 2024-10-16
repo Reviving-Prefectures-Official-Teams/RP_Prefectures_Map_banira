@@ -28,106 +28,153 @@ BUILDINGS={
  #福島   
     s:STATE_IWAKI = {
         region_state:FKS={
-            create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
-            }
             ###infrastracture
             create_building={
-				building="building_port"
+                building="building_port"
 				add_ownership={
-					country={
-						country="c:FKS"
+                    country={
+                        country="c:FKS"
 						levels=1
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}
+            ###agriculture
+            create_building={
+                building="building_rice_farm"
+				add_ownership={
+                    building={
+                        type = "building_rice_farm"
+                        country = "c:FKS"
+                        levels = 3
+                        region = "STATE_IWAKI"
+                    }
+				}
+				reserves=1
+				activate_production_methods={ "pm_organic_farming_rice" }
+			}
+            ###minings
+            create_building={
+                building="building_coal_mine"
+				add_ownership={
+                    building={
+                        type = "building_financial_district"
+                        country = "c:FKS"
+                        levels = 5
+                        region = "STATE_IWAKI"
+                    }
+				}
+				reserves=1
+				activate_production_methods={ "pm_mining_coal" "pm_no_explosive_coal" "pm_manual_mining" "pm_byproduction_asbestos" }
+			}
+            ###forests
+            ###fishing
+            ###industry
         }
     }
     s:STATE_SOSO = {
         region_state:FKS={
+            ##infrastracture
             create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+                building="building_port"
+                add_ownership={
+                    country={
+                        country="c:FKS"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_basic_port" }
             }
         }
     }
     s:STATE_FUKUSHIMA = {
         region_state:FKS={
+            ###administration
             create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+                building="building_government_administration"
+                add_ownership = {
+                    country = {
+                        country="c:FKS"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_conventional_administration" }
+            }
+            ###infrastracture
+            create_building={
+                building="building_general_constructor_industry"
+                add_ownership={
+                    building={
+                        type = "building_financial_district"
+                        country = "c:FKS"
+                        levels = 1
+                        region = "STATE_FUKUSHIMA"
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_traditional_method" }
             }
         }
     }
     s:STATE_KORIYAMA = {
         region_state:FKS={
-            create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
-            }
         }
     }
     s:STATE_SHIRAKAWA= {
         region_state:FKS={
-            create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
-            }
         }
     }
     s:STATE_AIZU = {
         region_state:FKS={
-            create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
-            }
         }
     }
     s:STATE_MINAMIAIZU = {
         region_state:FKS={
-            create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
-            }
         }
     }
 
  #宮城
     s:STATE_SENDAI = {
         region_state:MYG={
+            ###administration
             create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+                building="building_government_administration"
+                add_ownership = {
+                    country = {
+                        country="c:TKY"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_conventional_administration" }
+            }
+            ###industry
+            create_building={
+                building="building_general_constructor_industry"
+                add_ownership={
+                    building={
+                        type = "building_financial_district"
+                        country = "c:TKY"
+                        levels = 1
+                        region = "STATE_CENTER_TOKYO"
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_traditional_method" }
             }
             ###infrastracture
             create_building={
-            building="building_port"
-            add_ownership={
-                country={
-                    country="c:MYG"
-                    levels=2
+                building="building_port"
+                add_ownership={
+                    country={
+                        country="c:TKY"
+                        levels=1
+                    }
                 }
-            }
-                reserves=2
+                reserves=1
                 activate_production_methods={ "pm_basic_port" }
             }
         }
@@ -196,13 +243,32 @@ BUILDINGS={
  #山形
     s:STATE_MURAYAMA = {
         region_state:YMG={
+            ###administration
             create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+                building="building_government_administration"
+                add_ownership = {
+                    country = {
+                        country="c:TKY"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_conventional_administration" }
             }
-
+            ###infrastracture
+            create_building={
+                building="building_general_constructor_industry"
+                add_ownership={
+                    building={
+                        type = "building_financial_district"
+                        country = "c:TKY"
+                        levels = 1
+                        region = "STATE_CENTER_TOKYO"
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_traditional_method" }
+            }
         }
     }
     s:STATE_YONEZAWA = {
