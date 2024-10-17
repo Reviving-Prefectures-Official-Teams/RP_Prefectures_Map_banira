@@ -90,51 +90,51 @@ building_sulfur_mine = {
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_mining.dds"
 }
  
-building_gold_mine = {
-	building_group = bg_gold_mining
-	texture = "gfx/interface/icons/building_icons/gold_mine.dds"
-	city_type = mine
-	levels_per_mesh = 5
-	required_construction = construction_cost_medium
-	terrain_manipulator = mining
+# building_gold_mine = {
+# 	building_group = bg_gold_mining
+# 	texture = "gfx/interface/icons/building_icons/gold_mine.dds"
+# 	city_type = mine
+# 	levels_per_mesh = 5
+# 	required_construction = construction_cost_medium
+# 	terrain_manipulator = mining
 	
-	unlocking_technologies = {
-		tech_planting
-	}
+# 	unlocking_technologies = {
+# 		tech_planting
+# 	}
 
-	ai_value = 3000 # Gold mines are very nice for minting revenue
+# 	ai_value = 3000 # Gold mines are very nice for minting revenue
 
-	production_method_groups = {
-		pmg_drilling_gold
-		pmg_explosive_gold
-		pmg_automation
-		pmg_byproducts
-	}
-	ownership_type = self
+# 	production_method_groups = {
+# 		pmg_drilling_gold
+# 		pmg_explosive_gold
+# 		pmg_automation
+# 		pmg_byproducts
+# 	}
+# 	ownership_type = self
 
-	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_mining.dds"
-}
+# 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_mining.dds"
+# }
 
-building_gold_fields = {
-	building_group = bg_gold_fields
-	texture = "gfx/interface/icons/building_icons/gold_fields.dds"
-	city_type = mine
-	levels_per_mesh = 5
-	buildable = no
-	expandable = no
-	terrain_manipulator = mining
+# building_gold_fields = {
+# 	building_group = bg_gold_fields
+# 	texture = "gfx/interface/icons/building_icons/gold_fields.dds"
+# 	city_type = mine
+# 	levels_per_mesh = 5
+# 	buildable = no
+# 	expandable = no
+# 	terrain_manipulator = mining
 	
-	unlocking_technologies = {
-		tech_planting
-	}
+# 	unlocking_technologies = {
+# 		tech_planting
+# 	}
 
-	production_method_groups = {
-		pmg_base_building_gold_fields
-	}
-	ownership_type = self
+# 	production_method_groups = {
+# 		pmg_base_building_gold_fields
+# 	}
+# 	ownership_type = self
 
-	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_mining.dds"
-}
+# 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_mining.dds"
+# }
 
 building_minor_metals_mine = {
 	building_group = bg_minor_metals_mining

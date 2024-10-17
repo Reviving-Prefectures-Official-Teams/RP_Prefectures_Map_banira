@@ -151,7 +151,12 @@ building_nightlife_district = {
 	}
 	
 	terrain_manipulator = urban_city
+
+	buildable = no
+	expandable = no
+	downsizeable = no	
 	ownership_type = self
+	cannot_switch_owner = yes
 
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }
