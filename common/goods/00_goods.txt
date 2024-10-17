@@ -689,7 +689,7 @@ transportation = { #輸送
 web = { #デジタルサービス
 	texture = "gfx/interface/icons/goods_icons/web_service.dds"
 	cost = 30
-	category = service
+	category = staple
 	
 	obsession_chance = 1.0
 	prestige_factor = 30
@@ -703,7 +703,7 @@ web = { #デジタルサービス
 media_contents = { #メディアコンテンツ
 	texture = "gfx/interface/icons/goods_icons/culture_service.dds"
 	cost = 30
-	category = service
+	category = staple
 	
 	obsession_chance = 1.0
 	prestige_factor = 30
@@ -717,7 +717,7 @@ media_contents = { #メディアコンテンツ
 medical = { #医療サービス
 	texture = "gfx/interface/icons/goods_icons/medical_service.dds"
 	cost = 30
-	category = service
+	category = staple
 	local = yes
 	
 	obsession_chance = 1.0
@@ -738,7 +738,7 @@ finance = { #金融商品
 travel = { #旅行サービス
 	texture = "gfx/interface/icons/goods_icons/international_travel_service.dds"
 	cost = 140
-	category = service
+	category = luxury
 	
 	obsession_chance = 1.0
 	prestige_factor = 50
@@ -749,7 +749,7 @@ travel = { #旅行サービス
 space_travel = { #宇宙旅行サービス
 	texture = "gfx/interface/icons/goods_icons/space_travel_service.dds"
 	cost = 500
-	category = service
+	category = luxury
 	
 	obsession_chance = 1.0
 	prestige_factor = 100
@@ -783,7 +783,7 @@ construction = { #建設サービス
 professionals = { #専門家
 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
 	cost = 100
-	category = service
+	category = industrial
 	
 	prestige_factor = 30
 
