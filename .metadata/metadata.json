@@ -33,5 +33,6 @@
       "common/history/military_formations",
       "common/governments",
       "map_data/state_regions",
+    ]  
   }
 }
