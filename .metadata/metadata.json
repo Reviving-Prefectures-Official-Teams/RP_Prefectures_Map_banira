@@ -25,6 +25,7 @@
       "common/history/pops",
       "common/history/population",
       "common/history/states",
+      "common/scripted_triggers",
       "common/history/governments",
       "common/strategic_regions",
       "common/scripted_buttons",
