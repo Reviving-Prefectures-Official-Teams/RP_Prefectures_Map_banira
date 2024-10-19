@@ -299,7 +299,6 @@ water = { #浄水
 	texture = "gfx/interface/icons/goods_icons/water.dds"
 	cost = 10
 	category = industrial
-	local = yes
 	
 	prestige_factor = 5
 }
@@ -729,13 +728,11 @@ medical = { #医療サービス
 
 finance = { #金融商品
 	texture = "gfx/interface/icons/goods_icons/shares.dds"
-	cost = 200
-	category = service
-	
-	obsession_chance = 1.0
-	prestige_factor = 30
-	
-	consumption_tax_cost = 100
+	cost = 250
+	category = luxury
+	tradeable = no
+	fixed_price = yes
+	prestige_factor = 5
 }
 
 travel = { #旅行サービス

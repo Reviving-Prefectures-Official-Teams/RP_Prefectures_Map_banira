@@ -1,5 +1,6 @@
 ﻿#和歌山県
-STATE_KIHOKU = { #紀北
+STATE_KIHOKU = {
+ #紀北
     id = 76
     provinces = { "x34EBE3" "x6C9AF1" "x8BF07A" "x98E7BA" "xA4E6CB" "xB5E08B" "xB9E6B0" "xBCDDDF" "xBEDDA6" "xBF96B0" "xD349F4" "xD8CCC4" "xD9B8F3" "xE1E534" "xE4EE92" "xE68BA1" "xEFBFE5" "xF1679D" "xF18DCC" "xF765D4" "xF8929E" "xF8B657" }
     traits = { "state_trait_ki_santi" }
@@ -11,7 +12,8 @@ STATE_KIHOKU = { #紀北
 
     }
 }
-STATE_KICHU = { #紀中
+STATE_KICHU = {
+ #紀中
     id = 77
     provinces = { "x26EDF2" "x36D8EF" "x7DD6C3" "x95BBCB" "x9F8DCC" "xACF87D" "xC99BD4" "xCCDC77" "xCEC6E3" "xDFFB2C" "xE4BAF8" "xED2FEE" "xEE8AB3" "xF0C254" "xF5EDEB" "xFD62E9" }
     traits = { "state_trait_ki_santi" }
@@ -24,7 +26,8 @@ STATE_KICHU = { #紀中
     }
     naval_exit_id = 3010
 }
-STATE_KINAN = { #紀南
+STATE_KINAN = {
+ #紀南
     id = 78
     provinces = { "x3AEFFC" "x56E6BE" "x68F0BF" "x7AF9EC" "x7DFBEE" "x88E9B9" "xA2D5A7" "xA99DE8" "xB5BC92" "xC1F161" "xC370D8" "xC8AABD" "xC9A5D3" "xDFE392" "xE1DC79" "xE588F9" "xE741EE" "xE9DA5A" "xEBE1B5" "xF8DA70" "xFAE0F1" "xFF1F3F" "xFF5F3F" "xFF8F2F" "xFF9F3F" "xFFAF3F" "xFFEF3F" }
     traits = { "state_trait_ki_santi" }
@@ -37,7 +40,8 @@ STATE_KINAN = { #紀南
     }
     naval_exit_id = 3010
 }
-STATE_WAKAYAMA = { #和歌山
+STATE_WAKAYAMA = {
+ #和歌山
     id = 79
     provinces = { "x49C4F1" "x66F9A7" "x6DD0D6" "x83C9F0" "x858AFB" "x91BED4" "xA2A7DD" "xAFBB91" "xB0B896" "xB8D293" "xBC7EE7" "xC4A6D7" "xE358CD" "xE5E781" }
     traits = { "state_trait_subPort" }
@@ -51,7 +55,8 @@ STATE_WAKAYAMA = { #和歌山
     naval_exit_id = 3010
 }
 #奈良県
-STATE_NARA = { #奈良
+STATE_NARA = {
+ #奈良
     id = 80
     provinces = { "x08FEF7" "x21E9FC" "x74F7AD" "x7FD5FB" "xACB0A8" "xB39BAA" "xBA7EF2" "xBAF8AF" "xC6B4D6" "xCC51DF" "xCE5EDD" "xE3F1A6" "xE562BA" "xEFF924" "xF0D843" "xF640E2" "xF7C765" "xF7D2ED" }
     traits = { "state_trait_uji_tea" }
@@ -63,7 +68,8 @@ STATE_NARA = { #奈良
 
     }
 }
-STATE_UDA = { #宇陀
+STATE_UDA = {
+ #宇陀
     id = 81
     provinces = { "x2DE9F4" "x47E6D0" "x6FD3C4" "x7BB2EC" "x8BE1F7" "xC0CBCA" "xDCFC26" }
     traits = { "state_trait_uji_tea" }
@@ -75,7 +81,8 @@ STATE_UDA = { #宇陀
 
     }
 }
-STATE_YOSHINO = { #吉野
+STATE_YOSHINO = {
+ #吉野
     id = 82
     provinces = { "x58E7FD" "x6EE7A1" "x75A4E1" "xA260FB" "xA485E9" "xC0DC6D" "xC0E6E6" "xC1A691" "xCDF09D" "xF4EC5F" "xFF4F3F" "xFF8F3F" "xFFCF3F" }
     traits = { "state_trait_ki_santi" }
@@ -87,7 +94,8 @@ STATE_YOSHINO = { #吉野
 
     }
 }
-STATE_NANWA = { #南和
+STATE_NANWA = {
+ #南和
     id = 83
     provinces = { "x77E7A9" "x9397CF" "x98E49D" "xA5EAD8" "xA6E585" "xA888F2" "xB1AAF8" "xBAAF8C" "xC7B9B8" "xCE82C3" "xD2DEC4" "xDDEB93" "xDEE0EC" "xE078D5" "xE37AA7" "xE790E9" "xEBB56F" "xF13CED" "xF1A1CF" }
     traits = { "state_trait_ki_santi" }
@@ -100,7 +108,8 @@ STATE_NANWA = { #南和
     }
 }
 #三重県
-STATE_YOKKAICHI = { #四日市
+STATE_YOKKAICHI = {
+ #四日市
     id = 84
     provinces = { "x6F6F00" "x799DE1" "x8CCBB2" "xC393B7" "xDC8BB8" "xDDDD3C" "xDEE579" "xE7A8C9" "xEB5FF9" "xEDA5FB" "xEE5EB6" "xF15AEB" "xF1B9D8" "xF335E3" "xF5A08E" "xF6D9EA" "xF873B4" "xFF2F2F" "xFF6F2F" "xFFAF2F" "xFFFF2F" }
     traits = { "state_trait_subPort" "state_trait_noubi_heiya" }
@@ -113,7 +122,8 @@ STATE_YOKKAICHI = { #四日市
     }
     naval_exit_id = 3008
 }
-STATE_IGA = { #伊賀
+STATE_IGA = {
+ #伊賀
     id = 85
     provinces = { "x1BFCF0" "x2AF7F4" "x6CDAD3" "x938BE2" "xA0E2B8" "xA989FC" "xB4B3BB" "xB7C59F" "xC8E6D0" "xCDC2E0" }
     traits = { "state_trait_uji_tea" }
@@ -126,7 +136,8 @@ STATE_IGA = { #伊賀
 
     }
 }
-STATE_TSU = { #津
+STATE_TSU = {
+ #津
     id = 86
     provinces = { "x28FDED" "x3DD4FC" "x8FEA90" "xA3F1B3" "xA65AFD" "xA6E284" "xADC1DE" "xB2B5E6" "xB6FAA7" "xCEF868" "xDCD9FD" "xDD23FB" "xDFA088" "xE3E274" "xE4AD8C" "xF2D1DB" }
     traits = { "state_trait_noubi_heiya" }
@@ -139,7 +150,8 @@ STATE_TSU = { #津
     }
     naval_exit_id = 3008
 }
-STATE_MATSUSAKA = { #松坂
+STATE_MATSUSAKA = {
+ #松坂
     id = 87
     provinces = { "x80FCE3" "x81F4F6" "x95D0D2" "xA0F3EE" "xA4C1EA" "xA6F66E" "xA7B7C1" "xA7BBE3" "xADC8A9" "xB0FE88" "xB8FCA6" "xD6F7B5" "xDA78BB" "xDD98F9" "xE3ADA8" "xE560DE" "xE57CF8" "xF3AC7F" "xFAFA34" "xFE7BDE" }
     traits = { "state_trait_ki_santi" }
@@ -152,7 +164,8 @@ STATE_MATSUSAKA = { #松坂
     }
     naval_exit_id = 3008
 }
-STATE_ISE = { #伊勢
+STATE_ISE = {
+ #伊勢
     id = 88
     provinces = { "x9AF9ED" "xACCEE6" "xAE84E7" "xC59D9C" "xC89FE3" "xDD9F7B" "xE0BC5D" "xE4EA7F" "xE5DF49" "xE8EA8F" "xEEE694" "xEF76F0" "xF0D0CA" "xF3F0E6" "xFC0EF4" }
     arable_land = 20
@@ -164,7 +177,8 @@ STATE_ISE = { #伊勢
     }
     naval_exit_id = 3008
 }
-STATE_KII = { #紀伊
+STATE_KII = {
+ #紀伊
     id = 89
     provinces = { "x57F7FB" "x5BC6F7" "x69D0EF" "x72FD9E" "x7CC1DF" "x86FCF5" "x97A2E9" "xBBA1AB" "xDCF44A" "xDDE5C4" "xE4CD83" "xE7FBB7" "xF7E158" "xFF0F3F" "xFFDF3F" }
     traits = { "state_trait_ki_santi" }

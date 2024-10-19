@@ -2,27 +2,27 @@
 #####STATELIST#####
 
 ###IWATE:IWT
-    #STATE_MORIOKA
-    #STATE_KAMAISHI
-    #STATE_HANAMAKI
-    #STATE_KUJI
+#STATE_MORIOKA
+#STATE_KAMAISHI
+#STATE_HANAMAKI
+#STATE_KUJI
 
 ###AKITA:AKT
-    #STATE_AKITA
-    #STATE_YURIHONJYOU
-    #STATE_YOKOTE
-    #STATE_DAISEN
-    #STATE_OODATE
+#STATE_AKITA
+#STATE_YURIHONJYOU
+#STATE_YOKOTE
+#STATE_DAISEN
+#STATE_OODATE
 
 ###AOMORI:AOM
-    #STATE_AOMORI
-    #STATE_HACHINOHE
-    #STATE_HIROSAKI
-    #STATE_TOWADA
-    #STATE_MUTU
+#STATE_AOMORI
+#STATE_HACHINOHE
+#STATE_HIROSAKI
+#STATE_TOWADA
+#STATE_MUTU
 
 BUILDINGS = {
-  #岩手
+    #岩手
     s:STATE_MORIOKA = {
         region_state:IWT = {
             ###administration
@@ -53,57 +53,70 @@ BUILDINGS = {
             create_building = {
                 building = "building_rice_farm"
                 add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:IWT"
-						levels = 2
+                    building = {
+                        type = "building_manor_house"
+                        country = "c:IWT"
+                        levels = 2
                         region = "STATE_MORIOKA"
-					}
-				}
-				reserves = 1
+                    }
+                }
+                reserves = 1
                 activate_production_methods={ "pm_organic_farming_rice" "pm_no_secondary" }
             }
             ###minings
             create_building = {
                 building = "building_iron_mine"
                 add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:IWT"
-						levels = 2
+                    building = {
+                        type = "building_manor_house"
+                        country = "c:IWT"
+                        levels = 2
                         region = "STATE_MORIOKA"
-					}
-				}
-				reserves = 1
+                    }
+                }
+                reserves = 1
                 activate_production_methods={ "pm_mining_iron" "pm_no_explosive_iron" "pm_manual_mining" "pm_no_byproducts" }
             }
             ###forests
             create_building = {
                 building = "building_betulaceae_forest"
                 add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:IWT"
-						levels = 1
+                    building = {
+                        type = "building_manor_house"
+                        country = "c:IWT"
+                        levels = 1
                         region = "STATE_MORIOKA"
-					}
-				}
-				reserves = 1
+                    }
+                }
+                reserves = 1
                 # activate_production_methods={ "" }
             }
             ###fishing
             ###industry
+			create_building={
+                building="building_general_constructor_industry"
+                add_ownership={
+                    building={
+                        type = "building_financial_district"
+                        country = "c:IWT"
+                        levels = 1
+                        region = "STATE_MORIOKA"
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_traditional_method" }
+            }
             create_building = {
                 building = "building_food_industry"
                 add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:IWT"
-						levels = 1
+                    building = {
+                        type = "building_financial_district"
+                        country = "c:IWT"
+                        levels = 1
                         region = "STATE_MORIOKA"
-					}
-				}
-				reserves = 1
+                    }
+                }
+                reserves = 1
                 # activate_production_methods={ "" }
             }
         }
@@ -135,302 +148,343 @@ BUILDINGS = {
                 activate_production_methods={ "pm_dirt_road" "pm_no_lighting" }
             }
             create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:IWT"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
+                building="building_port"
+                add_ownership={
+                    country={
+                        country="c:IWT"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_basic_port" }
+            }
             ###agriculture
             create_building = {
                 building = "building_rice_farm"
                 add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:IWT"
-						levels = 2
+                    building = {
+                        type = "building_manor_house"
+                        country = "c:IWT"
+                        levels = 2
                         region = "STATE_KAMAISHI"
-					}
-				}
-				reserves = 1
+                    }
+                }
+                reserves = 1
                 activate_production_methods={ "pm_organic_farming_rice" "pm_no_secondary" }
             }
             ###minings
             create_building = {
                 building = "building_iron_mine"
                 add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:IWT"
-						levels = 2
+                    building = {
+                        type = "building_manor_house"
+                        country = "c:IWT"
+                        levels = 2
                         region = "STATE_KAMAISHI"
-					}
-				}
-				reserves = 1
+                    }
+                }
+                reserves = 1
                 activate_production_methods={ "pm_mining_iron" "pm_no_explosive_iron" "pm_manual_mining" "pm_no_byproducts" }
             }
             ###forests
             create_building = {
                 building = "building_betulaceae_forest"
                 add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:IWT"
-						levels = 1
+                    building = {
+                        type = "building_manor_house"
+                        country = "c:IWT"
+                        levels = 1
                         region = "STATE_KAMAISHI"
-					}
-				}
-				reserves = 1
+                    }
+                }
+                reserves = 1
                 # activate_production_methods={ "" }
             }
             ###fishing
             create_building = {
                 building = "building_fishing_wharf"
                 add_ownership = {
-					building = {
-						type = "building_fishing_wharf"
-						country = "c:IWT"
-						levels = 3
+                    building = {
+                        type = "building_fishing_wharf"
+                        country = "c:IWT"
+                        levels = 3
                         region = "STATE_KAMAISHI"
-					}
-				}
-				reserves = 1
+                    }
+                }
+                reserves = 1
                 # activate_production_methods={ "" }
             }
             ###industry
             create_building = {
                 building = "building_paper_mills"
                 add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:IWT"
-						levels = 1
+                    building = {
+                        type = "building_financial_district"
+                        country = "c:IWT"
+                        levels = 1
                         region = "STATE_KAMAISHI"
-					}
-				}
-				reserves = 1
+                    }
+                }
+                reserves = 1
                 # activate_production_methods={ "" }
             }
         }
     }
- #秋田	
+    #秋田
     s:STATE_AKITA = {
         region_state:AKT={
+            ###administration
             create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+                building="building_government_administration"
+                add_ownership = {
+                    country = {
+                        country="c:AKT"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_conventional_administration" }
             }
-            ###infrastracture
+            ###industry
             create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:AKT"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
+				building="building_general_constructor_industry"
+                add_ownership={
+					building={
+						type = "building_financial_district"
+                        country = "c:AKT"
+                        levels = 1
+                        region = "STATE_AKITA"
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_traditional_method" }
+            }
+			###infrastracture
+            create_building={
+                building="building_port"
+                add_ownership={
+                    country={
+                        country="c:AKT"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_basic_port" }
+            }
         }
     }
     s:STATE_YURIHONJYOU = {
         region_state:AKT={
             create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+                building="building_government_administration"
+                level=1
+                reserves=1
+                activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
             }
         }
     }
     s:STATE_YOKOTE = {
         region_state:AKT={
             create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+                building="building_government_administration"
+                level=1
+                reserves=1
+                activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
             }
         }
     }
     s:STATE_DAISEN = {
         region_state:AKT={
             create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+                building="building_government_administration"
+                level=1
+                reserves=1
+                activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
             }
         }
     }
     s:STATE_OODATE = {
         region_state:AKT={
             create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+                building="building_government_administration"
+                level=1
+                reserves=1
+                activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
             }
         }
     }
- #青森	
+    #青森
     s:STATE_AOMORI = {
         region_state:AOM={
+            ###administration
             create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+                building="building_government_administration"
+                add_ownership = {
+                    country = {
+                        country="c:AOM"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_conventional_administration" }
+            }
+            ###industry
+            create_building={
+                building="building_general_constructor_industry"
+                add_ownership={
+                    building={
+                        type = "building_financial_district"
+                        country = "c:AOM"
+                        levels = 1
+                        region = "STATE_AOMORI"
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_traditional_method" }
             }
             ###infrastracture
             create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:AOM"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
+                building="building_port"
+                add_ownership={
+                    country={
+                        country="c:AOM"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_basic_port" }
+            }
+
         }
     }
     s:STATE_HACHINOHE = {
         region_state:AOM={
             create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+                building="building_government_administration"
+                level=1
+                reserves=1
+                activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
             }
             ###infrastracture
             create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:AOM"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
+                building="building_port"
+                add_ownership={
+                    country={
+                        country="c:AOM"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_basic_port" }
+            }
         }
     }
     s:STATE_HIROSAKI = {
         region_state:AOM={
             create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+                building="building_government_administration"
+                level=1
+                reserves=1
+                activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
             }
         }
     }
     s:STATE_TOWADA = {
         region_state:AOM={
             create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+                building="building_government_administration"
+                level=1
+                reserves=1
+                activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
             }
         }
     }
     s:STATE_MUTU = {
         region_state:AOM={
             create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+                building="building_government_administration"
+                level=1
+                reserves=1
+                activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
             }
         }
     }
     s:STATE_AOMORI = {
-		region_state:AOM = {
-			###administration
-			###infrastracture
+        region_state:AOM = {
+            ###administration
+            ###infrastracture
             create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:AOM"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			###agriculture
-			###minings
-			###forests
-			###fishing
-			###industry
-		}
-	}
+                building="building_port"
+                add_ownership={
+                    country={
+                        country="c:AOM"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_basic_port" }
+            }
+            ###agriculture
+            ###minings
+            ###forests
+            ###fishing
+            ###industry
+        }
+    }
     s:STATE_HACHINOHE = {
-		region_state:AOM = {
-			###administration
-			###infrastracture
-			###agriculture
-			###minings
-			###forests
-			###fishing
-			###industry
-		}
-	}
+        region_state:AOM = {
+            ###administration
+            ###infrastracture
+            ###agriculture
+            ###minings
+            ###forests
+            ###fishing
+            ###industry
+        }
+    }
     s:STATE_HIROSAKI = {
-		region_state:AOM = {
-			###administration
-			###infrastracture
-			###agriculture
-			###minings
-			###forests
-			###fishing
-			###industry
-		}
-	}
+        region_state:AOM = {
+            ###administration
+            ###infrastracture
+            ###agriculture
+            ###minings
+            ###forests
+            ###fishing
+            ###industry
+        }
+    }
     s:STATE_TOWADA = {
-		region_state:AOM = {
-			###administration
-			###infrastracture
-			###agriculture
-			###minings
-			###forests
-			###fishing
-			###industry
-		}
-	}
+        region_state:AOM = {
+            ###administration
+            ###infrastracture
+            ###agriculture
+            ###minings
+            ###forests
+            ###fishing
+            ###industry
+        }
+    }
     s:STATE_MUTU = {
-		region_state:AOM = {
-			###administration
-			###infrastracture
+        region_state:AOM = {
+            ###administration
+            ###infrastracture
             create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:AOM"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			###agriculture
-			###minings
-			###forests
-			###fishing
-			###industry
-		}
-	}
+                building="building_port"
+                add_ownership={
+                    country={
+                        country="c:AOM"
+                        levels=1
+                    }
+                }
+                reserves=1
+                activate_production_methods={ "pm_basic_port" }
+            }
+            ###agriculture
+            ###minings
+            ###forests
+            ###fishing
+            ###industry
+        }
+    }
 
 }

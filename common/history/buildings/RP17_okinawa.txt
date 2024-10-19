@@ -19,12 +19,36 @@ BUILDINGS={
     }
     s:STATE_HOKUZAN = {
         region_state:USR ={
-
+			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:TKY"
+						levels = 1
+                        region = "STATE_CENTER_TOKYO"
+					}
+				}
+				reserves = 1
+			}
         }
     }
     s:STATE_CHUZAN = {
         region_state:USR ={
-
+			region_state:USR ={
+			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:TKY"
+						levels = 1
+                        region = "STATE_CENTER_TOKYO"
+					}
+				}
+				reserves = 1
+			}
+        }
         }
     }
     s:STATE_NANZAN = {
@@ -41,6 +65,20 @@ BUILDINGS={
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}
+			region_state:USR ={
+			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:TKY"
+						levels = 1
+                        region = "STATE_CENTER_TOKYO"
+					}
+				}
+				reserves = 1
+			}
+        }
         }
     }
     s:STATE_KUME_SHOTOH = {
@@ -57,6 +95,20 @@ BUILDINGS={
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}
+			region_state:USR ={
+			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:TKY"
+						levels = 1
+                        region = "STATE_CENTER_TOKYO"
+					}
+				}
+				reserves = 1
+			}
+        }
         }
     }
     s:STATE_SENTAN_SHOTOH = {
@@ -73,6 +125,20 @@ BUILDINGS={
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}
+			region_state:USR ={
+			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:TKY"
+						levels = 1
+                        region = "STATE_CENTER_TOKYO"
+					}
+				}
+				reserves = 1
+			}
+        }
         }
     }
     s:STATE_SENKAKU_SHOTOH = {
@@ -89,6 +155,20 @@ BUILDINGS={
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}
+			region_state:USR ={
+			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:TKY"
+						levels = 1
+                        region = "STATE_CENTER_TOKYO"
+					}
+				}
+				reserves = 1
+			}
+        }
         }
     }
 }
