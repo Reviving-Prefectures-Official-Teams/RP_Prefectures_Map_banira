@@ -1654,7 +1654,7 @@ pm_automated_handling = {
 ###採水
 #井戸水
 pm_well = {
-	texture = "gfx/interface/icons/production_method_icons/"
+	texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
 	building_modifiers = {
 		workforce_scaled = {
 			goods_output_water_add = 10

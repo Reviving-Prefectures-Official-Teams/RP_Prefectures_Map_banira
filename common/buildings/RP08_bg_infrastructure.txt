@@ -202,6 +202,10 @@ building_water_extraction = {
 	production_method_groups = {
 		pmg_water_extraction
 	}
+	
+	buildable = no
+	expandable = no
+	downsizeable = no
 
 	required_construction = construction_cost_low
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
