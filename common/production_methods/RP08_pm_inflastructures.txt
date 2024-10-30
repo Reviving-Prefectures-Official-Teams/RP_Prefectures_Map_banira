@@ -642,7 +642,7 @@ pm_lightweight_composite_carriage = {
 ###運行管理
 #有人運行
 pm_manned_operation = {
-	texture = "gfx/interface/icons/production_method_icons/"
+	texture = "gfx/interface/icons/production_method_icons/method_improvement_0.dds"
 	building_modifiers = {
 		workforce_scaled = {
 		}
@@ -657,7 +657,7 @@ pm_ato_atc = {
     unlocking_technologies = {
 		tech_automatic_train_operation
     }
-	texture = "gfx/interface/icons/production_method_icons/"
+	texture = "gfx/interface/icons/production_method_icons/method_improvement_1.dds"
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_electricity_add = 2
@@ -671,7 +671,10 @@ pm_ato_atc = {
 }
 #レベル4自動運転
 pm_level_4_autonomous = {
-	texture = "gfx/interface/icons/production_method_icons/"
+    unlocking_technologies = {
+		tech_level_5_autonomous_driving
+    }
+	texture = "gfx/interface/icons/production_method_icons/method_improvement_2.dds"
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_electricity_add = 2

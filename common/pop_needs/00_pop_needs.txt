@@ -139,6 +139,14 @@ popneed_luxury_drinks = {
 	}
 
 	entry = {
+		goods = dairy_products
+		
+		weight = 0.5
+		max_supply_share = 0.5
+		min_supply_share = 0.0
+	}
+
+	entry = {
 		goods = sake
 		
 		weight = 0.5
@@ -526,7 +534,7 @@ popneed_entertainment = { # メディアコンテンツ 通信機器 カメラ �
 }
 
 #高級娯楽
-popneed_luxury_entertainment = { #旅行 ロボット 宇宙旅行 楽器
+popneed_luxury_entertainment = { #旅行 楽器
 	default = travel
 
 	entry = {
@@ -538,22 +546,6 @@ popneed_luxury_entertainment = { #旅行 ロボット 宇宙旅行 楽器
 	}
 
 	entry = {
-		goods = robot
-		
-		weight = 1
-		max_supply_share = 0.5
-		min_supply_share = 0.1
-	}
-
-	entry = {
-		goods = space_travel
-		
-		weight = 1
-		max_supply_share = 0.1
-		min_supply_share = 0.1
-	}
-
-	entry = {
 		goods = musical_instruments
 		
 		weight = 1
@@ -561,6 +553,24 @@ popneed_luxury_entertainment = { #旅行 ロボット 宇宙旅行 楽器
 		min_supply_share = 0.1
 	}
 }
+
+#希少娯楽
+
+	# entry = {
+	# 	goods = robot
+		
+	# 	weight = 1
+	# 	max_supply_share = 0.5
+	# 	min_supply_share = 0.1
+	# }
+
+	# entry = {
+	# 	goods = space_travel
+		
+	# 	weight = 1
+	# 	max_supply_share = 0.1
+	# 	min_supply_share = 0.1
+	# }
 
 #高級品
 popneed_luxury_goods = { #高級衣類 高級家具 高級食品
