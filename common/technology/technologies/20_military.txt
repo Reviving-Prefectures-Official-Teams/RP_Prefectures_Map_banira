@@ -429,7 +429,7 @@
 	}
 
 ### ERA 6 = Tier5
-	tech_large-scale_aquaculture_system = {
+	tech_large_scale_aquaculture_system = {
 		era = era_6
 		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
 		category = military

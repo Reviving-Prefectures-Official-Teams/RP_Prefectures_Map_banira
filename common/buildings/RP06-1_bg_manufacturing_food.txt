@@ -81,7 +81,7 @@ building_sweets_factory = {
 	levels_per_mesh = 5
 	
 	unlocking_technologies = {
-		tech_industrialization_of_food 
+		tech_foods_industrialization 
 	}
 
 	production_method_groups = {

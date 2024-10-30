@@ -28,7 +28,52 @@ BUILDINGS={
     }
     s:STATE_JOHOKU = {
         region_state:TKY ={
-
+            ###administration
+            ###infrastracture
+            create_building={
+				building="building_railway"
+				add_ownership={
+					country={#国鉄?
+						country="c:TKY"
+						levels=3
+					}
+                    building={#東武?
+						type="building_financial_district"
+						country="c:TKY"
+						levels=2
+						region="STATE_JOTO"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_steam_engine" "pm_wooden_carriage" "pm_manned_operation" }
+			}
+            create_building={
+				building="building_road"
+				add_ownership={
+					country={
+						country="c:TKY"
+						levels=1
+					}
+				}
+				reserves=1
+                activate_production_methods={ "pm_dirt_road" "pm_no_lighting" }
+			}
+            create_building={
+				building="building_water_purification"
+				add_ownership={
+					country={
+						country="c:TKY"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_old_water_treatment" "pm_old_sewage_treatment" }
+			}
+            ###agriculture
+            ###minings
+            ###forests
+            ###fishing
+            ###industry
         }
     }
     s:STATE_JONAN = {
@@ -73,7 +118,7 @@ BUILDINGS={
 						levels=4
 					}
 				}
-				reserves=4
+				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}
         }
@@ -285,8 +330,6 @@ BUILDINGS={
 
         }
     }
-
-
 
  ###KANAGAWA:KNG 神奈川
     s:STATE_YOKOHAMA = {
