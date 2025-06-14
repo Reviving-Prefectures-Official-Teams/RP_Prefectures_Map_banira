@@ -743,3 +743,38 @@
   HUB_NAME_STATE_MINAMIAIZU_mine: "只見"
   HUB_NAME_STATE_MINAMIAIZU_farm: "金山"
   HUB_NAME_STATE_MINAMIAIZU_wood: "檜枝岐"
+  # =======九州
+  # 福岡県
+
+  # 佐賀県
+
+  # 長崎県
+
+  # 熊本県
+
+  # 大分県
+
+  # 宮崎県
+
+  # 鹿児島県
+
+  # 沖縄県
+  HUB_NAME_STATE_HOKUZAN_city: "名護"
+  HUB_NAME_STATE_HOKUZAN_port: "今帰仁"
+  HUB_NAME_STATE_HOKUZAN_mine: "本部"
+  HUB_NAME_STATE_HOKUZAN_farm: "国頭"
+  HUB_NAME_STATE_HOKUZAN_wood: "宜野座"
+
+  HUB_NAME_STATE_CHUZAN_city: "宜野湾"
+  HUB_NAME_STATE_CHUZAN_port: "具志川"
+  HUB_NAME_STATE_CHUZAN_mine: "石川"
+  HUB_NAME_STATE_CHUZAN_farm: "読谷"
+  HUB_NAME_STATE_CHUZAN_wood: "嘉手納"
+
+  HUB_NAME_STATE_NANZAN_city: "那覇"
+  HUB_NAME_STATE_NANZAN_port: "豊見城"
+  HUB_NAME_STATE_NANZAN_mine: "南城"
+  HUB_NAME_STATE_NANZAN_farm: "糸満"
+  HUB_NAME_STATE_NANZAN_wood: "与那原"
+
+  # その他

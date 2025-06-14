@@ -13,7 +13,7 @@ STATE_KANAZAWA = {
     arable_land = 30
     arable_resources = { "bg_tobacco_plantations" "bg_vegetable_farms" "bg_cotton_plantations" "bg_wheat_farms" "bg_rice_farms" "bg_vineyard_plantations" "bg_maize_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
     capped_resources = {
-        bg_cryptomeria_forest = 15
+        bg_cryptomeria_forest = 18
     }
     naval_exit_id = 3040
 }
