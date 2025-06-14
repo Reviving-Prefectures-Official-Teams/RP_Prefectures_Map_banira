@@ -8,6 +8,7 @@ STATE_IZU = {
     capped_resources = {
         bg_logging = 20
         bg_cryptomeria_forest = 15
+        bg_coal_mining = 2
     }
     naval_exit_id = 3001
 }
@@ -20,6 +21,7 @@ STATE_GOTENBA = {
     capped_resources = {
         bg_logging = 20
         bg_cryptomeria_forest = 15
+        bg_coal_mining = 12
 
     }
     naval_exit_id = 3007
@@ -34,6 +36,7 @@ STATE_SIZUOKA = {
     capped_resources = {
         bg_logging = 20
         bg_cryptomeria_forest = 15
+        bg_coal_mining = 24
 
     }
     naval_exit_id = 3007
@@ -47,6 +50,7 @@ STATE_HAMAMATSU = {
     capped_resources = {
         bg_logging = 20
         bg_cryptomeria_forest = 15
+        bg_coal_mining = 22
 
     }
     naval_exit_id = 3007
@@ -61,6 +65,7 @@ STATE_KAKEGAWA = {
     capped_resources = {
         bg_logging = 20
         bg_cryptomeria_forest = 15
+        bg_coal_mining = 12
 
     }
     naval_exit_id = 3007
@@ -76,6 +81,7 @@ STATE_OWARI = {
     capped_resources = {
         bg_logging = 20
         bg_cryptomeria_forest = 15
+        bg_coal_mining = 24
 
     }
     naval_exit_id = 3008
@@ -115,6 +121,7 @@ STATE_OKAZAKI = {
     capped_resources = {
         bg_logging = 20
         bg_cryptomeria_forest = 15
+        bg_coal_mining = 12
 
     }
     naval_exit_id = 3008
@@ -128,6 +135,7 @@ STATE_ATSUMI = {
     capped_resources = {
         bg_logging = 20
         bg_cryptomeria_forest = 15
+        bg_coal_mining = 24
 
     }
     naval_exit_id = 3008
@@ -151,7 +159,8 @@ STATE_CHITA = {
     arable_resources = { "bg_rice_farms" "bg_dye_plantations" "bg_tea_plantations" }
     capped_resources = {
         bg_logging = 20
-        bg_cryptomeria_forest = 15
+        bg_cryptomeria_forest = 15}
+        bg_coal_mining = 10
 
     }
     naval_exit_id = 3008
