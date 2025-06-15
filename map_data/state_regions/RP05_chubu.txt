@@ -10,10 +10,11 @@ STATE_KANAZAWA = {
     farm = "x"
     mine = "x"
     wood = "x"
-    arable_land = 30
+    arable_land = 80
     arable_resources = { "bg_tobacco_plantations" "bg_vegetable_farms" "bg_cotton_plantations" "bg_wheat_farms" "bg_rice_farms" "bg_vineyard_plantations" "bg_maize_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
     capped_resources = {
         bg_cryptomeria_forest = 18
+        bg_building_coal_mine = 40
     }
     naval_exit_id = 3040
 }
@@ -27,10 +28,10 @@ STATE_OKUNOTO = {
     farm = "x"
     mine = "x"
     wood = "x"
-    arable_land = 12
+    arable_land = 10
     arable_resources = { "bg_tobacco_plantations" "bg_vegetable_farms" "bg_cotton_plantations" "bg_wheat_farms" "bg_rice_farms" "bg_vineyard_plantations" "bg_maize_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
     capped_resources = {
-        bg_cryptomeria_forest = 15
+        bg_coal_mining = 2
     }
     naval_exit_id = 3040
 }
@@ -47,7 +48,7 @@ STATE_NAKANOTO = {
     arable_land = 15
     arable_resources = { "bg_tobacco_plantations" "bg_vegetable_farms" "bg_cotton_plantations" "bg_wheat_farms" "bg_rice_farms" "bg_vineyard_plantations" "bg_maize_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
     capped_resources = {
-        bg_cryptomeria_forest = 15
+        bg_coal_mining = 10
     }
     naval_exit_id = 3041
 }
@@ -65,8 +66,7 @@ STATE_MINAMIKAMO = {
     arable_land = 28
     arable_resources = { "bg_tobacco_plantations" "bg_vegetable_farms" "bg_cotton_plantations" "bg_wheat_farms" "bg_rice_farms" "bg_vineyard_plantations" "bg_maize_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
     capped_resources = {
-        bg_lead_mining = 12
-        bg_cryptomeria_forest = 15
+        bg_coal_mining = 42
     }
     naval_exit_id = 3040
 }
@@ -86,6 +86,7 @@ STATE_TOYAMA = {
     arable_resources = { "bg_vegetable_farms" "bg_cotton_plantations" "bg_wheat_farms" "bg_rice_farms" "bg_vineyard_plantations" "bg_maize_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
     capped_resources = {
         bg_cryptomeria_forest = 15
+        bg_coal_mining = 40
     }
     naval_exit_id = 3041
 }
@@ -99,7 +100,7 @@ STATE_NIIKAWA = {
     arable_resources = { "bg_vegetable_farms" "bg_cotton_plantations" "bg_wheat_farms" "bg_rice_farms" "bg_vineyard_plantations" "bg_maize_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
     capped_resources = {
         bg_cryptomeria_forest = 15
-
+        bg_coal_mining = 10
 
     }
     naval_exit_id = 3041
@@ -114,6 +115,7 @@ STATE_TAKAOKA = {
     arable_resources = { "bg_vegetable_farms" "bg_cotton_plantations" "bg_wheat_farms" "bg_rice_farms" "bg_vineyard_plantations" "bg_maize_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
     capped_resources = {
         bg_cryptomeria_forest = 15
+        bg_coal_mining = 22
     }
     naval_exit_id = 3041
 }
@@ -127,7 +129,7 @@ STATE_TONAMI = {
     arable_resources = { "bg_vegetable_farms" "bg_cotton_plantations" "bg_wheat_farms" "bg_rice_farms" "bg_vineyard_plantations" "bg_maize_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
     capped_resources = {
         bg_cryptomeria_forest = 15
-
+        
     }
 }
 #新潟
@@ -141,6 +143,7 @@ STATE_NIIGATA = {
     arable_resources = { "bg_tea_plantations" "bg_vegetable_farms" "bg_cotton_plantations" "bg_wheat_farms" "bg_rice_farms" "bg_vineyard_plantations" "bg_maize_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
     capped_resources = {
         bg_cryptomeria_forest = 15
+        bg_coal_mining = 24
 
     }
     naval_exit_id = 3042
@@ -155,6 +158,7 @@ STATE_KAETSU = {
     arable_resources = { "bg_tea_plantations" "bg_vegetable_farms" "bg_cotton_plantations" "bg_wheat_farms" "bg_rice_farms" "bg_vineyard_plantations" "bg_maize_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
     capped_resources = {
         bg_cryptomeria_forest = 15
+        bg_coal_mining = 22
 
 
     }
@@ -170,6 +174,7 @@ STATE_NIIGATAMINAMI = {
     arable_resources = { "bg_tea_plantations" "bg_vegetable_farms" "bg_cotton_plantations" "bg_wheat_farms" "bg_rice_farms" "bg_vineyard_plantations" "bg_maize_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
     capped_resources = {
         bg_cryptomeria_forest = 15
+        bg_coal_mining = 22
     }
 }
 
@@ -182,6 +187,7 @@ STATE_NAGAOKA = {
     arable_resources = { "bg_tea_plantations" "bg_vegetable_farms" "bg_cotton_plantations" "bg_wheat_farms" "bg_rice_farms" "bg_vineyard_plantations" "bg_maize_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
     capped_resources = {
         bg_cryptomeria_forest = 15
+        bg_coal_mining = 12
     }
     naval_exit_id = 3042
 }
@@ -195,6 +201,7 @@ STATE_UONUMA = {
     arable_resources = { "bg_tea_plantations" "bg_vegetable_farms" "bg_cotton_plantations" "bg_wheat_farms" "bg_rice_farms" "bg_vineyard_plantations" "bg_maize_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
     capped_resources = {
         bg_cryptomeria_forest = 15
+        bg_coal_mining = 44
 
 
     }
@@ -208,6 +215,7 @@ STATE_JOETSU = {
     arable_resources = { "bg_tea_plantations" "bg_vegetable_farms" "bg_cotton_plantations" "bg_wheat_farms" "bg_rice_farms" "bg_vineyard_plantations" "bg_maize_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
     capped_resources = {
         bg_cryptomeria_forest = 15
+        bg_coal_mining = 4
     }
     naval_exit_id = 3041
 }
@@ -220,6 +228,7 @@ STATE_SADO = {
     arable_resources = { "bg_tea_plantations" "bg_vegetable_farms" "bg_cotton_plantations" "bg_wheat_farms" "bg_rice_farms" "bg_vineyard_plantations" "bg_maize_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
     capped_resources = {
         bg_cryptomeria_forest = 15
+        bg_coal_mining = 4
     }
     naval_exit_id = 3042
 }
@@ -233,6 +242,7 @@ STATE_FUKUI = {
     arable_resources = { "bg_vegetable_farms" "bg_cotton_plantations" "bg_wheat_farms" "bg_rice_farms" "bg_vineyard_plantations" "bg_maize_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
     capped_resources = {
         bg_cryptomeria_forest = 15
+        bg_coal_mining = 30
 
     }
     naval_exit_id = 3040
@@ -247,6 +257,7 @@ STATE_OKUETSU = {
     arable_resources = { "bg_vegetable_farms" "bg_cotton_plantations" "bg_wheat_farms" "bg_rice_farms" "bg_vineyard_plantations" "bg_maize_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
     capped_resources = {
         bg_cryptomeria_forest = 15
+        bg_coal_mining = 22
 
     }
 }
@@ -274,6 +285,7 @@ STATE_NAGANO = {
     capped_resources = {
         bg_sulfur_mining = 22
         bg_cryptomeria_forest = 15
+        bg_coal_mining = 28
 
     }
 }
@@ -328,6 +340,7 @@ STATE_UEDA = {
     capped_resources = {
         bg_cryptomeria_forest = 15
         bg_sulfur_mining = 12
+        bg_coal_mining = 22
     }
 }
 
@@ -354,6 +367,7 @@ STATE_MATSUMOTO = {
     capped_resources = {
         bg_lead_mining = 12
         bg_cryptomeria_forest = 15
+        bg_coal_mining = 12
     }
 }
 
@@ -394,6 +408,7 @@ STATE_KAMIINA = {
     arable_resources = { "bg_tobacco_plantations" "bg_tea_plantations" "bg_vegetable_farms" "bg_cotton_plantations" "bg_wheat_farms" "bg_rice_farms" "bg_vineyard_plantations" "bg_maize_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
     capped_resources = {
         bg_cryptomeria_forest = 15
+        bg_coal_mining = 8
     }
 }
 
@@ -406,6 +421,7 @@ STATE_SHIMOINA = {
     arable_resources = { "bg_tobacco_plantations" "bg_tea_plantations" "bg_vegetable_farms" "bg_cotton_plantations" "bg_wheat_farms" "bg_rice_farms" "bg_vineyard_plantations" "bg_maize_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
     capped_resources = {
         bg_cryptomeria_forest = 15
+        bg_coal_mining = 10
     }
 }
 #岐阜
@@ -420,6 +436,7 @@ STATE_GIFU = {
     capped_resources = {
         bg_lead_mining = 22
         bg_cryptomeria_forest = 15
+        bg_coal_mining = 22
     }
 }
 
@@ -471,6 +488,7 @@ STATE_SEINO = {
     capped_resources = {
         bg_lead_mining = 22
         bg_cryptomeria_forest = 15
+        bg_coal_mining = 12
     }
 }
 #山梨
@@ -484,6 +502,7 @@ STATE_YAMANASHI = {
     capped_resources = {
         bg_lead_mining = 8
         bg_cryptomeria_forest = 15
+        bg_coal_mining = 42
     }
 }
 
@@ -529,6 +548,7 @@ STATE_FUJIHIGASHI = {
     arable_resources = { "bg_orchards" "bg_tea_plantations" "bg_vegetable_farms" "bg_cotton_plantations" "bg_wheat_farms" "bg_rice_farms" "bg_vineyard_plantations" "bg_maize_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
     capped_resources = {
         bg_cryptomeria_forest = 15
+        bg_coal_mining = 4
 
     }
 }
