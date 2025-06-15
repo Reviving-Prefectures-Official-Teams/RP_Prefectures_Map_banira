@@ -34,7 +34,7 @@ STATE_OSAKAWAN_2 = {
     id = 3206
     provinces = { "x000028" "x457C03" "x722409" "x7AADCA" "x99BB34" "x99BB35" "xAC0D0F" "xB403DE" "xBF9AC5" "xBFF061" "xD19B63" "xE3A9D6" "xF76A74" }
 }
-#北朝鮮
+#中東
 STATE_RECLAIMED_007 = {
     id = 3207
     provinces = { "xF347EF" }

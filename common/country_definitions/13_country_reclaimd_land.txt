@@ -7,135 +7,135 @@ RL1 = {
 	capital = STATE_HACHIROHGATA
 }
 
-# RL2 = {
-# 	color = { 66  94  193 }
+RL2 = {
+	color = { 66  94  193 }
 	
-# 	country_type = decentralized
+	country_type = decentralized
 	
-# }
+}
 
-# RL3 = {
-# 	color = { 190  186  202 }
+RL3 = {
+	color = { 190  186  202 }
 	
-# 	country_type = decentralized
+	country_type = decentralized
 	
-# }
+}
 
-# RL4 = {
-# 	color = { 106  124  243 }
+RL4 = {
+	color = { 106  124  243 }
 	
-# 	country_type = decentralized
+	country_type = decentralized
 	
-# }
+}
 
-# RL5 = {
-# 	color = { 212 100 141 }
+RL5 = {
+	color = { 212 100 141 }
 	
-# 	country_type = decentralized
+	country_type = decentralized
 	
-# }
+}
 
-# RL6 = {
-# 	color = { 177 51 34 }
+RL6 = {
+	color = { 177 51 34 }
 	
-# 	country_type = decentralized
+	country_type = decentralized
 	
-# }
+}
 
-# RL7 = {
-# 	color = { 66  94  193 }
+RL7 = {
+	color = { 66  94  193 }
 	
-# 	country_type = decentralized
+	country_type = decentralized
 	
-# }
+}
 
-# RL8 = {
-# 	color = { 190  186  202 }
+RL8 = {
+	color = { 190  186  202 }
 	
-# 	country_type = decentralized
+	country_type = decentralized
 	
-# }
+}
 
-# AB1 = { #アメリカ
-# 	color = { 190  186  202 }
+AB1 = { #アメリカ
+	color = { 190  186  202 }
 	
-# 	country_type = decentralized
+	country_type = decentralized
 	
-# }
+}
 
-# AB2 = { #ソビエト
-# 	color = { 106  124  243 }
+AB2 = { #ソビエト
+	color = { 106  124  243 }
 	
-# 	country_type = decentralized
+	country_type = decentralized
 	
-# }
+}
 
-# AB3 = { #北朝鮮
-# 	color = { 212 100 141 }
+AB3 = { #北朝鮮
+	color = { 212 100 141 }
 	
-# 	country_type = decentralized
+	country_type = decentralized
 	
-# }
+}
 
-# AB4 = { #韓国
-# 	color = { 177 51 34 }
+AB4 = { #韓国
+	color = { 177 51 34 }
 	
-# 	country_type = decentralized
+	country_type = decentralized
 	
-# }
+}
 
-# AB5 = { #中国
-# 	color = { 66  94  193 }
+AB5 = { #中国
+	color = { 66  94  193 }
 	
-# 	country_type = decentralized
+	country_type = decentralized
 	
-# }
+}
 
-# AB6 = { #オーストラリア
-# 	color = { 190  186  202 }
+AB6 = { #オーストラリア
+	color = { 190  186  202 }
 	
-# 	country_type = decentralized
+	country_type = decentralized
 	
-# }
+}
 
-# AB7 = { #東南アジア
-# 	color = { 106  124  243 }
+AB7 = { #東南アジア
+	color = { 106  124  243 }
 	
-# 	country_type = decentralized
+	country_type = decentralized
 	
-# }
+}
 
-# AB8 = { #インド
-# 	color = { 212 100 141 }
+AB8 = { #インド
+	color = { 212 100 141 }
 	
-# 	country_type = decentralized
+	country_type = decentralized
 	
-# }
+}
 
-# AB9 = { #アラブ世界
-# 	color = { 177 51 34 }
+AB9 = { #アラブ世界
+	color = { 177 51 34 }
 	
-# 	country_type = decentralized
+	country_type = decentralized
 	
-# }
+}
 
-# AB10 = { # ヨーロッパ
-# 	color = { 66  94  193 }
+AB10 = { #ヨーロッパ
+	color = { 66  94  193 }
 	
-# 	country_type = decentralized
+	country_type = decentralized
 	
-# }
+}
 
-# AB11 = { # ラテンアメリカ
-# 	color = { 190  186  202 }
+AB11 = { #ラテンアメリカ
+	color = { 190  186  202 }
 	
-# 	country_type = decentralized
+	country_type = decentralized
 	
-# }
+}
 
-# AB12 = { #アフリカ
-# 	color = { 106  124  243 }
+AB12 = { #アフリカ
+	color = { 106  124  243 }
 	
-# 	country_type = decentralized
+	country_type = decentralized
 	
-# }
+}

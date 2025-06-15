@@ -37,6 +37,12 @@
 				size = 1000
 			}
 		}
+		region_state:RL5 = {
+            create_pop = {
+				culture = kaitakusha
+				size = 100
+			}
+		}
     }
     s:STATE_HIDAKA = { #103446
         region_state:HOK = {
@@ -61,6 +67,12 @@
 				size = 1000
 			}
 		}
+		region_state:RL6 = {
+            create_pop = {
+				culture = kaitakusha
+				size = 100
+			}
+		}
     }
     s:STATE_SORACHI = { #757434
         region_state:HOK = {
@@ -71,6 +83,12 @@
             create_pop = {
 				culture = ainu
 				size = 1000
+			}
+		}
+		region_state:RL6 = {
+            create_pop = {
+				culture = kaitakusha
+				size = 100
 			}
 		}
     }
@@ -109,6 +127,12 @@
 				size = 1000
 			}
 		}
+		region_state:RL7 = {
+            create_pop = {
+				culture = ainu
+				size = 100
+			}
+		}
     }
     s:STATE_SOYA = { #125608
         region_state:HOK = {
@@ -133,6 +157,12 @@
 				size = 1000
 			}
 		}
+		region_state:RL8 = {
+            create_pop = {
+				culture = kaitakusha
+				size = 100
+			}
+		}
     }
     s:STATE_NEMURO = { #69733
         region_state:HOK = {
@@ -143,6 +173,12 @@
             create_pop = {
 				culture = ainu
 				size = 500
+			}
+		}
+		region_state:RL8 = {
+            create_pop = {
+				culture = kaitakusha
+				size = 100
 			}
 		}
     }
@@ -181,6 +217,11 @@
 				size = 1000
 			}
 		}
+        region_state:RL2 = {
+			create_pop = {
+				culture = kaitakusha
+				size = 100
+			}
     }
     s:STATE_OSYAMAMBE = { #66584
         region_state:HOK = {

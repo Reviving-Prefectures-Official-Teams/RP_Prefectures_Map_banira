@@ -1,2 +1,5 @@
 ﻿l_japanese:
  CONSTRUCTION_GOODS_EXPENSES_BREAKDOWN_2: "建設予算: #v #N @money!-[GetPlayer.GetConstructionGoodsExpenses|D-]#!#! [GetPlayer.GetConstructionGoodsExpensesByGoodsDesc] [concept_investment_pool]: #v @money![GetPlayer.GetInvestmentPool|D+]#!"
+
+ concept_literacy: "大学進学率"
+ concept_literate: "大卒資格者"

@@ -7,6 +7,12 @@
 				size = 495937
 			}
 		} 
+        region_state:RL2 = {
+			create_pop = {
+				culture = kaitakusha
+				size = 100
+			}
+		} 
     }
     s:STATE_HACHINOHE = { #242076
         region_state:AOM = {
@@ -90,7 +96,13 @@
 				size = 503584
 			}
 		}
-    }
+        region_state:RL1 = {
+			create_pop = {
+				culture = kaitakusha
+				size = 100
+			}
+		} 
+	}
     s:STATE_YURIHONJYOU = { #149328
         region_state:AKT = {
 			create_pop = {
@@ -123,4 +135,13 @@
 			}
 		}
 	}
+
+	s:STATE_HACHIROHGATA = { #149328
+        region_state:AKT = {
+			create_pop = {
+				culture = kaitakusha
+				size = 100
+			}
+		}
+    }
 }
