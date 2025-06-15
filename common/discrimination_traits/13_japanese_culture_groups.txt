@@ -46,7 +46,7 @@ kinki = {}
  narada_group = {}
  matsumoto_group = {}
  nagano_group = {}
- sado_group = {}
+ saku_group = {}
  tokai_group = {}
 
  #関東
@@ -68,7 +68,7 @@ kinki = {}
  nanbu_group = {}
  sendai_group = {}
  iwaki_group = {}
- aidu_group = {}
+ aizu_group = {}
  dewa_group = {}
 
  #北海道

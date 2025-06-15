@@ -38,7 +38,7 @@
 			add_ruling_interest_group = yes
 		}
 
-		add_journal_entry = { type = je_terakoya }
+
 	}
 	#広島
 	c:HRS ?= {
@@ -79,7 +79,7 @@
 			add_ruling_interest_group = yes
 		}
 
-		add_journal_entry = { type = je_terakoya }
+
 	}
 	#岡山
 	c:OKY ?= {
@@ -93,7 +93,7 @@
 		activate_law = law_type:law_serfdom
 		activate_law = law_type:law_hereditary_bureaucrats
 		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_land_tax
+		# activate_law = law_type:law_land_tax
 		activate_law = law_type:law_isolationism
 		activate_law = law_type:law_local_police
 		activate_law = law_type:law_no_schools
@@ -121,7 +121,7 @@
 			add_ruling_interest_group = yes
 		}
 
-		add_journal_entry = { type = je_terakoya }
+
 	}
 	#鳥取
 	c:TTR ?= {
@@ -162,7 +162,7 @@
 			add_ruling_interest_group = yes
 		}
 
-		add_journal_entry = { type = je_terakoya }
+
 	}
 	#島根
 	c:SMN ?= {
@@ -203,6 +203,6 @@
 			add_ruling_interest_group = yes
 		}
 
-		add_journal_entry = { type = je_terakoya }
+
 	}
 }

@@ -1,0 +1,1505 @@
+﻿state_sapporo_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+state_nemuro_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_hakodate_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_etorofu_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#先住民族
+state_ainu_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_nivkh_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_oroch_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#津軽文化（青森、弘前）
+state_aomori_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_hirosaki_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#下北文化（下北半島）
+state_shimokita_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#南部文化（八戸、盛岡、釜石、八幡平）
+state_hachinohe_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_morioka_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_kamaishi_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_hachimantai_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#仙台文化（仙台、石巻、白石、気仙沼）
+state_kesen_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_sendai_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_shiroishi_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_soma_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#福島文化（福島、いわき、会津）
+state_fukushima_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_iwaki_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_aizu_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#出羽文化（山形、由利、秋田、荘内）
+state_akita_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_yuri_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_shonai_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_yamagata_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#東京文化（江戸、山手、向島）
+state_edo_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_yamanote_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_mukojima_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#常陸文化（常陸、水戸、筑波）
+state_hitachi_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_mito_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_tsukuba_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#相模文化（相模、小田原、横須賀）
+state_odawara_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_sagamihara_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_yokosuka_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#武蔵文化（横浜、熊谷、川越、多摩、大宮、秩父）
+state_yokohama_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_kumagaya_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_kawagoe_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_tama_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_omiya_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_chichibu_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#房総文化（千葉、銚子、館山、勝浦、成田、古賀）
+state_tateyama_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_koga_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_katsuura_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_narita_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_chiba_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_choshi_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#両毛文化（前橋、吾妻、宇都宮、足利、栃木）
+state_utsunomiya_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_agazuma_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_maebashi_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_ashikaga_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_tochigi_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#南西諸島諸文化（小笠原、八丈島、硫黄島）
+state_ogasawara_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_hachijo_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_iwo_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#越前文化（福井、金沢、能登）
+state_fukui_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_kanazawa_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_noto_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#富山文化（富山、高岡、五箇山）
+state_toyama_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_takaoka_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_gokayama_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#飛騨文化（飛騨、白川)
+state_shirakawa_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#越後文化（新潟、長岡、妙高）
+state_myoko_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_nagaoka_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_niigata_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_sado_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#飛騨文化（飛騨・白川）
+state_hida_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#富士文化（沼津、御殿場、伊豆、甲府、富士）
+state_kofu_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_fuji_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#奈良田文化
+state_narada_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#松本文化（松本、長野）
+state_kiso_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_matsumoto_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#長野文化（長野、佐久、諏訪）
+state_nagano_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_saku_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_suwa_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#秋山郷文化（秋山）
+state_akiyamago_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#東海文化（岐阜、名古屋、知多、挙母、岡崎、豊橋、浜松、静岡）
+state_gifu_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_nagoya_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_chita_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_koromo_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_okazaki_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_toyohashi_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_hamamatsu_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_shizuoka_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#富士文化（沼津、御殿場、伊豆、甲府、富士）
+state_numazu_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_gotemba_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_izu_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#東山陰文化（但馬、丹後、鳥取、豊岡、倉吉）
+state_tajima_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#丹波文化（丹波、福知山、舞鶴）
+state_tanba_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_fukuchiyama_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_maizuru_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#東山陽文化（姫路、明石、神戸）
+state_himeji_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_akashi_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_kobe_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#北四国文化（淡路、鳴門、徳島、阿南、高松、丸亀、宇摩、今治、松山）
+state_awaji_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#摂津文化（西宮、大阪、高槻、豊野）
+state_nishinomiya_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_osaka_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_takatsuki_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_toyono_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#畿内文化（枚方、和泉、山城、田辺、大和、天理、葛城、吉野）
+state_hirakata_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_izumi_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_yamashiro_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_tanabe_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_yamato_culture_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_tenri_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_katsuragi_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_yoshino_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#紀伊文化（和歌山・龍神・白浜・熊野）
+state_wakayama_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_ryujin_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_shirahama_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#近江文化（大津・高島・長浜）
+state_otsu_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_takashima_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_nagahama_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_kumano_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#嶺南文化（若狭）
+state_wakasa_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#三重文化（鈴鹿・伊勢・伊賀）
+state_suzuka_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_ise_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_iga_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#東山陰文化（但馬、丹後、鳥取、豊岡、倉吉）
+state_tottori_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_kurayoshi_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_toyooka_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_tango_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+	
+#雲伯文化（出雲、隠岐、米子）
+state_yonago_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_izumo_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_oki_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+	
+#西中国文化（石見・広島・呉・山口・下関・萩・柳井）
+state_iwami_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_hiroshima_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_kure_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_yamaguchi_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_shimonoseki_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_hagi_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_yanai_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+	
+#東山陽文化（福山・美作・備前・備中
+state_fukuyama_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_mimasaka_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_bizen_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_bitchu_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+	
+#北四国文化（淡路、鳴門、徳島、阿南、高松、丸亀、宇摩、今治、松山）
+state_takamatsu_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_marugame_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_tokushima_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_naruto_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_anan_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_uma_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_imabari_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_matsuyama_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+	
+#土佐文化（北川・高知）
+state_kitagawa_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_kochi_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#幡多文化（宇和島・四万十）
+state_uwajima_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_simanto_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+	
+#肥筑文化（阿蘇・熊本・佐世保・小倉・長崎・天草・日田・福岡・佐賀・伊万里・唐津・鹿島・鳥栖・五島）
+state_aso_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_kumamoto_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_sasebo_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_kokura_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_nagasaki_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_amakusa_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_hita_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_fukuoka_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_saga_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_karatsu_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#薩隅文化（薩摩・佐伯・屋久島・久留米・水俣・大隅・都城
+state_yakushima_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_kurume_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_satsuma_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_minamata_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_osumi_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_miyakonojo_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#豊日文化（宮崎・大分・佐伯・日向
+state_miyazaki_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_oita_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_saiki_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_hyuga_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#対馬文化（対馬）
+state_tsushima_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#奄美文化（奄美・吐噶喇）
+state_tokara_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_amami_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#琉球文化（沖縄・国頭・宮古・大東）
+state_okinawa_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_miyako_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_yambaru_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_daito_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#八重山文化（八重山）
+state_yaeyama_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+#ヨーロッパ人
+state_white_russian_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_korean_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_han_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_russian_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_byelorussian_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_ukrainian_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_yankee_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}

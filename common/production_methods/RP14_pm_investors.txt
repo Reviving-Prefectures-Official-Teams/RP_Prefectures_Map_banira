@@ -50,7 +50,7 @@ pm_net_securities = {
 ###邸宅
 #資産管理
 pm_asset_management = {
-	texture = "gfx/interface/icons/production_method_icons/ownership_aristocrats.dds"
+	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
 	replacement_if_valid = pm_manor_house_principle_divine_economics_2
 
 	building_modifiers = {
@@ -93,7 +93,7 @@ pm_venture_investment = {
 ###宗教施設
 #閉鎖的経営
 pm_closed_management = {
-	texture = "gfx/interface/icons/production_method_icons/ownership_religious.dds"
+	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
 	replacement_if_valid = pm_religious_sites_principle_divine_economics_2
 
 	building_modifiers = {
@@ -108,7 +108,7 @@ pm_closed_management = {
 }
 #観光型運営
 pm_tourism_management = {
-	texture = "gfx/interface/icons/production_method_icons/ownership_religious.dds"
+	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
 	replacement_if_valid = pm_religious_sites_principle_divine_economics_2
 	
 
@@ -129,7 +129,7 @@ pm_tourism_management = {
 ###新興宗教法人
 #カルト施設
 pm_cults_corporation = {
-	texture = "gfx/interface/icons/production_method_icons/ownership_religious.dds"
+	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
 	replacement_if_valid = pm_cults_corporation_principle_divine_economics_2
 
 	building_modifiers = {
@@ -150,7 +150,7 @@ pm_cults_corporation = {
 ###暴力団事務所
 #闇ビジネス
 pm_yakuza_offices = {
-	texture = "gfx/interface/icons/production_method_icons/ownership_criminal.dds"
+	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
 	replacement_if_valid = pm_yakuza_offices_principle_divine_economics_2
 
 	building_modifiers = {

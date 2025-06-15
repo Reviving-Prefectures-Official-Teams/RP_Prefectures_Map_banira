@@ -93,7 +93,7 @@ STATES = {
             country = c:FKS
             owned_provinces = { "x30FBE0" "x56BFEE" "x62C0E5" "x66DCDE" "x6BFEC2" "x78ECEC" "x8EA2CC" "x917EF1" "xA9CEAD" "xA9D6EC" "xB2B1DF" "xBA8CC0" "xBB77DF" "xBD7DC2" "xCCF1ED" "xCFBC89" "xD072CA" "xD1D6D5" "xD3D687" "xD7D582" "xDA90E4" "xDED65B" "xE669B8" "xEA87C6" "xEBFC75" "xF042F7" "xF679EC" "xF88980" "xFA60B1" "xFB7EDA" "xFD46F2" }
         }
-		add_homeland = cu:iwaki
+		add_homeland = cu:fukushima
     }
     s:STATE_IWAKI = {
         create_state = {
@@ -107,27 +107,27 @@ STATES = {
             country = c:FKS
             owned_provinces = { "x51CAF6" "x53CBDB" "x62ABFB" "x7BDEB5" "x7E95EC" "x96AFDD" "x96F1BF" "xAEE7BA" "xB7F9F4" "xB8BCA1" "xC2D0F6" "xC48BF6" "xC5B28E" "xCA84FD" "xD07AD9" "xD0C0C5" "xDAB8C8" "xDC95F4" "xDF53D1" "xE2F653" "xE386DA" "xE3DCF4" "xEE71C6" "xF4F2C1" "xFB58D5" "xFBF837" }
         }
-		add_homeland = cu:fukushima
+		add_homeland = cu:iwaki
     }
     s:STATE_SHIRAKAWA = {
         create_state = {
             country = c:FKS
             owned_provinces = { "x60CDFA" "x8BCBBD" "x98EDDD" "x9FFEE5" "xA1D087" "xA4A6E0" "xAAC1CA" "xBBA7D5" "xBBCC87" "xD1EEF6" "xD5DC98" "xDA4AF1" "xDDC982" "xDDCB5A" "xECEE69" "xEDE4CC" "xEDEB2F" "xEFC458" "xF0C93F" "xFC73BE" }
         }
-		add_homeland = cu:iwaki
+		add_homeland = cu:fukushima
     }
     s:STATE_AIZU = {
         create_state = {
             country = c:FKS
             owned_provinces = { "x89A6CD" "x98B5F5" "x9FA0FE" "xA4E77F" "xC686F1" "xCED2D4" "xDBD46D" "xDDFE73" "xE0DAFD" "xEEF5C2" "xEFB294" "xEFD5EF" "xF061B4" "xF4899A" "xF8EA85" "xFA9CE7" "xFD939A" }
         }
-		add_homeland = cu:aidu
+		add_homeland = cu:aizu
     }
     s:STATE_MINAMIAIZU = {
         create_state = {
             country = c:FKS
             owned_provinces = { "x1DEEFD" "x86C6B4" "x8E9CDF" "x97CDDF" "xA3E68F" "xAEC3F5" "xBA62F4" "xBCDA8B" "xC1CE8F" "xC2E54E" "xC6C5A2" "xCCE1D9" "xCD7ED4" "xD1D3BD" "xD271C4" "xDDAFB5" "xDDE5D2" "xE7E63D" "xE87BAF" "xEBF124" "xECA5A3" "xEEDFE2" "xF148C3" "xF8EE71" }
         }
-		add_homeland = cu:aidu
+		add_homeland = cu:aizu
     }
 }

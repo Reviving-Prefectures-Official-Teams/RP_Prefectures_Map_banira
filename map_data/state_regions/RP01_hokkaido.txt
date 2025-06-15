@@ -119,7 +119,6 @@ STATE_SORACHI = {
     wood = "xF0DB2C"
     arable_land = 310
     arable_resources = { "bg_rice_farms" "bg_wheat_farms" "bg_maize_farms" "bg_vineyard_plantations" "bg_vegetable_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
-    arable_resources = { "bg_rice_farms" "bg_wheat_farms" "bg_maize_farms" "bg_vineyard_plantations" "bg_vegetable_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
     capped_resources = {
         bg_coal_mining = 64
         bg_betulaceae_forest = 2

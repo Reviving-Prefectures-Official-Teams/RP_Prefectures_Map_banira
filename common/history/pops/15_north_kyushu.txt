@@ -158,10 +158,10 @@
 				culture = oita
 				size = 194585
 			}
-			create_pop = {
-				culture = shugendo
-				size = 1000
-			}
+			# create_pop = {
+			# 	culture = shugendo
+			# 	size = 1000
+			# }
 		}
 	}
 
@@ -322,20 +322,20 @@
 
 	s:STATE_GOTO_RETTOH = { #167878
 		region_state:NGS = {
-			create_pop = {
-				culture = gotos
-				size = 110878
-			}
+			# create_pop = {
+			# 	culture = gotos
+			# 	size = 110878
+			# }
 			create_pop = {
 				culture = nagasaki
 				religion = hidden_christian
 				size = 20000
 			}
-			create_pop = {
-				culture = gotos
-				religion = hidden_christian
-				size = 37000
-			}
+			# create_pop = {
+			# 	culture = gotos
+			# 	religion = hidden_christian
+			# 	size = 37000
+			# }
 		}
 	}
 	

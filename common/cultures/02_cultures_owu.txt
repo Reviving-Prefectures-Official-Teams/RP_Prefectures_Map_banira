@@ -2291,7 +2291,7 @@ iwaki = {
 	graphics = east_asian
 }
 
-aidu = {
+aizu = {
 	color = rgb{126 130 116}
 	religion = shinbutsu_shugo
 	traits = { owu fukushima_prefecture }

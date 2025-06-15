@@ -2,7 +2,7 @@
 #都市センター
 building_urban_center = {
 	building_group = bg_office_building
-	texture = "gfx/interface/icons/building_icons/urban_center.dds"
+	icon = "gfx/interface/icons/building_icons/urban_center.dds"
 	city_type = city
 	residence_points_per_level = 0
 	
@@ -22,36 +22,36 @@ building_urban_center = {
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }
 
-building_office_building = {
-	building_group = bg_urban_services
-	texture = "gfx/interface/icons/building_icons/skyscraper.dds"
-	city_type = city
-	levels_per_mesh = 5
+# building_office_building = {
+# 	building_group = bg_urban_services
+# 	icon = "gfx/interface/icons/building_icons/skyscraper.dds"
+# 	city_type = city
+# 	levels_per_mesh = 5
 	
-	unlocking_technologies = {
-		tech_shopping_street
-	}
+# 	unlocking_technologies = {
+# 		tech_shopping_street
+# 	}
 
-	production_method_groups = {
-		pmg_financial_service
-		pmg_exparts_affairs
-		pmg_travel_service
-		pmg_digital_service
-		#上記4業界の効率化生産方式は、存在するが未使用である。
-		pmg_digitalization
-	}
+# 	production_method_groups = {
+# 		pmg_financial_service
+# 		pmg_exparts_affairs
+# 		pmg_travel_service
+# 		pmg_digital_service
+# 		#上記4業界の効率化生産方式は、存在するが未使用である。
+# 		pmg_digitalization
+# 	}
 	
-	required_construction = construction_cost_high
+# 	required_construction = construction_cost_high
 
-	ownership_type = self
+# 	ownership_type = self
 
-	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
-}
+# 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+# }
 
 #メディア業界
 building_printing = {
 	building_group = bg_urban_services
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	residence_points_per_level = 5
 
@@ -76,7 +76,7 @@ building_printing = {
 #出版業界
 building_publishing = {
 	building_group = bg_urban_services
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	residence_points_per_level = 5
 
@@ -100,7 +100,7 @@ building_publishing = {
 #輸送センター
 building_transport_center = {
 	building_group = bg_urban_services
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	residence_points_per_level = 5
 
@@ -124,7 +124,7 @@ building_transport_center = {
 #病院
 building_hospital = {
 	building_group = bg_urban_services
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	residence_points_per_level = 5
 	
@@ -142,7 +142,7 @@ building_hospital = {
 #歓楽街
 building_nightlife_district = {
 	building_group = bg_criminal_syndicate
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	residence_points_per_level = 5
 	

@@ -38,7 +38,7 @@
 			add_ruling_interest_group = yes
 		}
 
-		add_journal_entry = { type = je_terakoya }
+
 	}
 	#長崎
 	c:NGS ?= {
@@ -79,7 +79,7 @@
 			add_ruling_interest_group = yes
 		}
 
-		add_journal_entry = { type = je_terakoya }
+
 	}
 	#佐賀
 	c:SAG ?= {
@@ -120,7 +120,7 @@
 			add_ruling_interest_group = yes
 		}
 
-		add_journal_entry = { type = je_terakoya }
+
 	}
 	#大分
 	c:OIT ?= {
@@ -161,7 +161,7 @@
 			add_ruling_interest_group = yes
 		}
 
-		add_journal_entry = { type = je_terakoya }
+
 	}
 	#熊本
 	c:KUM ?= {
@@ -202,7 +202,7 @@
 			add_ruling_interest_group = yes
 		}
 
-		add_journal_entry = { type = je_terakoya }
+
 	}
 	#宮崎
 	c:MYZ ?= {
@@ -243,7 +243,7 @@
 			add_ruling_interest_group = yes
 		}
 
-		add_journal_entry = { type = je_terakoya }
+
 	}
 	#鹿児島
 	c:KGS ?= {
@@ -284,7 +284,7 @@
 			add_ruling_interest_group = yes
 		}
 
-		add_journal_entry = { type = je_terakoya }
+
 	}
 	#沖縄
 	c:OKI ?= {
@@ -325,7 +325,7 @@
 			add_ruling_interest_group = yes
 		}
 
-		add_journal_entry = { type = je_terakoya }
+
 	}
 	#八重山
 	c:YAE ?= {
@@ -366,7 +366,7 @@
 			add_ruling_interest_group = yes
 		}
 
-		add_journal_entry = { type = je_terakoya }
+
 	}
 	#奄美
 	c:AMA ?= {
@@ -407,7 +407,7 @@
 			add_ruling_interest_group = yes
 		}
 
-		add_journal_entry = { type = je_terakoya }
+
 	}
 	#大東島
 	c:DAT ?= {
@@ -448,7 +448,7 @@
 			add_ruling_interest_group = yes
 		}
 
-		add_journal_entry = { type = je_terakoya }
+
 	}
 	#トカラ
 	c:TKR ?= {
@@ -489,7 +489,7 @@
 			add_ruling_interest_group = yes
 		}
 
-		add_journal_entry = { type = je_terakoya }
+
 	}
 	#対馬
 	c:TSM ?= {
@@ -530,7 +530,7 @@
 			add_ruling_interest_group = yes
 		}
 
-		add_journal_entry = { type = je_terakoya }
+
 	}
 	#沖縄
 	c:USR ?= {
@@ -571,7 +571,7 @@
 			add_ruling_interest_group = yes
 		}
 
-		add_journal_entry = { type = je_terakoya }
+
 	}
 	#沖縄
 	c:SRA ?= {
@@ -613,6 +613,6 @@
 			add_ruling_interest_group = yes
 		}
 
-		add_journal_entry = { type = je_terakoya }
+
 	}
 }

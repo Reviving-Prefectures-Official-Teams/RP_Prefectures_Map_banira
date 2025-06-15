@@ -23,85 +23,9 @@
 
 	on_enable = {
 		ig:ig_gangster = {
-			if = {
-				limit = {
-					owner = {
-						c:CHI ?= this
-					}
-				}
-				set_ig_trait = ig_trait:ig_trait_newly_created_army
-				set_ig_trait = ig_trait:ig_trait_self_strengthening
-				set_ig_trait = ig_trait:ig_trait_parochial_leadership
-			}
-			else_if = {
-				limit = {
-					owner = {
-						OR = {
-							c:FRA ?= this
-							country_has_primary_culture = cu:french
-						}
-					}
-				}
-				set_ig_trait = ig_trait:ig_trait_materiel_waste
-				set_ig_trait = ig_trait:ig_trait_veteran_consultation
-				set_ig_trait = ig_trait:ig_trait_elan_vital
-			}
-			else_if = {
-				limit = {
-					owner = {
-						any_primary_culture = {
-							has_discrimination_trait = hispanophone
-							has_discrimination_trait = european_heritage
-							NOT = { has_discrimination_trait = iberian_culture_group }
-						}
-					}
-				}
-				set_ig_trait = ig_trait:ig_trait_materiel_waste
-				set_ig_trait = ig_trait:ig_trait_veteran_consultation
-				set_ig_trait = ig_trait:ig_trait_el_buen_jefe
-			}
-			else_if = {
-				limit = {
-					owner = {
-						has_dlc_feature = rp1_content
-						c:BRZ ?= this
-					}
-				}
-				set_ig_trait = ig_trait:ig_trait_coronelismo
-				set_ig_trait = ig_trait:ig_trait_clube_militar
-				set_ig_trait = ig_trait:ig_trait_patriotic_fervor
-			}
-			else = {
-				set_ig_trait = ig_trait:ig_trait_materiel_waste
-				set_ig_trait = ig_trait:ig_trait_veteran_consultation
-				set_ig_trait = ig_trait:ig_trait_patriotic_fervor
-			}
-		}
-		# Caudillo Ideology
-		if = {
-			limit = {
-				OR = {
-					country_has_primary_culture = cu:platinean
-					country_has_primary_culture = cu:south_andean
-					country_has_primary_culture = cu:north_andean
-					country_has_primary_culture = cu:central_american
-					country_has_primary_culture = cu:mexican
-				}
-			}
-			ig:ig_gangster = {
-				add_ideology = ideology_caudillismo
-			}
-		}
-		# Samurai
-		else_if = {
-			limit = {
-				country_has_primary_culture = cu:japanese
-				NOT = { has_global_variable = fall_of_the_samurai_global_var }
-			}
-			ig:ig_gangster = {
-				add_ideology = ideology_bakufu
-				set_interest_group_name = ig_samurai
-			}
+			set_ig_trait = ig_trait:ig_trait_materiel_waste
+			set_ig_trait = ig_trait:ig_trait_veteran_consultation
+			set_ig_trait = ig_trait:ig_trait_patriotic_fervor
 		}
 	}
 	on_disable = {}
@@ -112,7 +36,7 @@
 			is_pop_type = soldiers
 			is_pop_type = officers
 			is_pop_type = aristocrats
-			pop_is_discriminated = no
+			pop_acceptance >= acceptance_status_3
 		}
 	}
 
@@ -123,7 +47,7 @@
 			desc = "POP_NOT_DISCRIMINATED"
 			if = {
 				limit = {
-					pop_is_discriminated = no
+					pop_acceptance >= acceptance_status_3
 				}
 				value = 25
 				if = { # Militarisation of colonial settlers

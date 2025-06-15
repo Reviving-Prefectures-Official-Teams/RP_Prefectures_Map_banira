@@ -1,4 +1,4 @@
-ideology_chivalry = { #任侠
+﻿ideology_chivalry = { #任侠
 	icon = "gfx/interface/icons/ideology_icons/bakufu.dds"
 	
 	lawgroup_health_system = {

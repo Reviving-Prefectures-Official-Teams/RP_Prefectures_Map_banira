@@ -4584,7 +4584,7 @@ tochigi = {
 ogasawara = {
 	color = rgb{ 50 50 20 }
 	religion = shinbutsu_shugo
-	traits = { europa_heritage japanese_pidgin }
+	traits = { european_heritage japanese_pidgin }
 	male_common_first_names={
 		Aritomo
 		Gentaro

@@ -52,7 +52,8 @@
 			} #ここでは、人口タイプが労働者の場合、5を掛けて返す
 			if = {
 				limit = {
-					culture_accepted = no
+					pop_acceptance >= acceptance_status_3
+					# culture_accepted = no
 				}
 				multiply = {
 					value = 5

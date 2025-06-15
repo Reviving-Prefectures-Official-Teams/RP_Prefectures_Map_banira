@@ -6,7 +6,7 @@ building_trade_center = {
 
 	lens = infrastructure
 
-	texture = "gfx/interface/icons/building_icons/building_trade_center.dds"
+	icon = "gfx/interface/icons/building_icons/building_trade_center.dds"
 
 	production_method_groups = {
 		pmg_base_building_trade_center
@@ -29,7 +29,7 @@ building_general_trader = {
 
     lens = infrastructure
 
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 
     production_method_groups = {
         pmg_base_building_general_trader

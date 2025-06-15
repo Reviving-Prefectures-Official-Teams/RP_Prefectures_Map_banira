@@ -1,7 +1,7 @@
 ﻿############ GOVERNMENT BUILDINGS
 building_government_administration = {
 	building_group = bg_bureaucracy
-	texture = "gfx/interface/icons/building_icons/building_government_administration.dds"
+	icon = "gfx/interface/icons/building_icons/building_government_administration.dds"
 	city_type = city
 	levels_per_mesh = 10
 
@@ -27,7 +27,7 @@ building_government_administration = {
 #芸術院
 building_arts_academy = {
 	building_group = bg_arts
-	texture = "gfx/interface/icons/building_icons/building_arts_academy.dds"
+	icon = "gfx/interface/icons/building_icons/building_arts_academy.dds"
 	city_type = city
 	levels_per_mesh = 5
 
@@ -49,7 +49,7 @@ building_arts_academy = {
 #大学
 building_university = {
 	building_group = bg_technology
-	texture = "gfx/interface/icons/building_icons/building_university.dds"
+	icon = "gfx/interface/icons/building_icons/building_university.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
@@ -67,7 +67,7 @@ building_university = {
 #美術館
 building_art_museum = {
 	building_group = bg_arts
-	texture = "gfx/interface/icons/building_icons/building_arts_academy.dds"
+	icon = "gfx/interface/icons/building_icons/building_arts_academy.dds"
 	city_type = city
 	
 	levels_per_mesh = 5
@@ -91,7 +91,7 @@ building_art_museum = {
 
 #building_construction_sector = {
 #	building_group = bg_construction
-#	texture = "gfx/interface/icons/building_icons/construction_camp.dds"
+#	icon = "gfx/interface/icons/building_icons/construction_camp.dds"
 #	city_type = city
 #	levels_per_mesh = 5
 #	

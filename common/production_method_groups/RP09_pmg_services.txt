@@ -1,7 +1,7 @@
 ﻿#####専門ファーム
 ###専門業務
 pmg_exparts_affairs = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
@@ -15,7 +15,7 @@ pmg_exparts_affairs = {
 #####デジタル業界
 ###デジタルサービス
 pmg_digital_service = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
@@ -29,7 +29,7 @@ pmg_digital_service = {
 #####市街地
 ###商店街
 pmg_shopping_street = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
@@ -43,7 +43,7 @@ pmg_shopping_street = {
 #####メディア業界
 ###印刷
 pmg_printing = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
@@ -55,7 +55,7 @@ pmg_printing = {
 }
 ###放送
 pmg_broadcasting = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
@@ -68,7 +68,7 @@ pmg_broadcasting = {
 }
 ###専門サービス
 pmg_special_service_media_industry = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
@@ -81,7 +81,7 @@ pmg_special_service_media_industry = {
 #####出版業界
 ###出版事業
 pmg_publishing = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
@@ -94,7 +94,7 @@ pmg_publishing = {
 }
 ###専門サービス
 pmg_special_service_publishing_industry = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
@@ -107,7 +107,7 @@ pmg_special_service_publishing_industry = {
 #####輸送センター
 ###小型車両
 pmg_small_vehicle = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
@@ -121,7 +121,7 @@ pmg_small_vehicle = {
 }
 ###大型車両
 pmg_large_vehicle = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
@@ -137,7 +137,7 @@ pmg_large_vehicle = {
 #####旅行業界
 ###旅行サービス
 pmg_travel_service = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
@@ -149,7 +149,7 @@ pmg_travel_service = {
 }
 ###専門サービス
 pmg_special_service_travel_industry = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
@@ -163,7 +163,7 @@ pmg_special_service_travel_industry = {
 #####金融業界
 ###金融サービス
 pmg_financial_service = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
@@ -175,7 +175,7 @@ pmg_financial_service = {
 }
 ###専門サービス
 pmg_special_service_financial_industry = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
@@ -188,7 +188,7 @@ pmg_special_service_financial_industry = {
 #####病院
 ###医療サービス
 pmg_medical_service = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
@@ -201,7 +201,7 @@ pmg_medical_service = {
 }
 
 pmg_underground_business = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {

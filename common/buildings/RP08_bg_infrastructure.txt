@@ -2,7 +2,7 @@
 #鉄道
 building_railway = {
 	building_group = bg_private_infrastructure	
-	texture = "gfx/interface/icons/building_icons/building_railway.dds"
+	icon = "gfx/interface/icons/building_icons/building_railway.dds"
 	
 	ai_nationalization_desire = 0.5 # AI is reluctant to privatize railways since they are likely to need subsidies anyway
 
@@ -45,7 +45,7 @@ building_railway = {
 #高速鉄道
 building_high_speed_railway = {
 	building_group = bg_private_infrastructure	
-	texture = "gfx/interface/icons/building_icons/building_railway.dds"
+	icon = "gfx/interface/icons/building_icons/building_railway.dds"
 	
 	unlocking_technologies = {
 		tech_electric_railway
@@ -85,7 +85,7 @@ building_high_speed_railway = {
 building_port = {
 	building_group = bg_private_infrastructure
 	city_type = port
-	texture = "gfx/interface/icons/building_icons/building_port.dds"
+	icon = "gfx/interface/icons/building_icons/building_port.dds"
 
 	has_max_level = yes
 	ignore_stateregion_max_level = yes
@@ -114,7 +114,7 @@ building_port = {
 #空港
 building_airport = {
 	building_group = bg_private_infrastructure
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 
 	unlocking_technologies = {
 		tech_radar_system
@@ -155,7 +155,7 @@ building_airport = {
 #高速道路
 building_highway = {
 	building_group = bg_private_infrastructure
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 
 	unlocking_technologies = {
 		tech_petroleum_asphalt
@@ -172,7 +172,7 @@ building_highway = {
 #幹線道路
 building_road = {
 	building_group = bg_public_infrastructure
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 
 	city_type = city
 	# city_type = farm
@@ -197,7 +197,7 @@ building_road = {
 #採水地
 building_water_extraction = {
 	building_group = bg_water_sampling_area
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 
 	production_method_groups = {
 		pmg_water_extraction
@@ -214,7 +214,7 @@ building_water_extraction = {
 #浄水場
 building_water_purification = {
 	building_group = bg_water_purification
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 
 
 	production_method_groups = {
@@ -234,7 +234,7 @@ building_water_purification = {
 #火力発電所
 building_power_plant = {
 	building_group = bg_power
-	texture = "gfx/interface/icons/building_icons/power_plant.dds"
+	icon = "gfx/interface/icons/building_icons/power_plant.dds"
 	levels_per_mesh = 5
 
 	city_type = city
@@ -259,7 +259,7 @@ building_power_plant = {
 #水力発電所
 building_hydro_power_plant = {
 	building_group = bg_hydro_power_plant
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 	levels_per_mesh = 5
 
 	city_type = city
@@ -282,7 +282,7 @@ building_hydro_power_plant = {
 #太陽光発電所
 building_solar_power_plant = {
 	building_group = bg_solar_power_plant
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 	levels_per_mesh = 5
 
 	city_type = city
@@ -305,7 +305,7 @@ building_solar_power_plant = {
 #風力発電所
 building_wind_power_plant = {
 	building_group = bg_wind_power_plant
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 	levels_per_mesh = 5
 
 	city_type = city
@@ -328,7 +328,7 @@ building_wind_power_plant = {
 #原子力発電所
 building_nuclear_power_plant = {
 	building_group = bg_wind_power_plant
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 	levels_per_mesh = 5
 
 	city_type = city

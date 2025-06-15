@@ -38,7 +38,7 @@
 			add_ruling_interest_group = yes
 		}
 
-		add_journal_entry = { type = je_terakoya }
+
 	}
 	#愛媛
 	c:EHI ?= {
@@ -79,7 +79,7 @@
 			add_ruling_interest_group = yes
 		}
 
-		add_journal_entry = { type = je_terakoya }
+
 	}
 	#高知
 	c:KCH ?= {
@@ -120,7 +120,7 @@
 			add_ruling_interest_group = yes
 		}
 
-		add_journal_entry = { type = je_terakoya }
+
 	}
 	#徳島
 	c:TKS ?= {
@@ -161,6 +161,6 @@
 			add_ruling_interest_group = yes
 		}
 
-		add_journal_entry = { type = je_terakoya }
+
 	}
 }

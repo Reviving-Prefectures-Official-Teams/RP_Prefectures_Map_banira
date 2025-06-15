@@ -167,11 +167,11 @@ bg_vineyard_plantations = { #"bg_vineyard_plantations"
 }
 
 #コーヒー農園
-bg_coffee_plantations = {
-	parent_group = bg_plantations
+# bg_coffee_plantations = {
+# 	parent_group = bg_plantations
 	
-	default_building = building_coffee_plantation
-}
+# 	default_building = building_coffee_plantation
+# }
 
 #綿花農園
 bg_cotton_plantations = {

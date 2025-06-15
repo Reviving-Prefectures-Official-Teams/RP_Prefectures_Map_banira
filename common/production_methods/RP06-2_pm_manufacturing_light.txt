@@ -83,7 +83,7 @@
 ###ガラス生産 
 #フロートガラス
 pm_float_glass = {
-	texture = "gfx/interface/icons/production_method_icons/"
+	texture = "gfx/interface/icons/production_method_icons/census.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -104,7 +104,7 @@ pm_reflecting_glass = {
     unlocking_technologies = {
         tech_gas_phase_method
     }
-	texture = "gfx/interface/icons/production_method_icons/"
+	texture = "gfx/interface/icons/production_method_icons/census.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -125,7 +125,7 @@ pm_tempered_glass = {
     unlocking_technologies = {
         tech_gas_furnace_melting
     }
-	texture = "gfx/interface/icons/production_method_icons/"
+	texture = "gfx/interface/icons/production_method_icons/census.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -146,7 +146,7 @@ pm_bulletproof_glass = {
     unlocking_technologies = {
         tech_ultra_high_temperature_furnace
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -257,7 +257,7 @@ pm_ai_production_glass = {
 pm_8bit_computer = { 
     unlocking_technologies = {
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -279,7 +279,7 @@ pm_32bit_computer = {
     unlocking_technologies = {
         tech_modern_computer
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -301,7 +301,7 @@ pm_laptop_computer = {
     unlocking_technologies = {
         tech_small_precision_instruments
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -323,7 +323,7 @@ pm_quantum_computer = {
     unlocking_technologies = {
         tech_quantum_computer
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -461,7 +461,7 @@ pm_ai_production_computer = {
 pm_transistor_radio = { 
     unlocking_technologies = {
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -483,7 +483,7 @@ pm_analog_mobile_phone = {
     unlocking_technologies = {
         tech_early_computer
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -506,7 +506,7 @@ pm_galapagos_mobile_phone = {
     unlocking_technologies = {
         tech_precision_machinery
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -529,7 +529,7 @@ pm_smartphone = {
     unlocking_technologies = {
         tech_small_precision_instruments
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -552,7 +552,7 @@ pm_smart_glasses = {
     unlocking_technologies = {
         tech_smart_glass
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -706,7 +706,7 @@ pm_ai_production_telephones = {
 pm_wooden_furniture = { 
     unlocking_technologies = {
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -727,7 +727,7 @@ pm_wooden_furniture = {
 pm_metal_furniture = { 
     unlocking_technologies = {
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -749,7 +749,7 @@ pm_plastic_furniture = {
     unlocking_technologies = {
         tech_advanced_molecular_science
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -771,7 +771,7 @@ pm_pine_furniture = {
     unlocking_technologies = {
         tech_pine_wood
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -911,7 +911,7 @@ pm_ai_production_furniture = {
 pm_classic_style = { 
     unlocking_technologies = {
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -933,7 +933,7 @@ pm_classic_style = {
 pm_japanese_style = { 
     unlocking_technologies = {
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -956,7 +956,7 @@ pm_modern_style = {
     unlocking_technologies = {
         tech_modern_postmodernism
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -979,7 +979,7 @@ pm_modern_art_style = {
     unlocking_technologies = {
         tech_contemporary_art
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -1139,7 +1139,7 @@ pm_ai_production_luxury_furniture = {
 pm_nylon = { 
     unlocking_technologies = {
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -1161,7 +1161,7 @@ pm_polyester = {
     unlocking_technologies = {
         tech_petrochemistry
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -1182,7 +1182,7 @@ pm_carbon_fiber = {
     unlocking_technologies = {
         tech_molecular_science
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -1203,7 +1203,7 @@ pm_highlact = {
     unlocking_technologies = {
         tech_inorganic_chemistry
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -1341,7 +1341,7 @@ pm_ai_production_fabric = {
 pm_womens_standard_clothes = { 
     unlocking_technologies = {
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -1361,7 +1361,7 @@ pm_womens_standard_clothes = {
 pm_japanese_tailoring = { 
     unlocking_technologies = {
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -1383,7 +1383,7 @@ pm_post_modern = {
     unlocking_technologies = {
         tech_modern_postmodernism
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -1406,7 +1406,7 @@ pm_universal_design = {
     unlocking_technologies = {
         tech_universal_design
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -1546,7 +1546,7 @@ pm_ai_production_clothes = {
 pm_western_tailoring = { 
     unlocking_technologies = {
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -1568,7 +1568,7 @@ pm_haute_couture = {
     unlocking_technologies = {
         tech_modern_postmodernism
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -1591,7 +1591,7 @@ pm_high_fashion = {
     unlocking_technologies = {
         tech_high_fashion
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -1614,7 +1614,7 @@ pm_avant_garde_design = {
     unlocking_technologies = {
         tech_contemporary_art
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -1754,7 +1754,7 @@ pm_ai_production_luxury_clothes = {
 pm_acoustic_guitar = { 
     unlocking_technologies = {
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -1775,7 +1775,7 @@ pm_acoustic_guitar = {
 pm_grand_piano = { 
     unlocking_technologies = {
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -1797,7 +1797,7 @@ pm_electronic_organ = {
     unlocking_technologies = {
         tech_semiconductor
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -1820,7 +1820,7 @@ pm_dtm_software = {
     unlocking_technologies = {
         tech_MIDI_file
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -1842,7 +1842,7 @@ pm_vocaloid = {
     unlocking_technologies = {
         tech_synthetic_voice_engine
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -1996,7 +1996,7 @@ pm_ai_production_musical_instruments = {
 pm_pottery = { 
     unlocking_technologies = {
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -2016,7 +2016,7 @@ pm_pottery = {
 pm_porcelain = { 
     unlocking_technologies = {
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -2038,7 +2038,7 @@ pm_ceramic = {
     unlocking_technologies = {
         tech_ceramics
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -2060,7 +2060,7 @@ pm_composite_ceramic = {
     unlocking_technologies = {
         tech_advanced_molecular_science
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -2204,7 +2204,7 @@ pm_ai_production_porcelain = {
 pm_simple_tools = { 
     unlocking_technologies = {
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -2225,7 +2225,7 @@ pm_simple_tools = {
 pm_cutting_tools = { 
     unlocking_technologies = {
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -2248,7 +2248,7 @@ pm_machine_tools = {
     unlocking_technologies = {
         tech_machine_tool
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -2271,7 +2271,7 @@ pm_precision_machinery = {
     unlocking_technologies = {
         tech_precision_machinery
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -2426,7 +2426,7 @@ pm_ai_production_tools = {
 pm_japanese_paper = { 
     unlocking_technologies = {
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -2447,7 +2447,7 @@ pm_japanese_paper = {
 pm_western_paper = { 
     unlocking_technologies = {
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -2470,7 +2470,7 @@ pm_copy_paper = {
     unlocking_technologies = {
         tech_standardization
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -2493,7 +2493,7 @@ pm_packaging_paper = {
     unlocking_technologies = {
         tech_machine_tool
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -2638,7 +2638,7 @@ pm_ai_production_paper = {
 pm_arcade_game = { 
     unlocking_technologies = {
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -2662,7 +2662,7 @@ pm_home_game_console = {
     unlocking_technologies = {
         tech_early_computer
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -2685,7 +2685,7 @@ pm_portable_game_console = {
     unlocking_technologies = {
         tech_modern_computer
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -2708,7 +2708,7 @@ pm_xr_game_console = {
     unlocking_technologies = {
         tech_holography
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -2731,7 +2731,7 @@ pm_full_dive_vr_game_console = {
     unlocking_technologies = {
         tech_sword_art_online
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -2892,7 +2892,7 @@ pm_ai_production_game_consoles = {
 pm_monochrome_television = { 
     unlocking_technologies = {
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -2915,7 +2915,7 @@ pm_color_television = {
     unlocking_technologies = {
         tech_standardization
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -2939,7 +2939,7 @@ pm_digital_television = {
     unlocking_technologies = {
         tech_digital_tech
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -2963,7 +2963,7 @@ pm_4k_television = {
     unlocking_technologies = {
         tech_holography
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -2987,7 +2987,7 @@ pm_8k_television = {
     unlocking_technologies = {
         tech_high-resolution_display
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -3143,7 +3143,7 @@ pm_ai_production_television = {
 pm_single_tub_washing_machine = { 
     unlocking_technologies = {
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -3165,7 +3165,7 @@ pm_double_tub_washing_machine = {
     unlocking_technologies = {
         tech_white_goods
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -3188,7 +3188,7 @@ pm_fully_automatic_washing_machine = {
     unlocking_technologies = {
         tech_early_computer
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -3212,7 +3212,7 @@ pm_washer_dryer = {
     unlocking_technologies = {
         tech_precision_machinery
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -3236,7 +3236,7 @@ pm_ai_washing_machine = {
     unlocking_technologies = {
         tech_deep_learning
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -3383,7 +3383,7 @@ pm_ai_production_washing_machine = {
 pm_ice_refrigerator = { 
     unlocking_technologies = {
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -3405,7 +3405,7 @@ pm_two_door_refrigerator = {
     unlocking_technologies = {
         tech_white_goods
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -3428,7 +3428,7 @@ pm_multi_door_refrigerator = {
     unlocking_technologies = {
         tech_multi_door_refrigerator
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -3452,7 +3452,7 @@ pm_multi_function_refrigerator = {
     unlocking_technologies = {
         tech_precision_machinery
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -3605,7 +3605,7 @@ pm_silver_halide_camera = {
     unlocking_technologies = {
         tech_organic_compound
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -3626,7 +3626,7 @@ pm_ae_camera = {
     unlocking_technologies = {
         tech_early_computer
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -3648,7 +3648,7 @@ pm_digital_camera = {
     unlocking_technologies = {
         tech_digital_tech
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -3671,7 +3671,7 @@ pm_mirrorless_camera = {
     unlocking_technologies = {
         tech_small_precision_instruments
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {
@@ -3694,7 +3694,7 @@ pm_ai_corrected_camera = {
     unlocking_technologies = {
         tech_industrial_ai
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
 
     building_modifiers = {
         workforce_scaled = {

@@ -22,14 +22,14 @@ bg_extractions = {
 }
 
 
-#海洋掘削リグ
-bg_offshore_platform = {
-	parent_group = bg_extractions
+# #海洋掘削リグ
+# bg_offshore_platform = {
+# 	parent_group = bg_extractions
 	
-	default_building = building_offshore_platform
+# 	default_building = building_offshore_platform
 	
-	cash_reserves_max = 25000
-}
+# 	cash_reserves_max = 25000
+# }
 
 #石油精製所
 bg_oil_refinery = {
@@ -58,11 +58,11 @@ bg_uranium_extraction = {
 	cash_reserves_max = 25000
 }
 
-#戦略資源輸入倉
-bg_strategic_resource_storage = {
-	parent_group = bg_extractions
+# #戦略資源輸入倉
+# bg_strategic_resource_storage = {
+# 	parent_group = bg_extractions
 	
-	default_building = building_strategic_resource_storage
+# 	default_building = building_strategic_resource_storage
 	
-	cash_reserves_max = 25000
-}
+# 	cash_reserves_max = 25000
+# }

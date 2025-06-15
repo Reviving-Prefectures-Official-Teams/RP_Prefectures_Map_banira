@@ -84,25 +84,25 @@
 #####テンプレート
 ###テンプレート
 #テンプレート
-pm_template = {
-	texture = "gfx/interface/icons/production_method_icons/"
+# pm_template = {
+# 	texture = "gfx/interface/icons/production_method_icons/"
 
-	building_modifiers = {
-		workforce_scaled = {
-            #消費
-			goods_input_coal_add = 5 #商品はリストから選択
-            #生産
-			goods_output_glass_add = 20 #商品はリストから選択
-		}
+# 	building_modifiers = {
+# 		workforce_scaled = {
+#             #消費
+# 			goods_input_coal_add = 5 #商品はリストから選択
+#             #生産
+# 			goods_output_glass_add = 20 #商品はリストから選択
+# 		}
 
-		level_scaled = {
-			# employment
-			building_employment_laborers_add = 800
-			building_employment_clerks_add = 100
-			building_employment_engineers_add = 100
-		}
-	}
-}
+# 		level_scaled = {
+# 			# employment
+# 			building_employment_laborers_add = 800
+# 			building_employment_clerks_add = 100
+# 			building_employment_engineers_add = 100
+# 		}
+# 	}
+# }
 
 #==========生産方式==========
 #########漁港#########

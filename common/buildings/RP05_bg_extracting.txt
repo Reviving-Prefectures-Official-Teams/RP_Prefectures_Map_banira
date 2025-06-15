@@ -3,7 +3,7 @@
 #石油精製所
 building_oil_refinery = {
 	building_group = bg_oil_refinery
-	texture = "gfx/interface/icons/building_icons/oil_rig.dds"
+	icon = "gfx/interface/icons/building_icons/oil_rig.dds"
 	city_type = mine
 	levels_per_mesh = 5
 	required_construction = construction_cost_very_high
@@ -23,7 +23,7 @@ building_oil_refinery = {
 #ガス精製所
 building_gas_refinery = {
 	building_group = bg_gas_refinery
-	texture = "gfx/interface/icons/building_icons/oil_rig.dds"
+	icon = "gfx/interface/icons/building_icons/oil_rig.dds"
 	city_type = mine
 	levels_per_mesh = 5
 	required_construction = construction_cost_very_high
@@ -42,7 +42,7 @@ building_gas_refinery = {
 #ウラン濃縮施設
 building_uranium_enrichment = {
 	building_group = bg_uranium_extraction
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = mine
 	levels_per_mesh = 5
 	required_construction = construction_cost_very_high

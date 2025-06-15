@@ -1,61 +1,61 @@
-﻿# "Why do some state entries have quote marks around them, when others don't?"
-# "It's because of differing methods of editing throughout the production of the game. Quote marks are unnecessary, but harmless if present."
+﻿# # "Why do some state entries have quote marks around them, when others don't?"
+# # "It's because of differing methods of editing throughout the production of the game. Quote marks are unnecessary, but harmless if present."
 
 STATES = {
 	#八郎潟
 	s:STATE_HACHIROHGATA = {
 		create_state = {
 			country = c:RL1
-    		owned_provinces = { "x03D4D0" "x04C826" "x1CAB2F" "x1CAB30" "x1D1A03" "x217DEF" "x28268D" "x3090BB" "x3E81B4" "x3FF795" "x60B61E" "x6F830E" "x82D218" "xB6545B" "xC1D609" "xC3ABE5" "xD5D46A" "xD5DC9C" "xD9B88C" "xE4EEB1" "xE6166B" }
+			owned_provinces = { "x03D4D0" "x04C826" "x1CAB2F" "x1CAB30" "x1D1A03" "x217DEF" "x28268D" "x3090BB" "x3E81B4" "x3FF795" "x60B61E" "x6F830E" "x82D218" "xB6545B" "xC1D609" "xC3ABE5" "xD5D46A" "xD5DC9C" "xD9B88C" "xE4EEB1" "xE6166B" }
 		}
 		add_claim = c:AKT
 	}
-	#青函トンネル青森側出口
-	s:STATE_TUNNEL_AOMORI = {
-		create_state = {
-			country = c:RL2
-			owned_provinces = { "x03D4D1" "xD9B88D" }
-		}
-		add_claim = c:AOM
-	}
-	#青函トンネル北海道側出口
-	s:STATE_TUNNEL_HOKKAIDO = {
-		create_state = {
-			country = c:RL2
-			owned_provinces = { "x3E81B5" "xC3ABE6" }
-		}
-		add_claim = c:HOK
-	}
-	#東京湾埋立地1
-	s:STATE_TOKYOWAN_1 = {
-		create_state = {
-			country = c:RL3
-			owned_provinces = { "x08D632" "x3090BC" "x82D219" "xAA4D41" "xB08D2D" }
-		}
-		add_claim = c:TKY
-	}
-	#東京湾埋立地2
-	s:STATE_TOKYOWAN_2 = {
-		create_state = {
-			country = c:RL3
-			owned_provinces = { "x012488" "x22EF86" "x37C2D0" "x408732" "x47F3E5" "x695453" "x70AADC" "x7148C8" "x869073" "x9C46B5" "x9D5011" "x9F88E4" "xAAE339" "xAFD589" "xBE95E8" "xC8F40B" "xCDD7E9" "xD523FF" "xF09616" }
-		}
-		add_claim = c:TKY
-	}
-	#大阪湾埋立地1
-	s:STATE_OSAKAWAN_1 = {
-		create_state = {
-			country = c:RL4
-			owned_provinces = { "x2538F8" "x54E6F1" "x57CDE7" "x595524" "x62BE50" "x739FF7" "x7D27DB" "x88FCB4" "x9B68F7" "xA935BD" "CBD9A1" "xD10B83" "xD57EE2" "xD5F562" "xEA916E" "xEB99CA" "xF27AF5" }
-		}
-		add_claim = c:OSK
-	}
-	#大阪湾埋立地2
-	s:STATE_OSAKAWAN_2 = {
-		create_state = {
-			country = c:RL4
-			owned_provinces = { "x000028" "x457C03" "x722409" "x7AADCA" "x99BB34" "x99BB35" "xAC0D0F" "xB403DE" "xBF9AC5" "xBFF061" "xD19B63" "xE3A9D6" "xF76A74" }
-		}
-		add_claim = c:OSK
-	}
+# 	#青函トンネル青森側出口
+# 	s:STATE_TUNNEL_AOMORI = {
+# 		create_state = {
+# 			country = c:RL2
+# 			owned_provinces = { "x03D4D1" "xD9B88D" }
+# 		}
+# 		add_claim = c:AOM
+# 	}
+# 	#青函トンネル北海道側出口
+# 	s:STATE_TUNNEL_HOKKAIDO = {
+# 		create_state = {
+# 			country = c:RL2
+# 			owned_provinces = { "x3E81B5" "xC3ABE6" }
+# 		}
+# 		add_claim = c:HOK
+# 	}
+# 	#東京湾埋立地1
+# 	s:STATE_TOKYOWAN_1 = {
+# 		create_state = {
+# 			country = c:RL3
+# 			owned_provinces = { "x08D632" "x3090BC" "x82D219" "xAA4D41" "xB08D2D" }
+# 		}
+# 		add_claim = c:TKY
+# 	}
+# 	#東京湾埋立地2
+# 	s:STATE_TOKYOWAN_2 = {
+# 		create_state = {
+# 			country = c:RL3
+# 			owned_provinces = { "x012488" "x22EF86" "x37C2D0" "x408732" "x47F3E5" "x695453" "x70AADC" "x7148C8" "x869073" "x9C46B5" "x9D5011" "x9F88E4" "xAAE339" "xAFD589" "xBE95E8" "xC8F40B" "xCDD7E9" "xD523FF" "xF09616" }
+# 		}
+# 		add_claim = c:TKY
+# 	}
+# 	#大阪湾埋立地1
+# 	s:STATE_OSAKAWAN_1 = {
+# 		create_state = {
+# 			country = c:RL4
+# 			owned_provinces = { "x2538F8" "x54E6F1" "x57CDE7" "x595524" "x62BE50" "x739FF7" "x7D27DB" "x88FCB4" "x9B68F7" "xA935BD" "CBD9A1" "xD10B83" "xD57EE2" "xD5F562" "xEA916E" "xEB99CA" "xF27AF5" }
+# 		}
+# 		add_claim = c:OSK
+# 	}
+# 	#大阪湾埋立地2
+# 	s:STATE_OSAKAWAN_2 = {
+# 		create_state = {
+# 			country = c:RL4
+# 			owned_provinces = { "x000028" "x457C03" "x722409" "x7AADCA" "x99BB34" "x99BB35" "xAC0D0F" "xB403DE" "xBF9AC5" "xBFF061" "xD19B63" "xE3A9D6" "xF76A74" }
+# 		}
+# 		add_claim = c:OSK
+# 	}
 }

@@ -1,210 +1,140 @@
 ﻿# If you add religions, and use those tags, do not change them without changing everywhere they are used.
-shinbutsu_shugo = {
-	texture = "gfx/interface/icons/religion_icons/shinto.dds"
+
+# catholic = {
+# 	texture = "gfx/interface/icons/religion_icons/catholic.dds"
+# 	traits = {
+# 		christian
+# 	}
+# 	color = { 0.8 0.55 0.2 }
+# }
+
+# protestant = {
+# 	texture = "gfx/interface/icons/religion_icons/protestant.dds"
+# 	traits = {
+# 		christian
+# 	}
+# 	color = { 0.2 0.3 0.55 }
+# }
+
+# orthodox = {
+# 	texture = "gfx/interface/icons/religion_icons/orthodox.dds"
+# 	traits = {
+# 		christian
+# 	}
+# 	color = { 0.45 0.25 0.5 }
+# }
+
+# oriental_orthodox = {
+# 	texture = "gfx/interface/icons/religion_icons/coptic.dds"
+# 	traits = {
+# 		christian
+# 	}
+# 	color = { 0.1 0.5 0.6 }
+# }
+
+sunni = {
+	texture = "gfx/interface/icons/religion_icons/sunni.dds"
 	traits = {
-		shintoist
-		buddhist
+		muslim
 	}
-	color = { 0.6 0.6 0.5 }
+	color = { 0.1 0.5 0.3 }
+	
+	taboos = {
+		liquor wine
+	} 
 }
 
-#神道系
-
-tenri_religion = {
-	texture = "gfx/interface/icons/religion_icons/mahayana.dds"
+shiite = {
+	texture = "gfx/interface/icons/religion_icons/shiite.dds"
 	traits = {
-		shintoist
-		buddhist
+		muslim
 	}
-	color = { 0.4 0.3 0.6 }
+	color = { 0.4 0.7 0.3 }
+	
+	taboos = {
+		liquor wine
+	}
 }
 
-ryukyu_shinto = {
-	texture = "gfx/interface/icons/religion_icons/shinto.dds"
-	traits = {
-		shintoist
-	}
-	color = { 0.1 0.5 0.5 }
-}
-
-idumo_shinto = {
-	texture = "gfx/interface/icons/religion_icons/shinto.dds"
-	traits = {
-		shintoist
-	}
-	color = { 0.1 0.0 0.5 }
-}
-
-suwa_faith = {
-	texture = "gfx/interface/icons/religion_icons/shinto.dds"
-	traits = {
-		shintoist
-	}
-	color = { 0.5 0.5 0.5 }
-}
-
-ise_shinto = {
-	texture = "gfx/interface/icons/religion_icons/shinto.dds"
-	traits = {
-		shintoist
-	}
-	color = { 0.5 0.5 0.3 }
-}
-
-fuji_faith = {
-	texture = "gfx/interface/icons/religion_icons/shinto.dds"
-	traits = {
-		shintoist
-	}
-	color = { 0.1 0.1 0.1 }
-}
-
-#仏教系
-
-kayakabe = {
-	texture = "gfx/interface/icons/religion_icons/mahayana.dds"
-	traits = {
-		buddhist
-	}
-	color = { 0.0 0.9 0.8 }
-}
-
-#キリスト教系
-
-hidden_christian = {
-	texture = "gfx/interface/icons/religion_icons/catholic.dds"
-	traits = {
-		christian
-	}
-	color = { 0.1 0.1 0.2 }
-}
-
-catholic = {
-	texture = "gfx/interface/icons/religion_icons/catholic.dds"
-	traits = {
-		christian
-	}
-	color = { 0.8 0.6 0.4 }
-}
-
-protestant = {
-	texture = "gfx/interface/icons/religion_icons/protestant.dds"
-	traits = {
-		christian
-	}
-	color = { 0.2 0.3 0.55 }
-}
-
-orthodox = {
-	texture = "gfx/interface/icons/religion_icons/orthodox.dds"
-	traits = {
-		christian
-	}
-	color = { 0.62 0.64 0.6 }
-}
-
-#アニミズム系（山岳信仰・祖霊崇拝等）
-
-shugendo = {
-	texture = "gfx/interface/icons/religion_icons/shinto.dds"
-	traits = {
-		shintoist
-		buddhist
-		animist
-	}
-	color = { 0.2 0.1 0.2 }
-}
-
-yuta = {
-	texture = "gfx/interface/icons/religion_icons/animist.dds"
-	traits = {
-		animist
-	}
-	color = { 0.4 0.3 0.4 }
-}
-
-ainu_animism = {
-	texture = "gfx/interface/icons/religion_icons/animist.dds"
-	traits = {
-		animist
-	}
-	color = { 0.9 0.1 0.2 }
-}
-
-itako = {
-	texture = "gfx/interface/icons/religion_icons/animist.dds"
-	traits = {
-		shintoist
-	}
-	color = { 0.4 0.9 0.7 }
-}
-
-tendo = {
-	texture = "gfx/interface/icons/religion_icons/shinto.dds"
-	traits = {
-		shintoist
-		animist
-		buddhist
-	}
-	color = { 0.4 0.8 0.4 }
-}
-
-#新宗教
-
-soka_gakkai = {
-	texture = "gfx/interface/icons/religion_icons/mahayana.dds"
-	traits = {
-		buddhist
-		new_cult
-	}
-	color = { 0.4 0.1 0.7 }
-}
-
-aum_shinrikyo = {
-	texture = "gfx/interface/icons/religion_icons/gelugpa.dds"
-	traits = {
-		new_cult
-	}
-	color = { 0.4 0.7 0.8 }
-}
-
-happy_science = {
-	texture = "gfx/interface/icons/religion_icons/shinto.dds"
-	traits = {
-		new_cult
-	}
-	color = { 0.4 0.5 0.2 }
-}
-
-perfect_liberty = {
+jewish = {
 	texture = "gfx/interface/icons/religion_icons/jewish.dds"
 	traits = {
-		new_cult
+		jewish
 	}
-	color = { 0.0 0.1 0.0 }
-}
+	color = { 0.55 0.85 0.98 }
+}	
 
-kateirengo = {
-	texture = "gfx/interface/icons/religion_icons/catholic.dds"
+mahayana = {
+	texture = "gfx/interface/icons/religion_icons/mahayana.dds"
 	traits = {
-		new_cult
-		christian
+		buddhist
+		eastern
 	}
-	color = { 0.4 0.0 0.2 }
+	color = { 0.7 0.35 0.1 }
 }
 
-yehobanoshonin = {
-	texture = "gfx/interface/icons/religion_icons/catholic.dds"
+gelugpa = {
+	texture = "gfx/interface/icons/religion_icons/gelugpa.dds"
 	traits = {
-		new_cult
-		christian
+		buddhist
+		eastern
 	}
-	color = { 0.4 0.0 0.0 }
+	color = { 0.1 0.4 0.9 }
 }
 
-#反宗教
-
-atheist = {
-	texture = "gfx/interface/icons/religion_icons/atheist.dds"
-	color = { 1.0 1.0 1.0 }
+theravada = {
+	texture = "gfx/interface/icons/religion_icons/theravada.dds"
+	traits = {
+		buddhist
+		eastern
+	}
+	color = { 0.7 0.4 0.6 }
 }
+
+# confucian = {
+# 	texture = "gfx/interface/icons/religion_icons/confucianism.dds"
+# 	traits = {
+# 		eastern
+# 	}
+# 	color = { 1 0.65 0.4 }
+# }
+
+hindu = {
+	texture = "gfx/interface/icons/religion_icons/hindu.dds"
+	traits = {
+		eastern
+	}
+	color = { 0.8 0.2 0.3 }
+	taboos = {
+		meat
+	}
+}
+
+# shinto = {
+# 	texture = "gfx/interface/icons/religion_icons/shinto.dds"
+# 	traits = {
+# 		eastern
+# 	}
+# 	color = { 0.4 0.1 0.2 }
+# }
+
+sikh = {
+	texture = "gfx/interface/icons/religion_icons/sikh.dds"
+	traits = {
+		eastern
+	}
+	color = { 1 1 0.1 }
+}
+
+animist = {
+	texture = "gfx/interface/icons/religion_icons/animist.dds"
+	traits = {
+		animist
+	}
+	color = { 0.6 0.3 0.2 }
+}
+
+# atheist = {
+# 	texture = "gfx/interface/icons/religion_icons/atheist.dds"
+# 	color = { 1.0 1.0 1.0 }
+# }

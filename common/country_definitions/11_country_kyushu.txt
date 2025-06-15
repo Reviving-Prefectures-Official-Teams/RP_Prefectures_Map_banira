@@ -1,4 +1,4 @@
-FKO = {
+﻿FKO = {
 	color = { 147 130 110 }
 	
 	country_type = recognized

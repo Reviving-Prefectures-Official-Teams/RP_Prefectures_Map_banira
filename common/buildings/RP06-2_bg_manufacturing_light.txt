@@ -3,7 +3,7 @@
 #ガラス工場
 building_glassworks = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/glassworks.dds"
+	icon = "gfx/interface/icons/building_icons/glassworks.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
@@ -26,7 +26,7 @@ building_glassworks = {
 #コンピュータ工場
 building_computer_factory = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 	
 	unlocking_technologies = {
 		tech_early_computer
@@ -50,7 +50,7 @@ building_computer_factory = {
 #通信機器工場
 building_telecommunication_factory = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 	
 	unlocking_technologies = {
 		tech_planting
@@ -74,7 +74,7 @@ building_telecommunication_factory = {
 #家具工場
 building_furniture_manufacturies = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/furniture_manufacturies.dds"
+	icon = "gfx/interface/icons/building_icons/furniture_manufacturies.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
@@ -96,7 +96,7 @@ building_furniture_manufacturies = {
 #注文家具工場
 building_custom_furniture_manufacturies = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	levels_per_mesh = 5
 
@@ -118,7 +118,7 @@ building_custom_furniture_manufacturies = {
 #楽器工場
 building_musical_instrument_manufacturies = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	levels_per_mesh = 5
 
@@ -141,7 +141,7 @@ building_musical_instrument_manufacturies = {
 #化学繊維工場
 building_synthetic_fiber_factory = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
@@ -163,7 +163,7 @@ building_synthetic_fiber_factory = {
 #織物工場
 building_textile_mills = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/textile_industry.dds"
+	icon = "gfx/interface/icons/building_icons/textile_industry.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
@@ -185,7 +185,7 @@ building_textile_mills = {
 #注文織物工場
 building_custom_textile_mills = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/textile_industry.dds"
+	icon = "gfx/interface/icons/building_icons/textile_industry.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
@@ -208,7 +208,7 @@ building_custom_textile_mills = {
 #セラミック工場
 building_ceramics_manufacturies = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
@@ -231,7 +231,7 @@ building_ceramics_manufacturies = {
 #工具工房
 building_tooling_workshops = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/tooling_workshops.dds"
+	icon = "gfx/interface/icons/building_icons/tooling_workshops.dds"
 	
 	unlocking_technologies = {
 		tech_planting
@@ -257,7 +257,7 @@ building_tooling_workshops = {
 #製紙工場
 building_paper_mills = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/paper_mills.dds"
+	icon = "gfx/interface/icons/building_icons/paper_mills.dds"
 	
 	unlocking_technologies = {
 		tech_planting
@@ -281,7 +281,7 @@ building_paper_mills = {
 #ゲーム機工場
 building_game_console_factory = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 	
 	unlocking_technologies = {
 		tech_planting
@@ -305,7 +305,7 @@ building_game_console_factory = {
 #テレビ工場
 building_television_factory = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 	
 	unlocking_technologies = {
 		tech_planting
@@ -329,7 +329,7 @@ building_television_factory = {
 #洗濯機工場
 building_washing_machine_factory = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 	
 	unlocking_technologies = {
 		tech_planting
@@ -353,7 +353,7 @@ building_washing_machine_factory = {
 #冷蔵庫工場
 building_refrigerator_factory = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 	
 	unlocking_technologies = {
 		tech_planting
@@ -377,7 +377,7 @@ building_refrigerator_factory = {
 #カメラ工場
 building_camera_factory = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 	
 	unlocking_technologies = {
 		tech_planting

@@ -3,7 +3,7 @@
 #化成肥料プラント
 building_chemical_plants = {
 	building_group = bg_chemical_industry
-	texture = "gfx/interface/icons/building_icons/chemicals_industry.dds"
+	icon = "gfx/interface/icons/building_icons/chemicals_industry.dds"
 	
 	unlocking_technologies = {
 	tech_priority_production
@@ -37,7 +37,7 @@ building_chemical_plants = {
 #金属加工工場
 building_steel_mills = {
 	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/steel_mills.dds"
+	icon = "gfx/interface/icons/building_icons/steel_mills.dds"
 	city_type = city
 	levels_per_mesh = 5
 
@@ -71,7 +71,7 @@ building_steel_mills = {
 #航空機工場
 building_aircraft_factory = {
 	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/vehicles_industry.dds"
+	icon = "gfx/interface/icons/building_icons/vehicles_industry.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
@@ -104,7 +104,7 @@ building_aircraft_factory = {
 #ドローン工場
 building_drone_factory = {
 	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
@@ -138,7 +138,7 @@ building_drone_factory = {
 #合成樹脂プラント
 building_synthetics_plants = {
 	building_group = bg_chemical_industry
-	texture = "gfx/interface/icons/building_icons/synthetics_plants.dds"
+	icon = "gfx/interface/icons/building_icons/synthetics_plants.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
@@ -171,7 +171,7 @@ building_synthetics_plants = {
 #自動車工場
 building_automobile_factory = {
 	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
@@ -204,7 +204,7 @@ building_automobile_factory = {
 #高級車工場
 building_luxury_automobile_factory = {
 	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
@@ -237,7 +237,7 @@ building_luxury_automobile_factory = {
 #製薬工場
 building_pharmaceuticals_factory = {
 	building_group = bg_chemical_industry
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
@@ -269,7 +269,7 @@ building_pharmaceuticals_factory = {
 #大型造船所
 building_shipyards = {
 	building_group = bg_shipyards
-	texture = "gfx/interface/icons/building_icons/shipyards.dds"
+	icon = "gfx/interface/icons/building_icons/shipyards.dds"
 	city_type = port
 	
 	unlocking_technologies = {
@@ -296,7 +296,7 @@ building_shipyards = {
 #合成染料プラント
 building_synthetic_dyes_plants = {
 	building_group = bg_chemical_industry
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
@@ -329,7 +329,7 @@ building_synthetic_dyes_plants = {
 #エンジン工場
 building_motor_industry = {
 	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
@@ -363,7 +363,7 @@ building_motor_industry = {
 #ロボット工場
 building_robot_factory = {
 	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
@@ -397,7 +397,7 @@ building_robot_factory = {
 #爆薬工場
 building_explosives_factory = {
 	building_group = bg_chemical_industry
-	texture = "gfx/interface/icons/building_icons/explosives_factory.dds"
+	icon = "gfx/interface/icons/building_icons/explosives_factory.dds"
 	
 	unlocking_technologies = {
 	tech_priority_production
@@ -431,7 +431,7 @@ building_explosives_factory = {
 #総合工事産業
 building_general_constructor_industry = {
 	building_group = bg_construction_industry
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
@@ -453,7 +453,7 @@ building_general_constructor_industry = {
 #宇宙船工場
 #building_spacecraft_factory = {
 #	building_group = bg_heavy_industry
-#	texture = "gfx/interface/icons/building_icons/spacecraft_factory.dds"
+#	icon = "gfx/interface/icons/building_icons/spacecraft_factory.dds"
 #	city_type = city
 #	levels_per_mesh = 5
 #	

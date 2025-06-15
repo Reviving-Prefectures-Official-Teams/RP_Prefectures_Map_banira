@@ -9,7 +9,7 @@ HOK = {
 
 #ソビエト赤軍
 SRA = {
-	color = "red_dark"
+	color = { 204 0 0 }
 	country_type = recognized
 	tier = kingdom
 	cultures = { russian ukrainian byelorussian }
@@ -49,5 +49,5 @@ SPR = {
 	country_type = recognized
 	tier = kingdom
 	cultures = { sapporo }
-	capital = STATE_SAPPORO
+	capital = STATE_ISHIKARI
 }

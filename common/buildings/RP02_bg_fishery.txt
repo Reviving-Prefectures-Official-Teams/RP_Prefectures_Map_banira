@@ -1,7 +1,7 @@
 ﻿#漁港
 building_fishing_wharf = {
 	building_group = bg_fishing
-	texture = "gfx/interface/icons/building_icons/fishing_wharf.dds"
+	icon = "gfx/interface/icons/building_icons/fishing_wharf.dds"
 	city_type = port
 	
 	unlocking_technologies = {
@@ -30,7 +30,7 @@ building_fishing_wharf = {
 #養殖場
 building_aquaculture_farm = {
 	building_group = bg_fishing
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = port
 	
 	unlocking_technologies = {
@@ -57,7 +57,7 @@ building_aquaculture_farm = {
 #陸上養殖場
 building_land_aquaculture = {
 	building_group = bg_fishing
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = wood
 
 	production_method_groups = {

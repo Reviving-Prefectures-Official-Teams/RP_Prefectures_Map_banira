@@ -83,7 +83,7 @@
 #==========生産方式==========
 #####テンプレート
 pm_template = {
-	texture = "gfx/interface/icons/production_method_icons/"
+	texture = "gfx/interface/icons/production_method_icons/census.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -108,7 +108,7 @@ pm_template = {
 pm_lime = { 
     unlocking_technologies = {
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_sulfur_add = 30
@@ -127,7 +127,7 @@ pm_ammonium_sulfide = {
     unlocking_technologies = {
         tech_organic_compound
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_sulfur_add = 45
@@ -146,7 +146,7 @@ pm_urea = {
     unlocking_technologies = {
         tech_agricultural_chemical
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_sulfur_add = 50
@@ -166,7 +166,7 @@ pm_npk_fertilizer = {
     unlocking_technologies = {
         tech_advanced_molecular_science
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_sulfur_add = 60
@@ -187,7 +187,7 @@ pm_npk_fertilizer = {
 pm_open_hearth_furnace_method = { 
     unlocking_technologies = {
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_iron_add = 20
@@ -207,7 +207,7 @@ pm_arc_furnace_method = {
     unlocking_technologies = {
         tech_large-scale_plant
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_iron_add = 40
@@ -228,7 +228,7 @@ pm_induction_furnace_method = {
     unlocking_technologies = {
         tech_modularization_equipment 
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_iron_add = 40
@@ -249,7 +249,7 @@ pm_electric_arc_furnace_method = {
     unlocking_technologies = {
         tech_ultra_high_temperature_furnace
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_iron_add = 40
@@ -270,7 +270,7 @@ pm_electric_arc_furnace_method = {
 pm_ld_converting = { 
     unlocking_technologies = {
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_medicine_add = 10
@@ -289,7 +289,7 @@ pm_oxygen_bottom_blowing_process = {
     unlocking_technologies = {
         tech_oxygen_steelmaking
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_medicine_add = 20
@@ -309,7 +309,7 @@ pm_oxygen_top_and_bottom_blowing_process = {
     unlocking_technologies = {
         tech_advanced_molecular_science
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_medicine_add = 30
@@ -332,7 +332,7 @@ pm_jet_aircraft = {
     unlocking_technologies = {
         tech_turbofan_engine
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_steel_add = 15
@@ -355,7 +355,7 @@ pm_jet_aircraft = {
 pm_turbofan_aircraft = { 
     unlocking_technologies = {
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     unlocking_technologies = {
 		tech_block_method
 	}
@@ -382,7 +382,7 @@ pm_hybrid_aircraft = {
     unlocking_technologies = {
         tech_hybrid_technology
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_steel_add = 45
@@ -406,7 +406,7 @@ pm_flying_car = {
     unlocking_technologies = {
         tech_electric_vehicle
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_steel_add = 60
@@ -450,7 +450,7 @@ pm_line_production_aircraft = {
     unlocking_technologies = {
         tech_aircraft_line_production
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_electricity_add = 4
@@ -475,7 +475,7 @@ pm_robot_assembly_aircraft = {
     unlocking_technologies = {
         tech_industrial_robot
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_electricity_add = 8
@@ -502,7 +502,7 @@ pm_robot_assembly_aircraft = {
 pm_multicopter = { 
     unlocking_technologies = {
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_rubber_add = 5
@@ -523,7 +523,7 @@ pm_camera_drone = {
     unlocking_technologies = {
         tech_industrial_drone
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_rubber_add = 10
@@ -546,7 +546,7 @@ pm_line_production_drone = {
     unlocking_technologies = {
         tech_flow_process
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_electricity_add = 4
@@ -570,7 +570,7 @@ pm_robot_assembly_drone = {
     unlocking_technologies = {
         tech_industrial_robot
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_electricity_add = 8
@@ -594,7 +594,7 @@ pm_ai_production_drone = {
     unlocking_technologies = {
         tech_industrial_ai
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_electricity_add = 16
@@ -620,7 +620,7 @@ pm_ai_production_drone = {
 pm_synthetic_rubber = { 
     unlocking_technologies = {
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_oil_add = 10
@@ -641,7 +641,7 @@ pm_synthetic_resin = {
     unlocking_technologies = {
         tech_plastic
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_oil_add = 20
@@ -662,7 +662,7 @@ pm_high_performance_plastic = {
     unlocking_technologies = {
         tech_advanced_molecular_science
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_oil_add = 30
@@ -683,7 +683,7 @@ pm_biodegradable_plastic = {
     unlocking_technologies = {
         pm_biodegradable_plastic
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_oil_add = 40
@@ -705,7 +705,7 @@ pm_biodegradable_plastic = {
 pm_automobile = { 
     unlocking_technologies = {
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_steel_add = 10
@@ -728,7 +728,7 @@ pm_subcompact_automobile = {
     unlocking_technologies = {
         tech_aluminum_alloy
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_rubber_add = 15
@@ -751,7 +751,7 @@ pm_hybrid_automobile = {
     unlocking_technologies = {
         tech_hybrid_technology
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_steel_add = 10
@@ -777,7 +777,7 @@ pm_fuel_cell_automobile = {
     unlocking_technologies = {
         tech_electric_vehicle
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_steel_add = 15
@@ -803,7 +803,7 @@ pm_autonomous_automobile = {
     unlocking_technologies = {
         tech_level_5_autonomous_driving
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_steel_add = 20
@@ -830,7 +830,7 @@ pm_line_production_automobile = {
     unlocking_technologies = {
         tech_flow_process
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_electricity_add = 4
@@ -855,7 +855,7 @@ pm_robot_assembly_automobile = {
     unlocking_technologies = {
         tech_industrial_robot
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_electricity_add = 8
@@ -880,7 +880,7 @@ pm_ai_production_automobile = {
     unlocking_technologies = {
         tech_industrial_ai
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_electricity_add = 16
@@ -907,7 +907,7 @@ pm_ai_production_automobile = {
 pm_sport_car = { 
     unlocking_technologies = {
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_steel_add = 6
@@ -927,7 +927,7 @@ pm_supercar = {
     unlocking_technologies = {
         tech_high_fashion
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_steel_add = 12
@@ -948,7 +948,7 @@ pm_hypercar = {
     unlocking_technologies = {
         tech_contemporary_art
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_steel_add = 18
@@ -972,7 +972,7 @@ pm_line_production_luxury_automobile = {
     unlocking_technologies = {
         tech_flow_process
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_electricity_add = 4
@@ -996,7 +996,7 @@ pm_robot_assembly_luxury_automobile = {
     unlocking_technologies = {
         tech_industrial_robot
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_electricity_add = 8
@@ -1020,7 +1020,7 @@ pm_ai_production_luxury_automobile = {
     unlocking_technologies = {
         tech_industrial_ai
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_electricity_add = 16
@@ -1047,7 +1047,7 @@ pm_ai_production_luxury_automobile = {
 pm_arc_welding_large = { 
     unlocking_technologies = {
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_steel_add = 12
@@ -1068,7 +1068,7 @@ pm_block_construction_large = {
     unlocking_technologies = {
         tech_block_method 
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_steel_add = 24
@@ -1089,7 +1089,7 @@ pm_semi_automatic_welding_large = {
     unlocking_technologies = {
         tech_shipbuilding 
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_steel_add = 36
@@ -1111,7 +1111,7 @@ pm_automatic_welding_large = {
     unlocking_technologies = {
         tech_automatic_welding
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_steel_add = 48
@@ -1132,7 +1132,7 @@ pm_large_scale_automatic_welding_large = {
     unlocking_technologies = {
         tech_large_scale_automatic_welding
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_steel_add = 60
@@ -1153,7 +1153,7 @@ pm_robot_welding_large = {
     unlocking_technologies = {
         tech_robotic_welding
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_steel_add = 70
@@ -1183,7 +1183,7 @@ pm_robot_welding_large = {
 pm_aniline_dye = { 
     unlocking_technologies = {
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_oil_add = 10
@@ -1202,7 +1202,7 @@ pm_acid_dye = {
     unlocking_technologies = {
         tech_organic_compound
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_oil_add = 20
@@ -1221,7 +1221,7 @@ pm_disperse_dye = {
     unlocking_technologies = {
         tech_molecular_science
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_oil_add = 30
@@ -1240,7 +1240,7 @@ pm_reactive_dye = {
     unlocking_technologies = {
         tech_nanomaterials_science
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_oil_add = 40
@@ -1263,7 +1263,7 @@ pm_knock_down = {
     unlocking_technologies = {
         tech_assembly_method
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_steel_add = 20
@@ -1285,7 +1285,7 @@ pm_diesel_engine = {
     unlocking_technologies = {
         tech_diesel_engine
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_steel_add = 30
@@ -1307,7 +1307,7 @@ pm_fuel_cell_engine = {
     unlocking_technologies = {
         tech_electric_vehicle
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_steel_add = 40
@@ -1331,7 +1331,7 @@ pm_batch_production_engine = {
     unlocking_technologies = {
         tech_batch_process
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_tools_add = 2
@@ -1352,7 +1352,7 @@ pm_flow_production_engine = {
     unlocking_technologies = {
         tech_flow_process
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_tools_add = 5
@@ -1374,7 +1374,7 @@ pm_cell_production_engine = {
     unlocking_technologies = {
         tech_cell_process
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_tools_add = 10
@@ -1396,7 +1396,7 @@ pm_robot_assembly_engine = {
     unlocking_technologies = {
         tech_industrial_robot   
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_electricity_add = 5
@@ -1418,7 +1418,7 @@ pm_ai_production_engine = {
     unlocking_technologies = {
         tech_industrial_ai
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_electricity_add = 10
@@ -1443,7 +1443,7 @@ pm_ai_production_engine = {
 pm_industrial_robot = { 
     unlocking_technologies = {
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_steel_add = 10
@@ -1465,7 +1465,7 @@ pm_service_robot = {
     unlocking_technologies = {
         tech_industrial_robot
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_steel_add = 20
@@ -1487,7 +1487,7 @@ pm_ai_robot = {
     unlocking_technologies = {
         tech_industrial_ai
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_steel_add = 30
@@ -1513,7 +1513,7 @@ pm_batch_production_robot = {
     unlocking_technologies = {
         tech_batch_process
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_tools_add = 2
@@ -1533,7 +1533,7 @@ pm_flow_production_robot = {
     unlocking_technologies = {
         tech_flow_process
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_tools_add = 5
@@ -1554,7 +1554,7 @@ pm_cell_production_robot = {
     unlocking_technologies = {
         tech_cell_process
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_tools_add = 10
@@ -1575,7 +1575,7 @@ pm_robot_assembly_robot = {
     unlocking_technologies = {
         tech_industrial_robot
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_electricity_add = 5
@@ -1595,7 +1595,7 @@ pm_ai_production_robot = {
     unlocking_technologies = {
         tech_industrial_ai
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_electricity_add = 10
@@ -1619,7 +1619,7 @@ pm_ai_production_robot = {
 pm_plastic_explosive = { 
     unlocking_technologies = {
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_sulfur_add = 10
@@ -1640,7 +1640,7 @@ pm_ammonium_nitrate_explosive = {
     unlocking_technologies = {
         tech_organic_compound
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_sulfur_add = 20
@@ -1659,7 +1659,7 @@ pm_water_gel_explosive = {
     unlocking_technologies = {
         tech_liquid_science
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_sulfur_add = 30
@@ -1681,7 +1681,7 @@ pm_water_gel_explosive = {
 pm_antibiotics = { 
     unlocking_technologies = {
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_sulfur_add = 10
@@ -1702,7 +1702,7 @@ pm_antiviral_drugs = {
     unlocking_technologies = {
         tech_antivirus
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_sulfur_add = 20
@@ -1723,7 +1723,7 @@ pm_経口補水液 = {
     unlocking_technologies = {
         tech_cancer_drug
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_sulfur_add = 30
@@ -1744,7 +1744,7 @@ pm_regenerative_medicine = {
     unlocking_technologies = {
         tech_artifical_culture
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_sulfur_add = 40
@@ -1765,7 +1765,7 @@ pm_regenerative_medicine = {
 pm_traditional_method = { 
     unlocking_technologies = {
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_iron_add = 10
@@ -1790,7 +1790,7 @@ pm_prefabricated_method = {
     unlocking_technologies = {
         tech_assembly_method 
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_rubber_add = 20
@@ -1815,7 +1815,7 @@ pm_conventional_method = {
     unlocking_technologies = {
         tech_conventional_method
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_steel_add = 50
@@ -1840,7 +1840,7 @@ pm_3d_printing = {
     unlocking_technologies = {
         tech_additive_manufacturing
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_rubber_add = 100
@@ -1865,7 +1865,7 @@ pm_3d_printing = {
 pm_rock_wool = { 
     unlocking_technologies = {
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_output_construction_mult = 0.1
@@ -1881,7 +1881,7 @@ pm_rock_wool = {
 pm_asbestos = { 
     unlocking_technologies = {
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_asbestos_add = 10
@@ -1899,7 +1899,7 @@ pm_glass_wool = {
     unlocking_technologies = {
         tech_glass_wool
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_glass_add = 30
@@ -1917,7 +1917,7 @@ pm_urethane_foam = {
     unlocking_technologies = {
         tech_molecular_science
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_oil_add = 30
@@ -1935,7 +1935,7 @@ pm_aerogel = {
     unlocking_technologies = {
         tech_liquid_science
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/census.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_rubber_add = 30

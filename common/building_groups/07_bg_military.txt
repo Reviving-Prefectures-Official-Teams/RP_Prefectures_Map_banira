@@ -23,7 +23,7 @@ bg_military_shipyards = {
 }
 
 bg_munition_plants = {
-	parent_group = bg_arms_manufacturings
+	parent_group = bg_arms_manufacturing
 		
 	urbanization = 20
 	infrastructure_usage_per_level = 3

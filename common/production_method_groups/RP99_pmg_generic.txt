@@ -11,7 +11,7 @@ pmg_refrigeration = {
 
 #輸送
 pmg_transport = {
-    texture = "gfx/interface/icons/generic_icons/mixed_icon_transport.dds"
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
     production_methods = {
         pm_transportation_department
         pm_semi_outsourcing
@@ -22,7 +22,7 @@ pmg_transport = {
 
 #デジタル化
 pmg_digitalization = {
-    texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
     production_methods = {
         pm_no_digitalization
         pm_mailing

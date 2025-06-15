@@ -882,7 +882,7 @@ ainu = {
 
 nivkh = {
 	color = rgb{90 164 186}
-	religion = animism
+	religion = ainu_animism
 	traits = { ezo indigenous_group }
 	male_common_first_names={
 		Aritomo
@@ -1058,7 +1058,7 @@ nivkh = {
 
 oroch = {
 	color = rgb{80 174 196}
-	religion = animism
+	religion = ainu_animism
 	traits = { ezo indigenous_group }
 	male_common_first_names={
 		Aritomo

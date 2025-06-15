@@ -88,7 +88,7 @@ pm_template = {
 	unlocking_technologies = {
 		#技術
 	}
-	texture = "gfx/interface/icons/production_method_icons/"
+	texture = "gfx/interface/icons/production_method_icons/census.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -114,7 +114,7 @@ pm_art_school = {
 	unlocking_technologies = {
 		tech_modern_postmodernism
 	}
-	texture  = "gfx/interface/icons/production_method_icons/"
+	texture  = "gfx/interface/icons/production_method_icons/census.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -137,7 +137,7 @@ pm_conceptual_school = {
 	unlocking_technologies = {
 		tech_conceptual_art
 	}
-	texture  = "gfx/interface/icons/production_method_icons/"
+	texture  = "gfx/interface/icons/production_method_icons/census.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -156,7 +156,7 @@ pm_system_school = {
 	unlocking_technologies = {
 		tech_system_thinking
 	}
-	texture  = "gfx/interface/icons/production_method_icons/"
+	texture  = "gfx/interface/icons/production_method_icons/census.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -179,7 +179,7 @@ pm_undergraduate = {
 	unlocking_technologies = {
 		#技術
 	}
-	texture  = "gfx/interface/icons/production_method_icons/"
+	texture  = "gfx/interface/icons/production_method_icons/census.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -209,7 +209,7 @@ pm_social_education = {
 	unlocking_technologies = {
 		tech_social_education
 	}
-	texture  = "gfx/interface/icons/production_method_icons/"
+	texture  = "gfx/interface/icons/production_method_icons/census.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -240,7 +240,7 @@ pm_yutori_education = {
 	unlocking_technologies = {
 		tech_affluent_school
 	}
-	texture  = "gfx/interface/icons/production_method_icons/"
+	texture  = "gfx/interface/icons/production_method_icons/census.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -271,7 +271,7 @@ pm_entrepreneur_education = {
 	unlocking_technologies = {
 		tech_entrepreneurship_education
 	}
-	texture  = "gfx/interface/icons/production_method_icons/"
+	texture  = "gfx/interface/icons/production_method_icons/census.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -306,7 +306,7 @@ pm_art_exhibition = {
 	unlocking_technologies = {
 		#技術
 	}
-	texture  = "gfx/interface/icons/production_method_icons/"
+	texture  = "gfx/interface/icons/production_method_icons/census.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -325,7 +325,7 @@ pm_interactive_exhibition = {
 	unlocking_technologies = {
 		tech_conceptual_art
 	}
-	texture  = "gfx/interface/icons/production_method_icons/"
+	texture  = "gfx/interface/icons/production_method_icons/census.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -345,7 +345,7 @@ pm_digital_archive = {
 	unlocking_technologies = {
 		tech_internet
 	}
-	texture  = "gfx/interface/icons/production_method_icons/"
+	texture  = "gfx/interface/icons/production_method_icons/census.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -366,7 +366,7 @@ pm_vr_exhibition = {
 	unlocking_technologies = {
 		tech_holography
 	}
-	texture  = "gfx/interface/icons/production_method_icons/"
+	texture  = "gfx/interface/icons/production_method_icons/census.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -390,7 +390,7 @@ pm_conventional_administration = {
 	unlocking_technologies = {
 		#技術
 	}
-	texture  = "gfx/interface/icons/production_method_icons/"
+	texture  = "gfx/interface/icons/production_method_icons/census.dds"
 
 	country_modifiers = {
 		workforce_scaled = {
@@ -422,7 +422,7 @@ pm_system_administration = {
 	unlocking_technologies = {
 		tech_modern_computer
 	}
-	texture  = "gfx/interface/icons/production_method_icons/"
+	texture  = "gfx/interface/icons/production_method_icons/census.dds"
 
 	country_modifiers = {
 		workforce_scaled = {
@@ -455,7 +455,7 @@ pm_digital_administration = {
 	unlocking_technologies = {
 		tech_secure_internet
 	}
-	texture  = "gfx/interface/icons/production_method_icons/"
+	texture  = "gfx/interface/icons/production_method_icons/census.dds"
 
 	country_modifiers = {
 		workforce_scaled = {
@@ -488,7 +488,7 @@ pm_ai_administration = {
 	unlocking_technologies = {
 		tech_industrial_ai
 	}
-	texture  = "gfx/interface/icons/production_method_icons/"
+	texture  = "gfx/interface/icons/production_method_icons/census.dds"
 
 	country_modifiers = {
 		workforce_scaled = {

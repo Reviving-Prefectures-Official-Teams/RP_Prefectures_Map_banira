@@ -38,7 +38,7 @@ BUILDINGS={
                     }
                 }
                 reserves=1
-                activate_production_methods={ "pm_basic_port" }
+                activate_production_methods={ "pm_small_port" }
             }
         }
     }
@@ -109,7 +109,7 @@ BUILDINGS={
                     }
                 }
                 reserves=1
-                activate_production_methods={ "pm_basic_port" }
+                activate_production_methods={ "pm_small_port" }
             }
         }
     }
@@ -150,7 +150,7 @@ BUILDINGS={
                     }
                 }
                 reserves=1
-                activate_production_methods={ "pm_basic_port" }
+                activate_production_methods={ "pm_small_port" }
             }
         }
     }
@@ -191,7 +191,7 @@ BUILDINGS={
                     }
                 }
                 reserves=1
-                activate_production_methods={ "pm_basic_port" }
+                activate_production_methods={ "pm_small_port" }
             }
         }
     }
@@ -232,7 +232,7 @@ BUILDINGS={
                     }
                 }
                 reserves=1
-                activate_production_methods={ "pm_basic_port" }
+                activate_production_methods={ "pm_small_port" }
             }
         }
     }
@@ -305,7 +305,7 @@ BUILDINGS={
                     }
                 }
                 reserves=1
-                activate_production_methods={ "pm_basic_port" }
+                activate_production_methods={ "pm_small_port" }
             }
         }
     }
@@ -346,7 +346,7 @@ BUILDINGS={
                     }
                 }
                 reserves=1
-                activate_production_methods={ "pm_basic_port" }
+                activate_production_methods={ "pm_small_port" }
             }
         }
     }
@@ -387,7 +387,7 @@ BUILDINGS={
                     }
                 }
                 reserves=1
-                activate_production_methods={ "pm_basic_port" }
+                activate_production_methods={ "pm_small_port" }
             }
         }
     }

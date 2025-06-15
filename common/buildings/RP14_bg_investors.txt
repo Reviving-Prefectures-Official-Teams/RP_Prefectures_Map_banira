@@ -40,7 +40,7 @@ building_financial_district = {
 
 	lens = infrastructure
 
-	texture = "gfx/interface/icons/building_icons/building_financial_district.dds"
+	icon = "gfx/interface/icons/building_icons/building_financial_district.dds"
 
 	production_method_groups = {
 		pmg_financial_district
@@ -174,7 +174,7 @@ building_manor_house = {
 
 	lens = infrastructure
 
-	texture = "gfx/interface/icons/building_icons/building_manor_houses.dds"
+	icon = "gfx/interface/icons/building_icons/building_manor_houses.dds"
 
 	production_method_groups = {
 		pmg_manor_house
@@ -272,7 +272,7 @@ building_manor_house = {
 			}
 		}
 		bg_urban_services_score = {
-			group = "bg_urban"
+			group = "bg_urban_services"
 			score = {
 				value = 0.5
 			}
@@ -308,7 +308,7 @@ building_investors_fund = {
 
 	lens = infrastructure
 
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 
 	production_method_groups = {
 		pmg_investors_fund
@@ -442,7 +442,7 @@ building_religious_sites = {
 
 	lens = infrastructure
 
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 
 	production_method_groups = {
 		pmg_religious_sites
@@ -576,7 +576,7 @@ building_cults_corporation = {
 
 	lens = infrastructure
 
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 
 	production_method_groups = {
 		pmg_cults_corporation
@@ -710,7 +710,7 @@ building_yakuza_office = {
 
 	lens = infrastructure
 
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 
 	production_method_groups = {
 		pmg_yakuza_offices

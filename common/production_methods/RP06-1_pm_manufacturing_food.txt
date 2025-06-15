@@ -86,7 +86,7 @@
 #####小麦輸入
 #小口輸入
 pm_import_wheat = {
-	texture = "gfx/interface/icons/production_method_icons/"
+	texture = "gfx/interface/icons/production_method_icons/census.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -104,7 +104,7 @@ pm_import_wheat = {
 }
 #ばら積み船
 pm_bulk_carrier_wheat = {
-	texture = "gfx/interface/icons/production_method_icons/"
+	texture = "gfx/interface/icons/production_method_icons/census.dds"
 	unlocking_technologies = {
 		tech_block_method
 	}
@@ -128,7 +128,7 @@ pm_container_ship_wheat = {
 	unlocking_technologies = {
 		tech_shipbuilding
 	}
-	texture = "gfx/interface/icons/production_method_icons/"
+	texture = "gfx/interface/icons/production_method_icons/census.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -149,7 +149,7 @@ pm_oversize_container_ship_wheat = {
 	unlocking_technologies = {
 		tech_gigantic_ship
 	}
-	texture = "gfx/interface/icons/production_method_icons/"
+	texture = "gfx/interface/icons/production_method_icons/census.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -168,7 +168,7 @@ pm_oversize_container_ship_wheat = {
 #####パン製造
 #手作りパン
 pm_handmade_bread = {
-	texture = "gfx/interface/icons/production_method_icons/"
+	texture = "gfx/interface/icons/production_method_icons/census.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -188,7 +188,7 @@ pm_white_bread = {
 	unlocking_technologies = {
 		tech_petrochemistry
 	}
-	texture = "gfx/interface/icons/production_method_icons/"
+	texture = "gfx/interface/icons/production_method_icons/census.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -208,7 +208,7 @@ pm_sandwich_bread = {
 	unlocking_technologies = {
 		tech_food_diversity
 	}
-	texture = "gfx/interface/icons/production_method_icons/"
+	texture = "gfx/interface/icons/production_method_icons/census.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -350,7 +350,7 @@ pm_ai_production_bread = {
 #####清涼飲料
 #濃縮還元
 pm_fruit_juice = {
-	texture = "gfx/interface/icons/production_method_icons/"
+	texture = "gfx/interface/icons/production_method_icons/census.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -370,7 +370,7 @@ pm_carbonated_drink = {
 	unlocking_technologies = {
 		tech_carbonated_beverage
 	}
-	texture = "gfx/interface/icons/production_method_icons/"
+	texture = "gfx/interface/icons/production_method_icons/census.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -392,7 +392,7 @@ pm_sports_drink = {
 	unlocking_technologies = {
 		tech_sports_drink
 	}
-	texture = "gfx/interface/icons/production_method_icons/"
+	texture = "gfx/interface/icons/production_method_icons/census.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -412,7 +412,7 @@ pm_sports_drink = {
 #####カフェイン飲料
 #缶コーヒー
 pm_canned_coffee = {
-	texture = "gfx/interface/icons/production_method_icons/"
+	texture = "gfx/interface/icons/production_method_icons/census.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -434,7 +434,7 @@ pm_energy_drink = {
 	unlocking_technologies = {
 		tech_carbonated_beverage
 	}
-	texture = "gfx/interface/icons/production_method_icons/"
+	texture = "gfx/interface/icons/production_method_icons/census.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -454,7 +454,7 @@ pm_energy_drink = {
 #####ビール
 #ピルスナー
 pm_pilsner = {
-	texture = "gfx/interface/icons/production_method_icons/"
+	texture = "gfx/interface/icons/production_method_icons/census.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -473,7 +473,7 @@ pm_pilsner = {
 }
 #エール
 pm_ale = {
-	texture = "gfx/interface/icons/production_method_icons/"
+	texture = "gfx/interface/icons/production_method_icons/census.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -615,7 +615,7 @@ pm_ai_production_juice = {
 #####食肉加工
 #肉缶詰
 pm_canned_meat = {
-	texture = "gfx/interface/icons/production_method_icons/"
+	texture = "gfx/interface/icons/production_method_icons/census.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -756,7 +756,7 @@ pm_chocolate = {
 	unlocking_technologies = {
 		tech_chocolate
 	}
-	texture = "gfx/interface/icons/production_method_icons/"
+	texture = "gfx/interface/icons/production_method_icons/census.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -775,7 +775,7 @@ pm_chocolate = {
 }
 #ビスケット
 pm_biscuit = {
-	texture = "gfx/interface/icons/production_method_icons/"
+	texture = "gfx/interface/icons/production_method_icons/census.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -793,7 +793,7 @@ pm_biscuit = {
 }
 #和菓子
 pm_japanese_sweets = {
-	texture = "gfx/interface/icons/production_method_icons/"
+	texture = "gfx/interface/icons/production_method_icons/census.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -814,7 +814,7 @@ pm_snack = {
 	unlocking_technologies = {
 		tech_food_diversity
 	}
-	texture = "gfx/interface/icons/production_method_icons/"
+	texture = "gfx/interface/icons/production_method_icons/census.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -893,7 +893,7 @@ pm_full_auto_production = {
 #####野菜
 #野菜生産
 pm_vegetable = {
-	texture = "gfx/interface/icons/production_method_icons/"
+	texture = "gfx/interface/icons/production_method_icons/census.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -913,7 +913,7 @@ pm_robot_management = {
 	unlocking_technologies = {
 		tech_industrial_robot
 	}
-	texture = "gfx/interface/icons/production_method_icons/"
+	texture = "gfx/interface/icons/production_method_icons/census.dds"
 
 	building_modifiers = {
 		workforce_scaled = {

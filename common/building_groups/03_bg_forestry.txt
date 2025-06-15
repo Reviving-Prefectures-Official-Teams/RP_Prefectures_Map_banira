@@ -7,23 +7,7 @@ bg_logging = {
 	
 	economy_of_scale = yes
 	
-	can_use_slaves = yes
-	
-	default_building = building_logging_camp
-	
-	lens = forestry	
-	
 	cash_reserves_max = 25000
-	
-	urbanization = 5
-	infrastructure_usage_per_level = 1
-	
-	should_auto_expand = { 
-		default_auto_expand_rule = yes
-	}
-	
-	economy_of_scale_ai_factor = 1.5
-	foreign_investment_ai_factor = 1.0
 }
 
 bg_castanopsis_forest = { #樫の木
@@ -138,31 +122,31 @@ bg_cryptomeria_forest = { #杉の木
 	foreign_investment_ai_factor = 1.0
 }
 
-bg_tree_planting_farm = {
-	category = rural
+# bg_tree_planting_farm = {
+# 	category = rural
 
-	capped_by_resources = yes
+# 	capped_by_resources = yes
 	
-	economy_of_scale = yes
+# 	economy_of_scale = yes
 	
-	can_use_slaves = yes
+# 	can_use_slaves = yes
 	
-	default_building = building_tree_planting_farm
+# 	default_building = building_tree_planting_farm
 	
-	lens = forestry	
+# 	lens = forestry	
 	
-	cash_reserves_max = 25000
+# 	cash_reserves_max = 25000
 	
-	urbanization = 5
-	infrastructure_usage_per_level = 1
+# 	urbanization = 5
+# 	infrastructure_usage_per_level = 1
 	
-	should_auto_expand = { 
-		default_auto_expand_rule = yes
-	}
+# 	should_auto_expand = { 
+# 		default_auto_expand_rule = yes
+# 	}
 	
-	economy_of_scale_ai_factor = 1.5
-	foreign_investment_ai_factor = 1.0
-}
+# 	economy_of_scale_ai_factor = 1.5
+# 	foreign_investment_ai_factor = 1.0
+# }
 
 #bg_rubber = {
 #	category = rural 

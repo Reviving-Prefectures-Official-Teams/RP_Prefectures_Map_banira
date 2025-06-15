@@ -21,31 +21,31 @@ bg_mining = {
 	foreign_investment_ai_factor = 1.0
 }
 
-bg_gold_fields = {
-	parent_group = bg_mining
+# bg_gold_fields = {
+# 	parent_group = bg_mining
 
-	auto_place_buildings = yes
+# 	auto_place_buildings = yes
 
-	discoverable_resource = yes
+# 	discoverable_resource = yes
 
-	always_self_owning = yes
+# 	always_self_owning = yes
 	
-	depletable_resource = yes
+# 	depletable_resource = yes
 	
-	pays_taxes = no
+# 	pays_taxes = no
 
-	default_building = building_gold_fields
+# 	default_building = building_gold_fields
 	
-	fired_pops_become_radical = no
-}
+# 	fired_pops_become_radical = no
+# }
 
-bg_gold_mining = {
-	parent_group = bg_mining
+# bg_gold_mining = {
+# 	parent_group = bg_mining
 	
-	default_building = building_gold_mine
+# 	default_building = building_gold_mine
 
-	can_use_slaves = yes
-}
+# 	can_use_slaves = yes
+# }
 
 bg_coal_mining = {
 	parent_group = bg_mining

@@ -2,7 +2,7 @@
 #####空港
 ###空港規模
 pmg_airport_size = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_airport.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
@@ -13,7 +13,7 @@ pmg_airport_size = {
 }
 ###管制
 pmg_airport_control = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_airport.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
@@ -25,7 +25,7 @@ pmg_airport_control = {
 }
 ###セキュリティ
 pmg_airport_security = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_airport.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
 	ai_selection = most_productive
 
 	production_methods = {
@@ -39,7 +39,7 @@ pmg_airport_security = {
 #####幹線道路
 ###舗装
 pmg_pavement = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_road.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
@@ -52,7 +52,7 @@ pmg_pavement = {
 }
 ###照明
 pmg_road_lighting = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_road.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
@@ -67,7 +67,7 @@ pmg_road_lighting = {
 #####鉄道
 ###運行システム
 pmg_train_system = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_train.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
@@ -80,7 +80,7 @@ pmg_train_system = {
 }
 ###客車
 pmg_passenger_carriage = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_train.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
@@ -92,7 +92,7 @@ pmg_passenger_carriage = {
 }
 ###運行管理
 pmg_train_operation = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_train.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
@@ -105,7 +105,7 @@ pmg_train_operation = {
 #####高速道路
 ###高速道路規模
 pmg_highway_size = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_road.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
@@ -118,7 +118,7 @@ pmg_highway_size = {
 
 ###高速鉄道
 pmg_railway_facility = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_train.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
@@ -131,7 +131,7 @@ pmg_railway_facility = {
 #####火力発電所
 ###石炭火力
 pmg_coal_power = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
@@ -145,7 +145,7 @@ pmg_coal_power = {
 }
 ###石油火力
 pmg_oil_power = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
@@ -158,7 +158,7 @@ pmg_oil_power = {
 }
 ###天然ガス火力
 pmg_gas_power = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
@@ -171,7 +171,7 @@ pmg_gas_power = {
 #####原子力発電所
 ###核分裂
 pmg_nuclear_power = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
@@ -183,7 +183,7 @@ pmg_nuclear_power = {
 }
 ###核融合
 pmg_fusion_power = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
@@ -195,7 +195,7 @@ pmg_fusion_power = {
 #####風力発電所
 ###風力
 pmg_wind_power = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
@@ -209,7 +209,7 @@ pmg_wind_power = {
 #####太陽光発電所
 ###太陽光
 pmg_solar_power = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
@@ -223,7 +223,7 @@ pmg_solar_power = {
 #####水力発電所
 ###水力
 pmg_hydro_power = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_powerplant.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
@@ -236,7 +236,7 @@ pmg_hydro_power = {
 #####水道
 ###上水道（浄水施設）
 pmg_water_supply = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_water.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
@@ -248,7 +248,7 @@ pmg_water_supply = {
 }	
 ###下水道（汚水処理施設）
 pmg_sewage_treatment = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_water.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
@@ -262,7 +262,7 @@ pmg_sewage_treatment = {
 #####採水地
 ###採水
 pmg_water_extraction = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_water.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
@@ -273,7 +273,7 @@ pmg_water_extraction = {
 #####港湾
 ###港湾規模
 pmg_port_size = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_port.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
@@ -285,7 +285,7 @@ pmg_port_size = {
 }
 ###貨物取扱
 pmg_cargo_handling = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_port.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {

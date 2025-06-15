@@ -22,7 +22,7 @@ buddhist = {
 	heritage = yes
 }
 
-sintoist = {
+shintoist = {
 	heritage = yes
 }
 

@@ -49,7 +49,7 @@
 				size = 4964
 			}
 			create_pop = {
-				culture = ukurainian
+				culture = ukrainian
 				size = 1000
 			}
 			create_pop = {
@@ -77,7 +77,7 @@
 				size = 1958
 			}
 			create_pop = {
-				culture = ukurainian
+				culture = ukrainian
 				size = 700
 			}
 			create_pop = {

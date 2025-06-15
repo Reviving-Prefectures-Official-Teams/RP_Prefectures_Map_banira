@@ -1,0 +1,106 @@
+﻿
+# # Japan - JAP
+# jap_admiral_togo = {
+# 	first_name = Heihachiro
+# 	last_name = Togo
+# 	historical = yes
+# 	culture = cu:japanese
+# 	female = no
+# 	ideology = ideology_moderate
+# 	commander_rank = default
+# 	interest_group = ig_armed_forces
+# 	birth_date = 1848.1.27
+# 	traits = {
+# 		expert_naval_commander
+# 		direct
+# 		meticulous
+# 	}
+# 	commander_usage = {
+# 		country_trigger = {
+# 			exists = c:JAP
+# 			this = c:JAP
+# 		}
+# 		role = admiral
+# 		earliest_usage_date = 1883.2.5
+# 		latest_usage_date = 1913.1.1	
+# 		chance = 50
+# 	}
+# }
+# jap_general_saigo = {
+# 	first_name = Takamori
+# 	last_name = Saigo
+# 	historical = yes
+# 	culture = cu:japanese
+# 	female = no
+# 	ideology = ideology_jingoist_leader
+# 	commander_rank = default
+# 	interest_group = ig_landowners
+# 	birth_date = 1828.1.23
+# 	traits = {
+# 		basic_offensive_planner
+# 		romantic
+# 		brave
+# 	}
+# 	commander_usage = {
+# 		country_trigger = {
+# 			exists = c:JAP
+# 			this = c:JAP
+# 		}
+# 		role = general
+# 		earliest_usage_date = 1860.1.1
+# 		latest_usage_date = 1880.1.1	
+# 		chance = 50
+# 	}
+# }
+# jap_general_gentaro = {
+# 	first_name = Gentaro
+# 	last_name = Kodama
+# 	historical = yes
+# 	culture = cu:japanese
+# 	female = no
+# 	ideology = ideology_royalist
+# 	commander_rank = default
+# 	interest_group = ig_landowners
+# 	birth_date = 1852.3.16
+# 	traits = {
+# 		experienced_offensive_planner
+# 		experienced_colonial_administrator
+# 		innovative
+# 	}
+# 	commander_usage = {
+# 		country_trigger = {
+# 			exists = c:JAP
+# 			this = c:JAP
+# 		}
+# 		role = general
+# 		earliest_usage_date = 1889.1.1
+# 		latest_usage_date = 1906.1.1	
+# 		chance = 50
+# 	}
+# }
+# jap_general_oyama = {
+# 	first_name = Iwao
+# 	last_name = Oyama
+# 	historical = yes
+# 	culture = cu:japanese
+# 	female = no
+# 	ideology = ideology_royalist
+# 	commander_rank = default
+# 	interest_group = ig_landowners
+# 	birth_date = 1842.11.12
+# 	traits = {
+# 		experienced_offensive_planner
+# 		trench_rat
+# 		reserved
+# 	}
+# 	commander_usage = {
+# 		country_trigger = {
+# 			exists = c:JAP
+# 			this = c:JAP
+# 		}
+# 		role = general
+# 		earliest_usage_date = 1889.1.1
+# 		latest_usage_date = 1906.1.1	
+# 		chance = 50
+# 	}
+# }

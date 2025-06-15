@@ -2,7 +2,7 @@
 ###ウラン濃縮
 #気体拡散法
 pm_gaseous_diffusion = {
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_minor_metals_add = 2
@@ -21,7 +21,7 @@ pm_gas_centrifuge = {
     unlocking_technologies = {
         tech_centrifugal_separation_method
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_minor_metals_add = 4
@@ -41,7 +41,7 @@ pm_laser_enrichment = {
     unlocking_technologies = {
         tech_laser_enrichment
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_minor_metals_add = 6
@@ -61,7 +61,7 @@ pm_electromagnetic_isotope_separation = {
     unlocking_technologies = {
         tech_electromagnetic_isotope_separation
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_minor_metals_add = 1
@@ -81,7 +81,7 @@ pm_molten_salt_reactor = {
     unlocking_technologies = {
         tech_molten_salt_reactor
     }
-    texture = "gfx/interface/icons/production_method_icons/"
+    texture = "gfx/interface/icons/production_method_icons/simple_mining.dds"
     building_modifiers = {
         workforce_scaled = {
             goods_input_minor_metals_add = 5

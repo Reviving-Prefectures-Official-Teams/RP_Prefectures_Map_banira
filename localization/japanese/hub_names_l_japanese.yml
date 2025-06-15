@@ -253,7 +253,6 @@
   HUB_NAME_STATE_SAITAMA_wood: "和光"
   
   HUB_NAME_STATE_NORTH_KATSUSHIKA_city: "越谷"
-  HUB_NAME_STATE_NORTH_KATSUSHIKA_mine: "鉱山"
   HUB_NAME_STATE_NORTH_KATSUSHIKA_farm: "春日部"
   HUB_NAME_STATE_NORTH_KATSUSHIKA_wood: "草加"
   
@@ -269,16 +268,16 @@
   HUB_NAME_STATE_NANSO_farm: "館山"
   HUB_NAME_STATE_NANSO_wood: "鴨川"
   
-  HUB_NAME_STATE_TOSO_city: "都市"
-  HUB_NAME_STATE_TOSO_port: "港湾"
-  HUB_NAME_STATE_TOSO_mine: "鉱山"
-  HUB_NAME_STATE_TOSO_farm: "農場"
-  HUB_NAME_STATE_TOSO_wood: "森林"
+  HUB_NAME_STATE_TOSO_city: "市原"
+  HUB_NAME_STATE_TOSO_port: "姉ヶ崎"
+  HUB_NAME_STATE_TOSO_mine: "一宮"
+  HUB_NAME_STATE_TOSO_farm: "勝浦"
+  HUB_NAME_STATE_TOSO_wood: "茂原"
   
   HUB_NAME_STATE_CHIBA_city: "千葉"
-  HUB_NAME_STATE_CHIBA_port: "習志野"
-  HUB_NAME_STATE_CHIBA_mine: "鉱山"
-  HUB_NAME_STATE_CHIBA_farm: "農場"
+  HUB_NAME_STATE_CHIBA_port: "千葉港"
+  HUB_NAME_STATE_CHIBA_mine: "稲毛"
+  HUB_NAME_STATE_CHIBA_farm: "大綱"
   HUB_NAME_STATE_CHIBA_wood: "森林"
   
   HUB_NAME_STATE_KATSUSHIKA_city: "船橋"
@@ -296,12 +295,12 @@
   HUB_NAME_STATE_KUJYUKURI_port: "銚子港"
   HUB_NAME_STATE_KUJYUKURI_mine: "香取"
   HUB_NAME_STATE_KUJYUKURI_farm: "九十九里"
-  HUB_NAME_STATE_KUJYUKURI_wood: "森林"
+  HUB_NAME_STATE_KUJYUKURI_wood: "山武"
   
-  HUB_NAME_STATE_INBA_city: "都市"
+  HUB_NAME_STATE_INBA_city: "佐倉"
   HUB_NAME_STATE_INBA_mine: "鉱山"
-  HUB_NAME_STATE_INBA_farm: "農場"
-  HUB_NAME_STATE_INBA_wood: "森林"
+  HUB_NAME_STATE_INBA_farm: "成田"
+  HUB_NAME_STATE_INBA_wood: "印西"
   
   # =======北関東
   # 群馬県

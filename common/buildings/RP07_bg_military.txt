@@ -1,7 +1,7 @@
 ﻿#軍事造船所
 # building_military_shipyards = {
 # 	building_group = bg_military_shipyards
-# 	texture = "gfx/interface/icons/building_icons/military_shipyards.dds"
+# 	icon = "gfx/interface/icons/building_icons/military_shipyards.dds"
 # 	city_type = port
 	
 # 	unlocking_technologies = {
@@ -26,7 +26,7 @@
 #軍需産業
 building_war_machine_industry = {
 	building_group = bg_arms_manufacturing
-	texture = "gfx/interface/icons/building_icons/vehicles_industry.dds"
+	icon = "gfx/interface/icons/building_icons/vehicles_industry.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
@@ -57,7 +57,7 @@ building_war_machine_industry = {
 #兵器工場
 building_arms_industry = {
 	building_group = bg_arms_manufacturing
-	texture = "gfx/interface/icons/building_icons/arms_industry.dds"
+	icon = "gfx/interface/icons/building_icons/arms_industry.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
@@ -77,7 +77,7 @@ building_arms_industry = {
 #砲兵工場
 building_artillery_foundries = {
 	building_group = bg_arms_manufacturing
-	texture = "gfx/interface/icons/building_icons/artillery_foundry.dds"
+	icon = "gfx/interface/icons/building_icons/artillery_foundry.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
@@ -97,7 +97,7 @@ building_artillery_foundries = {
 #弾薬工場
 building_munition_plants = {
 	building_group = bg_munition_plants
-	texture = "gfx/interface/icons/building_icons/munition_plants.dds"
+	icon = "gfx/interface/icons/building_icons/munition_plants.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
@@ -131,7 +131,7 @@ building_munition_plants = {
 building_barracks = {
 	building_group = bg_army
 	recruits_combat_units = yes
-	texture = "gfx/interface/icons/building_icons/building_barracks.dds"
+	icon = "gfx/interface/icons/building_icons/building_barracks.dds"
 	city_type = city
 	
 	has_max_level = yes
@@ -162,7 +162,7 @@ building_conscription_center = {
 	city_type = none
 
 	recruits_combat_units = yes
-	texture = "gfx/interface/icons/building_icons/building_conscription_center.dds"
+	icon = "gfx/interface/icons/building_icons/building_conscription_center.dds"
 
 	production_method_groups = {
 		pmg_training_conscription
@@ -177,7 +177,7 @@ building_naval_base = {
 	
 	has_max_level = yes
 	
-	texture = "gfx/interface/icons/building_icons/naval_base.dds"
+	icon = "gfx/interface/icons/building_icons/naval_base.dds"
 	naval = yes
 	#unlocking_technologies = { admiralty }
 	state_building_naval_base_max_level_add = 20

@@ -3,7 +3,7 @@
 #食品工場
 building_food_industry = {
 	building_group = bg_food_processing
-	texture = "gfx/interface/icons/building_icons/food_industry.dds"
+	icon = "gfx/interface/icons/building_icons/food_industry.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
@@ -27,7 +27,7 @@ building_food_industry = {
 #缶詰工場
 building_canning_factories = {
 	building_group = bg_food_processing
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
@@ -51,7 +51,7 @@ building_canning_factories = {
 #飲料工場
 building_drink_factory = {
 	building_group = bg_food_processing
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
@@ -76,7 +76,7 @@ building_drink_factory = {
 #菓子工場
 building_sweets_factory = {
 	building_group = bg_food_processing
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
@@ -99,7 +99,7 @@ building_sweets_factory = {
 #野菜工場
 building_vegetable_factorys = {
 	building_group = bg_food_processing
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon = "gfx/interface/icons/building_icons/placeholder.dds"
 	city_type = city
 	levels_per_mesh = 5
 	

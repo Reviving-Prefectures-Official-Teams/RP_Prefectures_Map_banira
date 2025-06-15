@@ -2,7 +2,7 @@
 #カシ林
 building_castanopsis_forest = {
 	building_group = bg_castanopsis_forest
-	texture = "gfx/interface/icons/building_icons/logging_camp.dds"
+	icon = "gfx/interface/icons/building_icons/logging_camp.dds"
 	city_type = wood
 	required_construction = construction_cost_medium
 	terrain_manipulator = forestry
@@ -21,7 +21,7 @@ building_castanopsis_forest = {
 #カバノキ林
 building_betulaceae_forest = {
 	building_group = bg_betulaceae_forest
-	texture = "gfx/interface/icons/building_icons/logging_camp.dds"
+	icon = "gfx/interface/icons/building_icons/logging_camp.dds"
 	city_type = wood
 	required_construction = construction_cost_medium
 	terrain_manipulator = forestry
@@ -40,7 +40,7 @@ building_betulaceae_forest = {
 #ヒノキ林
 building_chamaecyparis_obtusa_forest = {
 	building_group = bg_chamaecyparis_obtusa_forest
-	texture = "gfx/interface/icons/building_icons/logging_camp.dds"
+	icon = "gfx/interface/icons/building_icons/logging_camp.dds"
 	city_type = wood
 	required_construction = construction_cost_low
 	terrain_manipulator = forestry
@@ -60,7 +60,7 @@ building_chamaecyparis_obtusa_forest = {
 #スギ林
 building_cryptomeria_forest = {
 	building_group = bg_cryptomeria_forest
-	texture = "gfx/interface/icons/building_icons/logging_camp.dds"
+	icon = "gfx/interface/icons/building_icons/logging_camp.dds"
 	city_type = wood
 	required_construction = construction_cost_low
 	terrain_manipulator = forestry
@@ -80,7 +80,7 @@ building_cryptomeria_forest = {
 #ゴム農園
 #building_rubber_plantation = {
 #	building_group = bg_rubber
-#	texture = "gfx/interface/icons/building_icons/rubber_lodge.dds"
+#	icon = "gfx/interface/icons/building_icons/rubber_lodge.dds"
 #	required_construction = construction_cost_low
 #	
 #	terrain_manipulator = forestry

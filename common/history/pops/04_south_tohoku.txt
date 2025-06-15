@@ -137,7 +137,7 @@
     s:STATE_AIZU = { #250670
         region_state:FKS = {
 			create_pop = {
-				culture = aidu
+				culture = aizu
 				size = 250670
 			}
 		}
@@ -145,7 +145,7 @@
     s:STATE_MINAMIAIZU = { #165184
         region_state:FKS = {
 			create_pop = {
-				culture = aidu
+				culture = aizu
 				size = 165184
 			}
 		}
