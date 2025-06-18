@@ -84,268 +84,81 @@ types construction_panel
 		}
 		
 		blockoverride "scrollarea_content" {
-
-
 			# DOMESTIC QUEUE TAB CONTENTS
 			flowcontainer = {
 				name = "domestic_queue"
 				visible = "[InformationPanel.IsTabSelected('default')]"
 				direction = vertical
 	
-				# textbox = {
-				# 	parentanchor = hcenter
-				# 	# align = hcenter|nobaseline
-				# 	autoresize = yes
-				# 	margin = { 10 10 }
-				# 	max_width = @panel_width_minus_10
-				# 	using = empty_state_text_properties
-				# 	# visible = "[IsDataModelEmpty(BuildingProductionMethodsEntry.GetBuildings)]"
-				# 	#text = "[GetPlayer.MakeScope.ScriptValue('fmc_num_points_left_queue_government')], [GetPlayer.MakeScope.ScriptValue('fmc_num_points_left_queue_private')]"
-				# 	text = "[GetPlayer.MakeScope.Var('fmc_price_stabiliser').GetValue]"
-				# }
-
-
-				container = {
-					#direction = vertical
-				#	visible = "[ProductionMethodsPanel.IsShowingGovernmentConstructions]"
-					background = {
-						using = dark_area
-					}
-					#margin = { 10 10 }
-					minimumsize = { @panel_width_plus_14 100 }
-					maximumsize = { @panel_width_plus_14 -1 }
-
-
-					flowcontainer = {
-						#spacing = 7
-						margin_bottom = 10
-						margin_left = 20
-						direction = vertical
-						textbox = {
-							text = "GOVERNMENT_CONSTRUCTION_BOUGHT"
-							parentanchor = hcenter|top
-		
-							#maximumsize = { @panel_width_plus_14 -1 }
-							margin_top = 10
-							margin_bottom = 10
-							autoresize = yes
-							multiline = yes
-							align = center|nobaseline
-						}
-						flowcontainer = {
-							#position = { 0 0 }
-							#parentanchor = bottom|hcenter
-							spacing = 10
-		
-							parentanchor = hcenter
-			
-				
-							### DOWNSIZE
-							button_icon_minus_action = {
-								size = { 35 35 }
-								parentanchor = vcenter
-								datacontext = "[GetScriptedGui('remove_construction_scriptedgui')]"
-								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
-								enabled = "[ScriptedGui.IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
-								onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
-								onrightclick = "[GetScriptedGui('remove_construction_scriptedgui_rightclick').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
-								#tooltip = "[ScriptedGui.BuildTooltip( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
-							}
-				
-				
-							### LEVEL
-							container = {
-								parentanchor = vcenter
-								background = {
-									using = entry_bg
-									margin = { 10 -2 }
-								}
-				
-								textbox = {
-									#name = "tutorial_higlight_expansion_level"
-									text = "[GetPlayer.MakeScope.Var('fmc_public_construction_buy_target').GetValue]"
-									
-									align = hcenter|nobaseline
-									using = fontsize_large
-									size = { 88 35 }
-									elide = right
-								}
-							}
-				
-							### EXPAND
-							button_icon_plus_action = {
-								size = { 35 35 }
-								parentanchor = vcenter
-								datacontext = "[GetScriptedGui('add_construction_scriptedgui')]"
-								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
-								enabled = "[ScriptedGui.IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
-								onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
-								onrightclick = "[GetScriptedGui('add_construction_scriptedgui_rightclick').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
-								#tooltip = "[ScriptedGui.BuildTooltip( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
-								#using = tooltip_below
-							}
-				
-		
-						}
-					}
-
-
-
-					textbox = {
-						position = { -90 0 }
-						parentanchor = vcenter|right
-
-						background = {
-							using = dark_area
-							margin_right = 30
-						}
-
-						autoresize = yes
-						minimumsize = { 0 26 }
-						margin_left = 5
-						align = nobaseline
-
-						alpha = "[TransparentIfZero(GetPlayer.GetConstructionGoodsExpenses)]"
-						raw_text = "#N @money!-[GetPlayer.GetConstructionGoodsExpenses|D-]"
-						using = construction_goods_expense_tooltip_with_graph
-					}
-
-					container = {
-						name = "pause_construction"
-						#block "datacontext" {
-							datacontext = "[AccessPlayer]"
-						#}
-						parentanchor = vcenter|right
-						position = { -20 0 }
-
-	
-
-
-						button_icon_round_action = {
-
-							tooltip = "[Country.PauseConstructionTooltip]"
-							visible = "[Not(Country.IsConstructionPaused)]"
-
-							blockoverride "size" {
-								size = { 50 50 }
-							}
-							blockoverride "icon_size" {
-								size = { 75% 75% }
-							}
-
-							block "onclick" {
-								onclick = "[Execute( Country.PauseConstruction )]"
-								enabled = "[And(IsValid( Country.PauseConstruction ), Country.HasConstructionQueued)]"
-								input_action = "toggle_construction_queue_pause"
-							}
-
-							blockoverride "icon" {
-								texture = "gfx/interface/production_methods/unpaused_government_construction.dds"
-							}
-						}
-
-						button_icon_round_action = {
-
-							tooltip = "[Country.ResumeConstructionTooltip]"
-							visible = "[Country.IsConstructionPaused]"
-
-							blockoverride "size" {
-								size = { 50 50 }
-							}
-							blockoverride "icon_size" {
-								size = { 75% 75% }
-							}
-
-							block "onclick" {
-								onclick = "[Execute( Country.ResumeConstruction )]"
-								enabled = "[IsValid( Country.ResumeConstruction )]"
-								input_action = "toggle_construction_queue_pause"
-							}
-
-							blockoverride "icon" {
-								texture = "gfx/interface/production_methods/paused_government_construction.dds"
-							}
-						}
-					}
-		
-				}
-	
-
-
-
-
-
-
-
 				flowcontainer = {
 					using = default_list_position
 					direction = vertical
 
 
-					# flowcontainer = {
-					# 	name = "construction_sector_or_no_sector"
-					# 	parentanchor = hcenter
-					# 	margin_top = 10
-					# 	margin_bottom = 10
+					flowcontainer = {
+						name = "construction_sector_or_no_sector"
+						parentanchor = hcenter
+						margin_top = 10
+						margin_bottom = 10
 
 			
-					# 	datacontext_from_model = {
-					# 	    datamodel = "[ConstructionPanel.GetConstructionEntries]"
-					# 	    index = 0
-					# 	} 
+						datacontext_from_model = {
+						    datamodel = "[ConstructionPanel.GetConstructionEntries]"
+						    index = 0
+						} 
 
-					# 	# Construction Sector
-					# 	old_buildings_production_method_item = {
-					# 		#visible check in type
-					# 	}
+						# Construction Sector
+						old_buildings_production_method_item = {
+							#visible check in type
+						}
 
-					# 	# No Construction Sector
-					# 	widget = {
-					# 		size = { @panel_width_plus_14 95 }
-					# 		visible = "[IsDataModelEmpty(BuildingProductionMethodsEntry.GetBuildings)]"
-					# 		datacontext = "[GetBuildingType('fmc_building_construction_site')]"
+						# No Construction Sector
+						widget = {
+							size = { @panel_width_plus_14 95 }
+							visible = "[IsDataModelEmpty(BuildingProductionMethodsEntry.GetBuildings)]"
+							datacontext = "[GetBuildingType('building_construction_sector')]"
 
 
-					#     	### building icon
-					#     	icon = {
-					#     		texture = "[BuildingType.GetTexture]"
-					#     		enabled = no
-					#     		size = { 100 100 }
-					#     		position = { 7 0 }
-					#     		parentanchor = vcenter
-					#     	}
+					    	### building icon
+					    	icon = {
+					    		texture = "[BuildingType.GetIcon]"
+					    		enabled = no
+					    		size = { 100 100 }
+					    		position = { 7 0 }
+					    		parentanchor = vcenter
+					    	}
 
-					# 		### DROPDOWN / EXPAND
-					# 		textbox = {
-					# 			position = { 110 0 }
-					# 			size = { 440 38 }
+							### DROPDOWN / EXPAND
+							textbox = {
+								position = { 110 0 }
+								size = { 440 38 }
 								
-					# 			raw_text = "CONSTRUCTION_QUEUE_NO_CONSTRUCTION_SECTOR"
+								raw_text = "CONSTRUCTION_QUEUE_NO_CONSTRUCTION_SECTOR"
 
-					# 			align = nobaseline
-					# 			margin = {10 0}
+								align = nobaseline
+								margin = {10 0}
 
-					# 			using = empty_state_text_properties
-					# 			using = fontsize_large	
+								using = empty_state_text_properties
+								using = fontsize_large	
 										
-					# 			background = {
-					# 				using = entry_bg_simple
-					# 			}					
-					# 		}
+								background = {
+									using = entry_bg_simple
+								}					
+							}
 
-					# 		# INFO AREA BELOW THE DROPDOWN
-					# 		widget = {
-					# 			position = { 110 38 }
-					# 			size = { 440 57 }
+							# INFO AREA BELOW THE DROPDOWN
+							widget = {
+								position = { 110 38 }
+								size = { 440 57 }
 
-					# 			construction_queue_sector_actions = {
-					# 				layoutpolicy_horizontal = expanding
-					# 				layoutpolicy_vertical = expanding
-					# 			}
+								construction_queue_sector_actions = {
+									layoutpolicy_horizontal = expanding
+									layoutpolicy_vertical = expanding
+								}
 								
-					# 		}
-					# 	}
-					# }
+							}
+						}
+					}
 						
 	
 					datacontext = "[AccessPlayer]"
