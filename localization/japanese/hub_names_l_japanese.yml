@@ -6,7 +6,7 @@
   # HUB_NAME_STATE_^^_farm: "農場"
   # HUB_NAME_STATE_^^_wood: "森林"
   
-  # =======北海道
+# =======北海道
   HUB_NAME_STATE_HAKODATE_city: "函館"
   HUB_NAME_STATE_HAKODATE_port: ""
   HUB_NAME_STATE_HAKODATE_mine: "茅部"
@@ -119,7 +119,7 @@
   # HUB_NAME_STATE_OSYAMAMBE_farm: "農場"
   # HUB_NAME_STATE_OSYAMAMBE_wood: "森林"
 
-  # =======南関東
+# =======南関東
   # 神奈川県
   HUB_NAME_STATE_KAWASAKI_city: "川崎"
   HUB_NAME_STATE_KAWASAKI_port: "港湾"
@@ -295,7 +295,7 @@
   HUB_NAME_STATE_INBA_farm: "成田"
   HUB_NAME_STATE_INBA_wood: "印西"
   
-  # =======北関東
+# =======北関東
   # 群馬県
   HUB_NAME_STATE_TOMOU_city: "太田"
   HUB_NAME_STATE_TOMOU_mine: "館林"
@@ -388,7 +388,7 @@
   HUB_NAME_STATE_KOGA_farm: "結城"
   HUB_NAME_STATE_KOGA_wood: "坂東"
   
-  # =======関西
+# =======関西
   # 京都府  
   HUB_NAME_STATE_TANGO_city: "与謝野"
   HUB_NAME_STATE_TANGO_port: "宮津"
@@ -495,7 +495,7 @@
   HUB_NAME_STATE_TAJIMA_farm: "城崎"
   HUB_NAME_STATE_TAJIMA_wood: "浜崎"
   
-  # =======東海
+# =======東海
   # 愛知県
   HUB_NAME_STATE_IZU_city: "三島"
   HUB_NAME_STATE_IZU_port: "熱海"
@@ -515,15 +515,44 @@
   HUB_NAME_STATE_SIZUOKA_farm: "島田"
   HUB_NAME_STATE_SIZUOKA_wood: "清水"
   
-  # =======中部
+# =======中部
   # 新潟県
   HUB_NAME_STATE_SADO_city: "都市"
   HUB_NAME_STATE_SADO_port: "港湾"
   HUB_NAME_STATE_SADO_mine: "鉱山"
   HUB_NAME_STATE_SADO_farm: "農場"
   HUB_NAME_STATE_SADO_wood: "森林"
+
+  # 福井県
+  HUB_NAME_STATE_FUKUI_city: "福井"
+  HUB_NAME_STATE_FUKUI_port: ""
+  HUB_NAME_STATE_FUKUI_mine: "鯖江"
+  HUB_NAME_STATE_FUKUI_farm: "あわら"
+  HUB_NAME_STATE_FUKUI_wood: "坂井"
   
+  HUB_NAME_STATE_OKUETSU_city: ""
+  HUB_NAME_STATE_OKUETSU_mine: "鉱山"
+  HUB_NAME_STATE_OKUETSU_farm: "農場"
+  HUB_NAME_STATE_OKUETSU_wood: "森林"
+
+  HUB_NAME_STATE_TANNAN_city: "都市"
+  HUB_NAME_STATE_TANNAN_port: "港湾"
+  HUB_NAME_STATE_TANNAN_mine: "鉱山"
+  HUB_NAME_STATE_TANNAN_farm: "農場"
+  HUB_NAME_STATE_TANNAN_wood: "森林"
+
+  HUB_NAME_STATE_WAKASA_city: "都市"
+  HUB_NAME_STATE_WAKASA_port: "港湾"
+  HUB_NAME_STATE_WAKASA_mine: "鉱山"
+  HUB_NAME_STATE_WAKASA_farm: "農場"
+  HUB_NAME_STATE_WAKASA_wood: "森林"
+
   # 長野県
+  HUB_NAME_STATE_NAGANO_city: "長野"
+  HUB_NAME_STATE_NAGANO_mine: "須坂"
+  HUB_NAME_STATE_NAGANO_farm: "豊野"
+  HUB_NAME_STATE_NAGANO_wood: "川中島"
+
   HUB_NAME_STATE_SUWA_city: "上諏訪"
   HUB_NAME_STATE_SUWA_mine: "岡谷"
   HUB_NAME_STATE_SUWA_farm: "茅野"
@@ -555,7 +584,7 @@
   HUB_NAME_STATE_KYONAN_farm: "身延"
   HUB_NAME_STATE_KYONAN_wood: "内船"
   
-  # =======東北
+# =======東北
   # 青森県  
   HUB_NAME_STATE_AOMORI_city: "青森"
   HUB_NAME_STATE_AOMORI_port: "今別"
@@ -735,7 +764,8 @@
   HUB_NAME_STATE_MINAMIAIZU_mine: "只見"
   HUB_NAME_STATE_MINAMIAIZU_farm: "金山"
   HUB_NAME_STATE_MINAMIAIZU_wood: "檜枝岐"
-  # =======九州
+
+# =======九州
   # 福岡県
 
   # 佐賀県

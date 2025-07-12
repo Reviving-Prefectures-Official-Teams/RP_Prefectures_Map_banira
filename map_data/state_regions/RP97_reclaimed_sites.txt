@@ -3,84 +3,104 @@
 STATE_HACHIROHGATA = {
     id = 3200
     provinces = { "x03D4D0" "x04C826" "x1CAB2F" "x1CAB30" "x1D1A03" "x217DEF" "x28268D" "x3090BB" "x3E81B4" "x3FF795" "x60B61E" "x6F830E" "x82D218" "xB6545B" "xC1D609" "xC3ABE5" "xD5D46A" "xD5DC9C" "xD9B88C" "xE4EEB1" "xE6166B" }
+    city = "x03D4D0"
+
 }
 #アメリカ本土
 STATE_RECLAIMED_001 = {
     id = 3201
     provinces = { "x35CA23" }
+    city = "x35CA23"
 }
 #ソビエト本土
 STATE_RECLAIMED_002 = {
     id = 3202
     provinces = { "x334F1F" }
+    city = "x334F1F"
 }
 #東京湾埋立地1
 STATE_TOKYOWAN_1 = {
     id = 3203
     provinces = { "x08D632" "x3090BC" "x82D219" "xAA4D41" "xB08D2D" }
+    city = "x08D632"
+
 }
 #東京湾埋立地2
 STATE_TOKYOWAN_2 = {
     id = 3204
     provinces = { "x012488" "x22EF86" "x37C2D0" "x408732" "x47F3E5" "x695453" "x70AADC" "x7148C8" "x869073" "x9C46B5" "x9D5011" "x9F88E4" "xAAE339" "xAFD589" "xBE95E8" "xC8F40B" "xCDD7E9" "xD523FF" "xF09616" }
+    city = "x012488"
 }
 #大阪湾埋立地1
 STATE_OSAKAWAN_1 = {
     id = 3205
     provinces = { "x2538F8" "x54E6F1" "x57CDE7" "x595524" "x62BE50" "x739FF7" "x7D27DB" "x88FCB4" "x9B68F7" "xA935BD" "xCBD9A1" "xD10B83" "xD57EE2" "xD5F562" "xEA916E" "xEB99CA" "xF27AF5" }
+    city = "x2538F8"
 }
 #大阪湾埋立地2
 STATE_OSAKAWAN_2 = {
     id = 3206
     provinces = { "x000028" "x457C03" "x722409" "x7AADCA" "x99BB34" "x99BB35" "xAC0D0F" "xB403DE" "xBF9AC5" "xBFF061" "xD19B63" "xE3A9D6" "xF76A74" }
+    city = "x000028"
 }
 #中東
 STATE_RECLAIMED_007 = {
     id = 3207
     provinces = { "xF347EF" }
+    city = "xF347EF"
+
 }
 #韓国
 STATE_RECLAIMED_008 = {
     id = 3208
     provinces = { "x5359AB" }
+    city = "x5359AB"
 }
 #中国
 STATE_RECLAIMED_009 = {
     id = 3209
     provinces = { "x028186" }
+    city = "x028186"
 }
 #オーストラリア
 STATE_RECLAIMED_010 = {
     id = 3210
     provinces = { "xE057CA" }
+    city = "xE057CA"
 }
 #東南アジア
 STATE_RECLAIMED_011 = {
     id = 3211
     provinces = { "x72FE9F" }
+    city = "x72FE9F"
 }
 #インド
 STATE_RECLAIMED_012 = {
     id = 3212
     provinces = { "x28739A" }
+    city = "x28739A"
 }
 #アラブ世界
 STATE_RECLAIMED_013 = {
     id = 3213
     provinces = { "x6F4027" }
+    city = "x6F4027"
 }
 #ヨーロッパ
 STATE_RECLAIMED_014 = {
     id = 3214
     provinces = { "x414CFA" }
+    city = "x414CFA"
 }
 #ラテンアメリカ
 STATE_RECLAIMED_015 = {
     id = 3215
     provinces = { "xC1A979" }
+    city = "xC1A979"
 }
 #アフリカ
 STATE_RECLAIMED_016 = {
     id = 3216
     provinces = { "xF7F14C" }
+    city = "xF7F14C"
 }
