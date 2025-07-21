@@ -222,6 +222,7 @@
 				culture = kaitakusha
 				size = 100
 			}
+		}
     }
     s:STATE_OSYAMAMBE = { #66584
         region_state:HOK = {

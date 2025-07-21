@@ -704,11 +704,11 @@ hamamatsu_standard_of_living_modifier_negative = {
 }
 shizuoka_standard_of_living_modifier_positive = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	state_shizuoka_standard_of_living_add = 1
+	state_sizuoka_standard_of_living_add = 1
 }
 shizuoka_standard_of_living_modifier_negative = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	state_shizuoka_standard_of_living_add = 1
+	state_sizuoka_standard_of_living_add = 1
 }
 
 #富士文化（沼津、御殿場、伊豆、甲府、富士）

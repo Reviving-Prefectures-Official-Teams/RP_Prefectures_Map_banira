@@ -678,7 +678,7 @@ state_hamamatsu_standard_of_living_add = {
 	}
 }
 
-state_shizuoka_standard_of_living_add = {
+state_sizuoka_standard_of_living_add = {
 	decimals=1
 	color=good
 	game_data={

@@ -4,7 +4,7 @@ SHZ = {
 	country_type = recognized
 	tier = kingdom
 	cultures = { shizuoka }
-	capital = STATE_SHIZUOKA
+	capital = STATE_SIZUOKA
 }
 # 愛知県
 AIC = {

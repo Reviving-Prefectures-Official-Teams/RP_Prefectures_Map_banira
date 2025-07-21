@@ -3,7 +3,7 @@
 # # 北海道
 region_hokkaido = {
 	graphical_culture = "asian"
-	capital_province = x000000
+	capital_province = xB8C8C7
 	map_color = { 0.1 0.1 0.1 }
 	states =
 	{
@@ -15,7 +15,7 @@ region_hokkaido = {
 # 東北地方
 region_south_tohoku = {
 	graphical_culture = "asian"
-	capital_province = x000000
+	capital_province = x66E7B6
 	map_color = { 0.1 0.7 0.7 }
 	states =
 	{
@@ -103,7 +103,7 @@ region_chubu = {
 		# 岐阜県
 		STATE_GIFU STATE_HIDA STATE_CHUNO STATE_TONO STATE_SEINO
 		# 山梨県
-		STATE_YAMANASHI STATE_KYOTOH STATE_KYONAN STATE_CHUHOKU STATE_FUJIHIGASHI
+		STATE_YAMANASHI  STATE_KYONAN STATE_CHUHOKU STATE_FUJIHIGASHI
 	}
 }
 # 東海地方

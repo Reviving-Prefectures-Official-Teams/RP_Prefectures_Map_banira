@@ -121,7 +121,7 @@ STATES = {
 	s:STATE_UESHIMA = {
 		create_state = {
 			country = c:EHI
-			owned_provinces = { "x000000" "x85ECD2" "x89E5AA" "xA3F392" "xA4C8B2" "xB3FB9E" "xE556EE" "xF9EA3F" }
+			owned_provinces = { "x85ECD2" "x89E5AA" "xA3F392" "xA4C8B2" "xB3FB9E" "xE556EE" "xF9EA3F" }
 		}
 		add_homeland = cu:imabari
 	}

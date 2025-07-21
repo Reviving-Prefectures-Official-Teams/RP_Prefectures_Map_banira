@@ -216,7 +216,7 @@ STATES = {
 	s:STATE_KUJYUKURI = {
 		create_state = {
 			country = c:CHB
-    		owned_provinces = { "x000000" "x37DDE2" "x64C5EC" "x64CECA" "x65ECDF" "x7CE8A3" "x7CE8A3" "x82DDCD" "x8DF7AA" "x94BDF4" "x94D0C0" "xA5C29F" "xAFD1C5" "xB2C7DA" "xB694F4" "xBD46FC" "xBDC9CB" "xBDE185" "xC0B1A6" "xC2D488" "xCAB4B1" "xD563D6" "xE2F473" "xE450FB" "xE5E6CB" "xE6A8FC" "xECDAB5" "xF0F753" "xF5987E" "xF8FB48" "xFBE6F2" "xFCE28F" }
+    		owned_provinces = { "x37DDE2" "x64C5EC" "x64CECA" "x65ECDF" "x7CE8A3" "x7CE8A3" "x82DDCD" "x8DF7AA" "x94BDF4" "x94D0C0" "xA5C29F" "xAFD1C5" "xB2C7DA" "xB694F4" "xBD46FC" "xBDC9CB" "xBDE185" "xC0B1A6" "xC2D488" "xCAB4B1" "xD563D6" "xE2F473" "xE450FB" "xE5E6CB" "xE6A8FC" "xECDAB5" "xF0F753" "xF5987E" "xF8FB48" "xFBE6F2" "xFCE28F" }
 		}
 		add_homeland = cu:narita
 	}
