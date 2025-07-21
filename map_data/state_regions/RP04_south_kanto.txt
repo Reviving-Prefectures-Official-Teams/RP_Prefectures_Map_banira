@@ -283,11 +283,11 @@ STATE_IZU_ISLAND = {
     #伊豆諸島
     id = 16
     provinces = { "x4DCDFC" "x60D7D8" "x9AC7CD" "xA3C3A2" "xAFFCBB" "xD4D2AD" "xE4DC7A" "xFAB651" }
-    city = "x"
-    port = "x"
-    farm = "x"
-    mine = "x"
-    wood = "x"
+    city = "xE4DC7A"
+    port = "xE4DC7A"
+    farm = "x9AC7CD"
+    mine = "xD4D2AD"
+    wood = "x4DCDFC"
     arable_land = 5
     arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
     capped_resources = {
@@ -296,7 +296,7 @@ STATE_IZU_ISLAND = {
     naval_exit_id = 3001
 }
 STATE_HACHIJO = {
-    #八条島
+    #八丈島
     id = 17
     provinces = { "x68D7F6" "xF4E5DB" "xFCF913" }
     city = "xF4E5DB"
@@ -550,7 +550,7 @@ STATE_EAST_KATSUSHIKA = {
 STATE_KUJYUKURI = {
     #九十九里
     id = 32
-    provinces = { "x000000" "x37DDE2" "x64C5EC" "x64CECA" "x65ECDF" "x7CE8A3" "x7CE8A3" "x82DDCD" "x8DF7AA" "x94BDF4" "x94D0C0" "xA5C29F" "xAFD1C5" "xB2C7DA" "xB694F4" "xBD46FC" "xBDC9CB" "xBDE185" "xC0B1A6" "xC2D488" "xCAB4B1" "xD563D6" "xE2F473" "xE450FB" "xE5E6CB" "xE6A8FC" "xECDAB5" "xF0F753" "xF5987E" "xF8FB48" "xFBE6F2" "xFCE28F" }
+    provinces = { "x37DDE2" "x64C5EC" "x64CECA" "x65ECDF" "x7CE8A3" "x7CE8A3" "x82DDCD" "x8DF7AA" "x94BDF4" "x94D0C0" "xA5C29F" "xAFD1C5" "xB2C7DA" "xB694F4" "xBD46FC" "xBDC9CB" "xBDE185" "xC0B1A6" "xC2D488" "xCAB4B1" "xD563D6" "xE2F473" "xE450FB" "xE5E6CB" "xE6A8FC" "xECDAB5" "xF0F753" "xF5987E" "xF8FB48" "xFBE6F2" "xFCE28F" }
     traits = { "state_trait_kantou_heiya" "state_trait_tone_gawa" }
     city = "xBDC9CB"
     port = "xBDC9CB"

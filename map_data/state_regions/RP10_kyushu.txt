@@ -305,7 +305,6 @@ STATE_ASO = {
         bg_logging = 20
         bg_sulfur_mining = 20
         bg_cryptomeria_forest = 15
-
     }
 }
 STATE_KAMIMASHIKI = {
@@ -693,6 +692,8 @@ STATE_DAITOH_SHOTOH = {
     #大東諸島
     id = 242
     provinces = { "x81ADEF" "xEAEBB7" }
+    city = "x81ADEF"
+    port = "x81ADEF"
     arable_land = 5
     arable_resources = { "bg_tea_plantations" "bg_rice_farms" "bg_livestock_ranche" "bg_sugar_plantations" "bg_dye_plantations" }
     capped_resources = {
@@ -758,6 +759,8 @@ STATE_KUME_SHOTOH = {
     #久米島
     id = 246
     provinces = { "x4FF8FB" "x94BCF8" "xBA48FC" "xBD8CF5" }
+    city = "x4FF8FB"
+    port = "x4FF8FB"
     arable_land = 4
     arable_resources = { "bg_tea_plantations" "bg_rice_farms" "bg_livestock_ranche" "bg_sugar_plantations" "bg_dye_plantations" }
     capped_resources = {
@@ -771,6 +774,8 @@ STATE_SENTAN_SHOTOH = {
     id = 247
     provinces = { "x3BEBEA" "x42E1F5" "x82DDB5" "x87C1F3" "x9193EB" "x92E0A2" "xA8B2B5" "xB4DF87" "xCB67DC" "xCD8DBB" "xE89DD1" "xE9C661" "xEB8687" "xF8F66E" }
     arable_land = 12
+    city = "x3BEBEA"
+    port = "x3BEBEA"
     arable_resources = { "bg_tea_plantations" "bg_rice_farms" "bg_livestock_ranche" "bg_sugar_plantations" "bg_dye_plantations" }
     capped_resources = {
         bg_cryptomeria_forest = 15
@@ -782,6 +787,8 @@ STATE_SENKAKU_SHOTOH = {
     #尖閣諸島
     id = 248
     provinces = { "xB46BF3" }
+    city = "xB46BF3"
+    port = "xB46BF3"
     arable_land = 2
     arable_resources = { "bg_tea_plantations" "bg_rice_farms" "bg_sugar_plantations" "bg_dye_plantations" }
     capped_resources = {

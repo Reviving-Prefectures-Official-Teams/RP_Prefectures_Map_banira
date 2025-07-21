@@ -3,6 +3,11 @@ STATE_YAMAGUCHI = {
     #山口
     id = 143
     provinces = { "x49F5D9" "x4DE8F6" "x63E5BE" "x63F0DF" "x70E2D4" "x84C6D4" "x86DAC5" "x98B8EC" "xA1DA86" "xAEAAF5" "xAFE39D" "xB0D3CA" "xB5F6E6" "xBAD7C1" "xC2A98B" "xC35AF1" "xD58DC4" "xD77CE9" "xD9A4C9" "xDE71CC" "xDEAAF9" "xE19D7A" "xE5E8A8" "xE8E870" "xE94CE0" "xEDD8EA" "xF232DD" "xF235D0" "xF995CC" "xFB37DC" "xFCC5E4" }
+    city = "x"
+    port = "x"
+    farm = "x"
+    mine = "x"
+    wood = "x"
     arable_land = 35
     arable_resources = { "bg_rice_farms" "bg_tea_plantations" }
     capped_resources = {
@@ -589,7 +594,7 @@ STATE_NANYO = {
 STATE_UESHIMA = {
     #上島
     id = 185
-    provinces = { "x000000" "x85ECD2" "x89E5AA" "xA3F392" "xA4C8B2" "xB3FB9E" "xE556EE" "xF9EA3F" }
+    provinces = { "x85ECD2" "x89E5AA" "xA3F392" "xA4C8B2" "xB3FB9E" "xE556EE" "xF9EA3F" }
     arable_land = 8
     arable_resources = { "bg_rice_farms" }
     capped_resources = {
@@ -631,7 +636,7 @@ STATE_SEYO = {
 STATE_KOCHI = {
     #高知
     id = 186
-    provinces = { "x000000" "x39E3DE" "x8BDBED" "xA0E27E" "xA6D6FE" "xB3C1A8" "xD1B396" "xE6CBE6" "xF3CDF9" }
+    provinces = { "x39E3DE" "x8BDBED" "xA0E27E" "xA6D6FE" "xB3C1A8" "xD1B396" "xE6CBE6" "xF3CDF9" }
     arable_land = 18
     arable_resources = { "bg_rice_farms" "bg_dye_plantations" }
     capped_resources = {

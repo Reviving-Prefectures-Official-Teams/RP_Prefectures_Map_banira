@@ -301,6 +301,8 @@ STATE_HABOMAI = {
     #歯舞
     id = 296
     provinces = { "x82FBA4" "xCBE080" "xD3B6A4" "xF156C2" "xF2FD39" "xF7F439" }
+    city = "xF7F439"
+    port = "xF7F439"
     arable_resources = { "bg_rice_farms" "bg_wheat_farms" "bg_vegetable_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
     capped_resources = {}
     naval_exit_id = 3050
@@ -309,6 +311,11 @@ STATE_KUNASHIRI = {
     #国後
     id = 297
     provinces = { "x75BDFB" "x7F7FF9" "x82D7EF" "xA5FDD7" "xBAF84B" "xC7EACE" "xCC7CF7" "xCCBCEF" "xD3FE7C" "xD8B37A" "xDC8FFC" "xDEDAE7" "xE883E0" "xF45EEA" "xF8F6E7" }
+    city = "xDC8FFC"
+    port = "xDC8FFC"
+    farm = "xCC7CF7"
+    mine = "xE883E0"
+    wood = "xF8F6E7"
     arable_resources = { "bg_rice_farms" "bg_wheat_farms" "bg_vegetable_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
     capped_resources = {}
     naval_exit_id = 3050
