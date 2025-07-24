@@ -8,7 +8,7 @@ BUILDINGS={
                 building="building_government_administration"
                 add_ownership = {
                     country = {
-                        country="c:TTS"
+                        country = "c:TTR"
                         levels=1
                     }
                 }

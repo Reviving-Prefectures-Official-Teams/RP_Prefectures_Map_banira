@@ -43,7 +43,7 @@ YAE = {
 	#religion = shinto
 	
 	cultures = { yaeyama }
-	capital = STATE_YAEYAMA_GUNTOH
+	capital = STATE_SENTAN_SHOTOH
 }
 
 DAT = {

@@ -52,6 +52,10 @@ bg_manor_houses = {
 	parent_group = bg_owner_buildings
 }
 
+bg_company_headquarter = {
+	parent_group = bg_owner_buildings
+}
+
 #投資ファンド: 機関投資家
 bg_investors_fund = {
 	parent_group = bg_owner_buildings

@@ -26,7 +26,7 @@ STATES = {
 		add_homeland = cu:etorofu
 		add_homeland = cu:ainu
 		add_homeland = cu:oroch
-		add_homeland = cu:nivlh
+		# add_homeland = cu:nivlh
 	}
     s:STATE_KUNASHIRI = {
         create_state = {
@@ -36,7 +36,7 @@ STATES = {
 		add_homeland = cu:etorofu
 		add_homeland = cu:ainu
 		add_homeland = cu:oroch
-		add_homeland = cu:nivlh
+		# add_homeland = cu:nivlh
 	}
     s:STATE_ETOROFU = {
         create_state = {
@@ -46,7 +46,7 @@ STATES = {
 		add_homeland = cu:etorofu
 		add_homeland = cu:ainu
 		add_homeland = cu:oroch
-		add_homeland = cu:nivlh
+		# add_homeland = cu:nivlh
 	}
 	
 }

@@ -5358,28 +5358,28 @@ ai_strategy_default = {
 		conquer = {
 			value = 0
 
-			if = {
-				limit = { has_je_conquest_reason = { TARGET = scope:target_country } }
-				add = 10000
-			}
+			# if = {
+			# 	limit = { has_je_conquest_reason = { TARGET = scope:target_country } }
+			# 	add = 10000
+			# }
 
-			if = {
-				limit = {
-					scope:target_country = {
-						has_journal_entry = je_peru_bolivia
-					}
-					OR = {
-						country_has_primary_culture = cu:south_andean
-						country_has_primary_culture = cu:north_andean
-						country_has_primary_culture = cu:platinean
-						country_has_primary_culture = cu:argentine
-						country_has_primary_culture = cu:chilean
-						country_has_primary_culture = cu:colombian
-						country_has_primary_culture = cu:ecuadorian
-					}
-				}
-				add = 100
-			}
+			# if = {
+			# 	limit = {
+			# 		scope:target_country = {
+			# 			has_journal_entry = je_peru_bolivia
+			# 		}
+			# 		OR = {
+			# 			country_has_primary_culture = cu:south_andean
+			# 			country_has_primary_culture = cu:north_andean
+			# 			country_has_primary_culture = cu:platinean
+			# 			country_has_primary_culture = cu:argentine
+			# 			country_has_primary_culture = cu:chilean
+			# 			country_has_primary_culture = cu:colombian
+			# 			country_has_primary_culture = cu:ecuadorian
+			# 		}
+			# 	}
+			# 	add = 100
+			# }
 
 			if = {
 				limit = {

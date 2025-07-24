@@ -448,7 +448,7 @@ BUILDINGS={
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:NAG"
+						country="c:NGS"
 						levels=1
 					}
 				}
@@ -521,7 +521,7 @@ BUILDINGS={
                 }
                 reserves=1
                 activate_production_methods={ "pm_small_port" }
-            }vv
+            }
         }
     }
     s:STATE_SASEBO = {

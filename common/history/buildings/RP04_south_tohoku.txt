@@ -185,7 +185,7 @@ BUILDINGS={
 				building="building_government_administration"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+				activate_production_methods={ "pm_conventional_administration" }
             }
         }
     }
@@ -195,7 +195,7 @@ BUILDINGS={
 				building="building_government_administration"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+				activate_production_methods={ "pm_conventional_administration" }
             }
         }
     }
@@ -205,7 +205,7 @@ BUILDINGS={
 				building="building_government_administration"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+				activate_production_methods={ "pm_conventional_administration" }
             }
         }
     }
@@ -215,7 +215,7 @@ BUILDINGS={
 				building="building_government_administration"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+				activate_production_methods={ "pm_conventional_administration" }
             }
         }
     }
@@ -225,7 +225,7 @@ BUILDINGS={
 				building="building_government_administration"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+				activate_production_methods={ "pm_conventional_administration" }
             }
         }
     }
@@ -235,7 +235,7 @@ BUILDINGS={
 				building="building_government_administration"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+				activate_production_methods={ "pm_conventional_administration" }
             }
         }
     }
@@ -277,7 +277,7 @@ BUILDINGS={
 				building="building_government_administration"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+				activate_production_methods={ "pm_conventional_administration" }
             }
         }
     }
@@ -287,7 +287,7 @@ BUILDINGS={
 				building="building_government_administration"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+				activate_production_methods={ "pm_conventional_administration" }
             }
             ###infrastracture
             create_building={
@@ -309,7 +309,7 @@ BUILDINGS={
 				building="building_government_administration"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+				activate_production_methods={ "pm_conventional_administration" }
             }
         }
     }

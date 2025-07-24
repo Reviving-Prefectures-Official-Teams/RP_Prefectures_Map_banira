@@ -174,1713 +174,1713 @@
 #ガイアナ危機 2023年10月23日
 #アルツァフ共和国崩壊 2024年1月1日
 
-rpwn_korean_war = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 25
-	color = neutral
-}
-
-#サンフランシスコ平和条約締結 1951年9月8日
-rpwn_san_francisco_treaty = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 8
-	color = neutral
-}
-
-#水爆実験 1952年3月1日
-rpwn_hydrogen_bomb_test = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 1
-	color = neutral
-}
-
-#ドイツによるイスラエルへの賠償支払い 1952年3月18日
-rpwn_german_war_reparations = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 18
-	color = neutral
-}
-
-#朝鮮戦争終結 1953年7月27日
-rpwn_korean_war_end = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 27
-	color = neutral
-}
-
-#ドミノ理論 1954年4月7日
-rpwn_domino_theory = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 7
-	color = neutral
-}
-
-#アルジェリア反乱 1954年11月1日
-rpwn_algerian_revolt = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 1
-	color = neutral
-}
-
-#ノーチラス号潜水 1954年8月3日
-rpwn_nautilus_submarine = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 3
-	color = neutral
-}
-
-#ワルシャワ条約機構成立 1955年5月14日
-rpwn_warsaw_pact_formation = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 14
-	color = neutral
-}
-
-#フルシチョフのスターリン批判演説 1956年2月25日
-rpwn_khrushchev_speech = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 25
-	color = neutral
-}
-
-#スエズ危機 1956年10月29日
-rpwn_suez_crisis = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 29
-	color = neutral
-}
-
-#日ソ共同宣言 1956年12月19日
-rpwn_japan_soviet_union_joint_declaration = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 19
-	color = neutral
-}
-
-#スプートニク1号打ち上げ 1957年10月4日
-rpwn_sputnik_launch = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 4
-	color = neutral
-}
-
-#ドゴールの再選 1958年12月21日
-rpwn_de_gaulle_re_election = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 21
-	color = neutral
-}
-
-#ポリオワクチンの開発 1959年4月12日
-rpwn_polio_vaccine_development = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 12
-	color = neutral
-}
-
-#アドルフ・アイヒマン逮捕 1960年5月23日
-rpwn_adolf_eichmann_arrest = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 23
-	color = neutral
-}
-
-#IRA暴動 1959年8月15日
-rpwn_ira_riots = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 15
-	color = neutral
-}
-
-#植民地独立付与宣言 1960年12月14日 （アフリカの年）
-rpwn_decolonization_declaration = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 14
-	color = neutral
-}
-
-#ガガーリン宇宙飛行士打ち上げ 1961年4月12日
-rpwn_gagarin_orbit = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 12
-	color = neutral
-}
-
-#ピッグス湾事件 1961年4月17日
-rpwn_bay_of_pigs_invasion = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 17
-	color = neutral
-}
-
-#アルジェリア独立宣言 1962年7月3日
-rpwn_algerian_independence = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 3
-	color = neutral
-}
-
-#ネルソン・マンデラ逮捕 1962年8月5日
-rpwn_nelson_mandela_arrest = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 5
-	color = neutral
-}
-
-#キューバ危機 1962年10月16日
-rpwn_cuban_missile_crisis = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 16
-	color = neutral
-}
-
-#米ソホットライン開設 1963年8月30日
-rpwn_hotline_establishment = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 30
-	color = neutral
-}
-
-#フランスによる核実験 1964年2月13日
-rpwn_french_nuclear_test = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 13
-	color = neutral
-}
-
-#中国による核実験 1964年10月16日
-rpwn_chinese_nuclear_test = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 16
-	color = neutral
-}
-
-#ベトナム戦争 1965年3月8日
-rpwn_vietnam_war = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 8
-	color = neutral
-}
-
-#文化大革命 1966年5月16日
-rpwn_cultural_revolution = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 16
-	color = neutral
-}
-
-#アポロ11号月面着陸 1969年7月20日
-rpwn_apollo_11_moon_landing = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 20
-	color = neutral
-}
-
-#マイクロプロセッサの発明 1969年11月15日
-rpwn_microprocessor_invention = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 15
-	color = neutral
-}
-
-#ニクソン・ショック 1971年8月15日
-rpwn_nixon_shock = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 15
-	color = neutral
-}
-
-#ウォーターゲート事件 1972年6月17日
-rpwn_watergate_scandal = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 17
-	color = neutral
-}
-
-#日中平和友好条約締結 1972年8月12日
-rpwn_japan_china_peace_treaty = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 12
-	color = neutral
-}
-
-#ピノチェト政権成立 1973年9月11日
-rpwn_pinochet_coup = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 11
-	color = neutral
-}
-
-#石油危機 1973年10月17日
-rpwn_oil_crisis = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 17
-	color = neutral
-}
-
-#小野田少尉発見 1974年3月10日
-rpwn_second_lieutenant_onoda = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 10
-	color = neutral
-}
-
-#インド地下核実験 1974年5月18日
-rpwn_indian_nuclear_test = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 18
-	color = neutral
-}
-
-#ベトナム戦争終結 1975年4月30日
-rpwn_vietnam_war_end = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 30
-	color = neutral
-}
-
-#ポルトガル植民地独立 1975年11月25日
-rpwn_portuguese_colonial_independence = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 25
-	color = neutral
-}
-
-#ソウェト蜂起 1976年6月16日
-rpwn_soweto_uprising = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 16
-	color = neutral
-}
-
-#米ソ200海里漁業協定 1977年3月24日
-rpwn_us_soviet_fisheries_agreement = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 24
-	color = neutral
-}
-
-#アフガニスタン4月革命 1978年4月27日
-rpwn_afghan_april_revolution = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 27
-	color = neutral
-}
-
-#第一回国連軍縮特別総会 1978年6月12日
-rpwn_un_special_session_on_disarmament = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 12
-	color = neutral
-}
-
-#日中平和友好条約締結 1978年8月12日
-rpwn_japan_china_peace_treaty_2 = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 12
-	color = neutral
-}
-
-#イラン革命 1979年2月11日
-rpwn_iranian_revolution = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 11
-	color = neutral
-}
-
-#朴正煕大統領暗殺 1979年10月26日
-rpwn_park_chung_hee_assassination = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 26
-	color = neutral
-}
-
-#全斗煥によるクーデター 1979年12月12日
-rpwn_chun_doo_hwan_coup = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 12
-	color = neutral
-}
-
-#ムガベ大統領就任 1980年4月18日
-rpwn_robert_mugabe_presidency = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 18
-	color = neutral
-}
-
-#チトー大統領死去 1980年5月4日
-rpwn_tito_death = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 4
-	color = neutral
-}
-
-#モスクワオリンピックボイコット 1980年7月19日
-rpwn_moscow_olympics_boycott = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 19
-	color = neutral
-}
-
-#ポーランド民主化運動 1980年8月14日
-rpwn_polish_solidarity_movement = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 14
-	color = neutral
-}
-
-#トルコ軍事クーデター 1980年9月12日
-rpwn_turkish_coup = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 12
-	color = neutral
-}
-
-#イラン・イラク戦争開戦 1980年9月22日
-rpwn_iran_iraq_war_start = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 22
-	color = neutral
-}
-
-#エイズ発見 1981年6月5日
-rpwn_aids_discovery = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 5
-	color = neutral
-}
-
-#文化大革命の否定 1981年6月29日
-rpwn_cultural_revolution_denounced = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 29
-	color = neutral
-}
-
-#アンゴラ侵攻 1981年8月28日
-rpwn_south_africa_angola_invasion = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 28
-	color = neutral
-}
-
-#フォークランド紛争 1982年4月2日
-rpwn_falklands_war = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 2
-	color = neutral
-}
-
-#レバノン内戦 1982年6月6日
-rpwn_lebanese_civil_war = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 6
-	color = neutral
-}
-
-#「悪の帝国」演説 1983年3月8日
-rpwn_evil_empire_speech = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 8
-	color = neutral
-}
-
-#グレナダ侵攻 1983年10月25日
-rpwn_grenada_invasion = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 25
-	color = neutral
-}
-
-#女子マラソンの五輪公式種目化 1984年8月5日
-rpwn_womens_marathon_olympic_event = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 5
-	color = neutral
-}
-
-#香港返還交渉 1984年12月19日
-rpwn_hong_kong_handover_negotiations = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 19
-	color = neutral
-}
-
-#タイタニック号発見 1985年9月1日
-rpwn_titanic_discovery = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 1
-	color = neutral
-}
-
-#リビア空爆 1986年4月15日
-rpwn_libyan_airstrike = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 15
-	color = neutral
-}
-
-#チェルノブイリ原子力発電所事故 1986年4月26日
-rpwn_chernobyl_disaster = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 26
-	color = neutral
-}
-
-#ルドルフ・ヘス自殺 1987年8月17日
-rpwn_the_suicide_of_rudolf_hess = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 17
-	color = neutral
-}
-
-#第一インティファーダ 1987年12月9日
-rpwn_first_intifada = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 9
-	color = neutral
-}
-
-#アンゴラ・キューバ連合軍による南アフリカ撃退 1988年3月23日
-rpwn_cuban_angolan_war = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 23
-	color = neutral
-}
-
-#ナミビア独立宣言 1989年3月21日
-rpwn_namibian_independence = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 21
-	color = neutral
-}
-
-#イラン・イラク戦争終結 1988年8月20日
-rpwn_iran_iraq_war_end = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 20
-	color = neutral
-}
-
-#天安門事件 1989年6月4日
-rpwn_tiananmen_square_protests = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 4
-	color = neutral
-}
-
-#ベルリンの壁崩壊 1989年11月9日
-rpwn_berlin_wall_fall = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 9
-	color = neutral
-}
-
-#南アフリカによる核廃絶 1990年3月24日
-rpwn_south_african_nuclear_disarmament = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 24
-	color = neutral
-}
-
-#アルベルト・フジモリ大統領就任 1990年7月28日
-rpwn_alberto_fujimori_presidency = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 28
-	color = neutral
-}
-
-#クウェート侵攻 1990年8月2日
-rpwn_iraqi_invasion_of_kuwait = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 2
-	color = neutral
-}
-
-#ドイツ再統一 1990年10月3日
-rpwn_german_reunification = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 3
-	color = neutral
-}
-
-#国連軍によるイラク攻撃 1991年1月17日
-rpwn_gulf_war = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 17
-	color = neutral
-}
-
-#ソ連崩壊 1991年12月26日
-rpwn_dissolution_of_the_soviet_union = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 26
-	color = neutral
-}
-
-#ボスニア・ヘルツェゴビナ独立宣言 1992年3月3日
-rpwn_bosnian_independence = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 3
-	color = neutral
-}
-
-
-#アブハジア独立宣言 1992年8月25日
-rpwn_abkhazian_independence = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 25
-	color = neutral
-}
-
-#ガリレオ・ガリレイの誤審認定 1992年10月31日
-rpwn_galileo_galilei_inquisition = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 31
-	color = neutral
-}
-
-#チェコスロバキア分裂 1993年1月11日
-rpwn_czechoslovakia_dissolution = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 11
-	color = neutral
-}
-
-#EU発足 1993年11月1日
-rpwn_eu_founding = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 1
-	color = neutral
-}
-
-#NAFTA発効 1994年1月1日
-rpwn_nafta_founding = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 1
-	color = neutral
-}
-
-#ルワンダ虐殺 1994年4月6日
-rpwn_rwandan_genocide = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 6
-	color = neutral
-}
-
-#アパルトヘイト廃止 1994年4月27日
-rpwn_dismantling_aparthied = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 27
-	color = neutral
-}
-
-#ネルソン・マンデラ大統領就任 1994年5月10日
-rpwn_nelson_mandela_presidency = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 10
-	color = neutral
-}
-
-#フェルマーの最終定理証明 1994年6月23日
-rpwn_fermat_last_theorem_proof = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 23
-	color = neutral
-}
-
-#第一次チェチェン戦争 1994年12月11日
-rpwn_first_chechen_war = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 11
-	color = neutral
-}
-
-#Javaプログラミング言語発表 1995年5月23日
-rpwn_java_programming_language = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 23
-	color = neutral
-}
-
-#ポルトガル語圏共同体発足 1996年7月17日
-rpwn_cplp_founding = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 17
-	color = neutral
-}
-
-#香港返還 1997年7月1日
-rpwn_hong_kong_handover = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 1
-	color = neutral
-}
-
-#アジア通貨危機 1997年7月2日
-rpwn_asian_financial_crisis = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 2
-	color = neutral
-}
-
-#ASEAN発足 1997年12月15日
-rpwn_asean_founding = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 15
-	color = neutral
-}
-
-#コソボ紛争 1998年2月28日
-rpwn_kosovo_conflict = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 28
-	color = neutral
-}
-
-#スハルト政権崩壊 1998年5月21日
-rpwn_suharto_resignation = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 21
-	color = neutral
-}
-
-#日韓共同宣言 1998年10月8日
-rpwn_japan_south_korea_joint_declaration = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 8
-	color = neutral
-}
-
-#NATOによるユーゴスラビア空爆 1999年3月24日
-rpwn_nato_bombing_of_yugoslavia = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 24
-	color = neutral
-}
-
-#マカオ返還 1999年12月20日
-rpwn_macau_handover = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 20
-	color = neutral
-}
-
-#プーチン大統領就任 2000年5月7日
-rpwn_vladimir_putin_presidency = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 7
-	color = neutral
-}
-
-#第二次チェチェン戦争 2000年9月26日
-rpwn_second_chechen_war = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 26
-	color = neutral
-}
-
-#フジモリ政権崩壊 2000年11月17日
-rpwn_fujimori_resignation = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 17
-	color = neutral
-}
-
-#アメリカ同時多発テロ 2001年9月11日
-rpwn_september_11_attacks = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 11
-	color = neutral
-}
-
-#アフガニスタン侵攻 2001年10月7日
-rpwn_war_in_afghanistan = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 7
-	color = neutral
-}
-
-#東ティモール独立宣言 2002年5月20日
-rpwn_east_timor_independence = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 20
-	color = neutral
-}
-
-#日朝首脳会談 2002年9月17日
-rpwn_japan_north_korea_summit = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 17
-	color = neutral
-}
-
-#ダルフール紛争 2003年2月26日
-rpwn_darfur_conflict = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 26
-	color = neutral
-}
-
-#ルワンダ問題 2003年4月6日
-rpwn_rwandan_problem = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 6
-	color = neutral
-}
-
-#第二回日朝首脳会談 2004年5月22日
-rpwn_second_japan_north_korea_summit = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 22
-	color = neutral
-}
-
-#オレンジ革命 2004年11月22日
-rpwn_orange_revolution = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 22
-	color = neutral
-}
-
-#反分裂国家法 2005年3月14日
-rpwn_anti_secession_law = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 14
-	color = neutral
-}
-
-#日韓歴史共同研究委員会設立 2005年5月24日
-rpwn_japan_south_korea_history_commission = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 24
-	color = neutral
-}
-
-#日韓首脳会談 2005年6月20日
-rpwn_japan_south_korea_summit = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 20
-	color = neutral
-}
-
-#メルケル首相就任 2005年11月22日
-rpwn_angela_merkel_chancellorship = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 22
-	color = neutral
-}
-
-#モーツァルト生誕250年 2006年1月27日
-rpwn_mozart_250th_birthday = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 27
-	color = neutral
-}
-
-#モンテネグロ独立宣言 2006年5月21日
-rpwn_montenegrin_independence = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 21
-	color = neutral
-}
-
-#ロンドン旅客機爆破未遂事件 2006年8月10日
-rpwn_2006_transatlantic_aircraft_plot = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 10
-	color = neutral
-}
-
-#タイクーデター 2006年9月19日
-rpwn_2006_thai_coup = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 19
-	color = neutral
-}
-
-#iPhone発売 2007年6月29日
-rpwn_iphone_launch = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 29
-	color = neutral
-}
-
-#シーシェパードによる捕鯨船衝突 2007年12月17日
-rpwn_2007_whale_wars = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 17
-	color = neutral
-}
-
-#コソボ独立宣言 2008年2月17日
-rpwn_kosovo_independence = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 17
-	color = neutral
-}
-
-#カストロ大統領辞任 2008年2月19日
-rpwn_fidel_castro_resignation = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 19
-	color = neutral
-}
-
-#南オセチア紛争 2008年8月8日
-rpwn_2008_south_ossetia_war = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 8
-	color = neutral
-}
-
-#リーマンブラザーズ破綻 2008年9月15日
-rpwn_lehman_brothers_bankruptcy = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 15
-	color = neutral
-}
-
-#エチオピアがソマリアに侵攻 2008年12月24日
-rpwn_2008_ethiopian_invasion_of_somalia = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 24
-	color = neutral
-}
-
-#エチオピア撤退 2009年1月25日
-rpwn_2009_ethiopian_withdrawal_from_somalia = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 25
-	color = neutral
-}
-
-#プラハ演説 2009年4月5日
-rpwn_obama_prague_speech = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 5
-	color = neutral
-}
-
-#ウイグル騒乱 2009年7月5日
-rpwn_2009_urumqi_riots = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 5
-	color = neutral
-}
-
-#欧州債務危機 2010年5月2日
-rpwn_european_sovereign_debt_crisis = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 2
-	color = neutral
-}
-
-#アラブの春 2010年12月17日
-rpwn_arab_spring = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 17
-	color = neutral
-}
-
-#リビア内戦 2011年2月15日
-rpwn_libyan_civil_war = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 15
-	color = neutral
-}
-
-#アフリカ大戦 2011年12月15日
-rpwn_african_war = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 15
-	color = neutral
-}
-
-#シリア内戦 2011年3月15日
-rpwn_syrian_civil_war = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 15
-	color = neutral
-}
-
-#金正恩最高指導者就任 2012年12月17日
-rpwn_kim_jong_un_leadership = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 17
-	color = neutral
-}
-
-#竹島上陸事件 2012年8月10日
-rpwn_2012_dokdo_incident = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 10
-	color = neutral
-}
-
-#東海和平倡議 2012年9月7日
-rpwn_2012_east_china_sea_peace_initiative = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 7
-	color = neutral
-}
-
-#エジプトクーデター 2013年7月3日
-rpwn_2013_egyptian_coup = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 3
-	color = neutral
-}
-
-#一帯一路構想 2013年9月7日
-rpwn_belt_and_road_initiative = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 7
-	color = neutral
-}
-
-#ネルソン・マンデラ死去 2013年12月5日
-rpwn_nelson_mandela_death = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 5
-	color = neutral
-}
-
-#嫦娥3号月面着陸 2013年12月14日
-rpwn_chang_e_3_moon_landing = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 14
-	color = neutral
-}
-
-#ウクライナ危機 2014年2月20日
-rpwn_2014_ukraine_crisis = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 20
-	color = neutral
-}
-
-#ISIL台頭 2014年6月29日
-rpwn_rise_of_isil = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 29
-	color = neutral
-}
-
-#オバマ・カストロ会談 2015年4月11日
-rpwn_obama_castro_meeting = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 11
-	color = neutral
-}
-
-#SDGs採択 2015年9月25日
-rpwn_sustainable_development_goals = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 25
-	color = neutral
-}
-
-#パリ同時多発テロ 2015年11月13日
-rpwn_november_2015_paris_attacks = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 13
-	color = neutral
-}
-
-#重力波発見 2016年2月11日
-rpwn_discovery_of_gravitational_waves = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 11
-	color = neutral
-}
-
-#BREXIT投票 2016年6月23日
-rpwn_2016_brexit_referendum = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 23
-	color = neutral
-}
-
-#バハマ文書流出 2016年9月21日
-rpwn_panama_papers_leak = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 21
-	color = neutral
-}
-
-#金正男暗殺事件 2017年2月13日
-rpwn_kim_jong_nam_assassination = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 13
-	color = neutral
-}
-
-#日欧経済連携協定締結 2017年7月6日
-rpwn_eu_japan_trade_deal = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 6
-	color = neutral
-}
-
-#土星探査機カッシーニが土星大気圏へ突入 2017年9月15日
-rpwn_cassini_saturn_dive = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 15
-	color = neutral
-}
-
-#日米印豪安保協力 2017年11月12日
-rpwn_quad_security_partnership = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 12
-	color = neutral
-}
-
-#習近平総書記任期無期限延長 2018年3月11日
-rpwn_xi_jinping_term_extension = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 11
-	color = neutral
-}
-
-#イエロー・ベスト運動 2018年11月17日
-rpwn_yellow_vests_movement = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 17
-	color = neutral
-}
-
-#逃亡犯条例改正案抗議デモ 2019年6月9日
-rpwn_2019_hong_kong_extradition_bill_protests = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 9
-	color = neutral
-}
-
-#日韓輸出規制対立 2019年7月1日
-rpwn_japan_south_korea_trade_dispute = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 1
-	color = neutral
-}
-
-#BREXIT実施 2020年1月31日
-rpwn_brexit_implementation = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 31
-	color = neutral
-}
-
-#レバノン大爆発 2020年8月4日
-rpwn_2020_beirut_explosion = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 4
-	color = neutral
-}
-
-#アルメニア・アゼルバイジャン紛争 2020年9月27日
-rpwn_2020_nagorno_karabakh_conflict = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 27
-	color = neutral
-}
-
-#連邦議会議事堂襲撃事件 2021年1月6日
-rpwn_2021_united_states_capitol_attack = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 6
-	color = neutral
-}
-
-#タリバン復権 2021年8月15日
-rpwn_2021_taliban_takeover = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 15
-	color = neutral
-}
-
-#マラリアワクチン開発 2021年10月6日
-rpwn_2021_malaria_vaccine_development = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 6
-	color = neutral
-}
-
-#ロシア・ウクライナ戦争 2022年2月24日
-rpwn_2022_russian_ukrainian_war = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 24
-	color = neutral
-}
-
-#イーロン・マスクによるTwitter買収 2022年4月7日
-rpwn_2022_elon_musk_twitter_acquisition = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 7
-	color = neutral
-}
-
-#核融合実験成功 2022年12月13日
-rpwn_2022_nuclear_fusion_experiment_success = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 13
-	color = neutral
-}
-
-#イランとサウジアラビアの国交正常化 2023年3月10日
-rpwn_2023_iran_saudi_arabia_normalization = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 10
-	color = neutral
-}
-
-#チャールズ3世即位 2023年5月6
-rpwn_2023_charles_iii_coronation = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 6
-	color = neutral
-}
-
-#ワグネル反乱 2023年6月23日
-rpwn_2023_wagner_rebellion = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 23
-	color = neutral
-}
-
-#イスラエル・ハマス紛争 2023年10月7日
-rpwn_israel_hamas_conflict = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 7
-	color = neutral
-}
-
-#ガイアナ危機 2023年10月23日
-rpwn_guyana_crisis = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 23
-	color = neutral
-}
-
-#アルツァフ共和国崩壊 2024年1月1日
-rpwn_artsakh_republic_collapse = {
-	type = country
-	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
-	group = "rpwn_major_group"
-	notification_type = feed
-	days = 1
-	color = neutral
-}
+# rpwn_korean_war = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 25
+# 	color = neutral
+# }
+
+# #サンフランシスコ平和条約締結 1951年9月8日
+# rpwn_san_francisco_treaty = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 8
+# 	color = neutral
+# }
+
+# #水爆実験 1952年3月1日
+# rpwn_hydrogen_bomb_test = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 1
+# 	color = neutral
+# }
+
+# #ドイツによるイスラエルへの賠償支払い 1952年3月18日
+# rpwn_german_war_reparations = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 18
+# 	color = neutral
+# }
+
+# #朝鮮戦争終結 1953年7月27日
+# rpwn_korean_war_end = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 27
+# 	color = neutral
+# }
+
+# #ドミノ理論 1954年4月7日
+# rpwn_domino_theory = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 7
+# 	color = neutral
+# }
+
+# #アルジェリア反乱 1954年11月1日
+# rpwn_algerian_revolt = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 1
+# 	color = neutral
+# }
+
+# #ノーチラス号潜水 1954年8月3日
+# rpwn_nautilus_submarine = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 3
+# 	color = neutral
+# }
+
+# #ワルシャワ条約機構成立 1955年5月14日
+# rpwn_warsaw_pact_formation = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 14
+# 	color = neutral
+# }
+
+# #フルシチョフのスターリン批判演説 1956年2月25日
+# rpwn_khrushchev_speech = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 25
+# 	color = neutral
+# }
+
+# #スエズ危機 1956年10月29日
+# rpwn_suez_crisis = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 29
+# 	color = neutral
+# }
+
+# #日ソ共同宣言 1956年12月19日
+# rpwn_japan_soviet_union_joint_declaration = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 19
+# 	color = neutral
+# }
+
+# #スプートニク1号打ち上げ 1957年10月4日
+# rpwn_sputnik_launch = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 4
+# 	color = neutral
+# }
+
+# #ドゴールの再選 1958年12月21日
+# rpwn_de_gaulle_re_election = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 21
+# 	color = neutral
+# }
+
+# #ポリオワクチンの開発 1959年4月12日
+# rpwn_polio_vaccine_development = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 12
+# 	color = neutral
+# }
+
+# #アドルフ・アイヒマン逮捕 1960年5月23日
+# rpwn_adolf_eichmann_arrest = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 23
+# 	color = neutral
+# }
+
+# #IRA暴動 1959年8月15日
+# rpwn_ira_riots = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 15
+# 	color = neutral
+# }
+
+# #植民地独立付与宣言 1960年12月14日 （アフリカの年）
+# rpwn_decolonization_declaration = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 14
+# 	color = neutral
+# }
+
+# #ガガーリン宇宙飛行士打ち上げ 1961年4月12日
+# rpwn_gagarin_orbit = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 12
+# 	color = neutral
+# }
+
+# #ピッグス湾事件 1961年4月17日
+# rpwn_bay_of_pigs_invasion = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 17
+# 	color = neutral
+# }
+
+# #アルジェリア独立宣言 1962年7月3日
+# rpwn_algerian_independence = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 3
+# 	color = neutral
+# }
+
+# #ネルソン・マンデラ逮捕 1962年8月5日
+# rpwn_nelson_mandela_arrest = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 5
+# 	color = neutral
+# }
+
+# #キューバ危機 1962年10月16日
+# rpwn_cuban_missile_crisis = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 16
+# 	color = neutral
+# }
+
+# #米ソホットライン開設 1963年8月30日
+# rpwn_hotline_establishment = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 30
+# 	color = neutral
+# }
+
+# #フランスによる核実験 1964年2月13日
+# rpwn_french_nuclear_test = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 13
+# 	color = neutral
+# }
+
+# #中国による核実験 1964年10月16日
+# rpwn_chinese_nuclear_test = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 16
+# 	color = neutral
+# }
+
+# #ベトナム戦争 1965年3月8日
+# rpwn_vietnam_war = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 8
+# 	color = neutral
+# }
+
+# #文化大革命 1966年5月16日
+# rpwn_cultural_revolution = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 16
+# 	color = neutral
+# }
+
+# #アポロ11号月面着陸 1969年7月20日
+# rpwn_apollo_11_moon_landing = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 20
+# 	color = neutral
+# }
+
+# #マイクロプロセッサの発明 1969年11月15日
+# rpwn_microprocessor_invention = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 15
+# 	color = neutral
+# }
+
+# #ニクソン・ショック 1971年8月15日
+# rpwn_nixon_shock = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 15
+# 	color = neutral
+# }
+
+# #ウォーターゲート事件 1972年6月17日
+# rpwn_watergate_scandal = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 17
+# 	color = neutral
+# }
+
+# #日中平和友好条約締結 1972年8月12日
+# rpwn_japan_china_peace_treaty = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 12
+# 	color = neutral
+# }
+
+# #ピノチェト政権成立 1973年9月11日
+# rpwn_pinochet_coup = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 11
+# 	color = neutral
+# }
+
+# #石油危機 1973年10月17日
+# rpwn_oil_crisis = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 17
+# 	color = neutral
+# }
+
+# #小野田少尉発見 1974年3月10日
+# rpwn_second_lieutenant_onoda = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 10
+# 	color = neutral
+# }
+
+# #インド地下核実験 1974年5月18日
+# rpwn_indian_nuclear_test = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 18
+# 	color = neutral
+# }
+
+# #ベトナム戦争終結 1975年4月30日
+# rpwn_vietnam_war_end = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 30
+# 	color = neutral
+# }
+
+# #ポルトガル植民地独立 1975年11月25日
+# rpwn_portuguese_colonial_independence = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 25
+# 	color = neutral
+# }
+
+# #ソウェト蜂起 1976年6月16日
+# rpwn_soweto_uprising = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 16
+# 	color = neutral
+# }
+
+# #米ソ200海里漁業協定 1977年3月24日
+# rpwn_us_soviet_fisheries_agreement = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 24
+# 	color = neutral
+# }
+
+# #アフガニスタン4月革命 1978年4月27日
+# rpwn_afghan_april_revolution = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 27
+# 	color = neutral
+# }
+
+# #第一回国連軍縮特別総会 1978年6月12日
+# rpwn_un_special_session_on_disarmament = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 12
+# 	color = neutral
+# }
+
+# #日中平和友好条約締結 1978年8月12日
+# rpwn_japan_china_peace_treaty_2 = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 12
+# 	color = neutral
+# }
+
+# #イラン革命 1979年2月11日
+# rpwn_iranian_revolution = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 11
+# 	color = neutral
+# }
+
+# #朴正煕大統領暗殺 1979年10月26日
+# rpwn_park_chung_hee_assassination = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 26
+# 	color = neutral
+# }
+
+# #全斗煥によるクーデター 1979年12月12日
+# rpwn_chun_doo_hwan_coup = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 12
+# 	color = neutral
+# }
+
+# #ムガベ大統領就任 1980年4月18日
+# rpwn_robert_mugabe_presidency = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 18
+# 	color = neutral
+# }
+
+# #チトー大統領死去 1980年5月4日
+# rpwn_tito_death = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 4
+# 	color = neutral
+# }
+
+# #モスクワオリンピックボイコット 1980年7月19日
+# rpwn_moscow_olympics_boycott = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 19
+# 	color = neutral
+# }
+
+# #ポーランド民主化運動 1980年8月14日
+# rpwn_polish_solidarity_movement = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 14
+# 	color = neutral
+# }
+
+# #トルコ軍事クーデター 1980年9月12日
+# rpwn_turkish_coup = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 12
+# 	color = neutral
+# }
+
+# #イラン・イラク戦争開戦 1980年9月22日
+# rpwn_iran_iraq_war_start = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 22
+# 	color = neutral
+# }
+
+# #エイズ発見 1981年6月5日
+# rpwn_aids_discovery = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 5
+# 	color = neutral
+# }
+
+# #文化大革命の否定 1981年6月29日
+# rpwn_cultural_revolution_denounced = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 29
+# 	color = neutral
+# }
+
+# #アンゴラ侵攻 1981年8月28日
+# rpwn_south_africa_angola_invasion = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 28
+# 	color = neutral
+# }
+
+# #フォークランド紛争 1982年4月2日
+# rpwn_falklands_war = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 2
+# 	color = neutral
+# }
+
+# #レバノン内戦 1982年6月6日
+# rpwn_lebanese_civil_war = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 6
+# 	color = neutral
+# }
+
+# #「悪の帝国」演説 1983年3月8日
+# rpwn_evil_empire_speech = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 8
+# 	color = neutral
+# }
+
+# #グレナダ侵攻 1983年10月25日
+# rpwn_grenada_invasion = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 25
+# 	color = neutral
+# }
+
+# #女子マラソンの五輪公式種目化 1984年8月5日
+# rpwn_womens_marathon_olympic_event = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 5
+# 	color = neutral
+# }
+
+# #香港返還交渉 1984年12月19日
+# rpwn_hong_kong_handover_negotiations = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 19
+# 	color = neutral
+# }
+
+# #タイタニック号発見 1985年9月1日
+# rpwn_titanic_discovery = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 1
+# 	color = neutral
+# }
+
+# #リビア空爆 1986年4月15日
+# rpwn_libyan_airstrike = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 15
+# 	color = neutral
+# }
+
+# #チェルノブイリ原子力発電所事故 1986年4月26日
+# rpwn_chernobyl_disaster = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 26
+# 	color = neutral
+# }
+
+# #ルドルフ・ヘス自殺 1987年8月17日
+# rpwn_the_suicide_of_rudolf_hess = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 17
+# 	color = neutral
+# }
+
+# #第一インティファーダ 1987年12月9日
+# rpwn_first_intifada = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 9
+# 	color = neutral
+# }
+
+# #アンゴラ・キューバ連合軍による南アフリカ撃退 1988年3月23日
+# rpwn_cuban_angolan_war = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 23
+# 	color = neutral
+# }
+
+# #ナミビア独立宣言 1989年3月21日
+# rpwn_namibian_independence = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 21
+# 	color = neutral
+# }
+
+# #イラン・イラク戦争終結 1988年8月20日
+# rpwn_iran_iraq_war_end = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 20
+# 	color = neutral
+# }
+
+# #天安門事件 1989年6月4日
+# rpwn_tiananmen_square_protests = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 4
+# 	color = neutral
+# }
+
+# #ベルリンの壁崩壊 1989年11月9日
+# rpwn_berlin_wall_fall = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 9
+# 	color = neutral
+# }
+
+# #南アフリカによる核廃絶 1990年3月24日
+# rpwn_south_african_nuclear_disarmament = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 24
+# 	color = neutral
+# }
+
+# #アルベルト・フジモリ大統領就任 1990年7月28日
+# rpwn_alberto_fujimori_presidency = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 28
+# 	color = neutral
+# }
+
+# #クウェート侵攻 1990年8月2日
+# rpwn_iraqi_invasion_of_kuwait = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 2
+# 	color = neutral
+# }
+
+# #ドイツ再統一 1990年10月3日
+# rpwn_german_reunification = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 3
+# 	color = neutral
+# }
+
+# #国連軍によるイラク攻撃 1991年1月17日
+# rpwn_gulf_war = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 17
+# 	color = neutral
+# }
+
+# #ソ連崩壊 1991年12月26日
+# rpwn_dissolution_of_the_soviet_union = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 26
+# 	color = neutral
+# }
+
+# #ボスニア・ヘルツェゴビナ独立宣言 1992年3月3日
+# rpwn_bosnian_independence = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 3
+# 	color = neutral
+# }
+
+
+# #アブハジア独立宣言 1992年8月25日
+# rpwn_abkhazian_independence = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 25
+# 	color = neutral
+# }
+
+# #ガリレオ・ガリレイの誤審認定 1992年10月31日
+# rpwn_galileo_galilei_inquisition = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 31
+# 	color = neutral
+# }
+
+# #チェコスロバキア分裂 1993年1月11日
+# rpwn_czechoslovakia_dissolution = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 11
+# 	color = neutral
+# }
+
+# #EU発足 1993年11月1日
+# rpwn_eu_founding = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 1
+# 	color = neutral
+# }
+
+# #NAFTA発効 1994年1月1日
+# rpwn_nafta_founding = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 1
+# 	color = neutral
+# }
+
+# #ルワンダ虐殺 1994年4月6日
+# rpwn_rwandan_genocide = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 6
+# 	color = neutral
+# }
+
+# #アパルトヘイト廃止 1994年4月27日
+# rpwn_dismantling_aparthied = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 27
+# 	color = neutral
+# }
+
+# #ネルソン・マンデラ大統領就任 1994年5月10日
+# rpwn_nelson_mandela_presidency = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 10
+# 	color = neutral
+# }
+
+# #フェルマーの最終定理証明 1994年6月23日
+# rpwn_fermat_last_theorem_proof = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 23
+# 	color = neutral
+# }
+
+# #第一次チェチェン戦争 1994年12月11日
+# rpwn_first_chechen_war = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 11
+# 	color = neutral
+# }
+
+# #Javaプログラミング言語発表 1995年5月23日
+# rpwn_java_programming_language = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 23
+# 	color = neutral
+# }
+
+# #ポルトガル語圏共同体発足 1996年7月17日
+# rpwn_cplp_founding = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 17
+# 	color = neutral
+# }
+
+# #香港返還 1997年7月1日
+# rpwn_hong_kong_handover = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 1
+# 	color = neutral
+# }
+
+# #アジア通貨危機 1997年7月2日
+# rpwn_asian_financial_crisis = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 2
+# 	color = neutral
+# }
+
+# #ASEAN発足 1997年12月15日
+# rpwn_asean_founding = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 15
+# 	color = neutral
+# }
+
+# #コソボ紛争 1998年2月28日
+# rpwn_kosovo_conflict = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 28
+# 	color = neutral
+# }
+
+# #スハルト政権崩壊 1998年5月21日
+# rpwn_suharto_resignation = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 21
+# 	color = neutral
+# }
+
+# #日韓共同宣言 1998年10月8日
+# rpwn_japan_south_korea_joint_declaration = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 8
+# 	color = neutral
+# }
+
+# #NATOによるユーゴスラビア空爆 1999年3月24日
+# rpwn_nato_bombing_of_yugoslavia = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 24
+# 	color = neutral
+# }
+
+# #マカオ返還 1999年12月20日
+# rpwn_macau_handover = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 20
+# 	color = neutral
+# }
+
+# #プーチン大統領就任 2000年5月7日
+# rpwn_vladimir_putin_presidency = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 7
+# 	color = neutral
+# }
+
+# #第二次チェチェン戦争 2000年9月26日
+# rpwn_second_chechen_war = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 26
+# 	color = neutral
+# }
+
+# #フジモリ政権崩壊 2000年11月17日
+# rpwn_fujimori_resignation = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 17
+# 	color = neutral
+# }
+
+# #アメリカ同時多発テロ 2001年9月11日
+# rpwn_september_11_attacks = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 11
+# 	color = neutral
+# }
+
+# #アフガニスタン侵攻 2001年10月7日
+# rpwn_war_in_afghanistan = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 7
+# 	color = neutral
+# }
+
+# #東ティモール独立宣言 2002年5月20日
+# rpwn_east_timor_independence = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 20
+# 	color = neutral
+# }
+
+# #日朝首脳会談 2002年9月17日
+# rpwn_japan_north_korea_summit = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 17
+# 	color = neutral
+# }
+
+# #ダルフール紛争 2003年2月26日
+# rpwn_darfur_conflict = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 26
+# 	color = neutral
+# }
+
+# #ルワンダ問題 2003年4月6日
+# rpwn_rwandan_problem = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 6
+# 	color = neutral
+# }
+
+# #第二回日朝首脳会談 2004年5月22日
+# rpwn_second_japan_north_korea_summit = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 22
+# 	color = neutral
+# }
+
+# #オレンジ革命 2004年11月22日
+# rpwn_orange_revolution = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 22
+# 	color = neutral
+# }
+
+# #反分裂国家法 2005年3月14日
+# rpwn_anti_secession_law = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 14
+# 	color = neutral
+# }
+
+# #日韓歴史共同研究委員会設立 2005年5月24日
+# rpwn_japan_south_korea_history_commission = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 24
+# 	color = neutral
+# }
+
+# #日韓首脳会談 2005年6月20日
+# rpwn_japan_south_korea_summit = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 20
+# 	color = neutral
+# }
+
+# #メルケル首相就任 2005年11月22日
+# rpwn_angela_merkel_chancellorship = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 22
+# 	color = neutral
+# }
+
+# #モーツァルト生誕250年 2006年1月27日
+# rpwn_mozart_250th_birthday = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 27
+# 	color = neutral
+# }
+
+# #モンテネグロ独立宣言 2006年5月21日
+# rpwn_montenegrin_independence = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 21
+# 	color = neutral
+# }
+
+# #ロンドン旅客機爆破未遂事件 2006年8月10日
+# rpwn_2006_transatlantic_aircraft_plot = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 10
+# 	color = neutral
+# }
+
+# #タイクーデター 2006年9月19日
+# rpwn_2006_thai_coup = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 19
+# 	color = neutral
+# }
+
+# #iPhone発売 2007年6月29日
+# rpwn_iphone_launch = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 29
+# 	color = neutral
+# }
+
+# #シーシェパードによる捕鯨船衝突 2007年12月17日
+# rpwn_2007_whale_wars = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 17
+# 	color = neutral
+# }
+
+# #コソボ独立宣言 2008年2月17日
+# rpwn_kosovo_independence = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 17
+# 	color = neutral
+# }
+
+# #カストロ大統領辞任 2008年2月19日
+# rpwn_fidel_castro_resignation = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 19
+# 	color = neutral
+# }
+
+# #南オセチア紛争 2008年8月8日
+# rpwn_2008_south_ossetia_war = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 8
+# 	color = neutral
+# }
+
+# #リーマンブラザーズ破綻 2008年9月15日
+# rpwn_lehman_brothers_bankruptcy = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 15
+# 	color = neutral
+# }
+
+# #エチオピアがソマリアに侵攻 2008年12月24日
+# rpwn_2008_ethiopian_invasion_of_somalia = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 24
+# 	color = neutral
+# }
+
+# #エチオピア撤退 2009年1月25日
+# rpwn_2009_ethiopian_withdrawal_from_somalia = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 25
+# 	color = neutral
+# }
+
+# #プラハ演説 2009年4月5日
+# rpwn_obama_prague_speech = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 5
+# 	color = neutral
+# }
+
+# #ウイグル騒乱 2009年7月5日
+# rpwn_2009_urumqi_riots = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 5
+# 	color = neutral
+# }
+
+# #欧州債務危機 2010年5月2日
+# rpwn_european_sovereign_debt_crisis = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 2
+# 	color = neutral
+# }
+
+# #アラブの春 2010年12月17日
+# rpwn_arab_spring = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 17
+# 	color = neutral
+# }
+
+# #リビア内戦 2011年2月15日
+# rpwn_libyan_civil_war = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 15
+# 	color = neutral
+# }
+
+# #アフリカ大戦 2011年12月15日
+# rpwn_african_war = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 15
+# 	color = neutral
+# }
+
+# #シリア内戦 2011年3月15日
+# rpwn_syrian_civil_war = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 15
+# 	color = neutral
+# }
+
+# #金正恩最高指導者就任 2012年12月17日
+# rpwn_kim_jong_un_leadership = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 17
+# 	color = neutral
+# }
+
+# #竹島上陸事件 2012年8月10日
+# rpwn_2012_dokdo_incident = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 10
+# 	color = neutral
+# }
+
+# #東海和平倡議 2012年9月7日
+# rpwn_2012_east_china_sea_peace_initiative = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 7
+# 	color = neutral
+# }
+
+# #エジプトクーデター 2013年7月3日
+# rpwn_2013_egyptian_coup = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 3
+# 	color = neutral
+# }
+
+# #一帯一路構想 2013年9月7日
+# rpwn_belt_and_road_initiative = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 7
+# 	color = neutral
+# }
+
+# #ネルソン・マンデラ死去 2013年12月5日
+# rpwn_nelson_mandela_death = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 5
+# 	color = neutral
+# }
+
+# #嫦娥3号月面着陸 2013年12月14日
+# rpwn_chang_e_3_moon_landing = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 14
+# 	color = neutral
+# }
+
+# #ウクライナ危機 2014年2月20日
+# rpwn_2014_ukraine_crisis = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 20
+# 	color = neutral
+# }
+
+# #ISIL台頭 2014年6月29日
+# rpwn_rise_of_isil = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 29
+# 	color = neutral
+# }
+
+# #オバマ・カストロ会談 2015年4月11日
+# rpwn_obama_castro_meeting = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 11
+# 	color = neutral
+# }
+
+# #SDGs採択 2015年9月25日
+# rpwn_sustainable_development_goals = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 25
+# 	color = neutral
+# }
+
+# #パリ同時多発テロ 2015年11月13日
+# rpwn_november_2015_paris_attacks = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 13
+# 	color = neutral
+# }
+
+# #重力波発見 2016年2月11日
+# rpwn_discovery_of_gravitational_waves = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 11
+# 	color = neutral
+# }
+
+# #BREXIT投票 2016年6月23日
+# rpwn_2016_brexit_referendum = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 23
+# 	color = neutral
+# }
+
+# #バハマ文書流出 2016年9月21日
+# rpwn_panama_papers_leak = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 21
+# 	color = neutral
+# }
+
+# #金正男暗殺事件 2017年2月13日
+# rpwn_kim_jong_nam_assassination = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 13
+# 	color = neutral
+# }
+
+# #日欧経済連携協定締結 2017年7月6日
+# rpwn_eu_japan_trade_deal = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 6
+# 	color = neutral
+# }
+
+# #土星探査機カッシーニが土星大気圏へ突入 2017年9月15日
+# rpwn_cassini_saturn_dive = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 15
+# 	color = neutral
+# }
+
+# #日米印豪安保協力 2017年11月12日
+# rpwn_quad_security_partnership = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 12
+# 	color = neutral
+# }
+
+# #習近平総書記任期無期限延長 2018年3月11日
+# rpwn_xi_jinping_term_extension = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 11
+# 	color = neutral
+# }
+
+# #イエロー・ベスト運動 2018年11月17日
+# rpwn_yellow_vests_movement = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 17
+# 	color = neutral
+# }
+
+# #逃亡犯条例改正案抗議デモ 2019年6月9日
+# rpwn_2019_hong_kong_extradition_bill_protests = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 9
+# 	color = neutral
+# }
+
+# #日韓輸出規制対立 2019年7月1日
+# rpwn_japan_south_korea_trade_dispute = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 1
+# 	color = neutral
+# }
+
+# #BREXIT実施 2020年1月31日
+# rpwn_brexit_implementation = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 31
+# 	color = neutral
+# }
+
+# #レバノン大爆発 2020年8月4日
+# rpwn_2020_beirut_explosion = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 4
+# 	color = neutral
+# }
+
+# #アルメニア・アゼルバイジャン紛争 2020年9月27日
+# rpwn_2020_nagorno_karabakh_conflict = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 27
+# 	color = neutral
+# }
+
+# #連邦議会議事堂襲撃事件 2021年1月6日
+# rpwn_2021_united_states_capitol_attack = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 6
+# 	color = neutral
+# }
+
+# #タリバン復権 2021年8月15日
+# rpwn_2021_taliban_takeover = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 15
+# 	color = neutral
+# }
+
+# #マラリアワクチン開発 2021年10月6日
+# rpwn_2021_malaria_vaccine_development = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 6
+# 	color = neutral
+# }
+
+# #ロシア・ウクライナ戦争 2022年2月24日
+# rpwn_2022_russian_ukrainian_war = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 24
+# 	color = neutral
+# }
+
+# #イーロン・マスクによるTwitter買収 2022年4月7日
+# rpwn_2022_elon_musk_twitter_acquisition = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 7
+# 	color = neutral
+# }
+
+# #核融合実験成功 2022年12月13日
+# rpwn_2022_nuclear_fusion_experiment_success = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 13
+# 	color = neutral
+# }
+
+# #イランとサウジアラビアの国交正常化 2023年3月10日
+# rpwn_2023_iran_saudi_arabia_normalization = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 10
+# 	color = neutral
+# }
+
+# #チャールズ3世即位 2023年5月6
+# rpwn_2023_charles_iii_coronation = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 6
+# 	color = neutral
+# }
+
+# #ワグネル反乱 2023年6月23日
+# rpwn_2023_wagner_rebellion = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 23
+# 	color = neutral
+# }
+
+# #イスラエル・ハマス紛争 2023年10月7日
+# rpwn_israel_hamas_conflict = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 7
+# 	color = neutral
+# }
+
+# #ガイアナ危機 2023年10月23日
+# rpwn_guyana_crisis = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 23
+# 	color = neutral
+# }
+
+# #アルツァフ共和国崩壊 2024年1月1日
+# rpwn_artsakh_republic_collapse = {
+# 	type = country
+# 	texture = "gfx/interface/icons/law_icons/unused/placeholder.dds"
+# 	group = "rpwn_major_group"
+# 	notification_type = feed
+# 	days = 1
+# 	color = neutral
+# }
 

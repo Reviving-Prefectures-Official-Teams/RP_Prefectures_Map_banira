@@ -144,13 +144,13 @@ STATES = {
 		add_homeland = cu:kofu
 	}
 
-	s:STATE_KYOTOH = {
-		create_state = {
-			country = c:YMN
-    		owned_provinces = {}
-		}
-		add_homeland = cu:kofu
-	}
+	# s:STATE_KYOTOH = {
+	# 	create_state = {
+	# 		country = c:YMN
+    # 		owned_provinces = {}
+	# 	}
+	# 	add_homeland = cu:kofu
+	# }
 
 	s:STATE_KYONAN = {
 		create_state = {

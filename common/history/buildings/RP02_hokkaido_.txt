@@ -271,18 +271,18 @@ BUILDINGS = {
 				reserves = 1
 			}
 		  #Retail/Service
-			create_building = {
-				building = "building_office_building"
-                add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:HOK"
-						levels = 1
-                        region = "STATE_HAKODATE"
-					}
-				}
-				reserves = 1
-			}
+			# create_building = {
+			# 	building = "building_office_building"
+            #     add_ownership = {
+			# 		building = {
+			# 			type = "building_financial_district"
+			# 			country = "c:HOK"
+			# 			levels = 1
+            #             region = "STATE_HAKODATE"
+			# 		}
+			# 	}
+			# 	reserves = 1
+			# }
 			create_building = {
 				building = "building_publishing"
                 add_ownership = {
@@ -1038,18 +1038,18 @@ BUILDINGS = {
 				}
 				reserves = 1
 			}
-			create_building = {
-				building = "building_vegetable_farms"
-                add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:HOK"
-						levels = 1
-                        region = "STATE_KAMIKAWA"
-					}
-				}
-				reserves = 1
-			}
+			# create_building = {
+			# 	building = "building_vegetable_farms"
+            #     add_ownership = {
+			# 		building = {
+			# 			type = "building_manor_house"
+			# 			country = "c:HOK"
+			# 			levels = 1
+            #             region = "STATE_KAMIKAWA"
+			# 		}
+			# 	}
+			# 	reserves = 1
+			# }
 		###minings
 			create_building = {
 				building = "building_coal_mine"
@@ -1129,18 +1129,18 @@ BUILDINGS = {
                 activate_production_methods={ "pm_steam_engine" "pm_wooden_carriage" "pm_manned_operation" }
             }
 		###agriculture
-			create_building = {
-				building = "building_vegetable_farms"
-                add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:HOK"
-						levels = 3
-                        region = "STATE_TOKACHI"
-					}
-				}
-				reserves = 1
-			}
+			# create_building = {
+			# 	building = "building_vegetable_farms"
+            #     add_ownership = {
+			# 		building = {
+			# 			type = "building_manor_house"
+			# 			country = "c:HOK"
+			# 			levels = 3
+            #             region = "STATE_TOKACHI"
+			# 		}
+			# 	}
+			# 	reserves = 1
+			# }
 			create_building = {
 				building = "building_cattle_ranch"
                 add_ownership = {
@@ -1154,30 +1154,30 @@ BUILDINGS = {
 				reserves = 1
 			}
 		###minings
-			create_building = {
-				building = "building_"
-                add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:HOK"
-						levels = 1
-                        region = "STATE_TOKACHI"
-					}
-				}
-				reserves = 1
-			}
-			create_building = {
-				building = "building_"
-                add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:HOK"
-						levels = 1
-                        region = "STATE_TOKACHI"
-					}
-				}
-				reserves = 1
-			}
+			# create_building = {
+			# 	building = "building_"
+            #     add_ownership = {
+			# 		building = {
+			# 			type = "building_manor_house"
+			# 			country = "c:HOK"
+			# 			levels = 1
+            #             region = "STATE_TOKACHI"
+			# 		}
+			# 	}
+			# 	reserves = 1
+			# }
+			# create_building = {
+			# 	building = "building_"
+            #     add_ownership = {
+			# 		building = {
+			# 			type = "building_manor_house"
+			# 			country = "c:HOK"
+			# 			levels = 1
+            #             region = "STATE_TOKACHI"
+			# 		}
+			# 	}
+			# 	reserves = 1
+			# }
 		###forests
 			create_building = {
 				building = "building_cryptomeria_forest"
@@ -1782,7 +1782,7 @@ BUILDINGS = {
 						type = "building_manor_house"
 						country = "c:HOK"
 						levels = 1
-                        region = "STATE_HITAMA"
+                        region = "STATE_HIYAMA"
 					}
 				}
 				reserves = 1
@@ -1794,7 +1794,7 @@ BUILDINGS = {
 						type = "building_manor_house"
 						country = "c:HOK"
 						levels = 1
-                        region = "STATE_HITAMA"
+                        region = "STATE_HIYAMA"
 					}
 				}
 				reserves = 1
@@ -1807,7 +1807,7 @@ BUILDINGS = {
 						type = "building_manor_house"
 						country = "c:HOK"
 						levels = 1
-                        region = "STATE_HITAMA"
+                        region = "STATE_HIYAMA"
 					}
 				}
 				reserves = 1
@@ -1819,7 +1819,7 @@ BUILDINGS = {
 						type = "building_manor_house"
 						country = "c:HOK"
 						levels = 1
-                        region = "STATE_HITAMA"
+                        region = "STATE_HIYAMA"
 					}
 				}
 				reserves = 1
@@ -1832,7 +1832,7 @@ BUILDINGS = {
 						type = "building_manor_house"
 						country = "c:HOK"
 						levels = 1
-                        region = "STATE_HITAMA"
+                        region = "STATE_HIYAMA"
 					}
 				}
 				reserves = 1
@@ -1845,7 +1845,7 @@ BUILDINGS = {
 						type = "building_manor_house"
 						country = "c:HOK"
 						levels = 1
-                        region = "STATE_HITAMA"
+                        region = "STATE_HIYAMA"
 					}
 				}
 				reserves = 1

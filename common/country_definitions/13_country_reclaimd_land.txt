@@ -2,7 +2,7 @@
 RL1 = {
 	color = { 177 51 34 }
 	country_type = decentralized
-	
+	tier = principality
 	cultures = { akita }
 	capital = STATE_HACHIROHGATA
 }

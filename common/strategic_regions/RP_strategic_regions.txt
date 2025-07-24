@@ -1,24 +1,18 @@
-# Strategic Regions 
+﻿# Strategic Regions 
 
 # # 北海道
 region_hokkaido = {
 	graphical_culture = "asian"
 	capital_province = xB8C8C7
 	map_color = { 0.1 0.1 0.1 }
-	states =
-	{
-		STATE_HAKODATE STATE_SHIRIBESHI STATE_IBURI STATE_HIDAKA STATE_ISHIKARI STATE_SORACHI STATE_RUMOI STATE_KAMIKAWA STATE_TOKACHI STATE_SOYA STATE_KUSHIRO STATE_NEMURO STATE_ABASHIRI STATE_MONBETSU STATE_ETOROFU STATE_HABOMAI STATE_KUNASHIRI STATE_HIYAMA STATE_OSYAMAMBE
-
-
-	}
+	states = { STATE_HAKODATE STATE_SHIRIBESHI STATE_IBURI STATE_HIDAKA STATE_ISHIKARI STATE_SORACHI STATE_RUMOI STATE_KAMIKAWA STATE_TOKACHI STATE_SOYA STATE_KUSHIRO STATE_NEMURO STATE_ABASHIRI STATE_MONBETSU STATE_ETOROFU STATE_HABOMAI STATE_KUNASHIRI STATE_HIYAMA STATE_OSYAMAMBE }
 }		
 # 東北地方
 region_south_tohoku = {
 	graphical_culture = "asian"
 	capital_province = x66E7B6
 	map_color = { 0.1 0.7 0.7 }
-	states =
-	{
+	states = {
 		# 福島県
 		STATE_IWAKI STATE_SOSO STATE_FUKUSHIMA STATE_KORIYAMA STATE_SHIRAKAWA STATE_AIZU STATE_MINAMIAIZU 
 		# 宮城県
@@ -31,8 +25,7 @@ region_north_tohoku = {
 	graphical_culture = "asian"
 	capital_province = x4BAFAF
 	map_color = { 0.2 0.3 0.4 }
-	states =
-	{
+	states = {
 		# 岩手県
 		STATE_MORIOKA STATE_KAMAISHI STATE_HANAMAKI STATE_KUJI
 		# 秋田県
@@ -47,8 +40,7 @@ region_north_kanto = {
 	graphical_culture = "asian"
 	capital_province = x5CF3CF
 	map_color = { 0.1 0.2 0.6 }
-	states =
-	{
+	states = {
 		# 群馬県
 		STATE_TOMOU STATE_MAEBASHI STATE_SEIMOU STATE_NUMATA STATE_AGATSUMA
 		# 栃木県
@@ -61,8 +53,7 @@ region_south_kanto = {
 	graphical_culture = "asian"
 	capital_province = xBC6FF9
 	map_color = { 0.2 0.4 0.9 }
-	states =
-	{
+	states = {
 		# 千葉県
 		STATE_NANSO STATE_TOSO STATE_CHIBA STATE_KATSUSHIKA STATE_EAST_KATSUSHIKA STATE_KUJYUKURI STATE_INBA 
 		# 埼玉県
@@ -79,8 +70,7 @@ region_hokuriku = {
 	graphical_culture = "asian"
 	capital_province = x54F3FA
 	map_color = { 0.6 0.2 0.1 }
-	states =
-	{
+	states = {
 		# 新潟県
 		STATE_NIIGATA STATE_KAETSU STATE_NIIGATAMINAMI STATE_NAGAOKA STATE_UONUMA STATE_JOETSU STATE_SADO
 		# 富山県
@@ -96,8 +86,7 @@ region_chubu = {
 	graphical_culture = "asian"
 	capital_province = x435C12
 	map_color = { 0.8 0.4 0.2 }
-	states =
-	{
+	states = {
 		# 長野県
 		STATE_NAGANO STATE_OKITA STATE_IIYAMA STATE_SAKU STATE_UEDA STATE_SUWA STATE_MATSUMOTO STATE_KAMIKOCHI STATE_KISO STATE_KAMIINA STATE_SHIMOINA
 		# 岐阜県
@@ -111,8 +100,7 @@ region_tokai = {
 	graphical_culture = "asian"
 	capital_province = xE1BB90
 	map_color = { 0.9 0.2 0.5 }
-	states =
-	{
+	states = {
 		# 静岡県
 		STATE_IZU STATE_GOTENBA STATE_SIZUOKA STATE_HAMAMATSU STATE_KAKEGAWA
 		# 愛知県
@@ -126,8 +114,7 @@ region_kii = {
 	graphical_culture = "asian"
 	capital_province = xE1BB90
 	map_color = { 0.2 0.3 0.9 }
-	states =
-	{
+	states = {
 		# 三重県
 		STATE_YOKKAICHI STATE_IGA STATE_TSU STATE_MATSUSAKA STATE_ISE STATE_KII
 		# 和歌山県
@@ -141,8 +128,7 @@ region_kinki = {
 	graphical_culture = "asian"
 	capital_province = xE1BB90
 	map_color = { 0.3 0.5 0.6 }
-	states =
-	{
+	states = {
 		# 滋賀県
 		STATE_KOSEI STATE_KONAN STATE_KOTOU STATE_KOHOKU
 		# 京都府
@@ -161,8 +147,7 @@ region_chugoku = {
 	graphical_culture = "asian"
 	capital_province = xE1BB90
 	map_color = { 0.8 0.1 0.3 }
-	states =
-	{
+	states = {
 		# 鳥取県
 		STATE_TOTTORI STATE_YONAGO STATE_KURAYOSHI
 		# 島根県
@@ -180,8 +165,7 @@ region_shikoku = {
 	graphical_culture = "asian"
 	capital_province = xE1BB90
 	map_color = { 0.9 0.3 0.2 }
-	states =
-	{
+	states = {
 		# 香川県
 		STATE_TAKAMATSU STATE_MARUGAME STATE_KOTOHIRA STATE_SANUKI STATE_SHIWAKU STATE_SHODOSHIMA
 		# 徳島県
@@ -197,8 +181,7 @@ region_kyushu = {
 	graphical_culture = "asian"
 	capital_province = xE1BB90
 	map_color = { 0.3 0.7 0.1 }
-	states =
-	{
+	states = {
 		# 福岡県
 		STATE_KITAKYUSHU STATE_MINAMICHIKUGO STATE_KEICHIKU STATE_FUKUOKA STATE_CHIKUHOU STATE_KITACHIKUGO
 		# 大分県
@@ -221,8 +204,7 @@ region_okinawa = {
 	graphical_culture = "asian"
 	capital_province = xE1BB90
 	map_color = { 0.1 0.9 0.1 }
-	states =
-	{
+	states = {
 		# 沖縄県
 		STATE_DAITOH_SHOTOH STATE_HOKUZAN STATE_CHUZAN STATE_NANZAN STATE_KUME_SHOTOH STATE_SENTAN_SHOTOH STATE_SENKAKU_SHOTOH
 	}
@@ -232,8 +214,7 @@ region_abroad = {
 	graphical_culture = "asian"
 	capital_province = xE1BB90
 	map_color = { 0.1 0.1 0.1 }
-	states =
-	{
+	states = {
 		STATE_RECLAIMED_001 STATE_RECLAIMED_002 STATE_RECLAIMED_007 STATE_RECLAIMED_008 STATE_RECLAIMED_009 STATE_RECLAIMED_010 STATE_RECLAIMED_011 STATE_RECLAIMED_012 STATE_RECLAIMED_013 STATE_RECLAIMED_014 STATE_RECLAIMED_015 STATE_RECLAIMED_016
 	}
 }
