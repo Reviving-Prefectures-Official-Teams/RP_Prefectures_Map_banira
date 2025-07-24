@@ -74,7 +74,7 @@ STATE_ENSHU_NADA = {
 }
 STATE_BAY_OF_ISE = {
     id = 3008
-    provinces = { "x032431" "x0B4A0E" }
+    provinces = { "x032431" }
 }
 STATE_KUMANO_NADA = {
     id = 3009

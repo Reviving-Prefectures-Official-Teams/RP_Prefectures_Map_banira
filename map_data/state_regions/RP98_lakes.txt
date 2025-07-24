@@ -7,7 +7,7 @@ STATE_KASUMIGAURA = {
 #滋賀県琵琶湖
 STATE_BIWAKO = {
     id = 3101
-    provinces = { "x071A46" "x261D50" }
+    provinces = { "x071A46" }
 }
 #静岡県浜名湖
 STATE_HAMANAKO = {

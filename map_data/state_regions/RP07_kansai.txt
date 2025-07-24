@@ -5,7 +5,7 @@ STATE_KOSEI = {
     provinces = { "x83D8D3" "x8AA1D0" "x9EE6BA" "xA0F0DE" "xB874E1" "xC6B1DF" "xDBBEF2" "xDD7EE2" "xF1F373" }
     traits = { "state_trait_oumi_bonti" }
     city = "x8AA1D0"
-    port = "xC6B1DF"
+    # port = "xC6B1DF"
     farm = "x83D8D3"
     mine = "xC6B1DF"
     wood = "x83D8D3"
@@ -16,7 +16,7 @@ STATE_KOSEI = {
         bg_cryptomeria_forest = 15
 
     }
-    naval_exit_id = 3101
+# naval_exit_id = 3101
 }
 STATE_KONAN = {
     #湖南
@@ -24,7 +24,7 @@ STATE_KONAN = {
     provinces = { "x2C6DD1" "x4BD3DD" "x6FBFDE" "x9ABBEA" "x9AC2AF" "x9EDBE0" "xA284ED" "xA4F768" "xB0E483" "xB1E263" "xB38CB9" "xB87BDD" "xC7C98F" "xD387F2" "xDAE3B2" "xE7F2C2" "xF37C8B" "xF5F734" "xF9CCA5" "xFA9180" "xFD8CB8" "xFF3F2F" "xFF7F2F" "xFFBF2F" }
     traits = { "state_trait_oumi_bonti" "state_trait_yodogawa" "state_trait_uji_tea" }
     city = "xFFBF2F"
-    port = "x071A46"
+    # port = "xFFBF2F"
     farm = "xA4F748"
     mine = "xF37C8B"
     wood = "xF9CCA5"
@@ -36,7 +36,7 @@ STATE_KONAN = {
         bg_cryptomeria_forest = 15
 
     }
-    naval_exit_id = 3101
+# naval_exit_id = 3101
 }
 STATE_KOTOU = {
     #湖東
@@ -44,7 +44,7 @@ STATE_KOTOU = {
     provinces = { "x5DC2FC" "x71F3E9" "x81A6F4" "x96A4FB" "xBF80ED" "xC6E4E2" "xC8C6FC" "xCCFCAF" "xE17FF1" "xE35DCB" "xE952D3" "xE9BAB9" "xF9FD72" "xFDF21F" }
     traits = { "state_trait_oumi_bonti" "state_trait_uji_tea" }
     city = "xC8C6FC"
-    port = "xC6E4E2"
+    # port = "xC6E4E2"
     farm = "xFDF21F"
     mine = "xE35DCB"
     wood = "xE17FF1"
@@ -55,7 +55,7 @@ STATE_KOTOU = {
         bg_cryptomeria_forest = 15
 
     }
-    naval_exit_id = 3101
+# naval_exit_id = 3101
 }
 STATE_KOHOKU = {
     #湖北
@@ -63,7 +63,7 @@ STATE_KOHOKU = {
     provinces = { "xB5CFA2" "xB5F1D2" "xD077B2" "xD2A894" "xD8C3E7" "xDFE3FD" "xE4D7B2" "xE662FC" "xEDDD9E" "xFC8779" "xFED471" }
     traits = { "state_trait_oumi_bonti" }
     city = "xE4D7B2"
-    port = "xB5CFA2"
+    # port = "xB5CFA2"
     farm = "xE662FC"
     mine = "xFED471"
     wood = "xE662FC"
@@ -74,7 +74,7 @@ STATE_KOHOKU = {
         bg_cryptomeria_forest = 15
 
     }
-    naval_exit_id = 3101
+# naval_exit_id = 3101
 }
 #京都府
 STATE_TANGO = {
