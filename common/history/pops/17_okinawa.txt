@@ -102,7 +102,7 @@
 		region_state:USR = {
 			create_pop = {
 				culture = yankee
-				size = 50
+				size = 1
 			}
 		}
 	}

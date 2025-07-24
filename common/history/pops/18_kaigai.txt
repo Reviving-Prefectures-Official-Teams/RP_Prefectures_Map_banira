@@ -1,110 +1,110 @@
-POPS = {
-     	s:STATE_RECLAIMED_001 = { #474827
-		region_state:AB1 = {
-			create_pop = {
-				culture = yankee
-				size = 100
-			}
-		}
-	}
+# POPS = {
+#      	s:STATE_RECLAIMED_001 = { #474827
+# 		region_state:AB1 = {
+# 			create_pop = {
+# 				culture = yankee
+# 				size = 100
+# 			}
+# 		}
+# 	}
 
-     	s:STATE_RECLAIMED_002 = { #474827
-		region_state:AB2 = {
-			create_pop = {
-				culture = russian
-				size = 100
-			}
-		}
-	}
+#      	s:STATE_RECLAIMED_002 = { #474827
+# 		region_state:AB2 = {
+# 			create_pop = {
+# 				culture = russian
+# 				size = 100
+# 			}
+# 		}
+# 	}
 
-     	s:STATE_RECLAIMED_007 = { #474827
-		region_state:AB3 = {
-			create_pop = {
-				culture = korean
-				size = 100
-			}
-		}
-	}
+#      	s:STATE_RECLAIMED_007 = { #474827
+# 		region_state:AB3 = {
+# 			create_pop = {
+# 				culture = korean
+# 				size = 100
+# 			}
+# 		}
+# 	}
 
-     	s:STATE_RECLAIMED_008 = { #474827
-		region_state:AB4 = {
-			create_pop = {
-				culture = korean
-				size = 100
-			}
-		}
-	}
+#      	s:STATE_RECLAIMED_008 = { #474827
+# 		region_state:AB4 = {
+# 			create_pop = {
+# 				culture = korean
+# 				size = 100
+# 			}
+# 		}
+# 	}
 
-     	s:STATE_RECLAIMED_009 = { #474827
-		region_state:AB5 = {
-			create_pop = {
-				culture = han
-				size = 100
-			}
-		}
-	}
+#      	s:STATE_RECLAIMED_009 = { #474827
+# 		region_state:AB5 = {
+# 			create_pop = {
+# 				culture = han
+# 				size = 100
+# 			}
+# 		}
+# 	}
     
-	    s:STATE_RECLAIMED_010 = { #474827
-		region_state:AB6 = {
-			create_pop = {
-				culture = kaitakusha #Australian
-				size = 100
-			}
-		}
-	}
+# 	    s:STATE_RECLAIMED_010 = { #474827
+# 		region_state:AB6 = {
+# 			create_pop = {
+# 				culture = kaitakusha #Australian
+# 				size = 100
+# 			}
+# 		}
+# 	}
 
-	    s:STATE_RECLAIMED_011 = { #474827
-		region_state:AB7 = {
-			create_pop = {
-				culture = kaitakusha #southeast_asian
-				size = 100
-			}
-		}
-	}
+# 	    s:STATE_RECLAIMED_011 = { #474827
+# 		region_state:AB7 = {
+# 			create_pop = {
+# 				culture = kaitakusha #southeast_asian
+# 				size = 100
+# 			}
+# 		}
+# 	}
 
-	    s:STATE_RECLAIMED_012 = { #474827
-		region_state:AB8 = {
-			create_pop = {
-				culture = kaitakusha #indian
-				size = 100
-			}
-		}
-	}
+# 	    s:STATE_RECLAIMED_012 = { #474827
+# 		region_state:AB8 = {
+# 			create_pop = {
+# 				culture = kaitakusha #indian
+# 				size = 100
+# 			}
+# 		}
+# 	}
 
-	    s:STATE_RECLAIMED_013 = { #474827
-		region_state:AB9 = {
-			create_pop = {
-				culture = kaitakusha #arabian
-				size = 100
-			}
-		}
-	}
+# 	    s:STATE_RECLAIMED_013 = { #474827
+# 		region_state:AB9 = {
+# 			create_pop = {
+# 				culture = kaitakusha #arabian
+# 				size = 100
+# 			}
+# 		}
+# 	}
 
-	    s:STATE_RECLAIMED_014 = { #474827
-		region_state:AB10 = {
-			create_pop = {
-				culture = kaitakusha #european
-				size = 100
-			}
-		}
-	}
+# 	    s:STATE_RECLAIMED_014 = { #474827
+# 		region_state:AB10 = {
+# 			create_pop = {
+# 				culture = kaitakusha #european
+# 				size = 100
+# 			}
+# 		}
+# 	}
 
-	    s:STATE_RECLAIMED_015 = { #474827
-		region_state:AB11 = {
-			create_pop = {
-				culture = kaitakusha #rattan_american
-				size = 100
-			}
-		}
-	}
+# 	    s:STATE_RECLAIMED_015 = { #474827
+# 		region_state:AB11 = {
+# 			create_pop = {
+# 				culture = kaitakusha #rattan_american
+# 				size = 100
+# 			}
+# 		}
+# 	}
 
-	    s:STATE_RECLAIMED_016 = { #474827
-		region_state:AB12 = {
-			create_pop = {
-				culture = kaitakusha #african
-				size = 100
-			}
-		}
-	}
+# 	    s:STATE_RECLAIMED_016 = { #474827
+# 		region_state:AB12 = {
+# 			create_pop = {
+# 				culture = kaitakusha #african
+# 				size = 100
+# 			}
+# 		}
+# 	}
 
-}
+# }

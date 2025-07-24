@@ -343,53 +343,53 @@ gov_enlightened_despotate = {
 # 	}
 # }
 
-gov_hawaiian_monarchy_recognised = {
-	transfer_of_power = hereditary
+# gov_hawaiian_monarchy_recognised = {
+# 	transfer_of_power = hereditary
 
-	male_ruler = "RULER_TITLE_MOI"
-	female_ruler = "RULER_TITLE_MOIWAHINE"
+# 	male_ruler = "RULER_TITLE_MOI"
+# 	female_ruler = "RULER_TITLE_MOIWAHINE"
 
-	male_heir = "RULER_TITLE_KAMALII"
-	female_heir = "RULER_TITLE_KAMALII_WAHINE"
+# 	male_heir = "RULER_TITLE_KAMALII"
+# 	female_heir = "RULER_TITLE_KAMALII_WAHINE"
 
-	possible = {
-		NOT = { is_country_type = unrecognized }
-		has_law = law_type:law_monarchy
-		exists = c:HAW
-		c:HAW = ROOT
-	}
+# 	possible = {
+# 		NOT = { is_country_type = unrecognized }
+# 		has_law = law_type:law_monarchy
+# 		exists = c:HAW
+# 		c:HAW = ROOT
+# 	}
 
-	on_government_type_change = {
-		change_to_hereditary = yes
-	}
-	on_post_government_type_change = {
-		post_change_to_hereditary = yes
-	}
-}
+# 	on_government_type_change = {
+# 		change_to_hereditary = yes
+# 	}
+# 	on_post_government_type_change = {
+# 		post_change_to_hereditary = yes
+# 	}
+# }
 
-gov_hawaiian_monarchy = {
-	transfer_of_power = hereditary
+# gov_hawaiian_monarchy = {
+# 	transfer_of_power = hereditary
 
-	male_ruler = "RULER_TITLE_ALII_NUI"
-	female_ruler = "RULER_TITLE_ALII_NUI"
+# 	male_ruler = "RULER_TITLE_ALII_NUI"
+# 	female_ruler = "RULER_TITLE_ALII_NUI"
 
-	male_heir = "RULER_TITLE_KAMALII"
-	female_heir = "RULER_TITLE_KAMALII_WAHINE"
+# 	male_heir = "RULER_TITLE_KAMALII"
+# 	female_heir = "RULER_TITLE_KAMALII_WAHINE"
 
-	possible = {
-		is_country_type = unrecognized
-		has_law = law_type:law_monarchy
-		exists = c:HAW
-		c:HAW = ROOT
-	}
+# 	possible = {
+# 		is_country_type = unrecognized
+# 		has_law = law_type:law_monarchy
+# 		exists = c:HAW
+# 		c:HAW = ROOT
+# 	}
 
-	on_government_type_change = {
-		change_to_hereditary = yes
-	}
-	on_post_government_type_change = {
-		post_change_to_hereditary = yes
-	}
-}
+# 	on_government_type_change = {
+# 		change_to_hereditary = yes
+# 	}
+# 	on_post_government_type_change = {
+# 		post_change_to_hereditary = yes
+# 	}
+# }
 
 # gov_malikdom = {
 # 	transfer_of_power = hereditary
@@ -1055,27 +1055,27 @@ gov_hawaiian_monarchy = {
 # 	}
 # }
 
-gov_confederation_of_the_rhine = {
-	transfer_of_power = hereditary
+# gov_confederation_of_the_rhine = {
+# 	transfer_of_power = hereditary
 
-	male_ruler = "RULER_TITLE_PRINCE_PRIMATE"
-	female_ruler = "RULER_TITLE_PRINCESS_PRIMATE"
+# 	male_ruler = "RULER_TITLE_PRINCE_PRIMATE"
+# 	female_ruler = "RULER_TITLE_PRINCESS_PRIMATE"
 
-	male_heir = "RULER_TITLE_PRINCE"
-	female_heir = "RULER_TITLE_PRINCE"
+# 	male_heir = "RULER_TITLE_PRINCE"
+# 	female_heir = "RULER_TITLE_PRINCE"
 
-	possible = {
-		c:RHN ?= this
-		has_law = law_type:law_monarchy
-	}
+# 	possible = {
+# 		c:RHN ?= this
+# 		has_law = law_type:law_monarchy
+# 	}
 
-	on_government_type_change = {
-		change_to_hereditary = yes
-	}
-	on_post_government_type_change = {
-		post_change_to_hereditary = yes
-	}
-}
+# 	on_government_type_change = {
+# 		change_to_hereditary = yes
+# 	}
+# 	on_post_government_type_change = {
+# 		post_change_to_hereditary = yes
+# 	}
+# }
 
 gov_decentralized_realm = {
 	transfer_of_power = hereditary
