@@ -44,63 +44,63 @@ STATE_OSAKAWAN_2 = {
     city = "x000028"
 }
 #中東
-STATE_RECLAIMED_007 = {
-    id = 3207
-    provinces = { "xF347EF" }
-    city = "xF347EF"
+# STATE_RECLAIMED_007 = {
+#     id = 3207
+#     provinces = { "xF347EF" }
+#     city = "xF347EF"
 
-}
+# }
 #韓国
-STATE_RECLAIMED_008 = {
-    id = 3208
-    provinces = { "x5359AB" }
-    city = "x5359AB"
-}
+# STATE_RECLAIMED_008 = {
+#     id = 3208
+#     provinces = { "x5359AB" }
+#     city = "x5359AB"
+# }
 #中国
-STATE_RECLAIMED_009 = {
-    id = 3209
-    provinces = { "x028186" }
-    city = "x028186"
-}
+# STATE_RECLAIMED_009 = {
+#     id = 3209
+#     provinces = { "x028186" }
+#     city = "x028186"
+# }
 #オーストラリア
-STATE_RECLAIMED_010 = {
-    id = 3210
-    provinces = { "xE057CA" }
-    city = "xE057CA"
-}
+# STATE_RECLAIMED_010 = {
+#     id = 3210
+#     provinces = { "xE057CA" }
+#     city = "xE057CA"
+# }
 #東南アジア
-STATE_RECLAIMED_011 = {
-    id = 3211
-    provinces = { "x72FE9F" }
-    city = "x72FE9F"
-}
+# STATE_RECLAIMED_011 = {
+#     id = 3211
+#     provinces = { "x72FE9F" }
+#     city = "x72FE9F"
+# }
 #インド
-STATE_RECLAIMED_012 = {
-    id = 3212
-    provinces = { "x28739A" }
-    city = "x28739A"
-}
+# STATE_RECLAIMED_012 = {
+#     id = 3212
+#     provinces = { "x28739A" }
+#     city = "x28739A"
+# }
 #アラブ世界
-STATE_RECLAIMED_013 = {
-    id = 3213
-    provinces = { "x6F4027" }
-    city = "x6F4027"
-}
+# STATE_RECLAIMED_013 = {
+#     id = 3213
+#     provinces = { "x6F4027" }
+#     city = "x6F4027"
+# }
 #ヨーロッパ
-STATE_RECLAIMED_014 = {
-    id = 3214
-    provinces = { "x414CFA" }
-    city = "x414CFA"
-}
+# STATE_RECLAIMED_014 = {
+#     id = 3214
+#     provinces = { "x414CFA" }
+#     city = "x414CFA"
+# }
 #ラテンアメリカ
-STATE_RECLAIMED_015 = {
-    id = 3215
-    provinces = { "xC1A979" }
-    city = "xC1A979"
-}
+# STATE_RECLAIMED_015 = {
+#     id = 3215
+#     provinces = { "xC1A979" }
+#     city = "xC1A979"
+# }
 #アフリカ
-STATE_RECLAIMED_016 = {
-    id = 3216
-    provinces = { "xF7F14C" }
-    city = "xF7F14C"
-}
+# STATE_RECLAIMED_016 = {
+#     id = 3216
+#     provinces = { "xF7F14C" }
+#     city = "xF7F14C"
+# }
