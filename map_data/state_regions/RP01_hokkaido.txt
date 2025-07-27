@@ -294,7 +294,7 @@ STATE_ETOROFU = {
     mine = "xFBC0E4"
     wood = "xEDEB3B"
     arable_resources = { "bg_rice_farms" "bg_wheat_farms" "bg_vegetable_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
-    capped_resources = {}
+    # capped_resources = {}
     naval_exit_id = 3051
 }
 STATE_HABOMAI = {
@@ -304,7 +304,7 @@ STATE_HABOMAI = {
     city = "xF7F439"
     port = "xF7F439"
     arable_resources = { "bg_rice_farms" "bg_wheat_farms" "bg_vegetable_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
-    capped_resources = {}
+    # capped_resources = {}
     naval_exit_id = 3050
 }
 STATE_KUNASHIRI = {
@@ -317,7 +317,7 @@ STATE_KUNASHIRI = {
     mine = "xE883E0"
     wood = "xF8F6E7"
     arable_resources = { "bg_rice_farms" "bg_wheat_farms" "bg_vegetable_farms" "bg_cattle_ranch" "bg_poultry_farm" "bg_hog_farm" }
-    capped_resources = {}
+    # capped_resources = {}
     naval_exit_id = 3050
 }
 STATE_HIYAMA = {

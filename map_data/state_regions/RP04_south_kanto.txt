@@ -142,7 +142,7 @@ STATE_OKUTAMA = {
     traits = { "state_trait_kantou_santi" }
     city = "xBADDDB"
     farm = "xFF4FBF"
-    mine = "x"
+    # mine = "x"
     wood = "xCC88A2"
     arable_land = 20
     arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_vineyard_plantations" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
@@ -194,9 +194,7 @@ STATE_MACHIDA = {
     city = "xF788AC"
     arable_land = 10
     arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
-    capped_resources = {
-
-    }
+    # capped_resources = {}
 }
 STATE_JOSAI = {
     #城西
@@ -209,9 +207,7 @@ STATE_JOSAI = {
     wood = "x82D9C0"
     arable_land = 30
     arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_vineyard_plantations" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
-    capped_resources = {
-
-    }
+    # capped_resources = {}
 }
 STATE_JOHOKU = {
     #城北
@@ -224,9 +220,7 @@ STATE_JOHOKU = {
     wood = "xFABCD1"
     arable_land = 30
     arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_vineyard_plantations" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
-    capped_resources = {
-
-    }
+    # capped_resources = {}
 }
 STATE_JONAN = {
     #城南
@@ -240,9 +234,7 @@ STATE_JONAN = {
     wood = "xB54FF5"
     arable_land = 30
     arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_vineyard_plantations" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
-    capped_resources = {
-
-    }
+    # capped_resources = {}
     naval_exit_id = 3000
 }
 STATE_CENTER_TOKYO = {
@@ -258,9 +250,7 @@ STATE_CENTER_TOKYO = {
     wood = "xB4D2AA"
     arable_land = 50
     arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
-    capped_resources = {
-
-    }
+    # capped_resources = {}
     naval_exit_id = 3000
 }
 STATE_JOTO = {
@@ -275,9 +265,7 @@ STATE_JOTO = {
     traits = { "state_trait_kantou_heiya" }
     arable_land = 30
     arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_vineyard_plantations" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
-    capped_resources = {
-
-    }
+    # capped_resources = {}
     naval_exit_id = 3000
 }
 STATE_IZU_ISLAND = {
@@ -291,9 +279,7 @@ STATE_IZU_ISLAND = {
     wood = "x4DCDFC"
     arable_land = 5
     arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
-    capped_resources = {
-
-    }
+    # capped_resources = {}
     naval_exit_id = 3001
 }
 STATE_HACHIJO = {
@@ -305,9 +291,7 @@ STATE_HACHIJO = {
     farm = "x68D7F6"
     arable_land = 3
     arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
-    capped_resources = {
-
-    }
+    # capped_resources = {}
     naval_exit_id = 3002
 }
 STATE_OGASAWARA = {
@@ -319,9 +303,7 @@ STATE_OGASAWARA = {
     farm = "xF2E177"
     arable_land = 3
     arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
-    capped_resources = {
-
-    }
+    # capped_resources = {}
     naval_exit_id = 3004
 }
 STATE_KAZANRETTO = {
@@ -332,9 +314,7 @@ STATE_KAZANRETTO = {
     port = "xA8BB99"
     arable_land = 3
     arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_tea_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
-    capped_resources = {
-
-    }
+    # capped_resources = {}
     naval_exit_id = 3006
 }
 #埼玉県

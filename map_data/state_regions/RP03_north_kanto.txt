@@ -42,10 +42,7 @@ STATE_SEIMOU = {
     wood = "xE7CDFA"
     arable_land = 30
     arable_resources = { "bg_rice_farms" "bg_vegetable_farms" "bg_cotton_plantations" "bg_poultry_farm" "bg_hog_farm" "bg_cattle_ranch" "bg_wheat_farms" "bg_maize_farms" }
-    capped_resources = {
-
-
-    }
+    # capped_resources = {}
 }
 STATE_NUMATA = {
     #沼田

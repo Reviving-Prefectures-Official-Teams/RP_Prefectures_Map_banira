@@ -270,7 +270,8 @@
  bg_poultry_farm: "養鶏場"
  bg_cattle_ranch: "牛牧場"
  bg_ranching: "牧場"
- bg_mining: "採掘場"
+ bg_mining: "採掘場" 
+ bg_orchard: "果樹園"
 
 
  bg_castanopsis_forest: "カシ林"
