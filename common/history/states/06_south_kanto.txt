@@ -97,10 +97,13 @@ STATES = {
 		}
 		add_homeland = cu:edo
 	}
-	s:STATE_CENTER_TOKYO = {
+	s:STATE_CENTER_TOKYO = { # 埋立地1,2はいったんここに 
 		create_state = {
 			country = c:TKY
-    		owned_provinces = { "x8DFED4" "xB4D2AA" "xBC6FF9" "xC264E1" "xEE84CB" "xFEA381" "xFEA879" }
+    		owned_provinces = { "x8DFED4" "xB4D2AA" "xBC6FF9" "xC264E1" "xEE84CB" "xFEA381" "xFEA879" 
+				"x08D632" "x3090BC" "x82D219" "xAA4D41" "xB08D2D" 
+				"x012488" "x22EF86" "x37C2D0" "x408732" "x47F3E5" "x695453" "x70AADC" "x7148C8" "x869073" "x9C46B5" "x9D5011" "x9F88E4" "xAAE339" "xAFD589" "xBE95E8" "xC8F40B" "xCDD7E9" "xD523FF" "xF09616"
+				}
 		}
 		add_homeland = cu:yamanote
 	}

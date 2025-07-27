@@ -246,9 +246,10 @@ STATE_JONAN = {
     naval_exit_id = 3000
 }
 STATE_CENTER_TOKYO = {
-    #東京
+    #東京, 埋立地もいったんこちらへ
     id = 14
-    provinces = { "x8DFED4" "xB4D2AA" "xBC6FF9" "xC264E1" "xEE84CB" "xFEA381" "xFEA879" }
+    provinces = { "x8DFED4" "xB4D2AA" "xBC6FF9" "xC264E1" "xEE84CB" "xFEA381" "xFEA879" "x08D632" "x3090BC" "x82D219" "xAA4D41" "xB08D2D" 
+				"x012488" "x22EF86" "x37C2D0" "x408732" "x47F3E5" "x695453" "x70AADC" "x7148C8" "x869073" "x9C46B5" "x9D5011" "x9F88E4" "xAAE339" "xAFD589" "xBE95E8" "xC8F40B" "xCDD7E9" "xD523FF" "xF09616" }
     traits = { "state_trait_mainPort" "state_trait_kantou_heiya" }
     city = "xBC6FF9"
     port = "xFEA381"

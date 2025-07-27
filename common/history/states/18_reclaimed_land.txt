@@ -10,22 +10,22 @@ STATES = {
 		}
 		add_claim = c:AKT
 	}
-# 	#青函トンネル青森側出口
-# 	s:STATE_TUNNEL_AOMORI = {
-# 		create_state = {
-# 			country = c:RL2
-# 			owned_provinces = { "x03D4D1" "xD9B88D" }
-# 		}
-# 		add_claim = c:AOM
-# 	}
-# 	#青函トンネル北海道側出口
-# 	s:STATE_TUNNEL_HOKKAIDO = {
-# 		create_state = {
-# 			country = c:RL2
-# 			owned_provinces = { "x3E81B5" "xC3ABE6" }
-# 		}
-# 		add_claim = c:HOK
-# 	}
+	# #青函トンネル青森側出口
+	# s:STATE_TUNNEL_AOMORI = {
+	# 	create_state = {
+	# 		country = c:RL2
+	# 		owned_provinces = { "x03D4D1" "xD9B88D" }
+	# 	}
+	# 	add_claim = c:AOM
+	# }
+	# #青函トンネル北海道側出口
+	# s:STATE_TUNNEL_HOKKAIDO = {
+	# 	create_state = {
+	# 		country = c:RL2
+	# 		owned_provinces = { "x3E81B5" "xC3ABE6" }
+	# 	}
+	# 	add_claim = c:HOK
+	# }
 # 	#東京湾埋立地1
 # 	s:STATE_TOKYOWAN_1 = {
 # 		create_state = {

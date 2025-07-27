@@ -198,23 +198,23 @@
 		}
 	}
 
-	s:STATE_OSAKAWAN_1 = { #100
-		region_state:RL4 = {
-			create_pop = {
-				culture = kaitakusha
-				size = 100
-			}
-		}
-	}
+	# s:STATE_OSAKAWAN_1 = { #100
+	# 	region_state:RL4 = {
+	# 		create_pop = {
+	# 			culture = kaitakusha
+	# 			size = 100
+	# 		}
+	# 	}
+	# }
 
-	s:STATE_OSAKAWAN_2 = { #100
-		region_state:RL5 = {
-			create_pop = {
-				culture = kaitakusha
-				size = 100
-			}
-		}
-	}
+	# s:STATE_OSAKAWAN_2 = { #100
+	# 	region_state:RL5 = {
+	# 		create_pop = {
+	# 			culture = kaitakusha
+	# 			size = 100
+	# 		}
+	# 	}
+	# }
 
 	#兵庫
 	s:STATE_AWAJI = { #226280

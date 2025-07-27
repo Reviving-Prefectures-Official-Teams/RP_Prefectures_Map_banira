@@ -184,9 +184,9 @@ STATE_HOKUSETSU = {
     }
 }
 STATE_OSAKA = {
-    #大阪
+    #大阪 埋立地もここへ
     id = 61
-    provinces = { "x54FEAA" "x7CC8D3" "x92BBC6" "x98CDA1" "xA0F5D0" "xA1E6FE" "xA6CEC1" "xADBCA2" "xB485CD" "xB5D6E1" "xB7D9B2" "xB7FCCF" "xC8A0B5" "xCBEEB2" "xCED272" "xD185D2" "xD8BD6E" "xE59F76" "xE8C2C5" "xEEF152" "xF344DB" "xF3DCDA" "xF73BD5" "xFD81B9" }
+    provinces = { "x54FEAA" "x7CC8D3" "x92BBC6" "x98CDA1" "xA0F5D0" "xA1E6FE" "xA6CEC1" "xADBCA2" "xB485CD" "xB5D6E1" "xB7D9B2" "xB7FCCF" "xC8A0B5" "xCBEEB2" "xCED272" "xD185D2" "xD8BD6E" "xE59F76" "xE8C2C5" "xEEF152" "xF344DB" "xF3DCDA" "xF73BD5" "xFD81B9"   "x2538F8" "x54E6F1" "x57CDE7" "x595524" "x62BE50" "x739FF7" "x7D27DB" "x88FCB4" "x9B68F7" "xA935BD" "CBD9A1" "xD10B83" "xD57EE2" "xD5F562" "xEA916E" "xEB99CA" "xF27AF5" "x000028" "x457C03" "x722409" "x7AADCA" "x99BB34" "x99BB35" "xAC0D0F" "xB403DE" "xBF9AC5" "xBFF061" "xD19B63" "xE3A9D6" "xF76A74"  }
     traits = { "state_trait_mainPort" "state_trait_yodogawa" "state_trait_osaka_heiya" }
     city = "xCED272"
     port = "xF73BD5"

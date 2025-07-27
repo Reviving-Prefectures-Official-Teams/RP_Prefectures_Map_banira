@@ -231,23 +231,23 @@
 			}
 		}
 	}
-	s:STATE_TOKYOWAN_1 = { #100
-		region_state:RL3 = {
-			create_pop = {
-				culture = kaitakusha
-				size = 100
-			}
-		}
-	}
+	# s:STATE_TOKYOWAN_1 = { #100
+	# 	region_state:RL3 = {
+	# 		create_pop = {
+	# 			culture = kaitakusha
+	# 			size = 100
+	# 		}
+	# 	}
+	# }
 
-	s:STATE_TOKYOWAN_2 = { #100
-		region_state:RL3 = {
-			create_pop = {
-				culture = kaitakusha
-				size = 100
-			}
-		}
-	}
+	# s:STATE_TOKYOWAN_2 = { #100
+	# 	region_state:RL3 = {
+	# 		create_pop = {
+	# 			culture = kaitakusha
+	# 			size = 100
+	# 		}
+	# 	}
+	# }
 
 
 	#埼玉

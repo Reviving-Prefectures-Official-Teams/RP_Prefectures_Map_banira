@@ -7,12 +7,12 @@
 				size = 495937
 			}
 		} 
-        region_state:RL2 = {
-			create_pop = {
-				culture = kaitakusha
-				size = 100
-			}
-		} 
+        # region_state:RL2 = {
+		# 	create_pop = {
+		# 		culture = kaitakusha
+		# 		size = 100
+		# 	}
+		# } 
     }
     s:STATE_HACHINOHE = { #242076
         region_state:AOM = {
@@ -98,7 +98,7 @@
 		}
         region_state:RL1 = {
 			create_pop = {
-				culture = kaitakusha
+				culture = akita
 				size = 100
 			}
 		} 
