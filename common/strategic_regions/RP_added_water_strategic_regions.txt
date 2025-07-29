@@ -207,3 +207,43 @@ region_coast_of_hitachi = {
 region_coast_of_kujukuri = {
 	states = {STATE_COAST_OF_KUJUKURI}
 }
+
+region_kasumigaura = {
+	states = {STATE_KASUMIGAURA}
+}
+region_biwako = {
+	states = {STATE_BIWAKO}
+}
+region_hamanako = {
+	states = {STATE_HAMANAKO}
+}
+region_inawashiroko = {
+	states = {STATE_INAWASHIROKO}
+}
+region_tazawako = {
+	states = {STATE_TAZAWAKO}
+}
+region_towadako = {
+	states = {STATE_TOWADAKO}
+}
+region_tohyako = {
+	states = {STATE_TOHYAKO}
+}
+region_shikotsuko = {
+	states = {STATE_SHIKOTSUKO}
+}
+region_akkeshiwan = {
+	states = {STATE_AKKESHIWAN}
+}
+region_masyuko = {
+	states = {STATE_MASYUKO}
+}
+region_kusyaroko = {
+	states = {STATE_KUSYAROKO}
+}
+region_abashiriko = {
+	states = {STATE_ABASHIRIKO}
+}
+region_notoroko = {
+	states = {STATE_NOTOROKO}
+}

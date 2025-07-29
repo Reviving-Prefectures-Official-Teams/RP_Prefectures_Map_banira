@@ -23,7 +23,7 @@ region_south_tohoku = {
 }
 region_north_tohoku = {
 	graphical_culture = "asian"
-	capital_province = x4BAFAF
+	capital_province = xFC8079
 	map_color = { 0.2 0.3 0.4 }
 	states = {
 		# 岩手県
@@ -38,7 +38,7 @@ region_north_tohoku = {
 # 関東地方
 region_north_kanto = {
 	graphical_culture = "asian"
-	capital_province = x5CF3CF
+	capital_province = xC3DDF4
 	map_color = { 0.1 0.2 0.6 }
 	states = {
 		# 群馬県
@@ -68,7 +68,7 @@ region_south_kanto = {
 # 北陸地方
 region_hokuriku = {
 	graphical_culture = "asian"
-	capital_province = x54F3FA
+	capital_province = xABC6EF
 	map_color = { 0.6 0.2 0.1 }
 	states = {
 		# 新潟県
@@ -84,7 +84,7 @@ region_hokuriku = {
 # 中部地方
 region_chubu = {
 	graphical_culture = "asian"
-	capital_province = x435C12
+	capital_province = xD9F84D
 	map_color = { 0.8 0.4 0.2 }
 	states = {
 		# 長野県
@@ -98,7 +98,7 @@ region_chubu = {
 # 東海地方
 region_tokai = {
 	graphical_culture = "asian"
-	capital_province = xE1BB90
+	capital_province = xE8FB9B
 	map_color = { 0.9 0.2 0.5 }
 	states = {
 		# 静岡県
@@ -112,7 +112,7 @@ region_tokai = {
 # 紀伊地方
 region_kii = {
 	graphical_culture = "asian"
-	capital_province = xE1BB90
+	capital_province = x9AF9ED
 	map_color = { 0.2 0.3 0.9 }
 	states = {
 		# 三重県
@@ -126,7 +126,7 @@ region_kii = {
 # 近畿地方
 region_kinki = {
 	graphical_culture = "asian"
-	capital_province = xE1BB90
+	capital_province = xCED272
 	map_color = { 0.3 0.5 0.6 }
 	states = {
 		# 滋賀県
@@ -145,7 +145,7 @@ region_kinki = {
 # todo-memo:山陰に分離する?
 region_chugoku = {
 	graphical_culture = "asian"
-	capital_province = xE1BB90
+	capital_province = x0FFBFD
 	map_color = { 0.8 0.1 0.3 }
 	states = {
 		# 鳥取県
@@ -163,7 +163,7 @@ region_chugoku = {
 # 四国地方
 region_shikoku = {
 	graphical_culture = "asian"
-	capital_province = xE1BB90
+	capital_province = x52CAF9
 	map_color = { 0.9 0.3 0.2 }
 	states = {
 		# 香川県
@@ -179,7 +179,7 @@ region_shikoku = {
 # 九州地方
 region_kyushu = {
 	graphical_culture = "asian"
-	capital_province = xE1BB90
+	capital_province = x5DDDED
 	map_color = { 0.3 0.7 0.1 }
 	states = {
 		# 福岡県
@@ -202,7 +202,7 @@ region_kyushu = {
 # 沖縄地方
 region_okinawa = {
 	graphical_culture = "asian"
-	capital_province = xE1BB90
+	capital_province = xA39BBD
 	map_color = { 0.1 0.9 0.1 }
 	states = {
 		# 沖縄県
@@ -210,11 +210,11 @@ region_okinawa = {
 	}
 }
 
-region_abroad = {
-	graphical_culture = "asian"
-	capital_province = xE1BB90
-	map_color = { 0.1 0.1 0.1 }
-	states = {
-		STATE_RECLAIMED_001 STATE_RECLAIMED_002 STATE_RECLAIMED_007 STATE_RECLAIMED_008 STATE_RECLAIMED_009 STATE_RECLAIMED_010 STATE_RECLAIMED_011 STATE_RECLAIMED_012 STATE_RECLAIMED_013 STATE_RECLAIMED_014 STATE_RECLAIMED_015 STATE_RECLAIMED_016
-	}
-}
+# region_abroad = {
+# 	graphical_culture = "asian"
+# 	capital_province = xE1BB90
+# 	map_color = { 0.1 0.1 0.1 }
+# 	states = {
+# 		STATE_RECLAIMED_001 STATE_RECLAIMED_002 STATE_RECLAIMED_007 STATE_RECLAIMED_008 STATE_RECLAIMED_009 STATE_RECLAIMED_010 STATE_RECLAIMED_011 STATE_RECLAIMED_012 STATE_RECLAIMED_013 STATE_RECLAIMED_014 STATE_RECLAIMED_015 STATE_RECLAIMED_016
+# 	}
+# }
