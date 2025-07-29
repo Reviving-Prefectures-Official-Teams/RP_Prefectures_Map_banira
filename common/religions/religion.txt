@@ -1,28 +1,28 @@
 ﻿# If you add religions, and use those tags, do not change them without changing everywhere they are used.
 
-# catholic = {
-# 	texture = "gfx/interface/icons/religion_icons/catholic.dds"
-# 	traits = {
-# 		christian
-# 	}
-# 	color = { 0.8 0.55 0.2 }
-# }
+catholic = {
+	texture = "gfx/interface/icons/religion_icons/catholic.dds"
+	traits = {
+		christian
+	}
+	color = { 0.8 0.55 0.2 }
+}
 
-# protestant = {
-# 	texture = "gfx/interface/icons/religion_icons/protestant.dds"
-# 	traits = {
-# 		christian
-# 	}
-# 	color = { 0.2 0.3 0.55 }
-# }
+protestant = {
+	texture = "gfx/interface/icons/religion_icons/protestant.dds"
+	traits = {
+		christian
+	}
+	color = { 0.2 0.3 0.55 }
+}
 
-# orthodox = {
-# 	texture = "gfx/interface/icons/religion_icons/orthodox.dds"
-# 	traits = {
-# 		christian
-# 	}
-# 	color = { 0.45 0.25 0.5 }
-# }
+orthodox = {
+	texture = "gfx/interface/icons/religion_icons/orthodox.dds"
+	traits = {
+		christian
+	}
+	color = { 0.45 0.25 0.5 }
+}
 
 # oriental_orthodox = {
 # 	texture = "gfx/interface/icons/religion_icons/coptic.dds"
@@ -134,7 +134,7 @@ animist = {
 	color = { 0.6 0.3 0.2 }
 }
 
-# atheist = {
-# 	texture = "gfx/interface/icons/religion_icons/atheist.dds"
-# 	color = { 1.0 1.0 1.0 }
-# }
+atheist = {
+	texture = "gfx/interface/icons/religion_icons/atheist.dds"
+	color = { 1.0 1.0 1.0 }
+}

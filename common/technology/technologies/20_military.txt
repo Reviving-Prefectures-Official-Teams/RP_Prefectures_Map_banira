@@ -10,6 +10,10 @@
 			# state_building_construction_sector_max_level_add = 10
 			market_land_trade_capacity_add = 50
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_planned_shipbuilding = {
@@ -19,6 +23,10 @@
 
 		modifier = {
 			state_building_port_max_level_add = 3
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -33,12 +41,20 @@
 			# state_building_construction_sector_max_level_add = 10
 			market_land_trade_capacity_add = 50
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_licensed_aircraft = {
 		era = era_1
 		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
 		category = military
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 ### ERA 2 = Tier1
@@ -49,6 +65,10 @@
 		unlocking_technologies = {
 			tech_steam_railway
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_aluminum_alloy = {
@@ -57,6 +77,10 @@
 		category = military
 		unlocking_technologies = {
 			tech_electric_railway
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -67,6 +91,10 @@
 		unlocking_technologies = {
 			tech_narrow_road
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_fluorescent_lamp = {
@@ -75,6 +103,10 @@
 		category = military
 		unlocking_technologies = {
 			tech_petroleum_asphalt
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -89,6 +121,10 @@
 			tech_petroleum_asphalt
 			tech_electric_railway
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_block_method = {
@@ -102,6 +138,10 @@
 		modifier = {
 			state_building_port_max_level_add = 5
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_aquaculture = {
@@ -110,6 +150,10 @@
 		category = military		
 		unlocking_technologies = {
 			tech_planned_shipbuilding
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -121,6 +165,10 @@
 		unlocking_technologies = {
 			tech_licensed_aircraft
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_radar_system = {
@@ -130,6 +178,10 @@
 
 		unlocking_technologies = {
 			tech_turbofan_engine
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -143,6 +195,10 @@
 			tech_aluminum_alloy
 			tech_electric_railway
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_high_pressure_sodium_lamp = {
@@ -152,6 +208,10 @@
 
 		unlocking_technologies = {
 			tech_fluorescent_lamp
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -163,6 +223,10 @@
 		unlocking_technologies = {
 			tech_petroleum_asphalt
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_distribution_system = {
@@ -172,6 +236,10 @@
 
 		unlocking_technologies = {
 			tech_physical_distribution
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -187,6 +255,10 @@
 		modifier = {
 			state_building_port_max_level_add = 10
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_air_traffic_management_ATM = {
@@ -196,6 +268,10 @@
 
 		unlocking_technologies = {
 			tech_radar_system
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -207,6 +283,10 @@
 		unlocking_technologies = {
 			tech_radar_system
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 ### ERA 4 = Tier3
@@ -217,6 +297,10 @@
 		unlocking_technologies = {
 			tech_shipbuilding
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 	tech_compound_feed = {
 		era = era_4
@@ -225,6 +309,10 @@
 		unlocking_technologies = {
 			tech_aquaculture
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 	tech_magnetic_levitation = {
 		era = era_4
@@ -232,6 +320,10 @@
 		category = military
 		unlocking_technologies = {
 			tech_automatic_train_operation
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -242,6 +334,10 @@
 		unlocking_technologies = {
 			tech_automatic_train_operation
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_CNG_truck = {
@@ -250,6 +346,10 @@
 		category = military
 		unlocking_technologies = {
 			tech_distribution_system
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -260,6 +360,10 @@
 		unlocking_technologies = {
 			tech_distribution_system
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_integrated_logistics = {
@@ -268,6 +372,10 @@
 		category = military
 		unlocking_technologies = {
 			tech_distribution_system
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -278,6 +386,10 @@
 		unlocking_technologies = {
 			tech_polymer_modified_asphalt
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_LED_lighting = {
@@ -286,6 +398,10 @@
 		category = military
 		unlocking_technologies = {
 			tech_high_pressure_sodium_lamp
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -296,6 +412,10 @@
 		unlocking_technologies = {
 			tech_polymer_modified_asphalt
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_automatic_welding = {
@@ -304,6 +424,10 @@
 		category = military
 		unlocking_technologies = {
 			tech_shipbuilding
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -318,6 +442,10 @@
 		modifier = {
 			state_building_port_max_level_add = 15
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_full_body_scanner = {
@@ -326,6 +454,10 @@
 		category = military
 		unlocking_technologies = {
 			tech_x_ray_baggage_inspection
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 	
@@ -337,6 +469,10 @@
 			tech_air_traffic_management_ATM
 			tech_x_ray_baggage_inspection
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 ### ERA 5 = Tier4
@@ -347,6 +483,10 @@
 		unlocking_technologies = {
 			tech_compound_feed
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_large_scale_automatic_welding = {
@@ -355,6 +495,10 @@
 		category = military
 		unlocking_technologies = {
 			tech_over_panamax_ship
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -365,6 +509,10 @@
 		unlocking_technologies = {
 			tech_large_scale_automatic_welding
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 	
 	tech_real_time_3D_radar = {
@@ -373,6 +521,10 @@
 		category = military
 		unlocking_technologies = {
 			tech_GPS
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -388,6 +540,10 @@
 			tech_contract_management
 			tech_integrated_logistics
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_smart_road = {
@@ -399,6 +555,10 @@
 			tech_LED_lighting
 			tech_multimodal_interchange
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_double_linked_truck = {
@@ -407,6 +567,10 @@
 		category = military
 		unlocking_technologies = {
 			tech_CNG_truck
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -417,6 +581,10 @@
 		unlocking_technologies = {
 			tech_magnetic_levitation
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_electric_vehicle = {
@@ -425,6 +593,10 @@
 		category = military
 		unlocking_technologies = {
 			tech_hybrid_technology
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -436,6 +608,10 @@
 		unlocking_technologies = {
 			tech_closed_recirculating_aquaculture_system
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 	tech_hyperloop = {
 		era = era_6
@@ -443,6 +619,10 @@
 		category = military
 		unlocking_technologies = {
 			tech_smart_road
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 	tech_level_5_autonomous_driving = {
@@ -454,6 +634,10 @@
 			tech_smart_logistics
 			tech_real_time_3D_radar
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 	tech_quantum_computer = {
 		era = era_6
@@ -461,5 +645,9 @@
 		category = military
 		unlocking_technologies = {
 			tech_hybrid_technology
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}

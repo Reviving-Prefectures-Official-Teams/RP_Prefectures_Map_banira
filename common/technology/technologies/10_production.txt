@@ -3,30 +3,50 @@
 		era = era_1
 		texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
 		category = production
+		
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_planting = {
 		era = era_1
 		texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
 		category = production
+		
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_vaccume_tube = {
 		era = era_1
 		texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
 		category = production
+		
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_hydroelectric_power = {
 		era = era_1
 		texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
 		category = production
+		
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_priority_production = {
 		era = era_1
 		texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
 		category = production
+		
+		ai_weight = {
+			value = 1
+		}
 	}
 
 ### ERA 2 = Tier1
@@ -37,6 +57,10 @@
 		unlocking_technologies = {
 			tech_hydroelectric_power
 		}
+		
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_wood_pulp = {
@@ -45,6 +69,10 @@
 		category = production
 		unlocking_technologies = {
 			tech_planting
+		}
+		
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -55,6 +83,10 @@
 		unlocking_technologies = {
 			tech_public_phone
 		}
+		
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_white_goods = {
@@ -63,6 +95,10 @@
 		category = production
 		unlocking_technologies = {
 			tech_machine_tool
+		}
+		
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -73,6 +109,10 @@
 		unlocking_technologies = {
 			tech_machine_tool
 		}
+		
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_high_thermal_melting  = {
@@ -81,6 +121,10 @@
 		category = production
 		unlocking_technologies = {
 			tech_priority_production
+		}
+		
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -91,6 +135,10 @@
 		unlocking_technologies = {
 			tech_planting
 		}
+		
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_petrochemistry = {
@@ -100,6 +148,10 @@
 		unlocking_technologies = {
 			tech_high_thermal_melting
 			tech_organic_compound
+		}
+		
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -119,6 +171,10 @@
 		unlocking_technologies = {
 			tech_vaccume_tube
 		}
+		
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_glass_wool = {
@@ -137,7 +193,10 @@
 		unlocking_technologies = {
 			tech_automatic_thresher
 		}
-
+		
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_automatic_thresher = {
@@ -156,6 +215,10 @@
 		unlocking_technologies = {
 			tech_machine_tool
 		}
+		
+		ai_weight = {
+			value = 1
+		}
 	}
 
 ### ERA 3 = Tier2
@@ -166,6 +229,10 @@
 		unlocking_technologies = {
 			tech_high_efficiency_turbine
 		}
+		
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_small_hydroelectric_power = {
@@ -174,6 +241,10 @@
 		category = production
 		unlocking_technologies = {
 			tech_large_turbine
+		}
+		
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -184,6 +255,10 @@
 		unlocking_technologies = {
 			tech_high_efficiency_turbine
 		}
+		
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_breeder_reactor = {
@@ -192,6 +267,10 @@
 		category = production
 		unlocking_technologies = {
 			tech_supercritical_pressure_power_generation
+		}
+		
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -202,6 +281,10 @@
 		unlocking_technologies = {
 			tech_wood_pulp
 		}
+		
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_molecular_science = {
@@ -210,6 +293,10 @@
 		category = production
 		unlocking_technologies = {
 			tech_petrochemistry
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -220,6 +307,10 @@
 		unlocking_technologies = {
 			tech_molecular_science
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_gas_phase_method = {
@@ -228,6 +319,10 @@
 		category = production
 		unlocking_technologies = {
 			tech_ceramics
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -238,6 +333,10 @@
 		unlocking_technologies = {
 			tech_petrochemistry
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_rapid_freezing_liquid_nitrogen_liquid_cooling = {
@@ -246,6 +345,10 @@
 		category = production
 		unlocking_technologies = {
 			tech_molecular_science
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -256,6 +359,10 @@
 		unlocking_technologies = {
 			tech_petrochemistry
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_oxygen_steelmaking = {
@@ -264,6 +371,10 @@
 		category = production
 		unlocking_technologies = {
 			tech_large_scale_plant
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -274,6 +385,10 @@
 		unlocking_technologies = {
 			tech_diesel_engine
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_early_computer = {
@@ -282,6 +397,10 @@
 		category = production
 		unlocking_technologies = {
 			tech_semiconductor
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -292,6 +411,10 @@
 		unlocking_technologies = {
 			tech_white_goods
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_pine_wood = {
@@ -300,6 +423,10 @@
 		category = production
 		unlocking_technologies = {
 			tech_wood_pulp
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -310,6 +437,10 @@
 		unlocking_technologies = {
 			tech_early_computer
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_conventional_method = {
@@ -318,6 +449,10 @@
 		category = production
 		unlocking_technologies = {
 			tech_assembly_method
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -328,6 +463,10 @@
 		unlocking_technologies = {
 			tech_batch_process
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 	
 	tech_antivirus = {
@@ -336,6 +475,10 @@
 		category = production
 		unlocking_technologies = {
 			tech_gene_science
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 	
@@ -347,6 +490,10 @@
 		unlocking_technologies = {
 			tech_small_hydroelectric_power
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_concentrated_solar_power = {
@@ -356,6 +503,10 @@
 		unlocking_technologies = {
 			tech_constant_speed_propeller
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_centrifugal_separation_method = {
@@ -364,7 +515,11 @@
 		category = production
 		unlocking_technologies = {
 			tech_advanced_molecular_science
-			}
+		}
+		
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_laser_enrichment = {
@@ -373,6 +528,10 @@
 		category = production
 		unlocking_technologies = {
 			tech_centrifugal_separation_method
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 	
@@ -383,6 +542,10 @@
 		unlocking_technologies = {
 			tech_agricultural_chemical
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_inorganic_chemistry_p = {
@@ -391,6 +554,10 @@
 		category = production
 		unlocking_technologies = {
 			tech_gene_science
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 	
@@ -401,6 +568,10 @@
 		unlocking_technologies = {
 			tech_advanced_molecular_science
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_modularization_equipment = {
@@ -409,6 +580,10 @@
 		category = production
 		unlocking_technologies = {
 			tech_oxygen_steelmaking
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -420,6 +595,10 @@
 			tech_flow_process
 			tech_early_computer
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_industrial_drone = {
@@ -428,6 +607,10 @@
 		category = production
 		unlocking_technologies = {
 			tech_modern_computer
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -438,6 +621,10 @@
 		unlocking_technologies = {
 			tech_industrial_drone
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_modern_computer = {
@@ -446,6 +633,10 @@
 		category = production
 		unlocking_technologies = {
 			tech_early_computer
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -456,6 +647,10 @@
 		unlocking_technologies = {
 			tech_flow_process
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_cancer_drug = {
@@ -464,6 +659,10 @@
 		category = production
 		unlocking_technologies = {
 			tech_antivirus
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -475,6 +674,10 @@
 		unlocking_technologies = {
 			tech_constant_speed_propeller
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_ultra_high_temperature_furnace = {
@@ -483,6 +686,10 @@
 		category = production
 		unlocking_technologies = {
 			tech_breeder_reactor
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -493,6 +700,10 @@
 		unlocking_technologies = {
 			tech_ultra_high_temperature_furnace
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_electromagnetic_isotope_separation = {
@@ -501,6 +712,10 @@
 		category = production
 		unlocking_technologies = {
 			tech_laser_enrichment
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -511,6 +726,10 @@
 		unlocking_technologies = {
 			tech_electromagnetic_isotope_separation
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_nanomaterials_science = {
@@ -519,6 +738,10 @@
 		category = production
 		unlocking_technologies = {
 			tech_inorganic_chemistry_p
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -529,6 +752,10 @@
 		unlocking_technologies = {
 			tech_advanced_molecular_science
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_biodegradable_plastic = {
@@ -537,6 +764,10 @@
 		category = production
 		unlocking_technologies = {
 			tech_nanomaterials_science
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -547,6 +778,10 @@
 		unlocking_technologies = {
 			tech_precision_machinery
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_additive_manufacturing = {
@@ -555,6 +790,10 @@
 		category = production
 		unlocking_technologies = {
 			tech_conventional_method
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -565,6 +804,10 @@
 		unlocking_technologies = {
 			tech_cell_process
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_aircraft_line_production = {
@@ -573,6 +816,10 @@
 		category = production
 		unlocking_technologies = {
 			tech_industrial_robot
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -583,6 +830,10 @@
 		unlocking_technologies = {
 			tech_precision_machinery
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_5G = {
@@ -591,6 +842,10 @@
 		category = production
 		unlocking_technologies = {
 			tech_modern_computer
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -601,6 +856,10 @@
 		unlocking_technologies = {
 			tech_5G
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_big_data = {
@@ -609,6 +868,10 @@
 		category = production
 		unlocking_technologies = {
 			tech_5G
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -621,6 +884,10 @@
 		unlocking_technologies = {
 			tech_concentrated_solar_power
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_accelerator-driven_subcritical_reactor = {
@@ -629,6 +896,10 @@
 		category = production
 		unlocking_technologies = {
 			tech_ultra_high_temperature_furnace
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -639,6 +910,10 @@
 		unlocking_technologies = {
 			tech_nuclear_fusion
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_super-large_turbine = {
@@ -647,6 +922,10 @@
 		category = production
 		unlocking_technologies = {
 			tech_floating_wind_turbine
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -657,6 +936,10 @@
 		unlocking_technologies = {
 			tech_laser_molecular_method
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_industrial_lasers = {
@@ -665,6 +948,10 @@
 		category = production
 		unlocking_technologies = {
 			tech_high_speed_drilling
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -676,6 +963,10 @@
 			tech_deep_learning
 			tech_big_data
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_smart_farm = {
@@ -684,6 +975,10 @@
 		category = production
 		unlocking_technologies = {
 			
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -694,14 +989,22 @@
 		unlocking_technologies = {
 			tech_industrial_ai
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
-	tech_high-resolution_display = {
+	tech_high_resolution_display = {
 		era = era_6
 		texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
 		category = production
 		unlocking_technologies = {
 			
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -711,5 +1014,9 @@
 		category = production
 		unlocking_technologies = {
 			
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}

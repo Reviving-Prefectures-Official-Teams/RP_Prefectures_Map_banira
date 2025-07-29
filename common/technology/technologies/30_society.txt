@@ -7,18 +7,30 @@
 		modifier = {
 			state_education_access_wealth_add = 0.01
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_shortwave_broadcasting = {
 		era = era_1
 		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
 		category = society
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_foods_industrialization = {
 		era = era_1
 		texture = "gfx/interface/icons/invention_icons/shift_work.dds"
 		category = society
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 ### ERA 2 = Tier1
@@ -30,6 +42,10 @@
 		unlocking_technologies = {
 			tech_foods_industrialization
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_domestic_travel = {
@@ -39,6 +55,10 @@
 
 		unlocking_technologies = {
 			tech_shopping_street
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -50,6 +70,10 @@
 		unlocking_technologies = {
 			tech_foods_industrialization
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_canned_drink = {
@@ -59,6 +83,10 @@
 
 		unlocking_technologies = {
 			tech_chocolate
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -70,6 +98,10 @@
 		unlocking_technologies = {
 			tech_chocolate
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_color_broadcasting = {
@@ -80,6 +112,10 @@
 		unlocking_technologies = {
 			tech_shortwave_broadcasting
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_color_printing = {
@@ -89,6 +125,10 @@
 
 		unlocking_technologies = {
 			tech_newspaper
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -102,6 +142,10 @@
 		}		
 		unlocking_technologies = {
 			tech_newspaper
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -117,6 +161,10 @@
 		unlocking_technologies = {
 			tech_newspaper
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_modern_postmodernism = {
@@ -126,6 +174,10 @@
 
 		unlocking_technologies = {
 			tech_social_education
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -138,6 +190,10 @@
 		unlocking_technologies = {
 			tech_shopping_street
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_package_tour = {
@@ -147,6 +203,10 @@
 
 		unlocking_technologies = {
 			tech_domestic_travel
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -158,6 +218,10 @@
 		unlocking_technologies = {
 			tech_chocolate
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_carbonated_beverage = {
@@ -167,6 +231,10 @@
 
 		unlocking_technologies = {
 			tech_canned_drink
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -179,6 +247,10 @@
 			tech_color_printing
 			tech_color_broadcasting
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 	
 	tech_MIDI_file = {
@@ -188,6 +260,10 @@
 
 		unlocking_technologies = {
 			tech_color_broadcasting
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -202,6 +278,10 @@
 		unlocking_technologies = {
 			tech_specialized_medical_care
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_affluent_school = {
@@ -215,6 +295,10 @@
 		unlocking_technologies = {
 			tech_social_education
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_conceptual_art = {
@@ -224,6 +308,10 @@
 
 		unlocking_technologies = {
 			tech_modern_postmodernism
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -235,6 +323,10 @@
 		unlocking_technologies = {
 			tech_modern_postmodernism
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_strategist = {
@@ -244,6 +336,10 @@
 
 		unlocking_technologies = {
 			tech_shopping_street
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -258,6 +354,10 @@
 			tech_self_service
 			tech_conceptual_art
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_sports_drink = {
@@ -269,6 +369,10 @@
 			tech_food_diversity
 			tech_carbonated_beverage
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_synthetic_voice_engine = {
@@ -278,6 +382,10 @@
 
 		unlocking_technologies = {
 			tech_MIDI_file
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -289,6 +397,10 @@
 		unlocking_technologies = {
 			tech_comprehensive_medical_care
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_universal_design = {
@@ -298,6 +410,10 @@
 
 		unlocking_technologies = {
 			tech_conceptual_art
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 	
@@ -309,6 +425,10 @@
 		unlocking_technologies = {
 			tech_standardization
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_internet = {
@@ -318,6 +438,10 @@
 
 		unlocking_technologies = {
 			tech_digital_tech
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -329,6 +453,10 @@
 		unlocking_technologies = {
 			tech_strategist
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_asbestos_regulation = {
@@ -337,6 +465,10 @@
 		category = society
 
 		unlocking_technologies = {
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -349,6 +481,10 @@
 		unlocking_technologies = {
 			tech_synthetic_voice_engine
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 	tech_holography = {
 		era = era_5
@@ -357,6 +493,10 @@
 
 		unlocking_technologies = {
 			tech_internet
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 	tech_secure_internet = {
@@ -368,6 +508,10 @@
 			tech_rounds
 			tech_internet
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 	tech_system_thinking = {
 		era = era_5
@@ -377,6 +521,10 @@
 		unlocking_technologies = {
 			tech_affluent_school
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 	tech_entrepreneurship_education = {
 		era = era_5
@@ -385,6 +533,10 @@
 
 		unlocking_technologies = {
 			tech_system_thinking
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 	tech_contemporary_art = {
@@ -396,6 +548,10 @@
 			tech_internet
 			tech_mixed_use_commercial_facility
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_eco_movement = {
@@ -406,6 +562,10 @@
 		unlocking_technologies = {
 			tech_universal_design
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 ### ERA 6 = Tier5
 
@@ -415,7 +575,11 @@
 		category = society
 
 		unlocking_technologies = {
-			
+			tech_contemporary_art
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
 
@@ -427,6 +591,10 @@
 		unlocking_technologies = {
 			tech_holography
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_sword_art_online = {
@@ -437,6 +605,10 @@
 		unlocking_technologies = {
 			tech_smart_glass
 		}
+
+		ai_weight = {
+			value = 1
+		}
 	}
 
 	tech_blockchain = {
@@ -445,6 +617,10 @@
 		category = society
 
 		unlocking_technologies = {
-			
+			tech_secure_internet
+		}
+
+		ai_weight = {
+			value = 1
 		}
 	}
