@@ -31,11 +31,11 @@ BUILDINGS={
             }
         }
     }
-    s:STATE_KYOTOH = {
-        region_state:YMN ={
+    # s:STATE_KYOTOH = {
+    #     region_state:YMN ={
 
-        }
-    }
+    #     }
+    # }
     s:STATE_KYONAN = {
         region_state:YMN ={
 

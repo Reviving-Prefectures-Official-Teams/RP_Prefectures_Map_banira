@@ -148,7 +148,8 @@ STATES = {
 			country = c:KCH
 			owned_provinces = { "x39E3DE" "x8BDBED" "xA0E27E" "xA6D6FE" "xB3C1A8" "xD1B396" "xE6CBE6" "xF3CDF9" }
 		}
-		add_homeland = cu:tosa
+		add_homeland = cu:kitagawa
+		add_homeland = cu:kochi
 	}
 
 	s:STATE_REIHOKU = {
@@ -156,7 +157,8 @@ STATES = {
 			country = c:KCH
 			owned_provinces = { "x52F8D8" "x8DD9C5" "xA0E775" "xAAACC4" "xACF494" "xB8B4F4" "xBFD0AF" "xBFE766" "xC5C88D" "xE4E3F0" "xE5D7A1" "xE9EF82" "xF28E7D" "xF8F90F" }
 		}
-		add_homeland = cu:tosa
+		add_homeland = cu:kitagawa
+		add_homeland = cu:kochi
 	}
 
 	s:STATE_NIYODO = {
@@ -164,7 +166,8 @@ STATES = {
 			country = c:KCH
 			owned_provinces = { "x18FCFE" "x7688F8" "x85F389" "x8C8DDF" "x95B6B2" "xAE7DD8" "xBACEE7" "xBCF1A7" "xCCC777" "xCECD62" "xCFB88C" "xD786D9" "xE4AE7E" "xE7F3B9" "xE8E634" "xECC7D2" "xF5E973" }
 		}
-		add_homeland = cu:tosa
+		add_homeland = cu:kitagawa
+		add_homeland = cu:kochi
 	}
 
 	s:STATE_HATA = {
