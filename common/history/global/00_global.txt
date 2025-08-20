@@ -1,4 +1,0 @@
-﻿# This is executed last among all history
-GLOBAL = {
-	
-}

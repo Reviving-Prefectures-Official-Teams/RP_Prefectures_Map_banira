@@ -7,22 +7,15 @@
 		
 		# Laws 
 		activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_universal_suffrage 
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_total_separation
-		activate_law = law_type:law_elected_bureaucrats
-		activate_law = law_type:law_professional_army
-		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_wealth_voting
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_land_based_taxation
-		activate_law = law_type:law_homesteading
-		activate_law = law_type:law_dedicated_police
-		activate_law = law_type:law_public_schools
-		activate_law = law_type:law_public_health_insurance
-		activate_law = law_type:law_protected_speech
-		activate_law = law_type:law_womens_suffrage
-		activate_law = law_type:law_old_age_pension
-		activate_law = law_type:law_no_migration_controls
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_professional_army
 
 		set_institution_investment_level = {
 			institution = institution_police
@@ -53,22 +46,15 @@
 		
 		# Laws 
 		activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_universal_suffrage 
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_total_separation
-		activate_law = law_type:law_elected_bureaucrats
-		activate_law = law_type:law_professional_army
-		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_wealth_voting
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_land_based_taxation
-		activate_law = law_type:law_homesteading
-		activate_law = law_type:law_dedicated_police
-		activate_law = law_type:law_public_schools
-		activate_law = law_type:law_public_health_insurance
-		activate_law = law_type:law_protected_speech
-		activate_law = law_type:law_womens_suffrage
-		activate_law = law_type:law_old_age_pension
-		activate_law = law_type:law_no_migration_controls
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_professional_army
 
 		set_institution_investment_level = {
 			institution = institution_police
@@ -99,22 +85,15 @@
 		
 		# Laws 
 		activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_universal_suffrage 
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_total_separation
-		activate_law = law_type:law_elected_bureaucrats
-		activate_law = law_type:law_professional_army
-		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_wealth_voting
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_land_based_taxation
-		activate_law = law_type:law_homesteading
-		activate_law = law_type:law_dedicated_police
-		activate_law = law_type:law_public_schools
-		activate_law = law_type:law_public_health_insurance
-		activate_law = law_type:law_protected_speech
-		activate_law = law_type:law_womens_suffrage
-		activate_law = law_type:law_old_age_pension
-		activate_law = law_type:law_no_migration_controls
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_professional_army
 
 		set_institution_investment_level = {
 			institution = institution_police
@@ -145,22 +124,15 @@
 		
 		# Laws 
 		activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_universal_suffrage 
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_total_separation
-		activate_law = law_type:law_elected_bureaucrats
-		activate_law = law_type:law_professional_army
-		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_wealth_voting
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_land_based_taxation
-		activate_law = law_type:law_homesteading
-		activate_law = law_type:law_dedicated_police
-		activate_law = law_type:law_public_schools
-		activate_law = law_type:law_public_health_insurance
-		activate_law = law_type:law_protected_speech
-		activate_law = law_type:law_womens_suffrage
-		activate_law = law_type:law_old_age_pension
-		activate_law = law_type:law_no_migration_controls
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_professional_army
 
 		set_institution_investment_level = {
 			institution = institution_police
@@ -191,22 +163,15 @@
 		
 		# Laws 
 		activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_universal_suffrage 
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_total_separation
-		activate_law = law_type:law_elected_bureaucrats
-		activate_law = law_type:law_professional_army
-		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_wealth_voting
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_land_based_taxation
-		activate_law = law_type:law_homesteading
-		activate_law = law_type:law_dedicated_police
-		activate_law = law_type:law_public_schools
-		activate_law = law_type:law_public_health_insurance
-		activate_law = law_type:law_protected_speech
-		activate_law = law_type:law_womens_suffrage
-		activate_law = law_type:law_old_age_pension
-		activate_law = law_type:law_no_migration_controls
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_professional_army
 
 		set_institution_investment_level = {
 			institution = institution_police
